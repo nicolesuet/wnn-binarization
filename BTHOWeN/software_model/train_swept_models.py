@@ -9,11 +9,18 @@ import torchvision.datasets as dsets
 import torchvision.transforms as transforms
 from multiprocessing import Pool, cpu_count
 from scipy.stats import norm
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from torchhd import embeddings
+import torch
 
 # For saving models
 import pickle
 import lzma
 import os
+
+from thermometer import DistributiveThermometer, GaussianThermometer
 
 from wisard import WiSARD
 
@@ -84,7 +91,7 @@ def parameterized_run(train_inputs, train_labels, val_inputs, val_labels, test_i
 # Use a thermometer encoding with a configurable number of bits per input
 # A thermometer encoding is a binary encoding in which subsequent bits are set as the value increases
 #  e.g. 0000 => 0001 => 0011 => 0111 => 1111
-def binarize_datasets(train_dataset, test_dataset, bits_per_input, separate_validation_dset=None, train_val_split_ratio=0.9):
+def binarize_datasets(train_dataset, test_dataset, bits_per_input, separate_validation_dset=None, train_val_split_ratio=0.9, use_gaussian_encoding=True):
     # Given a Gaussian with mean=0 and std=1, choose values which divide the distribution into regions of equal probability
     # This will be used to determine thresholds for the thermometer encoding
     std_skews = [norm.ppf((i+1)/(bits_per_input+1))
@@ -99,7 +106,7 @@ def binarize_datasets(train_dataset, test_dataset, bits_per_input, separate_vali
         train_labels.append(d[1])
     train_inputs = np.array(train_inputs)
     train_labels = np.array(train_labels)
-    use_gaussian_encoding = True
+    # use_gaussian_encoding = True
     if use_gaussian_encoding:
         mean_inputs = train_inputs.mean(axis=0)
         std_inputs = train_inputs.std(axis=0)
@@ -114,6 +121,8 @@ def binarize_datasets(train_dataset, test_dataset, bits_per_input, separate_vali
         for i in range(bits_per_input):
             train_binarizations.append(
                 (train_inputs > min_inputs+(((i+1)/(bits_per_input+1))*(max_inputs-min_inputs))).astype(c.c_ubyte))
+            
+    # print(train_binarizations)
 
     # Creates thermometer encoding
     train_inputs = np.concatenate(train_binarizations, axis=1)
@@ -147,6 +156,7 @@ def binarize_datasets(train_dataset, test_dataset, bits_per_input, separate_vali
     test_inputs = np.array(test_inputs)
     test_labels = np.array(test_labels)
     test_binarizations = []
+    
     if use_gaussian_encoding:
         for i in std_skews:
             test_binarizations.append(
@@ -166,7 +176,7 @@ def get_datasets(dset_name):
         train_dataset = dsets.MNIST(
             root='./data',
             train=True,
-            transform=transforms.ToTensor(),
+            transform=transforms.ToTensor(),    
             download=True)
         new_train_dataset = []
         for d in train_dataset:
@@ -184,13 +194,15 @@ def get_datasets(dset_name):
         train_dataset, test_dataset = tabular_tools.get_dataset(dset_name)
     return train_dataset, test_dataset
 
-def create_models(dset_name, unit_inputs, unit_entries, unit_hashes, bits_per_input, num_workers, save_prefix="model"):
+def create_models(dset_name, unit_inputs, unit_entries, unit_hashes, bits_per_input, num_workers, save_prefix="model", use_gaussian_encoding=True):
+    
     train_dataset, test_dataset = get_datasets(dset_name)
 
-    datasets = binarize_datasets(train_dataset, test_dataset, bits_per_input)
+    datasets = binarize_datasets(train_dataset, test_dataset, bits_per_input, None, 0.9, use_gaussian_encoding)
+        
     prod = list(itertools.product(unit_inputs, unit_entries, unit_hashes))
     configurations = [datasets + c for c in prod]
-
+        
     if num_workers == -1:
         num_workers = cpu_count()
     print(f"Launching jobs for {len(configurations)} configurations across {num_workers} workers")
@@ -229,7 +241,7 @@ def save_model(model, num_inputs, fname):
         "info": model_info,
         "model": model
     }
-
+    
     with lzma.open(fname, "wb") as f:
         pickle.dump(state_dict, f)
 
@@ -249,12 +261,90 @@ def read_arguments():
     args = parser.parse_args()
     return args
 
+
+def create_models_scatter(dset_name, unit_inputs, unit_entries, unit_hashes, bits_per_input, num_workers, save_prefix="model"):
+    
+    train_dataset, test_dataset = get_datasets(dset_name)
+
+    datasets = binarize_datasets_scatter(train_dataset, test_dataset, bits_per_input)
+    
+    prod = list(itertools.product(unit_inputs, unit_entries, unit_hashes))
+    configurations = [datasets + c for c in prod]
+    
+    if num_workers == -1:
+        num_workers = cpu_count()
+    
+    print(f"Launching jobs for {len(configurations)} configurations across {num_workers} workers")
+    with Pool(num_workers) as p:
+        results = p.starmap(parameterized_run, configurations)
+    for entries in unit_entries:
+        print(
+            f"Best with {entries} entries: {max([results[i][1] for i in range(len(results)) if configurations[i][7] == entries])}")
+    # configs_plus_results = [[configurations[i][6:9]] +
+    #                         list(results[i]) for i in range(len(results))]
+    # configs_plus_results.sort(reverse=True, key=lambda x: x[2])
+    # for i in configs_plus_results:
+    #     print(f"{i[0]}: {i[2]} ({i[2] / len(datasets[4])})")
+
+    # # Ensure folder for dataset exists
+    # os.makedirs(os.path.dirname(f"./models/{dset_name}/{save_prefix}"), exist_ok=True)
+
+    # for idx, result in enumerate(results):
+    #     model = result[0]
+    #     model_inputs, model_entries, model_hashes = configurations[idx][6:9]
+    #     save_model(model, (datasets[0][0].size // bits_per_input),
+    #         f"./models/{dset_name}/{save_prefix}_{model_inputs}input_{model_entries}entry_{model_hashes}hash_{bits_per_input}bpi.pickle.lzma")
+
+def binarize_datasets_scatter(train_dataset, test_dataset, bits_per_input):
+
+    train_inputs = []
+    train_labels = []
+    
+    for d in train_dataset:
+        train_inputs.append(d[0])
+        train_labels.append(d[1])
+    
+    train_inputs = np.array(train_inputs)
+    train_labels = np.array(train_labels)
+        
+    test_inputs = []
+    test_labels = []
+
+    for d in test_dataset:
+        test_inputs.append(d[0])
+        test_labels.append(d[1])
+    
+    test_inputs = np.array(test_inputs)
+    test_labels = np.array(test_labels)
+
+    global_array = np.concatenate((train_inputs.flatten(), test_inputs.flatten()))
+
+    min_global = np.min(global_array)
+    max_global = np.max(global_array)
+
+    emb = embeddings.Level(1, bits_per_input, "BSC", low=min_global, high=max_global, dtype=torch.uint8)
+    
+    train_inputs = emb(torch.tensor(train_inputs)).flatten(start_dim=1)
+    # train_labels = emb(torch.tensor(train_labels)).flatten(start_dim=1)
+    # X_bin = emb(torch.tensor(global_array)).flatten(start_dim=1)
+
+    return np.array(train_inputs), np.array(train_labels), np.array(train_inputs), np.array(train_labels), test_inputs, test_labels
+
 def main():
     args = read_arguments()
 
     for bpi in args.bits_per_input:
         print(f"Do runs with {bpi} bit(s) per input")
-        create_models(
+        print(f"\nEncoding with Gaussian")
+        # create_models(
+        #     args.dset_name, args.filter_inputs, args.filter_entries, args.filter_hashes,
+        #     bpi, args.num_workers, args.save_prefix, True)
+        print(f"\nEncoding with Distributive")
+        # create_models(
+        #     args.dset_name, args.filter_inputs, args.filter_entries, args.filter_hashes,
+        #     bpi, args.num_workers, args.save_prefix, False)
+        print("\nEncoding with Scatter")
+        create_models_scatter(
             args.dset_name, args.filter_inputs, args.filter_entries, args.filter_hashes,
             bpi, args.num_workers, args.save_prefix)
 
