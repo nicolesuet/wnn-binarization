@@ -17,7 +17,7 @@
             "request": "launch",
             "program": "${workspaceFolder}/BTHOWeN/software_model/train_swept_models.py",
             "args": [
-                "iris",
+                "MNIST",
                 "--filter_inputs",
                 "28",
                 "--filter_entries",

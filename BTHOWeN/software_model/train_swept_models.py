@@ -51,8 +51,8 @@ def parameterized_run(train_inputs, train_labels, val_inputs, val_labels, test_i
     print("Training model")
     for d in range(len(train_inputs)):
         model.train(train_inputs[d], train_labels[d])
-        if ((d+1) % 10000) == 0:
-            print(d+1)
+        # if ((d+1) % 10000) == 0:
+            # print(d+1)
 
     max_val = 0
     for d in model.discriminators:
@@ -325,10 +325,10 @@ def binarize_datasets_scatter(train_dataset, test_dataset, bits_per_input):
     emb = embeddings.Level(1, bits_per_input, "BSC", low=min_global, high=max_global, dtype=torch.uint8)
     
     train_inputs = emb(torch.tensor(train_inputs)).flatten(start_dim=1)
-    # train_labels = emb(torch.tensor(train_labels)).flatten(start_dim=1)
+    test_inputs = emb(torch.tensor(test_inputs)).flatten(start_dim=1)
     # X_bin = emb(torch.tensor(global_array)).flatten(start_dim=1)
 
-    return np.array(train_inputs), np.array(train_labels), np.array(train_inputs), np.array(train_labels), test_inputs, test_labels
+    return np.array(train_inputs), np.array(train_labels), np.array(train_inputs), np.array(train_labels), np.array(test_inputs), np.array(test_labels)
 
 def main():
     args = read_arguments()
@@ -336,13 +336,13 @@ def main():
     for bpi in args.bits_per_input:
         print(f"Do runs with {bpi} bit(s) per input")
         print(f"\nEncoding with Gaussian")
-        # create_models(
-        #     args.dset_name, args.filter_inputs, args.filter_entries, args.filter_hashes,
-        #     bpi, args.num_workers, args.save_prefix, True)
+        create_models(
+            args.dset_name, args.filter_inputs, args.filter_entries, args.filter_hashes,
+            bpi, args.num_workers, args.save_prefix, True)
         print(f"\nEncoding with Distributive")
-        # create_models(
-        #     args.dset_name, args.filter_inputs, args.filter_entries, args.filter_hashes,
-        #     bpi, args.num_workers, args.save_prefix, False)
+        create_models(
+            args.dset_name, args.filter_inputs, args.filter_entries, args.filter_hashes,
+            bpi, args.num_workers, args.save_prefix, False)
         print("\nEncoding with Scatter")
         create_models_scatter(
             args.dset_name, args.filter_inputs, args.filter_entries, args.filter_hashes,
