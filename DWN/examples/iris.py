@@ -25,11 +25,11 @@ print(f"Min global: {min_global}")
 print(f"Max global: {max_global}")
 
 # transformar label em int
-encoder = LabelEncoder()
+label_encoder = LabelEncoder()
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33, random_state=42)
-y_train = encoder.fit_transform(y_train.values.ravel())
-y_test = encoder.fit_transform(y_test.values.ravel())
+y_train = label_encoder.fit_transform(y_train.values.ravel())
+y_test = label_encoder.fit_transform(y_test.values.ravel())
 y_test_tensor = torch.tensor(y_test, dtype=torch.long)
 y_train_tensor = torch.tensor(y_train, dtype=torch.long)
 
@@ -52,7 +52,7 @@ def evaluate(model, x_test, y_test):
     return acc
 
 
-def train_and_evaluate(x_train, y_train, x_test, y_test, epochs, batch_size, encoder):
+def train_and_evaluate(x_train, y_train, x_test, y_test, epochs, batch_size):
     
     model = nn.Sequential(
         dwn.LUTLayer(x_train.size(1), 2000, n=6, mapping='learnable'),
@@ -98,10 +98,13 @@ def train_and_evaluate(x_train, y_train, x_test, y_test, epochs, batch_size, enc
 
 for elem in encoders:
     
+    encoder =  elem['encoder']
+    
     x_train = encoder.binarize(torch.tensor(X_train.values)).flatten(start_dim=1)
     x_test = encoder.binarize(torch.tensor(X_test.values)).flatten(start_dim=1)
 
     print(f"\nEncoding: {elem['encoding']}\n")
+    
     train_and_evaluate(x_train, y_train_tensor, x_test, y_test_tensor, 10, 32, elem['encoder'])
 
 print(f"\nEncoding: SCATTER\n")
