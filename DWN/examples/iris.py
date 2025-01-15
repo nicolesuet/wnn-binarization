@@ -44,16 +44,6 @@ ADDRESS_SIZE = 10
 IGNORE_ZERO = False
 VERBOSE = False
 
-model = nn.Sequential(
-    dwn.LUTLayer(X_train.size(1), 2000, n=6, mapping='learnable'),
-    dwn.LUTLayer(2000, 1000, n=6),
-    dwn.GroupSum(k=10, tau=1/0.3)
-)
-
-model = model.cuda()
-optimizer = torch.optim.Adam(model.parameters(), lr=1e-2)
-scheduler = torch.optim.lr_scheduler.StepLR(optimizer, gamma=0.1, step_size=14)
-
 def evaluate(model, x_test, y_test):
     model.eval()
     with torch.no_grad():
@@ -62,10 +52,17 @@ def evaluate(model, x_test, y_test):
     return acc
 
 
-def train_and_evaluate(model, optimizer, scheduler, x_train, y_train, x_test, y_test, epochs, batch_size, encoder):
+def train_and_evaluate(x_train, y_train, x_test, y_test, epochs, batch_size, encoder):
     
-    x_train = encoder.binarize(torch.tensor(X_train.values)).flatten(start_dim=1)
-    x_test = encoder.binarize(torch.tensor(X_test.values)).flatten(start_dim=1)
+    model = nn.Sequential(
+        dwn.LUTLayer(x_train.size(1), 2000, n=6, mapping='learnable'),
+        dwn.LUTLayer(2000, 1000, n=6),
+        dwn.GroupSum(k=10, tau=1/0.3)
+    )
+
+    model = model.cuda()
+    optimizer = torch.optim.Adam(model.parameters(), lr=1e-2)
+    scheduler = torch.optim.lr_scheduler.StepLR(optimizer, gamma=0.1, step_size=14)
 
     n_samples = x_train.shape[0]
 
@@ -100,8 +97,12 @@ def train_and_evaluate(model, optimizer, scheduler, x_train, y_train, x_test, y_
 
 
 for elem in encoders:
+    
+    x_train = encoder.binarize(torch.tensor(X_train.values)).flatten(start_dim=1)
+    x_test = encoder.binarize(torch.tensor(X_test.values)).flatten(start_dim=1)
+
     print(f"\nEncoding: {elem['encoding']}\n")
-    train_and_evaluate(model, optimizer, scheduler, X_train, y_train_tensor, X_test, y_test_tensor, 10, 32, elem['encoder'])
+    train_and_evaluate(x_train, y_train_tensor, x_test, y_test_tensor, 10, 32, elem['encoder'])
 
 print(f"\nEncoding: SCATTER\n")
 
@@ -109,6 +110,5 @@ emb = embeddings.Level(10, 20, "BSC", low=min_global, high=max_global, dtype=tor
 
 x_train = emb(torch.tensor(X_train.values)).flatten(start_dim=1).float()
 x_test = emb(torch.tensor(X_test.values)).flatten(start_dim=1).float()
-X_bin = emb(torch.tensor(X.values)).flatten(start_dim=1).float()
 
-train_and_evaluate(model, optimizer, scheduler, x_train, y_train_tensor, x_test, y_test_tensor, 10, 32, emb)
+train_and_evaluate(x_train, y_train_tensor, x_test, y_test_tensor, 10, 32, emb)
