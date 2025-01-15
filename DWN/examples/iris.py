@@ -1,10 +1,8 @@
 import torch
 from torch import nn
+import os
 from torch.nn.functional import cross_entropy
-from torchvision import datasets, transforms
-from torch.utils.data import DataLoader
 import torch_dwn as dwn
-from sklearn.metrics import confusion_matrix, precision_score, recall_score, accuracy_score
 from sklearn.model_selection import train_test_split
 from ucimlrepo import fetch_ucirepo
 import numpy as np
