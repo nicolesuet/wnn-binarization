@@ -69,11 +69,10 @@ def main(epochs, batch_size):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     csv_file = 'DWN/examples/darwin_metrics.csv'
-
-    darwin = fetch_ucirepo(id=732)
-    X = darwin.data.features
-    y = darwin.data.targets
-    X = X.drop('ID', axis=1)
+    
+    game_results = fetch_ucirepo(id=367)
+    X = game_results.data.features
+    y = game_results.data.targets
 
     min_global = np.array(X.values).flatten().min()
     max_global = np.array(X.values).flatten().max()
