@@ -58,12 +58,12 @@ def train_and_evaluate(x_train, y_train, x_test, y_test, epochs, batch_size, dev
             correct_train += (pred_train == batch_y).sum().item()
             total_train += batch_y.size(0)
 
-    train_acc = correct_train / total_train
-    scheduler.step()
-    test_acc = evaluate(model, x_test, y_test)
-    accuracies.append(f"{test_acc:.4f}")
-    
-    print(f'Epoch {epoch + 1}/{epochs}, Train Loss: {loss.item():.4f}, Train Accuracy: {train_acc:.4f}, Test Accuracy: {test_acc:.4f}')
+            train_acc = correct_train / total_train
+            scheduler.step()
+            test_acc = evaluate(model, x_test, y_test)
+            accuracies.append(f"{test_acc:.4f}")
+            
+            print(f'Epoch {epoch + 1}/{epochs}, Train Loss: {loss.item():.4f}, Train Accuracy: {train_acc:.4f}, Test Accuracy: {test_acc:.4f}')
       
     return accuracies
 
