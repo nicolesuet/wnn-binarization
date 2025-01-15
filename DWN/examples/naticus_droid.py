@@ -68,12 +68,12 @@ def train_and_evaluate(x_train, y_train, x_test, y_test, epochs, batch_size, dev
 def main(epochs, batch_size):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    isolet = fetch_ucirepo(id=54)
-    X = isolet.data.features
-    y = isolet.data.targets
-
-    csv_file = 'DWN/examples/isolet_metrics.csv'
-
+    csv_file = 'DWN/examples/naticus_metrics.csv'
+    
+    naticus = fetch_ucirepo(id=722)
+    X = naticus.data.features
+    y = naticus.data.targets
+    
     min_global = np.array(X.values).flatten().min()
     max_global = np.array(X.values).flatten().max()
 
@@ -100,8 +100,8 @@ def main(epochs, batch_size):
         
         encoder =  elem['encoder']
         
-        x_train = encoder.binarize(torch.tensor(X_train.values, dtype=torch.float32)).flatten(start_dim=1)
-        x_test = encoder.binarize(torch.tensor(X_test.values, dtype=torch.float32)).flatten(start_dim=1)
+        x_train = encoder.binarize(torch.tensor(X_train.values)).flatten(start_dim=1)
+        x_test = encoder.binarize(torch.tensor(X_test.values)).flatten(start_dim=1)
 
         print(f"\nEncoding: {elem['encoding']}\n")
         
