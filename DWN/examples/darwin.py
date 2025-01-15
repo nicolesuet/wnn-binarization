@@ -73,6 +73,7 @@ def main(epochs, batch_size):
     darwin = fetch_ucirepo(id=732)
     X = darwin.data.features
     y = darwin.data.targets
+    X = X.drop('ID', axis=1)
 
     min_global = np.array(X.values).flatten().min()
     max_global = np.array(X.values).flatten().max()
