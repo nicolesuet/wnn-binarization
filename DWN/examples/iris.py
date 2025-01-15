@@ -129,7 +129,7 @@ def main(epochs, batch_size):
     for accuracy_score in accuracies:            
         new_row = pd.DataFrame({
             'time': [datetime.now().strftime("%Y-%m-%d %H:%M:%S")],
-            'encoding': [elem['encoding']],
+            'encoding': ["SCATTER"],
             'accuracy': [accuracy_score],
         })
     
