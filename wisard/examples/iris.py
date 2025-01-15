@@ -1,7 +1,5 @@
 import sys
 import os
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
 import numpy as np
 import torch
 from sklearn.metrics import confusion_matrix, precision_score, recall_score, accuracy_score
@@ -9,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from ucimlrepo import fetch_ucirepo
 import wisardpkg as wp
 from torchhd import embeddings
-from thermometer import DistributiveThermometer, GaussianThermometer
+from torchwnn.encoding import DistributiveThermometer, GaussianThermometer
 from datetime import datetime
 import pandas as pd
 
@@ -78,7 +76,7 @@ for elem in encoders:
 
     evaluate_model(x_train, x_test, X_bin, y_train, y, elem['encoding'])
 
-print("\nEncoding: Scatter\n")
+print("\nEncoding: SCATTER\n")
 
 emb = embeddings.Level(10, 20, "BSC", low=min_global, high=max_global, dtype=torch.uint8)
 
