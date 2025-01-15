@@ -68,12 +68,12 @@ def train_and_evaluate(x_train, y_train, x_test, y_test, epochs, batch_size, dev
 def main(epochs, batch_size):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    csv_file = 'DWN/examples/game_results_metrics.csv'
+    csv_file = 'DWN/examples/handwritten_digits_metrics.csv'
     
-    game_results = fetch_ucirepo(id=367)
-    X = game_results.data.features
-    y = game_results.data.targets
-
+    handwritten_digits = fetch_ucirepo(id=80)
+    X = handwritten_digits.data.features
+    y = handwritten_digits.data.targets
+    
     min_global = np.array(X.values).flatten().min()
     max_global = np.array(X.values).flatten().max()
 
