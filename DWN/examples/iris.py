@@ -105,7 +105,7 @@ for elem in encoders:
 
     print(f"\nEncoding: {elem['encoding']}\n")
     
-    train_and_evaluate(x_train, y_train_tensor, x_test, y_test_tensor, 10, 32, elem['encoder'])
+    train_and_evaluate(x_train, y_train_tensor, x_test, y_test_tensor, 10, 32)
 
 print(f"\nEncoding: SCATTER\n")
 
@@ -114,4 +114,4 @@ emb = embeddings.Level(10, 20, "BSC", low=min_global, high=max_global, dtype=tor
 x_train = emb(torch.tensor(X_train.values)).flatten(start_dim=1).float()
 x_test = emb(torch.tensor(X_test.values)).flatten(start_dim=1).float()
 
-train_and_evaluate(x_train, y_train_tensor, x_test, y_test_tensor, 10, 32, emb)
+train_and_evaluate(x_train, y_train_tensor, x_test, y_test_tensor, 10, 32)
