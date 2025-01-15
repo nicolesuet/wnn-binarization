@@ -36,8 +36,6 @@ def train_and_evaluate(x_train, y_train, x_test, y_test, epochs, batch_size, dev
     accuracies = []
 
     for epoch in range(epochs):
-        print(f"Epoch: {epoch}")
-
         model.train()
 
         permutation = torch.randperm(n_samples)
