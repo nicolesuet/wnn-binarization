@@ -100,8 +100,8 @@ def main(epochs, batch_size):
         
         encoder =  elem['encoder']
         
-        x_train = encoder.binarize(torch.tensor(X_train.values)).flatten(start_dim=1)
-        x_test = encoder.binarize(torch.tensor(X_test.values)).flatten(start_dim=1)
+        x_train = encoder.binarize(torch.tensor(X_train.values, dtype=torch.float32)).flatten(start_dim=1)
+        x_test = encoder.binarize(torch.tensor(X_test.values, dtype=torch.float32)).flatten(start_dim=1)
 
         print(f"\nEncoding: {elem['encoding']}\n")
         
