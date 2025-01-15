@@ -89,7 +89,7 @@ def main(epochs, batch_size):
     y_test_tensor = torch.tensor(y_test, dtype=torch.long)
     y_train_tensor = torch.tensor(y_train, dtype=torch.long)
 
-    torch_tensor = torch.tensor(X.values)
+    torch_tensor = torch.tensor(X.values, dtype=torch.float32)
 
     encoders = [
         {"encoding": "DISTRIBUTIVE", "encoder": dwn.DistributiveThermometer(10).fit(torch_tensor)},
