@@ -4,6 +4,7 @@ pybind11
 pyparsing
 requests
 scikit-learn
+sklearn
 tensorboard
 tensorboard-data-server
 tensorflow
@@ -17,4 +18,4 @@ torchvision
 torchwnn
 ucimlrepo
 urllib3
-wisardpkg
+wisardpkg==1.6.3
