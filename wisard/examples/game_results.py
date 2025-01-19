@@ -1,6 +1,5 @@
 import sys
 import os
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import pandas as pd
 import numpy as np
 import torch
@@ -9,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from ucimlrepo import fetch_ucirepo
 import wisardpkg as wp
 from torchhd import embeddings
-from thermometer import DistributiveThermometer, GaussianThermometer
+from torchwnn.encoding import DistributiveThermometer, GaussianThermometer
 from datetime import datetime
 
 game_results = fetch_ucirepo(id=367)
