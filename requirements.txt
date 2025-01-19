@@ -4,7 +4,6 @@ pybind11
 pyparsing
 requests
 scikit-learn
-sklearn
 tensorboard
 tensorboard-data-server
 tensorflow
