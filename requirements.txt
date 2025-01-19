@@ -4,7 +4,6 @@ pybind11
 pyparsing
 requests
 scikit-learn
-sklearn==0.0
 tensorboard
 tensorboard-data-server
 tensorflow
