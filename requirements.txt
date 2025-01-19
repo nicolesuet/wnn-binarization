@@ -10,7 +10,7 @@ tensorboard-data-server==0.7.2
 tensorflow==2.18.0
 tensorflow-io-gcs-filesystem==0.37.1
 torch==2.5.1
-torch-dwn @ file:///Users/nicolesuet/tcc/material/DWN
+torch-dwn==1.0.9
 torch-hd==5.7.1
 torchaudio==2.5.1
 torchmetrics==1.6.1
