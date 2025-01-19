@@ -68,11 +68,11 @@ def train_and_evaluate(x_train, y_train, x_test, y_test, epochs, batch_size, dev
 def main(epochs, batch_size):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    csv_file = 'DWN/examples/iris_metrics.csv'
-
-    iris = fetch_ucirepo(id=53)
-    X = iris.data.features
-    y = iris.data.targets
+    csv_file = 'DWN/examples/game_results_metrics.csv'
+    
+    game_results = fetch_ucirepo(id=367)
+    X = game_results.data.features
+    y = game_results.data.targets
 
     min_global = np.array(X.values).flatten().min()
     max_global = np.array(X.values).flatten().max()
@@ -89,7 +89,7 @@ def main(epochs, batch_size):
     y_test_tensor = torch.tensor(y_test, dtype=torch.long)
     y_train_tensor = torch.tensor(y_train, dtype=torch.long)
 
-    torch_tensor = torch.tensor(X.values)
+    torch_tensor = torch.tensor(X.values, dtype=torch.float32)
 
     encoders = [
         {"encoding": "DISTRIBUTIVE", "encoder": dwn.DistributiveThermometer(10).fit(torch_tensor)},
@@ -137,7 +137,7 @@ def main(epochs, batch_size):
 
 if __name__ == "__main__":
     
-    parser = argparse.ArgumentParser(description='Train and evaluate model on Iris dataset')
+    parser = argparse.ArgumentParser(description='Train and evaluate model on dataset')
     parser.add_argument('--epochs', type=int, default=10, help='Number of epochs to train the model')
     parser.add_argument('--batch_size', type=int, default=32, help='Batch size')
     

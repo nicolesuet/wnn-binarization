@@ -68,11 +68,11 @@ def train_and_evaluate(x_train, y_train, x_test, y_test, epochs, batch_size, dev
 def main(epochs, batch_size):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    csv_file = 'DWN/examples/iris_metrics.csv'
+    isolet = fetch_ucirepo(id=54)
+    X = isolet.data.features
+    y = isolet.data.targets
 
-    iris = fetch_ucirepo(id=53)
-    X = iris.data.features
-    y = iris.data.targets
+    csv_file = 'DWN/examples/isolet_metrics.csv'
 
     min_global = np.array(X.values).flatten().min()
     max_global = np.array(X.values).flatten().max()
@@ -89,7 +89,7 @@ def main(epochs, batch_size):
     y_test_tensor = torch.tensor(y_test, dtype=torch.long)
     y_train_tensor = torch.tensor(y_train, dtype=torch.long)
 
-    torch_tensor = torch.tensor(X.values)
+    torch_tensor = torch.tensor(X.values, dtype=torch.float32)
 
     encoders = [
         {"encoding": "DISTRIBUTIVE", "encoder": dwn.DistributiveThermometer(10).fit(torch_tensor)},
@@ -100,8 +100,8 @@ def main(epochs, batch_size):
         
         encoder =  elem['encoder']
         
-        x_train = encoder.binarize(torch.tensor(X_train.values)).flatten(start_dim=1)
-        x_test = encoder.binarize(torch.tensor(X_test.values)).flatten(start_dim=1)
+        x_train = encoder.binarize(torch.tensor(X_train.values, dtype=torch.float32)).flatten(start_dim=1)
+        x_test = encoder.binarize(torch.tensor(X_test.values, dtype=torch.float32)).flatten(start_dim=1)
 
         print(f"\nEncoding: {elem['encoding']}\n")
         
@@ -137,7 +137,7 @@ def main(epochs, batch_size):
 
 if __name__ == "__main__":
     
-    parser = argparse.ArgumentParser(description='Train and evaluate model on Iris dataset')
+    parser = argparse.ArgumentParser(description='Train and evaluate model on dataset')
     parser.add_argument('--epochs', type=int, default=10, help='Number of epochs to train the model')
     parser.add_argument('--batch_size', type=int, default=32, help='Batch size')
     
