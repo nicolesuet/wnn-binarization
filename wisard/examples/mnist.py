@@ -8,10 +8,7 @@ import numpy as np
 import sys
 import os
 from torchhd import embeddings
-
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
-from thermometer import DistributiveThermometer, GaussianThermometer
+from torchwnn.encoding import DistributiveThermometer, GaussianThermometer
 
 datasets = [
     {
