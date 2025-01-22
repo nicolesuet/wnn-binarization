@@ -6,16 +6,17 @@ from sklearn.metrics import confusion_matrix, precision_score, recall_score, acc
 from sklearn.model_selection import train_test_split
 from ucimlrepo import fetch_ucirepo
 import wisardpkg as wp
-from torchhd import embeddings
-from torchwnn.encoding import DistributiveThermometer, GaussianThermometer
+# from torchhd import embeddings
+from torchwnn.encoding import DistributiveThermometer, GaussianThermometer, Thermometer
 from datetime import datetime
 import pandas as pd
+from embeddings import ScatterCode
 
 iris = fetch_ucirepo(id=53)
 X = iris.data.features
 y = iris.data.targets
 
-csv_file = 'wisard/examples/iris_metrics.csv'
+csv_file = os.path.join(os.path.dirname(__file__), 'metrics/iris_metrics.csv')
 
 min_global = np.array(X.values).flatten().min()
 max_global = np.array(X.values).flatten().max()
@@ -29,6 +30,7 @@ torch_tensor = torch.tensor(X.values)
 encoders = [
     {"encoding": "DISTRIBUTIVE", "encoder": DistributiveThermometer(10).fit(torch_tensor)},
     {"encoding": "GAUSSIAN", "encoder": GaussianThermometer(10).fit(torch_tensor)},
+    {"encoding": "LINEAR", "encoder": Thermometer(10).fit(torch_tensor)},
 ]
 
 ADDRESS_SIZE = 10
@@ -78,7 +80,7 @@ for elem in encoders:
 
 print("\nEncoding: SCATTER\n")
 
-emb = embeddings.Level(10, 20, "BSC", low=min_global, high=max_global, dtype=torch.uint8)
+emb = ScatterCode(10, 20, low=min_global, high=max_global)
 
 x_train = emb(torch.tensor(X_train.values)).flatten(start_dim=1)
 x_test = emb(torch.tensor(X_test.values)).flatten(start_dim=1)
