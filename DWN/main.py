@@ -39,15 +39,15 @@ BATCH_SIZE = 32
 datasets_ids = [
     # 222,  # Bank Marketing ! error calculating min and max
     39,  # Ecoli
-    53,  # Iris
-    186,  # Wine Quality
-    264,  # EEG Eye State
-    159,  # MAGIC Gamma Telescope
-    # 2,  # Adult ! error calculating min and max
-    149,  # Statlog (Vehicle Silhouettes)
-    863,  # Maternal Health Risk
-    42,  # Glass Identification
-    "mnist",  # MNIST
+    # 53,  # Iris
+    # 186,  # Wine Quality
+    # 264,  # EEG Eye State
+    # 159,  # MAGIC Gamma Telescope
+    # # 2,  # Adult ! error calculating min and max
+    # 149,  # Statlog (Vehicle Silhouettes)
+    # 863,  # Maternal Health Risk
+    # 42,  # Glass Identification
+    # "mnist",  # MNIST
 ]
 
 encoder_definitions = [
@@ -139,7 +139,7 @@ def evaluate(model, x_test, y_test, device="cuda"):
     return acc
 
 
-def evaluate_model(x_train, y_train, X_test, encoder, start_time):
+def evaluate_model(x_train, y_train, X_test, y_test, encoder, start_time):
 
     if not start_time:
         start_time = time.time()
@@ -259,6 +259,8 @@ for id in datasets_ids:
         X_train_bin = binarize(encoder, X_train.values)
         X_test_bin = binarize(encoder, X_test.values)
 
-        evaluate_model(X_train_bin, y_train, X_test_bin, encoder, start_time)
+        evaluate_model(
+            X_train_bin, y_train_tensor, X_test_bin, y_test_tensor, encoder, start_time
+        )
 
     logging.info(f"Finished processing dataset: {name} with ID: {id}")
