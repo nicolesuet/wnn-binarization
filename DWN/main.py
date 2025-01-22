@@ -227,18 +227,17 @@ for id in datasets_ids:
 
     label_encoder = LabelEncoder()
 
-    if isinstance(y_train, torch.Tensor) and y_train.is_cuda:  # Check if the tensor is on the GPU
-        y_train = label_encoder.fit_transform(y_train.cpu().numpy())
-    else:  # Tensor is already on the CPU
-        y_train = label_encoder.fit_transform(y_train.numpy())
+    # Convert y_train and y_test to NumPy arrays if necessary
+    y_train = y_train.cpu().numpy() if isinstance(y_train, torch.Tensor) else np.asarray(y_train)
+    y_test = y_test.cpu().numpy() if isinstance(y_test, torch.Tensor) else np.asarray(y_test)
 
-    if isinstance(y_test, torch.Tensor) and y_test.is_cuda:  # Check if the tensor is on the GPU
-        y_test = label_encoder.fit_transform(y_test.cpu().numpy())
-    else:  # Tensor is already on the CPU
-        y_test = label_encoder.fit_transform(y_test.numpy())
-    
-    y_test_tensor = torch.tensor(y_test, dtype=torch.long)
-    y_train_tensor = torch.tensor(y_train, dtype=torch.long)
+    # Apply LabelEncoder
+    y_train = label_encoder.fit_transform(y_train)
+    y_test = label_encoder.fit_transform(y_test)
+
+    # Convert back to tensors
+    y_train_tensor = torch.as_tensor(y_train, dtype=torch.long)
+    y_test_tensor = torch.as_tensor(y_test, dtype=torch.long)
 
     csv_name = name.lower().replace(" ", "_")
     csv_file = os.path.join(
