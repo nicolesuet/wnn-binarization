@@ -183,7 +183,7 @@ def evaluate_model(x_train, y_train, X_test, y_test, encoder, start_time):
 
         train_acc = correct_train / total_train
         scheduler.step()
-        test_acc = evaluate(model, X_test, y_test)
+        test_acc = evaluate(model, X_test.float(), y_test.float())
         accuracy = f"{test_acc:.4f}"
         accuracies.append(f"{test_acc:.4f}")
 
