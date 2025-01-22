@@ -192,9 +192,9 @@ def evaluate_model(x_train, y_train, X_test, y_test, encoder, start_time):
             {
                 "model": ["Wisard"],
                 "time": [datetime.now().strftime("%Y-%m-%d %H:%M:%S")],
+                "delta_time": [f"{elapsed_time:.4f}"],
                 "encoding": [encoder["encoding"]],
                 "accuracy": [accuracy],
-                "delta_time": [f"{elapsed_time:.4f}"],
             }
         )
 
