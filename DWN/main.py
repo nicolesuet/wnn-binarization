@@ -57,6 +57,11 @@ encoder_definitions = [
     ("Scatter Code", ScatterCode),
 ]
 
+def add_header(csv_file):
+    file_exists = os.path.isfile(csv_file)
+    file_is_empty = os.path.getsize(csv_file) == 0 if file_exists else True
+
+    return not file_exists or file_is_empty
 
 def create_encoder(encoding_type, encoder_class, bins, data, min, max):
 
@@ -195,12 +200,11 @@ def evaluate_model(x_train, y_train, X_test, y_test, encoder, start_time):
                 "delta_time": [f"{elapsed_time:.4f}"],
                 "encoding": [encoder["encoding"]],
                 "accuracy": [accuracy],
-            }
+            },
+            columns=["model", "time", "delta_time", "encoding", "accuracy"],
         )
 
-        new_row.to_csv(
-            csv_file, mode="a", index=False, header=not (os.path.isfile(csv_file))
-        )
+        new_row.to_csv(csv_file, mode="a", index=False, header=add_header(csv_file))
 
         logging.info(
             f"Epoch {epoch + 1}/{EPOCHS}, Train Loss: {loss.item():.4f}, Train Accuracy: {train_acc:.4f}, Test Accuracy: {test_acc:.4f}"

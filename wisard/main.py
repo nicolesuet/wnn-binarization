@@ -45,7 +45,7 @@ datasets_ids = [
     149,  # Statlog (Vehicle Silhouettes)
     863,  # Maternal Health Risk
     42,  # Glass Identification
-    'mnist',  # MNIST
+    "mnist",  # MNIST
 ]
 
 encoder_definitions = [
@@ -55,6 +55,12 @@ encoder_definitions = [
     ("Scatter Code", ScatterCode),
 ]
 
+
+def add_header(csv_file):
+    file_exists = os.path.isfile(csv_file)
+    file_is_empty = os.path.getsize(csv_file) == 0 if file_exists else True
+
+    return not file_exists or file_is_empty
 
 def create_encoder(encoding_type, encoder_class, bins, data, min, max):
 
@@ -86,9 +92,10 @@ def load_from_uci(id: int):
     logging.info(f"Dataset fetched: {name}")
     return X, y, name
 
+
 def load_mnist():
     logging.info("Fetching MNIST dataset without transformation (raw)")
-    
+
     # MNIST dataset with no transformation (raw images)
     train_dataset = torchvision.datasets.MNIST(
         root="./data", train=True, download=True, transform=None
@@ -98,13 +105,18 @@ def load_mnist():
     )
 
     # Flatten the images into 1D vectors (28x28 pixels -> 784 features per image)
-    X_train = torch.stack([torch.tensor(np.array(x[0]).flatten()) for x in train_dataset])  # Flatten images to 1D vector
+    X_train = torch.stack(
+        [torch.tensor(np.array(x[0]).flatten()) for x in train_dataset]
+    )  # Flatten images to 1D vector
     y_train = torch.tensor([x[1] for x in train_dataset])
 
-    X_test = torch.stack([torch.tensor(np.array(x[0]).flatten()) for x in test_dataset])  # Flatten images to 1D vector
+    X_test = torch.stack(
+        [torch.tensor(np.array(x[0]).flatten()) for x in test_dataset]
+    )  # Flatten images to 1D vector
     y_test = torch.tensor([x[1] for x in test_dataset])
 
     return X_train, X_test, y_train, y_test, "MNIST"
+
 
 def get_min_max(X):
     logging.info("Calculating min and max values for the dataset")
@@ -137,7 +149,7 @@ def evaluate_model(x_train, X_bin, y_train, y_true, encoder, start_time):
     conf_matrix = confusion_matrix(y_true.values, predictions)
 
     elapsed_time = time.time() - start_time
-    
+
     new_row = pd.DataFrame(
         {
             "model": ["Wisard"],
@@ -145,12 +157,11 @@ def evaluate_model(x_train, X_bin, y_train, y_true, encoder, start_time):
             "delta_time": [f"{elapsed_time:.4f}"],
             "encoding": [encoder["encoding"]],
             "accuracy": [accuracy],
-        }
+        },
+        columns=["model", "time", "delta_time", "encoding", "accuracy"],
     )
 
-    new_row.to_csv(
-        csv_file, mode="a", index=False, header=not (os.path.isfile(csv_file))
-    )
+    new_row.to_csv(csv_file, mode="a", index=False, header=add_header(csv_file))
 
     logging.info(f"Accuracy: {accuracy}")
     logging.info(f"Confusion Matrix: \n{conf_matrix}")
@@ -160,20 +171,22 @@ for id in datasets_ids:
 
     logging.info(f"Processing dataset ID: {id}")
 
-    if id == 'mnist':
+    if id == "mnist":
         X_train, X_test, y_train, y_test, name = load_mnist()
     else:
         X, y, name = load_from_uci(id)
-        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33, random_state=42)
+        X_train, X_test, y_train, y_test = train_test_split(
+            X, y, test_size=0.33, random_state=42
+        )
 
     min_global, max_global = get_min_max(X)
 
     csv_name = name.lower().replace(" ", "_")
-    
+
     csv_file = os.path.join(
         os.path.dirname(__file__), f"metrics/{csv_name}_metrics.csv"
     )
-    
+
     X_train, X_test, y_train, y_test = train_test_split(
         X, y, test_size=0.33, random_state=42
     )
