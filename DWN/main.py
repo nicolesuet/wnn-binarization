@@ -39,15 +39,15 @@ BATCH_SIZE = 32
 datasets_ids = [
     # 222,  # Bank Marketing ! error calculating min and max
     39,  # Ecoli
-    # 53,  # Iris
-    # 186,  # Wine Quality
-    # 264,  # EEG Eye State
-    # 159,  # MAGIC Gamma Telescope
-    # # 2,  # Adult ! error calculating min and max
-    # 149,  # Statlog (Vehicle Silhouettes)
-    # 863,  # Maternal Health Risk
-    # 42,  # Glass Identification
-    # "mnist",  # MNIST
+    53,  # Iris
+    186,  # Wine Quality
+    264,  # EEG Eye State
+    159,  # MAGIC Gamma Telescope
+    # 2,  # Adult ! error calculating min and max
+    149,  # Statlog (Vehicle Silhouettes)
+    863,  # Maternal Health Risk
+    42,  # Glass Identification
+    "mnist",  # MNIST
 ]
 
 encoder_definitions = [
@@ -227,8 +227,8 @@ for id in datasets_ids:
 
     label_encoder = LabelEncoder()
 
-    y_train = label_encoder.fit_transform(y_train.values.ravel())
-    y_test = label_encoder.fit_transform(y_test.values.ravel())
+    y_train = label_encoder.fit_transform(y_train.ravel())
+    y_test = label_encoder.fit_transform(y_test.ravel())
     y_test_tensor = torch.tensor(y_test, dtype=torch.long)
     y_train_tensor = torch.tensor(y_train, dtype=torch.long)
 
