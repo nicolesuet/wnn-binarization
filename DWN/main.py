@@ -186,6 +186,7 @@ def evaluate_model(x_train, y_train, X_test, y_test, encoder, start_time):
         test_acc = evaluate(model, X_test.float(), y_test.float())
         accuracy = f"{test_acc:.4f}"
         accuracies.append(f"{test_acc:.4f}")
+        elapsed_time = time.time() - start_time
 
         new_row = pd.DataFrame(
             {
@@ -204,8 +205,6 @@ def evaluate_model(x_train, y_train, X_test, y_test, encoder, start_time):
         logging.info(
             f"Epoch {epoch + 1}/{EPOCHS}, Train Loss: {loss.item():.4f}, Train Accuracy: {train_acc:.4f}, Test Accuracy: {test_acc:.4f}"
         )
-
-    elapsed_time = time.time() - start_time
 
 
 for id in datasets_ids:
