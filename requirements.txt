@@ -1,6 +1,6 @@
 numpy
 pandas
-pybind11==2.2.4
+pybind11==2.13.6
 scikit_learn
 torch
 torch-hd
