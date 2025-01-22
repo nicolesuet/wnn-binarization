@@ -227,12 +227,12 @@ for id in datasets_ids:
 
     label_encoder = LabelEncoder()
 
-    if y_train.is_cuda:  # Check if the tensor is on the GPU
+    if isinstance(y_train, torch.Tensor) and y_train.is_cuda:  # Check if the tensor is on the GPU
         y_train = label_encoder.fit_transform(y_train.cpu().numpy())
     else:  # Tensor is already on the CPU
         y_train = label_encoder.fit_transform(y_train.numpy())
 
-    if y_test.is_cuda:  # Check if the tensor is on the GPU
+    if isinstance(y_test, torch.Tensor) and y_test.is_cuda:  # Check if the tensor is on the GPU
         y_test = label_encoder.fit_transform(y_test.cpu().numpy())
     else:  # Tensor is already on the CPU
         y_test = label_encoder.fit_transform(y_test.numpy())
