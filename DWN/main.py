@@ -170,7 +170,7 @@ def evaluate_model(x_train, y_train, X_test, y_test, encoder, start_time):
             indices = permutation[i : i + BATCH_SIZE]
             batch_x, batch_y = (
                 x_train[indices].cuda(device).float(),
-                y_train[indices].cuda(device).float(),
+                y_train[indices].cuda(device),
             )
             outputs = model(batch_x)
             loss = cross_entropy(outputs, batch_y)
