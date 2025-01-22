@@ -16,7 +16,7 @@ from torch.nn.functional import cross_entropy
 from torchhd import embeddings
 from torch import nn
 
-log_file = os.path.join(os.path.dirname(__file__), "wisard.log")
+log_file = os.path.join(os.path.dirname(__file__), "DWN.log")
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
