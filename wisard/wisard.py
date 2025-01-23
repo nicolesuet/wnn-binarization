@@ -65,7 +65,7 @@ class Wisard(object):
 
     def evaluate_model(self, x_train, X_bin, y_train, y_true, encoder):
 
-        for _ in self.epochs:
+        for _ in range(self.epochs):
             
             start_time = time.time()
 
