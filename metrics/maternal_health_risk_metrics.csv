@@ -1,0 +1,57 @@
+model,time,delta_time,encoding,num_slices,num_dimensions,accuracy
+Wisard,2025-01-22 22:17:40,0.0187,Distributive,,,78.5
+Wisard,2025-01-22 22:17:40,0.0180,Gaussian,,,75.54
+Wisard,2025-01-22 22:17:40,0.0118,Linear,,,71.01
+Wisard,2025-01-22 22:17:40,0.0254,Scatter Code,10,20,56.21
+Wisard,2025-01-22 22:19:29,0.0100,Distributive,,,78.01
+Wisard,2025-01-22 22:19:29,0.0158,Gaussian,,,76.43
+Wisard,2025-01-22 22:19:29,0.0132,Linear,,,73.08
+Wisard,2025-01-22 22:19:29,0.0263,Scatter Code,10,20,61.34
+Wisard,2025-01-22 22:22:12,0.0278,Distributive,,,78.8
+Wisard,2025-01-22 22:22:12,0.0161,Gaussian,,,76.53
+Wisard,2025-01-22 22:22:12,0.0814,Linear,,,71.89
+Wisard,2025-01-22 22:22:12,0.0524,Scatter Code,10,40,60.55
+Wisard,2025-01-22 22:25:47,0.0202,Distributive,,,80.08
+Wisard,2025-01-22 22:25:47,0.0133,Gaussian,,,73.87
+Wisard,2025-01-22 22:25:47,0.0139,Linear,,,75.84
+Wisard,2025-01-22 22:25:47,0.0574,Scatter Code,10,60,62.03
+Wisard,2025-01-22 22:30:11,0.0116,Distributive,,,81.07
+Wisard,2025-01-22 22:30:11,0.0118,Gaussian,,,73.96
+Wisard,2025-01-22 22:30:11,0.0123,Linear,,,73.37
+Wisard,2025-01-22 22:30:11,0.0871,Scatter Code,10,80,60.45
+Wisard,2025-01-22 22:35:40,0.0193,Distributive,,,80.18
+Wisard,2025-01-22 22:35:40,0.0156,Gaussian,,,75.54
+Wisard,2025-01-22 22:35:40,0.0122,Linear,,,74.85
+Wisard,2025-01-22 22:35:40,0.0898,Scatter Code,10,100,61.93
+Wisard,2025-01-22 22:41:49,0.0133,Distributive,,,77.51
+Wisard,2025-01-22 22:41:49,0.0095,Gaussian,,,76.63
+Wisard,2025-01-22 22:41:49,0.0121,Linear,,,70.71
+Wisard,2025-01-22 22:41:49,0.1111,Scatter Code,10,120,64.79
+Wisard,2025-01-22 22:48:50,0.0145,Distributive,,,78.99
+Wisard,2025-01-22 22:48:50,0.0119,Gaussian,,,75.05
+Wisard,2025-01-22 22:48:50,0.0108,Linear,,,72.19
+Wisard,2025-01-22 22:48:50,0.1168,Scatter Code,10,140,65.38
+Wisard,2025-01-22 22:56:11,0.0380,Distributive,,,79.59
+Wisard,2025-01-22 22:56:11,0.0120,Gaussian,,,75.44
+Wisard,2025-01-22 22:56:12,0.0141,Linear,,,72.58
+Wisard,2025-01-22 22:56:12,0.1499,Scatter Code,10,160,64.0
+Wisard,2025-01-22 23:04:28,0.0185,Distributive,,,76.13
+Wisard,2025-01-22 23:04:28,0.0169,Gaussian,,,77.12
+Wisard,2025-01-22 23:04:28,0.0126,Linear,,,71.6
+Wisard,2025-01-22 23:04:28,0.1561,Scatter Code,10,180,64.0
+Wisard,2025-01-22 23:13:41,0.0129,Distributive,,,76.92
+Wisard,2025-01-22 23:13:41,0.0138,Gaussian,,,76.73
+Wisard,2025-01-22 23:13:41,0.0177,Linear,,,70.32
+Wisard,2025-01-22 23:13:41,0.1722,Scatter Code,10,200,65.38
+Wisard,2025-01-22 23:15:23,0.0194,Distributive,,,78.11
+Wisard,2025-01-22 23:15:23,0.0131,Gaussian,,,73.96
+Wisard,2025-01-22 23:15:23,0.0125,Linear,,,71.89
+Wisard,2025-01-22 23:15:23,0.0215,Scatter Code,20,20,55.72
+Wisard,2025-01-22 23:17:54,0.0186,Distributive,,,78.01
+Wisard,2025-01-22 23:17:54,0.0176,Gaussian,,,75.25
+Wisard,2025-01-22 23:17:54,0.0130,Linear,,,71.4
+Wisard,2025-01-22 23:17:54,0.0381,Scatter Code,20,40,64.79
+Wisard,2025-01-22 23:21:20,0.0100,Distributive,,,76.92
+Wisard,2025-01-22 23:21:20,0.0135,Gaussian,,,73.87
+Wisard,2025-01-22 23:21:20,0.0110,Linear,,,72.09
+Wisard,2025-01-22 23:21:20,0.0480,Scatter Code,20,60,67.06
