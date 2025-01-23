@@ -44,7 +44,7 @@ num_dimensions_range = [20, 40, 60, 80, 100, 120, 140, 160, 180, 200]
 for num_slices in num_slices_range:
     logging.info(f"Running Wisard with num_slices={num_slices}")
     for num_dimensions in num_dimensions_range:
-        logging.info(f"Running Wisard with num_dimensions={num_dimensions}")
+        logging.info(f"Running Wisard with num_dimensions={num_dimensions} and num_slices={num_slices}")
         wisard = Wisard(
             num_slices=num_slices,
             num_dimensions=num_dimensions,
