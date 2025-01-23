@@ -130,10 +130,13 @@ def get_min_max(X):
 def binarize(encoder, data):
     logging.info(f"Binarizing data using encoder: {encoder['encoding']}")
 
-    if encoder["encoding"] == "Scatter Code":
-        return encoder["encoder"](torch.tensor(data)).flatten(start_dim=1)
+    if not isinstance(data, np.ndarray):
+        data = np.asarray(data)
 
-    return encoder["encoder"].binarize(torch.tensor(data)).flatten(start_dim=1)
+    if encoder["encoding"] == "Scatter Code":
+        return encoder["encoder"](torch.tensor(data, dtype=torch.float32)).flatten(start_dim=1)
+
+    return encoder["encoder"].binarize(torch.tensor(data, dtype=torch.float32)).flatten(start_dim=1)
 
 
 def evaluate(model, x_test, y_test, device="cuda"):
