@@ -34,6 +34,7 @@ class Wisard(object):
     encoder_definitions: list
     datasets_ids: list
     csv_file: str
+    epochs: int
 
     def __init__(
         self,
@@ -44,6 +45,7 @@ class Wisard(object):
         verbose,
         num_bits_thermometer,
         datasets_ids,
+        epochs=10,
     ):
         self.num_slices = num_slices
         self.num_dimensions = num_dimensions
@@ -52,6 +54,7 @@ class Wisard(object):
         self.verbose = verbose
         self.num_bits_thermometer = num_bits_thermometer
         self.datasets_ids = datasets_ids
+        self.epochs = epochs
 
         self.encoder_definitions = [
             ("Distributive", DistributiveThermometer),
@@ -60,50 +63,51 @@ class Wisard(object):
             ("Scatter Code", ScatterCode),
         ]
 
-    def evaluate_model(self, x_train, X_bin, y_train, y_true, encoder, start_time):
+    def evaluate_model(self, x_train, X_bin, y_train, y_true, encoder):
 
-        if not start_time:
+        for _ in self.epochs:
+            
             start_time = time.time()
 
-        wsd = wp.Wisard(
-            self.address_size, ignoreZero=self.ignore_zero, verbose=self.verbose
-        )
-        flatten_y_train = np.array(y_train).flatten()
-        wsd.train(x_train.numpy(), flatten_y_train)
-        predictions = wsd.classify(np.array(X_bin))
+            wsd = wp.Wisard(
+                self.address_size, ignoreZero=self.ignore_zero, verbose=self.verbose
+            )
+            flatten_y_train = np.array(y_train).flatten()
+            wsd.train(x_train.numpy(), flatten_y_train)
+            predictions = wsd.classify(np.array(X_bin))
 
-        accuracy = round(accuracy_score(y_true.values, predictions) * 100, 2)
-        conf_matrix = confusion_matrix(y_true.values, predictions)
+            accuracy = round(accuracy_score(y_true.values, predictions) * 100, 2)
+            conf_matrix = confusion_matrix(y_true.values, predictions)
 
-        elapsed_time = time.time() - start_time
+            elapsed_time = time.time() - start_time
 
-        new_row = pd.DataFrame(
-            {
-                "model": ["Wisard"],
-                "time": [datetime.now().strftime("%Y-%m-%d %H:%M:%S")],
-                "delta_time": [f"{elapsed_time:.4f}"],
-                "encoding": [encoder["encoding"]],
-                "num_slices": [self.num_slices if encoder["encoding"] == "Scatter Code" else ''],
-                "num_dimensions": [self.num_dimensions if encoder["encoding"] == "Scatter Code" else ''],
-                "accuracy": [accuracy],
-            },
-            columns=[
-                "model",
-                "time",
-                "delta_time",
-                "encoding",
-                "num_slices",
-                "num_dimensions",
-                "accuracy"
-            ],
-        )
+            new_row = pd.DataFrame(
+                {
+                    "model": ["Wisard"],
+                    "time": [datetime.now().strftime("%Y-%m-%d %H:%M:%S")],
+                    "delta_time": [f"{elapsed_time:.4f}"],
+                    "encoding": [encoder["encoding"]],
+                    "num_slices": [self.num_slices if encoder["encoding"] == "Scatter Code" else ''],
+                    "num_dimensions": [self.num_dimensions if encoder["encoding"] == "Scatter Code" else ''],
+                    "accuracy": [accuracy],
+                },
+                columns=[
+                    "model",
+                    "time",
+                    "delta_time",
+                    "encoding",
+                    "num_slices",
+                    "num_dimensions",
+                    "accuracy"
+                ],
+            )
 
-        new_row.to_csv(
-            self.csv_file, mode="a", index=False, header=add_header(self.csv_file)
-        )
+            new_row.to_csv(
+                self.csv_file, mode="a", index=False, header=add_header(self.csv_file)
+            )
 
-        logging.info(f"Accuracy: {accuracy}")
-        logging.info(f"Confusion Matrix: \n{conf_matrix}")
+            logging.info(f"Accuracy: {accuracy}")
+            logging.info(f"Confusion Matrix: \n{conf_matrix}")
 
     def run(self):
         for id in self.datasets_ids:
@@ -149,12 +153,9 @@ class Wisard(object):
             for encoder in encoders:
                 logging.info(f"Starting evaluation for encoder: {encoder['encoding']}")
 
-                start_time = time.time()
-
                 X_bin = binarize(encoder, X.values)
                 X_train_bin = binarize(encoder, X_train.values)
-                X_test_bin = binarize(encoder, X_test.values)
 
-                self.evaluate_model(X_train_bin, X_bin, y_train, y, encoder, start_time)
+                self.evaluate_model(X_train_bin, X_bin, y_train, y, encoder)
 
             logging.info(f"Finished processing dataset: {name} with ID: {id}")
