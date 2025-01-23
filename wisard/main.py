@@ -13,16 +13,16 @@ logging.info("Starting the script")
 
 datasets_ids = [
     # 222,  # Bank Marketing ! error calculating min and max
-    # 39,  # Ecoli
+    39,  # Ecoli
     53,  # Iris
-    # 186,  # Wine Quality
-    # 264,  # EEG Eye State
-    # 159,  # MAGIC Gamma Telescope
-    # # 2,  # Adult ! error calculating min and max
-    # 149,  # Statlog (Vehicle Silhouettes)
-    # 863,  # Maternal Health Risk
-    # 42,  # Glass Identification
-    # "mnist",  # MNIST
+    186,  # Wine Quality
+    264,  # EEG Eye State
+    159,  # MAGIC Gamma Telescope
+    # 2,  # Adult ! error calculating min and max
+    149,  # Statlog (Vehicle Silhouettes)
+    863,  # Maternal Health Risk
+    42,  # Glass Identification
+    "mnist",  # MNIST
 ]
 
 wisard = Wisard(
