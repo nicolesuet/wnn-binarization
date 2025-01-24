@@ -139,20 +139,26 @@ def prepare_labels(y_true, y_pred):
 
 def encode_labels(y_train, y_test):
     """
-    Encodes labels to ensure they are zero-indexed and contiguous using pandas.factorize.
+    Encodes labels to ensure they are zero-indexed and contiguous.
     Args:
-        y_train: List or array of training labels.
-        y_test: List or array of testing labels.
+        y_train: Training labels (NumPy array or PyTorch tensor).
+        y_test: Testing labels (NumPy array or PyTorch tensor).
     Returns:
         y_train_encoded: Encoded training labels as a PyTorch tensor.
         y_test_encoded: Encoded testing labels as a PyTorch tensor.
     """
+    # Convert to NumPy arrays if they are PyTorch tensors
+    if isinstance(y_train, torch.Tensor):
+        y_train = y_train.numpy()
+    if isinstance(y_test, torch.Tensor):
+        y_test = y_test.numpy()
+
     # Combine training and testing labels
-    all_labels = pd.Series(y_train + y_test)
+    all_labels = np.concatenate([y_train, y_test])
 
     # Factorize labels (automatically zero-indexed and contiguous)
-    y_train_encoded, unique_labels = pd.factorize(y_train, sort=True)
-    y_test_encoded, _ = pd.factorize(y_test, sort=True)
+    y_train_encoded, unique_labels = pd.factorize(y_train)
+    y_test_encoded, _ = pd.factorize(y_test)
 
     # Convert to PyTorch tensors
     y_train_encoded = torch.tensor(y_train_encoded, dtype=torch.long)
