@@ -1,6 +1,6 @@
 numpy
 torch
-sklearn
+scikit-learn
 ucimlrepo
 torchwnn
 pandas
