@@ -98,7 +98,7 @@ class DWN(object):
                 for encoding_type, encoder_class in self.encoder_definitions
             ]
 
-            y_train, y_test = self.encode_labels(y_train, y_test)
+            y_train, y_test = encode_labels(y_train, y_test)
             y_train = y_train.to(self.device)
             y_test = y_test.to(self.device)
 
