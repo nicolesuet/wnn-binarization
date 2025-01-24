@@ -1,11 +1,11 @@
 numpy
 torch
-scikit-learn
+sklearn
 ucimlrepo
 torchwnn
 pandas
 torchvision
 torch_dwn
 torch
-torchhd
+torch-hd
 wisardpkg
