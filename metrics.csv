@@ -1,0 +1,229 @@
+model,time,delta_time,dataset,encoding,num_slices,num_dimensions,accuracy
+Wisard,2025-01-23 21:41:10,0.9712,MNIST,Distributive,,,96.1
+Wisard,2025-01-23 21:41:11,0.8647,MNIST,Gaussian,,,95.6
+Wisard,2025-01-23 21:41:12,0.8649,MNIST,Linear,,,96.3
+Wisard,2025-01-23 21:41:13,1.7719,MNIST,Scatter Code,10,20,96.2
+Wisard,2025-01-23 21:41:46,0.0069,Ecoli,Distributive,,,90.48
+Wisard,2025-01-23 21:41:46,0.0041,Ecoli,Gaussian,,,90.77
+Wisard,2025-01-23 21:41:46,0.0041,Ecoli,Linear,,,88.1
+Wisard,2025-01-23 21:41:46,0.0053,Ecoli,Scatter Code,10,20,91.07
+Wisard,2025-01-23 21:41:47,0.0038,Iris,Distributive,,,98.0
+Wisard,2025-01-23 21:41:47,0.0026,Iris,Gaussian,,,96.67
+Wisard,2025-01-23 21:41:47,0.0016,Iris,Linear,,,99.33
+Wisard,2025-01-23 21:41:47,0.0024,Iris,Scatter Code,10,20,92.67
+Wisard,2025-01-23 21:41:49,0.0917,Wine Quality,Distributive,,,62.74
+Wisard,2025-01-23 21:41:49,0.0846,Wine Quality,Gaussian,,,60.8
+Wisard,2025-01-23 21:41:50,0.3445,Wine Quality,Linear,,,46.91
+Wisard,2025-01-23 21:41:55,5.3719,Wine Quality,Scatter Code,10,20,44.44
+Wisard,2025-01-23 21:41:58,0.1629,EEG Eye State,Distributive,,,74.49
+Wisard,2025-01-23 21:41:59,0.7931,EEG Eye State,Gaussian,,,58.93
+Wisard,2025-01-23 21:42:18,19.8402,EEG Eye State,Linear,,,55.49
+Wisard,2025-01-23 21:43:01,42.5228,EEG Eye State,Scatter Code,10,20,55.13
+Wisard,2025-01-23 21:43:04,0.1689,MAGIC Gamma Telescope,Distributive,,,80.48
+Wisard,2025-01-23 21:43:04,0.1941,MAGIC Gamma Telescope,Gaussian,,,79.26
+Wisard,2025-01-23 21:43:05,0.6536,MAGIC Gamma Telescope,Linear,,,72.98
+Wisard,2025-01-23 21:43:13,8.2764,MAGIC Gamma Telescope,Scatter Code,10,20,73.97
+Wisard,2025-01-23 21:43:15,0.0232,Statlog (Vehicle Silhouettes),Distributive,,,88.77
+Wisard,2025-01-23 21:43:15,0.0151,Statlog (Vehicle Silhouettes),Gaussian,,,83.81
+Wisard,2025-01-23 21:43:15,0.0152,Statlog (Vehicle Silhouettes),Linear,,,63.36
+Wisard,2025-01-23 21:43:15,0.3410,Statlog (Vehicle Silhouettes),Scatter Code,10,20,25.06
+Wisard,2025-01-23 21:43:16,0.0094,Maternal Health Risk,Distributive,,,78.5
+Wisard,2025-01-23 21:43:16,0.0079,Maternal Health Risk,Gaussian,,,75.54
+Wisard,2025-01-23 21:43:16,0.0072,Maternal Health Risk,Linear,,,71.01
+Wisard,2025-01-23 21:43:16,0.0197,Maternal Health Risk,Scatter Code,10,20,56.61
+Wisard,2025-01-23 21:43:17,0.0044,Glass Identification,Distributive,,,89.72
+Wisard,2025-01-23 21:43:17,0.0039,Glass Identification,Gaussian,,,84.11
+Wisard,2025-01-23 21:43:17,0.0037,Glass Identification,Linear,,,77.1
+Wisard,2025-01-23 21:43:17,0.0155,Glass Identification,Scatter Code,10,20,37.85
+Wisard,2025-01-23 21:43:20,0.6640,MNIST,Distributive,,,95.9
+Wisard,2025-01-23 21:43:21,0.5949,MNIST,Gaussian,,,95.9
+Wisard,2025-01-23 21:43:22,0.7831,MNIST,Linear,,,96.5
+Wisard,2025-01-23 21:43:23,1.3120,MNIST,Scatter Code,10,20,95.7
+Wisard,2025-01-23 21:43:35,0.0108,Ecoli,Distributive,,,91.07
+Wisard,2025-01-23 21:43:35,0.0103,Ecoli,Distributive,,,90.48
+Wisard,2025-01-23 21:43:35,0.0081,Ecoli,Gaussian,,,90.48
+Wisard,2025-01-23 21:43:35,0.0057,Ecoli,Gaussian,,,91.67
+Wisard,2025-01-23 21:43:35,0.0075,Ecoli,Linear,,,87.5
+Wisard,2025-01-23 21:43:35,0.0054,Ecoli,Linear,,,90.48
+Wisard,2025-01-23 21:43:35,0.0129,Ecoli,Scatter Code,10,40,91.07
+Wisard,2025-01-23 21:43:35,0.0127,Ecoli,Scatter Code,10,20,86.61
+Wisard,2025-01-23 21:43:36,0.0021,Iris,Distributive,,,96.0
+Wisard,2025-01-23 21:43:36,0.0014,Iris,Gaussian,,,98.0
+Wisard,2025-01-23 21:43:36,0.0014,Iris,Linear,,,98.67
+Wisard,2025-01-23 21:43:36,0.0025,Iris,Scatter Code,10,40,94.0
+Wisard,2025-01-23 21:43:36,0.0024,Iris,Distributive,,,96.0
+Wisard,2025-01-23 21:43:36,0.0014,Iris,Gaussian,,,96.0
+Wisard,2025-01-23 21:43:36,0.0013,Iris,Linear,,,97.33
+Wisard,2025-01-23 21:43:36,0.0015,Iris,Scatter Code,10,20,91.33
+Wisard,2025-01-23 21:43:38,0.2267,Wine Quality,Distributive,,,61.92
+Wisard,2025-01-23 21:43:38,0.1540,Wine Quality,Distributive,,,62.43
+Wisard,2025-01-23 21:43:38,0.1793,Wine Quality,Gaussian,,,60.07
+Wisard,2025-01-23 21:43:38,0.1678,Wine Quality,Gaussian,,,59.67
+Wisard,2025-01-23 21:43:39,0.6523,Wine Quality,Linear,,,46.19
+Wisard,2025-01-23 21:43:39,0.6521,Wine Quality,Linear,,,46.78
+Wisard,2025-01-23 21:43:52,13.2361,Wine Quality,Scatter Code,10,40,41.13
+Wisard,2025-01-23 21:43:52,13.2389,Wine Quality,Scatter Code,10,20,44.44
+Wisard,2025-01-23 21:43:55,0.1693,EEG Eye State,Distributive,,,74.96
+Wisard,2025-01-23 21:43:56,0.9832,EEG Eye State,Gaussian,,,55.97
+Wisard,2025-01-23 21:44:16,19.8946,EEG Eye State,Linear,,,55.49
+Wisard,2025-01-23 21:45:42,85.3884,EEG Eye State,Scatter Code,10,40,55.13
+Wisard,2025-01-23 21:45:42,85.3879,EEG Eye State,Distributive,,,74.52
+Wisard,2025-01-23 21:45:43,1.0435,EEG Eye State,Gaussian,,,56.88
+Wisard,2025-01-23 21:46:04,20.7780,EEG Eye State,Linear,,,55.51
+Wisard,2025-01-23 21:46:47,43.4203,EEG Eye State,Scatter Code,10,20,55.13
+Wisard,2025-01-23 21:46:50,0.1634,MAGIC Gamma Telescope,Distributive,,,81.3
+Wisard,2025-01-23 21:46:50,0.2866,MAGIC Gamma Telescope,Gaussian,,,77.36
+Wisard,2025-01-23 21:46:51,0.5195,MAGIC Gamma Telescope,Linear,,,74.41
+Wisard,2025-01-23 21:47:09,17.8211,MAGIC Gamma Telescope,Scatter Code,10,40,71.49
+Wisard,2025-01-23 21:47:09,17.6798,MAGIC Gamma Telescope,Distributive,,,77.52
+Wisard,2025-01-23 21:47:09,0.1782,MAGIC Gamma Telescope,Gaussian,,,78.25
+Wisard,2025-01-23 21:47:10,0.5649,MAGIC Gamma Telescope,Linear,,,76.31
+Wisard,2025-01-23 21:47:20,10.6071,MAGIC Gamma Telescope,Scatter Code,10,20,73.56
+Wisard,2025-01-23 21:47:22,0.1095,Statlog (Vehicle Silhouettes),Distributive,,,88.42
+Wisard,2025-01-23 21:47:22,0.0112,Statlog (Vehicle Silhouettes),Gaussian,,,84.63
+Wisard,2025-01-23 21:47:22,0.0142,Statlog (Vehicle Silhouettes),Linear,,,64.54
+Wisard,2025-01-23 21:47:22,0.6579,Statlog (Vehicle Silhouettes),Scatter Code,10,40,25.06
+Wisard,2025-01-23 21:47:22,0.0118,Statlog (Vehicle Silhouettes),Distributive,,,87.12
+Wisard,2025-01-23 21:47:22,0.0109,Statlog (Vehicle Silhouettes),Gaussian,,,86.05
+Wisard,2025-01-23 21:47:22,0.0131,Statlog (Vehicle Silhouettes),Linear,,,64.66
+Wisard,2025-01-23 21:47:23,0.3407,Statlog (Vehicle Silhouettes),Scatter Code,10,20,25.06
+Wisard,2025-01-23 21:47:24,0.0148,Maternal Health Risk,Distributive,,,79.39
+Wisard,2025-01-23 21:47:24,0.0125,Maternal Health Risk,Gaussian,,,76.73
+Wisard,2025-01-23 21:47:24,0.0093,Maternal Health Risk,Linear,,,72.09
+Wisard,2025-01-23 21:47:24,0.0324,Maternal Health Risk,Scatter Code,10,40,58.19
+Wisard,2025-01-23 21:47:24,0.0057,Maternal Health Risk,Distributive,,,78.01
+Wisard,2025-01-23 21:47:24,0.0057,Maternal Health Risk,Gaussian,,,77.71
+Wisard,2025-01-23 21:47:24,0.0062,Maternal Health Risk,Linear,,,71.99
+Wisard,2025-01-23 21:47:24,0.0247,Maternal Health Risk,Scatter Code,10,20,61.83
+Wisard,2025-01-23 21:47:25,0.0033,Glass Identification,Distributive,,,89.25
+Wisard,2025-01-23 21:47:25,0.0033,Glass Identification,Gaussian,,,83.64
+Wisard,2025-01-23 21:47:25,0.0028,Glass Identification,Linear,,,72.9
+Wisard,2025-01-23 21:47:25,0.0214,Glass Identification,Scatter Code,10,40,38.32
+Wisard,2025-01-23 21:47:25,0.0025,Glass Identification,Distributive,,,88.32
+Wisard,2025-01-23 21:47:25,0.0022,Glass Identification,Gaussian,,,85.98
+Wisard,2025-01-23 21:47:25,0.0024,Glass Identification,Linear,,,74.3
+Wisard,2025-01-23 21:47:26,0.0112,Glass Identification,Scatter Code,10,20,38.32
+Wisard,2025-01-23 21:47:29,0.7257,MNIST,Distributive,,,96.2
+Wisard,2025-01-23 21:47:30,0.6527,MNIST,Gaussian,,,95.6
+Wisard,2025-01-23 21:47:31,0.6499,MNIST,Linear,,,95.5
+Wisard,2025-01-23 21:47:34,3.6884,MNIST,Scatter Code,10,40,96.3
+Wisard,2025-01-23 21:47:35,0.6728,MNIST,Distributive,,,96.3
+Wisard,2025-01-23 21:47:36,0.6153,MNIST,Gaussian,,,96.1
+Wisard,2025-01-23 21:47:37,0.6338,MNIST,Linear,,,96.0
+Wisard,2025-01-23 21:47:38,1.2912,MNIST,Scatter Code,10,20,96.0
+Wisard,2025-01-23 21:48:59,1.3558,MNIST,Distributive,,,96.1
+Wisard,2025-01-23 21:48:59,1.3537,MNIST,Distributive,,,95.9
+Wisard,2025-01-23 21:49:01,1.2450,MNIST,Gaussian,,,95.9
+Wisard,2025-01-23 21:49:01,1.2560,MNIST,Gaussian,,,95.8
+Wisard,2025-01-23 21:49:02,1.5641,MNIST,Linear,,,96.1
+Wisard,2025-01-23 21:49:02,1.5667,MNIST,Linear,,,95.7
+Wisard,2025-01-23 21:49:07,4.2818,MNIST,Scatter Code,10,40,96.0
+Wisard,2025-01-23 21:49:07,4.2817,MNIST,Scatter Code,10,20,96.1
+Wisard,2025-01-23 21:49:41,0.0046,Glass Identification,Distributive,,,90.19
+Wisard,2025-01-23 21:49:41,0.0025,Glass Identification,Gaussian,,,85.05
+Wisard,2025-01-23 21:49:41,0.0025,Glass Identification,Linear,,,75.7
+Wisard,2025-01-23 21:49:41,0.0130,Glass Identification,Scatter Code,10,20,38.32
+Wisard,2025-01-23 21:49:41,0.0017,Iris,Distributive,,,95.33
+Wisard,2025-01-23 21:49:41,0.0031,Iris,Distributive,,,89.25
+Wisard,2025-01-23 21:49:41,0.0061,Iris,Gaussian,,,97.33
+Wisard,2025-01-23 21:49:41,0.0371,Maternal Health Risk,Distributive,,,79.98
+Wisard,2025-01-23 21:49:41,0.0020,Iris,Linear,,,96.67
+Wisard,2025-01-23 21:49:41,0.0068,Iris,Gaussian,,,83.18
+Wisard,2025-01-23 21:49:41,0.0093,Maternal Health Risk,Gaussian,,,76.92
+Wisard,2025-01-23 21:49:41,0.0030,Iris,Scatter Code,10,40,90.67
+Wisard,2025-01-23 21:49:41,0.0037,Iris,Linear,,,78.04
+Wisard,2025-01-23 21:49:41,0.0070,Maternal Health Risk,Linear,,,70.41
+Wisard,2025-01-23 21:49:41,0.0219,Iris,Scatter Code,10,40,38.32
+Wisard,2025-01-23 21:49:41,0.0229,Maternal Health Risk,Scatter Code,10,20,57.59
+Wisard,2025-01-23 21:49:41,0.0033,Ecoli,Distributive,,,91.96
+Wisard,2025-01-23 21:49:41,0.0036,Ecoli,Gaussian,,,93.75
+Wisard,2025-01-23 21:49:41,0.0029,Ecoli,Linear,,,88.39
+Wisard,2025-01-23 21:49:41,0.0076,Ecoli,Scatter Code,10,40,90.77
+Wisard,2025-01-23 21:49:41,0.0050,Ecoli,Distributive,,,89.88
+Wisard,2025-01-23 21:49:41,0.0029,Ecoli,Gaussian,,,91.37
+Wisard,2025-01-23 21:49:41,0.0031,Ecoli,Linear,,,88.1
+Wisard,2025-01-23 21:49:41,0.0053,Ecoli,Scatter Code,10,20,89.88
+Wisard,2025-01-23 21:49:41,0.0060,Maternal Health Risk,Distributive,,,81.36
+Wisard,2025-01-23 21:49:41,0.0062,Maternal Health Risk,Gaussian,,,75.44
+Wisard,2025-01-23 21:49:41,0.0068,Maternal Health Risk,Linear,,,69.92
+Wisard,2025-01-23 21:49:41,0.0317,Maternal Health Risk,Scatter Code,10,40,61.34
+Wisard,2025-01-23 21:49:41,0.0151,Statlog (Vehicle Silhouettes),Distributive,,,87.59
+Wisard,2025-01-23 21:49:41,0.0120,Statlog (Vehicle Silhouettes),Gaussian,,,81.68
+Wisard,2025-01-23 21:49:41,0.0134,Statlog (Vehicle Silhouettes),Linear,,,64.78
+Wisard,2025-01-23 21:49:42,0.6594,Statlog (Vehicle Silhouettes),Scatter Code,10,40,25.06
+Wisard,2025-01-23 21:49:42,0.0039,Statlog (Vehicle Silhouettes),Distributive,,,96.0
+Wisard,2025-01-23 21:49:42,0.0140,Wine Quality,Gaussian,,,96.0
+Wisard,2025-01-23 21:49:42,0.0160,Wine Quality,Distributive,,,88.42
+Wisard,2025-01-23 21:49:42,0.0016,Wine Quality,Linear,,,96.67
+Wisard,2025-01-23 21:49:42,0.0134,Wine Quality,Gaussian,,,84.52
+Wisard,2025-01-23 21:49:42,0.0018,Wine Quality,Scatter Code,10,20,92.67
+Wisard,2025-01-23 21:49:42,0.0224,Wine Quality,Linear,,,64.07
+Wisard,2025-01-23 21:49:42,0.0972,Wine Quality,Distributive,,,62.35
+Wisard,2025-01-23 21:49:42,0.3527,Wine Quality,Scatter Code,10,20,25.06
+Wisard,2025-01-23 21:49:42,0.1534,Wine Quality,Gaussian,,,59.55
+Wisard,2025-01-23 21:49:43,0.5992,Wine Quality,Linear,,,47.61
+Wisard,2025-01-23 21:49:48,4.7488,Wine Quality,Scatter Code,10,20,34.63
+Wisard,2025-01-23 21:49:49,0.1757,MAGIC Gamma Telescope,Distributive,,,80.09
+Wisard,2025-01-23 21:49:49,0.1982,MAGIC Gamma Telescope,Gaussian,,,78.95
+Wisard,2025-01-23 21:49:50,0.6703,MAGIC Gamma Telescope,Linear,,,75.39
+Wisard,2025-01-23 21:49:50,0.1683,MAGIC Gamma Telescope,Distributive,,,77.79
+Wisard,2025-01-23 21:50:00,9.8240,MAGIC Gamma Telescope,Scatter Code,10,20,69.58
+Wisard,2025-01-23 21:50:00,9.8222,EEG Eye State,Gaussian,,,74.96
+Wisard,2025-01-23 21:50:00,0.4918,Wine Quality,Linear,,,73.29
+Wisard,2025-01-23 21:50:01,0.1852,Wine Quality,Distributive,,,74.73
+Wisard,2025-01-23 21:50:15,14.0984,Wine Quality,Distributive,,,60.83
+Wisard,2025-01-23 21:50:15,14.1759,Wine Quality,Scatter Code,10,40,76.16
+Wisard,2025-01-23 21:50:16,1.0875,Wine Quality,Gaussian,,,57.94
+Wisard,2025-01-23 21:50:16,0.1051,Wine Quality,Gaussian,,,58.97
+Wisard,2025-01-23 21:50:36,20.0966,Wine Quality,Linear,,,55.5
+Wisard,2025-01-23 21:50:36,20.0908,Wine Quality,Linear,,,46.73
+Wisard,2025-01-23 21:50:44,8.3075,Wine Quality,Scatter Code,10,40,37.59
+Wisard,2025-01-23 21:52:07,90.9463,Wine Quality,Scatter Code,10,40,55.13
+Wisard,2025-01-23 21:52:08,0.1974,EEG Eye State,Distributive,,,73.88
+Wisard,2025-01-23 21:52:09,1.1995,MNIST,Gaussian,,,56.79
+Wisard,2025-01-23 21:52:30,20.2882,MNIST,Linear,,,55.5
+Wisard,2025-01-23 21:53:14,44.1716,MNIST,Distributive,,,96.2
+Wisard,2025-01-23 21:53:14,43.9517,MNIST,Distributive,,,95.9
+Wisard,2025-01-23 21:53:14,44.0456,MNIST,Scatter Code,10,20,55.12
+Wisard,2025-01-23 21:53:15,1.3004,MNIST,Gaussian,,,95.4
+Wisard,2025-01-23 21:53:15,1.3004,MNIST,Gaussian,,,95.6
+Wisard,2025-01-23 21:53:17,1.2996,MNIST,Linear,,,95.7
+Wisard,2025-01-23 21:53:17,1.2980,MNIST,Linear,,,95.9
+Wisard,2025-01-23 21:53:22,4.8276,MNIST,Scatter Code,10,20,96.0
+Wisard,2025-01-23 21:53:22,4.8313,MNIST,Scatter Code,10,40,95.6
+Wisard,2025-01-23 21:53:35,0.0034,Glass Identification,Distributive,,,90.19
+Wisard,2025-01-23 21:53:35,0.0024,Glass Identification,Gaussian,,,85.05
+Wisard,2025-01-23 21:53:35,0.0024,Glass Identification,Linear,,,75.7
+Wisard,2025-01-23 21:53:35,0.0117,Glass Identification,Scatter Code,10,20,38.32
+Wisard,2025-01-23 21:53:35,0.0016,Iris,Distributive,,,95.33
+Wisard,2025-01-23 21:53:35,0.0013,Iris,Gaussian,,,97.33
+Wisard,2025-01-23 21:53:35,0.0012,Iris,Linear,,,96.67
+Wisard,2025-01-23 21:53:35,0.0014,Iris,Scatter Code,10,20,90.67
+Wisard,2025-01-23 21:53:36,0.0062,Maternal Health Risk,Distributive,,,79.49
+Wisard,2025-01-23 21:53:36,0.0058,Maternal Health Risk,Gaussian,,,77.51
+Wisard,2025-01-23 21:53:36,0.0136,Maternal Health Risk,Linear,,,72.39
+Wisard,2025-01-23 21:53:36,0.0162,Maternal Health Risk,Scatter Code,10,20,52.37
+Wisard,2025-01-23 21:53:36,0.0120,Statlog (Vehicle Silhouettes),Distributive,,,86.64
+Wisard,2025-01-23 21:53:36,0.0121,Statlog (Vehicle Silhouettes),Gaussian,,,84.4
+Wisard,2025-01-23 21:53:36,0.0140,Statlog (Vehicle Silhouettes),Linear,,,65.01
+Wisard,2025-01-23 21:53:36,0.3377,Statlog (Vehicle Silhouettes),Scatter Code,10,20,25.06
+Wisard,2025-01-23 21:53:36,0.0036,Ecoli,Distributive,,,90.77
+Wisard,2025-01-23 21:53:36,0.0029,Ecoli,Gaussian,,,90.77
+Wisard,2025-01-23 21:53:36,0.0030,Ecoli,Linear,,,88.1
+Wisard,2025-01-23 21:53:36,0.0046,Ecoli,Scatter Code,10,20,88.1
+Wisard,2025-01-23 21:53:38,0.7231,MNIST,Distributive,,,96.3
+Wisard,2025-01-23 21:53:39,0.6690,MNIST,Gaussian,,,95.4
+Wisard,2025-01-23 21:53:39,0.6458,MNIST,Linear,,,96.2
+Wisard,2025-01-23 21:53:41,1.5505,MNIST,Scatter Code,10,20,95.9
+Wisard,2025-01-23 21:53:41,0.0819,Wine Quality,Distributive,,,60.55
+Wisard,2025-01-23 21:53:41,0.0920,Wine Quality,Gaussian,,,60.03
+Wisard,2025-01-23 21:53:42,0.3944,Wine Quality,Linear,,,46.9
+Wisard,2025-01-23 21:53:46,4.4775,Wine Quality,Scatter Code,10,20,42.07
+Wisard,2025-01-23 21:53:47,0.1642,EEG Eye State,Distributive,,,74.53
+Wisard,2025-01-23 21:53:48,1.0361,EEG Eye State,Gaussian,,,55.79
+Wisard,2025-01-23 21:54:09,20.5492,EEG Eye State,Linear,,,55.5
+Wisard,2025-01-23 21:54:52,43.2927,MAGIC Gamma Telescope,Scatter Code,10,20,55.12
+Wisard,2025-01-23 21:54:52,43.1845,MAGIC Gamma Telescope,Distributive,,,76.93
+Wisard,2025-01-23 21:54:52,0.1796,MAGIC Gamma Telescope,Gaussian,,,79.27
+Wisard,2025-01-23 21:54:53,0.5402,MAGIC Gamma Telescope,Linear,,,78.26
+Wisard,2025-01-23 21:55:05,11.8967,MAGIC Gamma Telescope,Scatter Code,10,20,72.89

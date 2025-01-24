@@ -1,4 +1,5 @@
 import os
+import threading
 import numpy as np
 import torch
 from sklearn.metrics import (
@@ -20,6 +21,10 @@ from utils import (
     load_from_uci,
     load_mnist,
     binarize,
+    to_tensor,
+    to_int_list,
+    to_list,
+    prepare_labels,
 )
 
 
@@ -35,6 +40,8 @@ class Wisard(object):
     datasets_ids: list
     csv_file: str
     epochs: int
+    current_dataset: str
+    current_dataset_id: str
 
     def __init__(
         self,
@@ -63,21 +70,36 @@ class Wisard(object):
             ("Scatter Code", ScatterCode),
         ]
 
+        self.csv_file = os.path.join(
+            os.path.dirname(os.path.dirname(__file__)),
+            f"metrics.csv",
+        )
+
     def evaluate_model(self, x_train, X_bin, y_train, y_true, encoder):
 
-        for _ in range(self.epochs):
-            
+        for i in range(self.epochs):
+
+            logging.info(
+                f"Epoch {i + 1}/{self.epochs} for {self.current_dataset}, num_slices: {self.num_slices}, num_dimensions: {self.num_dimensions}"
+            )
+
             start_time = time.time()
 
             wsd = wp.Wisard(
                 self.address_size, ignoreZero=self.ignore_zero, verbose=self.verbose
             )
-            flatten_y_train = np.array(y_train).flatten()
-            wsd.train(x_train.numpy(), flatten_y_train)
-            predictions = wsd.classify(np.array(X_bin))
 
-            accuracy = round(accuracy_score(y_true.values, predictions) * 100, 2)
-            conf_matrix = confusion_matrix(y_true.values, predictions)
+            flatten_y_train = np.array(y_train).flatten().astype(str).tolist()
+            x_train_int = to_int_list(x_train)
+
+            wsd.train(x_train_int, flatten_y_train)
+
+            X_bin_int = to_int_list(X_bin)
+            predictions = wsd.classify(X_bin_int)
+            y_true_list, predictions_list = prepare_labels(y_true, predictions)
+
+            accuracy = round(accuracy_score(y_true_list, predictions_list) * 100, 2)
+            conf_matrix = confusion_matrix(y_true_list, predictions_list)
 
             elapsed_time = time.time() - start_time
 
@@ -86,19 +108,29 @@ class Wisard(object):
                     "model": ["Wisard"],
                     "time": [datetime.now().strftime("%Y-%m-%d %H:%M:%S")],
                     "delta_time": [f"{elapsed_time:.4f}"],
+                    "dataset": [self.current_dataset],
                     "encoding": [encoder["encoding"]],
-                    "num_slices": [self.num_slices if encoder["encoding"] == "Scatter Code" else ''],
-                    "num_dimensions": [self.num_dimensions if encoder["encoding"] == "Scatter Code" else ''],
+                    "num_slices": [
+                        self.num_slices if encoder["encoding"] == "Scatter Code" else ""
+                    ],
+                    "num_dimensions": [
+                        (
+                            self.num_dimensions
+                            if encoder["encoding"] == "Scatter Code"
+                            else ""
+                        )
+                    ],
                     "accuracy": [accuracy],
                 },
                 columns=[
                     "model",
                     "time",
                     "delta_time",
+                    "dataset",
                     "encoding",
                     "num_slices",
                     "num_dimensions",
-                    "accuracy"
+                    "accuracy",
                 ],
             )
 
@@ -109,53 +141,112 @@ class Wisard(object):
             logging.info(f"Accuracy: {accuracy}")
             logging.info(f"Confusion Matrix: \n{conf_matrix}")
 
+    def execute_dataset(self, id):
+        self.current_dataset_id = id
+
+        logging.info(f"Processing dataset ID: {id}")
+
+        if id == "mnist":
+            X, y, name = load_mnist()
+        else:
+            X, y, name = load_from_uci(id)
+
+        self.current_dataset = name
+
+        X_train, X_test, y_train, y_test = train_test_split(
+            X, y, test_size=0.33, random_state=42
+        )
+
+        min_global, max_global = get_min_max(X)
+
+        torch_tensor = to_tensor(X)
+
+        encoders = [
+            create_encoder(
+                encoding_type,
+                encoder_class,
+                self.num_bits_thermometer,
+                torch_tensor,
+                min_global,
+                max_global,
+                self.num_slices,
+                self.num_dimensions,
+            )
+            for encoding_type, encoder_class in self.encoder_definitions
+        ]
+
+        for encoder in encoders:
+            logging.info(
+                f"Starting evaluation for encoder: {encoder['encoding']}, dataset: {name}, ID: {id}, num_slices: {self.num_slices}, num_dimensions: {self.num_dimensions}"
+            )
+
+            X_bin = binarize(encoder, X)
+            X_train_bin = binarize(encoder, X_train)
+
+            self.evaluate_model(X_train_bin, X_bin, y_train, y, encoder)
+
+        logging.info(
+            f"Finished processing dataset: {name} with ID: {id}, num_slices: {self.num_slices}, num_dimensions: {self.num_dimensions}"
+        )
+
     def run(self):
+
+        threads = []
+
         for id in self.datasets_ids:
+            thread = threading.Thread(target=self.execute_dataset, args=(id,))
+            threads.append(thread)
+            thread.start()
 
-            logging.info(f"Processing dataset ID: {id}")
+        # Wait for all threads to complete
+        for thread in threads:
+            thread.join()
 
-            if id == "mnist":
-                X_train, X_test, y_train, y_test, name = load_mnist()
-            else:
-                X, y, name = load_from_uci(id)
-                X_train, X_test, y_train, y_test = train_test_split(
-                    X, y, test_size=0.33, random_state=42
-                )
+        # for id in self.datasets_ids:
 
-            min_global, max_global = get_min_max(X)
+        # self.current_dataset_id = id
 
-            csv_name = name.lower().replace(" ", "_")
-            
-            self.csv_file = os.path.join(
-                os.path.dirname(os.path.dirname(__file__)), f"metrics/{csv_name}_metrics.csv"
-            )
+        # logging.info(f"Processing dataset ID: {id}")
 
-            X_train, X_test, y_train, y_test = train_test_split(
-                X, y, test_size=0.33, random_state=42
-            )
+        # if id == "mnist":
+        #     X, y, name = load_mnist()
+        # else:
+        #     X, y, name = load_from_uci(id)
 
-            torch_tensor = torch.tensor(X.values)
+        # self.current_dataset = name
 
-            encoders = [
-                create_encoder(
-                    encoding_type,
-                    encoder_class,
-                    self.num_bits_thermometer,
-                    torch_tensor,
-                    min_global,
-                    max_global,
-                    self.num_slices,
-                    self.num_dimensions,
-                )
-                for encoding_type, encoder_class in self.encoder_definitions
-            ]
+        # X_train, X_test, y_train, y_test = train_test_split(
+        #     X, y, test_size=0.33, random_state=42
+        # )
 
-            for encoder in encoders:
-                logging.info(f"Starting evaluation for encoder: {encoder['encoding']}")
+        # min_global, max_global = get_min_max(X)
 
-                X_bin = binarize(encoder, X.values)
-                X_train_bin = binarize(encoder, X_train.values)
+        # torch_tensor = to_tensor(X)
 
-                self.evaluate_model(X_train_bin, X_bin, y_train, y, encoder)
+        # encoders = [
+        #     create_encoder(
+        #         encoding_type,
+        #         encoder_class,
+        #         self.num_bits_thermometer,
+        #         torch_tensor,
+        #         min_global,
+        #         max_global,
+        #         self.num_slices,
+        #         self.num_dimensions,
+        #     )
+        #     for encoding_type, encoder_class in self.encoder_definitions
+        # ]
 
-            logging.info(f"Finished processing dataset: {name} with ID: {id}")
+        # for encoder in encoders:
+        #     logging.info(
+        #         f"Starting evaluation for encoder: {encoder['encoding']}, dataset: {name}, ID: {id}, num_slices: {self.num_slices}, num_dimensions: {self.num_dimensions}"
+        #     )
+
+        #     X_bin = binarize(encoder, X)
+        #     X_train_bin = binarize(encoder, X_train)
+
+        #     self.evaluate_model(X_train_bin, X_bin, y_train, y, encoder)
+
+        # logging.info(
+        #     f"Finished processing dataset: {name} with ID: {id}, num_slices: {self.num_slices}, num_dimensions: {self.num_dimensions}"
+        # )

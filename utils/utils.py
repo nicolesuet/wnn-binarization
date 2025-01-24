@@ -1,4 +1,5 @@
 import os
+from sklearn.datasets import fetch_openml
 from ucimlrepo import fetch_ucirepo
 import logging
 import pandas as pd
@@ -30,43 +31,22 @@ def load_from_uci(id: int):
     return X, y, name
 
 
-def load_mnist():
-    logging.info("Fetching MNIST dataset without transformation (raw)")
-
-    # MNIST dataset with no transformation (raw images)
-    train_dataset = torchvision.datasets.MNIST(
-        root="./data", train=True, download=True, transform=None
-    )
-    test_dataset = torchvision.datasets.MNIST(
-        root="./data", train=False, download=True, transform=None
-    )
-
-    # Flatten the images into 1D vectors (28x28 pixels -> 784 features per image)
-    X_train = torch.stack(
-        [torch.tensor(np.array(x[0]).flatten()) for x in train_dataset]
-    )  # Flatten images to 1D vector
-    y_train = torch.tensor([x[1] for x in train_dataset])
-
-    X_test = torch.stack(
-        [torch.tensor(np.array(x[0]).flatten()) for x in test_dataset]
-    )  # Flatten images to 1D vector
-    y_test = torch.tensor([x[1] for x in test_dataset])
-
-    return X_train, X_test, y_train, y_test, "MNIST"
-
-
 def get_min_max(X):
     logging.info("Calculating min and max values for the dataset")
-    min = np.array(X.values).flatten().min()
-    max = np.array(X.values).flatten().max()
-    logging.info(f"Min value: {min}, Max value: {max}")
-    return min, max
-
+    
+    if hasattr(X, 'values'):
+        X = X.values
+    
+    min_val = np.array(X).flatten().min()
+    max_val = np.array(X).flatten().max()
+    
+    logging.info(f"Min value: {min_val}, Max value: {max_val}")
+    return min_val, max_val
 
 def create_encoder(
     encoding_type,
     encoder_class,
-    bins,
+    num_bits_thermometer,
     data,
     min,
     max,
@@ -76,19 +56,71 @@ def create_encoder(
 
     logging.info(f"Creating encoder of type: {encoding_type}")
 
+    if data.dtype == torch.long:  # Check if the dtype is integer
+        data = data.float()  # Convert to floating-point dtype
+
     if encoding_type == "Scatter Code":
         return {
             "encoding": encoding_type,
             "encoder": encoder_class(num_slices, num_dimensions, min, max),
         }
 
-    return {"encoding": encoding_type, "encoder": encoder_class(bins).fit(data)}
+    return {"encoding": encoding_type, "encoder": encoder_class(num_bits_thermometer).fit(data)}
 
 
 def binarize(encoder, data):
     logging.info(f"Binarizing data using encoder: {encoder['encoding']}")
 
-    if encoder["encoding"] == "Scatter Code":
-        return encoder["encoder"](torch.tensor(data)).flatten(start_dim=1)
+    data = to_tensor(data)
 
-    return encoder["encoder"].binarize(torch.tensor(data)).flatten(start_dim=1)
+    if encoder["encoding"] == "Scatter Code":
+        return encoder["encoder"](data).flatten(start_dim=1)
+
+    return encoder["encoder"].binarize(data).flatten(start_dim=1)
+
+def load_mnist():
+    logging.info("Fetching MNIST dataset")
+
+    mnist = fetch_openml('mnist_784', version=1, as_frame=False)
+    X, y = mnist.data, mnist.target
+    y = y.astype(np.uint8)
+    
+    return X[:1000], y[:1000], "MNIST"
+
+def to_tensor(X):
+    return torch.tensor(X.values) if hasattr(X, 'values') else torch.tensor(X)
+
+def to_int_list(data):
+    if isinstance(data, np.ndarray):
+        return data.astype(int).tolist()
+    elif isinstance(data, pd.DataFrame):
+        return data.values.astype(int).tolist()
+    elif isinstance(data, torch.Tensor):
+        return data.numpy().astype(int).tolist()
+    else:
+        raise TypeError(
+            f"Data must be a NumPy array, Pandas DataFrame, or PyTorch Tensor, but got {type(data)}"
+        )
+
+def to_list(data):
+    if isinstance(data, list):
+        data = np.array(data)
+    return data
+
+def prepare_labels(y_true, y_pred):
+
+    y_true = np.array(y_true)
+    y_pred = np.array(y_pred)
+    
+    # If y_true or y_pred contains strings, map them to integers
+    if y_true.dtype.kind in ['U', 'O']:  # 'U' for Unicode strings, 'O' for object (mixed types)
+        unique_labels = np.unique(np.concatenate([y_true, y_pred]))
+        label_mapping = {label: idx for idx, label in enumerate(unique_labels)}
+        y_true = np.array([label_mapping[label] for label in y_true], dtype=np.uint8)
+        y_pred = np.array([label_mapping[label] for label in y_pred], dtype=np.uint8)
+    else:
+        # Convert to uint8 if they are not already numeric
+        y_true = y_true.astype(np.uint8)
+        y_pred = y_pred.astype(np.uint8)
+    
+    return y_true, y_pred

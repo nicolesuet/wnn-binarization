@@ -1,6 +1,7 @@
 from wisard import Wisard
 import os
 import logging
+import threading
 
 log_file = os.path.join(os.path.dirname(__file__), "wisard.log")
 logging.basicConfig(
@@ -25,34 +26,39 @@ datasets_ids = [
     "mnist",  # MNIST
 ]
 
-wisard = Wisard(
-    num_slices=10,
-    num_dimensions=20,
-    address_size=10,
-    ignore_zero=False,
-    verbose=False,
-    num_bits_thermometer=10,
-    datasets_ids=datasets_ids,
-)
+# num_slices_range = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+# num_dimensions_range = [20, 40, 60, 80, 100, 120, 140, 160, 180, 200]
 
-wisard.run()
+num_slices_range = [10]
+num_dimensions_range = [20]
 
-num_slices_range = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
-num_dimensions_range = [20, 40, 60, 80, 100, 120, 140, 160, 180, 200]
+def run_wisard(num_slices, num_dimensions, datasets_ids):
+    logging.info(f"Running Wisard with num_slices={num_slices}, num_dimensions={num_dimensions}")
+    
+    wisard = Wisard(
+        num_slices=num_slices,
+        num_dimensions=num_dimensions,
+        address_size=10,
+        ignore_zero=False,
+        verbose=False,
+        num_bits_thermometer=10,
+        datasets_ids=datasets_ids,
+        epochs=1
+    )
+    
+    wisard.run()
 
+
+threads = []
 
 for num_slices in num_slices_range:
-    logging.info(f"Running Wisard with num_slices={num_slices}")
     for num_dimensions in num_dimensions_range:
-        logging.info(f"Running Wisard with num_dimensions={num_dimensions} and num_slices={num_slices}")
-        wisard = Wisard(
-            num_slices=num_slices,
-            num_dimensions=num_dimensions,
-            address_size=10,
-            ignore_zero=False,
-            verbose=False,
-            num_bits_thermometer=10,
-            datasets_ids=datasets_ids,
+        thread = threading.Thread(
+            target=run_wisard,
+            args=(num_slices, num_dimensions, datasets_ids)
         )
-        wisard.run()
+        threads.append(thread)
+        thread.start()
 
+for thread in threads:
+    thread.join()
