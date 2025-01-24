@@ -15,7 +15,8 @@ from utils import (
     get_min_max,
     load_mnist,
     load_from_uci,
-    to_tensor
+    to_tensor,
+    encode_labels,
 )
 from torch import nn
 import torch_dwn as dwn
@@ -97,9 +98,9 @@ class DWN(object):
                 for encoding_type, encoder_class in self.encoder_definitions
             ]
 
-            label_encoder = LabelEncoder()
-            y_train = label_encoder.fit_transform(y_train)
-            y_test = label_encoder.fit_transform(y_test)
+            y_train, y_test = self.encode_labels(y_train, y_test)
+            y_train = y_train.to(self.device)
+            y_test = y_test.to(self.device)
 
             for encoder in encoders:
                 logging.info(

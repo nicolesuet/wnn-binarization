@@ -1,7 +1,6 @@
 import os
 import threading
 import numpy as np
-import torch
 from sklearn.metrics import (
     confusion_matrix,
     accuracy_score,

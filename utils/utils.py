@@ -3,9 +3,9 @@ from sklearn.datasets import fetch_openml
 from ucimlrepo import fetch_ucirepo
 import logging
 import pandas as pd
-import torchvision
 import torch
 import numpy as np
+
 
 def add_header(csv_file):
     file_exists = os.path.isfile(csv_file)
@@ -33,15 +33,16 @@ def load_from_uci(id: int):
 
 def get_min_max(X):
     logging.info("Calculating min and max values for the dataset")
-    
-    if hasattr(X, 'values'):
+
+    if hasattr(X, "values"):
         X = X.values
-    
+
     min_val = np.array(X).flatten().min()
     max_val = np.array(X).flatten().max()
-    
+
     logging.info(f"Min value: {min_val}, Max value: {max_val}")
     return min_val, max_val
+
 
 def create_encoder(
     encoding_type,
@@ -65,7 +66,10 @@ def create_encoder(
             "encoder": encoder_class(num_slices, num_dimensions, min, max),
         }
 
-    return {"encoding": encoding_type, "encoder": encoder_class(num_bits_thermometer).fit(data)}
+    return {
+        "encoding": encoding_type,
+        "encoder": encoder_class(num_bits_thermometer).fit(data),
+    }
 
 
 def binarize(encoder, data):
@@ -78,17 +82,20 @@ def binarize(encoder, data):
 
     return encoder["encoder"].binarize(data).flatten(start_dim=1)
 
+
 def load_mnist():
     logging.info("Fetching MNIST dataset")
 
-    mnist = fetch_openml('mnist_784', version=1, as_frame=False)
+    mnist = fetch_openml("mnist_784", version=1, as_frame=False, n_retries=10, delay=5)
     X, y = mnist.data, mnist.target
     y = y.astype(np.uint8)
-    
+
     return X[:1000], y[:1000], "MNIST"
 
+
 def to_tensor(X):
-    return torch.tensor(X.values) if hasattr(X, 'values') else torch.tensor(X)
+    return torch.tensor(X.values) if hasattr(X, "values") else torch.tensor(X)
+
 
 def to_int_list(data):
     if isinstance(data, np.ndarray):
@@ -102,18 +109,23 @@ def to_int_list(data):
             f"Data must be a NumPy array, Pandas DataFrame, or PyTorch Tensor, but got {type(data)}"
         )
 
+
 def to_list(data):
     if isinstance(data, list):
         data = np.array(data)
     return data
 
+
 def prepare_labels(y_true, y_pred):
 
     y_true = np.array(y_true)
     y_pred = np.array(y_pred)
-    
+
     # If y_true or y_pred contains strings, map them to integers
-    if y_true.dtype.kind in ['U', 'O']:  # 'U' for Unicode strings, 'O' for object (mixed types)
+    if y_true.dtype.kind in [
+        "U",
+        "O",
+    ]:  # 'U' for Unicode strings, 'O' for object (mixed types)
         unique_labels = np.unique(np.concatenate([y_true, y_pred]))
         label_mapping = {label: idx for idx, label in enumerate(unique_labels)}
         y_true = np.array([label_mapping[label] for label in y_true], dtype=np.uint8)
@@ -122,5 +134,28 @@ def prepare_labels(y_true, y_pred):
         # Convert to uint8 if they are not already numeric
         y_true = y_true.astype(np.uint8)
         y_pred = y_pred.astype(np.uint8)
-    
+
     return y_true, y_pred
+
+def encode_labels(y_train, y_test):
+    """
+    Encodes labels to ensure they are zero-indexed and contiguous using pandas.factorize.
+    Args:
+        y_train: List or array of training labels.
+        y_test: List or array of testing labels.
+    Returns:
+        y_train_encoded: Encoded training labels as a PyTorch tensor.
+        y_test_encoded: Encoded testing labels as a PyTorch tensor.
+    """
+    # Combine training and testing labels
+    all_labels = pd.Series(y_train + y_test)
+
+    # Factorize labels (automatically zero-indexed and contiguous)
+    y_train_encoded, unique_labels = pd.factorize(y_train, sort=True)
+    y_test_encoded, _ = pd.factorize(y_test, sort=True)
+
+    # Convert to PyTorch tensors
+    y_train_encoded = torch.tensor(y_train_encoded, dtype=torch.long)
+    y_test_encoded = torch.tensor(y_test_encoded, dtype=torch.long)
+
+    return y_train_encoded, y_test_encoded
