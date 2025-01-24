@@ -152,6 +152,23 @@ class DWN(object):
                     y_train[indices].cuda(self.device),
                 )
                 outputs = model(batch_x)
+                
+                if batch_y.dim() > 1:
+                    batch_y = torch.argmax(batch_y, dim=1)  # Convert one-hot or binary to class indices
+
+                # Validate batch_y
+                num_classes = model[-1].k  # Number of classes in the model's output
+                if (batch_y < 0).any() or (batch_y >= num_classes).any():
+                    raise ValueError("batch_y contains invalid class indices!")
+
+                # Forward pass
+                outputs = model(batch_x)
+
+                # Check for invalid values in outputs
+                if torch.isnan(outputs).any() or torch.isinf(outputs).any():
+                    raise ValueError("Outputs contain NaN or inf values!")
+
+                
                 loss = cross_entropy(outputs, batch_y)
                 loss.backward()
                 optimizer.step()
