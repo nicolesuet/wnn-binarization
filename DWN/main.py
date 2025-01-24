@@ -44,6 +44,7 @@ def run_dwn(num_slices, num_dimensions, datasets_ids):
         num_bits_thermometer=10,
         datasets_ids=datasets_ids,
         epochs=1,
+        batch_size=32,
     )
 
     dwn_obj.run()

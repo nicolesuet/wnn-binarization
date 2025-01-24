@@ -32,6 +32,7 @@ class DWN(object):
     csv_file: str
     epochs: int
     device: str
+    batch_size: int
 
     def __init__(
         self,
@@ -40,12 +41,14 @@ class DWN(object):
         num_bits_thermometer,
         datasets_ids,
         epochs=10,
+        batch_size=32,
     ):
         self.num_slices = num_slices
         self.num_dimensions = num_dimensions
         self.num_bits_thermometer = num_bits_thermometer
         self.datasets_ids = datasets_ids
         self.epochs = epochs
+        self.batch_size = batch_size
 
         self.encoder_definitions = [
             ("Distributive", DistributiveThermometer),
