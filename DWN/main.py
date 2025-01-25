@@ -51,7 +51,7 @@ def run_dwn(num_slices, num_dimensions, datasets_ids):
     log_resource_usage()
 
 # Limit the number of concurrent threads
-MAX_THREADS = 4
+MAX_THREADS = 2
 
 with ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
     futures = []

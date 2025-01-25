@@ -52,7 +52,7 @@ def run_wisard(num_slices, num_dimensions, datasets_ids):
     wisard.run()
 
 # Limit the number of concurrent threads
-MAX_THREADS = 4  # Adjust this based on your system's capabilities
+MAX_THREADS = 2  # Adjust this based on your system's capabilities
 
 # Use ThreadPoolExecutor to manage threads
 with ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
