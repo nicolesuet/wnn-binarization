@@ -154,15 +154,15 @@ class DWN(object):
                     x_train[indices].cuda(self.device).float(),
                     y_train[indices].cuda(self.device),
                 )
-                outputs = model(batch_x)
-                
+
+                # Ensure batch_y is 1D and contains valid class indices
                 if batch_y.dim() > 1:
                     batch_y = torch.argmax(batch_y, dim=1)  # Convert one-hot or binary to class indices
 
                 # Validate batch_y
                 num_classes = model[-1].k  # Number of classes in the model's output
                 if (batch_y < 0).any() or (batch_y >= num_classes).any():
-                    raise ValueError("batch_y contains invalid class indices!")
+                    raise ValueError(f"batch_y contains invalid class indices! Valid range is [0, {num_classes - 1}], but found {torch.unique(batch_y)}")
 
                 # Forward pass
                 outputs = model(batch_x)
