@@ -1,0 +1,1315 @@
+model,time,delta_time,dataset,encoding,num_slices,num_dimensions,accuracy
+Wisard,2025-01-25 14:16:26,0.2839,EEG Eye State,Distributive,,,61.35
+Wisard,2025-01-25 14:16:32,0.0331,EEG Eye State,Distributive,,,89.29
+Wisard,2025-01-25 14:16:33,0.0559,MAGIC Gamma Telescope,Distributive,,,81.16
+Wisard,2025-01-25 14:16:33,0.0364,MAGIC Gamma Telescope,Distributive,,,90.77
+Wisard,2025-01-25 14:16:34,0.0154,Ecoli,Distributive,,,94.67
+Wisard,2025-01-25 14:16:34,0.0246,Ecoli,Distributive,,,94.67
+Wisard,2025-01-25 14:16:34,0.0173,MAGIC Gamma Telescope,Distributive,,,94.67
+Wisard,2025-01-25 14:16:35,0.0450,Maternal Health Risk,Distributive,,,92.56
+Wisard,2025-01-25 14:16:35,0.0152,Wine Quality,Distributive,,,96.0
+Wisard,2025-01-25 14:16:36,0.8068,Maternal Health Risk,Distributive,,,74.07
+Wisard,2025-01-25 14:16:36,0.0036,Glass Identification,Distributive,,,95.33
+Wisard,2025-01-25 14:16:36,0.0489,Iris,Distributive,,,80.37
+Wisard,2025-01-25 14:16:37,0.0227,Maternal Health Risk,Distributive,,,89.72
+Wisard,2025-01-25 14:16:37,0.0291,EEG Eye State,Distributive,,,92.26
+Wisard,2025-01-25 14:16:37,0.0731,EEG Eye State,Distributive,,,79.88
+Wisard,2025-01-25 14:16:37,0.0213,EEG Eye State,Distributive,,,89.72
+Wisard,2025-01-25 14:16:37,0.0323,Maternal Health Risk,Distributive,,,92.26
+Wisard,2025-01-25 14:16:37,0.0117,EEG Eye State,Distributive,,,96.0
+Wisard,2025-01-25 14:16:37,0.0117,Maternal Health Risk,Distributive,,,96.0
+Wisard,2025-01-25 14:16:38,0.0750,Glass Identification,Distributive,,,87.83
+Wisard,2025-01-25 14:16:38,0.0328,EEG Eye State,Distributive,,,98.0
+Wisard,2025-01-25 14:16:38,0.6460,Statlog (Vehicle Silhouettes),Distributive,,,75.0
+Wisard,2025-01-25 14:16:38,0.2454,Iris,Distributive,,,60.95
+Wisard,2025-01-25 14:16:38,0.0170,Maternal Health Risk,Distributive,,,98.0
+Wisard,2025-01-25 14:16:38,0.0438,Maternal Health Risk,Distributive,,,90.48
+Wisard,2025-01-25 14:16:38,0.1155,Glass Identification,Distributive,,,87.94
+Wisard,2025-01-25 14:16:38,0.0430,MAGIC Gamma Telescope,Distributive,,,88.79
+Wisard,2025-01-25 14:16:38,0.0327,Maternal Health Risk,Distributive,,,88.79
+Wisard,2025-01-25 14:16:39,0.5446,Maternal Health Risk,Distributive,,,91.07
+Wisard,2025-01-25 14:16:39,0.9061,MAGIC Gamma Telescope,Distributive,,,60.95
+Wisard,2025-01-25 14:16:39,0.8917,EEG Eye State,Distributive,,,80.67
+Wisard,2025-01-25 14:16:40,0.2453,Maternal Health Risk,Distributive,,,61.72
+Wisard,2025-01-25 14:16:40,0.0662,Glass Identification,Distributive,,,89.25
+Wisard,2025-01-25 14:16:40,0.0640,Maternal Health Risk,Distributive,,,79.88
+Wisard,2025-01-25 14:16:40,0.0891,EEG Eye State,Distributive,,,79.88
+Wisard,2025-01-25 14:16:40,0.0545,EEG Eye State,Distributive,,,79.88
+Wisard,2025-01-25 14:16:40,0.0489,EEG Eye State,Distributive,,,89.25
+Wisard,2025-01-25 14:16:40,0.0923,Wine Quality,Distributive,,,90.18
+Wisard,2025-01-25 14:16:40,0.0259,EEG Eye State,Distributive,,,89.25
+Wisard,2025-01-25 14:16:40,0.2768,EEG Eye State,Distributive,,,62.41
+Wisard,2025-01-25 14:16:40,0.0503,MAGIC Gamma Telescope,Distributive,,,96.67
+Wisard,2025-01-25 14:16:40,0.0724,EEG Eye State,Distributive,,,87.47
+Wisard,2025-01-25 14:16:41,0.0238,Ecoli,Distributive,,,90.18
+Wisard,2025-01-25 14:16:41,0.0208,Statlog (Vehicle Silhouettes),Distributive,,,94.67
+Wisard,2025-01-25 14:16:41,0.2298,Maternal Health Risk,Distributive,,,63.18
+Wisard,2025-01-25 14:16:41,0.0189,Wine Quality,Distributive,,,94.67
+Wisard,2025-01-25 14:16:41,0.0432,MAGIC Gamma Telescope,Distributive,,,78.01
+Wisard,2025-01-25 14:16:41,0.0397,EEG Eye State,Distributive,,,91.67
+Wisard,2025-01-25 14:16:41,0.0173,EEG Eye State,Distributive,,,94.67
+Wisard,2025-01-25 14:16:41,0.0739,Wine Quality,Distributive,,,86.88
+Wisard,2025-01-25 14:16:41,0.3400,Iris,Distributive,,,91.67
+Wisard,2025-01-25 14:16:42,0.4398,Maternal Health Risk,Distributive,,,77.41
+Wisard,2025-01-25 14:16:42,0.0250,EEG Eye State,Distributive,,,90.77
+Wisard,2025-01-25 14:16:42,0.0393,MAGIC Gamma Telescope,Distributive,,,90.77
+Wisard,2025-01-25 14:16:42,0.0213,EEG Eye State,Distributive,,,97.33
+Wisard,2025-01-25 14:16:42,0.0203,EEG Eye State,Distributive,,,97.33
+Wisard,2025-01-25 14:16:42,0.0236,Maternal Health Risk,Distributive,,,97.33
+Wisard,2025-01-25 14:16:42,0.0543,EEG Eye State,Distributive,,,90.65
+Wisard,2025-01-25 14:16:42,0.0071,EEG Eye State,Distributive,,,97.33
+Wisard,2025-01-25 14:16:42,0.0273,MAGIC Gamma Telescope,Distributive,,,90.77
+Wisard,2025-01-25 14:16:42,0.2318,Maternal Health Risk,Distributive,,,62.61
+Wisard,2025-01-25 14:16:42,0.0307,MAGIC Gamma Telescope,Distributive,,,90.65
+Wisard,2025-01-25 14:16:42,0.0755,Maternal Health Risk,Distributive,,,88.18
+Wisard,2025-01-25 14:16:42,0.0946,EEG Eye State,Distributive,,,88.18
+Wisard,2025-01-25 14:16:43,0.0458,Maternal Health Risk,Distributive,,,89.72
+Wisard,2025-01-25 14:16:43,0.2334,MAGIC Gamma Telescope,Distributive,,,62.24
+Wisard,2025-01-25 14:16:45,1.8871,MAGIC Gamma Telescope,Distributive,,,80.84
+Wisard,2025-01-25 14:16:45,0.4975,Maternal Health Risk,Distributive,,,90.48
+Wisard,2025-01-25 14:16:45,1.0366,Maternal Health Risk,Distributive,,,86.76
+Wisard,2025-01-25 14:16:45,0.0208,EEG Eye State,Distributive,,,96.0
+Wisard,2025-01-25 14:16:45,1.0733,Maternal Health Risk,Distributive,,,75.05
+Wisard,2025-01-25 14:16:45,1.1919,MAGIC Gamma Telescope,Distributive,,,75.03
+Wisard,2025-01-25 14:16:45,0.0506,MAGIC Gamma Telescope,Distributive,,,96.0
+Wisard,2025-01-25 14:16:45,1.3957,EEG Eye State,Distributive,,,79.75
+Wisard,2025-01-25 14:16:45,0.0286,EEG Eye State,Distributive,,,96.0
+Wisard,2025-01-25 14:16:45,0.2591,EEG Eye State,Distributive,,,63.34
+Wisard,2025-01-25 14:16:45,0.0382,Iris,Distributive,,,91.37
+Wisard,2025-01-25 14:16:45,0.0175,EEG Eye State,Distributive,,,89.72
+Wisard,2025-01-25 14:16:45,0.0647,Ecoli,Distributive,,,87.35
+Wisard,2025-01-25 14:16:45,0.0513,EEG Eye State,Distributive,,,78.7
+Wisard,2025-01-25 14:16:45,0.0421,Maternal Health Risk,Distributive,,,89.72
+Wisard,2025-01-25 14:16:45,0.2547,Maternal Health Risk,Distributive,,,63.34
+Wisard,2025-01-25 14:16:45,0.0551,EEG Eye State,Distributive,,,91.37
+Wisard,2025-01-25 14:16:46,0.0147,EEG Eye State,Distributive,,,97.33
+Wisard,2025-01-25 14:16:47,0.1301,MAGIC Gamma Telescope,Distributive,,,97.33
+Wisard,2025-01-25 14:16:47,0.2085,MAGIC Gamma Telescope,Distributive,,,91.67
+Wisard,2025-01-25 14:16:47,1.2992,EEG Eye State,Distributive,,,73.93
+Wisard,2025-01-25 14:16:47,0.4975,Glass Identification,Distributive,,,74.79
+Wisard,2025-01-25 14:16:47,0.0499,MAGIC Gamma Telescope,Distributive,,,89.88
+Wisard,2025-01-25 14:16:47,0.0564,Maternal Health Risk,Distributive,,,87.71
+Wisard,2025-01-25 14:16:47,0.0533,EEG Eye State,Distributive,,,80.77
+Wisard,2025-01-25 14:16:47,0.2553,MAGIC Gamma Telescope,Distributive,,,90.19
+Wisard,2025-01-25 14:16:48,0.2737,Maternal Health Risk,Distributive,,,59.89
+Wisard,2025-01-25 14:16:48,0.6681,Maternal Health Risk,Distributive,,,78.97
+Wisard,2025-01-25 14:16:48,0.0430,Glass Identification,Distributive,,,91.37
+Wisard,2025-01-25 14:16:49,0.3020,Maternal Health Risk,Distributive,,,89.72
+Wisard,2025-01-25 14:16:49,1.1712,MAGIC Gamma Telescope,Distributive,,,73.48
+Wisard,2025-01-25 14:16:49,0.8533,Statlog (Vehicle Silhouettes),Distributive,,,72.55
+Wisard,2025-01-25 14:16:49,1.1277,Maternal Health Risk,Distributive,,,73.48
+Wisard,2025-01-25 14:16:49,0.0276,Iris,Distributive,,,89.58
+Wisard,2025-01-25 14:16:49,0.0714,Maternal Health Risk,Distributive,,,86.76
+Wisard,2025-01-25 14:16:49,0.0202,MAGIC Gamma Telescope,Distributive,,,89.72
+Wisard,2025-01-25 14:16:49,0.0117,Glass Identification,Distributive,,,95.33
+Wisard,2025-01-25 14:16:50,1.0883,Wine Quality,Distributive,,,80.84
+Wisard,2025-01-25 14:16:50,0.0788,Maternal Health Risk,Distributive,,,88.65
+Wisard,2025-01-25 14:16:50,0.0300,Maternal Health Risk,Distributive,,,88.79
+Wisard,2025-01-25 14:16:50,0.0131,Statlog (Vehicle Silhouettes),Distributive,,,90.18
+Wisard,2025-01-25 14:16:50,0.0664,MAGIC Gamma Telescope,Distributive,,,77.42
+Wisard,2025-01-25 14:16:50,0.0192,Statlog (Vehicle Silhouettes),Distributive,,,98.67
+Wisard,2025-01-25 14:16:50,0.0655,Maternal Health Risk,Distributive,,,88.65
+Wisard,2025-01-25 14:16:51,0.0353,EEG Eye State,Distributive,,,89.25
+Wisard,2025-01-25 14:16:51,0.0222,Statlog (Vehicle Silhouettes),Distributive,,,89.25
+Wisard,2025-01-25 14:16:51,0.3984,Maternal Health Risk,Distributive,,,79.69
+Wisard,2025-01-25 14:16:51,0.1201,EEG Eye State,Distributive,,,87.71
+Wisard,2025-01-25 14:16:51,0.0097,Glass Identification,Distributive,,,97.33
+Wisard,2025-01-25 14:16:51,0.0051,MAGIC Gamma Telescope,Distributive,,,97.33
+Wisard,2025-01-25 14:16:51,0.3119,MAGIC Gamma Telescope,Distributive,,,75.97
+Wisard,2025-01-25 14:16:51,0.0839,Glass Identification,Distributive,,,90.77
+Wisard,2025-01-25 14:16:52,0.4293,Maternal Health Risk,Distributive,,,62.71
+Wisard,2025-01-25 14:16:52,0.2059,MAGIC Gamma Telescope,Distributive,,,91.07
+Wisard,2025-01-25 14:16:52,0.4559,Statlog (Vehicle Silhouettes),Distributive,,,79.59
+Wisard,2025-01-25 14:16:52,0.0937,Maternal Health Risk,Distributive,,,96.0
+Wisard,2025-01-25 14:16:52,0.0562,Glass Identification,Distributive,,,88.39
+Wisard,2025-01-25 14:16:52,0.2631,Glass Identification,Distributive,,,88.79
+Wisard,2025-01-25 14:16:52,0.0451,Glass Identification,Distributive,,,88.39
+Wisard,2025-01-25 14:16:52,0.7390,Maternal Health Risk,Distributive,,,75.97
+Wisard,2025-01-25 14:16:52,0.0049,Ecoli,Distributive,,,96.67
+Wisard,2025-01-25 14:16:52,0.3827,MAGIC Gamma Telescope,Distributive,,,73.88
+Wisard,2025-01-25 14:16:52,0.2062,MAGIC Gamma Telescope,Distributive,,,87.71
+Wisard,2025-01-25 14:16:52,0.3987,Iris,Distributive,,,88.39
+Wisard,2025-01-25 14:16:53,0.4085,MAGIC Gamma Telescope,Distributive,,,88.79
+Wisard,2025-01-25 14:16:53,0.0643,Glass Identification,Distributive,,,79.49
+Wisard,2025-01-25 14:16:53,0.5508,Maternal Health Risk,Distributive,,,74.73
+Wisard,2025-01-25 14:16:53,0.6269,EEG Eye State,Distributive,,,73.66
+Wisard,2025-01-25 14:16:53,0.0747,MAGIC Gamma Telescope,Distributive,,,79.49
+Wisard,2025-01-25 14:16:53,0.2023,Statlog (Vehicle Silhouettes),Distributive,,,61.74
+Wisard,2025-01-25 14:16:53,0.0103,Statlog (Vehicle Silhouettes),Distributive,,,90.65
+Wisard,2025-01-25 14:16:53,0.0914,EEG Eye State,Distributive,,,79.49
+Wisard,2025-01-25 14:16:53,0.0181,EEG Eye State,Distributive,,,98.0
+Wisard,2025-01-25 14:16:54,1.1580,Glass Identification,Distributive,,,61.74
+Wisard,2025-01-25 14:16:54,0.0865,Iris,Distributive,,,87.47
+Wisard,2025-01-25 14:16:54,0.0076,MAGIC Gamma Telescope,Distributive,,,91.67
+Wisard,2025-01-25 14:16:54,0.0140,EEG Eye State,Distributive,,,91.67
+Wisard,2025-01-25 14:16:54,0.1207,MAGIC Gamma Telescope,Distributive,,,87.83
+Wisard,2025-01-25 14:16:54,1.2698,Maternal Health Risk,Distributive,,,80.18
+Wisard,2025-01-25 14:16:55,0.3566,Glass Identification,Distributive,,,63.57
+Wisard,2025-01-25 14:16:55,0.4391,EEG Eye State,Distributive,,,87.47
+Wisard,2025-01-25 14:16:55,0.0304,Iris,Distributive,,,86.92
+Wisard,2025-01-25 14:16:55,0.0613,Glass Identification,Distributive,,,76.63
+Wisard,2025-01-25 14:16:55,0.0734,Iris,Distributive,,,76.63
+Wisard,2025-01-25 14:16:55,0.2650,MAGIC Gamma Telescope,Distributive,,,63.57
+Wisard,2025-01-25 14:16:55,0.0153,MAGIC Gamma Telescope,Distributive,,,86.92
+Wisard,2025-01-25 14:16:55,0.1673,EEG Eye State,Distributive,,,96.67
+Wisard,2025-01-25 14:16:55,0.2199,MAGIC Gamma Telescope,Distributive,,,76.63
+Wisard,2025-01-25 14:16:55,0.5254,MAGIC Gamma Telescope,Distributive,,,79.41
+Wisard,2025-01-25 14:16:55,0.0341,EEG Eye State,Distributive,,,89.88
+Wisard,2025-01-25 14:16:55,0.4457,Ecoli,Distributive,,,61.91
+Wisard,2025-01-25 14:16:55,0.0611,Maternal Health Risk,Distributive,,,87.47
+Wisard,2025-01-25 14:16:57,1.1359,EEG Eye State,Distributive,,,88.06
+Wisard,2025-01-25 14:16:57,1.2266,Iris,Distributive,,,79.41
+Wisard,2025-01-25 14:16:57,0.3335,Iris,Distributive,,,87.47
+Wisard,2025-01-25 14:16:57,1.6786,Glass Identification,Distributive,,,79.41
+Wisard,2025-01-25 14:16:57,1.3628,Glass Identification,Distributive,,,74.24
+Wisard,2025-01-25 14:16:57,0.5126,Ecoli,Distributive,,,95.33
+Wisard,2025-01-25 14:16:57,1.7616,Iris,Distributive,,,79.48
+Wisard,2025-01-25 14:16:57,0.5779,EEG Eye State,Distributive,,,78.21
+Wisard,2025-01-25 14:16:57,0.7915,EEG Eye State,Distributive,,,88.69
+Wisard,2025-01-25 14:16:58,0.0802,EEG Eye State,Distributive,,,95.33
+Wisard,2025-01-25 14:16:57,0.0125,Maternal Health Risk,Distributive,,,95.33
+Wisard,2025-01-25 14:16:58,0.3284,MAGIC Gamma Telescope,Distributive,,,76.63
+Wisard,2025-01-25 14:16:58,1.1841,Iris,Distributive,,,74.21
+Wisard,2025-01-25 14:16:59,2.0317,Glass Identification,Distributive,,,78.21
+Wisard,2025-01-25 14:16:59,1.5404,MAGIC Gamma Telescope,Distributive,,,88.3
+Wisard,2025-01-25 14:16:59,2.7862,Iris,Distributive,,,80.61
+Wisard,2025-01-25 14:16:59,0.2549,MAGIC Gamma Telescope,Distributive,,,86.41
+Wisard,2025-01-25 14:16:59,1.8005,MAGIC Gamma Telescope,Distributive,,,74.4
+Wisard,2025-01-25 14:16:59,0.1365,Statlog (Vehicle Silhouettes),Distributive,,,81.46
+Wisard,2025-01-25 14:17:00,0.0941,EEG Eye State,Distributive,,,87.38
+Wisard,2025-01-25 14:17:00,0.1286,Wine Quality,Distributive,,,90.77
+Wisard,2025-01-25 14:17:00,0.1085,Maternal Health Risk,Distributive,,,90.18
+Wisard,2025-01-25 14:17:00,0.2096,Maternal Health Risk,Distributive,,,81.46
+Wisard,2025-01-25 14:17:00,0.0367,EEG Eye State,Distributive,,,87.38
+Wisard,2025-01-25 14:17:00,0.1567,EEG Eye State,Distributive,,,86.52
+Wisard,2025-01-25 14:17:00,0.6292,MAGIC Gamma Telescope,Distributive,,,86.52
+Wisard,2025-01-25 14:17:01,0.2900,Maternal Health Risk,Distributive,,,87.38
+Wisard,2025-01-25 14:17:01,0.9938,Wine Quality,Distributive,,,78.26
+Wisard,2025-01-25 14:17:01,0.6258,Ecoli,Distributive,,,77.32
+Wisard,2025-01-25 14:17:01,0.2176,Glass Identification,Distributive,,,86.45
+Wisard,2025-01-25 14:17:01,0.4709,Ecoli,Distributive,,,61.46
+Wisard,2025-01-25 14:17:01,0.0903,MAGIC Gamma Telescope,Distributive,,,98.0
+Wisard,2025-01-25 14:17:01,0.3692,MAGIC Gamma Telescope,Distributive,,,91.07
+Wisard,2025-01-25 14:17:01,0.0823,EEG Eye State,Distributive,,,98.0
+Wisard,2025-01-25 14:17:01,0.8271,EEG Eye State,Distributive,,,61.46
+Wisard,2025-01-25 14:17:01,0.2199,Wine Quality,Distributive,,,89.72
+Wisard,2025-01-25 14:17:01,0.8457,Ecoli,Distributive,,,86.76
+Wisard,2025-01-25 14:17:02,1.0936,Maternal Health Risk,Distributive,,,78.8
+Wisard,2025-01-25 14:17:02,0.9572,Wine Quality,Distributive,,,86.76
+Wisard,2025-01-25 14:17:02,0.0076,EEG Eye State,Distributive,,,96.0
+Wisard,2025-01-25 14:17:03,1.5168,EEG Eye State,Distributive,,,62.95
+Wisard,2025-01-25 14:17:03,0.9100,EEG Eye State,Distributive,,,61.37
+Wisard,2025-01-25 14:17:03,2.0146,MAGIC Gamma Telescope,Distributive,,,75.62
+Wisard,2025-01-25 14:17:03,0.1846,Wine Quality,Distributive,,,81.56
+Wisard,2025-01-25 14:17:03,1.9938,MAGIC Gamma Telescope,Distributive,,,62.95
+Wisard,2025-01-25 14:17:03,0.5197,EEG Eye State,Distributive,,,88.69
+Wisard,2025-01-25 14:17:03,1.1551,EEG Eye State,Distributive,,,78.96
+Wisard,2025-01-25 14:17:03,0.2657,Ecoli,Distributive,,,90.19
+Wisard,2025-01-25 14:17:04,0.2982,Wine Quality,Distributive,,,87.94
+Wisard,2025-01-25 14:17:04,0.0072,Maternal Health Risk,Distributive,,,96.0
+Wisard,2025-01-25 14:17:04,0.6412,Ecoli,Distributive,,,62.78
+Wisard,2025-01-25 14:17:04,0.6651,Maternal Health Risk,Distributive,,,88.69
+Wisard,2025-01-25 14:17:04,1.3888,MAGIC Gamma Telescope,Distributive,,,62.31
+Wisard,2025-01-25 14:17:04,0.7206,Ecoli,Distributive,,,78.3
+Wisard,2025-01-25 14:17:04,0.0032,MAGIC Gamma Telescope,Distributive,,,96.0
+Wisard,2025-01-25 14:17:05,1.4911,Statlog (Vehicle Silhouettes),Distributive,,,63.11
+Wisard,2025-01-25 14:17:05,0.4545,EEG Eye State,Distributive,,,90.77
+Wisard,2025-01-25 14:17:05,1.6865,EEG Eye State,Distributive,,,62.31
+Wisard,2025-01-25 14:17:05,0.0096,EEG Eye State,Distributive,,,96.67
+Wisard,2025-01-25 14:17:06,0.5880,MAGIC Gamma Telescope,Distributive,,,92.06
+Wisard,2025-01-25 14:17:06,0.0084,Maternal Health Risk,Distributive,,,95.33
+Wisard,2025-01-25 14:17:07,0.5414,Wine Quality,Distributive,,,90.77
+Wisard,2025-01-25 14:17:09,3.3768,Maternal Health Risk,Distributive,,,78.69
+Wisard,2025-01-25 14:17:07,1.3560,Wine Quality,Distributive,,,91.12
+Wisard,2025-01-25 14:17:07,2.2262,Ecoli,Distributive,,,75.09
+Wisard,2025-01-25 14:17:09,2.0423,MAGIC Gamma Telescope,Distributive,,,88.79
+Wisard,2025-01-25 14:17:09,3.6387,EEG Eye State,Distributive,,,75.7
+Wisard,2025-01-25 14:17:09,3.1726,EEG Eye State,Distributive,,,77.3
+Wisard,2025-01-25 14:17:09,0.0295,Maternal Health Risk,Distributive,,,96.67
+Wisard,2025-01-25 14:17:09,0.0042,Maternal Health Risk,Distributive,,,96.67
+Wisard,2025-01-25 14:17:10,3.8559,MAGIC Gamma Telescope,Distributive,,,62.58
+Wisard,2025-01-25 14:17:10,0.2492,EEG Eye State,Distributive,,,88.79
+Wisard,2025-01-25 14:17:11,1.9424,Ecoli,Distributive,,,78.2
+Wisard,2025-01-25 14:17:11,3.5586,Ecoli,Distributive,,,77.97
+Wisard,2025-01-25 14:17:11,4.7581,Wine Quality,Distributive,,,63.6
+Wisard,2025-01-25 14:17:11,0.2431,Ecoli,Distributive,,,90.65
+Wisard,2025-01-25 14:17:11,1.0143,EEG Eye State,Distributive,,,62.64
+Wisard,2025-01-25 14:17:12,3.0131,EEG Eye State,Distributive,,,72.81
+Wisard,2025-01-25 14:17:12,0.0301,Maternal Health Risk,Distributive,,,96.67
+Wisard,2025-01-25 14:17:12,2.2151,Wine Quality,Distributive,,,75.71
+Wisard,2025-01-25 14:17:13,0.0776,MAGIC Gamma Telescope,Distributive,,,96.67
+Wisard,2025-01-25 14:17:13,2.5166,Ecoli,Distributive,,,78.81
+Wisard,2025-01-25 14:17:13,1.0206,MAGIC Gamma Telescope,Distributive,,,91.07
+Wisard,2025-01-25 14:17:13,0.5162,Statlog (Vehicle Silhouettes),Distributive,,,96.67
+Wisard,2025-01-25 14:17:13,0.0990,MAGIC Gamma Telescope,Distributive,,,90.48
+Wisard,2025-01-25 14:17:13,0.9252,Maternal Health Risk,Distributive,,,79.78
+Wisard,2025-01-25 14:17:13,1.4775,Maternal Health Risk,Distributive,,,61.4
+Wisard,2025-01-25 14:17:13,0.9165,EEG Eye State,Distributive,,,61.06
+Wisard,2025-01-25 14:17:13,0.0475,EEG Eye State,Distributive,,,92.52
+Wisard,2025-01-25 14:17:13,0.2183,Glass Identification,Distributive,,,90.48
+Wisard,2025-01-25 14:17:13,0.0980,EEG Eye State,Distributive,,,94.67
+Wisard,2025-01-25 14:17:13,0.2083,MAGIC Gamma Telescope,Distributive,,,96.0
+Wisard,2025-01-25 14:17:13,0.2131,Iris,Distributive,,,90.48
+Wisard,2025-01-25 14:17:13,0.2582,Maternal Health Risk,Distributive,,,90.48
+Wisard,2025-01-25 14:17:14,2.2301,Ecoli,Distributive,,,74.32
+Wisard,2025-01-25 14:17:13,0.2435,Maternal Health Risk,Distributive,,,92.52
+Wisard,2025-01-25 14:17:14,1.6512,EEG Eye State,Distributive,,,62.12
+Wisard,2025-01-25 14:17:14,0.9621,EEG Eye State,Distributive,,,87.12
+Wisard,2025-01-25 14:17:14,0.2105,EEG Eye State,Distributive,,,91.96
+Wisard,2025-01-25 14:17:14,0.8201,Maternal Health Risk,Distributive,,,87.12
+Wisard,2025-01-25 14:17:14,1.2125,EEG Eye State,Distributive,,,62.68
+Wisard,2025-01-25 14:17:14,1.3420,EEG Eye State,Distributive,,,80.28
+Wisard,2025-01-25 14:17:15,0.9132,Maternal Health Risk,Distributive,,,87.59
+Wisard,2025-01-25 14:17:15,0.1019,Statlog (Vehicle Silhouettes),Distributive,,,97.33
+Wisard,2025-01-25 14:17:15,1.4128,EEG Eye State,Distributive,,,77.94
+Wisard,2025-01-25 14:17:16,0.0156,MAGIC Gamma Telescope,Distributive,,,96.67
+Wisard,2025-01-25 14:17:16,2.1764,Maternal Health Risk,Distributive,,,63.75
+Wisard,2025-01-25 14:17:16,1.9444,EEG Eye State,Distributive,,,75.42
+Wisard,2025-01-25 14:17:16,0.3748,Maternal Health Risk,Distributive,,,78.4
+Wisard,2025-01-25 14:17:16,0.5961,Maternal Health Risk,Distributive,,,78.8
+Wisard,2025-01-25 14:17:16,0.2794,MAGIC Gamma Telescope,Distributive,,,78.4
+Wisard,2025-01-25 14:17:16,0.1521,Glass Identification,Distributive,,,96.67
+Wisard,2025-01-25 14:17:16,0.1426,MAGIC Gamma Telescope,Distributive,,,96.67
+Wisard,2025-01-25 14:17:16,0.0368,Statlog (Vehicle Silhouettes),Distributive,,,96.67
+Wisard,2025-01-25 14:17:16,1.3625,MAGIC Gamma Telescope,Distributive,,,63.86
+Wisard,2025-01-25 14:17:17,0.2269,Statlog (Vehicle Silhouettes),Distributive,,,90.48
+Wisard,2025-01-25 14:17:16,0.7760,MAGIC Gamma Telescope,Distributive,,,90.48
+Wisard,2025-01-25 14:17:17,0.9547,Iris,Distributive,,,62.78
+Wisard,2025-01-25 14:17:17,1.3769,MAGIC Gamma Telescope,Distributive,,,61.98
+Wisard,2025-01-25 14:17:18,0.0968,Maternal Health Risk,Distributive,,,92.26
+Wisard,2025-01-25 14:17:20,3.7473,EEG Eye State,Distributive,,,79.09
+Wisard,2025-01-25 14:17:17,1.0260,EEG Eye State,Distributive,,,88.79
+Wisard,2025-01-25 14:17:20,3.1913,MAGIC Gamma Telescope,Distributive,,,88.18
+Wisard,2025-01-25 14:17:20,2.8414,MAGIC Gamma Telescope,Distributive,,,91.59
+Wisard,2025-01-25 14:17:20,3.0212,Iris,Distributive,,,76.53
+Wisard,2025-01-25 14:17:20,2.6884,Statlog (Vehicle Silhouettes),Distributive,,,86.88
+Wisard,2025-01-25 14:17:20,2.7791,MAGIC Gamma Telescope,Distributive,,,86.88
+Wisard,2025-01-25 14:17:21,3.9008,MAGIC Gamma Telescope,Distributive,,,61.71
+Wisard,2025-01-25 14:17:21,3.9052,MAGIC Gamma Telescope,Distributive,,,63.48
+Wisard,2025-01-25 14:17:21,0.0307,Wine Quality,Distributive,,,90.19
+Wisard,2025-01-25 14:17:21,4.1630,EEG Eye State,Distributive,,,78.67
+Wisard,2025-01-25 14:17:21,4.0426,Maternal Health Risk,Distributive,,,74.08
+Wisard,2025-01-25 14:17:21,0.2598,EEG Eye State,Distributive,,,86.41
+Wisard,2025-01-25 14:17:21,0.9730,Iris,Distributive,,,86.17
+Wisard,2025-01-25 14:17:21,0.9378,Maternal Health Risk,Distributive,,,81.11
+Wisard,2025-01-25 14:17:22,0.4714,MAGIC Gamma Telescope,Distributive,,,86.41
+Wisard,2025-01-25 14:17:22,0.7441,Iris,Distributive,,,89.72
+Wisard,2025-01-25 14:17:22,4.7058,EEG Eye State,Distributive,,,76.09
+Wisard,2025-01-25 14:17:22,0.0634,Glass Identification,Distributive,,,97.33
+Wisard,2025-01-25 14:17:22,0.1222,Maternal Health Risk,Distributive,,,97.33
+Wisard,2025-01-25 14:17:22,1.3646,Glass Identification,Distributive,,,62.54
+Wisard,2025-01-25 14:17:23,2.1366,EEG Eye State,Distributive,,,62.54
+Wisard,2025-01-25 14:17:23,2.2367,Ecoli,Distributive,,,75.31
+Wisard,2025-01-25 14:17:24,0.5723,Glass Identification,Distributive,,,91.67
+Wisard,2025-01-25 14:17:24,0.4783,Maternal Health Risk,Distributive,,,91.67
+Wisard,2025-01-25 14:17:24,2.0165,MAGIC Gamma Telescope,Distributive,,,78.81
+Wisard,2025-01-25 14:17:25,1.2003,MAGIC Gamma Telescope,Distributive,,,96.67
+Wisard,2025-01-25 14:17:25,1.8756,Glass Identification,Distributive,,,77.12
+Wisard,2025-01-25 14:17:25,2.8751,Statlog (Vehicle Silhouettes),Distributive,,,63.2
+Wisard,2025-01-25 14:17:25,2.4559,MAGIC Gamma Telescope,Distributive,,,79.18
+Wisard,2025-01-25 14:17:25,3.2326,Maternal Health Risk,Distributive,,,62.18
+Wisard,2025-01-25 14:17:26,2.7805,Iris,Distributive,,,62.61
+Wisard,2025-01-25 14:17:26,1.4577,Wine Quality,Distributive,,,89.88
+Wisard,2025-01-25 14:17:26,0.3722,EEG Eye State,Distributive,,,79.68
+Wisard,2025-01-25 14:17:26,3.3085,Iris,Distributive,,,78.72
+Wisard,2025-01-25 14:17:26,1.9672,MAGIC Gamma Telescope,Distributive,,,90.65
+Wisard,2025-01-25 14:17:26,1.1889,Glass Identification,Distributive,,,87.94
+Wisard,2025-01-25 14:17:27,3.2850,Wine Quality,Distributive,,,81.13
+Wisard,2025-01-25 14:17:27,0.8061,MAGIC Gamma Telescope,Distributive,,,92.26
+Wisard,2025-01-25 14:17:27,0.8412,Maternal Health Risk,Distributive,,,85.05
+Wisard,2025-01-25 14:17:27,2.6286,Iris,Distributive,,,76.78
+Wisard,2025-01-25 14:17:27,4.0848,Glass Identification,Distributive,,,79.7
+Wisard,2025-01-25 14:17:27,4.1622,EEG Eye State,Distributive,,,75.68
+Wisard,2025-01-25 14:17:27,1.5471,Glass Identification,Distributive,,,63.78
+Wisard,2025-01-25 14:17:27,3.8282,EEG Eye State,Distributive,,,81.13
+Wisard,2025-01-25 14:17:28,2.0492,MAGIC Gamma Telescope,Distributive,,,74.43
+Wisard,2025-01-25 14:17:28,2.1672,Wine Quality,Distributive,,,75.09
+Wisard,2025-01-25 14:17:31,3.4264,EEG Eye State,Distributive,,,61.87
+Wisard,2025-01-25 14:17:31,3.9700,MAGIC Gamma Telescope,Distributive,,,75.86
+Wisard,2025-01-25 14:17:31,0.7641,EEG Eye State,Distributive,,,87.0
+Wisard,2025-01-25 14:17:31,3.1507,Maternal Health Risk,Distributive,,,61.38
+Wisard,2025-01-25 14:17:31,4.0603,Maternal Health Risk,Distributive,,,74.94
+Wisard,2025-01-25 14:17:31,3.3202,Statlog (Vehicle Silhouettes),Distributive,,,75.57
+Wisard,2025-01-25 14:17:32,0.9724,MAGIC Gamma Telescope,Distributive,,,75.21
+Wisard,2025-01-25 14:17:31,0.6772,Glass Identification,Distributive,,,62.84
+Wisard,2025-01-25 14:17:32,0.5091,Maternal Health Risk,Distributive,,,78.05
+Wisard,2025-01-25 14:17:33,0.6466,Wine Quality,Distributive,,,87.94
+Wisard,2025-01-25 14:17:33,0.4426,Wine Quality,Distributive,,,78.6
+Wisard,2025-01-25 14:17:33,1.0768,Maternal Health Risk,Distributive,,,63.29
+Wisard,2025-01-25 14:17:33,0.2251,Glass Identification,Distributive,,,97.33
+Wisard,2025-01-25 14:17:33,1.4924,Maternal Health Risk,Distributive,,,80.93
+Wisard,2025-01-25 14:17:33,1.1125,Glass Identification,Distributive,,,75.63
+Wisard,2025-01-25 14:17:33,0.5198,Statlog (Vehicle Silhouettes),Distributive,,,82.05
+Wisard,2025-01-25 14:17:33,0.3224,EEG Eye State,Distributive,,,63.23
+Wisard,2025-01-25 14:17:33,0.1390,Iris,Distributive,,,92.26
+Wisard,2025-01-25 14:17:33,1.1276,EEG Eye State,Distributive,,,79.33
+Wisard,2025-01-25 14:17:34,0.4137,EEG Eye State,Distributive,,,88.79
+Wisard,2025-01-25 14:17:34,0.1989,Maternal Health Risk,Distributive,,,88.99
+Wisard,2025-01-25 14:17:34,0.3154,MAGIC Gamma Telescope,Distributive,,,75.15
+Wisard,2025-01-25 14:17:35,1.2859,MAGIC Gamma Telescope,Distributive,,,74.0
+Wisard,2025-01-25 14:17:35,1.2136,Statlog (Vehicle Silhouettes),Distributive,,,80.28
+Wisard,2025-01-25 14:17:35,0.0527,EEG Eye State,Distributive,,,91.07
+Wisard,2025-01-25 14:17:35,0.3317,MAGIC Gamma Telescope,Distributive,,,61.95
+Wisard,2025-01-25 14:17:35,0.7885,Iris,Distributive,,,77.78
+Wisard,2025-01-25 14:17:35,0.5101,MAGIC Gamma Telescope,Distributive,,,96.67
+Wisard,2025-01-25 14:17:35,0.7470,EEG Eye State,Distributive,,,63.08
+Wisard,2025-01-25 14:17:35,0.0302,EEG Eye State,Distributive,,,88.79
+Wisard,2025-01-25 14:17:35,0.7579,Iris,Distributive,,,62.54
+Wisard,2025-01-25 14:17:35,0.0146,Wine Quality,Distributive,,,96.67
+Wisard,2025-01-25 14:17:35,0.7904,Maternal Health Risk,Distributive,,,73.83
+Wisard,2025-01-25 14:17:36,0.0670,MAGIC Gamma Telescope,Distributive,,,96.67
+Wisard,2025-01-25 14:17:36,0.7016,Glass Identification,Distributive,,,87.71
+Wisard,2025-01-25 14:17:37,1.0192,Maternal Health Risk,Distributive,,,87.71
+Wisard,2025-01-25 14:17:37,1.7498,Glass Identification,Distributive,,,74.47
+Wisard,2025-01-25 14:17:37,1.9699,Statlog (Vehicle Silhouettes),Distributive,,,79.56
+Wisard,2025-01-25 14:17:38,1.7941,Glass Identification,Distributive,,,74.47
+Wisard,2025-01-25 14:17:38,1.4248,Glass Identification,Distributive,,,78.63
+Wisard,2025-01-25 14:17:38,0.1741,EEG Eye State,Distributive,,,91.37
+Wisard,2025-01-25 14:17:38,1.4900,Iris,Distributive,,,75.11
+Wisard,2025-01-25 14:17:38,0.4647,MAGIC Gamma Telescope,Distributive,,,91.37
+Wisard,2025-01-25 14:17:39,1.2976,MAGIC Gamma Telescope,Distributive,,,75.11
+Wisard,2025-01-25 14:17:40,1.4259,MAGIC Gamma Telescope,Distributive,,,62.17
+Wisard,2025-01-25 14:17:40,2.1457,Maternal Health Risk,Distributive,,,71.48
+Wisard,2025-01-25 14:17:42,3.5770,MAGIC Gamma Telescope,Distributive,,,81.95
+Wisard,2025-01-25 14:17:43,4.6724,Statlog (Vehicle Silhouettes),Distributive,,,77.1
+Wisard,2025-01-25 14:17:43,3.8598,MAGIC Gamma Telescope,Distributive,,,80.57
+Wisard,2025-01-25 14:17:43,4.0218,Maternal Health Risk,Distributive,,,73.88
+Wisard,2025-01-25 14:17:43,4.0723,Iris,Distributive,,,80.57
+Wisard,2025-01-25 14:17:44,1.3313,Ecoli,Distributive,,,88.3
+Wisard,2025-01-25 14:17:45,2.1010,Glass Identification,Distributive,,,62.78
+Wisard,2025-01-25 14:17:45,2.0844,MAGIC Gamma Telescope,Distributive,,,74.46
+Wisard,2025-01-25 14:17:45,5.1833,Glass Identification,Distributive,,,80.85
+Wisard,2025-01-25 14:17:45,0.0803,MAGIC Gamma Telescope,Distributive,,,89.88
+Wisard,2025-01-25 14:17:45,0.0317,Ecoli,Distributive,,,95.33
+Wisard,2025-01-25 14:17:45,0.0129,Iris,Distributive,,,95.33
+Wisard,2025-01-25 14:17:45,1.6653,Iris,Distributive,,,75.02
+Wisard,2025-01-25 14:17:45,0.6822,MAGIC Gamma Telescope,Distributive,,,78.99
+Wisard,2025-01-25 14:17:45,1.5164,Ecoli,Distributive,,,75.02
+Wisard,2025-01-25 14:17:45,1.6147,Glass Identification,Distributive,,,75.63
+Wisard,2025-01-25 14:17:45,0.0514,MAGIC Gamma Telescope,Distributive,,,87.0
+Wisard,2025-01-25 14:17:45,0.9518,Maternal Health Risk,Distributive,,,80.74
+Wisard,2025-01-25 14:17:45,0.0545,EEG Eye State,Distributive,,,87.0
+Wisard,2025-01-25 14:17:45,0.0739,Maternal Health Risk,Distributive,,,87.0
+Wisard,2025-01-25 14:17:45,0.0650,MAGIC Gamma Telescope,Distributive,,,95.33
+Wisard,2025-01-25 14:17:45,0.0447,EEG Eye State,Distributive,,,97.33
+Wisard,2025-01-25 14:17:45,0.0761,Ecoli,Distributive,,,77.81
+Wisard,2025-01-25 14:17:45,0.0338,Ecoli,Distributive,,,87.38
+Wisard,2025-01-25 14:17:45,0.0407,MAGIC Gamma Telescope,Distributive,,,89.88
+Wisard,2025-01-25 14:17:45,0.1053,Glass Identification,Distributive,,,87.0
+Wisard,2025-01-25 14:17:45,0.0502,Statlog (Vehicle Silhouettes),Distributive,,,89.25
+Wisard,2025-01-25 14:17:45,0.0077,Wine Quality,Distributive,,,95.33
+Wisard,2025-01-25 14:17:45,0.0909,Maternal Health Risk,Distributive,,,77.81
+Wisard,2025-01-25 14:17:45,0.0797,Iris,Distributive,,,87.0
+Wisard,2025-01-25 14:17:45,0.0198,EEG Eye State,Distributive,,,89.25
+Wisard,2025-01-25 14:17:45,0.0802,Iris,Distributive,,,77.81
+Wisard,2025-01-25 14:17:45,0.0133,MAGIC Gamma Telescope,Distributive,,,95.33
+Wisard,2025-01-25 14:17:45,0.0364,MAGIC Gamma Telescope,Distributive,,,89.88
+Wisard,2025-01-25 14:17:45,0.0186,EEG Eye State,Distributive,,,89.25
+Wisard,2025-01-25 14:17:45,0.0713,EEG Eye State,Distributive,,,77.81
+Wisard,2025-01-25 14:17:46,0.3402,Maternal Health Risk,Distributive,,,89.25
+Wisard,2025-01-25 14:17:46,0.0514,EEG Eye State,Distributive,,,89.58
+Wisard,2025-01-25 14:17:46,0.3358,Wine Quality,Distributive,,,77.81
+Wisard,2025-01-25 14:17:46,0.0979,Ecoli,Distributive,,,87.85
+Wisard,2025-01-25 14:17:46,0.4949,EEG Eye State,Distributive,,,75.85
+Wisard,2025-01-25 14:17:46,0.0217,Iris,Distributive,,,89.25
+Wisard,2025-01-25 14:17:46,0.0621,Maternal Health Risk,Distributive,,,79.98
+Wisard,2025-01-25 14:17:46,0.0228,MAGIC Gamma Telescope,Distributive,,,89.25
+Wisard,2025-01-25 14:17:46,0.0266,EEG Eye State,Distributive,,,89.58
+Wisard,2025-01-25 14:17:46,0.2026,Glass Identification,Distributive,,,89.25
+Wisard,2025-01-25 14:17:46,0.1649,EEG Eye State,Distributive,,,89.58
+Wisard,2025-01-25 14:17:46,0.2829,Ecoli,Distributive,,,86.76
+Wisard,2025-01-25 14:17:46,0.0693,MAGIC Gamma Telescope,Distributive,,,79.98
+Wisard,2025-01-25 14:17:46,0.0366,MAGIC Gamma Telescope,Distributive,,,89.25
+Wisard,2025-01-25 14:17:46,0.3035,EEG Eye State,Distributive,,,61.91
+Wisard,2025-01-25 14:17:46,0.0530,EEG Eye State,Distributive,,,89.25
+Wisard,2025-01-25 14:17:46,0.0636,MAGIC Gamma Telescope,Distributive,,,88.77
+Wisard,2025-01-25 14:17:46,0.0147,MAGIC Gamma Telescope,Distributive,,,97.33
+Wisard,2025-01-25 14:17:46,0.0498,Wine Quality,Distributive,,,89.58
+Wisard,2025-01-25 14:17:46,0.0209,Iris,Distributive,,,89.25
+Wisard,2025-01-25 14:17:46,0.0594,EEG Eye State,Distributive,,,91.96
+Wisard,2025-01-25 14:17:46,0.0726,MAGIC Gamma Telescope,Distributive,,,89.25
+Wisard,2025-01-25 14:17:46,0.0335,EEG Eye State,Distributive,,,97.33
+Wisard,2025-01-25 14:17:46,0.0370,MAGIC Gamma Telescope,Distributive,,,89.25
+Wisard,2025-01-25 14:17:46,0.0992,Maternal Health Risk,Distributive,,,89.25
+Wisard,2025-01-25 14:17:46,0.1126,EEG Eye State,Distributive,,,79.78
+Wisard,2025-01-25 14:17:46,0.0780,MAGIC Gamma Telescope,Distributive,,,79.98
+Wisard,2025-01-25 14:17:46,0.1227,Glass Identification,Distributive,,,86.76
+Wisard,2025-01-25 14:17:46,0.0337,MAGIC Gamma Telescope,Distributive,,,89.25
+Wisard,2025-01-25 14:17:46,0.0488,MAGIC Gamma Telescope,Distributive,,,89.58
+Wisard,2025-01-25 14:17:47,0.0294,Ecoli,Distributive,,,89.58
+Wisard,2025-01-25 14:17:47,0.0307,MAGIC Gamma Telescope,Distributive,,,90.48
+Wisard,2025-01-25 14:17:47,0.0538,Glass Identification,Distributive,,,89.25
+Wisard,2025-01-25 14:17:47,0.0337,EEG Eye State,Distributive,,,92.26
+Wisard,2025-01-25 14:17:47,0.2387,EEG Eye State,Distributive,,,90.48
+Wisard,2025-01-25 14:17:47,0.0033,MAGIC Gamma Telescope,Distributive,,,97.33
+Wisard,2025-01-25 14:17:47,0.8462,EEG Eye State,Distributive,,,74.5
+Wisard,2025-01-25 14:17:47,0.0734,Iris,Distributive,,,78.6
+Wisard,2025-01-25 14:17:47,0.0392,EEG Eye State,Distributive,,,90.48
+Wisard,2025-01-25 14:17:47,0.1237,Iris,Distributive,,,87.71
+Wisard,2025-01-25 14:17:47,0.8267,MAGIC Gamma Telescope,Distributive,,,76.94
+Wisard,2025-01-25 14:17:47,0.0370,Statlog (Vehicle Silhouettes),Distributive,,,90.48
+Wisard,2025-01-25 14:17:47,0.0624,Ecoli,Distributive,,,78.6
+Wisard,2025-01-25 14:17:48,0.0220,EEG Eye State,Distributive,,,94.0
+Wisard,2025-01-25 14:17:48,0.0811,MAGIC Gamma Telescope,Distributive,,,87.71
+Wisard,2025-01-25 14:17:48,0.1491,MAGIC Gamma Telescope,Distributive,,,78.6
+Wisard,2025-01-25 14:17:48,0.2355,EEG Eye State,Distributive,,,81.56
+Wisard,2025-01-25 14:17:48,0.2671,MAGIC Gamma Telescope,Distributive,,,79.19
+Wisard,2025-01-25 14:17:48,0.2323,Ecoli,Distributive,,,63.77
+Wisard,2025-01-25 14:17:48,0.0192,EEG Eye State,Distributive,,,94.0
+Wisard,2025-01-25 14:17:48,0.1824,Statlog (Vehicle Silhouettes),Distributive,,,79.19
+Wisard,2025-01-25 14:17:48,0.2897,EEG Eye State,Distributive,,,63.77
+Wisard,2025-01-25 14:17:48,0.3467,MAGIC Gamma Telescope,Distributive,,,89.72
+Wisard,2025-01-25 14:17:48,0.1859,EEG Eye State,Distributive,,,94.0
+Wisard,2025-01-25 14:17:48,0.0170,Statlog (Vehicle Silhouettes),Distributive,,,94.0
+Wisard,2025-01-25 14:17:48,0.3394,MAGIC Gamma Telescope,Distributive,,,79.19
+Wisard,2025-01-25 14:17:48,0.4665,MAGIC Gamma Telescope,Distributive,,,63.77
+Wisard,2025-01-25 14:17:49,0.0395,EEG Eye State,Distributive,,,91.67
+Wisard,2025-01-25 14:17:49,0.5066,MAGIC Gamma Telescope,Distributive,,,62.72
+Wisard,2025-01-25 14:17:49,0.3855,Wine Quality,Distributive,,,79.59
+Wisard,2025-01-25 14:17:49,0.0737,Ecoli,Distributive,,,91.67
+Wisard,2025-01-25 14:17:49,0.5964,MAGIC Gamma Telescope,Distributive,,,63.77
+Wisard,2025-01-25 14:17:49,0.1215,EEG Eye State,Distributive,,,88.18
+Wisard,2025-01-25 14:17:50,0.4648,EEG Eye State,Distributive,,,89.72
+Wisard,2025-01-25 14:17:50,1.1149,EEG Eye State,Distributive,,,80.06
+Wisard,2025-01-25 14:17:50,0.6077,EEG Eye State,Distributive,,,80.37
+Wisard,2025-01-25 14:17:50,0.4801,EEG Eye State,Distributive,,,91.37
+Wisard,2025-01-25 14:17:50,0.0601,MAGIC Gamma Telescope,Distributive,,,98.0
+Wisard,2025-01-25 14:17:50,0.6086,EEG Eye State,Distributive,,,88.18
+Wisard,2025-01-25 14:17:50,0.5969,EEG Eye State,Distributive,,,62.43
+Wisard,2025-01-25 14:17:50,0.0160,EEG Eye State,Distributive,,,98.0
+Wisard,2025-01-25 14:17:50,0.6875,MAGIC Gamma Telescope,Distributive,,,79.77
+Wisard,2025-01-25 14:17:50,0.0515,EEG Eye State,Distributive,,,90.19
+Wisard,2025-01-25 14:17:50,0.0035,EEG Eye State,Distributive,,,98.0
+Wisard,2025-01-25 14:17:50,0.0983,EEG Eye State,Distributive,,,80.37
+Wisard,2025-01-25 14:17:50,0.2350,EEG Eye State,Distributive,,,88.65
+Wisard,2025-01-25 14:17:51,0.7875,MAGIC Gamma Telescope,Distributive,,,88.65
+Wisard,2025-01-25 14:17:51,1.1800,EEG Eye State,Distributive,,,60.81
+Wisard,2025-01-25 14:17:51,0.5519,EEG Eye State,Distributive,,,78.6
+Wisard,2025-01-25 14:17:51,1.0583,Statlog (Vehicle Silhouettes),Distributive,,,63.77
+Wisard,2025-01-25 14:17:51,1.2005,MAGIC Gamma Telescope,Distributive,,,62.43
+Wisard,2025-01-25 14:17:51,1.0328,MAGIC Gamma Telescope,Distributive,,,88.65
+Wisard,2025-01-25 14:17:51,1.2157,MAGIC Gamma Telescope,Distributive,,,76.15
+Wisard,2025-01-25 14:17:51,0.0734,MAGIC Gamma Telescope,Distributive,,,78.6
+Wisard,2025-01-25 14:17:51,0.3671,MAGIC Gamma Telescope,Distributive,,,78.6
+Wisard,2025-01-25 14:17:51,0.0218,MAGIC Gamma Telescope,Distributive,,,90.19
+Wisard,2025-01-25 14:17:51,1.2470,MAGIC Gamma Telescope,Distributive,,,79.95
+Wisard,2025-01-25 14:17:51,0.1308,EEG Eye State,Distributive,,,78.6
+Wisard,2025-01-25 14:17:52,0.2762,EEG Eye State,Distributive,,,88.79
+Wisard,2025-01-25 14:17:52,0.0738,EEG Eye State,Distributive,,,91.67
+Wisard,2025-01-25 14:17:52,0.0324,EEG Eye State,Distributive,,,96.0
+Wisard,2025-01-25 14:17:52,0.4250,Iris,Distributive,,,78.7
+Wisard,2025-01-25 14:17:52,0.7091,EEG Eye State,Distributive,,,63.21
+Wisard,2025-01-25 14:17:52,0.3103,EEG Eye State,Distributive,,,87.59
+Wisard,2025-01-25 14:17:52,0.0571,EEG Eye State,Distributive,,,96.0
+Wisard,2025-01-25 14:17:52,0.3221,MAGIC Gamma Telescope,Distributive,,,88.18
+Wisard,2025-01-25 14:17:53,1.2884,MAGIC Gamma Telescope,Distributive,,,74.93
+Wisard,2025-01-25 14:17:53,0.7163,EEG Eye State,Distributive,,,79.68
+Wisard,2025-01-25 14:17:53,0.5535,MAGIC Gamma Telescope,Distributive,,,79.59
+Wisard,2025-01-25 14:17:53,0.0819,EEG Eye State,Distributive,,,96.67
+Wisard,2025-01-25 14:17:54,1.3494,Iris,Distributive,,,62.49
+Wisard,2025-01-25 14:17:54,2.0894,Maternal Health Risk,Distributive,,,75.57
+Wisard,2025-01-25 14:17:54,1.9071,EEG Eye State,Distributive,,,75.57
+Wisard,2025-01-25 14:17:54,0.3659,EEG Eye State,Distributive,,,79.09
+Wisard,2025-01-25 14:17:54,0.6969,EEG Eye State,Distributive,,,79.09
+Wisard,2025-01-25 14:17:54,2.0748,MAGIC Gamma Telescope,Distributive,,,78.8
+Wisard,2025-01-25 14:17:54,1.3101,EEG Eye State,Distributive,,,77.31
+Wisard,2025-01-25 14:17:55,1.6723,Wine Quality,Distributive,,,74.28
+Wisard,2025-01-25 14:17:55,0.1064,EEG Eye State,Distributive,,,96.67
+Wisard,2025-01-25 14:17:55,0.7196,EEG Eye State,Distributive,,,87.0
+Wisard,2025-01-25 14:17:55,1.2462,Ecoli,Distributive,,,81.27
+Wisard,2025-01-25 14:17:55,0.6473,EEG Eye State,Distributive,,,88.18
+Wisard,2025-01-25 14:17:55,0.0482,EEG Eye State,Distributive,,,96.67
+Wisard,2025-01-25 14:17:58,3.2939,Statlog (Vehicle Silhouettes),Distributive,,,90.19
+Wisard,2025-01-25 14:17:59,4.1369,MAGIC Gamma Telescope,Distributive,,,88.65
+Wisard,2025-01-25 14:17:59,4.3506,EEG Eye State,Distributive,,,62.61
+Wisard,2025-01-25 14:17:59,0.0764,EEG Eye State,Distributive,,,91.12
+Wisard,2025-01-25 14:17:59,4.5402,EEG Eye State,Distributive,,,74.28
+Wisard,2025-01-25 14:17:59,0.0975,Statlog (Vehicle Silhouettes),Distributive,,,90.18
+Wisard,2025-01-25 14:17:59,3.7254,MAGIC Gamma Telescope,Distributive,,,62.81
+Wisard,2025-01-25 14:17:59,3.5918,MAGIC Gamma Telescope,Distributive,,,62.86
+Wisard,2025-01-25 14:17:59,3.8727,EEG Eye State,Distributive,,,78.7
+Wisard,2025-01-25 14:17:59,0.2816,EEG Eye State,Distributive,,,91.59
+Wisard,2025-01-25 14:17:59,0.0127,Iris,Distributive,,,96.67
+Wisard,2025-01-25 14:17:59,4.0675,Maternal Health Risk,Distributive,,,78.74
+Wisard,2025-01-25 14:17:59,0.0157,EEG Eye State,Distributive,,,96.67
+Wisard,2025-01-25 14:17:59,0.9659,EEG Eye State,Distributive,,,79.93
+Wisard,2025-01-25 14:17:59,0.1928,Iris,Distributive,,,91.59
+Wisard,2025-01-25 14:17:59,0.4447,EEG Eye State,Distributive,,,62.89
+Wisard,2025-01-25 14:17:59,0.1667,EEG Eye State,Distributive,,,90.18
+Wisard,2025-01-25 14:17:59,0.2689,EEG Eye State,Distributive,,,86.52
+Wisard,2025-01-25 14:18:00,0.0729,Maternal Health Risk,Distributive,,,78.21
+Wisard,2025-01-25 14:17:59,0.2896,EEG Eye State,Distributive,,,87.71
+Wisard,2025-01-25 14:18:00,0.1548,EEG Eye State,Distributive,,,78.21
+Wisard,2025-01-25 14:18:00,0.0228,EEG Eye State,Distributive,,,91.59
+Wisard,2025-01-25 14:18:00,0.7186,EEG Eye State,Distributive,,,62.89
+Wisard,2025-01-25 14:18:00,0.3934,EEG Eye State,Distributive,,,87.83
+Wisard,2025-01-25 14:18:00,0.0542,EEG Eye State,Distributive,,,90.18
+Wisard,2025-01-25 14:18:00,0.2995,Iris,Distributive,,,80.18
+Wisard,2025-01-25 14:18:00,0.1594,EEG Eye State,Distributive,,,87.83
+Wisard,2025-01-25 14:18:00,0.8875,Wine Quality,Distributive,,,79.81
+Wisard,2025-01-25 14:18:01,0.9151,EEG Eye State,Distributive,,,63.26
+Wisard,2025-01-25 14:18:01,0.4459,EEG Eye State,Distributive,,,87.59
+Wisard,2025-01-25 14:18:01,0.3257,EEG Eye State,Distributive,,,90.18
+Wisard,2025-01-25 14:18:01,0.9129,EEG Eye State,Distributive,,,73.91
+Wisard,2025-01-25 14:18:01,1.3319,Wine Quality,Distributive,,,79.19
+Wisard,2025-01-25 14:18:01,0.0337,EEG Eye State,Distributive,,,96.67
+Wisard,2025-01-25 14:18:01,0.3359,EEG Eye State,Distributive,,,86.29
+Wisard,2025-01-25 14:18:01,0.0358,EEG Eye State,Distributive,,,89.25
+Wisard,2025-01-25 14:18:01,0.1230,EEG Eye State,Distributive,,,79.19
+Wisard,2025-01-25 14:18:01,0.5027,Ecoli,Distributive,,,74.01
+Wisard,2025-01-25 14:18:02,0.0660,EEG Eye State,Distributive,,,90.18
+Wisard,2025-01-25 14:18:02,0.0961,EEG Eye State,Distributive,,,86.29
+Wisard,2025-01-25 14:18:02,0.2020,Iris,Distributive,,,89.83
+Wisard,2025-01-25 14:18:02,0.1070,EEG Eye State,Distributive,,,91.59
+Wisard,2025-01-25 14:18:02,0.5565,EEG Eye State,Distributive,,,61.69
+Wisard,2025-01-25 14:18:03,0.6043,MAGIC Gamma Telescope,Distributive,,,90.48
+Wisard,2025-01-25 14:18:03,0.2572,EEG Eye State,Distributive,,,92.06
+Wisard,2025-01-25 14:18:03,0.0238,Statlog (Vehicle Silhouettes),Distributive,,,98.0
+Wisard,2025-01-25 14:18:03,0.5018,EEG Eye State,Distributive,,,86.88
+Wisard,2025-01-25 14:18:03,0.4072,EEG Eye State,Distributive,,,92.06
+Wisard,2025-01-25 14:18:04,1.6051,EEG Eye State,Distributive,,,74.61
+Wisard,2025-01-25 14:18:04,1.9598,EEG Eye State,Distributive,,,79.32
+Wisard,2025-01-25 14:18:04,1.5010,EEG Eye State,Distributive,,,74.27
+Wisard,2025-01-25 14:18:04,1.3475,MAGIC Gamma Telescope,Distributive,,,75.65
+Wisard,2025-01-25 14:18:04,2.1381,EEG Eye State,Distributive,,,74.61
+Wisard,2025-01-25 14:18:04,0.1040,MAGIC Gamma Telescope,Distributive,,,78.99
+Wisard,2025-01-25 14:18:04,1.0378,Wine Quality,Distributive,,,74.91
+Wisard,2025-01-25 14:18:04,0.0385,EEG Eye State,Distributive,,,78.99
+Wisard,2025-01-25 14:18:04,0.8332,Wine Quality,Distributive,,,75.11
+Wisard,2025-01-25 14:18:04,0.0433,EEG Eye State,Distributive,,,89.58
+Wisard,2025-01-25 14:18:05,0.1199,EEG Eye State,Distributive,,,88.42
+Wisard,2025-01-25 14:18:04,0.0574,Statlog (Vehicle Silhouettes),Distributive,,,89.72
+Wisard,2025-01-25 14:18:05,0.6762,MAGIC Gamma Telescope,Distributive,,,64.61
+Wisard,2025-01-25 14:18:05,0.4335,Statlog (Vehicle Silhouettes),Distributive,,,89.88
+Wisard,2025-01-25 14:18:05,0.3091,MAGIC Gamma Telescope,Distributive,,,96.0
+Wisard,2025-01-25 14:18:06,0.5892,Statlog (Vehicle Silhouettes),Distributive,,,77.51
+Wisard,2025-01-25 14:18:06,0.1250,Statlog (Vehicle Silhouettes),Distributive,,,90.18
+Wisard,2025-01-25 14:18:06,0.2775,EEG Eye State,Distributive,,,86.88
+Wisard,2025-01-25 14:18:06,0.7073,EEG Eye State,Distributive,,,63.34
+Wisard,2025-01-25 14:18:06,0.2890,EEG Eye State,Distributive,,,63.69
+Wisard,2025-01-25 14:18:06,0.0764,MAGIC Gamma Telescope,Distributive,,,90.18
+Wisard,2025-01-25 14:18:06,0.0241,MAGIC Gamma Telescope,Distributive,,,92.06
+Wisard,2025-01-25 14:18:06,1.6156,EEG Eye State,Distributive,,,78.19
+Wisard,2025-01-25 14:18:06,0.4422,Iris,Distributive,,,88.42
+Wisard,2025-01-25 14:18:06,1.6368,Ecoli,Distributive,,,78.67
+Wisard,2025-01-25 14:18:06,0.0614,Iris,Distributive,,,92.06
+Wisard,2025-01-25 14:18:06,0.0278,MAGIC Gamma Telescope,Distributive,,,92.06
+Wisard,2025-01-25 14:18:06,0.4732,MAGIC Gamma Telescope,Distributive,,,88.42
+Wisard,2025-01-25 14:18:06,0.1526,EEG Eye State,Distributive,,,86.88
+Wisard,2025-01-25 14:18:06,0.5420,MAGIC Gamma Telescope,Distributive,,,75.3
+Wisard,2025-01-25 14:18:07,0.0544,Iris,Distributive,,,96.67
+Wisard,2025-01-25 14:18:07,0.8088,EEG Eye State,Distributive,,,63.69
+Wisard,2025-01-25 14:18:08,0.1578,EEG Eye State,Distributive,,,91.59
+Wisard,2025-01-25 14:18:08,0.8536,MAGIC Gamma Telescope,Distributive,,,81.07
+Wisard,2025-01-25 14:18:08,1.1132,EEG Eye State,Distributive,,,62.64
+Wisard,2025-01-25 14:18:08,1.1683,Statlog (Vehicle Silhouettes),Distributive,,,63.43
+Wisard,2025-01-25 14:18:08,1.7572,EEG Eye State,Distributive,,,79.61
+Wisard,2025-01-25 14:18:08,1.7318,EEG Eye State,Distributive,,,74.57
+Wisard,2025-01-25 14:18:08,0.8426,EEG Eye State,Distributive,,,79.02
+Wisard,2025-01-25 14:18:08,0.0925,EEG Eye State,Distributive,,,77.61
+Wisard,2025-01-25 14:18:09,1.0642,EEG Eye State,Distributive,,,80.81
+Wisard,2025-01-25 14:18:09,0.2981,Wine Quality,Distributive,,,61.87
+Wisard,2025-01-25 14:18:09,0.2035,EEG Eye State,Distributive,,,85.58
+Wisard,2025-01-25 14:18:09,0.7650,Iris,Distributive,,,63.97
+Wisard,2025-01-25 14:18:10,0.2051,Iris,Distributive,,,89.29
+Wisard,2025-01-25 14:18:10,0.8372,MAGIC Gamma Telescope,Distributive,,,61.12
+Wisard,2025-01-25 14:18:10,1.3218,EEG Eye State,Distributive,,,81.6
+Wisard,2025-01-25 14:18:11,2.0578,MAGIC Gamma Telescope,Distributive,,,81.6
+Wisard,2025-01-25 14:18:11,0.3603,EEG Eye State,Distributive,,,91.37
+Wisard,2025-01-25 14:18:11,0.2759,EEG Eye State,Distributive,,,96.0
+Wisard,2025-01-25 14:18:11,1.5470,MAGIC Gamma Telescope,Distributive,,,80.66
+Wisard,2025-01-25 14:18:12,1.1733,MAGIC Gamma Telescope,Distributive,,,73.23
+Wisard,2025-01-25 14:18:12,1.7838,EEG Eye State,Distributive,,,79.32
+Wisard,2025-01-25 14:18:12,1.1357,EEG Eye State,Distributive,,,73.35
+Wisard,2025-01-25 14:18:13,0.5410,MAGIC Gamma Telescope,Distributive,,,88.69
+Wisard,2025-01-25 14:18:12,0.5726,EEG Eye State,Distributive,,,88.18
+Wisard,2025-01-25 14:18:13,0.3333,EEG Eye State,Distributive,,,88.69
+Wisard,2025-01-25 14:18:13,0.3621,MAGIC Gamma Telescope,Distributive,,,87.83
+Wisard,2025-01-25 14:18:13,1.2619,MAGIC Gamma Telescope,Distributive,,,73.35
+Wisard,2025-01-25 14:18:16,4.7292,EEG Eye State,Distributive,,,75.53
+Wisard,2025-01-25 14:18:16,4.3026,EEG Eye State,Distributive,,,79.52
+Wisard,2025-01-25 14:18:17,4.0705,Statlog (Vehicle Silhouettes),Distributive,,,86.76
+Wisard,2025-01-25 14:18:17,0.3812,Iris,Distributive,,,97.33
+Wisard,2025-01-25 14:18:17,0.8058,EEG Eye State,Distributive,,,90.65
+Wisard,2025-01-25 14:18:17,0.1491,MAGIC Gamma Telescope,Distributive,,,97.33
+Wisard,2025-01-25 14:18:18,0.0908,MAGIC Gamma Telescope,Distributive,,,80.57
+Wisard,2025-01-25 14:18:18,5.1735,EEG Eye State,Distributive,,,79.66
+Wisard,2025-01-25 14:18:18,5.4516,EEG Eye State,Distributive,,,80.45
+Wisard,2025-01-25 14:18:18,1.3840,EEG Eye State,Distributive,,,79.07
+Wisard,2025-01-25 14:18:18,2.0466,MAGIC Gamma Telescope,Distributive,,,80.45
+Wisard,2025-01-25 14:18:18,0.5655,EEG Eye State,Distributive,,,78.01
+Wisard,2025-01-25 14:18:19,1.3036,MAGIC Gamma Telescope,Distributive,,,62.23
+Wisard,2025-01-25 14:18:20,2.3017,Statlog (Vehicle Silhouettes),Distributive,,,77.48
+Wisard,2025-01-25 14:18:20,1.4129,EEG Eye State,Distributive,,,74.71
+Wisard,2025-01-25 14:18:20,1.9187,EEG Eye State,Distributive,,,74.71
+Wisard,2025-01-25 14:18:20,0.9455,EEG Eye State,Distributive,,,63.84
+Wisard,2025-01-25 14:18:20,1.2127,Statlog (Vehicle Silhouettes),Distributive,,,73.85
+Wisard,2025-01-25 14:18:20,1.0624,MAGIC Gamma Telescope,Distributive,,,79.04
+Wisard,2025-01-25 14:18:21,0.2707,EEG Eye State,Distributive,,,91.07
+Wisard,2025-01-25 14:18:21,1.1059,EEG Eye State,Distributive,,,74.03
+Wisard,2025-01-25 14:18:21,0.8754,EEG Eye State,Distributive,,,79.57
+Wisard,2025-01-25 14:18:21,1.2420,EEG Eye State,Distributive,,,78.59
+Wisard,2025-01-25 14:18:22,0.5482,EEG Eye State,Distributive,,,90.48
+Wisard,2025-01-25 14:18:23,1.7396,Iris,Distributive,,,74.73
+Wisard,2025-01-25 14:18:23,0.1880,EEG Eye State,Distributive,,,98.0
+Wisard,2025-01-25 14:18:24,2.9560,MAGIC Gamma Telescope,Distributive,,,80.56
+Wisard,2025-01-25 14:18:24,2.1984,Iris,Distributive,,,78.82
+Wisard,2025-01-25 14:18:24,2.1923,EEG Eye State,Distributive,,,80.64
+Wisard,2025-01-25 14:18:25,1.3342,EEG Eye State,Distributive,,,71.6
+Wisard,2025-01-25 14:18:25,1.9174,EEG Eye State,Distributive,,,71.99
+Wisard,2025-01-25 14:18:25,2.0254,EEG Eye State,Distributive,,,77.48
+Wisard,2025-01-25 14:18:25,0.9767,EEG Eye State,Distributive,,,75.67
+Wisard,2025-01-25 14:18:26,1.2795,Statlog (Vehicle Silhouettes),Distributive,,,75.67
+Wisard,2025-01-25 14:18:26,0.4252,EEG Eye State,Distributive,,,78.4
+Wisard,2025-01-25 14:18:26,1.0819,EEG Eye State,Distributive,,,74.19
+Wisard,2025-01-25 14:18:26,0.9538,EEG Eye State,Distributive,,,74.19
+Wisard,2025-01-25 14:18:27,1.9401,MAGIC Gamma Telescope,Distributive,,,79.36
+Wisard,2025-01-25 14:18:27,1.1913,EEG Eye State,Distributive,,,88.65
+Wisard,2025-01-25 14:18:28,1.0618,EEG Eye State,Distributive,,,62.41
+Wisard,2025-01-25 14:18:28,2.2105,EEG Eye State,Distributive,,,75.03
+Wisard,2025-01-25 14:18:28,2.3291,Iris,Distributive,,,80.09
+Wisard,2025-01-25 14:18:28,2.1667,Statlog (Vehicle Silhouettes),Distributive,,,80.09
+Wisard,2025-01-25 14:18:28,1.9345,EEG Eye State,Distributive,,,76.23
+,,80.45
+Wisard,2025-01-25 14:18:28,0.9065,EEG Eye State,Distributive,,,80.25
+Wisard,2025-01-25 14:18:29,0.7076,MAGIC Gamma Telescope,Distributive,,,75.67
+Wisard,2025-01-25 14:18:29,0.4064,EEG Eye State,Distributive,,,80.68
+Wisard,2025-01-25 14:18:29,0.0227,MAGIC Gamma Telescope,Distributive,,,91.96
+Wisard,2025-01-25 14:18:29,0.2302,Statlog (Vehicle Silhouettes),Distributive,,,91.96
+Wisard,2025-01-25 14:18:30,0.7551,Glass Identification,Distributive,,,80.68
+Wisard,2025-01-25 14:18:30,0.2612,EEG Eye State,Distributive,,,77.81
+Wisard,2025-01-25 14:18:30,0.1018,MAGIC Gamma Telescope,Distributive,,,87.23
+Wisard,2025-01-25 14:18:30,0.4888,EEG Eye State,Distributive,,,80.68
+Wisard,2025-01-25 14:18:30,0.3692,Statlog (Vehicle Silhouettes),Distributive,,,87.23
+Wisard,2025-01-25 14:18:30,0.0643,MAGIC Gamma Telescope,Distributive,,,91.59
+Wisard,2025-01-25 14:18:30,0.5129,EEG Eye State,Distributive,,,72.15
+Wisard,2025-01-25 14:18:30,0.0470,Statlog (Vehicle Silhouettes),Distributive,,,77.81
+Wisard,2025-01-25 14:18:31,0.0650,EEG Eye State,Distributive,,,86.88
+Wisard,2025-01-25 14:18:31,0.0822,Glass Identification,Distributive,,,81.66
+Wisard,2025-01-25 14:18:31,0.0728,Iris,Distributive,,,81.66
+Wisard,2025-01-25 14:18:31,0.0845,Iris,Distributive,,,85.34
+Wisard,2025-01-25 14:18:31,0.0519,Glass Identification,Distributive,,,81.66
+Wisard,2025-01-25 14:18:31,0.1407,Wine Quality,Distributive,,,96.67
+Wisard,2025-01-25 14:18:31,0.2570,Wine Quality,Distributive,,,61.44
+Wisard,2025-01-25 14:18:31,0.2269,Wine Quality,Distributive,,,61.44
+Wisard,2025-01-25 14:18:31,0.0182,Iris,Distributive,,,90.19
+Wisard,2025-01-25 14:18:32,0.5580,Statlog (Vehicle Silhouettes),Distributive,,,61.44
+Wisard,2025-01-25 14:18:32,0.5821,MAGIC Gamma Telescope,Distributive,,,79.77
+Wisard,2025-01-25 14:18:32,0.0505,MAGIC Gamma Telescope,Distributive,,,86.29
+Wisard,2025-01-25 14:18:32,0.0791,EEG Eye State,Distributive,,,88.32
+Wisard,2025-01-25 14:18:33,0.6165,Statlog (Vehicle Silhouettes),Distributive,,,81.95
+Wisard,2025-01-25 14:18:33,0.4788,EEG Eye State,Distributive,,,74.61
+Wisard,2025-01-25 14:18:33,0.0664,MAGIC Gamma Telescope,Distributive,,,87.94
+Wisard,2025-01-25 14:18:37,0.2782,EEG Eye State,Distributive,,,90.19
+Wisard,2025-01-25 14:18:37,4.1182,Glass Identification,Distributive,,,79.04
+Wisard,2025-01-25 14:18:37,0.3716,Ecoli,Distributive,,,80.67
+Wisard,2025-01-25 14:18:37,0.0735,Wine Quality,Distributive,,,87.12
+Wisard,2025-01-25 14:18:37,0.1109,EEG Eye State,Distributive,,,87.12
+Wisard,2025-01-25 14:18:37,0.5552,Statlog (Vehicle Silhouettes),Distributive,,,75.29
+Wisard,2025-01-25 14:18:37,0.0219,Wine Quality,Distributive,,,90.19
+Wisard,2025-01-25 14:18:38,0.6178,MAGIC Gamma Telescope,Distributive,,,61.69
+Wisard,2025-01-25 14:18:38,0.1259,Maternal Health Risk,Distributive,,,77.61
+Wisard,2025-01-25 14:18:38,0.1179,Ecoli,Distributive,,,86.52
+Wisard,2025-01-25 14:18:39,0.0437,Iris,Distributive,,,86.45
+Wisard,2025-01-25 14:18:39,0.0730,EEG Eye State,Distributive,,,77.61
+Wisard,2025-01-25 14:18:39,0.8420,Iris,Distributive,,,73.58
+Wisard,2025-01-25 14:18:39,0.0326,Iris,Distributive,,,91.37
+Wisard,2025-01-25 14:18:39,0.5254,EEG Eye State,Distributive,,,79.85
+Wisard,2025-01-25 14:18:39,0.0267,MAGIC Gamma Telescope,Distributive,,,90.19
+Wisard,2025-01-25 14:18:39,0.0259,Statlog (Vehicle Silhouettes),Distributive,,,90.19
+Wisard,2025-01-25 14:18:39,0.0332,Wine Quality,Distributive,,,90.19
+Wisard,2025-01-25 14:18:39,0.0259,EEG Eye State,Distributive,,,90.19
+Wisard,2025-01-25 14:18:39,0.0376,MAGIC Gamma Telescope,Distributive,,,79.39
+Wisard,2025-01-25 14:18:39,0.6029,EEG Eye State,Distributive,,,79.39
+Wisard,2025-01-25 14:18:40,1.1332,MAGIC Gamma Telescope,Distributive,,,79.26
+Wisard,2025-01-25 14:18:40,1.1660,EEG Eye State,Distributive,,,76.96
+Wisard,2025-01-25 14:18:40,0.6029,EEG Eye State,Distributive,,,74.47
+Wisard,2025-01-25 14:18:40,0.0734,EEG Eye State,Distributive,,,89.58
+Wisard,2025-01-25 14:18:40,0.3945,Wine Quality,Distributive,,,62.24
+Wisard,2025-01-25 14:18:40,0.3806,EEG Eye State,Distributive,,,63.14
+Wisard,2025-01-25 14:18:40,0.0486,EEG Eye State,Distributive,,,80.28
+Wisard,2025-01-25 14:18:41,0.1719,Ecoli,Distributive,,,90.19
+Wisard,2025-01-25 14:18:41,0.2187,EEG Eye State,Distributive,,,62.24
+Wisard,2025-01-25 14:18:41,0.0185,EEG Eye State,Distributive,,,90.65
+Wisard,2025-01-25 14:18:41,0.0188,MAGIC Gamma Telescope,Distributive,,,96.67
+Wisard,2025-01-25 14:18:41,0.0119,Iris,Distributive,,,96.67
+Wisard,2025-01-25 14:18:41,0.0167,MAGIC Gamma Telescope,Distributive,,,90.65
+Wisard,2025-01-25 14:18:41,0.0233,EEG Eye State,Distributive,,,90.65
+Wisard,2025-01-25 14:18:41,0.0758,EEG Eye State,Distributive,,,87.71
+Wisard,2025-01-25 14:18:41,0.0374,EEG Eye State,Distributive,,,89.29
+Wisard,2025-01-25 14:18:41,0.0329,EEG Eye State,Distributive,,,78.7
+Wisard,2025-01-25 14:18:41,0.0647,MAGIC Gamma Telescope,Distributive,,,87.71
+Wisard,2025-01-25 14:18:41,0.2380,Ecoli,Distributive,,,61.92
+Wisard,2025-01-25 14:18:41,0.0260,EEG Eye State,Distributive,,,96.67
+Wisard,2025-01-25 14:18:42,0.4050,MAGIC Gamma Telescope,Distributive,,,76.65
+Wisard,2025-01-25 14:18:42,0.0954,Statlog (Vehicle Silhouettes),Distributive,,,78.5
+Wisard,2025-01-25 14:18:42,0.2054,EEG Eye State,Distributive,,,78.5
+Wisard,2025-01-25 14:18:42,0.2316,Statlog (Vehicle Silhouettes),Distributive,,,61.95
+Wisard,2025-01-25 14:18:42,0.2018,Maternal Health Risk,Distributive,,,78.5
+Wisard,2025-01-25 14:18:42,0.0515,EEG Eye State,Distributive,,,87.12
+Wisard,2025-01-25 14:18:42,0.1372,EEG Eye State,Distributive,,,78.5
+Wisard,2025-01-25 14:18:43,0.8735,MAGIC Gamma Telescope,Distributive,,,77.37
+Wisard,2025-01-25 14:18:43,0.5702,Iris,Distributive,,,62.77
+Wisard,2025-01-25 14:18:43,0.5896,EEG Eye State,Distributive,,,75.59
+Wisard,2025-01-25 14:18:43,0.0427,MAGIC Gamma Telescope,Distributive,,,87.59
+Wisard,2025-01-25 14:18:44,0.4106,MAGIC Gamma Telescope,Distributive,,,75.34
+Wisard,2025-01-25 14:18:45,0.2176,Ecoli,Distributive,,,91.67
+Wisard,2025-01-25 14:18:45,1.1058,Statlog (Vehicle Silhouettes),Distributive,,,80.59
+Wisard,2025-01-25 14:18:45,0.7606,Statlog (Vehicle Silhouettes),Distributive,,,75.89
+Wisard,2025-01-25 14:18:45,0.7766,Iris,Distributive,,,75.68
+Wisard,2025-01-25 14:18:45,0.0182,Iris,Distributive,,,96.67
+Wisard,2025-01-25 14:18:46,0.4076,EEG Eye State,Distributive,,,75.57
+Wisard,2025-01-25 14:18:46,0.0718,Statlog (Vehicle Silhouettes),Distributive,,,87.35
+Wisard,2025-01-25 14:18:46,0.4745,EEG Eye State,Distributive,,,74.57
+Wisard,2025-01-25 14:18:46,0.0189,Ecoli,Distributive,,,91.07
+Wisard,2025-01-25 14:18:47,0.4198,Iris,Distributive,,,74.57
+Wisard,2025-01-25 14:18:47,0.0182,Maternal Health Risk,Distributive,,,91.37
+Wisard,2025-01-25 14:18:47,0.0090,Maternal Health Risk,Distributive,,,97.33
+Wisard,2025-01-25 14:18:48,0.0428,Maternal Health Risk,Distributive,,,89.72
+Wisard,2025-01-25 14:18:48,0.0056,EEG Eye State,Distributive,,,96.0
+Wisard,2025-01-25 14:18:48,0.0338,EEG Eye State,Distributive,,,90.65
+Wisard,2025-01-25 14:18:49,0.1544,Glass Identification,Distributive,,,91.12
+Wisard,2025-01-25 14:18:49,0.2576,Maternal Health Risk,Distributive,,,62.26
+Wisard,2025-01-25 14:18:49,0.9689,MAGIC Gamma Telescope,Distributive,,,78.99
+Wisard,2025-01-25 14:18:49,1.0479,Maternal Health Risk,Distributive,,,79.82
+Wisard,2025-01-25 14:18:49,0.3914,EEG Eye State,Distributive,,,79.39
+Wisard,2025-01-25 14:18:49,0.4322,Maternal Health Risk,Distributive,,,80.35
+Wisard,2025-01-25 14:18:49,0.0539,Maternal Health Risk,Distributive,,,87.12
+Wisard,2025-01-25 14:18:50,0.5849,EEG Eye State,Distributive,,,62.4
+Wisard,2025-01-25 14:18:50,0.6141,Maternal Health Risk,Distributive,,,74.97
+Wisard,2025-01-25 14:18:50,0.1618,Iris,Distributive,,,96.0
+Wisard,2025-01-25 14:18:51,0.5923,EEG Eye State,Gaussian,,,58.57
+Wisard,2025-01-25 14:18:51,0.6174,MAGIC Gamma Telescope,Distributive,,,74.1
+Wisard,2025-01-25 14:18:51,0.2179,Iris,Distributive,,,61.67
+Wisard,2025-01-25 14:18:51,0.0300,Wine Quality,Distributive,,,79.59
+Wisard,2025-01-25 14:18:52,0.0679,Statlog (Vehicle Silhouettes),Distributive,,,88.42
+Wisard,2025-01-25 14:18:52,0.0816,Statlog (Vehicle Silhouettes),Distributive,,,88.42
+Wisard,2025-01-25 14:18:53,0.4045,MAGIC Gamma Telescope,Distributive,,,78.69
+Wisard,2025-01-25 14:18:53,0.0258,Iris,Distributive,,,95.33
+Wisard,2025-01-25 14:18:54,0.4409,EEG Eye State,Distributive,,,74.38
+Wisard,2025-01-25 14:18:54,0.0202,Iris,Distributive,,,91.96
+Wisard,2025-01-25 14:18:55,0.0280,EEG Eye State,Gaussian,,,90.18
+Wisard,2025-01-25 14:18:55,0.0176,Statlog (Vehicle Silhouettes),Distributive,,,90.65
+Wisard,2025-01-25 14:18:55,0.0776,Maternal Health Risk,Distributive,,,79.88
+Wisard,2025-01-25 14:18:56,0.0571,MAGIC Gamma Telescope,Gaussian,,,73.27
+Wisard,2025-01-25 14:18:56,0.2231,Iris,Distributive,,,62.89
+Wisard,2025-01-25 14:18:56,0.0597,Statlog (Vehicle Silhouettes),Distributive,,,86.17
+Wisard,2025-01-25 14:18:57,0.4933,MAGIC Gamma Telescope,Distributive,,,79.58
+Wisard,2025-01-25 14:18:57,0.0171,Ecoli,Gaussian,,,96.67
+Wisard,2025-01-25 14:18:57,0.0114,Ecoli,Gaussian,,,96.67
+Wisard,2025-01-25 14:18:57,0.0176,MAGIC Gamma Telescope,Gaussian,,,96.67
+Wisard,2025-01-25 14:18:58,0.0201,Maternal Health Risk,Gaussian,,,91.96
+Wisard,2025-01-25 14:18:58,0.0185,Wine Quality,Gaussian,,,96.67
+Wisard,2025-01-25 14:18:59,1.0896,Glass Identification,Gaussian,,,96.67
+Wisard,2025-01-25 14:18:59,1.2543,Maternal Health Risk,Gaussian,,,57.16
+Wisard,2025-01-25 14:18:59,0.0688,Iris,Distributive,,,77.22
+Wisard,2025-01-25 14:19:00,0.0521,Iris,Gaussian,,,75.64
+Wisard,2025-01-25 14:19:00,0.0317,Maternal Health Risk,Gaussian,,,85.05
+Wisard,2025-01-25 14:19:00,0.0320,EEG Eye State,Gaussian,,,91.67
+Wisard,2025-01-25 14:19:00,0.0178,EEG Eye State,Gaussian,,,85.05
+Wisard,2025-01-25 14:19:00,0.0422,EEG Eye State,Gaussian,,,73.27
+Wisard,2025-01-25 14:19:00,0.0236,Maternal Health Risk,Gaussian,,,91.67
+Wisard,2025-01-25 14:19:01,0.0349,Iris,Distributive,,,88.32
+Wisard,2025-01-25 14:19:01,0.4495,Iris,Distributive,,,76.19
+Wisard,2025-01-25 14:19:01,0.0127,EEG Eye State,Gaussian,,,96.0
+Wisard,2025-01-25 14:19:01,0.0111,Maternal Health Risk,Gaussian,,,96.0
+Wisard,2025-01-25 14:19:01,0.0618,Glass Identification,Gaussian,,,86.52
+Wisard,2025-01-25 14:19:01,0.0245,EEG Eye State,Gaussian,,,96.0
+Wisard,2025-01-25 14:19:03,0.1327,Maternal Health Risk,Gaussian,,,96.0
+Wisard,2025-01-25 14:19:03,0.1420,Iris,Distributive,,,88.06
+Wisard,2025-01-25 14:19:03,0.0867,Maternal Health Risk,Gaussian,,,91.67
+Wisard,2025-01-25 14:19:03,1.4344,Iris,Gaussian,,,58.77
+Wisard,2025-01-25 14:19:03,0.0953,Glass Identification,Gaussian,,,83.57
+Wisard,2025-01-25 14:19:03,0.0388,Maternal Health Risk,Gaussian,,,86.92
+Wisard,2025-01-25 14:19:03,1.6360,Statlog (Vehicle Silhouettes),Gaussian,,,58.79
+Wisard,2025-01-25 14:19:03,0.0266,MAGIC Gamma Telescope,Gaussian,,,86.92
+Wisard,2025-01-25 14:19:03,0.1961,Maternal Health Risk,Gaussian,,,91.67
+Wisard,2025-01-25 14:19:03,0.0753,MAGIC Gamma Telescope,Gaussian,,,91.67
+Wisard,2025-01-25 14:19:03,0.2628,MAGIC Gamma Telescope,Gaussian,,,61.17
+Wisard,2025-01-25 14:19:04,0.0237,Glass Identification,Gaussian,,,83.64
+Wisard,2025-01-25 14:19:04,0.6502,EEG Eye State,Gaussian,,,77.53
+Wisard,2025-01-25 14:19:04,0.2471,Maternal Health Risk,Gaussian,,,61.17
+Wisard,2025-01-25 14:19:04,0.0645,Maternal Health Risk,Gaussian,,,76.73
+Wisard,2025-01-25 14:19:04,0.0690,EEG Eye State,Gaussian,,,76.73
+Wisard,2025-01-25 14:19:04,0.0448,EEG Eye State,Gaussian,,,76.73
+Wisard,2025-01-25 14:19:04,0.0138,EEG Eye State,Gaussian,,,83.64
+Wisard,2025-01-25 14:19:04,0.0491,EEG Eye State,Gaussian,,,83.64
+Wisard,2025-01-25 14:19:04,0.2330,EEG Eye State,Gaussian,,,60.06
+Wisard,2025-01-25 14:19:04,0.0079,MAGIC Gamma Telescope,Gaussian,,,97.33
+Wisard,2025-01-25 14:19:04,0.0219,Ecoli,Gaussian,,,91.37
+Wisard,2025-01-25 14:19:04,0.0551,EEG Eye State,Gaussian,,,85.46
+Wisard,2025-01-25 14:19:05,0.0388,Statlog (Vehicle Silhouettes),Gaussian,,,97.33
+Wisard,2025-01-25 14:19:05,0.0138,Wine Quality,Gaussian,,,98.67
+Wisard,2025-01-25 14:19:05,0.2184,Maternal Health Risk,Gaussian,,,61.11
+Wisard,2025-01-25 14:19:05,0.4323,Iris,Distributive,,,79.3
+Wisard,2025-01-25 14:19:05,0.0342,EEG Eye State,Gaussian,,,91.37
+Wisard,2025-01-25 14:19:05,0.0185,EEG Eye State,Gaussian,,,98.67
+Wisard,2025-01-25 14:19:05,0.0577,MAGIC Gamma Telescope,Gaussian,,,77.12
+Wisard,2025-01-25 14:19:05,0.0602,Wine Quality,Gaussian,,,83.92
+Wisard,2025-01-25 14:19:06,0.1096,MAGIC Gamma Telescope,Gaussian,,,91.37
+Wisard,2025-01-25 14:19:06,0.2546,EEG Eye State,Gaussian,,,91.67
+Wisard,2025-01-25 14:19:06,0.0178,MAGIC Gamma Telescope,Gaussian,,,91.67
+Wisard,2025-01-25 14:19:06,0.4680,Maternal Health Risk,Gaussian,,,77.47
+Wisard,2025-01-25 14:19:06,0.0205,EEG Eye State,Gaussian,,,97.33
+Wisard,2025-01-25 14:19:06,0.0135,EEG Eye State,Gaussian,,,97.33
+Wisard,2025-01-25 14:19:06,0.0092,Maternal Health Risk,Gaussian,,,97.33
+Wisard,2025-01-25 14:19:06,0.0209,EEG Eye State,Gaussian,,,97.33
+Wisard,2025-01-25 14:19:06,0.0178,MAGIC Gamma Telescope,Gaussian,,,91.67
+Wisard,2025-01-25 14:19:06,0.0485,Glass Identification,Gaussian,,,74.06
+Wisard,2025-01-25 14:19:06,0.1489,Wine Quality,Gaussian,,,91.67
+Wisard,2025-01-25 14:19:07,0.2061,Maternal Health Risk,Gaussian,,,61.34
+Wisard,2025-01-25 14:19:07,0.0266,MAGIC Gamma Telescope,Gaussian,,,82.24
+Wisard,2025-01-25 14:19:07,0.0612,Maternal Health Risk,Gaussian,,,81.44
+Wisard,2025-01-25 14:19:07,0.0360,Maternal Health Risk,Gaussian,,,82.24
+Wisard,2025-01-25 14:19:07,0.1742,MAGIC Gamma Telescope,Gaussian,,,96.0
+Wisard,2025-01-25 14:19:07,0.2351,MAGIC Gamma Telescope,Gaussian,,,59.32
+Wisard,2025-01-25 14:19:07,0.0287,Maternal Health Risk,Gaussian,,,89.58
+Wisard,2025-01-25 14:19:07,0.2582,EEG Eye State,Gaussian,,,96.0
+Wisard,2025-01-25 14:19:10,2.7696,Maternal Health Risk,Gaussian,,,81.44
+Wisard,2025-01-25 14:19:10,2.8836,MAGIC Gamma Telescope,Gaussian,,,78.56
+Wisard,2025-01-25 14:19:10,2.5674,MAGIC Gamma Telescope,Gaussian,,,58.12
+Wisard,2025-01-25 14:19:10,0.0545,MAGIC Gamma Telescope,Gaussian,,,97.33
+Wisard,2025-01-25 14:19:10,0.2812,EEG Eye State,Gaussian,,,97.33
+Wisard,2025-01-25 14:19:10,1.6086,Maternal Health Risk,Gaussian,,,57.68
+Wisard,2025-01-25 14:19:11,0.0554,Iris,Gaussian,,,90.77
+Wisard,2025-01-25 14:19:11,0.6012,EEG Eye State,Gaussian,,,78.63
+Wisard,2025-01-25 14:19:11,0.2956,EEG Eye State,Gaussian,,,60.47
+Wisard,2025-01-25 14:19:11,0.0486,EEG Eye State,Gaussian,,,83.64
+Wisard,2025-01-25 14:19:11,0.0679,Ecoli,Gaussian,,,82.39
+Wisard,2025-01-25 14:19:11,0.0428,EEG Eye State,Gaussian,,,77.32
+Wisard,2025-01-25 14:19:11,0.1536,Maternal Health Risk,Gaussian,,,83.64
+Wisard,2025-01-25 14:19:11,0.2281,Maternal Health Risk,Gaussian,,,59.37
+Wisard,2025-01-25 14:19:11,0.0278,Iris,Gaussian,,,90.77
+Wisard,2025-01-25 14:19:11,0.0124,EEG Eye State,Gaussian,,,96.0
+Wisard,2025-01-25 14:19:11,0.0380,EEG Eye State,Gaussian,,,90.77
+Wisard,2025-01-25 14:19:11,0.0220,MAGIC Gamma Telescope,Gaussian,,,96.0
+Wisard,2025-01-25 14:19:15,1.3932,MAGIC Gamma Telescope,Gaussian,,,90.18
+Wisard,2025-01-25 14:19:15,3.4488,EEG Eye State,Gaussian,,,60.82
+Wisard,2025-01-25 14:19:15,1.3800,Maternal Health Risk,Gaussian,,,83.69
+Wisard,2025-01-25 14:19:15,1.6084,Glass Identification,Gaussian,,,54.84
+Wisard,2025-01-25 14:19:15,0.0518,EEG Eye State,Gaussian,,,74.46
+Wisard,2025-01-25 14:19:15,0.0229,MAGIC Gamma Telescope,Gaussian,,,84.58
+Wisard,2025-01-25 14:19:15,0.0584,EEG Eye State,Gaussian,,,84.58
+Wisard,2025-01-25 14:19:15,0.2395,Maternal Health Risk,Gaussian,,,60.55
+Wisard,2025-01-25 14:19:15,0.0630,Glass Identification,Gaussian,,,89.58
+Wisard,2025-01-25 14:19:15,0.3418,Maternal Health Risk,Gaussian,,,84.58
+DWN,2025-01-25 14:19:16,23.7902,EEG Eye State,Distributive,,,0.6567
+DWN,2025-01-25 14:19:16,24.1235,EEG Eye State,Distributive,,,0.7071
+Wisard,2025-01-25 14:19:18,2.8101,Maternal Health Risk,Gaussian,,,77.48
+Wisard,2025-01-25 14:19:19,3.6042,MAGIC Gamma Telescope,Gaussian,,,59.25
+Wisard,2025-01-25 14:19:19,2.5550,Statlog (Vehicle Silhouettes),Gaussian,,,58.62
+Wisard,2025-01-25 14:19:19,0.0397,MAGIC Gamma Telescope,Gaussian,,,84.11
+Wisard,2025-01-25 14:19:19,0.1121,Iris,Gaussian,,,90.48
+Wisard,2025-01-25 14:19:19,0.0191,Glass Identification,Gaussian,,,96.0
+Wisard,2025-01-25 14:19:19,1.4350,Maternal Health Risk,Gaussian,,,57.3
+Wisard,2025-01-25 14:19:19,0.1039,Maternal Health Risk,Gaussian,,,84.75
+Wisard,2025-01-25 14:19:19,0.0604,Maternal Health Risk,Gaussian,,,84.75
+Wisard,2025-01-25 14:19:20,0.0426,Maternal Health Risk,Gaussian,,,85.98
+Wisard,2025-01-25 14:19:20,0.0244,Statlog (Vehicle Silhouettes),Gaussian,,,93.33
+Wisard,2025-01-25 14:19:20,0.0684,Statlog (Vehicle Silhouettes),Gaussian,,,91.67
+Wisard,2025-01-25 14:19:20,0.1014,MAGIC Gamma Telescope,Gaussian,,,74.85
+Wisard,2025-01-25 14:19:20,0.0537,Maternal Health Risk,Gaussian,,,83.57
+Wisard,2025-01-25 14:19:20,0.5167,Wine Quality,Gaussian,,,76.65
+Wisard,2025-01-25 14:19:20,0.0413,EEG Eye State,Gaussian,,,85.98
+Wisard,2025-01-25 14:19:20,0.4504,Maternal Health Risk,Gaussian,,,75.25
+Wisard,2025-01-25 14:19:20,0.0203,Statlog (Vehicle Silhouettes),Gaussian,,,85.98
+Wisard,2025-01-25 14:19:20,0.0228,Iris,Distributive,,,96.0
+Wisard,2025-01-25 14:19:20,0.0778,EEG Eye State,Gaussian,,,83.57
+DWN,2025-01-25 14:19:21,4.3642,EEG Eye State,Gaussian,,,0.6209
+Wisard,2025-01-25 14:19:21,0.0729,EEG Eye State,Gaussian,,,83.57
+Wisard,2025-01-25 14:19:23,2.2072,MAGIC Gamma Telescope,Gaussian,,,91.07
+Wisard,2025-01-25 14:19:21,0.8338,Glass Identification,Gaussian,,,96.0
+Wisard,2025-01-25 14:19:23,1.3972,Glass Identification,Gaussian,,,89.58
+Wisard,2025-01-25 14:19:23,0.1133,Maternal Health Risk,Gaussian,,,98.0
+Wisard,2025-01-25 14:19:23,1.6275,Maternal Health Risk,Gaussian,,,60.43
+Wisard,2025-01-25 14:19:23,0.0414,Glass Identification,Gaussian,,,87.85
+Wisard,2025-01-25 14:19:23,0.0780,Glass Identification,Gaussian,,,90.48
+Wisard,2025-01-25 14:19:23,0.1061,Statlog (Vehicle Silhouettes),Gaussian,,,76.13
+DWN,2025-01-25 14:19:23,6.5187,EEG Eye State,Gaussian,,,0.6964
+Wisard,2025-01-25 14:19:23,2.5817,MAGIC Gamma Telescope,Gaussian,,,57.8
+Wisard,2025-01-25 14:19:24,1.3507,Ecoli,Gaussian,,,98.0
+Wisard,2025-01-25 14:19:24,1.2867,Glass Identification,Gaussian,,,90.48
+Wisard,2025-01-25 14:19:26,0.1069,Iris,Gaussian,,,91.07
+Wisard,2025-01-25 14:19:26,0.0373,MAGIC Gamma Telescope,Gaussian,,,83.64
+Wisard,2025-01-25 14:19:26,2.5658,Maternal Health Risk,Gaussian,,,57.76
+Wisard,2025-01-25 14:19:26,0.0940,MAGIC Gamma Telescope,Gaussian,,,86.52
+Wisard,2025-01-25 14:19:26,2.4807,MAGIC Gamma Telescope,Gaussian,,,56.72
+DWN,2025-01-25 14:19:26,5.1515,EEG Eye State,Linear,,,0.6597
+Wisard,2025-01-25 14:19:26,0.1246,Glass Identification,Gaussian,,,76.63
+Wisard,2025-01-25 14:19:29,3.0456,Maternal Health Risk,Gaussian,,,57.06
+Wisard,2025-01-25 14:19:29,0.1880,MAGIC Gamma Telescope,Gaussian,,,74.95
+Wisard,2025-01-25 14:19:29,1.8347,EEG Eye State,Gaussian,,,57.82
+Wisard,2025-01-25 14:19:29,0.0207,Statlog (Vehicle Silhouettes),Gaussian,,,88.79
+Wisard,2025-01-25 14:19:29,0.2603,Statlog (Vehicle Silhouettes),Gaussian,,,59.86
+Wisard,2025-01-25 14:19:29,0.0157,EEG Eye State,Gaussian,,,96.0
+Wisard,2025-01-25 14:19:29,0.2331,EEG Eye State,Gaussian,,,74.95
+Wisard,2025-01-25 14:19:29,0.2206,Iris,Gaussian,,,83.92
+Wisard,2025-01-25 14:19:29,0.0580,MAGIC Gamma Telescope,Gaussian,,,90.18
+Wisard,2025-01-25 14:19:29,0.2931,Glass Identification,Gaussian,,,58.55
+Wisard,2025-01-25 14:19:29,0.1521,EEG Eye State,Gaussian,,,90.18
+Wisard,2025-01-25 14:19:30,0.2820,Iris,Gaussian,,,88.79
+Wisard,2025-01-25 14:19:30,0.1903,MAGIC Gamma Telescope,Gaussian,,,83.92
+Wisard,2025-01-25 14:19:30,0.2666,EEG Eye State,Gaussian,,,84.16
+Wisard,2025-01-25 14:19:30,0.8558,Glass Identification,Gaussian,,,59.49
+Wisard,2025-01-25 14:19:30,0.9263,Maternal Health Risk,Gaussian,,,77.67
+Wisard,2025-01-25 14:19:30,0.0749,Glass Identification,Gaussian,,,73.77
+Wisard,2025-01-25 14:19:30,0.4239,MAGIC Gamma Telescope,Gaussian,,,61.17
+Wisard,2025-01-25 14:19:30,0.0241,EEG Eye State,Gaussian,,,96.0
+Wisard,2025-01-25 14:19:30,0.0589,Iris,Gaussian,,,73.77
+Wisard,2025-01-25 14:19:30,0.0474,MAGIC Gamma Telescope,Gaussian,,,84.11
+Wisard,2025-01-25 14:19:30,0.0594,EEG Eye State,Gaussian,,,92.26
+DWN,2025-01-25 14:19:32,8.1774,EEG Eye State,Linear,,,0.6536
+DWN,2025-01-25 14:19:32,5.3007,EEG Eye State,Scatter Code,60,40,0.3821
+Wisard,2025-01-25 14:19:30,0.1531,MAGIC Gamma Telescope,Gaussian,,,73.77
+Wisard,2025-01-25 14:19:32,1.5152,Ecoli,Gaussian,,,59.86
+Wisard,2025-01-25 14:19:32,0.0566,Maternal Health Risk,Gaussian,,,83.33
+Wisard,2025-01-25 14:19:32,1.6322,MAGIC Gamma Telescope,Gaussian,,,79.13
+Wisard,2025-01-25 14:19:32,0.3032,EEG Eye State,Gaussian,,,83.33
+Wisard,2025-01-25 14:19:32,0.4623,Iris,Gaussian,,,77.09
+Wisard,2025-01-25 14:19:32,0.0639,Iris,Gaussian,,,83.33
+Wisard,2025-01-25 14:19:33,0.0487,Ecoli,Gaussian,,,96.67
+Wisard,2025-01-25 14:19:34,0.0294,EEG Eye State,Gaussian,,,98.0
+Wisard,2025-01-25 14:19:34,1.6935,Glass Identification,Gaussian,,,55.19
+Wisard,2025-01-25 14:19:34,0.0250,Maternal Health Risk,Gaussian,,,98.0
+Wisard,2025-01-25 14:19:34,1.8995,Glass Identification,Gaussian,,,77.09
+Wisard,2025-01-25 14:19:34,0.0479,EEG Eye State,Gaussian,,,89.29
+Wisard,2025-01-25 14:19:34,0.5493,Iris,Gaussian,,,77.01
+Wisard,2025-01-25 14:19:34,0.0466,MAGIC Gamma Telescope,Gaussian,,,73.18
+Wisard,2025-01-25 14:19:34,0.0717,EEG Eye State,Gaussian,,,73.18
+Wisard,2025-01-25 14:19:36,0.1399,MAGIC Gamma Telescope,Gaussian,,,85.46
+Wisard,2025-01-25 14:19:36,1.5639,Iris,Gaussian,,,56.78
+Wisard,2025-01-25 14:19:36,0.5123,Iris,Gaussian,,,79.14
+DWN,2025-01-25 14:19:37,4.7154,EEG Eye State,Scatter Code,60,40,0.2250
+Wisard,2025-01-25 14:19:36,0.1642,MAGIC Gamma Telescope,Gaussian,,,85.46
+Wisard,2025-01-25 14:19:37,1.1401,Statlog (Vehicle Silhouettes),Gaussian,,,71.79
+Wisard,2025-01-25 14:19:37,1.1837,MAGIC Gamma Telescope,Gaussian,,,55.15
+Wisard,2025-01-25 14:19:37,0.0240,Maternal Health Risk,Gaussian,,,89.88
+Wisard,2025-01-25 14:19:37,0.0394,EEG Eye State,Gaussian,,,84.58
+Wisard,2025-01-25 14:19:37,0.0504,Wine Quality,Gaussian,,,89.88
+Wisard,2025-01-25 14:19:38,0.0547,Maternal Health Risk,Gaussian,,,73.47
+Wisard,2025-01-25 14:19:38,0.0282,EEG Eye State,Gaussian,,,84.11
+Wisard,2025-01-25 14:19:38,0.0581,EEG Eye State,Gaussian,,,84.28
+Wisard,2025-01-25 14:19:38,0.0347,Maternal Health Risk,Gaussian,,,84.11
+Wisard,2025-01-25 14:19:38,0.4174,MAGIC Gamma Telescope,Gaussian,,,84.28
+Wisard,2025-01-25 14:19:38,0.4471,Wine Quality,Gaussian,,,78.76
+Wisard,2025-01-25 14:19:38,0.0879,Ecoli,Gaussian,,,74.26
+DWN,2025-01-25 14:19:39,47.0263,Statlog (Vehicle Silhouettes),Distributive,,,0.4713
+Wisard,2025-01-25 14:19:38,0.0420,Glass Identification,Gaussian,,,84.11
+Wisard,2025-01-25 14:19:40,1.3464,MAGIC Gamma Telescope,Gaussian,,,90.48
+Wisard,2025-01-25 14:19:40,0.0352,MAGIC Gamma Telescope,Gaussian,,,96.67
+Wisard,2025-01-25 14:19:40,1.5623,Ecoli,Gaussian,,,58.87
+Wisard,2025-01-25 14:19:40,0.0148,EEG Eye State,Gaussian,,,96.67
+Wisard,2025-01-25 14:19:40,1.5558,Ecoli,Gaussian,,,58.41
+Wisard,2025-01-25 14:19:40,0.2422,EEG Eye State,Gaussian,,,60.61
+Wisard,2025-01-25 14:19:40,0.0492,Ecoli,Gaussian,,,84.52
+Wisard,2025-01-25 14:19:40,0.0826,Maternal Health Risk,Gaussian,,,73.57
+Wisard,2025-01-25 14:19:40,0.1230,Wine Quality,Gaussian,,,84.75
+Wisard,2025-01-25 14:19:40,0.0386,EEG Eye State,Gaussian,,,96.67
+Wisard,2025-01-25 14:19:41,0.3279,EEG Eye State,Gaussian,,,60.55
+Wisard,2025-01-25 14:19:41,0.5154,EEG Eye State,Gaussian,,,60.61
+Wisard,2025-01-25 14:19:43,0.0752,Wine Quality,Gaussian,,,74.65
+Wisard,2025-01-25 14:19:44,2.9836,MAGIC Gamma Telescope,Gaussian,,,57.68
+Wisard,2025-01-25 14:19:44,0.1697,EEG Eye State,Gaussian,,,92.86
+Wisard,2025-01-25 14:19:44,0.2354,MAGIC Gamma Telescope,Gaussian,,,59.4
+Wisard,2025-01-25 14:19:44,0.2764,Maternal Health Risk,Gaussian,,,98.0
+Wisard,2025-01-25 14:19:44,0.2018,Wine Quality,Gaussian,,,84.52
+Wisard,2025-01-25 14:19:44,0.6275,EEG Eye State,Gaussian,,,75.91
+Wisard,2025-01-25 14:19:44,0.2450,Ecoli,Gaussian,,,61.2
+Wisard,2025-01-25 14:19:44,0.0537,Maternal Health Risk,Gaussian,,,91.37
+Wisard,2025-01-25 14:19:44,0.0292,MAGIC Gamma Telescope,Gaussian,,,98.0
+Wisard,2025-01-25 14:19:45,0.2533,MAGIC Gamma Telescope,Gaussian,,,61.2
+Wisard,2025-01-25 14:19:45,0.0634,Ecoli,Gaussian,,,76.23
+Wisard,2025-01-25 14:19:45,0.0212,EEG Eye State,Gaussian,,,91.07
+Wisard,2025-01-25 14:19:45,0.0375,EEG Eye State,Gaussian,,,96.67
+Wisard,2025-01-25 14:19:45,0.2318,Statlog (Vehicle Silhouettes),Gaussian,,,60.06
+Wisard,2025-01-25 14:19:45,0.2242,EEG Eye State,Gaussian,,,60.06
+Wisard,2025-01-25 14:19:45,0.0351,MAGIC Gamma Telescope,Gaussian,,,85.05
+Wisard,2025-01-25 14:19:45,0.0168,Maternal Health Risk,Gaussian,,,96.67
+Wisard,2025-01-25 14:19:45,0.3206,Wine Quality,Gaussian,,,91.07
+Wisard,2025-01-25 14:19:45,0.2534,MAGIC Gamma Telescope,Gaussian,,,85.05
+Wisard,2025-01-25 14:19:47,0.9880,Wine Quality,Gaussian,,,81.78
+Wisard,2025-01-25 14:19:47,1.5149,Maternal Health Risk,Gaussian,,,78.17
+Wisard,2025-01-25 14:19:47,0.3014,Maternal Health Risk,Gaussian,,,97.33
+Wisard,2025-01-25 14:19:47,0.0033,Maternal Health Risk,Gaussian,,,97.33
+Wisard,2025-01-25 14:19:48,2.6737,Ecoli,Gaussian,,,57.05
+Wisard,2025-01-25 14:19:48,1.7536,EEG Eye State,Gaussian,,,58.07
+Wisard,2025-01-25 14:19:48,0.0182,EEG Eye State,Gaussian,,,83.64
+Wisard,2025-01-25 14:19:48,0.2404,MAGIC Gamma Telescope,Gaussian,,,60.87
+Wisard,2025-01-25 14:19:48,1.8086,EEG Eye State,Gaussian,,,78.6
+Wisard,2025-01-25 14:19:49,0.5521,Ecoli,Gaussian,,,82.71
+Wisard,2025-01-25 14:19:49,1.0628,Ecoli,Gaussian,,,80.28
+Wisard,2025-01-25 14:19:49,0.7255,EEG Eye State,Gaussian,,,60.29
+Wisard,2025-01-25 14:19:50,1.0085,Wine Quality,Gaussian,,,59.01
+Wisard,2025-01-25 14:19:50,1.0298,Ecoli,Gaussian,,,75.29
+Wisard,2025-01-25 14:19:50,0.0891,Maternal Health Risk,Gaussian,,,99.33
+Wisard,2025-01-25 14:19:52,2.7322,EEG Eye State,Gaussian,,,59.26
+Wisard,2025-01-25 14:19:52,0.3483,MAGIC Gamma Telescope,Gaussian,,,98.0
+Wisard,2025-01-25 14:19:52,0.0470,MAGIC Gamma Telescope,Gaussian,,,90.48
+Wisard,2025-01-25 14:19:52,0.0275,MAGIC Gamma Telescope,Gaussian,,,90.48
+Wisard,2025-01-25 14:19:52,1.6833,Wine Quality,Gaussian,,,59.19
+Wisard,2025-01-25 14:19:52,0.0143,Statlog (Vehicle Silhouettes),Gaussian,,,98.0
+Wisard,2025-01-25 14:19:52,1.6070,Ecoli,Gaussian,,,77.61
+Wisard,2025-01-25 14:19:54,1.7262,Maternal Health Risk,Gaussian,,,59.83
+Wisard,2025-01-25 14:19:54,0.0872,EEG Eye State,Gaussian,,,85.05
+Wisard,2025-01-25 14:19:54,1.7028,Maternal Health Risk,Gaussian,,,75.74
+Wisard,2025-01-25 14:19:54,0.0127,MAGIC Gamma Telescope,Gaussian,,,95.33
+Wisard,2025-01-25 14:19:54,0.2583,EEG Eye State,Gaussian,,,60.23
+Wisard,2025-01-25 14:19:54,0.0280,Iris,Gaussian,,,93.15
+Wisard,2025-01-25 14:19:54,0.0408,Maternal Health Risk,Gaussian,,,89.29
+Wisard,2025-01-25 14:19:54,0.1122,Glass Identification,Gaussian,,,93.15
+Wisard,2025-01-25 14:19:54,0.0357,EEG Eye State,Gaussian,,,95.33
+Wisard,2025-01-25 14:19:54,0.0537,Maternal Health Risk,Gaussian,,,85.05
+Wisard,2025-01-25 14:19:55,0.0681,EEG Eye State,Gaussian,,,92.56
+Wisard,2025-01-25 14:19:55,0.3214,EEG Eye State,Gaussian,,,61.47
+Wisard,2025-01-25 14:19:55,0.1228,Wine Quality,Gaussian,,,82.71
+Wisard,2025-01-25 14:19:55,0.2767,Maternal Health Risk,Gaussian,,,83.81
+Wisard,2025-01-25 14:19:55,0.3311,EEG Eye State,Gaussian,,,81.56
+Wisard,2025-01-25 14:19:55,0.3826,Maternal Health Risk,Gaussian,,,83.81
+Wisard,2025-01-25 14:19:55,0.7163,EEG Eye State,Gaussian,,,60.23
+Wisard,2025-01-25 14:19:55,0.0120,Statlog (Vehicle Silhouettes),Gaussian,,,97.33
+Wisard,2025-01-25 14:19:56,0.8343,EEG Eye State,Gaussian,,,75.74
+Wisard,2025-01-25 14:19:56,0.0065,MAGIC Gamma Telescope,Gaussian,,,98.67
+Wisard,2025-01-25 14:19:58,0.0501,MAGIC Gamma Telescope,Gaussian,,,75.05
+Wisard,2025-01-25 14:19:58,2.1722,EEG Eye State,Gaussian,,,75.74
+Wisard,2025-01-25 14:19:58,1.7532,Maternal Health Risk,Gaussian,,,61.04
+Wisard,2025-01-25 14:19:58,0.0115,Glass Identification,Gaussian,,,98.0
+Wisard,2025-01-25 14:19:58,0.1471,Maternal Health Risk,Gaussian,,,75.05
+Wisard,2025-01-25 14:19:58,0.0252,Statlog (Vehicle Silhouettes),Gaussian,,,98.0
+Wisard,2025-01-25 14:19:58,0.0464,MAGIC Gamma Telescope,Gaussian,,,98.0
+Wisard,2025-01-25 14:19:58,0.0395,Statlog (Vehicle Silhouettes),Gaussian,,,91.07
+Wisard,2025-01-25 14:19:58,1.9821,EEG Eye State,Gaussian,,,57.44
+Wisard,2025-01-25 14:19:58,0.2797,Maternal Health Risk,Gaussian,,,76.13
+Wisard,2025-01-25 14:19:58,0.0748,MAGIC Gamma Telescope,Gaussian,,,91.07
+Wisard,2025-01-25 14:19:58,0.4474,MAGIC Gamma Telescope,Gaussian,,,61.26
+Wisard,2025-01-25 14:19:58,0.3691,MAGIC Gamma Telescope,Gaussian,,,57.89
+Wisard,2025-01-25 14:19:58,0.1612,Maternal Health Risk,Gaussian,,,91.07
+Wisard,2025-01-25 14:19:58,0.0569,Ecoli,Gaussian,,,85.98
+Wisard,2025-01-25 14:19:58,0.3023,Iris,Gaussian,,,60.64
+Wisard,2025-01-25 14:19:58,0.0623,EEG Eye State,Gaussian,,,85.98
+Wisard,2025-01-25 14:19:58,0.0389,MAGIC Gamma Telescope,Gaussian,,,85.98
+Wisard,2025-01-25 14:19:58,0.1178,Iris,Gaussian,,,75.05
+Wisard,2025-01-25 14:19:59,0.1825,MAGIC Gamma Telescope,Gaussian,,,84.99
+Wisard,2025-01-25 14:19:58,0.1743,EEG Eye State,Gaussian,,,75.05
+Wisard,2025-01-25 14:19:59,0.2506,MAGIC Gamma Telescope,Gaussian,,,84.99
+Wisard,2025-01-25 14:19:59,0.1811,Statlog (Vehicle Silhouettes),Gaussian,,,84.99
+Wisard,2025-01-25 14:19:59,0.0354,Wine Quality,Gaussian,,,81.31
+Wisard,2025-01-25 14:19:59,0.3760,MAGIC Gamma Telescope,Gaussian,,,60.03
+Wisard,2025-01-25 14:19:59,0.4352,MAGIC Gamma Telescope,Gaussian,,,57.89
+Wisard,2025-01-25 14:20:01,1.2999,EEG Eye State,Gaussian,,,85.11
+Wisard,2025-01-25 14:20:01,1.8747,EEG Eye State,Gaussian,,,77.74
+Wisard,2025-01-25 14:20:01,1.8110,Maternal Health Risk,Gaussian,,,58.04
+Wisard,2025-01-25 14:20:01,0.2906,Iris,Gaussian,,,86.45
+Wisard,2025-01-25 14:20:01,0.4414,Iris,Gaussian,,,83.33
+Wisard,2025-01-25 14:20:01,0.0077,Maternal Health Risk,Gaussian,,,98.0
+Wisard,2025-01-25 14:20:01,0.5181,Maternal Health Risk,Gaussian,,,78.69
+Wisard,2025-01-25 14:20:01,0.0749,Glass Identification,Gaussian,,,98.0
+Wisard,2025-01-25 14:20:02,0.3660,MAGIC Gamma Telescope,Gaussian,,,83.33
+Wisard,2025-01-25 14:20:03,1.6427,Glass Identification,Gaussian,,,61.12
+Wisard,2025-01-25 14:20:03,1.3998,EEG Eye State,Gaussian,,,58.49
+Wisard,2025-01-25 14:20:03,1.6543,EEG Eye State,Gaussian,,,57.05
+Wisard,2025-01-25 14:20:03,0.1023,Glass Identification,Gaussian,,,91.07
+Wisard,2025-01-25 14:20:04,1.0678,Ecoli,Gaussian,,,57.27
+Wisard,2025-01-25 14:20:04,0.0227,MAGIC Gamma Telescope,Gaussian,,,96.67
+Wisard,2025-01-25 14:20:04,0.0527,Maternal Health Risk,Gaussian,,,92.56
+Wisard,2025-01-25 14:20:05,0.7237,Glass Identification,Gaussian,,,73.37
+Wisard,2025-01-25 14:20:05,0.7351,Statlog (Vehicle Silhouettes),Gaussian,,,60.23
+Wisard,2025-01-25 14:20:05,0.4419,Wine Quality,Gaussian,,,88.99
+Wisard,2025-01-25 14:20:05,0.7619,Maternal Health Risk,Gaussian,,,59.29
+Wisard,2025-01-25 14:20:05,1.2013,MAGIC Gamma Telescope,Gaussian,,,78.62
+Wisard,2025-01-25 14:20:05,0.1519,MAGIC Gamma Telescope,Gaussian,,,86.92
+Wisard,2025-01-25 14:20:08,0.2085,MAGIC Gamma Telescope,Gaussian,,,90.18
+Wisard,2025-01-25 14:20:08,2.2149,Maternal Health Risk,Gaussian,,,86.92
+Wisard,2025-01-25 14:20:08,2.5515,EEG Eye State,Gaussian,,,75.15
+Wisard,2025-01-25 14:20:08,3.2208,MAGIC Gamma Telescope,Gaussian,,,76.34
+Wisard,2025-01-25 14:20:09,4.1583,Glass Identification,Gaussian,,,82.51
+Wisard,2025-01-25 14:20:10,5.1446,Iris,Gaussian,,,59.26
+Wisard,2025-01-25 14:20:12,6.9486,Iris,Gaussian,,,78.33
+Wisard,2025-01-25 14:20:12,4.5404,Wine Quality,Gaussian,,,78.25
+Wisard,2025-01-25 14:20:12,2.6006,Glass Identification,Gaussian,,,59.55
+Wisard,2025-01-25 14:20:13,5.5465,Glass Identification,Gaussian,,,78.23
+Wisard,2025-01-25 14:20:14,6.9023,Iris,Gaussian,,,56.82
+Wisard,2025-01-25 14:20:15,0.4273,EEG Eye State,Gaussian,,,84.28
+Wisard,2025-01-25 14:20:15,7.0664,EEG Eye State,Gaussian,,,78.19
+Wisard,2025-01-25 14:20:16,5.9219,EEG Eye State,Gaussian,,,56.81
+Wisard,2025-01-25 14:20:16,2.8611,Maternal Health Risk,Gaussian,,,60.95
+Wisard,2025-01-25 14:20:18,8.0261,MAGIC Gamma Telescope,Gaussian,,,56.26
+Wisard,2025-01-25 14:20:20,7.9759,EEG Eye State,Gaussian,,,60.55
+Wisard,2025-01-25 14:20:19,6.9714,Wine Quality,Gaussian,,,59.53
+Wisard,2025-01-25 14:20:20,9.3073,EEG Eye State,Gaussian,,,78.07
+Wisard,2025-01-25 14:20:20,5.3982,MAGIC Gamma Telescope,Gaussian,,,59.53
+Wisard,2025-01-25 14:20:20,0.0567,Glass Identification,Gaussian,,,98.0
+Wisard,2025-01-25 14:20:20,5.8314,MAGIC Gamma Telescope,Gaussian,,,57.19
+Wisard,2025-01-25 14:20:20,5.5926,Maternal Health Risk,Gaussian,,,56.94
+Wisard,2025-01-25 14:20:20,5.5023,Glass Identification,Gaussian,,,60.94
+Wisard,2025-01-25 14:20:20,0.4041,Wine Quality,Gaussian,,,78.8
+Wisard,2025-01-25 14:20:20,4.2338,Statlog (Vehicle Silhouettes),Gaussian,,,60.58
+Wisard,2025-01-25 14:20:20,0.5227,Wine Quality,Gaussian,,,87.0
+Wisard,2025-01-25 14:20:22,2.1159,Maternal Health Risk,Gaussian,,,79.16
+Wisard,2025-01-25 14:20:22,1.6578,Maternal Health Risk,Gaussian,,,60.26
+Wisard,2025-01-25 14:20:22,1.6061,Statlog (Vehicle Silhouettes),Gaussian,,,78.8
+Wisard,2025-01-25 14:20:23,0.3911,Maternal Health Risk,Gaussian,,,91.67
+Wisard,2025-01-25 14:20:23,0.1444,EEG Eye State,Gaussian,,,85.05
+Wisard,2025-01-25 14:20:22,0.4927,Iris,Gaussian,,,91.67
+Wisard,2025-01-25 14:20:23,2.4082,Glass Identification,Gaussian,,,57.5
+Wisard,2025-01-25 14:20:23,0.2566,MAGIC Gamma Telescope,Gaussian,,,75.54
+Wisard,2025-01-25 14:20:23,1.0045,EEG Eye State,Gaussian,,,60.24
+Wisard,2025-01-25 14:20:24,2.2041,Maternal Health Risk,Gaussian,,,76.21
+Wisard,2025-01-25 14:20:24,1.0851,EEG Eye State,Gaussian,,,91.96
+Wisard,2025-01-25 14:20:24,0.0951,MAGIC Gamma Telescope,Gaussian,,,98.0
+DWN,2025-01-25 14:20:26,93.3300,Wine Quality,Distributive,,,0.4881
+Wisard,2025-01-25 14:20:27,5.1759,EEG Eye State,Gaussian,,,79.68
+Wisard,2025-01-25 14:20:27,4.4287,MAGIC Gamma Telescope,Gaussian,,,57.77
+Wisard,2025-01-25 14:20:27,0.1580,EEG Eye State,Gaussian,,,87.38
+Wisard,2025-01-25 14:20:27,0.0035,Wine Quality,Gaussian,,,96.0
+Wisard,2025-01-25 14:20:27,3.1966,MAGIC Gamma Telescope,Gaussian,,,59.26
+Wisard,2025-01-25 14:20:28,3.0670,Iris,Gaussian,,,60.64
+Wisard,2025-01-25 14:20:28,0.0846,MAGIC Gamma Telescope,Gaussian,,,95.33
+Wisard,2025-01-25 14:20:29,4.8603,Iris,Gaussian,,,79.94
+Wisard,2025-01-25 14:20:29,5.0449,Statlog (Vehicle Silhouettes),Gaussian,,,77.84
+Wisard,2025-01-25 14:20:29,1.8347,EEG Eye State,Gaussian,,,59.26
+Wisard,2025-01-25 14:20:29,1.8603,Maternal Health Risk,Gaussian,,,59.26
+Wisard,2025-01-25 14:20:30,0.9829,Glass Identification,Gaussian,,,83.57
+Wisard,2025-01-25 14:20:31,0.7220,Maternal Health Risk,Gaussian,,,84.4
+Wisard,2025-01-25 14:20:31,0.0818,EEG Eye State,Gaussian,,,91.07
+Wisard,2025-01-25 14:20:32,3.1196,Glass Identification,Gaussian,,,58.48
+Wisard,2025-01-25 14:20:32,0.1973,MAGIC Gamma Telescope,Gaussian,,,91.07
+Wisard,2025-01-25 14:20:34,3.6036,Statlog (Vehicle Silhouettes),Gaussian,,,76.65
+DWN,2025-01-25 14:20:34,55.2602,Statlog (Vehicle Silhouettes),Gaussian,,,0.4559
+Wisard,2025-01-25 14:20:35,4.7332,Glass Identification,Gaussian,,,57.64
+Wisard,2025-01-25 14:20:36,5.3201,Glass Identification,Gaussian,,,80.04
+Wisard,2025-01-25 14:20:38,5.5932,Iris,Gaussian,,,56.55
+Wisard,2025-01-25 14:20:38,5.4711,MAGIC Gamma Telescope,Gaussian,,,60.32
+Wisard,2025-01-25 14:20:39,5.7218,MAGIC Gamma Telescope,Gaussian,,,57.89
+Wisard,2025-01-25 14:20:40,0.5131,Ecoli,Gaussian,,,84.63
+Wisard,2025-01-25 14:20:40,0.5089,MAGIC Gamma Telescope,Gaussian,,,73.47
+Wisard,2025-01-25 14:20:41,6.0443,Maternal Health Risk,Gaussian,,,59.49
+Wisard,2025-01-25 14:20:41,6.1495,Statlog (Vehicle Silhouettes),Gaussian,,,56.89
+Wisard,2025-01-25 14:20:41,4.8368,Maternal Health Risk,Gaussian,,,59.77
+Wisard,2025-01-25 14:20:42,1.7250,Ecoli,Gaussian,,,98.67
+Wisard,2025-01-25 14:20:42,5.0788,MAGIC Gamma Telescope,Gaussian,,,79.7
+Wisard,2025-01-25 14:20:42,2.6519,Iris,Gaussian,,,75.68
+Wisard,2025-01-25 14:20:42,0.1908,MAGIC Gamma Telescope,Gaussian,,,91.67
+Wisard,2025-01-25 14:20:42,0.1385,Iris,Gaussian,,,96.67
+Wisard,2025-01-25 14:20:42,2.0141,Glass Identification,Gaussian,,,78.45
+Wisard,2025-01-25 14:20:42,2.3314,MAGIC Gamma Telescope,Gaussian,,,55.69
+Wisard,2025-01-25 14:20:42,0.1505,MAGIC Gamma Telescope,Gaussian,,,76.33
+Wisard,2025-01-25 14:20:46,3.7147,Glass Identification,Gaussian,,,60.61
+Wisard,2025-01-25 14:20:46,0.0572,EEG Eye State,Gaussian,,,94.67
+Wisard,2025-01-25 14:20:46,0.5449,MAGIC Gamma Telescope,Gaussian,,,83.57
+Wisard,2025-01-25 14:20:46,0.3650,MAGIC Gamma Telescope,Gaussian,,,94.67
+Wisard,2025-01-25 14:20:46,4.0203,Iris,Gaussian,,,59.85
+Wisard,2025-01-25 14:20:46,3.9215,Glass Identification,Gaussian,,,59.85
+Wisard,2025-01-25 14:20:46,0.0714,MAGIC Gamma Telescope,Gaussian,,,91.37
+Wisard,2025-01-25 14:20:46,0.5193,EEG Eye State,Gaussian,,,84.16
+Wisard,2025-01-25 14:20:46,4.0627,Ecoli,Gaussian,,,59.85
+Wisard,2025-01-25 14:20:46,0.0267,Ecoli,Gaussian,,,87.38
+Wisard,2025-01-25 14:20:46,0.0542,Statlog (Vehicle Silhouettes),Gaussian,,,85.05
+Wisard,2025-01-25 14:20:46,0.7082,Maternal Health Risk,Gaussian,,,78.21
+Wisard,2025-01-25 14:20:46,0.0166,Wine Quality,Gaussian,,,94.67
+Wisard,2025-01-25 14:20:46,0.0973,Ecoli,Gaussian,,,75.35
+Wisard,2025-01-25 14:20:46,0.2027,Maternal Health Risk,Gaussian,,,83.57
+Wisard,2025-01-25 14:20:46,0.1068,Maternal Health Risk,Gaussian,,,75.35
+Wisard,2025-01-25 14:20:46,0.0776,EEG Eye State,Gaussian,,,87.38
+Wisard,2025-01-25 14:20:46,0.1386,Glass Identification,Gaussian,,,83.57
+Wisard,2025-01-25 14:20:46,0.1281,Iris,Gaussian,,,82.86
+Wisard,2025-01-25 14:20:46,0.0458,MAGIC Gamma Telescope,Gaussian,,,91.37
+Wisard,2025-01-25 14:20:47,0.1086,Iris,Gaussian,,,75.35
+Wisard,2025-01-25 14:20:46,0.0361,MAGIC Gamma Telescope,Gaussian,,,94.67
+Wisard,2025-01-25 14:20:47,0.0907,EEG Eye State,Gaussian,,,87.38
+Wisard,2025-01-25 14:20:47,0.0750,Wine Quality,Gaussian,,,73.77
+Wisard,2025-01-25 14:20:47,0.0506,Maternal Health Risk,Gaussian,,,84.11
+Wisard,2025-01-25 14:20:47,0.0337,Ecoli,Gaussian,,,84.11
+Wisard,2025-01-25 14:20:47,0.0337,EEG Eye State,Gaussian,,,88.69
+Wisard,2025-01-25 14:20:47,0.1859,EEG Eye State,Gaussian,,,73.77
+Wisard,2025-01-25 14:20:48,0.0825,MAGIC Gamma Telescope,Gaussian,,,82.24
+Wisard,2025-01-25 14:20:48,0.1216,EEG Eye State,Gaussian,,,91.67
+Wisard,2025-01-25 14:20:48,0.1185,Iris,Gaussian,,,82.24
+Wisard,2025-01-25 14:20:48,0.0479,Glass Identification,Gaussian,,,82.24
+Wisard,2025-01-25 14:20:48,0.0489,EEG Eye State,Gaussian,,,90.18
+Wisard,2025-01-25 14:20:48,1.2963,EEG Eye State,Gaussian,,,58.83
+Wisard,2025-01-25 14:20:48,1.1756,Maternal Health Risk,Gaussian,,,76.33
+Wisard,2025-01-25 14:20:48,0.0344,MAGIC Gamma Telescope,Gaussian,,,82.24
+Wisard,2025-01-25 14:20:48,0.1002,Ecoli,Gaussian,,,82.27
+Wisard,2025-01-25 14:20:48,0.1675,MAGIC Gamma Telescope,Gaussian,,,96.67
+Wisard,2025-01-25 14:20:48,0.2409,EEG Eye State,Gaussian,,,83.64
+Wisard,2025-01-25 14:20:48,0.0568,Wine Quality,Gaussian,,,90.18
+Wisard,2025-01-25 14:20:48,0.1186,MAGIC Gamma Telescope,Gaussian,,,82.27
+Wisard,2025-01-25 14:20:48,0.3213,MAGIC Gamma Telescope,Gaussian,,,73.77
+Wisard,2025-01-25 14:20:48,0.3321,EEG Eye State,Gaussian,,,60.8
+Wisard,2025-01-25 14:20:48,0.0498,Iris,Gaussian,,,82.24
+Wisard,2025-01-25 14:20:48,0.0362,MAGIC Gamma Telescope,Gaussian,,,82.24
+Wisard,2025-01-25 14:20:48,0.0458,EEG Eye State,Gaussian,,,98.67
+Wisard,2025-01-25 14:20:48,0.1008,EEG Eye State,Gaussian,,,90.18
+Wisard,2025-01-25 14:20:48,0.0273,MAGIC Gamma Telescope,Gaussian,,,82.24
+Wisard,2025-01-25 14:20:48,0.0700,Maternal Health Risk,Gaussian,,,82.24
+Wisard,2025-01-25 14:20:48,0.0355,MAGIC Gamma Telescope,Gaussian,,,82.24
+Wisard,2025-01-25 14:20:48,0.0806,MAGIC Gamma Telescope,Gaussian,,,90.18
+Wisard,2025-01-25 14:20:48,0.0929,MAGIC Gamma Telescope,Gaussian,,,90.18
+Wisard,2025-01-25 14:20:49,0.1582,EEG Eye State,Gaussian,,,73.77
+Wisard,2025-01-25 14:20:49,0.0642,MAGIC Gamma Telescope,Gaussian,,,97.33
+Wisard,2025-01-25 14:20:49,0.0387,EEG Eye State,Gaussian,,,89.29
+Wisard,2025-01-25 14:20:49,0.1402,MAGIC Gamma Telescope,Gaussian,,,73.77
+Wisard,2025-01-25 14:20:49,0.1921,Glass Identification,Gaussian,,,86.64
+Wisard,2025-01-25 14:20:49,0.1092,Ecoli,Gaussian,,,91.67
+Wisard,2025-01-25 14:20:49,0.0787,Glass Identification,Gaussian,,,81.78
+Wisard,2025-01-25 14:20:49,0.1968,EEG Eye State,Gaussian,,,90.77
+Wisard,2025-01-25 14:20:50,0.0234,Statlog (Vehicle Silhouettes),Gaussian,,,91.07
+Wisard,2025-01-25 14:20:50,1.2772,EEG Eye State,Gaussian,,,89.29
+Wisard,2025-01-25 14:20:50,1.3278,Iris,Gaussian,,,72.78
+Wisard,2025-01-25 14:20:50,0.4648,Iris,Gaussian,,,82.15
+Wisard,2025-01-25 14:20:50,0.2973,EEG Eye State,Gaussian,,,98.0
+Wisard,2025-01-25 14:20:50,0.3474,MAGIC Gamma Telescope,Gaussian,,,82.15
+Wisard,2025-01-25 14:20:50,0.4270,Ecoli,Gaussian,,,76.23
+Wisard,2025-01-25 14:20:50,1.8756,EEG Eye State,Gaussian,,,56.49
+Wisard,2025-01-25 14:20:51,0.0665,MAGIC Gamma Telescope,Gaussian,,,76.23
+Wisard,2025-01-25 14:20:51,0.2296,EEG Eye State,Gaussian,,,76.23
+Wisard,2025-01-25 14:20:51,0.2160,MAGIC Gamma Telescope,Gaussian,,,76.23
+Wisard,2025-01-25 14:20:51,0.7851,MAGIC Gamma Telescope,Gaussian,,,78.3
+Wisard,2025-01-25 14:20:51,0.0131,EEG Eye State,Gaussian,,,97.33
+Wisard,2025-01-25 14:20:51,0.0151,Statlog (Vehicle Silhouettes),Gaussian,,,97.33
+Wisard,2025-01-25 14:20:51,0.0313,EEG Eye State,Gaussian,,,97.33
+Wisard,2025-01-25 14:20:51,0.2918,Ecoli,Gaussian,,,60.97
+Wisard,2025-01-25 14:20:51,0.0411,MAGIC Gamma Telescope,Gaussian,,,82.71
+Wisard,2025-01-25 14:20:51,0.2019,EEG Eye State,Gaussian,,,91.07
+Wisard,2025-01-25 14:20:51,0.4590,Statlog (Vehicle Silhouettes),Gaussian,,,74.36
+Wisard,2025-01-25 14:20:51,0.1478,Ecoli,Gaussian,,,91.07
+Wisard,2025-01-25 14:20:51,0.4924,EEG Eye State,Gaussian,,,60.54
+Wisard,2025-01-25 14:20:51,0.4066,MAGIC Gamma Telescope,Gaussian,,,73.27
+Wisard,2025-01-25 14:20:52,0.4072,Wine Quality,Gaussian,,,72.49
+Wisard,2025-01-25 14:20:52,0.0378,EEG Eye State,Gaussian,,,85.05
+Wisard,2025-01-25 14:20:52,0.7535,MAGIC Gamma Telescope,Gaussian,,,60.54
+Wisard,2025-01-25 14:20:52,0.4579,MAGIC Gamma Telescope,Gaussian,,,60.54
+Wisard,2025-01-25 14:20:52,0.2210,EEG Eye State,Gaussian,,,83.1
+Wisard,2025-01-25 14:20:55,2.8909,EEG Eye State,Gaussian,,,92.56
+Wisard,2025-01-25 14:20:55,3.2122,MAGIC Gamma Telescope,Gaussian,,,61.54
+Wisard,2025-01-25 14:20:55,0.0482,EEG Eye State,Gaussian,,,73.37
+Wisard,2025-01-25 14:20:55,0.0121,MAGIC Gamma Telescope,Gaussian,,,98.67
+Wisard,2025-01-25 14:20:55,3.0753,EEG Eye State,Gaussian,,,79.58
+Wisard,2025-01-25 14:20:55,0.0528,EEG Eye State,Gaussian,,,98.67
+Wisard,2025-01-25 14:20:55,0.0338,EEG Eye State,Gaussian,,,86.92
+Wisard,2025-01-25 14:20:55,0.0194,EEG Eye State,Gaussian,,,98.67
+Wisard,2025-01-25 14:20:55,0.2185,EEG Eye State,Gaussian,,,84.75
+Wisard,2025-01-25 14:20:55,0.3517,EEG Eye State,Gaussian,,,61.26
+Wisard,2025-01-25 14:20:55,0.2848,EEG Eye State,Gaussian,,,73.37
+Wisard,2025-01-25 14:20:56,0.2808,EEG Eye State,Gaussian,,,84.75
+Wisard,2025-01-25 14:20:56,0.6648,MAGIC Gamma Telescope,Gaussian,,,79.85
+Wisard,2025-01-25 14:20:56,0.5380,MAGIC Gamma Telescope,Gaussian,,,84.75
+Wisard,2025-01-25 14:20:56,0.6193,EEG Eye State,Gaussian,,,61.26
+Wisard,2025-01-25 14:20:56,0.2632,EEG Eye State,Gaussian,,,74.16
+Wisard,2025-01-25 14:20:56,0.4580,MAGIC Gamma Telescope,Gaussian,,,59.2
+Wisard,2025-01-25 14:20:56,0.4528,Statlog (Vehicle Silhouettes),Gaussian,,,59.4
+Wisard,2025-01-25 14:20:57,1.1277,MAGIC Gamma Telescope,Gaussian,,,82.24
+Wisard,2025-01-25 14:20:57,1.2112,MAGIC Gamma Telescope,Gaussian,,,74.16
+Wisard,2025-01-25 14:20:57,1.2257,MAGIC Gamma Telescope,Gaussian,,,84.4
+Wisard,2025-01-25 14:20:57,1.3504,MAGIC Gamma Telescope,Gaussian,,,74.16
+Wisard,2025-01-25 14:20:57,0.1228,EEG Eye State,Gaussian,,,90.18
+Wisard,2025-01-25 14:20:58,0.0674,EEG Eye State,Gaussian,,,82.71
+Wisard,2025-01-25 14:20:58,0.2943,EEG Eye State,Gaussian,,,76.73
+Wisard,2025-01-25 14:20:58,1.6697,MAGIC Gamma Telescope,Gaussian,,,58.79
+Wisard,2025-01-25 14:20:58,0.0677,EEG Eye State,Gaussian,,,98.67
+Wisard,2025-01-25 14:20:59,1.4322,Iris,Gaussian,,,76.73
+Wisard,2025-01-25 14:20:59,1.9832,MAGIC Gamma Telescope,Gaussian,,,79.88
+Wisard,2025-01-25 14:20:59,1.4485,EEG Eye State,Gaussian,,,84.99
+Wisard,2025-01-25 14:20:59,1.4425,MAGIC Gamma Telescope,Gaussian,,,85.93
+Wisard,2025-01-25 14:20:59,1.5317,EEG Eye State,Gaussian,,,60.84
+Wisard,2025-01-25 14:20:59,1.3620,MAGIC Gamma Telescope,Gaussian,,,57.54
