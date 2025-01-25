@@ -81,6 +81,8 @@ class DWN(object):
             X_train, X_test, y_train, y_test = train_test_split(
                 X, y, test_size=0.33, random_state=42
             )
+            
+            print(y_train)
 
             min_global, max_global = get_min_max(X)
 
@@ -100,20 +102,16 @@ class DWN(object):
                 for encoding_type, encoder_class in self.encoder_definitions
             ]
 
-            # y_train, y_test = encode_labels(y_train, y_test)
-            # print(y_train[:100])
-            # y_train = y_train.to(self.device)
-            # y_test = y_test.to(self.device)
-
             for encoder in encoders:
                 logging.info(
                     f"Starting evaluation for encoder: {encoder['encoding']} of dataset {name} with ID: {dataset_id}, num_slices: {self.num_slices}, num_dimensions: {self.num_dimensions}"
                 )
 
-                X_bin = binarize(encoder, X)
+                # X_bin = binarize(encoder, X)
                 X_train_bin = binarize(encoder, X_train)
+                X_test_bin = binarize(encoder, X_test)
 
-                self.evaluate_model(X_train_bin, X_bin, y_train, y, encoder)
+                self.evaluate_model(X_train_bin, y_train, X_test_bin, y_test, encoder)
 
             logging.info(f"Finished processing dataset: {name} with ID: {dataset_id}")
 
@@ -154,23 +152,11 @@ class DWN(object):
                     x_train[indices].cuda(self.device).float(),
                     y_train[indices].cuda(self.device),
                 )
-
-                # Ensure batch_y is 1D and contains valid class indices
-                if batch_y.dim() > 1:
-                    batch_y = torch.argmax(batch_y, dim=1)  # Convert one-hot or binary to class indices
-
-                # Validate batch_y
-                num_classes = model[-1].k  # Number of classes in the model's output
-                if (batch_y < 0).any() or (batch_y >= num_classes).any():
-                    raise ValueError(f"batch_y contains invalid class indices! Valid range is [0, {num_classes - 1}], but found {torch.unique(batch_y)}")
-
-                # Forward pass
+                
                 outputs = model(batch_x)
-
-                # Check for invalid values in outputs
-                if torch.isnan(outputs).any() or torch.isinf(outputs).any():
-                    raise ValueError("Outputs contain NaN or inf values!")
-
+                
+                print(outputs[:10])
+                print(batch_y[:10])
                 
                 loss = cross_entropy(outputs, batch_y)
                 loss.backward()
