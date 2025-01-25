@@ -75,6 +75,8 @@ class DWN(object):
                 X, y, name = load_mnist()
             else:
                 X, y, name = load_from_uci(id)
+                
+            y = encode_labels(y)
 
             X_train, X_test, y_train, y_test = train_test_split(
                 X, y, test_size=0.33, random_state=42
@@ -98,9 +100,10 @@ class DWN(object):
                 for encoding_type, encoder_class in self.encoder_definitions
             ]
 
-            y_train, y_test = encode_labels(y_train, y_test)
-            y_train = y_train.to(self.device)
-            y_test = y_test.to(self.device)
+            # y_train, y_test = encode_labels(y_train, y_test)
+            # print(y_train[:100])
+            # y_train = y_train.to(self.device)
+            # y_test = y_test.to(self.device)
 
             for encoder in encoders:
                 logging.info(

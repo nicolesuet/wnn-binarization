@@ -137,31 +137,13 @@ def prepare_labels(y_true, y_pred):
 
     return y_true, y_pred
 
-def encode_labels(y_train, y_test):
-    """
-    Encodes labels to ensure they are zero-indexed and contiguous.
-    Args:
-        y_train: Training labels (NumPy array or PyTorch tensor).
-        y_test: Testing labels (NumPy array or PyTorch tensor).
-    Returns:
-        y_train_encoded: Encoded training labels as a PyTorch tensor.
-        y_test_encoded: Encoded testing labels as a PyTorch tensor.
-    """
+def encode_labels(y):
     # Convert to NumPy arrays if they are PyTorch tensors
-    if isinstance(y_train, torch.Tensor):
-        y_train = y_train.numpy()
-    if isinstance(y_test, torch.Tensor):
-        y_test = y_test.numpy()
-
-    # Combine training and testing labels
-    all_labels = np.concatenate([y_train, y_test])
+    if isinstance(y, torch.Tensor):
+        y = y.numpy()
 
     # Factorize labels (automatically zero-indexed and contiguous)
-    y_train_encoded, unique_labels = pd.factorize(y_train)
-    y_test_encoded, _ = pd.factorize(y_test)
+    y_encoded, unique_labels = pd.factorize(y)
+    y_encoded = torch.tensor(y_encoded, dtype=torch.long)
 
-    # Convert to PyTorch tensors
-    y_train_encoded = torch.tensor(y_train_encoded, dtype=torch.long)
-    y_test_encoded = torch.tensor(y_test_encoded, dtype=torch.long)
-
-    return y_train_encoded, y_test_encoded
+    return y_encoded
