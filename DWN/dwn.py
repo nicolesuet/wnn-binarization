@@ -21,6 +21,7 @@ from utils import (
 from torch import nn
 import torch_dwn as dwn
 from torch.nn.functional import cross_entropy
+import threading
 
 
 class DWN(object):
@@ -34,6 +35,7 @@ class DWN(object):
     epochs: int
     device: str
     batch_size: int
+    current_dataset: str
 
     def __init__(
         self,
@@ -50,6 +52,7 @@ class DWN(object):
         self.datasets_ids = datasets_ids
         self.epochs = epochs
         self.batch_size = batch_size
+        self.current_dataset = ""
 
         self.encoder_definitions = [
             ("Distributive", DistributiveThermometer),
@@ -61,57 +64,69 @@ class DWN(object):
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.csv_file = os.path.join(
             os.path.dirname(os.path.dirname(__file__)),
-            f"metrics/metrics.csv",
+            f"metrics.csv",
         )
 
     def run(self):
-        for dataset_id in self.datasets_ids:
+        threads = []
 
+        for id in self.datasets_ids:
+            thread = threading.Thread(target=self.execute_dataset, args=(id,))
+            threads.append(thread)
+            thread.start()
+
+        # Wait for all threads to complete
+        for thread in threads:
+            thread.join()
+
+    def execute_dataset(self, dataset_id):
+
+        logging.info(
+            f"Processing dataset ID: {dataset_id}, num_slices: {self.num_slices}, num_dimensions: {self.num_dimensions}"
+        )
+
+        if dataset_id == "mnist":
+            X, y, name = load_mnist()
+        else:
+            X, y, name = load_from_uci(dataset_id)
+
+        self.current_dataset = name
+        y = encode_labels(y)
+
+        X_train, X_test, y_train, y_test = train_test_split(
+            X, y, test_size=0.33, random_state=42
+        )
+
+        min_global, max_global = get_min_max(X)
+
+        torch_tensor = to_tensor(X)
+
+        encoders = [
+            create_encoder(
+                encoding_type,
+                encoder_class,
+                self.num_bits_thermometer,
+                torch_tensor,
+                min_global,
+                max_global,
+                self.num_slices,
+                self.num_dimensions,
+            )
+            for encoding_type, encoder_class in self.encoder_definitions
+        ]
+
+        for encoder in encoders:
             logging.info(
-                f"Processing dataset ID: {dataset_id}, num_slices: {self.num_slices}, num_dimensions: {self.num_dimensions}"
+                f"Starting evaluation for encoder: {encoder['encoding']} of dataset {name} with ID: {dataset_id}, num_slices: {self.num_slices}, num_dimensions: {self.num_dimensions}"
             )
 
-            if dataset_id == "mnist":
-                X, y, name = load_mnist()
-            else:
-                X, y, name = load_from_uci(id)
+            # X_bin = binarize(encoder, X)
+            X_train_bin = binarize(encoder, X_train)
+            X_test_bin = binarize(encoder, X_test)
 
-            y = encode_labels(y)
+            self.evaluate_model(X_train_bin, y_train, X_test_bin, y_test, encoder)
 
-            X_train, X_test, y_train, y_test = train_test_split(
-                X, y, test_size=0.33, random_state=42
-            )
-
-            min_global, max_global = get_min_max(X)
-
-            torch_tensor = to_tensor(X)
-
-            encoders = [
-                create_encoder(
-                    encoding_type,
-                    encoder_class,
-                    self.num_bits_thermometer,
-                    torch_tensor,
-                    min_global,
-                    max_global,
-                    self.num_slices,
-                    self.num_dimensions,
-                )
-                for encoding_type, encoder_class in self.encoder_definitions
-            ]
-
-            for encoder in encoders:
-                logging.info(
-                    f"Starting evaluation for encoder: {encoder['encoding']} of dataset {name} with ID: {dataset_id}, num_slices: {self.num_slices}, num_dimensions: {self.num_dimensions}"
-                )
-
-                # X_bin = binarize(encoder, X)
-                X_train_bin = binarize(encoder, X_train)
-                X_test_bin = binarize(encoder, X_test)
-
-                self.evaluate_model(X_train_bin, y_train, X_test_bin, y_test, encoder)
-
-            logging.info(f"Finished processing dataset: {name} with ID: {dataset_id}")
+        logging.info(f"Finished processing dataset: {name} with ID: {dataset_id}")
 
     def evaluate_model(self, x_train, y_train, X_test, y_test, encoder):
 
@@ -166,16 +181,36 @@ class DWN(object):
             accuracy = f"{test_acc:.4f}"
             accuracies.append(f"{test_acc:.4f}")
             elapsed_time = time.time() - start_time
-
+            
             new_row = pd.DataFrame(
                 {
-                    "model": ["Wisard"],
+                    "model": ["DWN"],
                     "time": [datetime.now().strftime("%Y-%m-%d %H:%M:%S")],
                     "delta_time": [f"{elapsed_time:.4f}"],
+                    "dataset": [self.current_dataset],
                     "encoding": [encoder["encoding"]],
+                    "num_slices": [
+                        self.num_slices if encoder["encoding"] == "Scatter Code" else ""
+                    ],
+                    "num_dimensions": [
+                        (
+                            self.num_dimensions
+                            if encoder["encoding"] == "Scatter Code"
+                            else ""
+                        )
+                    ],
                     "accuracy": [accuracy],
                 },
-                columns=["model", "time", "delta_time", "encoding", "accuracy"],
+                columns=[
+                    "model",
+                    "time",
+                    "delta_time",
+                    "dataset",
+                    "encoding",
+                    "num_slices",
+                    "num_dimensions",
+                    "accuracy",
+                ],
             )
 
             new_row.to_csv(
