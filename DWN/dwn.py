@@ -75,14 +75,12 @@ class DWN(object):
                 X, y, name = load_mnist()
             else:
                 X, y, name = load_from_uci(id)
-                
+
             y = encode_labels(y)
 
             X_train, X_test, y_train, y_test = train_test_split(
                 X, y, test_size=0.33, random_state=42
             )
-            
-            print(y_train)
 
             min_global, max_global = get_min_max(X)
 
@@ -152,12 +150,8 @@ class DWN(object):
                     x_train[indices].cuda(self.device).float(),
                     y_train[indices].cuda(self.device),
                 )
-                
+
                 outputs = model(batch_x)
-                
-                print(outputs[:10])
-                print(batch_y[:10])
-                
                 loss = cross_entropy(outputs, batch_y)
                 loss.backward()
                 optimizer.step()
