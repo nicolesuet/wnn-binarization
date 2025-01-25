@@ -26,19 +26,15 @@ datasets_ids = [
     "mnist",  # MNIST
 ]
 
-num_slices_range = [10, 20, 30, 40, 
-                    # 50, 60, 70, 80, 90, 100
-                    ]
-num_dimensions_range = [20, 40, 60, 80, 100, 
-                        # 120, 140, 160, 180, 200
-                        ]
+num_slices_range = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+num_dimensions_range = [20, 40, 60, 80, 100, 120, 140, 160, 180, 200]
 
-# num_slices_range = [10]
-# num_dimensions_range = [20]
 
 def run_wisard(num_slices, num_dimensions, datasets_ids):
-    logging.info(f"Running Wisard with num_slices={num_slices}, num_dimensions={num_dimensions}")
-    
+    logging.info(
+        f"Running Wisard with num_slices={num_slices}, num_dimensions={num_dimensions}"
+    )
+
     wisard = Wisard(
         num_slices=num_slices,
         num_dimensions=num_dimensions,
@@ -47,9 +43,9 @@ def run_wisard(num_slices, num_dimensions, datasets_ids):
         verbose=False,
         num_bits_thermometer=10,
         datasets_ids=datasets_ids,
-        epochs=1
+        epochs=1,
     )
-    
+
     wisard.run()
 
 
@@ -58,8 +54,7 @@ threads = []
 for num_slices in num_slices_range:
     for num_dimensions in num_dimensions_range:
         thread = threading.Thread(
-            target=run_wisard,
-            args=(num_slices, num_dimensions, datasets_ids)
+            target=run_wisard, args=(num_slices, num_dimensions, datasets_ids)
         )
         threads.append(thread)
         thread.start()

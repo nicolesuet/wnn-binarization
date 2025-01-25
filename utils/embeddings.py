@@ -8,17 +8,18 @@ from torchhd.tensors.bsc import BSCTensor
 
 
 __all__ = [
-    "ScatterCode",    
+    "ScatterCode",
 ]
+
 
 def bin_level(
     num_vectors: int,
-    dimensions: int,    
+    dimensions: int,
     *,
     requires_grad=False,
     **kwargs,
 ) -> BSCTensor:
-    """Creates a set of binary level based on Scatter Code.    
+    """Creates a set of binary level based on Scatter Code.
 
     Args:
         num_vectors (int): the number of hypervectors to generate.
@@ -26,13 +27,13 @@ def bin_level(
         dtype (``torch.dtype``, optional): the desired data type of returned tensor. Default: if ``None`` depends on VSATensor.
         device (``torch.device``, optional):  the desired device of returned tensor. Default: if ``None``, uses the current device for the default tensor type (see torch.set_default_tensor_type()). ``device`` will be the CPU for CPU tensor types and the current CUDA device for CUDA tensor types.
         requires_grad (bool, optional): If autograd should record operations on the returned tensor. Default: ``False``.
-    
+
     """
     vsa_tensor = BSCTensor
 
     num_flipped_bits = dimensions // num_vectors
     idx_mapping = torch.randperm(dimensions)
-    
+
     hv = torch.empty(
         num_vectors,
         dimensions,
@@ -46,18 +47,20 @@ def bin_level(
         **kwargs,
     )
 
-    hv[0] = base[0] # min hyper-vector
+    hv[0] = base[0]  # min hyper-vector
     slice_start = 0
     slice_end = num_flipped_bits
 
     for i in range(1, num_vectors):
         # Mark adding by 2 the num_flipped_bits position from base hyper-vector
-        base.scatter_(1, idx_mapping[slice_start:slice_end].unsqueeze(0), 2, reduce='add')
+        base.scatter_(
+            1, idx_mapping[slice_start:slice_end].unsqueeze(0), 2, reduce="add"
+        )
         hv[i] = base[0]
         slice_start = slice_end
         slice_end += num_flipped_bits
 
-    hv = hv.where(hv < 2, torch.logical_not(hv - 2))    
+    hv = hv.where(hv < 2, torch.logical_not(hv - 2))
     hv.requires_grad = requires_grad
     return hv
 
@@ -84,7 +87,7 @@ class ScatterCode(nn.Embedding):
         "num_embeddings",
         "embedding_dim",
         "low",
-        "high",        
+        "high",
     ]
 
     low: float
@@ -97,8 +100,8 @@ class ScatterCode(nn.Embedding):
         embedding_dim: int,
         low: float = 0.0,
         high: float = 1.0,
-        requires_grad: bool = False,        
-        device=None,                
+        requires_grad: bool = False,
+        device=None,
     ) -> None:
         factory_kwargs = {"device": device, "dtype": torch.uint8}
         # Have to call Module init explicitly in order not to use the Embedding init
@@ -107,18 +110,14 @@ class ScatterCode(nn.Embedding):
         self.num_embeddings = num_embeddings
         self.embedding_dim = embedding_dim
         self.low = low
-        self.high = high 
-        self.padding_idx = None # required by nn.Embedding 
-        self.max_norm = None # required by nn.Embedding   
-        self.norm_type = 2 # required by nn.Embedding     
-        self.scale_grad_by_freq = False # required by nn.Embedding 
-        self.sparse = False # required by nn.Embedding     
+        self.high = high
+        self.padding_idx = None  # required by nn.Embedding
+        self.max_norm = None  # required by nn.Embedding
+        self.norm_type = 2  # required by nn.Embedding
+        self.scale_grad_by_freq = False  # required by nn.Embedding
+        self.sparse = False  # required by nn.Embedding
 
-        embeddings = bin_level(
-            num_embeddings,
-            embedding_dim,            
-            **factory_kwargs            
-        )
+        embeddings = bin_level(num_embeddings, embedding_dim, **factory_kwargs)
         # Have to provide requires grad at the creation of the parameters to
         # prevent errors when instantiating a non-float embedding
         self.weight = Parameter(embeddings, requires_grad=requires_grad)
@@ -129,7 +128,7 @@ class ScatterCode(nn.Embedding):
         with torch.no_grad():
             embeddings = bin_level(
                 self.num_embeddings,
-                self.embedding_dim,                
+                self.embedding_dim,
                 **factory_kwargs,
                 **self.vsa_kwargs,
             )

@@ -137,6 +137,7 @@ def prepare_labels(y_true, y_pred):
 
     return y_true, y_pred
 
+
 def encode_labels(y):
     # Convert to NumPy arrays if they are PyTorch tensors
     if isinstance(y, torch.Tensor):

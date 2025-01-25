@@ -13,24 +13,21 @@ logging.basicConfig(
 logging.info("Starting the script")
 
 datasets_ids = [
-    # # 222,  # Bank Marketing ! error calculating min and max
-    # 39,  # Ecoli
-    # 53,  # Iris
-    # 186,  # Wine Quality
-    # 264,  # EEG Eye State
-    # 159,  # MAGIC Gamma Telescope
-    # # 2,  # Adult ! error calculating min and max
-    # 149,  # Statlog (Vehicle Silhouettes)
-    # 863,  # Maternal Health Risk
-    # 42,  # Glass Identification
+    # 222,  # Bank Marketing ! error calculating min and max
+    39,  # Ecoli
+    53,  # Iris
+    186,  # Wine Quality
+    264,  # EEG Eye State
+    159,  # MAGIC Gamma Telescope
+    # 2,  # Adult ! error calculating min and max
+    149,  # Statlog (Vehicle Silhouettes)
+    863,  # Maternal Health Risk
+    42,  # Glass Identification
     "mnist",  # MNIST
 ]
 
-# num_slices_range = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
-# num_dimensions_range = [20, 40, 60, 80, 100, 120, 140, 160, 180, 200]
-
-num_slices_range = [10]
-num_dimensions_range = [20]
+num_slices_range = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+num_dimensions_range = [20, 40, 60, 80, 100, 120, 140, 160, 180, 200]
 
 
 def run_dwn(num_slices, num_dimensions, datasets_ids):

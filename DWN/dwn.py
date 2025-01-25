@@ -181,7 +181,7 @@ class DWN(object):
             accuracy = f"{test_acc:.4f}"
             accuracies.append(f"{test_acc:.4f}")
             elapsed_time = time.time() - start_time
-            
+
             new_row = pd.DataFrame(
                 {
                     "model": ["DWN"],
