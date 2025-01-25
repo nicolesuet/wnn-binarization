@@ -24,8 +24,9 @@ from utils import (
     to_int_list,
     to_list,
     prepare_labels,
+    encode_labels
 )
-
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 class Wisard(object):
 
@@ -189,14 +190,17 @@ class Wisard(object):
         )
 
     def run(self):
+        # Limit the number of concurrent threads for dataset processing
+        MAX_DATASET_THREADS = 2  # Adjust based on your system's capabilities
 
-        threads = []
+        with ThreadPoolExecutor(max_workers=MAX_DATASET_THREADS) as executor:
+            futures = []
+            for dataset_id in self.datasets_ids:
+                future = executor.submit(self.execute_dataset, dataset_id)
+                futures.append(future)
 
-        for id in self.datasets_ids:
-            thread = threading.Thread(target=self.execute_dataset, args=(id,))
-            threads.append(thread)
-            thread.start()
-
-        # Wait for all threads to complete
-        for thread in threads:
-            thread.join()
+            for future in as_completed(futures):
+                try:
+                    future.result()  # Wait for each thread to complete
+                except Exception as e:
+                    logging.error(f"Dataset thread encountered an error: {e}")

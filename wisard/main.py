@@ -1,8 +1,9 @@
 from wisard import Wisard
 import os
 import logging
-import threading
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
+# Set up logging
 log_file = os.path.join(os.path.dirname(__file__), "wisard.log")
 logging.basicConfig(
     level=logging.INFO,
@@ -12,29 +13,30 @@ logging.basicConfig(
 
 logging.info("Starting the script")
 
+# Define dataset IDs
 datasets_ids = [
-    # 222,  # Bank Marketing ! error calculating min and max
     39,  # Ecoli
     53,  # Iris
     186,  # Wine Quality
     264,  # EEG Eye State
     159,  # MAGIC Gamma Telescope
-    # 2,  # Adult ! error calculating min and max
     149,  # Statlog (Vehicle Silhouettes)
     863,  # Maternal Health Risk
     42,  # Glass Identification
     "mnist",  # MNIST
 ]
 
-num_slices_range = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
-num_dimensions_range = [20, 40, 60, 80, 100, 120, 140, 160, 180, 200]
+# Define ranges for num_slices and num_dimensions
+num_slices_range = [10, 50, 100]  # Reduced range
+num_dimensions_range = [50, 100, 200]  # Reduced range
 
-
+# Function to run Wisard
 def run_wisard(num_slices, num_dimensions, datasets_ids):
     logging.info(
         f"Running Wisard with num_slices={num_slices}, num_dimensions={num_dimensions}"
     )
 
+    # Initialize Wisard
     wisard = Wisard(
         num_slices=num_slices,
         num_dimensions=num_dimensions,
@@ -43,21 +45,27 @@ def run_wisard(num_slices, num_dimensions, datasets_ids):
         verbose=False,
         num_bits_thermometer=10,
         datasets_ids=datasets_ids,
-        epochs=1,
+        epochs=5,
     )
 
+    # Run Wisard
     wisard.run()
 
+# Limit the number of concurrent threads
+MAX_THREADS = 4  # Adjust this based on your system's capabilities
 
-threads = []
+# Use ThreadPoolExecutor to manage threads
+with ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
+    futures = []
+    for num_slices in num_slices_range:
+        for num_dimensions in num_dimensions_range:
+            # Submit tasks to the executor
+            future = executor.submit(run_wisard, num_slices, num_dimensions, datasets_ids)
+            futures.append(future)
 
-for num_slices in num_slices_range:
-    for num_dimensions in num_dimensions_range:
-        thread = threading.Thread(
-            target=run_wisard, args=(num_slices, num_dimensions, datasets_ids)
-        )
-        threads.append(thread)
-        thread.start()
-
-for thread in threads:
-    thread.join()
+    # Wait for all tasks to complete
+    for future in as_completed(futures):
+        try:
+            future.result()  # Wait for each thread to complete
+        except Exception as e:
+            logging.error(f"Thread encountered an error: {e}")
