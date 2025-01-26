@@ -22,7 +22,8 @@ datasets_ids = [
 #    149,  # Statlog (Vehicle Silhouettes)
 #    863,  # Maternal Health Risk
 #    42,  # Glass Identification
-    "mnist",  # MNIST
+    # "mnist",  # MNIST
+    80, # Letter Recognition
 ]
 
 num_slices_range = [10, 50, 100]  # Reduced range

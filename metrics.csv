@@ -1438,4 +1438,155 @@ DWN,2025-01-25 20:03:29,0.0443,Glass Identification,Scatter Code,100,200,0.5352
 DWN,2025-01-25 20:03:29,0.0444,Glass Identification,Scatter Code,100,200,0.3944
 DWN,2025-01-25 20:03:29,0.0442,Glass Identification,Scatter Code,100,200,0.5634
 DWN,2025-01-25 20:03:29,0.0437,Glass Identification,Scatter Code,100,200,0.5634
-DWN,2025-01-25 20:03:29,0.0400,Glass Identification,Scatter Code,100,200,0.5493
+DWN,2025-01-25 20:03:29,0.0400,Glass Identification,Scatter Code,100,200,0.5493Wisard,2025-01-25 23:55:34,0.0025,Iris,Distributive,,,97.33
+Wisard,2025-01-25 23:55:34,0.0020,Iris,Distributive,,,97.33
+Wisard,2025-01-25 23:55:34,0.0014,Iris,Distributive,,,96.0
+Wisard,2025-01-25 23:55:34,0.0013,Iris,Distributive,,,95.33
+Wisard,2025-01-25 23:55:34,0.0013,Iris,Distributive,,,96.67
+Wisard,2025-01-25 23:55:34,0.0020,Iris,Distributive,,,96.0
+Wisard,2025-01-25 23:55:34,0.0033,Iris,Distributive,,,96.67
+Wisard,2025-01-25 23:55:34,0.0013,Iris,Distributive,,,96.67
+Wisard,2025-01-25 23:55:34,0.0013,Iris,Distributive,,,97.33
+Wisard,2025-01-25 23:55:34,0.0013,Iris,Distributive,,,96.0
+Wisard,2025-01-25 23:55:34,0.0011,Iris,Gaussian,,,97.33
+Wisard,2025-01-25 23:55:34,0.0013,Iris,Gaussian,,,96.67
+Wisard,2025-01-25 23:55:34,0.0024,Iris,Gaussian,,,98.0
+Wisard,2025-01-25 23:55:34,0.0017,Iris,Gaussian,,,94.67
+Wisard,2025-01-25 23:55:34,0.0021,Iris,Gaussian,,,98.67
+Wisard,2025-01-25 23:55:34,0.0015,Iris,Gaussian,,,97.33
+Wisard,2025-01-25 23:55:34,0.0011,Iris,Gaussian,,,98.67
+Wisard,2025-01-25 23:55:34,0.0018,Iris,Gaussian,,,98.67
+Wisard,2025-01-25 23:55:34,0.0012,Iris,Gaussian,,,97.33
+Wisard,2025-01-25 23:55:34,0.0011,Iris,Gaussian,,,98.0
+Wisard,2025-01-25 23:55:34,0.0011,Iris,Linear,,,98.67
+Wisard,2025-01-25 23:55:34,0.0010,Iris,Linear,,,98.67
+Wisard,2025-01-25 23:55:34,0.0011,Iris,Linear,,,98.0
+Wisard,2025-01-25 23:55:34,0.0010,Iris,Linear,,,98.67
+Wisard,2025-01-25 23:55:34,0.0015,Iris,Linear,,,98.0
+Wisard,2025-01-25 23:55:34,0.0013,Iris,Linear,,,98.0
+Wisard,2025-01-25 23:55:34,0.0011,Iris,Linear,,,98.0
+Wisard,2025-01-25 23:55:34,0.0011,Iris,Linear,,,98.0
+Wisard,2025-01-25 23:55:34,0.0011,Iris,Linear,,,97.33
+Wisard,2025-01-25 23:55:34,0.0011,Iris,Linear,,,98.0
+Wisard,2025-01-25 23:55:34,0.0063,Iris,Scatter Code,10,50,94.67
+Wisard,2025-01-25 23:55:34,0.0042,Iris,Scatter Code,10,100,95.33
+Wisard,2025-01-25 23:55:34,0.0043,Iris,Scatter Code,10,100,94.67
+Wisard,2025-01-25 23:55:34,0.0063,Iris,Scatter Code,10,50,94.67
+Wisard,2025-01-25 23:55:34,0.0062,Iris,Scatter Code,10,100,95.33
+Wisard,2025-01-25 23:55:34,0.0088,Iris,Scatter Code,10,50,95.33
+Wisard,2025-01-25 23:55:34,0.0044,Iris,Scatter Code,10,100,92.0
+Wisard,2025-01-25 23:55:34,0.0027,Iris,Scatter Code,10,50,94.0
+Wisard,2025-01-25 23:55:34,0.0074,Iris,Scatter Code,10,100,95.33
+Wisard,2025-01-25 23:55:34,0.0025,Iris,Scatter Code,10,50,93.33
+Wisard,2025-01-25 23:55:34,0.0060,Ecoli,Distributive,,,88.99
+Wisard,2025-01-25 23:55:34,0.0058,Ecoli,Distributive,,,92.56
+Wisard,2025-01-25 23:55:34,0.0035,Ecoli,Distributive,,,89.88
+Wisard,2025-01-25 23:55:34,0.0060,Ecoli,Distributive,,,90.48
+Wisard,2025-01-25 23:55:34,0.0059,Ecoli,Distributive,,,90.77
+Wisard,2025-01-25 23:55:34,0.0042,Ecoli,Distributive,,,89.29
+Wisard,2025-01-25 23:55:34,0.0040,Ecoli,Distributive,,,91.07
+Wisard,2025-01-25 23:55:34,0.0029,Ecoli,Distributive,,,92.86
+Wisard,2025-01-25 23:55:34,0.0031,Ecoli,Distributive,,,91.96
+Wisard,2025-01-25 23:55:34,0.0037,Ecoli,Distributive,,,89.29
+Wisard,2025-01-25 23:55:34,0.0029,Ecoli,Gaussian,,,91.67
+Wisard,2025-01-25 23:55:34,0.0107,Ecoli,Gaussian,,,91.07
+Wisard,2025-01-25 23:55:34,0.0106,Ecoli,Gaussian,,,90.77
+Wisard,2025-01-25 23:55:34,0.0054,Ecoli,Gaussian,,,91.07
+Wisard,2025-01-25 23:55:34,0.0059,Ecoli,Gaussian,,,91.37
+Wisard,2025-01-25 23:55:34,0.0066,Ecoli,Gaussian,,,89.58
+Wisard,2025-01-25 23:55:34,0.0078,Ecoli,Gaussian,,,88.69
+Wisard,2025-01-25 23:55:34,0.0067,Ecoli,Gaussian,,,90.18
+Wisard,2025-01-25 23:55:34,0.0042,Ecoli,Gaussian,,,91.07
+Wisard,2025-01-25 23:55:34,0.0044,Ecoli,Gaussian,,,91.96
+Wisard,2025-01-25 23:55:34,0.0033,Ecoli,Linear,,,88.69
+Wisard,2025-01-25 23:55:34,0.0101,Ecoli,Linear,,,87.8
+Wisard,2025-01-25 23:55:34,0.0060,Ecoli,Linear,,,88.39
+Wisard,2025-01-25 23:55:34,0.0034,Ecoli,Linear,,,87.5
+Wisard,2025-01-25 23:55:34,0.0031,Ecoli,Linear,,,89.88
+Wisard,2025-01-25 23:55:34,0.0035,Ecoli,Linear,,,91.37
+Wisard,2025-01-25 23:55:34,0.0035,Ecoli,Linear,,,90.18
+Wisard,2025-01-25 23:55:34,0.0034,Ecoli,Linear,,,89.88
+Wisard,2025-01-25 23:55:34,0.0032,Ecoli,Linear,,,88.99
+Wisard,2025-01-25 23:55:34,0.0042,Ecoli,Linear,,,88.69
+Wisard,2025-01-25 23:55:34,0.0088,Ecoli,Scatter Code,10,50,93.45
+Wisard,2025-01-25 23:55:34,0.0315,Ecoli,Scatter Code,10,100,90.77
+Wisard,2025-01-25 23:55:34,0.0265,Ecoli,Scatter Code,10,50,90.77
+Wisard,2025-01-25 23:55:34,0.0304,Ecoli,Scatter Code,10,50,89.88
+Wisard,2025-01-25 23:55:34,0.0295,Ecoli,Scatter Code,10,100,91.67
+Wisard,2025-01-25 23:55:34,0.0250,Ecoli,Scatter Code,10,50,89.88
+Wisard,2025-01-25 23:55:34,0.0260,Ecoli,Scatter Code,10,100,92.26
+Wisard,2025-01-25 23:55:35,0.0258,Ecoli,Scatter Code,10,100,92.26
+Wisard,2025-01-25 23:55:35,0.0252,Ecoli,Scatter Code,10,50,91.07
+Wisard,2025-01-25 23:55:35,0.0177,Ecoli,Scatter Code,10,100,91.96
+Wisard,2025-01-25 23:55:37,0.1805,Wine Quality,Distributive,,,62.04
+Wisard,2025-01-25 23:55:37,0.1658,Wine Quality,Distributive,,,60.5
+Wisard,2025-01-25 23:55:37,0.1007,Wine Quality,Distributive,,,62.68
+Wisard,2025-01-25 23:55:37,0.1331,Wine Quality,Distributive,,,62.07
+Wisard,2025-01-25 23:55:37,0.0965,Wine Quality,Distributive,,,62.72
+Wisard,2025-01-25 23:55:37,0.1500,Wine Quality,Distributive,,,64.12
+Wisard,2025-01-25 23:55:37,0.2150,Wine Quality,Distributive,,,61.04
+Wisard,2025-01-25 23:55:37,0.1077,Wine Quality,Distributive,,,62.49
+Wisard,2025-01-25 23:55:37,0.0997,Wine Quality,Distributive,,,61.47
+Wisard,2025-01-25 23:55:37,0.0874,Wine Quality,Distributive,,,61.51
+Wisard,2025-01-25 23:55:38,0.2072,Wine Quality,Gaussian,,,60.77
+Wisard,2025-01-25 23:55:38,0.0976,EEG Eye State,Gaussian,,,58.43
+Wisard,2025-01-25 23:55:38,0.1039,EEG Eye State,Gaussian,,,58.24
+Wisard,2025-01-25 23:55:38,0.1198,EEG Eye State,Gaussian,,,61.91
+Wisard,2025-01-25 23:55:38,0.2433,EEG Eye State,Gaussian,,,59.34
+Wisard,2025-01-25 23:55:38,0.1424,EEG Eye State,Gaussian,,,60.86
+Wisard,2025-01-25 23:55:38,0.1801,EEG Eye State,Gaussian,,,61.51
+Wisard,2025-01-25 23:55:38,0.1809,EEG Eye State,Gaussian,,,61.12
+Wisard,2025-01-25 23:55:39,0.3453,EEG Eye State,Gaussian,,,59.3
+Wisard,2025-01-25 23:55:39,0.4082,EEG Eye State,Gaussian,,,58.13
+Wisard,2025-01-25 23:55:39,0.5981,EEG Eye State,Distributive,,,75.31
+Wisard,2025-01-25 23:55:39,0.2654,EEG Eye State,Distributive,,,75.1
+Wisard,2025-01-25 23:55:40,0.7051,EEG Eye State,Linear,,,49.67
+Wisard,2025-01-25 23:55:40,0.5398,EEG Eye State,Linear,,,45.11
+Wisard,2025-01-25 23:55:40,1.1473,EEG Eye State,Distributive,,,74.33
+Wisard,2025-01-25 23:55:40,0.6115,EEG Eye State,Distributive,,,74.53
+Wisard,2025-01-25 23:55:41,1.0319,EEG Eye State,Linear,,,47.59
+Wisard,2025-01-25 23:55:41,0.7819,EEG Eye State,Linear,,,48.07
+Wisard,2025-01-25 23:55:41,1.0370,EEG Eye State,Distributive,,,74.74
+Wisard,2025-01-25 23:55:41,0.3958,EEG Eye State,Linear,,,45.28
+Wisard,2025-01-25 23:55:41,1.0522,EEG Eye State,Distributive,,,74.32
+Wisard,2025-01-25 23:55:42,0.9632,EEG Eye State,Linear,,,44.94
+Wisard,2025-01-25 23:55:42,0.6947,EEG Eye State,Linear,,,48.5
+Wisard,2025-01-25 23:55:42,1.0549,EEG Eye State,Distributive,,,72.72
+Wisard,2025-01-25 23:55:42,0.5388,EEG Eye State,Distributive,,,74.56
+Wisard,2025-01-25 23:55:44,1.0865,EEG Eye State,Linear,,,47.48
+Wisard,2025-01-25 23:55:44,1.0915,EEG Eye State,Linear,,,47.98
+Wisard,2025-01-25 23:55:44,0.3880,EEG Eye State,Distributive,,,73.26
+Wisard,2025-01-25 23:55:44,1.0937,EEG Eye State,Distributive,,,73.49
+Wisard,2025-01-25 23:55:44,0.4068,EEG Eye State,Linear,,,43.27
+Wisard,2025-01-25 23:56:13,29.3620,EEG Eye State,Scatter Code,10,100,39.93
+Wisard,2025-01-25 23:56:13,29.3539,EEG Eye State,Gaussian,,,58.05
+Wisard,2025-01-25 23:56:13,29.1647,EEG Eye State,Scatter Code,10,50,42.1
+Wisard,2025-01-25 23:56:13,29.3874,EEG Eye State,Gaussian,,,54.21
+Wisard,2025-01-25 23:56:40,26.5784,EEG Eye State,Scatter Code,10,100,43.57
+Wisard,2025-01-25 23:56:40,26.5840,EEG Eye State,Scatter Code,10,50,44.45
+Wisard,2025-01-25 23:56:40,26.5821,EEG Eye State,Gaussian,,,58.14
+Wisard,2025-01-25 23:56:40,26.5843,EEG Eye State,Gaussian,,,58.81
+Wisard,2025-01-25 23:57:04,23.9495,EEG Eye State,Scatter Code,10,100,44.34
+Wisard,2025-01-25 23:57:04,23.9509,EEG Eye State,Scatter Code,10,50,42.88
+Wisard,2025-01-25 23:57:04,23.9497,EEG Eye State,Gaussian,,,55.35
+Wisard,2025-01-25 23:57:04,23.9511,EEG Eye State,Gaussian,,,60.83
+Wisard,2025-01-25 23:57:33,29.0594,EEG Eye State,Scatter Code,10,50,42.1
+Wisard,2025-01-25 23:57:33,29.0624,EEG Eye State,Scatter Code,10,100,44.47
+Wisard,2025-01-25 23:57:33,29.0640,EEG Eye State,Gaussian,,,58.29
+Wisard,2025-01-25 23:57:33,29.0687,EEG Eye State,Gaussian,,,57.68
+Wisard,2025-01-25 23:57:58,24.8616,EEG Eye State,Scatter Code,10,50,38.77
+Wisard,2025-01-25 23:57:58,24.8608,EEG Eye State,Scatter Code,10,100,43.54
+Wisard,2025-01-25 23:57:58,24.8602,EEG Eye State,Gaussian,,,58.27
+Wisard,2025-01-25 23:57:59,0.8467,EEG Eye State,Gaussian,,,58.04
+Wisard,2025-01-25 23:58:38,39.4913,EEG Eye State,Linear,,,55.49
+Wisard,2025-01-25 23:58:38,39.4916,EEG Eye State,Linear,,,55.49
+Wisard,2025-01-25 23:59:18,39.5616,EEG Eye State,Linear,,,55.5
+Wisard,2025-01-25 23:59:18,39.5619,EEG Eye State,Linear,,,55.5
+Wisard,2025-01-25 23:59:57,39.4131,EEG Eye State,Linear,,,55.49
+Wisard,2025-01-25 23:59:57,39.4146,EEG Eye State,Linear,,,55.5
+Wisard,2025-01-26 00:00:37,39.6942,EEG Eye State,Linear,,,55.5
+Wisard,2025-01-26 00:00:37,39.6971,EEG Eye State,Linear,,,55.49
+Wisard,2025-01-26 00:01:16,39.4671,EEG Eye State,Linear,,,55.49
+Wisard,2025-01-26 00:01:16,39.4677,EEG Eye State,Linear,,,55.5
+Wisard,2025-01-26 00:06:25,309.0263,EEG Eye State,Scatter Code,10,100,55.13
+Wisard,2025-01-26 00:06:25,309.0335,EEG Eye State,Scatter Code,10,50,55.13

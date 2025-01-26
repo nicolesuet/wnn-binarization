@@ -23,7 +23,8 @@ datasets_ids = [
     149,  # Statlog (Vehicle Silhouettes)
     863,  # Maternal Health Risk
     42,  # Glass Identification
-    "mnist",  # MNIST
+    # "mnist",  # MNIST
+    80, # Letter Recognition
 ]
 
 # Define ranges for num_slices and num_dimensions
