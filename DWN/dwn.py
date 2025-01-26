@@ -69,7 +69,7 @@ class DWN(object):
 
     def run(self):
         # Limit the number of concurrent threads for dataset processing
-        MAX_DATASET_THREADS = 2  # Adjust based on your system's capabilities
+        MAX_DATASET_THREADS = 1  # Adjust based on your system's capabilities
 
         with ThreadPoolExecutor(max_workers=MAX_DATASET_THREADS) as executor:
             futures = []
