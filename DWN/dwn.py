@@ -82,7 +82,7 @@ class DWN(object):
                     future.result()  # Wait for each thread to complete
                 except Exception as e:
                     logging.error(f"Dataset thread encountered an error: {e}")
-
+                    
     def execute_dataset(self, dataset_id):
 
         logging.info(
@@ -90,49 +90,47 @@ class DWN(object):
         )
 
         if dataset_id == "mnist":
-            chunks = load_mnist(chunk_size=1000)
+            X, y, name = load_mnist()
         else:
             X, y, name = load_from_uci(dataset_id)
-            chunks = [(X, y, name)]
 
-        for X_chunk, y_chunk, name in chunks:
-            self.current_dataset = name
-            y_chunk = encode_labels(y_chunk)
+        self.current_dataset = name
+        y = encode_labels(y)
 
-            X_train, X_test, y_train, y_test = train_test_split(
-                X_chunk, y_chunk, test_size=0.33, random_state=42
+        X_train, X_test, y_train, y_test = train_test_split(
+            X, y, test_size=0.33, random_state=42
+        )
+
+        min_global, max_global = get_min_max(X)
+
+        torch_tensor = to_tensor(X)
+
+        encoders = [
+            create_encoder(
+                encoding_type,
+                encoder_class,
+                self.num_bits_thermometer,
+                torch_tensor,
+                min_global,
+                max_global,
+                self.num_slices,
+                self.num_dimensions,
             )
+            for encoding_type, encoder_class in self.encoder_definitions
+        ]
 
-            min_global, max_global = get_min_max(X_chunk)
-            torch_tensor = to_tensor(X_chunk)
-
-            encoders = [
-                create_encoder(
-                    encoding_type,
-                    encoder_class,
-                    self.num_bits_thermometer,
-                    torch_tensor,
-                    min_global,
-                    max_global,
-                    self.num_slices,
-                    self.num_dimensions,
-                )
-                for encoding_type, encoder_class in self.encoder_definitions
-            ]
-
-            for encoder in encoders:
-                logging.info(
-                    f"Starting evaluation for encoder: {encoder['encoding']} of dataset {name} with ID: {dataset_id}, num_slices: {self.num_slices}, num_dimensions: {self.num_dimensions}"
-                )
-
-                X_train_bin = binarize(encoder, X_train)
-                X_test_bin = binarize(encoder, X_test)
-
-                self.evaluate_model(X_train_bin, y_train, X_test_bin, y_test, encoder)
-
+        for encoder in encoders:
             logging.info(
-                f"Finished processing chunk of dataset: {name} with ID: {dataset_id}"
+                f"Starting evaluation for encoder: {encoder['encoding']} of dataset {name} with ID: {dataset_id}, num_slices: {self.num_slices}, num_dimensions: {self.num_dimensions}"
             )
+
+            # X_bin = binarize(encoder, X)
+            X_train_bin = binarize(encoder, X_train)
+            X_test_bin = binarize(encoder, X_test)
+
+            self.evaluate_model(X_train_bin, y_train, X_test_bin, y_test, encoder)
+
+        logging.info(f"Finished processing dataset: {name} with ID: {dataset_id}")
 
     def evaluate_model(self, x_train, y_train, X_test, y_test, encoder):
 

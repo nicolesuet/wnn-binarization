@@ -90,9 +90,7 @@ def load_mnist(chunk_size=100):
     X, y = mnist.data, mnist.target
     y = y.astype(np.uint8)
 
-    # Yield chunks of the dataset
-    for i in range(0, len(X), chunk_size):
-        yield X[i:i + chunk_size], y[i:i + chunk_size], "MNIST"
+    return X, y, "MNIST"
 
 def to_tensor(X):
     return torch.tensor(X.values) if hasattr(X, "values") else torch.tensor(X)
