@@ -28,8 +28,8 @@ datasets_ids = [
 num_slices_range = [10, 50, 100]  # Reduced range
 num_dimensions_range = [
 #    50, 
-#    100, 
-#    200
+   100, 
+   200
 ]  # Reduced range
 
 def log_resource_usage():

@@ -55,9 +55,9 @@ class DWN(object):
         self.current_dataset = ""
 
         self.encoder_definitions = [
-            # ("Distributive", DistributiveThermometer),
-            # ("Gaussian", GaussianThermometer),
-            # ("Linear", Thermometer),
+            ("Distributive", DistributiveThermometer),
+            ("Gaussian", GaussianThermometer),
+            ("Linear", Thermometer),
             ("Scatter Code", ScatterCode),
         ]
 
