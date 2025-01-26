@@ -1,3 +1,4 @@
+
 import os
 import threading
 import numpy as np
@@ -147,47 +148,49 @@ class Wisard(object):
         logging.info(f"Processing dataset ID: {id}")
 
         if id == "mnist":
-            X, y, name = load_mnist()
+            chunks = load_mnist(chunk_size=1000)
         else:
             X, y, name = load_from_uci(id)
+            chunks = [(X, y, name)]
 
-        self.current_dataset = name
+        for X_chunk, y_chunk, name in chunks:
+            self.current_dataset = name
 
-        X_train, X_test, y_train, y_test = train_test_split(
-            X, y, test_size=0.33, random_state=42
-        )
-
-        min_global, max_global = get_min_max(X)
-
-        torch_tensor = to_tensor(X)
-
-        encoders = [
-            create_encoder(
-                encoding_type,
-                encoder_class,
-                self.num_bits_thermometer,
-                torch_tensor,
-                min_global,
-                max_global,
-                self.num_slices,
-                self.num_dimensions,
+            X_train, X_test, y_train, y_test = train_test_split(
+                X_chunk, y_chunk, test_size=0.33, random_state=42
             )
-            for encoding_type, encoder_class in self.encoder_definitions
-        ]
 
-        for encoder in encoders:
+            min_global, max_global = get_min_max(X_chunk)
+
+            torch_tensor = to_tensor(X_chunk)
+
+            encoders = [
+                create_encoder(
+                    encoding_type,
+                    encoder_class,
+                    self.num_bits_thermometer,
+                    torch_tensor,
+                    min_global,
+                    max_global,
+                    self.num_slices,
+                    self.num_dimensions,
+                )
+                for encoding_type, encoder_class in self.encoder_definitions
+            ]
+
+            for encoder in encoders:
+                logging.info(
+                    f"Starting evaluation for encoder: {encoder['encoding']}, dataset: {name}, ID: {id}, num_slices: {self.num_slices}, num_dimensions: {self.num_dimensions}"
+                )
+
+                X_bin = binarize(encoder, X_chunk)
+                X_train_bin = binarize(encoder, X_train)
+
+                self.evaluate_model(X_train_bin, X_bin, y_train, y_chunk, encoder)
+
             logging.info(
-                f"Starting evaluation for encoder: {encoder['encoding']}, dataset: {name}, ID: {id}, num_slices: {self.num_slices}, num_dimensions: {self.num_dimensions}"
+                f"Finished processing dataset: {name} with ID: {id}, num_slices: {self.num_slices}, num_dimensions: {self.num_dimensions}"
             )
-
-            X_bin = binarize(encoder, X)
-            X_train_bin = binarize(encoder, X_train)
-
-            self.evaluate_model(X_train_bin, X_bin, y_train, y, encoder)
-
-        logging.info(
-            f"Finished processing dataset: {name} with ID: {id}, num_slices: {self.num_slices}, num_dimensions: {self.num_dimensions}"
-        )
 
     def run(self):
         # Limit the number of concurrent threads for dataset processing

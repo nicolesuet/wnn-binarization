@@ -83,15 +83,16 @@ def binarize(encoder, data):
     return encoder["encoder"].binarize(data).flatten(start_dim=1)
 
 
-def load_mnist():
+def load_mnist(chunk_size=100):
     logging.info("Fetching MNIST dataset")
 
     mnist = fetch_openml("mnist_784", version=1, as_frame=False, n_retries=10, delay=5)
     X, y = mnist.data, mnist.target
     y = y.astype(np.uint8)
 
-    return X[:1000], y[:1000], "MNIST"
-
+    # Yield chunks of the dataset
+    for i in range(0, len(X), chunk_size):
+        yield X[i:i + chunk_size], y[i:i + chunk_size], "MNIST"
 
 def to_tensor(X):
     return torch.tensor(X.values) if hasattr(X, "values") else torch.tensor(X)
