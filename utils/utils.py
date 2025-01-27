@@ -35,8 +35,12 @@ def load_from_uci(id: int):
 def get_min_max(X):
     logging.info("Calculating min and max values for the dataset")
 
-    if isinstance(X, torch.Tensor):
+    if isinstance(X, pd.DataFrame):
+            X = X.to_numpy()
+    elif isinstance(X, torch.Tensor):
         X = X.numpy()
+    if not isinstance(X, np.ndarray):
+        raise TypeError("Input X must be a pandas DataFrame, PyTorch tensor, or NumPy array")
 
     min_val = X.flatten().min()
     max_val = X.flatten().max()
