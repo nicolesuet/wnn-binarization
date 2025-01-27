@@ -186,14 +186,13 @@ def prepare_labels(y_true, y_pred):
 
 
 def encode_labels(y):
-    # Convert to list of strings first (for pandas Series/DataFrame)
     if isinstance(y, (pd.Series, pd.DataFrame)):
         y = y.astype(str).tolist()
     elif isinstance(y, torch.Tensor):
         y = y.numpy().astype(str).tolist()
-        
-    # Map to zero-based indices
-    unique_labels = list(set(y))
+    
+    unique_labels = sorted(list(set(y)))
     mapping = {label: idx for idx, label in enumerate(unique_labels)}
+    
     y_mapped = [mapping[label] for label in y]
     return torch.tensor(y_mapped, dtype=torch.long)
