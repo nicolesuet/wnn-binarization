@@ -1,7 +1,4 @@
 model,time,delta_time,dataset,encoding,num_slices,num_dimensions,accuracy
-model,time,delta_time,dataset,encoding,num_slices,num_dimensions,accuracy
-model,time,delta_time,dataset,encoding,num_slices,num_dimensions,accuracy
-model,time,delta_time,dataset,encoding,num_slices,num_dimensions,accuracy
 DWN,2025-01-26 21:24:00,0.8968,Ecoli,Distributive,,,0.8600
 DWN,2025-01-26 21:24:00,0.8991,Ecoli,Distributive,,,0.9400
 DWN,2025-01-26 21:24:00,0.0310,Ecoli,Distributive,,,0.9400
