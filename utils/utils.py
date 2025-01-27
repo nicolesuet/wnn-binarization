@@ -5,7 +5,8 @@ import logging
 import pandas as pd
 import torch
 import numpy as np
-
+from torch.utils.data import DataLoader
+from torchvision import datasets, transforms
 
 def add_header(csv_file):
     file_exists = os.path.isfile(csv_file)
@@ -83,14 +84,33 @@ def binarize(encoder, data):
     return encoder["encoder"].binarize(data).flatten(start_dim=1)
 
 
-def load_mnist(chunk_size=100):
-    logging.info("Fetching MNIST dataset")
+# def load_mnist(chunk_size=100):
+#     logging.info("Fetching MNIST dataset")
 
-    mnist = fetch_openml("mnist_784", version=1, as_frame=False, n_retries=10, delay=5)
-    X, y = mnist.data, mnist.target
-    y = y.astype(np.uint8)
+#     mnist = fetch_openml("mnist_784", version=1, as_frame=False, n_retries=10, delay=5)
+#     X, y = mnist.data, mnist.target
+#     y = y.astype(np.uint8)
 
-    return X, y, "MNIST"
+#     return X, y, "MNIST"
+
+def load_mnist():
+    
+    transform = transforms.Compose([
+        transforms.ToTensor(),
+        transforms.Lambda(lambda x: torch.flatten(x))
+    ])
+
+    train_dataset = datasets.MNIST(root='./data', train=True, download=True, transform=transform)
+    test_dataset = datasets.MNIST(root='./data', train=False, download=True, transform=transform)
+
+    train_loader = DataLoader(dataset=train_dataset, batch_size=len(train_dataset), shuffle=True)
+    test_loader = DataLoader(dataset=test_dataset, batch_size=len(test_dataset), shuffle=False)
+
+    X_train, y_train = next(iter(train_loader))
+    X_test, y_test = next(iter(test_loader))
+    
+    return X_train, X_test, y_train, y_test, "MNIST"
+    
 
 def to_tensor(X):
     return torch.tensor(X.values) if hasattr(X, "values") else torch.tensor(X)

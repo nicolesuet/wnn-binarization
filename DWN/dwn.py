@@ -82,7 +82,7 @@ class DWN(object):
                     future.result()  # Wait for each thread to complete
                 except Exception as e:
                     logging.error(f"Dataset thread encountered an error: {e}")
-                    
+
     def execute_dataset(self, dataset_id):
 
         logging.info(
@@ -90,16 +90,17 @@ class DWN(object):
         )
 
         if dataset_id == "mnist":
-            X, y, name = load_mnist()
+            X_train, X_test, y_train, y_test, name = load_mnist()
+            y = torch.cat((y_train, y_test), dim=0)
+            X = torch.cat((X_train, X_test), dim=0)
         else:
             X, y, name = load_from_uci(dataset_id)
+            X_train, X_test, y_train, y_test = train_test_split(
+                X, y, test_size=0.33, random_state=42
+            )
 
         self.current_dataset = name
         y = encode_labels(y)
-
-        X_train, X_test, y_train, y_test = train_test_split(
-            X, y, test_size=0.33, random_state=42
-        )
 
         min_global, max_global = get_min_max(X)
 

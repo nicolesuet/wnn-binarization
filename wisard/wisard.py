@@ -24,9 +24,11 @@ from utils import (
     to_int_list,
     to_list,
     prepare_labels,
-    encode_labels
+    encode_labels,
 )
+import torch
 from concurrent.futures import ThreadPoolExecutor, as_completed
+
 
 class Wisard(object):
 
@@ -52,7 +54,7 @@ class Wisard(object):
         verbose,
         num_bits_thermometer,
         datasets_ids,
-        epochs=10,
+        epochs=1,
     ):
         self.num_slices = num_slices
         self.num_dimensions = num_dimensions
@@ -77,6 +79,10 @@ class Wisard(object):
 
     def evaluate_model(self, x_train, X_bin, y_train, y_true, encoder):
 
+        wsd = wp.Wisard(
+            self.address_size, ignoreZero=self.ignore_zero, verbose=self.verbose
+        )
+
         for i in range(self.epochs):
 
             logging.info(
@@ -84,10 +90,6 @@ class Wisard(object):
             )
 
             start_time = time.time()
-
-            wsd = wp.Wisard(
-                self.address_size, ignoreZero=self.ignore_zero, verbose=self.verbose
-            )
 
             flatten_y_train = np.array(y_train).flatten().astype(str).tolist()
             x_train_int = to_int_list(x_train)
@@ -147,15 +149,16 @@ class Wisard(object):
         logging.info(f"Processing dataset ID: {id}")
 
         if id == "mnist":
-            X, y, name = load_mnist()
+            X_train, X_test, y_train, y_test, name = load_mnist()
+            y = torch.cat((y_train, y_test), dim=0)
+            X = torch.cat((X_train, X_test), dim=0)
         else:
             X, y, name = load_from_uci(id)
+            X_train, X_test, y_train, y_test = train_test_split(
+                X, y, test_size=0.33, random_state=42
+            )
 
         self.current_dataset = name
-
-        X_train, X_test, y_train, y_test = train_test_split(
-            X, y, test_size=0.33, random_state=42
-        )
 
         min_global, max_global = get_min_max(X)
 
@@ -191,7 +194,7 @@ class Wisard(object):
 
     def run(self):
         # Limit the number of concurrent threads for dataset processing
-        MAX_DATASET_THREADS = 2  # Adjust based on your system's capabilities
+        MAX_DATASET_THREADS = 30  # Adjust based on your system's capabilities
 
         with ThreadPoolExecutor(max_workers=MAX_DATASET_THREADS) as executor:
             futures = []

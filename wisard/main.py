@@ -23,13 +23,14 @@ datasets_ids = [
     149,  # Statlog (Vehicle Silhouettes)
     863,  # Maternal Health Risk
     42,  # Glass Identification
-    # "mnist",  # MNIST
-    80, # Letter Recognition
+    "mnist",  # MNIST
+    80,  # Letter Recognition
 ]
 
 # Define ranges for num_slices and num_dimensions
 num_slices_range = [10, 50, 100]  # Reduced range
 num_dimensions_range = [50, 100, 200]  # Reduced range
+
 
 # Function to run Wisard
 def run_wisard(num_slices, num_dimensions, datasets_ids):
@@ -46,14 +47,15 @@ def run_wisard(num_slices, num_dimensions, datasets_ids):
         verbose=False,
         num_bits_thermometer=10,
         datasets_ids=datasets_ids,
-        epochs=5,
+        epochs=1,
     )
 
     # Run Wisard
     wisard.run()
 
+
 # Limit the number of concurrent threads
-MAX_THREADS = 2  # Adjust this based on your system's capabilities
+MAX_THREADS = 30  # Adjust this based on your system's capabilities
 
 # Use ThreadPoolExecutor to manage threads
 with ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
@@ -61,7 +63,9 @@ with ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
     for num_slices in num_slices_range:
         for num_dimensions in num_dimensions_range:
             # Submit tasks to the executor
-            future = executor.submit(run_wisard, num_slices, num_dimensions, datasets_ids)
+            future = executor.submit(
+                run_wisard, num_slices, num_dimensions, datasets_ids
+            )
             futures.append(future)
 
     # Wait for all tasks to complete
