@@ -91,19 +91,18 @@ class DWN(object):
 
         if dataset_id == "mnist":
             X_train, X_test, y_train, y_test, name = load_mnist()
-            y = torch.cat((y_train, y_test), dim=0)
+            y_train = encode_labels(y_train)
+            y_test = encode_labels(y_test)
             X = torch.cat((X_train, X_test), dim=0)
         else:
             X, y, name = load_from_uci(dataset_id)
+            y = encode_labels(y)
             X_train, X_test, y_train, y_test = train_test_split(
                 X, y, test_size=0.33, random_state=42
             )
 
         self.current_dataset = name
-        y = encode_labels(y)
-
         min_global, max_global = get_min_max(X)
-
         torch_tensor = to_tensor(X)
 
         encoders = [
@@ -139,10 +138,11 @@ class DWN(object):
             f"Evaluating model with encoder: {encoder['encoding']}, num_slices: {self.num_slices}, num_dimensions: {self.num_dimensions}"
         )
 
+        num_classes = len(torch.unique(y_train))
         model = nn.Sequential(
             dwn.LUTLayer(x_train.size(1), 2000, n=6, mapping="learnable"),
             dwn.LUTLayer(2000, 1000, n=6),
-            dwn.GroupSum(k=10, tau=1 / 0.3),
+            dwn.GroupSum(k=num_classes, tau=1 / 0.3),
         )
 
         model = model.cuda()

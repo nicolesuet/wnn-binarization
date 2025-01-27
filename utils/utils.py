@@ -181,12 +181,11 @@ def prepare_labels(y_true, y_pred):
 
 
 def encode_labels(y):
-    # Convert to NumPy arrays if they are PyTorch tensors
-    if isinstance(y, torch.Tensor):
-        y = y.numpy()
-
-    # Factorize labels (automatically zero-indexed and contiguous)
-    y_encoded, unique_labels = pd.factorize(y)
-    y_encoded = torch.tensor(y_encoded, dtype=torch.long)
-
-    return y_encoded
+    # Convert to tensor if not already
+    if not isinstance(y, torch.Tensor):
+        y = torch.tensor(y)
+    # Convert labels to zero-based indices
+    unique = torch.unique(y)
+    mapping = {val.item(): idx for idx, val in enumerate(unique)}
+    y_mapped = torch.tensor([mapping[val.item()] for val in y], dtype=torch.long)
+    return y_mapped
