@@ -91,8 +91,6 @@ class DWN(object):
 
         if dataset_id == "mnist":
             X_train, X_test, y_train, y_test, name = load_mnist()
-            y_train = encode_labels(y_train)
-            y_test = encode_labels(y_test)
             X = torch.cat((X_train, X_test), dim=0)
         else:
             X, y, name = load_from_uci(dataset_id)
