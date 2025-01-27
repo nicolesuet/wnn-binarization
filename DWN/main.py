@@ -39,7 +39,7 @@ def log_resource_usage():
 
 def run_dwn(num_slices, num_dimensions, datasets_ids):
     logging.info(
-        f"Running Wisard with num_slices={num_slices}, num_dimensions={num_dimensions}"
+        f"Running DWN with num_slices={num_slices}, num_dimensions={num_dimensions}"
     )
     log_resource_usage()
 

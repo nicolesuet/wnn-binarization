@@ -161,7 +161,7 @@ class Wisard(object):
         self.current_dataset = name
 
         min_global, max_global = get_min_max(X)
-
+        
         torch_tensor = to_tensor(X)
 
         encoders = [

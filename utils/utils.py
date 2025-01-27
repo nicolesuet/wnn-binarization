@@ -35,11 +35,11 @@ def load_from_uci(id: int):
 def get_min_max(X):
     logging.info("Calculating min and max values for the dataset")
 
-    if hasattr(X, "values"):
-        X = X.values
+    if isinstance(X, torch.Tensor):
+        X = X.numpy()
 
-    min_val = np.array(X).flatten().min()
-    max_val = np.array(X).flatten().max()
+    min_val = X.flatten().min()
+    max_val = X.flatten().max()
 
     logging.info(f"Min value: {min_val}, Max value: {max_val}")
     return min_val, max_val
@@ -99,9 +99,26 @@ def load_mnist():
         transforms.ToTensor(),
         transforms.Lambda(lambda x: torch.flatten(x))
     ])
+    
+    # Define the root directory and dataset name
+    root_dir = 'data'
+    dataset_name = 'MNIST'
 
-    train_dataset = datasets.MNIST(root='./data', train=True, download=True, transform=transform)
-    test_dataset = datasets.MNIST(root='./data', train=False, download=True, transform=transform)
+    # Check if the dataset files already exist
+    dataset_path = os.path.join(root_dir, dataset_name)
+    
+    if not os.path.exists(dataset_path):
+        download = True
+    else:
+        required_files = [
+            'train-images-idx3-ubyte', 'train-labels-idx1-ubyte',
+            't10k-images-idx3-ubyte', 't10k-labels-idx1-ubyte'
+        ]
+        downloaded_files = os.listdir(os.path.join(dataset_path, 'raw'))        
+        download = not all(file in downloaded_files for file in required_files)
+
+    train_dataset = datasets.MNIST(root='./data', train=True, download=download, transform=transform)
+    test_dataset = datasets.MNIST(root='./data', train=False, download=download, transform=transform)
 
     train_loader = DataLoader(dataset=train_dataset, batch_size=len(train_dataset), shuffle=True)
     test_loader = DataLoader(dataset=test_dataset, batch_size=len(test_dataset), shuffle=False)
@@ -113,6 +130,8 @@ def load_mnist():
     
 
 def to_tensor(X):
+    if isinstance(X, torch.Tensor):
+        return X
     return torch.tensor(X.values) if hasattr(X, "values") else torch.tensor(X)
 
 
