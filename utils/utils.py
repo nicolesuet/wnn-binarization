@@ -136,8 +136,13 @@ def load_mnist():
 def to_tensor(X):
     if isinstance(X, torch.Tensor):
         return X
-    return torch.tensor(X.values) if hasattr(X, "values") else torch.tensor(X)
-
+    elif isinstance(X, (pd.DataFrame, pd.Series)):
+        # Explicitly convert to numpy array of floats
+        return torch.tensor(X.to_numpy().astype(float))
+    elif isinstance(X, np.ndarray):
+        return torch.tensor(X.astype(float))
+    else:
+        return torch.tensor(X)
 
 def to_int_list(data):
     if isinstance(data, np.ndarray):
@@ -181,11 +186,14 @@ def prepare_labels(y_true, y_pred):
 
 
 def encode_labels(y):
-    # Convert to tensor if not already
-    if not isinstance(y, torch.Tensor):
-        y = torch.tensor(y)
-    # Convert labels to zero-based indices
-    unique = torch.unique(y)
-    mapping = {val.item(): idx for idx, val in enumerate(unique)}
-    y_mapped = torch.tensor([mapping[val.item()] for val in y], dtype=torch.long)
-    return y_mapped
+    # Convert to list of strings first (for pandas Series/DataFrame)
+    if isinstance(y, (pd.Series, pd.DataFrame)):
+        y = y.astype(str).tolist()
+    elif isinstance(y, torch.Tensor):
+        y = y.numpy().astype(str).tolist()
+        
+    # Map to zero-based indices
+    unique_labels = list(set(y))
+    mapping = {label: idx for idx, label in enumerate(unique_labels)}
+    y_mapped = [mapping[label] for label in y]
+    return torch.tensor(y_mapped, dtype=torch.long)
