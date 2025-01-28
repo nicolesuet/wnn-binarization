@@ -1,0 +1,2571 @@
+model,time,delta_time,dataset,encoding,num_slices,num_dimensions,accuracy
+DWN,2025-01-27 22:10:11,0.3195,Iris,Distributive,,,0.8200
+DWN,2025-01-27 22:10:11,0.3303,Iris,Distributive,,,0.9200
+DWN,2025-01-27 22:10:11,0.3567,Iris,Distributive,,,0.7838
+DWN,2025-01-27 22:10:11,0.3740,Iris,Distributive,,,0.8108
+DWN,2025-01-27 22:10:11,0.0497,Iris,Distributive,,,0.9400
+DWN,2025-01-27 22:10:11,0.0477,Iris,Distributive,,,0.9200
+DWN,2025-01-27 22:10:11,0.0360,Iris,Distributive,,,0.9400
+DWN,2025-01-27 22:10:11,0.0675,Iris,Distributive,,,0.8018
+DWN,2025-01-27 22:10:11,0.0428,Iris,Distributive,,,0.8600
+DWN,2025-01-27 22:10:11,0.0343,Iris,Distributive,,,0.9200
+DWN,2025-01-27 22:10:11,0.0883,Iris,Distributive,,,0.7928
+DWN,2025-01-27 22:10:11,0.0446,Iris,Distributive,,,0.9400
+DWN,2025-01-27 22:10:11,0.0640,Iris,Distributive,,,0.8198
+DWN,2025-01-27 22:10:11,0.0339,Iris,Distributive,,,0.9400
+DWN,2025-01-27 22:10:11,0.0460,Iris,Distributive,,,0.9400
+DWN,2025-01-27 22:10:11,0.0354,Iris,Distributive,,,0.9200
+DWN,2025-01-27 22:10:11,0.0812,Iris,Distributive,,,0.8198
+DWN,2025-01-27 22:10:11,0.0508,Iris,Distributive,,,0.8288
+DWN,2025-01-27 22:10:11,0.0322,Iris,Distributive,,,0.9000
+DWN,2025-01-27 22:10:11,0.0418,Iris,Distributive,,,0.8400
+DWN,2025-01-27 22:10:11,0.0691,Iris,Distributive,,,0.8378
+DWN,2025-01-27 22:10:11,0.0386,Iris,Distributive,,,0.8600
+DWN,2025-01-27 22:10:11,0.0850,Iris,Distributive,,,0.8108
+DWN,2025-01-27 22:10:11,0.0527,Iris,Distributive,,,0.9000
+DWN,2025-01-27 22:10:11,0.0369,Iris,Distributive,,,0.9200
+DWN,2025-01-27 22:10:11,0.0637,Iris,Distributive,,,0.8288
+DWN,2025-01-27 22:10:12,0.0351,Iris,Distributive,,,0.9400
+DWN,2025-01-27 22:10:12,0.0736,Iris,Distributive,,,0.8559
+DWN,2025-01-27 22:10:12,0.0733,Iris,Distributive,,,0.9000
+DWN,2025-01-27 22:10:12,0.0596,Iris,Distributive,,,0.8108
+DWN,2025-01-27 22:10:12,0.0389,Iris,Gaussian,,,0.8200
+DWN,2025-01-27 22:10:12,0.0473,Iris,Distributive,,,0.9400
+DWN,2025-01-27 22:10:12,0.0743,Iris,Distributive,,,0.8288
+DWN,2025-01-27 22:10:12,0.0370,Iris,Gaussian,,,0.9800
+DWN,2025-01-27 22:10:12,0.0704,Iris,Distributive,,,0.7928
+DWN,2025-01-27 22:10:12,0.0557,Iris,Distributive,,,0.9600
+DWN,2025-01-27 22:10:12,0.0350,Iris,Gaussian,,,0.9400
+DWN,2025-01-27 22:10:12,0.0722,Iris,Distributive,,,0.7748
+DWN,2025-01-27 22:10:12,0.0321,Iris,Gaussian,,,0.9600
+DWN,2025-01-27 22:10:12,0.0656,Iris,Distributive,,,0.8288
+DWN,2025-01-27 22:10:12,0.0503,Iris,Gaussian,,,0.9400
+DWN,2025-01-27 22:10:12,0.0377,Iris,Gaussian,,,0.9800
+DWN,2025-01-27 22:10:12,0.0761,Iris,Distributive,,,0.8198
+DWN,2025-01-27 22:10:12,0.0452,Iris,Gaussian,,,1.0000
+DWN,2025-01-27 22:10:12,0.0390,Iris,Gaussian,,,0.9800
+DWN,2025-01-27 22:10:12,0.0726,Iris,Distributive,,,0.8288
+DWN,2025-01-27 22:10:12,0.0314,Iris,Gaussian,,,0.9800
+DWN,2025-01-27 22:10:12,0.0657,Iris,Distributive,,,0.8468
+DWN,2025-01-27 22:10:12,0.0501,Iris,Gaussian,,,0.9600
+DWN,2025-01-27 22:10:12,0.0401,Iris,Gaussian,,,0.9800
+DWN,2025-01-27 22:10:12,0.0697,Iris,Gaussian,,,0.8198
+DWN,2025-01-27 22:10:12,0.0445,Iris,Gaussian,,,0.9600
+DWN,2025-01-27 22:10:12,0.0370,Iris,Gaussian,,,0.9800
+DWN,2025-01-27 22:10:12,0.0789,Iris,Distributive,,,0.8198
+DWN,2025-01-27 22:10:12,0.0471,Iris,Gaussian,,,0.9800
+DWN,2025-01-27 22:10:12,0.0348,Iris,Gaussian,,,0.9600
+DWN,2025-01-27 22:10:12,0.0646,Iris,Gaussian,,,0.8378
+DWN,2025-01-27 22:10:12,0.0551,Iris,Gaussian,,,0.7658
+DWN,2025-01-27 22:10:12,0.0453,Iris,Gaussian,,,0.9800
+DWN,2025-01-27 22:10:12,0.0382,Iris,Linear,,,0.9600
+DWN,2025-01-27 22:10:12,0.0701,Iris,Gaussian,,,0.7928
+DWN,2025-01-27 22:10:12,0.0348,Iris,Linear,,,0.9800
+DWN,2025-01-27 22:10:12,0.0538,Iris,Gaussian,,,0.9400
+DWN,2025-01-27 22:10:12,0.0714,Iris,Gaussian,,,0.7748
+DWN,2025-01-27 22:10:12,0.0388,Iris,Linear,,,0.9600
+DWN,2025-01-27 22:10:12,0.0688,Iris,Gaussian,,,0.8378
+DWN,2025-01-27 22:10:12,0.0505,Iris,Gaussian,,,0.9600
+DWN,2025-01-27 22:10:12,0.0374,Iris,Linear,,,0.9600
+DWN,2025-01-27 22:10:12,0.0747,Iris,Gaussian,,,0.8378
+DWN,2025-01-27 22:10:12,0.0486,Iris,Gaussian,,,0.9200
+DWN,2025-01-27 22:10:12,0.0609,Iris,Gaussian,,,0.8378
+DWN,2025-01-27 22:10:12,0.0352,Iris,Linear,,,0.9800
+DWN,2025-01-27 22:10:12,0.0321,Iris,Linear,,,0.9400
+DWN,2025-01-27 22:10:12,0.0709,Iris,Gaussian,,,0.8018
+DWN,2025-01-27 22:10:12,0.0516,Iris,Gaussian,,,0.9600
+DWN,2025-01-27 22:10:12,0.0703,Iris,Gaussian,,,0.8198
+DWN,2025-01-27 22:10:12,0.0342,Iris,Linear,,,0.9800
+DWN,2025-01-27 22:10:12,0.0329,Iris,Linear,,,0.9400
+DWN,2025-01-27 22:10:12,0.0597,Iris,Gaussian,,,0.8108
+DWN,2025-01-27 22:10:12,0.0358,Iris,Linear,,,0.9800
+DWN,2025-01-27 22:10:12,0.0423,Iris,Linear,,,0.8600
+DWN,2025-01-27 22:10:12,0.0761,Iris,Gaussian,,,0.8198
+DWN,2025-01-27 22:10:12,0.0369,Iris,Linear,,,0.9800
+DWN,2025-01-27 22:10:12,0.0782,Iris,Gaussian,,,0.8739
+DWN,2025-01-27 22:10:12,0.0421,Iris,Linear,,,0.9800
+DWN,2025-01-27 22:10:12,0.0389,Iris,Linear,,,0.9800
+DWN,2025-01-27 22:10:12,0.0701,Iris,Gaussian,,,0.7928
+DWN,2025-01-27 22:10:12,0.0393,Iris,Linear,,,0.9400
+DWN,2025-01-27 22:10:12,0.0655,Iris,Gaussian,,,0.8378
+DWN,2025-01-27 22:10:12,0.0408,Iris,Scatter Code,10,50,0.8800
+DWN,2025-01-27 22:10:12,0.0466,Iris,Linear,,,0.9600
+DWN,2025-01-27 22:10:13,0.0807,Iris,Gaussian,,,0.8018
+DWN,2025-01-27 22:10:13,0.0390,Iris,Scatter Code,10,50,1.0000
+DWN,2025-01-27 22:10:13,0.0728,Iris,Gaussian,,,0.8468
+DWN,2025-01-27 22:10:13,0.0503,Iris,Linear,,,0.9600
+DWN,2025-01-27 22:10:13,0.0374,Iris,Scatter Code,10,50,0.9200
+DWN,2025-01-27 22:10:13,0.0723,Iris,Gaussian,,,0.8288
+DWN,2025-01-27 22:10:13,0.0555,Iris,Linear,,,0.9600
+DWN,2025-01-27 22:10:13,0.0386,Iris,Scatter Code,10,50,0.8800
+DWN,2025-01-27 22:10:13,0.0734,Iris,Gaussian,,,0.8559
+DWN,2025-01-27 22:10:13,0.0403,Iris,Linear,,,0.9800
+DWN,2025-01-27 22:10:13,0.0407,Iris,Scatter Code,10,50,0.9400
+DWN,2025-01-27 22:10:13,0.0657,Iris,Linear,,,0.8018
+DWN,2025-01-27 22:10:13,0.0782,Iris,Gaussian,,,0.8559
+DWN,2025-01-27 22:10:13,0.0443,Iris,Scatter Code,10,50,0.8400
+DWN,2025-01-27 22:10:13,0.0600,Iris,Linear,,,0.9800
+DWN,2025-01-27 22:10:13,0.0407,Iris,Scatter Code,10,50,0.9400
+DWN,2025-01-27 22:10:13,0.0710,Iris,Linear,,,0.8288
+DWN,2025-01-27 22:10:13,0.0416,Iris,Linear,,,0.9800
+DWN,2025-01-27 22:10:13,0.0683,Iris,Linear,,,0.7658
+DWN,2025-01-27 22:10:13,0.0327,Iris,Scatter Code,10,50,1.0000
+DWN,2025-01-27 22:10:13,0.0374,Iris,Linear,,,0.7838
+DWN,2025-01-27 22:10:13,0.0634,Iris,Scatter Code,10,50,0.8000
+DWN,2025-01-27 22:10:13,0.0536,Iris,Scatter Code,10,100,0.8800
+DWN,2025-01-27 22:10:13,0.0806,Iris,Linear,,,0.7568
+DWN,2025-01-27 22:10:13,0.0359,Iris,Scatter Code,10,50,1.0000
+DWN,2025-01-27 22:10:13,0.1177,Iris,Linear,,,0.7928
+DWN,2025-01-27 22:10:13,0.0378,Iris,Scatter Code,10,100,1.0000
+DWN,2025-01-27 22:10:13,0.0542,Iris,Linear,,,0.8468
+DWN,2025-01-27 22:10:13,0.0330,Iris,Scatter Code,10,100,0.9600
+DWN,2025-01-27 22:10:13,0.0589,Iris,Linear,,,0.8108
+DWN,2025-01-27 22:10:13,0.0318,Iris,Scatter Code,10,100,0.9600
+DWN,2025-01-27 22:10:13,0.0558,Iris,Linear,,,0.8739
+DWN,2025-01-27 22:10:13,0.0568,Iris,Linear,,,0.8018
+DWN,2025-01-27 22:10:13,0.0398,Iris,Scatter Code,10,100,0.8400
+DWN,2025-01-27 22:10:13,0.0510,Iris,Linear,,,0.8468
+DWN,2025-01-27 22:10:13,0.0397,Iris,Scatter Code,10,100,0.8600
+DWN,2025-01-27 22:10:13,0.0579,Iris,Linear,,,0.8108
+DWN,2025-01-27 22:10:13,0.0525,Iris,Linear,,,0.8018
+DWN,2025-01-27 22:10:13,0.0366,Iris,Scatter Code,10,100,0.9400
+DWN,2025-01-27 22:10:13,0.0573,Iris,Linear,,,0.8018
+DWN,2025-01-27 22:10:13,0.0533,Iris,Linear,,,0.7928
+DWN,2025-01-27 22:10:13,0.0416,Iris,Scatter Code,10,100,0.9200
+DWN,2025-01-27 22:10:13,0.0371,Iris,Scatter Code,10,100,0.8400
+DWN,2025-01-27 22:10:13,0.0534,Iris,Linear,,,0.8378
+DWN,2025-01-27 22:10:13,0.0607,Iris,Linear,,,0.7568
+DWN,2025-01-27 22:10:13,0.0389,Iris,Scatter Code,10,100,0.9000
+DWN,2025-01-27 22:10:13,0.0416,Iris,Linear,,,0.7748
+DWN,2025-01-27 22:10:13,0.0507,Iris,Linear,,,0.7568
+DWN,2025-01-27 22:10:13,0.0538,Wine Quality,Scatter Code,10,50,0.7477
+DWN,2025-01-27 22:10:13,0.0480,Iris,Linear,,,0.8108
+DWN,2025-01-27 22:10:13,0.0534,Wine Quality,Scatter Code,10,50,0.8829
+DWN,2025-01-27 22:10:14,0.1493,Wine Quality,Scatter Code,10,50,0.8378
+DWN,2025-01-27 22:10:14,0.0787,Iris,Scatter Code,10,100,0.7568
+DWN,2025-01-27 22:10:14,0.0692,Wine Quality,Scatter Code,10,50,0.8288
+DWN,2025-01-27 22:10:14,0.0708,Iris,Scatter Code,10,100,0.8468
+DWN,2025-01-27 22:10:14,0.0848,Wine Quality,Scatter Code,10,50,0.8288
+DWN,2025-01-27 22:10:14,0.0916,Wine Quality,Scatter Code,10,100,0.8559
+DWN,2025-01-27 22:10:14,0.0741,Wine Quality,Scatter Code,10,50,0.8288
+DWN,2025-01-27 22:10:14,0.0827,Wine Quality,Scatter Code,10,100,0.8018
+DWN,2025-01-27 22:10:14,0.0780,Wine Quality,Scatter Code,10,50,0.8198
+DWN,2025-01-27 22:10:14,0.0813,Wine Quality,Scatter Code,10,100,0.8288
+DWN,2025-01-27 22:10:14,0.0780,Wine Quality,Scatter Code,10,50,0.8468
+DWN,2025-01-27 22:10:14,0.0820,Wine Quality,Scatter Code,10,100,0.8288
+DWN,2025-01-27 22:10:14,0.0703,Wine Quality,Scatter Code,10,50,0.8559
+DWN,2025-01-27 22:10:14,0.0898,Wine Quality,Scatter Code,10,100,0.8468
+DWN,2025-01-27 22:10:14,0.9602,Wine Quality,Distributive,,,0.4937
+DWN,2025-01-27 22:10:14,0.0643,Wine Quality,Scatter Code,10,50,0.8198
+DWN,2025-01-27 22:10:14,0.0678,Wine Quality,Scatter Code,10,100,0.8649
+DWN,2025-01-27 22:10:14,0.0634,Wine Quality,Scatter Code,10,100,0.8559
+DWN,2025-01-27 22:10:15,0.0612,Wine Quality,Scatter Code,10,100,0.8378
+DWN,2025-01-27 22:10:15,0.9163,Wine Quality,Distributive,,,0.4275
+DWN,2025-01-27 22:10:15,0.6582,Wine Quality,Distributive,,,0.4928
+DWN,2025-01-27 22:10:15,0.7043,Wine Quality,Distributive,,,0.4825
+DWN,2025-01-27 22:10:16,0.9629,EEG Eye State,Distributive,,,0.4984
+DWN,2025-01-27 22:10:16,1.1446,EEG Eye State,Distributive,,,0.4830
+DWN,2025-01-27 22:10:17,1.1187,EEG Eye State,Distributive,,,0.4951
+DWN,2025-01-27 22:10:18,1.1789,EEG Eye State,Distributive,,,0.5063
+DWN,2025-01-27 22:10:18,2.6344,EEG Eye State,Distributive,,,0.7597
+DWN,2025-01-27 22:10:18,1.1541,EEG Eye State,Distributive,,,0.4872
+DWN,2025-01-27 22:10:19,3.1573,EEG Eye State,Distributive,,,0.7399
+DWN,2025-01-27 22:10:19,1.2062,EEG Eye State,Distributive,,,0.5068
+DWN,2025-01-27 22:10:19,1.1557,EEG Eye State,Distributive,,,0.5002
+DWN,2025-01-27 22:10:20,1.2258,EEG Eye State,Distributive,,,0.5100
+DWN,2025-01-27 22:10:20,1.0616,EEG Eye State,Distributive,,,0.5016
+DWN,2025-01-27 22:10:21,2.8551,EEG Eye State,Distributive,,,0.7896
+DWN,2025-01-27 22:10:21,1.2006,EEG Eye State,Distributive,,,0.4909
+DWN,2025-01-27 22:10:22,1.1178,EEG Eye State,Distributive,,,0.5040
+DWN,2025-01-27 22:10:22,3.3501,EEG Eye State,Distributive,,,0.7862
+DWN,2025-01-27 22:10:22,1.1631,EEG Eye State,Distributive,,,0.5305
+DWN,2025-01-27 22:10:23,1.1383,EEG Eye State,Distributive,,,0.5305
+DWN,2025-01-27 22:10:23,2.8848,EEG Eye State,Distributive,,,0.8220
+DWN,2025-01-27 22:10:24,1.1953,EEG Eye State,Distributive,,,0.5282
+DWN,2025-01-27 22:10:24,1.1233,EEG Eye State,Distributive,,,0.5371
+DWN,2025-01-27 22:10:25,1.1686,EEG Eye State,Distributive,,,0.5170
+DWN,2025-01-27 22:10:25,1.0402,EEG Eye State,Gaussian,,,0.5026
+DWN,2025-01-27 22:10:25,3.3678,EEG Eye State,Distributive,,,0.8263
+DWN,2025-01-27 22:10:26,1.1045,EEG Eye State,Gaussian,,,0.4639
+DWN,2025-01-27 22:10:26,1.1554,EEG Eye State,Gaussian,,,0.4737
+DWN,2025-01-27 22:10:26,2.8070,EEG Eye State,Distributive,,,0.8230
+DWN,2025-01-27 22:10:27,1.1152,EEG Eye State,Gaussian,,,0.4951
+DWN,2025-01-27 22:10:27,1.1432,EEG Eye State,Gaussian,,,0.4765
+DWN,2025-01-27 22:10:28,1.1420,EEG Eye State,Gaussian,,,0.4914
+DWN,2025-01-27 22:10:28,1.1538,EEG Eye State,Gaussian,,,0.4932
+DWN,2025-01-27 22:10:29,3.3280,EEG Eye State,Distributive,,,0.8244
+DWN,2025-01-27 22:10:29,2.8194,EEG Eye State,Distributive,,,0.8418
+DWN,2025-01-27 22:10:29,1.0809,EEG Eye State,Gaussian,,,0.4904
+DWN,2025-01-27 22:10:30,1.1717,EEG Eye State,Gaussian,,,0.4900
+DWN,2025-01-27 22:10:30,1.0613,EEG Eye State,Gaussian,,,0.5030
+DWN,2025-01-27 22:10:31,1.1369,EEG Eye State,Gaussian,,,0.4862
+DWN,2025-01-27 22:10:32,1.1221,EEG Eye State,Gaussian,,,0.4998
+DWN,2025-01-27 22:10:32,1.1768,EEG Eye State,Gaussian,,,0.5063
+DWN,2025-01-27 22:10:32,2.8042,EEG Eye State,Distributive,,,0.8382
+DWN,2025-01-27 22:10:32,3.2001,EEG Eye State,Distributive,,,0.8345
+DWN,2025-01-27 22:10:33,1.0862,EEG Eye State,Gaussian,,,0.4951
+DWN,2025-01-27 22:10:33,1.1433,EEG Eye State,Gaussian,,,0.4816
+DWN,2025-01-27 22:10:34,1.0881,EEG Eye State,Gaussian,,,0.4755
+DWN,2025-01-27 22:10:34,1.2095,EEG Eye State,Gaussian,,,0.4937
+DWN,2025-01-27 22:10:35,2.8308,EEG Eye State,Distributive,,,0.8485
+DWN,2025-01-27 22:10:35,1.1482,EEG Eye State,Gaussian,,,0.5152
+DWN,2025-01-27 22:10:35,1.2047,EEG Eye State,Gaussian,,,0.4970
+DWN,2025-01-27 22:10:35,3.5850,EEG Eye State,Distributive,,,0.8380
+DWN,2025-01-27 22:10:36,1.2100,EEG Eye State,Linear,,,0.4145
+DWN,2025-01-27 22:10:37,1.2506,EEG Eye State,Gaussian,,,0.5189
+DWN,2025-01-27 22:10:37,1.1754,EEG Eye State,Linear,,,0.4224
+DWN,2025-01-27 22:10:38,2.8569,EEG Eye State,Distributive,,,0.8487
+DWN,2025-01-27 22:10:38,1.1723,EEG Eye State,Linear,,,0.4420
+DWN,2025-01-27 22:10:38,1.0543,EEG Eye State,Linear,,,0.4569
+DWN,2025-01-27 22:10:39,3.2425,EEG Eye State,Distributive,,,0.8301
+DWN,2025-01-27 22:10:39,1.1680,EEG Eye State,Linear,,,0.4629
+DWN,2025-01-27 22:10:40,1.0802,EEG Eye State,Linear,,,0.4737
+DWN,2025-01-27 22:10:40,1.1307,EEG Eye State,Linear,,,0.4657
+DWN,2025-01-27 22:10:40,2.7520,EEG Eye State,Distributive,,,0.8594
+DWN,2025-01-27 22:10:41,1.1082,EEG Eye State,Linear,,,0.4443
+DWN,2025-01-27 22:10:41,1.1390,EEG Eye State,Linear,,,0.4760
+DWN,2025-01-27 22:10:42,1.1271,EEG Eye State,Linear,,,0.4723
+DWN,2025-01-27 22:10:42,3.3362,EEG Eye State,Distributive,,,0.8461
+DWN,2025-01-27 22:10:43,1.1785,EEG Eye State,Linear,,,0.4289
+DWN,2025-01-27 22:10:43,1.1226,EEG Eye State,Linear,,,0.4676
+DWN,2025-01-27 22:10:43,2.8534,EEG Eye State,Distributive,,,0.8455
+DWN,2025-01-27 22:10:44,1.1687,EEG Eye State,Linear,,,0.4643
+DWN,2025-01-27 22:10:44,1.1308,EEG Eye State,Linear,,,0.4667
+DWN,2025-01-27 22:10:45,1.1121,EEG Eye State,Linear,,,0.4718
+DWN,2025-01-27 22:10:45,1.0547,EEG Eye State,Linear,,,0.4555
+DWN,2025-01-27 22:10:45,3.3518,EEG Eye State,Distributive,,,0.8582
+DWN,2025-01-27 22:10:46,2.7532,EEG Eye State,Gaussian,,,0.6169
+DWN,2025-01-27 22:10:46,1.1865,EEG Eye State,Linear,,,0.4671
+DWN,2025-01-27 22:10:46,1.1605,EEG Eye State,Linear,,,0.4485
+DWN,2025-01-27 22:10:47,1.3359,EEG Eye State,Linear,,,0.4620
+DWN,2025-01-27 22:10:48,1.3450,EEG Eye State,Scatter Code,10,50,0.3809
+DWN,2025-01-27 22:10:49,1.2667,EEG Eye State,Linear,,,0.4662
+DWN,2025-01-27 22:10:49,1.2572,EEG Eye State,Scatter Code,10,50,0.2858
+DWN,2025-01-27 22:10:49,3.1886,EEG Eye State,Gaussian,,,0.6226
+DWN,2025-01-27 22:10:49,3.8625,EEG Eye State,Distributive,,,0.8305
+DWN,2025-01-27 22:10:51,1.7081,EEG Eye State,Scatter Code,10,100,0.4149
+DWN,2025-01-27 22:10:51,1.6149,EEG Eye State,Scatter Code,10,50,0.3837
+DWN,2025-01-27 22:10:52,1.6284,EEG Eye State,Scatter Code,10,50,0.3566
+DWN,2025-01-27 22:10:52,1.7205,EEG Eye State,Scatter Code,10,100,0.4424
+DWN,2025-01-27 22:10:53,3.9690,EEG Eye State,Gaussian,,,0.6193
+DWN,2025-01-27 22:10:54,1.6292,EEG Eye State,Scatter Code,10,50,0.4037
+DWN,2025-01-27 22:10:54,1.6689,EEG Eye State,Scatter Code,10,100,0.4280
+DWN,2025-01-27 22:10:54,4.7159,EEG Eye State,Gaussian,,,0.5603
+DWN,2025-01-27 22:10:55,1.6317,EEG Eye State,Scatter Code,10,50,0.2834
+DWN,2025-01-27 22:10:56,1.6868,EEG Eye State,Scatter Code,10,100,0.2457
+DWN,2025-01-27 22:10:57,3.8798,EEG Eye State,Gaussian,,,0.6080
+DWN,2025-01-27 22:10:57,1.5998,EEG Eye State,Scatter Code,10,50,0.3138
+DWN,2025-01-27 22:10:57,1.6661,EEG Eye State,Scatter Code,10,100,0.3333
+DWN,2025-01-27 22:10:58,4.3267,EEG Eye State,Gaussian,,,0.6226
+DWN,2025-01-27 22:10:59,1.5772,EEG Eye State,Scatter Code,10,50,0.4298
+DWN,2025-01-27 22:10:59,1.6529,EEG Eye State,Scatter Code,10,100,0.4131
+DWN,2025-01-27 22:11:00,1.6445,EEG Eye State,Scatter Code,10,50,0.3487
+DWN,2025-01-27 22:11:01,1.7217,EEG Eye State,Scatter Code,10,100,0.3800
+DWN,2025-01-27 22:11:01,4.0378,EEG Eye State,Gaussian,,,0.6191
+DWN,2025-01-27 22:11:02,1.6521,EEG Eye State,Scatter Code,10,50,0.4205
+DWN,2025-01-27 22:11:02,1.5630,EEG Eye State,Scatter Code,10,100,0.3296
+DWN,2025-01-27 22:11:03,4.3211,EEG Eye State,Gaussian,,,0.6317
+DWN,2025-01-27 22:11:04,1.4295,EEG Eye State,Scatter Code,10,100,0.3697
+DWN,2025-01-27 22:11:05,3.4934,MAGIC Gamma Telescope,Gaussian,,,0.6329
+DWN,2025-01-27 22:11:05,1.5190,EEG Eye State,Scatter Code,10,100,0.4256
+DWN,2025-01-27 22:11:06,3.4076,MAGIC Gamma Telescope,Gaussian,,,0.6135
+DWN,2025-01-27 22:11:06,3.6032,MAGIC Gamma Telescope,Distributive,,,0.8042
+DWN,2025-01-27 22:11:07,2.5915,MAGIC Gamma Telescope,Gaussian,,,0.6383
+DWN,2025-01-27 22:11:09,3.0422,MAGIC Gamma Telescope,Distributive,,,0.8063
+DWN,2025-01-27 22:11:09,2.9269,MAGIC Gamma Telescope,Distributive,,,0.8171
+DWN,2025-01-27 22:11:09,3.1871,MAGIC Gamma Telescope,Gaussian,,,0.6193
+DWN,2025-01-27 22:11:10,2.6496,MAGIC Gamma Telescope,Gaussian,,,0.6388
+DWN,2025-01-27 22:11:12,3.2764,MAGIC Gamma Telescope,Distributive,,,0.7905
+DWN,2025-01-27 22:11:12,3.0054,MAGIC Gamma Telescope,Distributive,,,0.8020
+DWN,2025-01-27 22:11:13,2.7454,MAGIC Gamma Telescope,Gaussian,,,0.6725
+DWN,2025-01-27 22:11:13,3.8006,MAGIC Gamma Telescope,Gaussian,,,0.6313
+DWN,2025-01-27 22:11:15,3.1226,MAGIC Gamma Telescope,Distributive,,,0.8158
+DWN,2025-01-27 22:11:15,3.2468,MAGIC Gamma Telescope,Distributive,,,0.8017
+DWN,2025-01-27 22:11:15,2.7505,MAGIC Gamma Telescope,Gaussian,,,0.6626
+DWN,2025-01-27 22:11:17,3.7575,MAGIC Gamma Telescope,Gaussian,,,0.6252
+DWN,2025-01-27 22:11:18,2.7526,MAGIC Gamma Telescope,Linear,,,0.5344
+DWN,2025-01-27 22:11:18,2.9563,MAGIC Gamma Telescope,Distributive,,,0.8287
+DWN,2025-01-27 22:11:18,3.1129,MAGIC Gamma Telescope,Distributive,,,0.7924
+DWN,2025-01-27 22:11:20,3.3596,MAGIC Gamma Telescope,Gaussian,,,0.6430
+DWN,2025-01-27 22:11:21,2.7589,MAGIC Gamma Telescope,Linear,,,0.4658
+DWN,2025-01-27 22:11:21,3.0527,MAGIC Gamma Telescope,Distributive,,,0.7889
+DWN,2025-01-27 22:11:22,3.1711,MAGIC Gamma Telescope,Distributive,,,0.8055
+DWN,2025-01-27 22:11:24,2.7543,MAGIC Gamma Telescope,Linear,,,0.5340
+DWN,2025-01-27 22:11:24,3.6167,MAGIC Gamma Telescope,Gaussian,,,0.6410
+DWN,2025-01-27 22:11:24,2.9165,MAGIC Gamma Telescope,Distributive,,,0.8174
+DWN,2025-01-27 22:11:25,3.1514,MAGIC Gamma Telescope,Distributive,,,0.7778
+DWN,2025-01-27 22:11:27,2.8805,MAGIC Gamma Telescope,Linear,,,0.5342
+DWN,2025-01-27 22:11:27,3.0217,MAGIC Gamma Telescope,Distributive,,,0.8047
+DWN,2025-01-27 22:11:28,3.8045,MAGIC Gamma Telescope,Gaussian,,,0.6495
+DWN,2025-01-27 22:11:28,3.2252,MAGIC Gamma Telescope,Distributive,,,0.7852
+DWN,2025-01-27 22:11:29,2.7070,MAGIC Gamma Telescope,Linear,,,0.4660
+DWN,2025-01-27 22:11:30,3.0300,MAGIC Gamma Telescope,Distributive,,,0.8154
+DWN,2025-01-27 22:11:31,3.1843,MAGIC Gamma Telescope,Linear,,,0.5340
+DWN,2025-01-27 22:11:31,3.1446,MAGIC Gamma Telescope,Distributive,,,0.7653
+DWN,2025-01-27 22:11:32,2.6126,MAGIC Gamma Telescope,Linear,,,0.4658
+DWN,2025-01-27 22:11:33,2.9235,MAGIC Gamma Telescope,Distributive,,,0.8251
+DWN,2025-01-27 22:11:34,3.2134,MAGIC Gamma Telescope,Distributive,,,0.8244
+DWN,2025-01-27 22:11:35,3.6089,MAGIC Gamma Telescope,Linear,,,0.4658
+DWN,2025-01-27 22:11:35,2.8191,MAGIC Gamma Telescope,Linear,,,0.5342
+DWN,2025-01-27 22:11:36,2.8670,MAGIC Gamma Telescope,Gaussian,,,0.7894
+DWN,2025-01-27 22:11:38,2.7791,MAGIC Gamma Telescope,Linear,,,0.4660
+DWN,2025-01-27 22:11:38,3.3366,MAGIC Gamma Telescope,Distributive,,,0.7942
+DWN,2025-01-27 22:11:38,3.4110,MAGIC Gamma Telescope,Linear,,,0.4660
+DWN,2025-01-27 22:11:39,3.0964,MAGIC Gamma Telescope,Gaussian,,,0.7564
+DWN,2025-01-27 22:11:40,2.6928,MAGIC Gamma Telescope,Linear,,,0.5342
+DWN,2025-01-27 22:11:41,3.0826,MAGIC Gamma Telescope,Gaussian,,,0.7583
+DWN,2025-01-27 22:11:41,3.3820,MAGIC Gamma Telescope,Linear,,,0.4658
+DWN,2025-01-27 22:11:42,2.8889,MAGIC Gamma Telescope,Gaussian,,,0.7953
+DWN,2025-01-27 22:11:43,2.6584,MAGIC Gamma Telescope,Linear,,,0.5342
+DWN,2025-01-27 22:11:44,3.2746,MAGIC Gamma Telescope,Gaussian,,,0.8123
+DWN,2025-01-27 22:11:45,3.5561,MAGIC Gamma Telescope,Linear,,,0.5344
+DWN,2025-01-27 22:11:46,3.3757,MAGIC Gamma Telescope,Gaussian,,,0.7967
+DWN,2025-01-27 22:11:46,3.2104,MAGIC Gamma Telescope,Scatter Code,10,50,0.5342
+DWN,2025-01-27 22:11:48,3.5196,MAGIC Gamma Telescope,Gaussian,,,0.7553
+DWN,2025-01-27 22:11:49,3.3196,MAGIC Gamma Telescope,Gaussian,,,0.8099
+DWN,2025-01-27 22:11:49,3.9888,MAGIC Gamma Telescope,Linear,,,0.4713
+DWN,2025-01-27 22:11:50,3.4600,MAGIC Gamma Telescope,Scatter Code,10,50,0.5344
+DWN,2025-01-27 22:11:51,3.6482,MAGIC Gamma Telescope,Gaussian,,,0.7704
+DWN,2025-01-27 22:11:52,3.4034,MAGIC Gamma Telescope,Gaussian,,,0.8034
+DWN,2025-01-27 22:11:53,3.2908,MAGIC Gamma Telescope,Scatter Code,10,50,0.5344
+DWN,2025-01-27 22:11:53,4.1736,MAGIC Gamma Telescope,Linear,,,0.4658
+DWN,2025-01-27 22:11:55,3.4754,MAGIC Gamma Telescope,Gaussian,,,0.7895
+DWN,2025-01-27 22:11:56,3.3185,MAGIC Gamma Telescope,Gaussian,,,0.8109
+DWN,2025-01-27 22:11:56,3.2898,MAGIC Gamma Telescope,Scatter Code,10,50,0.5344
+DWN,2025-01-27 22:11:57,4.0059,MAGIC Gamma Telescope,Linear,,,0.5342
+DWN,2025-01-27 22:11:58,3.6375,MAGIC Gamma Telescope,Gaussian,,,0.8068
+DWN,2025-01-27 22:11:59,3.3753,MAGIC Gamma Telescope,Gaussian,,,0.7504
+DWN,2025-01-27 22:12:00,3.3054,MAGIC Gamma Telescope,Scatter Code,10,50,0.5344
+DWN,2025-01-27 22:12:01,4.1173,MAGIC Gamma Telescope,Linear,,,0.4713
+DWN,2025-01-27 22:12:02,3.5316,MAGIC Gamma Telescope,Gaussian,,,0.8044
+DWN,2025-01-27 22:12:02,3.5103,MAGIC Gamma Telescope,Gaussian,,,0.8166
+DWN,2025-01-27 22:12:03,3.2296,MAGIC Gamma Telescope,Scatter Code,10,50,0.5342
+DWN,2025-01-27 22:12:05,3.8889,MAGIC Gamma Telescope,Linear,,,0.5342
+DWN,2025-01-27 22:12:06,3.7914,MAGIC Gamma Telescope,Gaussian,,,0.8010
+DWN,2025-01-27 22:12:06,3.6397,MAGIC Gamma Telescope,Gaussian,,,0.8091
+DWN,2025-01-27 22:12:06,3.4294,MAGIC Gamma Telescope,Scatter Code,10,50,0.4656
+DWN,2025-01-27 22:12:10,5.1258,MAGIC Gamma Telescope,Scatter Code,10,100,0.5344
+DWN,2025-01-27 22:12:10,4.6505,MAGIC Gamma Telescope,Gaussian,,,0.7766
+DWN,2025-01-27 22:12:10,4.1760,MAGIC Gamma Telescope,Scatter Code,10,50,0.4656
+DWN,2025-01-27 22:12:11,4.4240,MAGIC Gamma Telescope,Linear,,,0.8031
+DWN,2025-01-27 22:12:15,4.1229,MAGIC Gamma Telescope,Scatter Code,10,50,0.5342
+DWN,2025-01-27 22:12:15,4.1270,MAGIC Gamma Telescope,Linear,,,0.7467
+DWN,2025-01-27 22:12:15,4.3678,MAGIC Gamma Telescope,Gaussian,,,0.8052
+DWN,2025-01-27 22:12:16,5.1998,MAGIC Gamma Telescope,Scatter Code,10,100,0.5344
+DWN,2025-01-27 22:12:19,4.1585,MAGIC Gamma Telescope,Scatter Code,10,50,0.4656
+DWN,2025-01-27 22:12:19,4.4549,Statlog (Vehicle Silhouettes),Linear,,,0.7725
+DWN,2025-01-27 22:12:19,0.2060,Statlog (Vehicle Silhouettes),Distributive,,,0.6679
+DWN,2025-01-27 22:12:19,4.5770,MAGIC Gamma Telescope,Linear,,,0.7789
+DWN,2025-01-27 22:12:19,0.2231,Statlog (Vehicle Silhouettes),Distributive,,,0.6714
+DWN,2025-01-27 22:12:20,0.1738,Statlog (Vehicle Silhouettes),Distributive,,,0.6893
+DWN,2025-01-27 22:12:20,0.1842,Statlog (Vehicle Silhouettes),Distributive,,,0.6964
+DWN,2025-01-27 22:12:20,0.2087,Statlog (Vehicle Silhouettes),Distributive,,,0.6964
+DWN,2025-01-27 22:12:20,0.1874,Statlog (Vehicle Silhouettes),Distributive,,,0.7143
+DWN,2025-01-27 22:12:20,0.1962,Statlog (Vehicle Silhouettes),Distributive,,,0.7464
+DWN,2025-01-27 22:12:20,4.8506,MAGIC Gamma Telescope,Scatter Code,10,100,0.4656
+DWN,2025-01-27 22:12:21,0.1864,Statlog (Vehicle Silhouettes),Distributive,,,0.7429
+DWN,2025-01-27 22:12:21,0.1904,Statlog (Vehicle Silhouettes),Distributive,,,0.7500
+DWN,2025-01-27 22:12:21,0.2073,Statlog (Vehicle Silhouettes),Distributive,,,0.7321
+DWN,2025-01-27 22:12:21,0.2235,Statlog (Vehicle Silhouettes),Gaussian,,,0.6500
+DWN,2025-01-27 22:12:22,0.2298,Statlog (Vehicle Silhouettes),Gaussian,,,0.7143
+DWN,2025-01-27 22:12:22,0.1673,Statlog (Vehicle Silhouettes),Gaussian,,,0.7393
+DWN,2025-01-27 22:12:22,0.2082,Statlog (Vehicle Silhouettes),Gaussian,,,0.7357
+DWN,2025-01-27 22:12:22,0.1792,Statlog (Vehicle Silhouettes),Gaussian,,,0.7393
+DWN,2025-01-27 22:12:22,0.1777,Statlog (Vehicle Silhouettes),Gaussian,,,0.7000
+DWN,2025-01-27 22:12:23,0.1792,Statlog (Vehicle Silhouettes),Gaussian,,,0.7214
+DWN,2025-01-27 22:12:23,0.1943,Statlog (Vehicle Silhouettes),Gaussian,,,0.7429
+DWN,2025-01-27 22:12:23,0.2044,Statlog (Vehicle Silhouettes),Gaussian,,,0.7464
+DWN,2025-01-27 22:12:23,3.8292,Statlog (Vehicle Silhouettes),Linear,,,0.7633
+DWN,2025-01-27 22:12:23,0.2096,Statlog (Vehicle Silhouettes),Gaussian,,,0.7250
+DWN,2025-01-27 22:12:23,0.1878,Statlog (Vehicle Silhouettes),Linear,,,0.5429
+DWN,2025-01-27 22:12:23,3.9519,MAGIC Gamma Telescope,Linear,,,0.7892
+DWN,2025-01-27 22:12:24,0.1968,Statlog (Vehicle Silhouettes),Linear,,,0.6214
+DWN,2025-01-27 22:12:24,0.2057,Statlog (Vehicle Silhouettes),Linear,,,0.6357
+DWN,2025-01-27 22:12:24,0.2104,Statlog (Vehicle Silhouettes),Linear,,,0.6929
+DWN,2025-01-27 22:12:24,0.2237,Statlog (Vehicle Silhouettes),Linear,,,0.6893
+DWN,2025-01-27 22:12:24,0.2264,Statlog (Vehicle Silhouettes),Linear,,,0.6929
+DWN,2025-01-27 22:12:25,0.1719,Statlog (Vehicle Silhouettes),Linear,,,0.7000
+DWN,2025-01-27 22:12:25,0.1625,Statlog (Vehicle Silhouettes),Linear,,,0.6750
+DWN,2025-01-27 22:12:25,0.1817,Statlog (Vehicle Silhouettes),Linear,,,0.6750
+DWN,2025-01-27 22:12:25,4.6956,MAGIC Gamma Telescope,Scatter Code,10,100,0.4656
+DWN,2025-01-27 22:12:25,0.2056,Statlog (Vehicle Silhouettes),Linear,,,0.6893
+DWN,2025-01-27 22:12:26,0.2463,Statlog (Vehicle Silhouettes),Scatter Code,10,50,0.2821
+DWN,2025-01-27 22:12:26,0.2528,Statlog (Vehicle Silhouettes),Scatter Code,10,50,0.2250
+DWN,2025-01-27 22:12:26,0.2226,Statlog (Vehicle Silhouettes),Scatter Code,10,50,0.2250
+DWN,2025-01-27 22:12:26,0.2113,Statlog (Vehicle Silhouettes),Scatter Code,10,50,0.2821
+DWN,2025-01-27 22:12:27,0.2571,Statlog (Vehicle Silhouettes),Scatter Code,10,50,0.2821
+DWN,2025-01-27 22:12:27,0.2370,Statlog (Vehicle Silhouettes),Scatter Code,10,50,0.2250
+DWN,2025-01-27 22:12:27,0.2505,Statlog (Vehicle Silhouettes),Scatter Code,10,50,0.2250
+DWN,2025-01-27 22:12:27,4.0938,Statlog (Vehicle Silhouettes),Linear,,,0.6935
+DWN,2025-01-27 22:12:27,0.2471,Statlog (Vehicle Silhouettes),Scatter Code,10,50,0.2250
+DWN,2025-01-27 22:12:28,0.2408,Statlog (Vehicle Silhouettes),Scatter Code,10,50,0.2000
+DWN,2025-01-27 22:12:28,0.2158,Statlog (Vehicle Silhouettes),Scatter Code,10,50,0.2250
+DWN,2025-01-27 22:12:28,4.4320,MAGIC Gamma Telescope,Linear,,,0.7668
+DWN,2025-01-27 22:12:29,0.2712,Maternal Health Risk,Distributive,,,0.5881
+DWN,2025-01-27 22:12:29,0.2540,Maternal Health Risk,Distributive,,,0.7194
+DWN,2025-01-27 22:12:29,0.2737,Maternal Health Risk,Distributive,,,0.6478
+DWN,2025-01-27 22:12:30,0.2789,Maternal Health Risk,Distributive,,,0.6716
+DWN,2025-01-27 22:12:30,0.2564,Maternal Health Risk,Distributive,,,0.6687
+DWN,2025-01-27 22:12:30,4.8706,MAGIC Gamma Telescope,Scatter Code,10,100,0.5342
+DWN,2025-01-27 22:12:30,0.2683,Maternal Health Risk,Distributive,,,0.7194
+DWN,2025-01-27 22:12:31,0.3082,Maternal Health Risk,Distributive,,,0.6448
+DWN,2025-01-27 22:12:31,0.2767,Maternal Health Risk,Distributive,,,0.7104
+DWN,2025-01-27 22:12:31,3.8420,Maternal Health Risk,Linear,,,0.7580
+DWN,2025-01-27 22:12:31,0.2727,Maternal Health Risk,Distributive,,,0.6866
+DWN,2025-01-27 22:12:31,0.2717,Maternal Health Risk,Distributive,,,0.7254
+DWN,2025-01-27 22:12:32,0.2523,Maternal Health Risk,Gaussian,,,0.6388
+DWN,2025-01-27 22:12:32,3.9904,MAGIC Gamma Telescope,Linear,,,0.7915
+DWN,2025-01-27 22:12:32,0.2687,Maternal Health Risk,Gaussian,,,0.6030
+DWN,2025-01-27 22:12:32,0.2481,Maternal Health Risk,Gaussian,,,0.6299
+DWN,2025-01-27 22:12:32,0.2437,Maternal Health Risk,Gaussian,,,0.6388
+DWN,2025-01-27 22:12:33,0.2657,Maternal Health Risk,Gaussian,,,0.6657
+DWN,2025-01-27 22:12:33,0.2613,Maternal Health Risk,Gaussian,,,0.6448
+DWN,2025-01-27 22:12:33,0.2518,Maternal Health Risk,Gaussian,,,0.6687
+DWN,2025-01-27 22:12:34,0.2661,Maternal Health Risk,Gaussian,,,0.6776
+DWN,2025-01-27 22:12:34,0.2426,Maternal Health Risk,Gaussian,,,0.6925
+DWN,2025-01-27 22:12:34,0.2618,Maternal Health Risk,Gaussian,,,0.6836
+DWN,2025-01-27 22:12:34,0.2740,Maternal Health Risk,Linear,,,0.5672
+DWN,2025-01-27 22:12:35,3.6433,Maternal Health Risk,Linear,,,0.7376
+DWN,2025-01-27 22:12:35,4.6052,MAGIC Gamma Telescope,Scatter Code,10,100,0.5342
+DWN,2025-01-27 22:12:35,0.2915,Maternal Health Risk,Linear,,,0.6388
+DWN,2025-01-27 22:12:35,0.2878,Maternal Health Risk,Linear,,,0.6060
+DWN,2025-01-27 22:12:35,0.2951,Maternal Health Risk,Linear,,,0.6627
+DWN,2025-01-27 22:12:36,0.2664,Maternal Health Risk,Linear,,,0.6776
+DWN,2025-01-27 22:12:36,3.8814,MAGIC Gamma Telescope,Linear,,,0.7723
+DWN,2025-01-27 22:12:36,0.2553,Maternal Health Risk,Linear,,,0.6478
+DWN,2025-01-27 22:12:36,0.2357,Maternal Health Risk,Linear,,,0.6418
+DWN,2025-01-27 22:12:36,0.2104,Maternal Health Risk,Linear,,,0.6478
+DWN,2025-01-27 22:12:37,0.2270,Maternal Health Risk,Linear,,,0.6746
+DWN,2025-01-27 22:12:37,0.2459,Maternal Health Risk,Linear,,,0.6567
+DWN,2025-01-27 22:12:37,0.2710,Maternal Health Risk,Scatter Code,10,50,0.5731
+DWN,2025-01-27 22:12:37,0.2592,Maternal Health Risk,Scatter Code,10,50,0.5373
+DWN,2025-01-27 22:12:38,0.2970,Maternal Health Risk,Scatter Code,10,50,0.5164
+DWN,2025-01-27 22:12:38,0.2516,Maternal Health Risk,Scatter Code,10,50,0.5642
+DWN,2025-01-27 22:12:38,0.2144,Maternal Health Risk,Scatter Code,10,50,0.5642
+DWN,2025-01-27 22:12:38,0.2671,Maternal Health Risk,Scatter Code,10,50,0.5522
+DWN,2025-01-27 22:12:38,3.8408,Maternal Health Risk,Linear,,,0.7628
+DWN,2025-01-27 22:12:39,0.3022,Maternal Health Risk,Scatter Code,10,50,0.5493
+DWN,2025-01-27 22:12:39,0.2445,Maternal Health Risk,Scatter Code,10,50,0.5552
+DWN,2025-01-27 22:12:39,0.2208,Maternal Health Risk,Scatter Code,10,50,0.5313
+DWN,2025-01-27 22:12:40,0.2718,Maternal Health Risk,Scatter Code,10,50,0.6149
+DWN,2025-01-27 22:12:40,4.9015,MAGIC Gamma Telescope,Scatter Code,10,100,0.4656
+DWN,2025-01-27 22:12:40,3.9301,MAGIC Gamma Telescope,Linear,,,0.7886
+DWN,2025-01-27 22:12:40,0.0565,Glass Identification,Distributive,,,0.5775
+DWN,2025-01-27 22:12:40,0.0557,Glass Identification,Distributive,,,0.6901
+DWN,2025-01-27 22:12:40,0.0591,Glass Identification,Distributive,,,0.7465
+DWN,2025-01-27 22:12:40,0.0732,Glass Identification,Distributive,,,0.6761
+DWN,2025-01-27 22:12:40,0.0506,Glass Identification,Distributive,,,0.6901
+DWN,2025-01-27 22:12:40,0.0580,Glass Identification,Distributive,,,0.7887
+DWN,2025-01-27 22:12:40,0.0645,Glass Identification,Distributive,,,0.6761
+DWN,2025-01-27 22:12:40,0.0539,Glass Identification,Distributive,,,0.7183
+DWN,2025-01-27 22:12:40,0.0653,Glass Identification,Distributive,,,0.6620
+DWN,2025-01-27 22:12:40,0.0710,Glass Identification,Distributive,,,0.6901
+DWN,2025-01-27 22:12:41,0.0675,Glass Identification,Gaussian,,,0.5493
+DWN,2025-01-27 22:12:41,0.0505,Glass Identification,Gaussian,,,0.6338
+DWN,2025-01-27 22:12:41,0.0551,Glass Identification,Gaussian,,,0.5493
+DWN,2025-01-27 22:12:41,0.0515,Glass Identification,Gaussian,,,0.6197
+DWN,2025-01-27 22:12:41,0.0651,Glass Identification,Gaussian,,,0.6056
+DWN,2025-01-27 22:12:41,0.0524,Glass Identification,Gaussian,,,0.6761
+DWN,2025-01-27 22:12:41,0.0483,Glass Identification,Gaussian,,,0.7042
+DWN,2025-01-27 22:12:41,0.0518,Glass Identification,Gaussian,,,0.7042
+DWN,2025-01-27 22:12:41,0.0587,Glass Identification,Gaussian,,,0.7183
+DWN,2025-01-27 22:12:41,0.0689,Glass Identification,Gaussian,,,0.6761
+DWN,2025-01-27 22:12:41,0.0634,Glass Identification,Linear,,,0.5915
+DWN,2025-01-27 22:12:41,0.0696,Glass Identification,Linear,,,0.5493
+DWN,2025-01-27 22:12:41,0.0713,Glass Identification,Linear,,,0.6197
+DWN,2025-01-27 22:12:41,0.0677,Glass Identification,Linear,,,0.6056
+DWN,2025-01-27 22:12:42,0.0645,Glass Identification,Linear,,,0.5915
+DWN,2025-01-27 22:12:42,0.0634,Glass Identification,Linear,,,0.6338
+DWN,2025-01-27 22:12:42,0.0644,Glass Identification,Linear,,,0.6056
+DWN,2025-01-27 22:12:42,0.0725,Glass Identification,Linear,,,0.6479
+DWN,2025-01-27 22:12:42,0.0761,Glass Identification,Linear,,,0.6479
+DWN,2025-01-27 22:12:42,0.0631,Glass Identification,Linear,,,0.5915
+DWN,2025-01-27 22:12:42,0.0604,Glass Identification,Scatter Code,10,50,0.0986
+DWN,2025-01-27 22:12:42,0.0623,Glass Identification,Scatter Code,10,50,0.3521
+DWN,2025-01-27 22:12:42,0.0716,Glass Identification,Scatter Code,10,50,0.3239
+DWN,2025-01-27 22:12:42,0.0789,Glass Identification,Scatter Code,10,50,0.3521
+DWN,2025-01-27 22:12:42,3.8748,Glass Identification,Linear,,,0.7867
+DWN,2025-01-27 22:12:42,0.0800,Glass Identification,Scatter Code,10,50,0.3099
+DWN,2025-01-27 22:12:42,0.0665,Glass Identification,Scatter Code,10,50,0.3239
+DWN,2025-01-27 22:12:42,0.0569,Glass Identification,Scatter Code,10,50,0.3239
+DWN,2025-01-27 22:12:43,0.0615,Glass Identification,Scatter Code,10,50,0.3380
+DWN,2025-01-27 22:12:43,0.0558,Glass Identification,Scatter Code,10,50,0.3662
+DWN,2025-01-27 22:12:43,0.0529,Glass Identification,Scatter Code,10,50,0.3521
+DWN,2025-01-27 22:12:44,4.3970,MAGIC Gamma Telescope,Linear,,,0.7715
+DWN,2025-01-27 22:12:44,4.7158,MAGIC Gamma Telescope,Scatter Code,10,100,0.4658
+DWN,2025-01-27 22:12:47,4.4851,Glass Identification,Linear,,,0.7671
+DWN,2025-01-27 22:12:49,4.5762,MAGIC Gamma Telescope,Scatter Code,10,100,0.4656
+DWN,2025-01-27 22:12:49,4.9118,MAGIC Gamma Telescope,Linear,,,0.7849
+DWN,2025-01-27 22:12:52,4.9812,Glass Identification,Scatter Code,10,50,0.5861
+DWN,2025-01-27 22:12:54,4.7030,MAGIC Gamma Telescope,Scatter Code,10,100,0.4656
+DWN,2025-01-27 22:12:54,0.2138,Statlog (Vehicle Silhouettes),Distributive,,,0.6357
+DWN,2025-01-27 22:12:54,5.2681,Statlog (Vehicle Silhouettes),Linear,,,0.7980
+DWN,2025-01-27 22:12:54,0.2438,Statlog (Vehicle Silhouettes),Distributive,,,0.6893
+DWN,2025-01-27 22:12:55,0.1988,Statlog (Vehicle Silhouettes),Distributive,,,0.6821
+DWN,2025-01-27 22:12:55,0.2545,Statlog (Vehicle Silhouettes),Distributive,,,0.7286
+DWN,2025-01-27 22:12:55,0.2294,Statlog (Vehicle Silhouettes),Distributive,,,0.7071
+DWN,2025-01-27 22:12:55,0.2602,Statlog (Vehicle Silhouettes),Distributive,,,0.7357
+DWN,2025-01-27 22:12:56,0.2330,Statlog (Vehicle Silhouettes),Distributive,,,0.6714
+DWN,2025-01-27 22:12:56,0.2197,Statlog (Vehicle Silhouettes),Distributive,,,0.7429
+DWN,2025-01-27 22:12:56,0.1941,Statlog (Vehicle Silhouettes),Distributive,,,0.7071
+DWN,2025-01-27 22:12:56,0.2577,Statlog (Vehicle Silhouettes),Distributive,,,0.7643
+DWN,2025-01-27 22:12:56,4.5387,Glass Identification,Scatter Code,10,50,0.7492
+DWN,2025-01-27 22:12:56,0.2464,Statlog (Vehicle Silhouettes),Gaussian,,,0.6893
+DWN,2025-01-27 22:12:57,0.2075,Statlog (Vehicle Silhouettes),Gaussian,,,0.7071
+DWN,2025-01-27 22:12:57,0.2274,Statlog (Vehicle Silhouettes),Gaussian,,,0.6893
+DWN,2025-01-27 22:12:57,0.2035,Statlog (Vehicle Silhouettes),Gaussian,,,0.7143
+DWN,2025-01-27 22:12:57,0.1995,Statlog (Vehicle Silhouettes),Gaussian,,,0.6964
+DWN,2025-01-27 22:12:58,0.2530,Statlog (Vehicle Silhouettes),Gaussian,,,0.7071
+DWN,2025-01-27 22:12:58,0.2786,Statlog (Vehicle Silhouettes),Gaussian,,,0.7071
+DWN,2025-01-27 22:12:58,0.2723,Statlog (Vehicle Silhouettes),Gaussian,,,0.7500
+DWN,2025-01-27 22:12:58,0.2230,Statlog (Vehicle Silhouettes),Gaussian,,,0.6929
+DWN,2025-01-27 22:12:59,4.2644,Statlog (Vehicle Silhouettes),Linear,,,0.7902
+DWN,2025-01-27 22:12:59,0.1945,Statlog (Vehicle Silhouettes),Gaussian,,,0.7429
+DWN,2025-01-27 22:12:59,0.2396,Statlog (Vehicle Silhouettes),Linear,,,0.6536
+DWN,2025-01-27 22:12:59,0.2919,Statlog (Vehicle Silhouettes),Linear,,,0.6321
+DWN,2025-01-27 22:13:00,0.3969,Statlog (Vehicle Silhouettes),Linear,,,0.6643
+DWN,2025-01-27 22:13:00,0.2392,Statlog (Vehicle Silhouettes),Linear,,,0.7107
+DWN,2025-01-27 22:13:00,0.2685,Statlog (Vehicle Silhouettes),Linear,,,0.6750
+DWN,2025-01-27 22:13:00,0.2770,Statlog (Vehicle Silhouettes),Linear,,,0.6143
+DWN,2025-01-27 22:13:01,0.2561,Statlog (Vehicle Silhouettes),Linear,,,0.6750
+DWN,2025-01-27 22:13:01,0.2691,Statlog (Vehicle Silhouettes),Linear,,,0.7179
+DWN,2025-01-27 22:13:01,4.6006,Glass Identification,Scatter Code,10,50,0.7308
+DWN,2025-01-27 22:13:01,0.2606,Statlog (Vehicle Silhouettes),Linear,,,0.6929
+DWN,2025-01-27 22:13:02,0.2616,Statlog (Vehicle Silhouettes),Linear,,,0.7214
+DWN,2025-01-27 22:13:02,0.3521,Statlog (Vehicle Silhouettes),Scatter Code,10,100,0.2000
+DWN,2025-01-27 22:13:02,0.3555,Statlog (Vehicle Silhouettes),Scatter Code,10,100,0.2929
+DWN,2025-01-27 22:13:03,0.3101,Statlog (Vehicle Silhouettes),Scatter Code,10,100,0.2821
+DWN,2025-01-27 22:13:03,0.3642,Statlog (Vehicle Silhouettes),Scatter Code,10,100,0.2250
+DWN,2025-01-27 22:13:03,0.3142,Statlog (Vehicle Silhouettes),Scatter Code,10,100,0.2000
+DWN,2025-01-27 22:13:04,0.3007,Statlog (Vehicle Silhouettes),Scatter Code,10,100,0.2929
+DWN,2025-01-27 22:13:04,0.3533,Statlog (Vehicle Silhouettes),Scatter Code,10,100,0.2250
+DWN,2025-01-27 22:13:05,0.3580,Statlog (Vehicle Silhouettes),Scatter Code,10,100,0.2000
+DWN,2025-01-27 22:13:05,6.0685,Statlog (Vehicle Silhouettes),Scatter Code,10,100,0.7379
+DWN,2025-01-27 22:13:05,0.3666,Statlog (Vehicle Silhouettes),Scatter Code,10,100,0.2929
+DWN,2025-01-27 22:13:05,0.3512,Statlog (Vehicle Silhouettes),Scatter Code,10,100,0.2250
+DWN,2025-01-27 22:13:06,0.3732,Maternal Health Risk,Distributive,,,0.6030
+DWN,2025-01-27 22:13:06,0.3522,Maternal Health Risk,Distributive,,,0.6836
+DWN,2025-01-27 22:13:07,0.3205,Maternal Health Risk,Distributive,,,0.6896
+DWN,2025-01-27 22:13:07,0.3276,Maternal Health Risk,Distributive,,,0.6776
+DWN,2025-01-27 22:13:07,5.9083,Glass Identification,Scatter Code,10,50,0.6114
+DWN,2025-01-27 22:13:07,0.3719,Maternal Health Risk,Distributive,,,0.6478
+DWN,2025-01-27 22:13:08,0.3732,Maternal Health Risk,Distributive,,,0.6925
+DWN,2025-01-27 22:13:08,0.3114,Maternal Health Risk,Distributive,,,0.7045
+DWN,2025-01-27 22:13:08,0.2871,Maternal Health Risk,Distributive,,,0.7254
+DWN,2025-01-27 22:13:09,0.2943,Maternal Health Risk,Distributive,,,0.7134
+DWN,2025-01-27 22:13:09,0.3189,Maternal Health Risk,Distributive,,,0.7045
+DWN,2025-01-27 22:13:09,0.3235,Maternal Health Risk,Gaussian,,,0.6149
+DWN,2025-01-27 22:13:10,0.3159,Maternal Health Risk,Gaussian,,,0.6269
+DWN,2025-01-27 22:13:10,0.3042,Maternal Health Risk,Gaussian,,,0.6627
+DWN,2025-01-27 22:13:10,0.2957,Maternal Health Risk,Gaussian,,,0.6000
+DWN,2025-01-27 22:13:10,5.5530,Maternal Health Risk,Scatter Code,10,100,0.7333
+DWN,2025-01-27 22:13:11,0.3076,Maternal Health Risk,Gaussian,,,0.6716
+DWN,2025-01-27 22:13:11,0.2992,Maternal Health Risk,Gaussian,,,0.6418
+DWN,2025-01-27 22:13:11,0.3097,Maternal Health Risk,Gaussian,,,0.6179
+DWN,2025-01-27 22:13:11,0.3352,Maternal Health Risk,Gaussian,,,0.6448
+DWN,2025-01-27 22:13:12,0.2763,Maternal Health Risk,Gaussian,,,0.7015
+DWN,2025-01-27 22:13:12,4.8554,Glass Identification,Scatter Code,10,50,0.7075
+DWN,2025-01-27 22:13:12,0.2793,Maternal Health Risk,Gaussian,,,0.6746
+DWN,2025-01-27 22:13:12,0.2964,Maternal Health Risk,Linear,,,0.6299
+DWN,2025-01-27 22:13:13,0.3351,Maternal Health Risk,Linear,,,0.5463
+DWN,2025-01-27 22:13:13,0.3134,Maternal Health Risk,Linear,,,0.6448
+DWN,2025-01-27 22:13:13,0.3355,Maternal Health Risk,Linear,,,0.6119
+DWN,2025-01-27 22:13:14,0.3143,Maternal Health Risk,Linear,,,0.6478
+DWN,2025-01-27 22:13:14,0.3233,Maternal Health Risk,Linear,,,0.6716
+DWN,2025-01-27 22:13:14,0.3300,Maternal Health Risk,Linear,,,0.6955
+DWN,2025-01-27 22:13:15,0.3816,Maternal Health Risk,Linear,,,0.6627
+DWN,2025-01-27 22:13:15,0.3199,Maternal Health Risk,Linear,,,0.6836
+DWN,2025-01-27 22:13:15,0.3349,Maternal Health Risk,Linear,,,0.6806
+DWN,2025-01-27 22:13:16,5.4096,Maternal Health Risk,Scatter Code,10,100,0.6073
+DWN,2025-01-27 22:13:16,0.3457,Maternal Health Risk,Scatter Code,10,100,0.4746
+DWN,2025-01-27 22:13:16,0.3291,Maternal Health Risk,Scatter Code,10,100,0.4746
+DWN,2025-01-27 22:13:17,0.3400,Maternal Health Risk,Scatter Code,10,100,0.5463
+DWN,2025-01-27 22:13:17,4.7843,Glass Identification,Scatter Code,10,50,0.5875
+DWN,2025-01-27 22:13:17,0.3521,Maternal Health Risk,Scatter Code,10,100,0.6090
+DWN,2025-01-27 22:13:17,0.3678,Maternal Health Risk,Scatter Code,10,100,0.5791
+DWN,2025-01-27 22:13:18,0.3521,Maternal Health Risk,Scatter Code,10,100,0.5672
+DWN,2025-01-27 22:13:18,0.3231,Maternal Health Risk,Scatter Code,10,100,0.5672
+DWN,2025-01-27 22:13:18,0.3429,Maternal Health Risk,Scatter Code,10,100,0.5463
+DWN,2025-01-27 22:13:19,0.3645,Maternal Health Risk,Scatter Code,10,100,0.5015
+DWN,2025-01-27 22:13:19,0.4437,Maternal Health Risk,Scatter Code,10,100,0.5045
+DWN,2025-01-27 22:13:19,0.0795,Glass Identification,Distributive,,,0.5493
+DWN,2025-01-27 22:13:20,0.0821,Glass Identification,Distributive,,,0.6620
+DWN,2025-01-27 22:13:20,0.0791,Glass Identification,Distributive,,,0.5915
+DWN,2025-01-27 22:13:20,0.0750,Glass Identification,Distributive,,,0.7042
+DWN,2025-01-27 22:13:20,0.0773,Glass Identification,Distributive,,,0.7183
+DWN,2025-01-27 22:13:20,0.0826,Glass Identification,Distributive,,,0.6901
+DWN,2025-01-27 22:13:20,0.0812,Glass Identification,Distributive,,,0.7746
+DWN,2025-01-27 22:13:20,0.0731,Glass Identification,Distributive,,,0.7324
+DWN,2025-01-27 22:13:20,0.0667,Glass Identification,Distributive,,,0.7465
+DWN,2025-01-27 22:13:20,0.0863,Glass Identification,Distributive,,,0.7042
+DWN,2025-01-27 22:13:20,0.0783,Glass Identification,Gaussian,,,0.6056
+DWN,2025-01-27 22:13:20,0.0762,Glass Identification,Gaussian,,,0.7042
+DWN,2025-01-27 22:13:21,0.0856,Glass Identification,Gaussian,,,0.6479
+DWN,2025-01-27 22:13:21,0.0814,Glass Identification,Gaussian,,,0.6901
+DWN,2025-01-27 22:13:21,0.0730,Glass Identification,Gaussian,,,0.7183
+DWN,2025-01-27 22:13:21,0.0800,Glass Identification,Gaussian,,,0.6761
+DWN,2025-01-27 22:13:21,0.0848,Glass Identification,Gaussian,,,0.7324
+DWN,2025-01-27 22:13:21,0.0759,Glass Identification,Gaussian,,,0.7183
+DWN,2025-01-27 22:13:21,5.3038,Glass Identification,Scatter Code,10,100,0.5804
+DWN,2025-01-27 22:13:21,0.0784,Glass Identification,Gaussian,,,0.7183
+DWN,2025-01-27 22:13:21,0.0598,Glass Identification,Gaussian,,,0.6901
+DWN,2025-01-27 22:13:21,0.0732,Glass Identification,Linear,,,0.6197
+DWN,2025-01-27 22:13:21,0.0790,Glass Identification,Linear,,,0.6197
+DWN,2025-01-27 22:13:21,0.0811,Glass Identification,Linear,,,0.6620
+DWN,2025-01-27 22:13:22,0.0750,Glass Identification,Linear,,,0.6338
+DWN,2025-01-27 22:13:22,0.0928,Glass Identification,Linear,,,0.6197
+DWN,2025-01-27 22:13:22,0.0838,Glass Identification,Linear,,,0.7324
+DWN,2025-01-27 22:13:22,0.0686,Glass Identification,Linear,,,0.7465
+DWN,2025-01-27 22:13:22,0.0718,Glass Identification,Linear,,,0.6620
+DWN,2025-01-27 22:13:22,5.2351,Glass Identification,Scatter Code,10,50,0.5758
+DWN,2025-01-27 22:13:22,0.0786,Glass Identification,Linear,,,0.6901
+DWN,2025-01-27 22:13:22,0.0812,Glass Identification,Linear,,,0.7042
+DWN,2025-01-27 22:13:22,0.1070,Glass Identification,Scatter Code,10,100,0.3239
+DWN,2025-01-27 22:13:22,0.0851,Glass Identification,Scatter Code,10,100,0.3239
+DWN,2025-01-27 22:13:22,0.0991,Glass Identification,Scatter Code,10,100,0.3239
+DWN,2025-01-27 22:13:23,0.0893,Glass Identification,Scatter Code,10,100,0.1831
+DWN,2025-01-27 22:13:23,0.1140,Glass Identification,Scatter Code,10,100,0.3521
+DWN,2025-01-27 22:13:23,0.0859,Glass Identification,Scatter Code,10,100,0.3521
+DWN,2025-01-27 22:13:23,0.0994,Glass Identification,Scatter Code,10,100,0.3380
+DWN,2025-01-27 22:13:23,0.0864,Glass Identification,Scatter Code,10,100,0.3239
+DWN,2025-01-27 22:13:23,0.0827,Glass Identification,Scatter Code,10,100,0.3239
+DWN,2025-01-27 22:13:23,0.0756,Glass Identification,Scatter Code,10,100,0.3239
+DWN,2025-01-27 22:13:26,5.0137,Glass Identification,Scatter Code,10,100,0.7276
+DWN,2025-01-27 22:13:27,4.9270,Glass Identification,Scatter Code,10,50,0.4606
+DWN,2025-01-27 22:13:31,5.2042,Glass Identification,Scatter Code,10,100,0.5711
+DWN,2025-01-27 22:13:32,5.1661,Glass Identification,Scatter Code,10,50,0.7269
+DWN,2025-01-27 22:13:37,5.7839,Glass Identification,Scatter Code,10,100,0.7365
+DWN,2025-01-27 22:13:37,5.2992,MNIST,Scatter Code,10,50,0.7241
+DWN,2025-01-27 22:13:39,1.5152,Optical Recognition of Handwritten Digits,Distributive,,,0.9402
+DWN,2025-01-27 22:13:43,3.4816,Optical Recognition of Handwritten Digits,Distributive,,,0.9542
+DWN,2025-01-27 22:13:46,8.7337,Glass Identification,Scatter Code,10,100,0.7314
+DWN,2025-01-27 22:13:46,3.5511,Optical Recognition of Handwritten Digits,Distributive,,,0.9660
+DWN,2025-01-27 22:13:50,3.3758,Optical Recognition of Handwritten Digits,Distributive,,,0.9698
+DWN,2025-01-27 22:13:53,3.5543,Optical Recognition of Handwritten Digits,Distributive,,,0.9736
+DWN,2025-01-27 22:13:57,3.6498,Optical Recognition of Handwritten Digits,Distributive,,,0.9720
+DWN,2025-01-27 22:13:59,13.3215,Glass Identification,Scatter Code,10,100,0.6137
+DWN,2025-01-27 22:14:01,3.5284,Optical Recognition of Handwritten Digits,Distributive,,,0.9752
+DWN,2025-01-27 22:14:04,3.4621,Optical Recognition of Handwritten Digits,Distributive,,,0.9757
+DWN,2025-01-27 22:14:07,3.2384,Optical Recognition of Handwritten Digits,Distributive,,,0.9774
+DWN,2025-01-27 22:14:11,3.5539,Optical Recognition of Handwritten Digits,Distributive,,,0.9763
+DWN,2025-01-27 22:14:12,12.8579,MNIST,Scatter Code,10,100,0.5840
+DWN,2025-01-27 22:14:15,3.4818,Optical Recognition of Handwritten Digits,Gaussian,,,0.9358
+DWN,2025-01-27 22:14:17,4.1208,Optical Recognition of Handwritten Digits,Distributive,,,0.9353
+DWN,2025-01-27 22:14:20,5.4927,Optical Recognition of Handwritten Digits,Gaussian,,,0.9547
+DWN,2025-01-27 22:14:22,5.0106,Optical Recognition of Handwritten Digits,Distributive,,,0.9547
+DWN,2025-01-27 22:14:25,4.9762,Optical Recognition of Handwritten Digits,Gaussian,,,0.9633
+DWN,2025-01-27 22:14:27,5.3352,Optical Recognition of Handwritten Digits,Distributive,,,0.9666
+DWN,2025-01-27 22:14:30,5.0438,Optical Recognition of Handwritten Digits,Gaussian,,,0.9741
+DWN,2025-01-27 22:14:33,5.4132,Optical Recognition of Handwritten Digits,Distributive,,,0.9677
+DWN,2025-01-27 22:14:35,4.9114,Optical Recognition of Handwritten Digits,Gaussian,,,0.9693
+DWN,2025-01-27 22:14:38,5.3334,Optical Recognition of Handwritten Digits,Distributive,,,0.9736
+DWN,2025-01-27 22:14:40,4.9197,Optical Recognition of Handwritten Digits,Gaussian,,,0.9757
+DWN,2025-01-27 22:14:44,5.5890,Optical Recognition of Handwritten Digits,Distributive,,,0.9757
+DWN,2025-01-27 22:14:45,5.1457,Optical Recognition of Handwritten Digits,Gaussian,,,0.9752
+DWN,2025-01-27 22:14:49,5.2621,Optical Recognition of Handwritten Digits,Distributive,,,0.9730
+DWN,2025-01-27 22:14:50,5.1596,Optical Recognition of Handwritten Digits,Gaussian,,,0.9784
+DWN,2025-01-27 22:14:54,5.4275,Optical Recognition of Handwritten Digits,Distributive,,,0.9747
+DWN,2025-01-27 22:14:55,5.0451,Optical Recognition of Handwritten Digits,Gaussian,,,0.9763
+DWN,2025-01-27 22:15:00,5.6451,Optical Recognition of Handwritten Digits,Distributive,,,0.9747
+DWN,2025-01-27 22:15:00,4.9247,Optical Recognition of Handwritten Digits,Gaussian,,,0.9779
+DWN,2025-01-27 22:15:02,82.2769,Optical Recognition of Handwritten Digits,Distributive,,,0.9586
+DWN,2025-01-27 22:15:05,4.8295,Optical Recognition of Handwritten Digits,Linear,,,0.9418
+DWN,2025-01-27 22:15:05,5.4988,Optical Recognition of Handwritten Digits,Distributive,,,0.9730
+DWN,2025-01-27 22:15:10,4.8554,Optical Recognition of Handwritten Digits,Linear,,,0.9585
+DWN,2025-01-27 22:15:11,5.0935,Optical Recognition of Handwritten Digits,Gaussian,,,0.9434
+DWN,2025-01-27 22:15:15,4.9731,Optical Recognition of Handwritten Digits,Linear,,,0.9666
+DWN,2025-01-27 22:15:16,5.3349,Optical Recognition of Handwritten Digits,Gaussian,,,0.9563
+DWN,2025-01-27 22:15:20,4.9701,Optical Recognition of Handwritten Digits,Linear,,,0.9639
+DWN,2025-01-27 22:15:22,5.3924,Optical Recognition of Handwritten Digits,Gaussian,,,0.9644
+DWN,2025-01-27 22:15:25,4.9890,Optical Recognition of Handwritten Digits,Linear,,,0.9677
+DWN,2025-01-27 22:15:27,5.2940,Optical Recognition of Handwritten Digits,Gaussian,,,0.9677
+DWN,2025-01-27 22:15:30,4.7308,Optical Recognition of Handwritten Digits,Linear,,,0.9730
+DWN,2025-01-27 22:15:32,5.2103,Optical Recognition of Handwritten Digits,Gaussian,,,0.9709
+DWN,2025-01-27 22:15:35,5.0296,Optical Recognition of Handwritten Digits,Linear,,,0.9752
+DWN,2025-01-27 22:15:38,5.5974,Optical Recognition of Handwritten Digits,Gaussian,,,0.9741
+DWN,2025-01-27 22:15:40,5.0245,Optical Recognition of Handwritten Digits,Linear,,,0.9741
+DWN,2025-01-27 22:15:43,5.1134,Optical Recognition of Handwritten Digits,Gaussian,,,0.9768
+DWN,2025-01-27 22:15:45,4.8106,Optical Recognition of Handwritten Digits,Linear,,,0.9768
+DWN,2025-01-27 22:15:48,5.2609,Optical Recognition of Handwritten Digits,Gaussian,,,0.9768
+DWN,2025-01-27 22:15:50,5.0699,Optical Recognition of Handwritten Digits,Linear,,,0.9747
+DWN,2025-01-27 22:15:54,5.7072,Optical Recognition of Handwritten Digits,Gaussian,,,0.9768
+DWN,2025-01-27 22:15:57,6.0075,Optical Recognition of Handwritten Digits,Scatter Code,10,50,0.9456
+DWN,2025-01-27 22:16:00,6.5606,Optical Recognition of Handwritten Digits,Gaussian,,,0.9763
+DWN,2025-01-27 22:16:03,6.4786,Optical Recognition of Handwritten Digits,Scatter Code,10,50,0.9590
+DWN,2025-01-27 22:16:07,6.4422,Optical Recognition of Handwritten Digits,Linear,,,0.9456
+DWN,2025-01-27 22:16:09,6.2539,Optical Recognition of Handwritten Digits,Scatter Code,10,50,0.9666
+DWN,2025-01-27 22:16:13,6.2484,Optical Recognition of Handwritten Digits,Linear,,,0.9644
+DWN,2025-01-27 22:16:14,118.3127,Optical Recognition of Handwritten Digits,Distributive,,,0.9601
+DWN,2025-01-27 22:16:16,6.2925,Optical Recognition of Handwritten Digits,Scatter Code,10,50,0.9698
+DWN,2025-01-27 22:16:20,6.4920,Optical Recognition of Handwritten Digits,Linear,,,0.9633
+DWN,2025-01-27 22:16:22,6.3355,Optical Recognition of Handwritten Digits,Scatter Code,10,50,0.9747
+DWN,2025-01-27 22:16:26,6.4818,Optical Recognition of Handwritten Digits,Linear,,,0.9714
+DWN,2025-01-27 22:16:28,6.3203,Optical Recognition of Handwritten Digits,Scatter Code,10,50,0.9704
+DWN,2025-01-27 22:16:33,6.1669,Optical Recognition of Handwritten Digits,Linear,,,0.9725
+DWN,2025-01-27 22:16:34,6.0241,Optical Recognition of Handwritten Digits,Scatter Code,10,50,0.9784
+DWN,2025-01-27 22:16:39,6.4432,Optical Recognition of Handwritten Digits,Linear,,,0.9736
+DWN,2025-01-27 22:16:41,6.4057,Optical Recognition of Handwritten Digits,Scatter Code,10,50,0.9774
+DWN,2025-01-27 22:16:45,6.4626,Optical Recognition of Handwritten Digits,Linear,,,0.9725
+DWN,2025-01-27 22:16:47,6.0275,Optical Recognition of Handwritten Digits,Scatter Code,10,50,0.9822
+DWN,2025-01-27 22:16:49,107.0157,Optical Recognition of Handwritten Digits,Distributive,,,0.9695
+DWN,2025-01-27 22:16:52,6.2808,Optical Recognition of Handwritten Digits,Linear,,,0.9714
+DWN,2025-01-27 22:16:53,6.3645,Optical Recognition of Handwritten Digits,Scatter Code,10,50,0.9768
+DWN,2025-01-27 22:16:58,5.9864,Optical Recognition of Handwritten Digits,Linear,,,0.9752
+DWN,2025-01-27 22:17:04,5.7810,Optical Recognition of Handwritten Digits,Linear,,,0.9752
+DWN,2025-01-27 22:17:12,7.9985,Optical Recognition of Handwritten Digits,Scatter Code,10,100,0.9450
+DWN,2025-01-27 22:17:20,7.9016,Optical Recognition of Handwritten Digits,Scatter Code,10,100,0.9585
+DWN,2025-01-27 22:17:28,8.0389,Optical Recognition of Handwritten Digits,Scatter Code,10,100,0.9660
+DWN,2025-01-27 22:17:36,8.0036,Optical Recognition of Handwritten Digits,Scatter Code,10,100,0.9660
+DWN,2025-01-27 22:17:44,8.0137,Optical Recognition of Handwritten Digits,Scatter Code,10,100,0.9730
+DWN,2025-01-27 22:17:52,8.0079,Optical Recognition of Handwritten Digits,Scatter Code,10,100,0.9747
+DWN,2025-01-27 22:18:00,7.9665,Optical Recognition of Handwritten Digits,Scatter Code,10,100,0.9757
+DWN,2025-01-27 22:18:09,7.9946,Optical Recognition of Handwritten Digits,Scatter Code,10,100,0.9806
+DWN,2025-01-27 22:18:17,8.0290,Optical Recognition of Handwritten Digits,Scatter Code,10,100,0.9784
+DWN,2025-01-27 22:18:19,125.0473,Optical Recognition of Handwritten Digits,Distributive,,,0.9688
+DWN,2025-01-27 22:18:25,8.0680,Optical Recognition of Handwritten Digits,Scatter Code,10,100,0.9822
+DWN,2025-01-27 22:18:44,115.2761,Optical Recognition of Handwritten Digits,Distributive,,,0.9721
+DWN,2025-01-27 22:19:50,91.6740,Optical Recognition of Handwritten Digits,Distributive,,,0.9734
+DWN,2025-01-27 22:20:14,90.0014,Optical Recognition of Handwritten Digits,Distributive,,,0.9768
+DWN,2025-01-27 22:21:20,90.0765,Optical Recognition of Handwritten Digits,Distributive,,,0.9744
+DWN,2025-01-27 22:21:44,90.0343,Optical Recognition of Handwritten Digits,Distributive,,,0.9751
+DWN,2025-01-27 22:22:51,90.0634,Optical Recognition of Handwritten Digits,Distributive,,,0.9757
+DWN,2025-01-27 22:23:14,90.1005,Optical Recognition of Handwritten Digits,Distributive,,,0.9785
+DWN,2025-01-27 22:24:21,90.0970,Optical Recognition of Handwritten Digits,Distributive,,,0.9771
+DWN,2025-01-27 22:24:44,90.0425,Optical Recognition of Handwritten Digits,Distributive,,,0.9780
+DWN,2025-01-27 22:25:51,90.0173,Optical Recognition of Handwritten Digits,Distributive,,,0.9786
+DWN,2025-01-27 22:26:14,90.1378,Optical Recognition of Handwritten Digits,Distributive,,,0.9783
+DWN,2025-01-27 22:27:21,90.2303,Optical Recognition of Handwritten Digits,Distributive,,,0.9794
+DWN,2025-01-27 22:27:44,90.1494,Optical Recognition of Handwritten Digits,Distributive,,,0.9793
+DWN,2025-01-27 22:28:51,90.1406,Optical Recognition of Handwritten Digits,Distributive,,,0.9817
+DWN,2025-01-27 22:29:15,90.1679,Optical Recognition of Handwritten Digits,Distributive,,,0.9812
+DWN,2025-01-27 22:30:20,88.9501,Optical Recognition of Handwritten Digits,Distributive,,,0.9793
+DWN,2025-01-27 22:30:45,89.0172,Optical Recognition of Handwritten Digits,Gaussian,,,0.9629
+DWN,2025-01-27 22:31:52,90.2360,Optical Recognition of Handwritten Digits,Gaussian,,,0.9591
+DWN,2025-01-27 22:32:15,90.2037,Optical Recognition of Handwritten Digits,Gaussian,,,0.9681
+DWN,2025-01-27 22:33:22,90.1029,Optical Recognition of Handwritten Digits,Gaussian,,,0.9677
+DWN,2025-01-27 22:33:46,90.1160,Optical Recognition of Handwritten Digits,Gaussian,,,0.9712
+DWN,2025-01-27 22:34:52,90.1161,Optical Recognition of Handwritten Digits,Gaussian,,,0.9735
+DWN,2025-01-27 22:35:16,90.1015,Optical Recognition of Handwritten Digits,Gaussian,,,0.9749
+DWN,2025-01-27 22:36:22,90.0487,Optical Recognition of Handwritten Digits,Gaussian,,,0.9753
+DWN,2025-01-27 22:36:46,90.1513,Optical Recognition of Handwritten Digits,Gaussian,,,0.9787
+DWN,2025-01-27 22:37:52,90.1525,Optical Recognition of Handwritten Digits,Gaussian,,,0.9767
+DWN,2025-01-27 22:38:16,90.0915,Optical Recognition of Handwritten Digits,Gaussian,,,0.9768
+DWN,2025-01-27 22:39:22,90.1449,Optical Recognition of Handwritten Digits,Gaussian,,,0.9783
+DWN,2025-01-27 22:39:46,90.1343,Optical Recognition of Handwritten Digits,Gaussian,,,0.9790
+DWN,2025-01-27 22:40:53,90.0538,Optical Recognition of Handwritten Digits,Gaussian,,,0.9791
+DWN,2025-01-27 22:41:16,90.0619,Optical Recognition of Handwritten Digits,Gaussian,,,0.9807
+DWN,2025-01-27 22:42:23,90.0208,Optical Recognition of Handwritten Digits,Gaussian,,,0.9788
+DWN,2025-01-27 22:42:46,90.0401,Optical Recognition of Handwritten Digits,Gaussian,,,0.9816
+DWN,2025-01-27 22:43:53,90.0239,Optical Recognition of Handwritten Digits,Gaussian,,,0.9792
+DWN,2025-01-27 22:44:16,89.9552,Optical Recognition of Handwritten Digits,Gaussian,,,0.9805
+DWN,2025-01-27 22:45:21,88.7633,Optical Recognition of Handwritten Digits,Gaussian,,,0.9792
+DWN,2025-01-27 22:45:47,88.7625,Optical Recognition of Handwritten Digits,Linear,,,0.9572
+DWN,2025-01-27 22:46:53,89.9382,Optical Recognition of Handwritten Digits,Linear,,,0.9586
+DWN,2025-01-27 22:47:17,89.9491,Optical Recognition of Handwritten Digits,Linear,,,0.9693
+DWN,2025-01-27 22:48:23,90.0072,Optical Recognition of Handwritten Digits,Linear,,,0.9688
+DWN,2025-01-27 22:48:47,90.0282,Optical Recognition of Handwritten Digits,Linear,,,0.9736
+DWN,2025-01-27 22:49:53,90.1614,Optical Recognition of Handwritten Digits,Linear,,,0.9742
+DWN,2025-01-27 22:50:17,90.1978,Optical Recognition of Handwritten Digits,Linear,,,0.9766
+DWN,2025-01-27 22:51:23,90.0679,Optical Recognition of Handwritten Digits,Linear,,,0.9745
+DWN,2025-01-27 22:51:47,89.9959,Optical Recognition of Handwritten Digits,Linear,,,0.9793
+DWN,2025-01-27 22:52:53,89.9610,Optical Recognition of Handwritten Digits,Linear,,,0.9756
+DWN,2025-01-27 22:53:17,89.9700,Optical Recognition of Handwritten Digits,Linear,,,0.9769
+DWN,2025-01-27 22:54:23,89.9613,Optical Recognition of Handwritten Digits,Linear,,,0.9763
+DWN,2025-01-27 22:54:47,90.0077,Optical Recognition of Handwritten Digits,Linear,,,0.9792
+DWN,2025-01-27 22:55:53,90.0638,Optical Recognition of Handwritten Digits,Linear,,,0.9801
+DWN,2025-01-27 22:56:17,90.0637,Optical Recognition of Handwritten Digits,Linear,,,0.9797
+DWN,2025-01-27 22:57:23,90.0922,Optical Recognition of Handwritten Digits,Linear,,,0.9779
+DWN,2025-01-27 22:57:47,90.0519,Optical Recognition of Handwritten Digits,Linear,,,0.9816
+DWN,2025-01-27 22:58:54,90.2641,Optical Recognition of Handwritten Digits,Linear,,,0.9790
+DWN,2025-01-27 22:59:17,90.4037,Optical Recognition of Handwritten Digits,Linear,,,0.9804
+DWN,2025-01-27 23:02:09,195.6734,Optical Recognition of Handwritten Digits,Linear,,,0.9800
+DWN,2025-01-27 23:05:45,382.9677,Optical Recognition of Handwritten Digits,Scatter Code,10,50,0.9541
+DWN,2025-01-27 23:13:03,643.8489,Optical Recognition of Handwritten Digits,Scatter Code,10,100,0.9568
+DWN,2025-01-27 23:16:28,642.3272,Optical Recognition of Handwritten Digits,Scatter Code,10,50,0.9685
+DWN,2025-01-27 23:23:47,643.8708,Optical Recognition of Handwritten Digits,Scatter Code,10,100,0.9678
+DWN,2025-01-27 23:27:11,642.5045,Optical Recognition of Handwritten Digits,Scatter Code,10,50,0.9749
+DWN,2025-01-27 23:34:31,644.1807,Optical Recognition of Handwritten Digits,Scatter Code,10,100,0.9723
+DWN,2025-01-27 23:37:53,642.7140,Optical Recognition of Handwritten Digits,Scatter Code,10,50,0.9764
+DWN,2025-01-27 23:45:15,644.1014,Optical Recognition of Handwritten Digits,Scatter Code,10,100,0.9783
+DWN,2025-01-27 23:48:36,642.6191,Optical Recognition of Handwritten Digits,Scatter Code,10,50,0.9776
+DWN,2025-01-27 23:55:59,644.1003,Optical Recognition of Handwritten Digits,Scatter Code,10,100,0.9759
+DWN,2025-01-27 23:59:19,642.6984,Optical Recognition of Handwritten Digits,Scatter Code,10,50,0.9784
+DWN,2025-01-28 00:06:43,643.9317,Optical Recognition of Handwritten Digits,Scatter Code,10,100,0.9780
+DWN,2025-01-28 00:10:01,642.3290,Optical Recognition of Handwritten Digits,Scatter Code,10,50,0.9800
+DWN,2025-01-28 00:17:27,643.7418,Optical Recognition of Handwritten Digits,Scatter Code,10,100,0.9784
+DWN,2025-01-28 00:20:44,642.2605,Optical Recognition of Handwritten Digits,Scatter Code,10,50,0.9791
+DWN,2025-01-28 00:28:11,643.7551,Optical Recognition of Handwritten Digits,Scatter Code,10,100,0.9818
+DWN,2025-01-28 00:31:26,642.2856,Optical Recognition of Handwritten Digits,Scatter Code,10,50,0.9788
+DWN,2025-01-28 00:38:55,643.7544,Optical Recognition of Handwritten Digits,Scatter Code,10,100,0.9802
+DWN,2025-01-28 00:42:09,642.3307,Optical Recognition of Handwritten Digits,Scatter Code,10,50,0.9806
+DWN,2025-01-28 00:42:12,0.9158,Ecoli,Distributive,,,0.9200
+DWN,2025-01-28 00:42:13,1.8585,Ecoli,Distributive,,,0.7207
+DWN,2025-01-28 00:42:13,0.9335,Ecoli,Distributive,,,0.9000
+DWN,2025-01-28 00:42:14,0.9327,Ecoli,Distributive,,,0.9600
+DWN,2025-01-28 00:42:15,1.8564,Ecoli,Distributive,,,0.7928
+DWN,2025-01-28 00:42:16,0.9537,Ecoli,Distributive,,,0.9400
+DWN,2025-01-28 00:42:17,0.9680,Ecoli,Distributive,,,0.9800
+DWN,2025-01-28 00:42:17,1.9000,Ecoli,Distributive,,,0.8018
+DWN,2025-01-28 00:42:18,0.9775,Ecoli,Distributive,,,0.9600
+DWN,2025-01-28 00:42:19,0.9773,Ecoli,Distributive,,,0.9600
+DWN,2025-01-28 00:42:19,1.6594,Ecoli,Distributive,,,0.8288
+DWN,2025-01-28 00:42:20,0.9220,Ecoli,Distributive,,,0.9400
+DWN,2025-01-28 00:42:21,0.9223,Ecoli,Distributive,,,0.9200
+DWN,2025-01-28 00:42:21,1.8997,Ecoli,Distributive,,,0.8378
+DWN,2025-01-28 00:42:22,0.9125,Ecoli,Distributive,,,0.9200
+DWN,2025-01-28 00:42:23,0.9325,Ecoli,Gaussian,,,0.8800
+DWN,2025-01-28 00:42:23,1.8602,Ecoli,Distributive,,,0.8288
+DWN,2025-01-28 00:42:24,0.9559,Ecoli,Gaussian,,,0.9000
+DWN,2025-01-28 00:42:25,0.7526,Ecoli,Gaussian,,,0.9800
+DWN,2025-01-28 00:42:25,1.9055,Ecoli,Distributive,,,0.8378
+DWN,2025-01-28 00:42:26,0.9523,Ecoli,Gaussian,,,0.9800
+DWN,2025-01-28 00:42:28,1.9040,Ecoli,Distributive,,,0.8468
+DWN,2025-01-28 00:42:28,0.9760,Ecoli,Gaussian,,,0.9800
+DWN,2025-01-28 00:42:29,0.9145,Ecoli,Gaussian,,,0.9800
+DWN,2025-01-28 00:42:29,1.6486,Ecoli,Distributive,,,0.8468
+DWN,2025-01-28 00:42:30,0.9325,Ecoli,Gaussian,,,0.9800
+DWN,2025-01-28 00:42:31,0.9689,Ecoli,Gaussian,,,0.9800
+DWN,2025-01-28 00:42:32,1.8715,Ecoli,Distributive,,,0.8108
+DWN,2025-01-28 00:42:32,0.9693,Ecoli,Gaussian,,,0.9600
+DWN,2025-01-28 00:42:33,0.9710,Ecoli,Gaussian,,,0.9800
+DWN,2025-01-28 00:42:34,1.8579,Ecoli,Gaussian,,,0.6937
+DWN,2025-01-28 00:42:35,0.9293,Ecoli,Linear,,,0.9000
+DWN,2025-01-28 00:42:36,0.9558,Ecoli,Linear,,,0.9600
+DWN,2025-01-28 00:42:36,1.8905,Ecoli,Gaussian,,,0.7928
+DWN,2025-01-28 00:42:37,0.9253,Ecoli,Linear,,,0.9600
+DWN,2025-01-28 00:42:38,0.9284,Ecoli,Linear,,,0.9600
+DWN,2025-01-28 00:42:38,1.8528,Ecoli,Gaussian,,,0.8468
+DWN,2025-01-28 00:42:39,0.9715,Ecoli,Linear,,,0.9800
+DWN,2025-01-28 00:42:40,0.9727,Ecoli,Linear,,,0.9800
+DWN,2025-01-28 00:42:40,1.8640,Ecoli,Gaussian,,,0.7928
+DWN,2025-01-28 00:42:41,0.9149,Ecoli,Linear,,,0.9800
+DWN,2025-01-28 00:42:42,0.9285,Ecoli,Linear,,,0.9600
+DWN,2025-01-28 00:42:42,1.6686,Ecoli,Gaussian,,,0.7838
+DWN,2025-01-28 00:42:43,0.9637,Ecoli,Linear,,,0.9600
+DWN,2025-01-28 00:42:44,1.8301,Ecoli,Gaussian,,,0.8378
+DWN,2025-01-28 00:42:44,0.9338,Ecoli,Linear,,,0.9600
+DWN,2025-01-28 00:42:45,0.9391,Ecoli,Scatter Code,10,200,0.6800
+DWN,2025-01-28 00:42:46,1.8781,Ecoli,Gaussian,,,0.8288
+DWN,2025-01-28 00:42:46,0.9605,Ecoli,Scatter Code,10,200,0.8800
+DWN,2025-01-28 00:42:48,0.9641,Ecoli,Scatter Code,10,200,0.8200
+DWN,2025-01-28 00:42:48,1.9114,Ecoli,Gaussian,,,0.8108
+DWN,2025-01-28 00:42:49,0.9876,Ecoli,Scatter Code,10,200,1.0000
+DWN,2025-01-28 00:42:50,0.9409,Ecoli,Scatter Code,10,200,1.0000
+DWN,2025-01-28 00:42:50,2.1022,Ecoli,Gaussian,,,0.8468
+DWN,2025-01-28 00:42:51,0.9417,Ecoli,Scatter Code,10,200,0.9800
+DWN,2025-01-28 00:42:52,1.8622,Ecoli,Gaussian,,,0.7928
+DWN,2025-01-28 00:42:52,0.7520,Ecoli,Scatter Code,10,200,0.8600
+DWN,2025-01-28 00:42:53,0.9794,Ecoli,Scatter Code,10,200,0.9800
+DWN,2025-01-28 00:42:54,1.8744,Ecoli,Linear,,,0.7838
+DWN,2025-01-28 00:42:54,0.9618,Ecoli,Scatter Code,10,200,0.8800
+DWN,2025-01-28 00:42:55,0.9260,Ecoli,Scatter Code,10,200,0.8200
+DWN,2025-01-28 00:42:56,1.9014,Ecoli,Linear,,,0.8288
+DWN,2025-01-28 00:42:58,1.6265,Wine Quality,Linear,,,0.7838
+DWN,2025-01-28 00:43:00,1.6407,Wine Quality,Linear,,,0.7928
+DWN,2025-01-28 00:43:02,1.8980,Wine Quality,Linear,,,0.8649
+DWN,2025-01-28 00:43:04,1.6781,Wine Quality,Linear,,,0.8198
+DWN,2025-01-28 00:43:05,1.6445,Wine Quality,Linear,,,0.8559
+DWN,2025-01-28 00:43:08,1.9081,Wine Quality,Linear,,,0.8108
+DWN,2025-01-28 00:43:10,1.8548,Wine Quality,Linear,,,0.8378
+DWN,2025-01-28 00:43:12,1.9072,Wine Quality,Linear,,,0.8649
+DWN,2025-01-28 00:43:14,1.8907,Wine Quality,Scatter Code,10,200,0.7658
+DWN,2025-01-28 00:43:16,1.9197,Wine Quality,Scatter Code,10,200,0.8198
+DWN,2025-01-28 00:43:18,1.9045,Wine Quality,Scatter Code,10,200,0.8559
+DWN,2025-01-28 00:43:20,1.9094,Wine Quality,Scatter Code,10,200,0.8288
+DWN,2025-01-28 00:43:23,1.9346,Wine Quality,Scatter Code,10,200,0.8288
+DWN,2025-01-28 00:43:25,2.0669,Wine Quality,Scatter Code,10,200,0.8198
+DWN,2025-01-28 00:43:27,1.8877,Wine Quality,Scatter Code,10,200,0.8559
+DWN,2025-01-28 00:43:28,31.3413,Wine Quality,Distributive,,,0.4807
+DWN,2025-01-28 00:43:29,1.9092,Wine Quality,Scatter Code,10,200,0.8739
+DWN,2025-01-28 00:43:31,1.9081,Wine Quality,Scatter Code,10,200,0.8739
+DWN,2025-01-28 00:43:33,1.9077,Wine Quality,Scatter Code,10,200,0.8559
+DWN,2025-01-28 00:43:59,30.9622,EEG Eye State,Distributive,,,0.4723
+DWN,2025-01-28 00:44:28,29.2924,EEG Eye State,Distributive,,,0.4923
+DWN,2025-01-28 00:44:45,70.7786,EEG Eye State,Distributive,,,0.7670
+DWN,2025-01-28 00:44:58,29.7065,EEG Eye State,Distributive,,,0.4723
+DWN,2025-01-28 00:45:27,28.8311,EEG Eye State,Distributive,,,0.4848
+DWN,2025-01-28 00:45:53,68.2548,EEG Eye State,Distributive,,,0.7846
+DWN,2025-01-28 00:45:57,29.4561,EEG Eye State,Distributive,,,0.5016
+DWN,2025-01-28 00:46:26,29.2553,EEG Eye State,Distributive,,,0.5002
+DWN,2025-01-28 00:46:56,29.2286,EEG Eye State,Distributive,,,0.5156
+DWN,2025-01-28 00:47:04,70.5697,EEG Eye State,Distributive,,,0.8224
+DWN,2025-01-28 00:47:13,17.6875,EEG Eye State,Distributive,,,0.5086
+DWN,2025-01-28 00:47:14,499.5007,Optical Recognition of Handwritten Digits,Scatter Code,10,100,0.9814
+DWN,2025-01-28 00:47:14,1.2376,EEG Eye State,Distributive,,,0.5217
+DWN,2025-01-28 00:47:15,10.8954,EEG Eye State,Distributive,,,0.8319
+DWN,2025-01-28 00:47:15,0.5272,EEG Eye State,Gaussian,,,0.4490
+DWN,2025-01-28 00:47:16,0.5561,EEG Eye State,Gaussian,,,0.4932
+DWN,2025-01-28 00:47:16,1.3279,EEG Eye State,Distributive,,,0.8299
+DWN,2025-01-28 00:47:16,0.5750,EEG Eye State,Gaussian,,,0.4723
+DWN,2025-01-28 00:47:17,0.6411,EEG Eye State,Gaussian,,,0.4816
+DWN,2025-01-28 00:47:17,0.0353,Iris,Distributive,,,0.9400
+DWN,2025-01-28 00:47:17,0.0646,Iris,Distributive,,,0.7117
+DWN,2025-01-28 00:47:17,0.0443,Iris,Distributive,,,0.9400
+DWN,2025-01-28 00:47:17,0.0731,Iris,Distributive,,,0.7928
+DWN,2025-01-28 00:47:17,0.0584,Iris,Distributive,,,0.9600
+DWN,2025-01-28 00:47:17,0.0411,Iris,Distributive,,,0.9200
+DWN,2025-01-28 00:47:17,0.0658,Iris,Distributive,,,0.8018
+DWN,2025-01-28 00:47:17,0.0375,Iris,Distributive,,,0.9200
+DWN,2025-01-28 00:47:17,0.0395,Iris,Distributive,,,0.9400
+DWN,2025-01-28 00:47:17,0.0680,Iris,Distributive,,,0.8108
+DWN,2025-01-28 00:47:17,0.0515,Iris,Distributive,,,0.9400
+DWN,2025-01-28 00:47:17,0.0705,Iris,Distributive,,,0.8559
+DWN,2025-01-28 00:47:17,0.0393,Iris,Distributive,,,0.9800
+DWN,2025-01-28 00:47:17,0.0370,Iris,Distributive,,,0.9800
+DWN,2025-01-28 00:47:17,0.0666,Iris,Distributive,,,0.8378
+DWN,2025-01-28 00:47:18,0.0497,Iris,Distributive,,,1.0000
+DWN,2025-01-28 00:47:18,0.0642,Iris,Distributive,,,0.8829
+DWN,2025-01-28 00:47:18,0.0392,Iris,Gaussian,,,1.0000
+DWN,2025-01-28 00:47:18,0.0372,Iris,Gaussian,,,0.9400
+DWN,2025-01-28 00:47:18,0.0737,Iris,Distributive,,,0.8198
+DWN,2025-01-28 00:47:18,0.0482,Iris,Gaussian,,,0.9800
+DWN,2025-01-28 00:47:18,0.0697,Iris,Distributive,,,0.8288
+DWN,2025-01-28 00:47:18,0.0558,Iris,Gaussian,,,0.9600
+DWN,2025-01-28 00:47:18,0.0794,Iris,Distributive,,,0.8198
+DWN,2025-01-28 00:47:18,0.0446,Iris,Gaussian,,,0.9600
+DWN,2025-01-28 00:47:18,0.0466,Iris,Gaussian,,,0.9600
+DWN,2025-01-28 00:47:18,0.0737,Iris,Gaussian,,,0.7387
+DWN,2025-01-28 00:47:18,0.0457,Iris,Gaussian,,,0.9800
+DWN,2025-01-28 00:47:18,1.0361,EEG Eye State,Gaussian,,,0.4643
+DWN,2025-01-28 00:47:18,1.7753,EEG Eye State,Distributive,,,0.8430
+DWN,2025-01-28 00:47:18,0.0614,Iris,Gaussian,,,0.9600
+DWN,2025-01-28 00:47:18,0.0741,Iris,Gaussian,,,0.8288
+DWN,2025-01-28 00:47:18,0.0431,Iris,Gaussian,,,0.9800
+DWN,2025-01-28 00:47:18,0.0651,Iris,Gaussian,,,0.8288
+DWN,2025-01-28 00:47:18,0.0437,Iris,Gaussian,,,0.9800
+DWN,2025-01-28 00:47:18,0.0676,Iris,Gaussian,,,0.7838
+DWN,2025-01-28 00:47:18,0.0383,Iris,Linear,,,0.8800
+DWN,2025-01-28 00:47:18,0.0360,Iris,Linear,,,0.9800
+DWN,2025-01-28 00:47:18,0.0705,Iris,Gaussian,,,0.7838
+DWN,2025-01-28 00:47:18,0.0365,Iris,Linear,,,0.9600
+DWN,2025-01-28 00:47:18,0.0389,Iris,Linear,,,0.9400
+DWN,2025-01-28 00:47:18,0.0736,Iris,Gaussian,,,0.7928
+DWN,2025-01-28 00:47:18,0.0404,Iris,Linear,,,0.9800
+DWN,2025-01-28 00:47:18,0.0731,Iris,Gaussian,,,0.8378
+DWN,2025-01-28 00:47:18,0.0482,Iris,Linear,,,0.9800
+DWN,2025-01-28 00:47:18,0.0564,Iris,Linear,,,0.9800
+DWN,2025-01-28 00:47:18,0.0699,Iris,Gaussian,,,0.8288
+DWN,2025-01-28 00:47:18,0.0564,Iris,Linear,,,0.9800
+DWN,2025-01-28 00:47:18,0.0668,Iris,Gaussian,,,0.8378
+DWN,2025-01-28 00:47:19,0.0582,Iris,Linear,,,0.9800
+DWN,2025-01-28 00:47:19,0.0731,Iris,Gaussian,,,0.8198
+DWN,2025-01-28 00:47:19,0.0451,Iris,Linear,,,0.9800
+DWN,2025-01-28 00:47:19,0.0676,Iris,Linear,,,0.7477
+DWN,2025-01-28 00:47:19,0.0513,Iris,Scatter Code,50,50,0.8400
+DWN,2025-01-28 00:47:19,0.0403,Iris,Scatter Code,50,50,0.8200
+DWN,2025-01-28 00:47:19,0.0781,Iris,Linear,,,0.8198
+DWN,2025-01-28 00:47:19,0.0464,Iris,Scatter Code,50,50,0.9000
+DWN,2025-01-28 00:47:19,0.0714,Iris,Linear,,,0.8108
+DWN,2025-01-28 00:47:19,0.0478,Iris,Scatter Code,50,50,0.9800
+DWN,2025-01-28 00:47:19,0.0471,Iris,Scatter Code,50,50,0.9600
+DWN,2025-01-28 00:47:19,0.0738,Iris,Linear,,,0.8198
+DWN,2025-01-28 00:47:19,0.0473,Iris,Scatter Code,50,50,0.9600
+DWN,2025-01-28 00:47:19,1.0798,EEG Eye State,Gaussian,,,0.4811
+DWN,2025-01-28 00:47:19,0.0837,Iris,Linear,,,0.8108
+DWN,2025-01-28 00:47:19,0.0595,Iris,Scatter Code,50,50,0.9600
+DWN,2025-01-28 00:47:19,0.0667,Iris,Linear,,,0.8559
+DWN,2025-01-28 00:47:19,0.0513,Iris,Scatter Code,50,50,0.9600
+DWN,2025-01-28 00:47:19,0.0492,Iris,Scatter Code,50,50,0.9600
+DWN,2025-01-28 00:47:19,0.0742,Iris,Linear,,,0.7658
+DWN,2025-01-28 00:47:19,0.0612,Iris,Scatter Code,50,50,0.9600
+DWN,2025-01-28 00:47:19,0.0712,Iris,Linear,,,0.7928
+DWN,2025-01-28 00:47:19,0.0535,Iris,Linear,,,0.8288
+DWN,2025-01-28 00:47:19,0.0544,Iris,Linear,,,0.7838
+DWN,2025-01-28 00:47:19,0.0848,Wine Quality,Scatter Code,50,50,0.8198
+DWN,2025-01-28 00:47:20,0.0841,Wine Quality,Scatter Code,50,50,0.8468
+DWN,2025-01-28 00:47:20,0.0865,Wine Quality,Scatter Code,50,50,0.8198
+DWN,2025-01-28 00:47:20,0.0806,Wine Quality,Scatter Code,50,50,0.8288
+DWN,2025-01-28 00:47:20,0.0754,Wine Quality,Scatter Code,50,50,0.7748
+DWN,2025-01-28 00:47:20,0.0793,Wine Quality,Scatter Code,50,50,0.8198
+DWN,2025-01-28 00:47:20,0.0757,Wine Quality,Scatter Code,50,50,0.8288
+DWN,2025-01-28 00:47:20,0.0850,Wine Quality,Scatter Code,50,50,0.8108
+DWN,2025-01-28 00:47:20,1.1234,EEG Eye State,Gaussian,,,0.4942
+DWN,2025-01-28 00:47:20,0.0813,Wine Quality,Scatter Code,50,50,0.8468
+DWN,2025-01-28 00:47:20,0.0770,Wine Quality,Scatter Code,50,50,0.8108
+DWN,2025-01-28 00:47:20,2.5366,EEG Eye State,Distributive,,,0.8459
+DWN,2025-01-28 00:47:21,1.1854,Wine Quality,Distributive,,,0.4681
+DWN,2025-01-28 00:47:21,0.8909,EEG Eye State,Gaussian,,,0.5207
+DWN,2025-01-28 00:47:22,1.1564,EEG Eye State,Distributive,,,0.4839
+DWN,2025-01-28 00:47:22,1.1328,EEG Eye State,Gaussian,,,0.4979
+DWN,2025-01-28 00:47:23,2.4829,EEG Eye State,Distributive,,,0.8461
+DWN,2025-01-28 00:47:23,1.2667,EEG Eye State,Distributive,,,0.4979
+DWN,2025-01-28 00:47:23,1.1708,EEG Eye State,Gaussian,,,0.4779
+DWN,2025-01-28 00:47:24,1.2918,EEG Eye State,Distributive,,,0.4895
+DWN,2025-01-28 00:47:25,3.3764,EEG Eye State,Distributive,,,0.7551
+DWN,2025-01-28 00:47:25,1.1662,EEG Eye State,Linear,,,0.4406
+DWN,2025-01-28 00:47:26,1.1911,EEG Eye State,Distributive,,,0.5049
+DWN,2025-01-28 00:47:26,1.1150,EEG Eye State,Linear,,,0.4597
+DWN,2025-01-28 00:47:26,2.6697,EEG Eye State,Distributive,,,0.8659
+DWN,2025-01-28 00:47:27,1.0605,EEG Eye State,Linear,,,0.4326
+DWN,2025-01-28 00:47:27,1.2228,EEG Eye State,Distributive,,,0.4904
+DWN,2025-01-28 00:47:28,1.1668,EEG Eye State,Linear,,,0.4424
+DWN,2025-01-28 00:47:28,3.4742,EEG Eye State,Distributive,,,0.7868
+DWN,2025-01-28 00:47:28,1.2229,EEG Eye State,Distributive,,,0.4825
+DWN,2025-01-28 00:47:28,2.6427,EEG Eye State,Distributive,,,0.8578
+DWN,2025-01-28 00:47:29,1.0430,EEG Eye State,Linear,,,0.4322
+DWN,2025-01-28 00:47:29,1.2684,EEG Eye State,Distributive,,,0.4988
+DWN,2025-01-28 00:47:30,1.0962,EEG Eye State,Linear,,,0.4695
+DWN,2025-01-28 00:47:31,1.1868,EEG Eye State,Distributive,,,0.5030
+DWN,2025-01-28 00:47:31,2.5937,EEG Eye State,Gaussian,,,0.6135
+DWN,2025-01-28 00:47:31,1.1362,EEG Eye State,Linear,,,0.4373
+DWN,2025-01-28 00:47:31,3.2566,EEG Eye State,Distributive,,,0.8155
+DWN,2025-01-28 00:47:32,1.2330,EEG Eye State,Distributive,,,0.5207
+DWN,2025-01-28 00:47:32,1.0911,EEG Eye State,Linear,,,0.4462
+DWN,2025-01-28 00:47:33,1.1860,EEG Eye State,Gaussian,,,0.4490
+DWN,2025-01-28 00:47:33,1.1035,EEG Eye State,Linear,,,0.4723
+DWN,2025-01-28 00:47:33,2.5550,EEG Eye State,Gaussian,,,0.6224
+DWN,2025-01-28 00:47:34,1.2243,EEG Eye State,Gaussian,,,0.4830
+DWN,2025-01-28 00:47:35,1.1012,EEG Eye State,Linear,,,0.4825
+DWN,2025-01-28 00:47:35,3.3607,EEG Eye State,Distributive,,,0.8299
+DWN,2025-01-28 00:47:36,1.5245,EEG Eye State,Gaussian,,,0.4844
+DWN,2025-01-28 00:47:37,1.9466,EEG Eye State,Scatter Code,10,200,0.3594
+DWN,2025-01-28 00:47:37,3.3565,EEG Eye State,Gaussian,,,0.6161
+DWN,2025-01-28 00:47:38,2.0546,EEG Eye State,Gaussian,,,0.4699
+DWN,2025-01-28 00:47:39,1.8713,EEG Eye State,Scatter Code,10,200,0.3319
+DWN,2025-01-28 00:47:40,2.0344,EEG Eye State,Gaussian,,,0.4834
+DWN,2025-01-28 00:47:40,1.8680,EEG Eye State,Scatter Code,10,200,0.4331
+DWN,2025-01-28 00:47:41,5.9056,EEG Eye State,Distributive,,,0.8495
+DWN,2025-01-28 00:47:41,4.2731,EEG Eye State,Gaussian,,,0.6193
+DWN,2025-01-28 00:47:42,1.9952,EEG Eye State,Gaussian,,,0.4690
+DWN,2025-01-28 00:47:42,1.8971,EEG Eye State,Scatter Code,10,200,0.3277
+DWN,2025-01-28 00:47:44,1.9481,EEG Eye State,Gaussian,,,0.4807
+DWN,2025-01-28 00:47:44,1.8622,EEG Eye State,Scatter Code,10,200,0.4000
+DWN,2025-01-28 00:47:45,4.3201,EEG Eye State,Gaussian,,,0.6191
+DWN,2025-01-28 00:47:46,5.2014,EEG Eye State,Distributive,,,0.8455
+DWN,2025-01-28 00:47:46,2.0175,EEG Eye State,Gaussian,,,0.5007
+DWN,2025-01-28 00:47:46,1.9666,EEG Eye State,Scatter Code,10,200,0.4075
+DWN,2025-01-28 00:47:48,2.0264,EEG Eye State,Gaussian,,,0.5240
+DWN,2025-01-28 00:47:48,1.9244,EEG Eye State,Scatter Code,10,200,0.3427
+DWN,2025-01-28 00:47:50,1.9467,EEG Eye State,Gaussian,,,0.4895
+DWN,2025-01-28 00:47:50,4.3985,EEG Eye State,Gaussian,,,0.6268
+DWN,2025-01-28 00:47:50,1.8828,EEG Eye State,Scatter Code,10,200,0.3193
+DWN,2025-01-28 00:47:52,1.9462,EEG Eye State,Linear,,,0.4163
+DWN,2025-01-28 00:47:52,1.8710,EEG Eye State,Scatter Code,10,200,0.4200
+DWN,2025-01-28 00:47:52,6.2552,EEG Eye State,Distributive,,,0.8507
+DWN,2025-01-28 00:47:54,1.9693,EEG Eye State,Linear,,,0.4508
+DWN,2025-01-28 00:47:54,1.9347,EEG Eye State,Scatter Code,10,200,0.3524
+DWN,2025-01-28 00:47:54,4.1234,EEG Eye State,Gaussian,,,0.6511
+DWN,2025-01-28 00:47:55,1.0760,EEG Eye State,Linear,,,0.4457
+DWN,2025-01-28 00:47:56,1.0663,EEG Eye State,Linear,,,0.4825
+DWN,2025-01-28 00:47:56,4.0805,EEG Eye State,Distributive,,,0.8538
+DWN,2025-01-28 00:47:56,2.4074,MAGIC Gamma Telescope,Gaussian,,,0.6527
+DWN,2025-01-28 00:47:57,1.1365,EEG Eye State,Linear,,,0.4695
+DWN,2025-01-28 00:47:57,3.0610,MAGIC Gamma Telescope,Distributive,,,0.8162
+DWN,2025-01-28 00:47:58,1.2596,EEG Eye State,Linear,,,0.4667
+DWN,2025-01-28 00:47:59,2.5461,MAGIC Gamma Telescope,Gaussian,,,0.6386
+DWN,2025-01-28 00:47:59,3.3875,EEG Eye State,Distributive,,,0.8697
+DWN,2025-01-28 00:48:00,1.2695,EEG Eye State,Linear,,,0.4620
+DWN,2025-01-28 00:48:00,3.1730,MAGIC Gamma Telescope,Distributive,,,0.7708
+DWN,2025-01-28 00:48:01,1.2737,EEG Eye State,Linear,,,0.4322
+DWN,2025-01-28 00:48:02,2.5263,MAGIC Gamma Telescope,Gaussian,,,0.6610
+DWN,2025-01-28 00:48:02,1.1453,EEG Eye State,Linear,,,0.4490
+DWN,2025-01-28 00:48:03,3.4521,EEG Eye State,Distributive,,,0.8617
+DWN,2025-01-28 00:48:03,1.2434,EEG Eye State,Linear,,,0.4648
+DWN,2025-01-28 00:48:03,2.9712,MAGIC Gamma Telescope,Distributive,,,0.7838
+DWN,2025-01-28 00:48:04,2.4998,MAGIC Gamma Telescope,Linear,,,0.5342
+DWN,2025-01-28 00:48:05,1.3392,EEG Eye State,Scatter Code,50,50,0.4135
+DWN,2025-01-28 00:48:06,1.3133,EEG Eye State,Scatter Code,50,50,0.3469
+DWN,2025-01-28 00:48:07,3.5728,EEG Eye State,Gaussian,,,0.6015
+DWN,2025-01-28 00:48:07,3.2788,MAGIC Gamma Telescope,Distributive,,,0.7870
+DWN,2025-01-28 00:48:07,2.8305,MAGIC Gamma Telescope,Linear,,,0.4656
+DWN,2025-01-28 00:48:07,1.3661,EEG Eye State,Scatter Code,50,50,0.3622
+DWN,2025-01-28 00:48:09,1.4101,EEG Eye State,Scatter Code,50,50,0.2597
+DWN,2025-01-28 00:48:10,2.6512,MAGIC Gamma Telescope,Linear,,,0.4658
+DWN,2025-01-28 00:48:10,3.2582,MAGIC Gamma Telescope,Distributive,,,0.8042
+DWN,2025-01-28 00:48:10,1.3744,EEG Eye State,Scatter Code,50,50,0.3366
+DWN,2025-01-28 00:48:11,4.0901,EEG Eye State,Gaussian,,,0.6011
+DWN,2025-01-28 00:48:12,1.4586,EEG Eye State,Scatter Code,50,50,0.3445
+DWN,2025-01-28 00:48:12,2.8199,MAGIC Gamma Telescope,Linear,,,0.4713
+DWN,2025-01-28 00:48:13,1.4030,EEG Eye State,Scatter Code,50,50,0.3352
+DWN,2025-01-28 00:48:13,3.2934,MAGIC Gamma Telescope,Distributive,,,0.7980
+DWN,2025-01-28 00:48:15,3.9335,EEG Eye State,Gaussian,,,0.6193
+DWN,2025-01-28 00:48:15,1.4184,EEG Eye State,Scatter Code,50,50,0.3758
+DWN,2025-01-28 00:48:15,2.7798,MAGIC Gamma Telescope,Linear,,,0.5342
+DWN,2025-01-28 00:48:16,1.3418,EEG Eye State,Scatter Code,50,50,0.4326
+DWN,2025-01-28 00:48:17,3.3153,MAGIC Gamma Telescope,Distributive,,,0.8147
+DWN,2025-01-28 00:48:17,1.4085,EEG Eye State,Scatter Code,50,50,0.4009
+DWN,2025-01-28 00:48:18,2.5570,MAGIC Gamma Telescope,Linear,,,0.5380
+DWN,2025-01-28 00:48:18,3.5168,MAGIC Gamma Telescope,Gaussian,,,0.6331
+DWN,2025-01-28 00:48:20,2.9632,MAGIC Gamma Telescope,Distributive,,,0.8107
+DWN,2025-01-28 00:48:20,2.4799,MAGIC Gamma Telescope,Linear,,,0.5344
+DWN,2025-01-28 00:48:21,3.4550,MAGIC Gamma Telescope,Distributive,,,0.8015
+DWN,2025-01-28 00:48:22,3.4586,MAGIC Gamma Telescope,Gaussian,,,0.6117
+DWN,2025-01-28 00:48:23,2.9811,MAGIC Gamma Telescope,Distributive,,,0.8066
+DWN,2025-01-28 00:48:23,2.4251,MAGIC Gamma Telescope,Linear,,,0.5340
+DWN,2025-01-28 00:48:25,3.3768,MAGIC Gamma Telescope,Distributive,,,0.7951
+DWN,2025-01-28 00:48:25,2.5407,MAGIC Gamma Telescope,Linear,,,0.4658
+DWN,2025-01-28 00:48:25,3.6021,MAGIC Gamma Telescope,Gaussian,,,0.6432
+DWN,2025-01-28 00:48:26,3.1593,MAGIC Gamma Telescope,Distributive,,,0.8166
+DWN,2025-01-28 00:48:28,2.5941,MAGIC Gamma Telescope,Linear,,,0.5342
+DWN,2025-01-28 00:48:28,3.4847,MAGIC Gamma Telescope,Distributive,,,0.8287
+DWN,2025-01-28 00:48:29,3.7883,MAGIC Gamma Telescope,Gaussian,,,0.6416
+DWN,2025-01-28 00:48:30,3.9919,MAGIC Gamma Telescope,Gaussian,,,0.7939
+DWN,2025-01-28 00:48:33,5.0707,MAGIC Gamma Telescope,Scatter Code,10,200,0.4658
+DWN,2025-01-28 00:48:35,6.4735,MAGIC Gamma Telescope,Distributive,,,0.8021
+DWN,2025-01-28 00:48:35,5.8642,MAGIC Gamma Telescope,Gaussian,,,0.6630
+DWN,2025-01-28 00:48:35,5.5950,MAGIC Gamma Telescope,Gaussian,,,0.7953
+DWN,2025-01-28 00:48:38,4.9438,MAGIC Gamma Telescope,Scatter Code,10,200,0.4656
+DWN,2025-01-28 00:48:41,5.7975,MAGIC Gamma Telescope,Gaussian,,,0.6436
+DWN,2025-01-28 00:48:41,6.4096,MAGIC Gamma Telescope,Distributive,,,0.8061
+DWN,2025-01-28 00:48:41,5.8379,MAGIC Gamma Telescope,Gaussian,,,0.8039
+DWN,2025-01-28 00:48:43,4.9410,MAGIC Gamma Telescope,Scatter Code,10,200,0.5344
+DWN,2025-01-28 00:48:47,5.5530,MAGIC Gamma Telescope,Gaussian,,,0.8171
+DWN,2025-01-28 00:48:47,6.5158,MAGIC Gamma Telescope,Gaussian,,,0.6468
+DWN,2025-01-28 00:48:47,6.4672,MAGIC Gamma Telescope,Distributive,,,0.8083
+DWN,2025-01-28 00:48:48,4.9426,MAGIC Gamma Telescope,Scatter Code,10,200,0.4656
+DWN,2025-01-28 00:48:53,5.8498,MAGIC Gamma Telescope,Gaussian,,,0.7857
+DWN,2025-01-28 00:48:53,5.0396,MAGIC Gamma Telescope,Scatter Code,10,200,0.4656
+DWN,2025-01-28 00:48:53,5.9993,MAGIC Gamma Telescope,Linear,,,0.5344
+DWN,2025-01-28 00:48:54,6.4571,MAGIC Gamma Telescope,Distributive,,,0.8179
+DWN,2025-01-28 00:48:58,5.0160,MAGIC Gamma Telescope,Scatter Code,10,200,0.5342
+DWN,2025-01-28 00:48:58,5.7769,MAGIC Gamma Telescope,Gaussian,,,0.8052
+DWN,2025-01-28 00:49:00,6.2717,MAGIC Gamma Telescope,Linear,,,0.4672
+DWN,2025-01-28 00:49:00,6.4504,MAGIC Gamma Telescope,Distributive,,,0.8063
+DWN,2025-01-28 00:49:03,5.0318,MAGIC Gamma Telescope,Scatter Code,10,200,0.4656
+DWN,2025-01-28 00:49:04,5.8711,MAGIC Gamma Telescope,Gaussian,,,0.8181
+DWN,2025-01-28 00:49:06,6.0760,MAGIC Gamma Telescope,Linear,,,0.5344
+DWN,2025-01-28 00:49:07,6.4712,MAGIC Gamma Telescope,Distributive,,,0.8192
+DWN,2025-01-28 00:49:08,4.9013,MAGIC Gamma Telescope,Scatter Code,10,200,0.5342
+DWN,2025-01-28 00:49:10,5.7941,MAGIC Gamma Telescope,Gaussian,,,0.7854
+DWN,2025-01-28 00:49:12,6.0700,MAGIC Gamma Telescope,Linear,,,0.5340
+DWN,2025-01-28 00:49:13,4.9938,MAGIC Gamma Telescope,Scatter Code,10,200,0.4658
+DWN,2025-01-28 00:49:13,6.3663,MAGIC Gamma Telescope,Distributive,,,0.8197
+DWN,2025-01-28 00:49:16,5.8644,MAGIC Gamma Telescope,Gaussian,,,0.7846
+DWN,2025-01-28 00:49:17,5.7595,MAGIC Gamma Telescope,Linear,,,0.5342
+DWN,2025-01-28 00:49:18,5.0529,MAGIC Gamma Telescope,Scatter Code,10,200,0.5344
+DWN,2025-01-28 00:49:19,5.3941,MAGIC Gamma Telescope,Gaussian,,,0.7558
+DWN,2025-01-28 00:49:20,3.5280,MAGIC Gamma Telescope,Gaussian,,,0.7706
+DWN,2025-01-28 00:49:20,2.2227,MAGIC Gamma Telescope,Linear,,,0.4715
+DWN,2025-01-28 00:49:21,2.2327,MAGIC Gamma Telescope,Gaussian,,,0.7518
+DWN,2025-01-28 00:49:21,0.1407,Statlog (Vehicle Silhouettes),Distributive,,,0.6107
+DWN,2025-01-28 00:49:22,0.1487,Statlog (Vehicle Silhouettes),Distributive,,,0.6929
+DWN,2025-01-28 00:49:22,0.1376,Statlog (Vehicle Silhouettes),Distributive,,,0.7286
+DWN,2025-01-28 00:49:22,0.1433,Statlog (Vehicle Silhouettes),Distributive,,,0.7036
+DWN,2025-01-28 00:49:22,2.1706,MAGIC Gamma Telescope,Linear,,,0.4658
+DWN,2025-01-28 00:49:22,2.3908,Statlog (Vehicle Silhouettes),Linear,,,0.7875
+DWN,2025-01-28 00:49:22,0.1508,Statlog (Vehicle Silhouettes),Distributive,,,0.6786
+DWN,2025-01-28 00:49:22,0.1421,Statlog (Vehicle Silhouettes),Distributive,,,0.7357
+DWN,2025-01-28 00:49:22,0.1494,Statlog (Vehicle Silhouettes),Distributive,,,0.7500
+DWN,2025-01-28 00:49:22,0.1577,Statlog (Vehicle Silhouettes),Distributive,,,0.7536
+DWN,2025-01-28 00:49:23,0.1409,Statlog (Vehicle Silhouettes),Distributive,,,0.7179
+DWN,2025-01-28 00:49:23,0.1632,Statlog (Vehicle Silhouettes),Distributive,,,0.6821
+DWN,2025-01-28 00:49:23,0.1370,Statlog (Vehicle Silhouettes),Gaussian,,,0.6357
+DWN,2025-01-28 00:49:23,0.1451,Statlog (Vehicle Silhouettes),Gaussian,,,0.6464
+DWN,2025-01-28 00:49:23,0.1432,Statlog (Vehicle Silhouettes),Gaussian,,,0.7214
+DWN,2025-01-28 00:49:23,0.1540,Statlog (Vehicle Silhouettes),Gaussian,,,0.7107
+DWN,2025-01-28 00:49:24,0.1477,Statlog (Vehicle Silhouettes),Gaussian,,,0.7000
+DWN,2025-01-28 00:49:24,0.1321,Statlog (Vehicle Silhouettes),Gaussian,,,0.7036
+DWN,2025-01-28 00:49:24,0.1368,Statlog (Vehicle Silhouettes),Gaussian,,,0.7750
+DWN,2025-01-28 00:49:24,0.1390,Statlog (Vehicle Silhouettes),Gaussian,,,0.7536
+DWN,2025-01-28 00:49:24,0.1485,Statlog (Vehicle Silhouettes),Gaussian,,,0.7607
+DWN,2025-01-28 00:49:24,3.2687,MAGIC Gamma Telescope,Gaussian,,,0.8002
+DWN,2025-01-28 00:49:24,0.1564,Statlog (Vehicle Silhouettes),Gaussian,,,0.7893
+DWN,2025-01-28 00:49:25,0.1604,Statlog (Vehicle Silhouettes),Linear,,,0.5571
+DWN,2025-01-28 00:49:25,0.1409,Statlog (Vehicle Silhouettes),Linear,,,0.6321
+DWN,2025-01-28 00:49:25,0.1580,Statlog (Vehicle Silhouettes),Linear,,,0.6357
+DWN,2025-01-28 00:49:25,0.1463,Statlog (Vehicle Silhouettes),Linear,,,0.6643
+DWN,2025-01-28 00:49:25,3.0533,Statlog (Vehicle Silhouettes),Linear,,,0.7583
+DWN,2025-01-28 00:49:25,0.1442,Statlog (Vehicle Silhouettes),Linear,,,0.7000
+DWN,2025-01-28 00:49:25,0.1461,Statlog (Vehicle Silhouettes),Linear,,,0.6607
+DWN,2025-01-28 00:49:25,3.3946,MAGIC Gamma Telescope,Linear,,,0.5344
+DWN,2025-01-28 00:49:25,0.1588,Statlog (Vehicle Silhouettes),Linear,,,0.6929
+DWN,2025-01-28 00:49:26,0.1483,Statlog (Vehicle Silhouettes),Linear,,,0.6536
+DWN,2025-01-28 00:49:26,0.1539,Statlog (Vehicle Silhouettes),Linear,,,0.6786
+DWN,2025-01-28 00:49:26,0.1382,Statlog (Vehicle Silhouettes),Linear,,,0.6536
+DWN,2025-01-28 00:49:27,0.3469,Statlog (Vehicle Silhouettes),Scatter Code,10,200,0.2821
+DWN,2025-01-28 00:49:27,0.3403,Statlog (Vehicle Silhouettes),Scatter Code,10,200,0.2821
+DWN,2025-01-28 00:49:27,0.3306,Statlog (Vehicle Silhouettes),Scatter Code,10,200,0.2821
+DWN,2025-01-28 00:49:28,0.3351,Statlog (Vehicle Silhouettes),Scatter Code,10,200,0.2929
+DWN,2025-01-28 00:49:28,0.3443,Statlog (Vehicle Silhouettes),Scatter Code,10,200,0.2000
+DWN,2025-01-28 00:49:28,0.3295,Statlog (Vehicle Silhouettes),Scatter Code,10,200,0.2000
+DWN,2025-01-28 00:49:29,0.3344,Statlog (Vehicle Silhouettes),Scatter Code,10,200,0.2821
+DWN,2025-01-28 00:49:29,0.3311,Statlog (Vehicle Silhouettes),Scatter Code,10,200,0.2929
+DWN,2025-01-28 00:49:29,5.0555,MAGIC Gamma Telescope,Gaussian,,,0.8171
+DWN,2025-01-28 00:49:29,0.3353,Statlog (Vehicle Silhouettes),Scatter Code,10,200,0.2250
+DWN,2025-01-28 00:49:30,0.3293,Statlog (Vehicle Silhouettes),Scatter Code,10,200,0.2000
+DWN,2025-01-28 00:49:30,4.8604,Statlog (Vehicle Silhouettes),Linear,,,0.7932
+DWN,2025-01-28 00:49:30,4.8501,MAGIC Gamma Telescope,Linear,,,0.4658
+DWN,2025-01-28 00:49:30,0.1822,Maternal Health Risk,Distributive,,,0.6328
+DWN,2025-01-28 00:49:30,0.2188,Maternal Health Risk,Distributive,,,0.6597
+DWN,2025-01-28 00:49:31,0.1655,Maternal Health Risk,Distributive,,,0.6925
+DWN,2025-01-28 00:49:31,0.1619,Maternal Health Risk,Distributive,,,0.6597
+DWN,2025-01-28 00:49:31,0.1774,Maternal Health Risk,Distributive,,,0.6896
+DWN,2025-01-28 00:49:31,0.1770,Maternal Health Risk,Distributive,,,0.7075
+DWN,2025-01-28 00:49:31,0.1855,Maternal Health Risk,Distributive,,,0.7045
+DWN,2025-01-28 00:49:31,0.1825,Maternal Health Risk,Distributive,,,0.7284
+DWN,2025-01-28 00:49:32,0.1662,Maternal Health Risk,Distributive,,,0.7104
+DWN,2025-01-28 00:49:32,0.1686,Maternal Health Risk,Distributive,,,0.7284
+DWN,2025-01-28 00:49:32,0.1745,Maternal Health Risk,Gaussian,,,0.6000
+DWN,2025-01-28 00:49:32,0.1743,Maternal Health Risk,Gaussian,,,0.6119
+DWN,2025-01-28 00:49:32,0.1940,Maternal Health Risk,Gaussian,,,0.6030
+DWN,2025-01-28 00:49:33,0.2171,Maternal Health Risk,Gaussian,,,0.6299
+DWN,2025-01-28 00:49:33,0.1843,Maternal Health Risk,Gaussian,,,0.6806
+DWN,2025-01-28 00:49:33,3.0470,Maternal Health Risk,Linear,,,0.7497
+DWN,2025-01-28 00:49:33,3.6340,MAGIC Gamma Telescope,Gaussian,,,0.7905
+DWN,2025-01-28 00:49:33,0.1933,Maternal Health Risk,Gaussian,,,0.7075
+DWN,2025-01-28 00:49:33,0.2018,Maternal Health Risk,Gaussian,,,0.6866
+DWN,2025-01-28 00:49:33,0.1782,Maternal Health Risk,Gaussian,,,0.7075
+DWN,2025-01-28 00:49:34,0.1932,Maternal Health Risk,Gaussian,,,0.6418
+DWN,2025-01-28 00:49:34,0.2031,Maternal Health Risk,Gaussian,,,0.6657
+DWN,2025-01-28 00:49:34,3.6777,MAGIC Gamma Telescope,Linear,,,0.4713
+DWN,2025-01-28 00:49:34,0.2220,Maternal Health Risk,Linear,,,0.6179
+DWN,2025-01-28 00:49:34,0.2318,Maternal Health Risk,Linear,,,0.5910
+DWN,2025-01-28 00:49:35,0.2153,Maternal Health Risk,Linear,,,0.6478
+DWN,2025-01-28 00:49:35,0.2294,Maternal Health Risk,Linear,,,0.6567
+DWN,2025-01-28 00:49:35,0.2139,Maternal Health Risk,Linear,,,0.6478
+DWN,2025-01-28 00:49:35,0.1887,Maternal Health Risk,Linear,,,0.6746
+DWN,2025-01-28 00:49:35,0.1973,Maternal Health Risk,Linear,,,0.6657
+DWN,2025-01-28 00:49:36,0.2056,Maternal Health Risk,Linear,,,0.6328
+DWN,2025-01-28 00:49:36,0.1931,Maternal Health Risk,Linear,,,0.6806
+DWN,2025-01-28 00:49:36,0.1908,Maternal Health Risk,Linear,,,0.6358
+DWN,2025-01-28 00:49:36,3.1897,Maternal Health Risk,Linear,,,0.7835
+DWN,2025-01-28 00:49:37,0.2788,Maternal Health Risk,Scatter Code,10,200,0.6030
+DWN,2025-01-28 00:49:37,3.7155,MAGIC Gamma Telescope,Gaussian,,,0.7972
+DWN,2025-01-28 00:49:37,0.2821,Maternal Health Risk,Scatter Code,10,200,0.5701
+DWN,2025-01-28 00:49:37,0.2835,Maternal Health Risk,Scatter Code,10,200,0.4060
+DWN,2025-01-28 00:49:37,0.2916,Maternal Health Risk,Scatter Code,10,200,0.5313
+DWN,2025-01-28 00:49:38,0.2911,Maternal Health Risk,Scatter Code,10,200,0.5881
+DWN,2025-01-28 00:49:38,0.2705,Maternal Health Risk,Scatter Code,10,200,0.4925
+DWN,2025-01-28 00:49:38,4.2316,MAGIC Gamma Telescope,Scatter Code,50,50,0.4658
+DWN,2025-01-28 00:49:38,0.2840,Maternal Health Risk,Scatter Code,10,200,0.6328
+DWN,2025-01-28 00:49:39,0.2812,Maternal Health Risk,Scatter Code,10,200,0.5433
+DWN,2025-01-28 00:49:39,0.2740,Maternal Health Risk,Scatter Code,10,200,0.5940
+DWN,2025-01-28 00:49:39,0.2797,Maternal Health Risk,Scatter Code,10,200,0.5045
+DWN,2025-01-28 00:49:39,0.0519,Glass Identification,Distributive,,,0.6620
+DWN,2025-01-28 00:49:39,0.0463,Glass Identification,Distributive,,,0.6479
+DWN,2025-01-28 00:49:39,0.0502,Glass Identification,Distributive,,,0.6761
+DWN,2025-01-28 00:49:40,0.0431,Glass Identification,Distributive,,,0.5775
+DWN,2025-01-28 00:49:40,0.0611,Glass Identification,Distributive,,,0.6620
+DWN,2025-01-28 00:49:40,0.0549,Glass Identification,Distributive,,,0.7183
+DWN,2025-01-28 00:49:40,0.0498,Glass Identification,Distributive,,,0.7887
+DWN,2025-01-28 00:49:40,0.0503,Glass Identification,Distributive,,,0.7183
+DWN,2025-01-28 00:49:40,0.0427,Glass Identification,Distributive,,,0.7606
+DWN,2025-01-28 00:49:40,0.0499,Glass Identification,Distributive,,,0.7183
+DWN,2025-01-28 00:49:40,0.0409,Glass Identification,Gaussian,,,0.5634
+DWN,2025-01-28 00:49:40,0.0444,Glass Identification,Gaussian,,,0.5915
+DWN,2025-01-28 00:49:40,0.0455,Glass Identification,Gaussian,,,0.6197
+DWN,2025-01-28 00:49:40,0.0498,Glass Identification,Gaussian,,,0.6620
+DWN,2025-01-28 00:49:40,0.0489,Glass Identification,Gaussian,,,0.6479
+DWN,2025-01-28 00:49:40,0.0561,Glass Identification,Gaussian,,,0.6761
+DWN,2025-01-28 00:49:40,0.0481,Glass Identification,Gaussian,,,0.6338
+DWN,2025-01-28 00:49:40,4.1986,Glass Identification,Linear,,,0.7687
+DWN,2025-01-28 00:49:40,0.0598,Glass Identification,Gaussian,,,0.6479
+DWN,2025-01-28 00:49:40,0.0466,Glass Identification,Gaussian,,,0.7324
+DWN,2025-01-28 00:49:40,0.0542,Glass Identification,Gaussian,,,0.6761
+DWN,2025-01-28 00:49:41,0.0452,Glass Identification,Linear,,,0.6056
+DWN,2025-01-28 00:49:41,0.0519,Glass Identification,Linear,,,0.7183
+DWN,2025-01-28 00:49:41,0.0585,Glass Identification,Linear,,,0.6479
+DWN,2025-01-28 00:49:41,0.0549,Glass Identification,Linear,,,0.5775
+DWN,2025-01-28 00:49:41,0.0506,Glass Identification,Linear,,,0.6338
+DWN,2025-01-28 00:49:41,0.0491,Glass Identification,Linear,,,0.7183
+DWN,2025-01-28 00:49:41,0.0553,Glass Identification,Linear,,,0.6620
+DWN,2025-01-28 00:49:41,0.0505,Glass Identification,Linear,,,0.7042
+DWN,2025-01-28 00:49:41,0.0487,Glass Identification,Linear,,,0.6761
+DWN,2025-01-28 00:49:41,0.0464,Glass Identification,Linear,,,0.6901
+DWN,2025-01-28 00:49:41,4.4606,MAGIC Gamma Telescope,Gaussian,,,0.8048
+DWN,2025-01-28 00:49:41,0.0758,Glass Identification,Scatter Code,10,200,0.0845
+DWN,2025-01-28 00:49:41,0.0767,Glass Identification,Scatter Code,10,200,0.3662
+DWN,2025-01-28 00:49:42,0.0835,Glass Identification,Scatter Code,10,200,0.3380
+DWN,2025-01-28 00:49:42,0.0802,Glass Identification,Scatter Code,10,200,0.3239
+DWN,2025-01-28 00:49:42,0.0780,Glass Identification,Scatter Code,10,200,0.1127
+DWN,2025-01-28 00:49:42,0.0785,Glass Identification,Scatter Code,10,200,0.3239
+DWN,2025-01-28 00:49:42,0.0692,Glass Identification,Scatter Code,10,200,0.3239
+DWN,2025-01-28 00:49:42,0.0760,Glass Identification,Scatter Code,10,200,0.0845
+DWN,2025-01-28 00:49:42,0.0739,Glass Identification,Scatter Code,10,200,0.3521
+DWN,2025-01-28 00:49:42,0.0726,Glass Identification,Scatter Code,10,200,0.3239
+DWN,2025-01-28 00:49:42,4.1848,MAGIC Gamma Telescope,Scatter Code,50,50,0.5342
+DWN,2025-01-28 00:49:44,4.0125,Glass Identification,Linear,,,0.8031
+DWN,2025-01-28 00:49:46,4.7844,MAGIC Gamma Telescope,Gaussian,,,0.7749
+DWN,2025-01-28 00:49:46,4.1101,MAGIC Gamma Telescope,Scatter Code,50,50,0.4656
+DWN,2025-01-28 00:49:49,4.3152,Glass Identification,Linear,,,0.7668
+DWN,2025-01-28 00:49:50,4.2664,MAGIC Gamma Telescope,Gaussian,,,0.8044
+DWN,2025-01-28 00:49:51,4.0770,MAGIC Gamma Telescope,Scatter Code,50,50,0.4656
+DWN,2025-01-28 00:49:53,4.2395,Glass Identification,Linear,,,0.7652
+DWN,2025-01-28 00:49:55,4.3535,MAGIC Gamma Telescope,Gaussian,,,0.7768
+DWN,2025-01-28 00:49:55,4.2865,MAGIC Gamma Telescope,Scatter Code,50,50,0.4656
+DWN,2025-01-28 00:49:57,4.3183,Glass Identification,Linear,,,0.7875
+DWN,2025-01-28 00:49:59,4.4995,MAGIC Gamma Telescope,Scatter Code,50,50,0.4658
+DWN,2025-01-28 00:50:00,5.3841,MAGIC Gamma Telescope,Linear,,,0.7598
+DWN,2025-01-28 00:50:03,6.0014,Glass Identification,Scatter Code,10,200,0.7002
+DWN,2025-01-28 00:50:05,5.7891,MAGIC Gamma Telescope,Scatter Code,50,50,0.5342
+DWN,2025-01-28 00:50:06,6.1928,MAGIC Gamma Telescope,Linear,,,0.7629
+DWN,2025-01-28 00:50:10,6.4152,Glass Identification,Scatter Code,10,200,0.7563
+DWN,2025-01-28 00:50:11,5.9006,MAGIC Gamma Telescope,Scatter Code,50,50,0.4658
+DWN,2025-01-28 00:50:12,6.2105,MAGIC Gamma Telescope,Linear,,,0.7786
+DWN,2025-01-28 00:50:16,6.1615,Glass Identification,Scatter Code,10,200,0.7448
+DWN,2025-01-28 00:50:17,5.6479,MAGIC Gamma Telescope,Scatter Code,50,50,0.5344
+DWN,2025-01-28 00:50:19,6.5337,MAGIC Gamma Telescope,Linear,,,0.7161
+DWN,2025-01-28 00:50:22,6.2105,Glass Identification,Scatter Code,10,200,0.5348
+DWN,2025-01-28 00:50:22,5.6921,MAGIC Gamma Telescope,Scatter Code,50,50,0.4656
+DWN,2025-01-28 00:50:23,0.2747,Statlog (Vehicle Silhouettes),Distributive,,,0.6679
+DWN,2025-01-28 00:50:23,0.2748,Statlog (Vehicle Silhouettes),Distributive,,,0.7357
+DWN,2025-01-28 00:50:24,0.2762,Statlog (Vehicle Silhouettes),Distributive,,,0.7143
+DWN,2025-01-28 00:50:24,0.2583,Statlog (Vehicle Silhouettes),Distributive,,,0.7179
+DWN,2025-01-28 00:50:24,0.2651,Statlog (Vehicle Silhouettes),Distributive,,,0.7143
+DWN,2025-01-28 00:50:24,0.2775,Statlog (Vehicle Silhouettes),Distributive,,,0.7357
+DWN,2025-01-28 00:50:25,0.2558,Statlog (Vehicle Silhouettes),Distributive,,,0.7250
+DWN,2025-01-28 00:50:25,5.8360,Statlog (Vehicle Silhouettes),Linear,,,0.7830
+DWN,2025-01-28 00:50:25,0.2747,Statlog (Vehicle Silhouettes),Distributive,,,0.7464
+DWN,2025-01-28 00:50:25,0.2903,Statlog (Vehicle Silhouettes),Distributive,,,0.7714
+DWN,2025-01-28 00:50:26,0.3095,Statlog (Vehicle Silhouettes),Distributive,,,0.7286
+DWN,2025-01-28 00:50:26,0.2920,Statlog (Vehicle Silhouettes),Gaussian,,,0.7214
+DWN,2025-01-28 00:50:26,0.2972,Statlog (Vehicle Silhouettes),Gaussian,,,0.7321
+DWN,2025-01-28 00:50:27,0.2800,Statlog (Vehicle Silhouettes),Gaussian,,,0.7214
+DWN,2025-01-28 00:50:27,0.2897,Statlog (Vehicle Silhouettes),Gaussian,,,0.7036
+DWN,2025-01-28 00:50:27,0.2764,Statlog (Vehicle Silhouettes),Gaussian,,,0.7286
+DWN,2025-01-28 00:50:27,0.2992,Statlog (Vehicle Silhouettes),Gaussian,,,0.7179
+DWN,2025-01-28 00:50:28,0.2807,Statlog (Vehicle Silhouettes),Gaussian,,,0.7321
+DWN,2025-01-28 00:50:28,0.2823,Statlog (Vehicle Silhouettes),Gaussian,,,0.7464
+DWN,2025-01-28 00:50:28,5.8264,Glass Identification,Scatter Code,10,200,0.7128
+DWN,2025-01-28 00:50:28,0.2998,Statlog (Vehicle Silhouettes),Gaussian,,,0.7250
+DWN,2025-01-28 00:50:29,0.3035,Statlog (Vehicle Silhouettes),Gaussian,,,0.7179
+DWN,2025-01-28 00:50:29,0.3098,Statlog (Vehicle Silhouettes),Linear,,,0.6393
+DWN,2025-01-28 00:50:29,0.3079,Statlog (Vehicle Silhouettes),Linear,,,0.6679
+DWN,2025-01-28 00:50:30,0.4877,Statlog (Vehicle Silhouettes),Linear,,,0.6929
+DWN,2025-01-28 00:50:30,0.2489,Statlog (Vehicle Silhouettes),Linear,,,0.6893
+DWN,2025-01-28 00:50:30,0.2447,Statlog (Vehicle Silhouettes),Linear,,,0.6679
+DWN,2025-01-28 00:50:31,0.2755,Statlog (Vehicle Silhouettes),Linear,,,0.7036
+DWN,2025-01-28 00:50:31,6.0137,Statlog (Vehicle Silhouettes),Linear,,,0.7782
+DWN,2025-01-28 00:50:31,0.2526,Statlog (Vehicle Silhouettes),Linear,,,0.6964
+DWN,2025-01-28 00:50:31,0.2709,Statlog (Vehicle Silhouettes),Linear,,,0.6571
+DWN,2025-01-28 00:50:31,0.2440,Statlog (Vehicle Silhouettes),Linear,,,0.7071
+DWN,2025-01-28 00:50:32,0.2468,Statlog (Vehicle Silhouettes),Linear,,,0.7321
+DWN,2025-01-28 00:50:32,0.2763,Statlog (Vehicle Silhouettes),Scatter Code,50,50,0.2250
+DWN,2025-01-28 00:50:32,0.3052,Statlog (Vehicle Silhouettes),Scatter Code,50,50,0.2821
+DWN,2025-01-28 00:50:33,0.3172,Statlog (Vehicle Silhouettes),Scatter Code,50,50,0.2000
+DWN,2025-01-28 00:50:33,0.3252,Statlog (Vehicle Silhouettes),Scatter Code,50,50,0.2929
+DWN,2025-01-28 00:50:33,0.2997,Statlog (Vehicle Silhouettes),Scatter Code,50,50,0.2929
+DWN,2025-01-28 00:50:34,0.3023,Statlog (Vehicle Silhouettes),Scatter Code,50,50,0.2000
+DWN,2025-01-28 00:50:34,0.3300,Statlog (Vehicle Silhouettes),Scatter Code,50,50,0.2250
+DWN,2025-01-28 00:50:34,6.0589,Glass Identification,Scatter Code,10,200,0.7303
+DWN,2025-01-28 00:50:34,0.3491,Statlog (Vehicle Silhouettes),Scatter Code,50,50,0.2000
+DWN,2025-01-28 00:50:35,0.3066,Statlog (Vehicle Silhouettes),Scatter Code,50,50,0.2929
+DWN,2025-01-28 00:50:35,0.3150,Statlog (Vehicle Silhouettes),Scatter Code,50,50,0.2929
+DWN,2025-01-28 00:50:36,0.3994,Maternal Health Risk,Distributive,,,0.6896
+DWN,2025-01-28 00:50:36,0.3402,Maternal Health Risk,Distributive,,,0.7194
+DWN,2025-01-28 00:50:37,0.3724,Maternal Health Risk,Distributive,,,0.6896
+DWN,2025-01-28 00:50:37,5.8442,Maternal Health Risk,Linear,,,0.7911
+DWN,2025-01-28 00:50:37,0.3461,Maternal Health Risk,Distributive,,,0.6955
+DWN,2025-01-28 00:50:37,0.3334,Maternal Health Risk,Distributive,,,0.7045
+DWN,2025-01-28 00:50:38,0.3357,Maternal Health Risk,Distributive,,,0.6866
+DWN,2025-01-28 00:50:38,0.3404,Maternal Health Risk,Distributive,,,0.7582
+DWN,2025-01-28 00:50:38,0.3355,Maternal Health Risk,Distributive,,,0.6836
+DWN,2025-01-28 00:50:39,0.3434,Maternal Health Risk,Distributive,,,0.7433
+DWN,2025-01-28 00:50:39,0.3132,Maternal Health Risk,Distributive,,,0.7164
+DWN,2025-01-28 00:50:39,0.2930,Maternal Health Risk,Gaussian,,,0.5910
+DWN,2025-01-28 00:50:40,0.3404,Maternal Health Risk,Gaussian,,,0.6687
+DWN,2025-01-28 00:50:40,5.8339,MNIST,Scatter Code,10,200,0.7351
+DWN,2025-01-28 00:50:40,0.3594,Maternal Health Risk,Gaussian,,,0.5851
+DWN,2025-01-28 00:50:41,0.4349,Maternal Health Risk,Gaussian,,,0.6149
+DWN,2025-01-28 00:50:41,0.3253,Maternal Health Risk,Gaussian,,,0.6716
+DWN,2025-01-28 00:50:41,0.3560,Maternal Health Risk,Gaussian,,,0.6687
+DWN,2025-01-28 00:50:42,0.3541,Maternal Health Risk,Gaussian,,,0.6448
+DWN,2025-01-28 00:50:42,0.3044,Maternal Health Risk,Gaussian,,,0.6299
+DWN,2025-01-28 00:50:42,0.3085,Maternal Health Risk,Gaussian,,,0.6627
+DWN,2025-01-28 00:50:43,0.3482,Maternal Health Risk,Gaussian,,,0.6119
+DWN,2025-01-28 00:50:43,5.9462,Maternal Health Risk,Linear,,,0.7618
+DWN,2025-01-28 00:50:43,0.2861,Maternal Health Risk,Linear,,,0.6358
+DWN,2025-01-28 00:50:43,0.3034,Maternal Health Risk,Linear,,,0.6090
+DWN,2025-01-28 00:50:44,0.3026,Maternal Health Risk,Linear,,,0.6418
+DWN,2025-01-28 00:50:44,0.2846,Maternal Health Risk,Linear,,,0.6388
+DWN,2025-01-28 00:50:45,5.4539,MNIST,Scatter Code,10,200,0.6134
+DWN,2025-01-28 00:50:46,1.7011,Maternal Health Risk,Linear,,,0.6716
+DWN,2025-01-28 00:50:46,0.9488,Maternal Health Risk,Linear,,,0.6328
+DWN,2025-01-28 00:50:47,0.8876,Maternal Health Risk,Linear,,,0.6209
+DWN,2025-01-28 00:50:48,0.8811,Maternal Health Risk,Linear,,,0.6448
+DWN,2025-01-28 00:50:49,0.9122,Maternal Health Risk,Linear,,,0.6239
+DWN,2025-01-28 00:50:50,0.9529,Maternal Health Risk,Linear,,,0.6657
+DWN,2025-01-28 00:50:51,0.8610,Maternal Health Risk,Scatter Code,50,50,0.5821
+DWN,2025-01-28 00:50:52,9.2852,Maternal Health Risk,Linear,,,0.7962
+DWN,2025-01-28 00:50:52,0.9241,Maternal Health Risk,Scatter Code,50,50,0.6119
+DWN,2025-01-28 00:50:53,0.8411,Maternal Health Risk,Scatter Code,50,50,0.5642
+DWN,2025-01-28 00:50:54,0.9644,Maternal Health Risk,Scatter Code,50,50,0.5731
+DWN,2025-01-28 00:50:55,0.8906,Maternal Health Risk,Scatter Code,50,50,0.6060
+DWN,2025-01-28 00:50:56,0.9148,Maternal Health Risk,Scatter Code,50,50,0.6627
+DWN,2025-01-28 00:50:57,0.9410,Maternal Health Risk,Scatter Code,50,50,0.6209
+DWN,2025-01-28 00:50:58,0.8315,Maternal Health Risk,Scatter Code,50,50,0.6448
+DWN,2025-01-28 00:50:58,12.8023,MNIST,Scatter Code,10,200,0.6877
+DWN,2025-01-28 00:50:59,0.9207,Maternal Health Risk,Scatter Code,50,50,0.6090
+DWN,2025-01-28 00:50:59,0.8905,Maternal Health Risk,Scatter Code,50,50,0.6299
+DWN,2025-01-28 00:51:00,0.2067,Glass Identification,Distributive,,,0.5211
+DWN,2025-01-28 00:51:00,0.1890,Glass Identification,Distributive,,,0.5211
+DWN,2025-01-28 00:51:00,0.1948,Glass Identification,Distributive,,,0.6620
+DWN,2025-01-28 00:51:01,0.2143,Glass Identification,Distributive,,,0.6620
+DWN,2025-01-28 00:51:01,0.1818,Glass Identification,Distributive,,,0.7042
+DWN,2025-01-28 00:51:01,0.1852,Glass Identification,Distributive,,,0.6901
+DWN,2025-01-28 00:51:01,0.2264,Glass Identification,Distributive,,,0.7746
+DWN,2025-01-28 00:51:01,0.2019,Glass Identification,Distributive,,,0.7465
+DWN,2025-01-28 00:51:02,0.2446,Glass Identification,Distributive,,,0.6338
+DWN,2025-01-28 00:51:02,0.1908,Glass Identification,Distributive,,,0.6620
+DWN,2025-01-28 00:51:02,0.1976,Glass Identification,Gaussian,,,0.5915
+DWN,2025-01-28 00:51:02,0.2051,Glass Identification,Gaussian,,,0.6056
+DWN,2025-01-28 00:51:03,0.2136,Glass Identification,Gaussian,,,0.6197
+DWN,2025-01-28 00:51:03,0.2290,Glass Identification,Gaussian,,,0.5634
+DWN,2025-01-28 00:51:03,0.2106,Glass Identification,Gaussian,,,0.5634
+DWN,2025-01-28 00:51:03,0.1628,Glass Identification,Gaussian,,,0.7183
+DWN,2025-01-28 00:51:04,0.2339,Glass Identification,Gaussian,,,0.6197
+DWN,2025-01-28 00:51:04,0.2697,Glass Identification,Gaussian,,,0.6338
+DWN,2025-01-28 00:51:04,0.2438,Glass Identification,Gaussian,,,0.6761
+DWN,2025-01-28 00:51:04,0.2046,Glass Identification,Gaussian,,,0.6761
+DWN,2025-01-28 00:51:05,0.1915,Glass Identification,Linear,,,0.6479
+DWN,2025-01-28 00:51:05,12.9179,Glass Identification,Linear,,,0.7513
+DWN,2025-01-28 00:51:05,0.2615,Glass Identification,Linear,,,0.6620
+DWN,2025-01-28 00:51:05,0.2073,Glass Identification,Linear,,,0.5775
+DWN,2025-01-28 00:51:05,0.2023,Glass Identification,Linear,,,0.6901
+DWN,2025-01-28 00:51:06,0.2060,Glass Identification,Linear,,,0.6901
+DWN,2025-01-28 00:51:06,0.1948,Glass Identification,Linear,,,0.6901
+DWN,2025-01-28 00:51:06,0.1920,Glass Identification,Linear,,,0.6479
+DWN,2025-01-28 00:51:06,0.2243,Glass Identification,Linear,,,0.6761
+DWN,2025-01-28 00:51:07,0.2649,Glass Identification,Linear,,,0.6901
+DWN,2025-01-28 00:51:07,0.1745,Glass Identification,Linear,,,0.6479
+DWN,2025-01-28 00:51:07,0.2007,Glass Identification,Scatter Code,50,50,0.2535
+DWN,2025-01-28 00:51:07,0.2074,Glass Identification,Scatter Code,50,50,0.4789
+DWN,2025-01-28 00:51:08,0.2505,Glass Identification,Scatter Code,50,50,0.5211
+DWN,2025-01-28 00:51:08,0.2110,Glass Identification,Scatter Code,50,50,0.4930
+DWN,2025-01-28 00:51:08,0.2161,Glass Identification,Scatter Code,50,50,0.5352
+DWN,2025-01-28 00:51:08,0.2204,Glass Identification,Scatter Code,50,50,0.5352
+DWN,2025-01-28 00:51:09,0.2100,Glass Identification,Scatter Code,50,50,0.4789
+DWN,2025-01-28 00:51:09,0.2137,Glass Identification,Scatter Code,50,50,0.4507
+DWN,2025-01-28 00:51:09,0.2247,Glass Identification,Scatter Code,50,50,0.5211
+DWN,2025-01-28 00:51:09,0.1997,Glass Identification,Scatter Code,50,50,0.5915
+DWN,2025-01-28 00:51:11,12.6241,MNIST,Scatter Code,10,200,0.5509
+DWN,2025-01-28 00:51:15,3.2796,Optical Recognition of Handwritten Digits,Distributive,,,0.9337
+DWN,2025-01-28 00:51:18,12.8728,Glass Identification,Scatter Code,50,50,0.7569
+DWN,2025-01-28 00:51:18,3.2012,Optical Recognition of Handwritten Digits,Distributive,,,0.9580
+DWN,2025-01-28 00:51:21,3.3758,Optical Recognition of Handwritten Digits,Distributive,,,0.9623
+DWN,2025-01-28 00:51:25,3.5409,Optical Recognition of Handwritten Digits,Distributive,,,0.9736
+DWN,2025-01-28 00:51:28,3.2237,Optical Recognition of Handwritten Digits,Distributive,,,0.9720
+DWN,2025-01-28 00:51:30,12.1118,Glass Identification,Scatter Code,50,50,0.7492
+DWN,2025-01-28 00:51:31,3.3228,Optical Recognition of Handwritten Digits,Distributive,,,0.9720
+DWN,2025-01-28 00:51:35,3.2273,Optical Recognition of Handwritten Digits,Distributive,,,0.9747
+DWN,2025-01-28 00:51:38,3.4948,Optical Recognition of Handwritten Digits,Distributive,,,0.9725
+DWN,2025-01-28 00:51:41,3.1112,Optical Recognition of Handwritten Digits,Distributive,,,0.9763
+DWN,2025-01-28 00:51:42,11.9634,Glass Identification,Scatter Code,50,50,0.7590
+DWN,2025-01-28 00:51:44,3.1834,Optical Recognition of Handwritten Digits,Distributive,,,0.9757
+DWN,2025-01-28 00:51:48,3.5030,Optical Recognition of Handwritten Digits,Gaussian,,,0.9358
+DWN,2025-01-28 00:51:51,3.1979,Optical Recognition of Handwritten Digits,Gaussian,,,0.9644
+DWN,2025-01-28 00:51:52,66.9101,Optical Recognition of Handwritten Digits,Distributive,,,0.9569
+DWN,2025-01-28 00:51:54,11.8150,Glass Identification,Scatter Code,50,50,0.7437
+DWN,2025-01-28 00:51:54,2.8160,Optical Recognition of Handwritten Digits,Gaussian,,,0.9644
+DWN,2025-01-28 00:51:57,3.1049,Optical Recognition of Handwritten Digits,Gaussian,,,0.9671
+DWN,2025-01-28 00:52:00,2.9863,Optical Recognition of Handwritten Digits,Gaussian,,,0.9693
+DWN,2025-01-28 00:52:05,4.5013,Optical Recognition of Handwritten Digits,Gaussian,,,0.9714
+DWN,2025-01-28 00:52:07,13.7224,MNIST,Scatter Code,50,50,0.7341
+DWN,2025-01-28 00:52:09,4.6511,Optical Recognition of Handwritten Digits,Gaussian,,,0.9709
+DWN,2025-01-28 00:52:14,4.8041,Optical Recognition of Handwritten Digits,Gaussian,,,0.9752
+DWN,2025-01-28 00:52:19,5.0609,Optical Recognition of Handwritten Digits,Gaussian,,,0.9784
+DWN,2025-01-28 00:52:24,4.6617,Optical Recognition of Handwritten Digits,Gaussian,,,0.9774
+DWN,2025-01-28 00:52:25,17.8044,MNIST,Scatter Code,50,50,0.7532
+DWN,2025-01-28 00:52:29,4.9097,Optical Recognition of Handwritten Digits,Linear,,,0.9439
+DWN,2025-01-28 00:52:34,4.9146,Optical Recognition of Handwritten Digits,Linear,,,0.9585
+DWN,2025-01-28 00:52:39,4.8864,Optical Recognition of Handwritten Digits,Linear,,,0.9736
+DWN,2025-01-28 00:52:43,18.0115,MNIST,Scatter Code,50,50,0.7609
+DWN,2025-01-28 00:52:43,4.5304,Optical Recognition of Handwritten Digits,Linear,,,0.9704
+DWN,2025-01-28 00:52:48,4.9505,Optical Recognition of Handwritten Digits,Linear,,,0.9709
+DWN,2025-01-28 00:52:53,4.9451,Optical Recognition of Handwritten Digits,Linear,,,0.9736
+DWN,2025-01-28 00:52:58,4.8140,Optical Recognition of Handwritten Digits,Linear,,,0.9752
+DWN,2025-01-28 00:53:02,18.3698,MNIST,Scatter Code,50,50,0.7500
+DWN,2025-01-28 00:53:03,4.8636,Optical Recognition of Handwritten Digits,Linear,,,0.9763
+DWN,2025-01-28 00:53:08,4.5724,Optical Recognition of Handwritten Digits,Linear,,,0.9763
+DWN,2025-01-28 00:53:13,4.8702,Optical Recognition of Handwritten Digits,Linear,,,0.9736
+DWN,2025-01-28 00:53:24,9.7733,Optical Recognition of Handwritten Digits,Scatter Code,10,200,0.9423
+DWN,2025-01-28 00:53:24,22.4991,MNIST,Scatter Code,50,50,0.7306
+DWN,2025-01-28 00:53:33,101.4367,Optical Recognition of Handwritten Digits,Distributive,,,0.9690
+DWN,2025-01-28 00:53:34,9.8693,Optical Recognition of Handwritten Digits,Scatter Code,10,200,0.9574
+DWN,2025-01-28 00:53:44,9.9557,Optical Recognition of Handwritten Digits,Scatter Code,10,200,0.9617
+DWN,2025-01-28 00:53:54,9.6631,Optical Recognition of Handwritten Digits,Scatter Code,10,200,0.9671
+DWN,2025-01-28 00:53:58,33.2710,MNIST,Scatter Code,50,50,0.7532
+DWN,2025-01-28 00:54:03,9.8415,Optical Recognition of Handwritten Digits,Scatter Code,10,200,0.9714
+DWN,2025-01-28 00:54:08,9.8434,Optical Recognition of Handwritten Digits,Distributive,,,0.9337
+DWN,2025-01-28 00:54:13,9.9325,Optical Recognition of Handwritten Digits,Scatter Code,10,200,0.9725
+DWN,2025-01-28 00:54:18,9.7668,Optical Recognition of Handwritten Digits,Distributive,,,0.9482
+DWN,2025-01-28 00:54:22,140.6773,Optical Recognition of Handwritten Digits,Distributive,,,0.9547
+DWN,2025-01-28 00:54:23,9.8057,Optical Recognition of Handwritten Digits,Scatter Code,10,200,0.9763
+DWN,2025-01-28 00:54:28,9.7678,Optical Recognition of Handwritten Digits,Distributive,,,0.9660
+DWN,2025-01-28 00:54:33,9.8060,Optical Recognition of Handwritten Digits,Scatter Code,10,200,0.9763
+DWN,2025-01-28 00:54:38,9.7688,Optical Recognition of Handwritten Digits,Distributive,,,0.9666
+DWN,2025-01-28 00:54:43,9.9738,Optical Recognition of Handwritten Digits,Scatter Code,10,200,0.9779
+DWN,2025-01-28 00:54:47,9.6925,Optical Recognition of Handwritten Digits,Distributive,,,0.9725
+DWN,2025-01-28 00:54:53,9.9525,Optical Recognition of Handwritten Digits,Scatter Code,10,200,0.9795
+DWN,2025-01-28 00:54:55,7.8441,Optical Recognition of Handwritten Digits,Distributive,,,0.9714
+DWN,2025-01-28 00:55:01,5.8345,Optical Recognition of Handwritten Digits,Distributive,,,0.9720
+DWN,2025-01-28 00:55:07,5.9314,Optical Recognition of Handwritten Digits,Distributive,,,0.9741
+DWN,2025-01-28 00:55:13,5.9436,Optical Recognition of Handwritten Digits,Distributive,,,0.9747
+DWN,2025-01-28 00:55:19,5.6885,Optical Recognition of Handwritten Digits,Distributive,,,0.9768
+DWN,2025-01-28 00:55:25,5.9122,Optical Recognition of Handwritten Digits,Gaussian,,,0.9412
+DWN,2025-01-28 00:55:31,5.9114,Optical Recognition of Handwritten Digits,Gaussian,,,0.9563
+DWN,2025-01-28 00:55:36,5.8051,Optical Recognition of Handwritten Digits,Gaussian,,,0.9677
+DWN,2025-01-28 00:55:42,5.8303,Optical Recognition of Handwritten Digits,Gaussian,,,0.9698
+DWN,2025-01-28 00:55:44,131.2582,Optical Recognition of Handwritten Digits,Distributive,,,0.9736
+DWN,2025-01-28 00:55:48,5.6568,Optical Recognition of Handwritten Digits,Gaussian,,,0.9752
+DWN,2025-01-28 00:55:54,5.8157,Optical Recognition of Handwritten Digits,Gaussian,,,0.9725
+DWN,2025-01-28 00:56:00,5.9100,Optical Recognition of Handwritten Digits,Gaussian,,,0.9730
+DWN,2025-01-28 00:56:06,5.9684,Optical Recognition of Handwritten Digits,Gaussian,,,0.9763
+DWN,2025-01-28 00:56:12,5.7584,Optical Recognition of Handwritten Digits,Gaussian,,,0.9795
+DWN,2025-01-28 00:56:14,111.2612,Optical Recognition of Handwritten Digits,Distributive,,,0.9644
+DWN,2025-01-28 00:56:17,5.8388,Optical Recognition of Handwritten Digits,Gaussian,,,0.9790
+DWN,2025-01-28 00:56:23,5.8381,Optical Recognition of Handwritten Digits,Linear,,,0.9369
+DWN,2025-01-28 00:56:29,5.9371,Optical Recognition of Handwritten Digits,Linear,,,0.9569
+DWN,2025-01-28 00:56:35,5.7764,Optical Recognition of Handwritten Digits,Linear,,,0.9650
+DWN,2025-01-28 00:56:41,5.7429,Optical Recognition of Handwritten Digits,Linear,,,0.9704
+DWN,2025-01-28 00:56:47,5.7767,Optical Recognition of Handwritten Digits,Linear,,,0.9730
+DWN,2025-01-28 00:56:52,5.8240,Optical Recognition of Handwritten Digits,Linear,,,0.9741
+DWN,2025-01-28 00:56:58,5.8069,Optical Recognition of Handwritten Digits,Linear,,,0.9757
+DWN,2025-01-28 00:57:04,5.8826,Optical Recognition of Handwritten Digits,Linear,,,0.9768
+DWN,2025-01-28 00:57:10,5.7926,Optical Recognition of Handwritten Digits,Linear,,,0.9752
+DWN,2025-01-28 00:57:16,5.8710,Optical Recognition of Handwritten Digits,Linear,,,0.9757
+DWN,2025-01-28 00:57:21,96.4054,Optical Recognition of Handwritten Digits,Distributive,,,0.9733
+DWN,2025-01-28 00:57:23,6.7621,Optical Recognition of Handwritten Digits,Scatter Code,50,50,0.9364
+DWN,2025-01-28 00:57:30,6.8509,Optical Recognition of Handwritten Digits,Scatter Code,50,50,0.9585
+DWN,2025-01-28 00:57:37,6.7660,Optical Recognition of Handwritten Digits,Scatter Code,50,50,0.9628
+DWN,2025-01-28 00:57:44,6.9187,Optical Recognition of Handwritten Digits,Scatter Code,50,50,0.9698
+DWN,2025-01-28 00:57:50,6.8794,Optical Recognition of Handwritten Digits,Scatter Code,50,50,0.9687
+DWN,2025-01-28 00:57:55,101.2189,Optical Recognition of Handwritten Digits,Distributive,,,0.9702
+DWN,2025-01-28 00:57:57,6.9190,Optical Recognition of Handwritten Digits,Scatter Code,50,50,0.9763
+DWN,2025-01-28 00:58:04,6.9776,Optical Recognition of Handwritten Digits,Scatter Code,50,50,0.9768
+DWN,2025-01-28 00:58:11,6.9471,Optical Recognition of Handwritten Digits,Scatter Code,50,50,0.9747
+DWN,2025-01-28 00:58:18,6.8908,Optical Recognition of Handwritten Digits,Scatter Code,50,50,0.9790
+DWN,2025-01-28 00:58:25,6.7793,Optical Recognition of Handwritten Digits,Scatter Code,50,50,0.9790
+DWN,2025-01-28 00:59:02,101.6257,Optical Recognition of Handwritten Digits,Distributive,,,0.9776
+DWN,2025-01-28 00:59:30,95.5912,Optical Recognition of Handwritten Digits,Distributive,,,0.9740
+DWN,2025-01-28 01:00:33,90.1942,Optical Recognition of Handwritten Digits,Distributive,,,0.9778
+DWN,2025-01-28 01:01:01,90.1721,Optical Recognition of Handwritten Digits,Distributive,,,0.9764
+DWN,2025-01-28 01:02:03,90.0616,Optical Recognition of Handwritten Digits,Distributive,,,0.9819
+DWN,2025-01-28 01:02:31,90.0424,Optical Recognition of Handwritten Digits,Distributive,,,0.9773
+DWN,2025-01-28 01:03:33,90.1003,Optical Recognition of Handwritten Digits,Distributive,,,0.9803
+DWN,2025-01-28 01:04:01,90.3121,Optical Recognition of Handwritten Digits,Distributive,,,0.9791
+DWN,2025-01-28 01:05:03,90.1727,Optical Recognition of Handwritten Digits,Distributive,,,0.9809
+DWN,2025-01-28 01:05:31,89.9852,Optical Recognition of Handwritten Digits,Distributive,,,0.9790
+DWN,2025-01-28 01:06:33,90.0478,Optical Recognition of Handwritten Digits,Distributive,,,0.9777
+DWN,2025-01-28 01:07:00,88.8092,Optical Recognition of Handwritten Digits,Distributive,,,0.9800
+DWN,2025-01-28 01:08:05,89.9454,Optical Recognition of Handwritten Digits,Gaussian,,,0.9571
+DWN,2025-01-28 01:08:30,89.9386,Optical Recognition of Handwritten Digits,Distributive,,,0.9797
+DWN,2025-01-28 01:09:33,88.7543,Optical Recognition of Handwritten Digits,Gaussian,,,0.9669
+DWN,2025-01-28 01:10:01,90.0016,Optical Recognition of Handwritten Digits,Gaussian,,,0.9560
+DWN,2025-01-28 01:11:03,90.0009,Optical Recognition of Handwritten Digits,Gaussian,,,0.9753
+DWN,2025-01-28 01:11:31,89.9443,Optical Recognition of Handwritten Digits,Gaussian,,,0.9690
+DWN,2025-01-28 01:12:33,89.9344,Optical Recognition of Handwritten Digits,Gaussian,,,0.9790
+DWN,2025-01-28 01:13:01,89.9691,Optical Recognition of Handwritten Digits,Gaussian,,,0.9731
+DWN,2025-01-28 01:14:03,89.9471,Optical Recognition of Handwritten Digits,Gaussian,,,0.9772
+DWN,2025-01-28 01:14:31,90.0038,Optical Recognition of Handwritten Digits,Gaussian,,,0.9750
+DWN,2025-01-28 01:15:33,90.0385,Optical Recognition of Handwritten Digits,Gaussian,,,0.9781
+DWN,2025-01-28 01:16:01,89.9911,Optical Recognition of Handwritten Digits,Gaussian,,,0.9773
+DWN,2025-01-28 01:17:03,90.0180,Optical Recognition of Handwritten Digits,Gaussian,,,0.9788
+DWN,2025-01-28 01:17:31,90.0576,Optical Recognition of Handwritten Digits,Gaussian,,,0.9791
+DWN,2025-01-28 01:18:33,90.0010,Optical Recognition of Handwritten Digits,Gaussian,,,0.9782
+DWN,2025-01-28 01:19:01,89.9203,Optical Recognition of Handwritten Digits,Gaussian,,,0.9808
+DWN,2025-01-28 01:20:03,89.8935,Optical Recognition of Handwritten Digits,Gaussian,,,0.9809
+DWN,2025-01-28 01:20:31,89.9853,Optical Recognition of Handwritten Digits,Gaussian,,,0.9807
+DWN,2025-01-28 01:21:33,89.9345,Optical Recognition of Handwritten Digits,Gaussian,,,0.9793
+DWN,2025-01-28 01:22:00,88.6142,Optical Recognition of Handwritten Digits,Gaussian,,,0.9812
+DWN,2025-01-28 01:23:05,89.9919,Optical Recognition of Handwritten Digits,Linear,,,0.9604
+DWN,2025-01-28 01:23:30,90.0273,Optical Recognition of Handwritten Digits,Gaussian,,,0.9814
+DWN,2025-01-28 01:24:34,88.8273,Optical Recognition of Handwritten Digits,Linear,,,0.9686
+DWN,2025-01-28 01:25:02,90.0332,Optical Recognition of Handwritten Digits,Linear,,,0.9572
+DWN,2025-01-28 01:26:04,89.9642,Optical Recognition of Handwritten Digits,Linear,,,0.9723
+DWN,2025-01-28 01:26:32,90.0522,Optical Recognition of Handwritten Digits,Linear,,,0.9683
+DWN,2025-01-28 01:27:34,90.0931,Optical Recognition of Handwritten Digits,Linear,,,0.9764
+DWN,2025-01-28 01:28:02,90.0683,Optical Recognition of Handwritten Digits,Linear,,,0.9687
+DWN,2025-01-28 01:29:04,90.1525,Optical Recognition of Handwritten Digits,Linear,,,0.9766
+DWN,2025-01-28 01:29:32,90.0604,Optical Recognition of Handwritten Digits,Linear,,,0.9751
+DWN,2025-01-28 01:30:34,90.0164,Optical Recognition of Handwritten Digits,Linear,,,0.9792
+DWN,2025-01-28 01:31:02,90.0522,Optical Recognition of Handwritten Digits,Linear,,,0.9766
+DWN,2025-01-28 01:32:04,89.9760,Optical Recognition of Handwritten Digits,Linear,,,0.9792
+DWN,2025-01-28 01:32:32,89.9758,Optical Recognition of Handwritten Digits,Linear,,,0.9773
+DWN,2025-01-28 01:33:34,89.9821,Optical Recognition of Handwritten Digits,Linear,,,0.9791
+DWN,2025-01-28 01:34:02,89.9163,Optical Recognition of Handwritten Digits,Linear,,,0.9784
+DWN,2025-01-28 01:35:04,89.9690,Optical Recognition of Handwritten Digits,Linear,,,0.9777
+DWN,2025-01-28 01:35:32,89.9920,Optical Recognition of Handwritten Digits,Linear,,,0.9794
+DWN,2025-01-28 01:36:34,89.9551,Optical Recognition of Handwritten Digits,Linear,,,0.9802
+DWN,2025-01-28 01:36:48,76.6240,Optical Recognition of Handwritten Digits,Linear,,,0.9811
+DWN,2025-01-28 01:36:57,0.1296,Ecoli,Distributive,,,0.8800
+DWN,2025-01-28 01:36:57,0.1294,Ecoli,Distributive,,,0.9400
+DWN,2025-01-28 01:36:57,0.2913,Ecoli,Distributive,,,0.7838
+DWN,2025-01-28 01:36:57,0.1096,Ecoli,Distributive,,,0.9400
+DWN,2025-01-28 01:36:57,0.1115,Ecoli,Distributive,,,0.9600
+DWN,2025-01-28 01:36:57,0.2275,Ecoli,Distributive,,,0.8018
+DWN,2025-01-28 01:36:57,0.1106,Ecoli,Distributive,,,0.9600
+DWN,2025-01-28 01:36:57,0.1143,Ecoli,Distributive,,,0.9200
+DWN,2025-01-28 01:36:57,0.2526,Ecoli,Distributive,,,0.8018
+DWN,2025-01-28 01:36:57,0.1113,Ecoli,Distributive,,,0.9600
+DWN,2025-01-28 01:36:58,0.1123,Ecoli,Distributive,,,0.9200
+DWN,2025-01-28 01:36:58,0.2419,Ecoli,Distributive,,,0.8108
+DWN,2025-01-28 01:36:58,0.1117,Ecoli,Distributive,,,0.9200
+DWN,2025-01-28 01:36:58,0.1135,Ecoli,Distributive,,,0.9800
+DWN,2025-01-28 01:36:58,0.2500,Ecoli,Distributive,,,0.8108
+DWN,2025-01-28 01:36:58,0.1128,Ecoli,Gaussian,,,0.9200
+DWN,2025-01-28 01:36:58,0.1147,Ecoli,Gaussian,,,0.8800
+DWN,2025-01-28 01:36:58,0.2306,Ecoli,Distributive,,,0.8468
+DWN,2025-01-28 01:36:58,0.1145,Ecoli,Gaussian,,,0.9800
+DWN,2025-01-28 01:36:58,0.1122,Ecoli,Gaussian,,,0.9800
+DWN,2025-01-28 01:36:58,0.2531,Ecoli,Distributive,,,0.8919
+DWN,2025-01-28 01:36:59,0.1113,Ecoli,Gaussian,,,0.9800
+DWN,2025-01-28 01:36:59,0.2255,Ecoli,Distributive,,,0.8108
+DWN,2025-01-28 01:36:59,0.1139,Ecoli,Gaussian,,,0.9800
+DWN,2025-01-28 01:36:59,0.1163,Ecoli,Gaussian,,,0.9800
+DWN,2025-01-28 01:36:59,0.2431,Ecoli,Distributive,,,0.8108
+DWN,2025-01-28 01:36:59,0.1152,Ecoli,Gaussian,,,0.9800
+DWN,2025-01-28 01:36:59,0.1136,Ecoli,Gaussian,,,0.9800
+DWN,2025-01-28 01:36:59,0.2245,Ecoli,Distributive,,,0.7658
+DWN,2025-01-28 01:36:59,0.1147,Ecoli,Gaussian,,,0.9800
+DWN,2025-01-28 01:36:59,0.1134,Ecoli,Linear,,,0.8200
+DWN,2025-01-28 01:36:59,0.2260,Ecoli,Gaussian,,,0.7928
+DWN,2025-01-28 01:37:00,0.1147,Ecoli,Linear,,,1.0000
+DWN,2025-01-28 01:37:00,0.2292,Ecoli,Gaussian,,,0.7928
+DWN,2025-01-28 01:37:00,0.1142,Ecoli,Linear,,,1.0000
+DWN,2025-01-28 01:37:00,0.1135,Ecoli,Linear,,,1.0000
+DWN,2025-01-28 01:37:00,0.2760,Ecoli,Gaussian,,,0.8018
+DWN,2025-01-28 01:37:00,0.1141,Ecoli,Linear,,,1.0000
+DWN,2025-01-28 01:37:00,0.1147,Ecoli,Linear,,,0.9800
+DWN,2025-01-28 01:37:00,0.2497,Ecoli,Gaussian,,,0.8198
+DWN,2025-01-28 01:37:00,0.1152,Ecoli,Linear,,,0.9600
+DWN,2025-01-28 01:37:00,0.1164,Ecoli,Linear,,,0.9600
+DWN,2025-01-28 01:37:01,0.2264,Ecoli,Gaussian,,,0.8288
+DWN,2025-01-28 01:37:01,0.1174,Ecoli,Linear,,,0.9400
+DWN,2025-01-28 01:37:01,0.1130,Ecoli,Linear,,,0.9600
+DWN,2025-01-28 01:37:01,0.2252,Ecoli,Gaussian,,,0.8288
+DWN,2025-01-28 01:37:01,0.1147,Ecoli,Scatter Code,50,100,0.9800
+DWN,2025-01-28 01:37:01,0.1143,Ecoli,Scatter Code,50,100,0.8600
+DWN,2025-01-28 01:37:01,0.3036,Ecoli,Gaussian,,,0.8198
+DWN,2025-01-28 01:37:01,0.1212,Ecoli,Scatter Code,50,100,0.9800
+DWN,2025-01-28 01:37:01,0.2280,Ecoli,Gaussian,,,0.8018
+DWN,2025-01-28 01:37:01,0.1167,Ecoli,Scatter Code,50,100,0.9800
+DWN,2025-01-28 01:37:02,0.1157,Ecoli,Scatter Code,50,100,0.9800
+DWN,2025-01-28 01:37:02,0.2479,Ecoli,Gaussian,,,0.8108
+DWN,2025-01-28 01:37:02,0.1160,Ecoli,Scatter Code,50,100,0.9800
+DWN,2025-01-28 01:37:02,0.1158,Ecoli,Scatter Code,50,100,0.9800
+DWN,2025-01-28 01:37:02,0.2455,Ecoli,Gaussian,,,0.8018
+DWN,2025-01-28 01:37:02,0.1173,Ecoli,Scatter Code,50,100,0.9800
+DWN,2025-01-28 01:37:02,0.1152,Ecoli,Scatter Code,50,100,0.9600
+DWN,2025-01-28 01:37:02,0.2282,Ecoli,Linear,,,0.7297
+DWN,2025-01-28 01:37:02,0.1149,Ecoli,Scatter Code,50,100,0.9600
+DWN,2025-01-28 01:37:02,0.2158,Ecoli,Linear,,,0.7658
+DWN,2025-01-28 01:37:03,0.2183,Wine Quality,Linear,,,0.8108
+DWN,2025-01-28 01:37:03,0.2215,Wine Quality,Linear,,,0.8649
+DWN,2025-01-28 01:37:03,0.2448,Wine Quality,Linear,,,0.8468
+DWN,2025-01-28 01:37:03,0.2259,Wine Quality,Linear,,,0.8108
+DWN,2025-01-28 01:37:04,0.2222,Wine Quality,Linear,,,0.8108
+DWN,2025-01-28 01:37:04,0.2429,Wine Quality,Linear,,,0.8198
+DWN,2025-01-28 01:37:04,0.2218,Wine Quality,Linear,,,0.8198
+DWN,2025-01-28 01:37:04,0.2193,Wine Quality,Linear,,,0.8468
+DWN,2025-01-28 01:37:05,0.2615,Wine Quality,Scatter Code,50,100,0.8018
+DWN,2025-01-28 01:37:05,0.2603,Wine Quality,Scatter Code,50,100,0.7838
+DWN,2025-01-28 01:37:05,0.2603,Wine Quality,Scatter Code,50,100,0.8108
+DWN,2025-01-28 01:37:06,0.2937,Wine Quality,Scatter Code,50,100,0.8378
+DWN,2025-01-28 01:37:06,0.2660,Wine Quality,Scatter Code,50,100,0.8198
+DWN,2025-01-28 01:37:06,0.2546,Wine Quality,Scatter Code,50,100,0.8559
+DWN,2025-01-28 01:37:06,3.8572,Wine Quality,Distributive,,,0.4578
+DWN,2025-01-28 01:37:06,0.2619,Wine Quality,Scatter Code,50,100,0.8378
+DWN,2025-01-28 01:37:07,0.2625,Wine Quality,Scatter Code,50,100,0.8468
+DWN,2025-01-28 01:37:07,0.2604,Wine Quality,Scatter Code,50,100,0.8378
+DWN,2025-01-28 01:37:07,0.2580,Wine Quality,Scatter Code,50,100,0.8649
+DWN,2025-01-28 01:37:10,3.7771,EEG Eye State,Distributive,,,0.5142
+DWN,2025-01-28 01:37:14,3.9328,EEG Eye State,Distributive,,,0.4751
+DWN,2025-01-28 01:37:17,9.1228,EEG Eye State,Distributive,,,0.7403
+DWN,2025-01-28 01:37:18,3.8622,EEG Eye State,Distributive,,,0.4765
+DWN,2025-01-28 01:37:22,3.8058,EEG Eye State,Distributive,,,0.4946
+DWN,2025-01-28 01:37:26,3.8438,EEG Eye State,Distributive,,,0.4909
+DWN,2025-01-28 01:37:26,9.0107,EEG Eye State,Distributive,,,0.7850
+DWN,2025-01-28 01:37:30,3.7961,EEG Eye State,Distributive,,,0.5007
+DWN,2025-01-28 01:37:33,3.7627,EEG Eye State,Distributive,,,0.4998
+DWN,2025-01-28 01:37:35,8.9300,EEG Eye State,Distributive,,,0.8167
+DWN,2025-01-28 01:37:37,3.8036,EEG Eye State,Distributive,,,0.5077
+DWN,2025-01-28 01:37:41,3.7458,EEG Eye State,Distributive,,,0.5072
+DWN,2025-01-28 01:37:44,8.8880,EEG Eye State,Distributive,,,0.8269
+DWN,2025-01-28 01:37:45,3.7590,EEG Eye State,Gaussian,,,0.4704
+DWN,2025-01-28 01:37:46,57.7818,Optical Recognition of Handwritten Digits,Linear,,,0.9815
+DWN,2025-01-28 01:37:47,1.6991,EEG Eye State,Gaussian,,,0.4755
+DWN,2025-01-28 01:37:47,0.5790,EEG Eye State,Gaussian,,,0.4774
+DWN,2025-01-28 01:37:47,3.2240,EEG Eye State,Distributive,,,0.8321
+DWN,2025-01-28 01:37:52,4.8708,EEG Eye State,Gaussian,,,0.4965
+DWN,2025-01-28 01:37:53,0.5692,EEG Eye State,Gaussian,,,0.4900
+DWN,2025-01-28 01:37:53,5.6096,EEG Eye State,Distributive,,,0.8337
+DWN,2025-01-28 01:37:53,0.5451,EEG Eye State,Gaussian,,,0.4998
+DWN,2025-01-28 01:37:54,0.0441,Iris,Distributive,,,0.9000
+DWN,2025-01-28 01:37:54,0.0419,Iris,Distributive,,,0.9400
+DWN,2025-01-28 01:37:54,0.0974,Iris,Distributive,,,0.8018
+DWN,2025-01-28 01:37:54,0.0419,Iris,Distributive,,,0.9800
+DWN,2025-01-28 01:37:54,0.7766,EEG Eye State,Gaussian,,,0.5026
+DWN,2025-01-28 01:37:54,0.0395,Iris,Distributive,,,0.9400
+DWN,2025-01-28 01:37:54,0.0868,Iris,Distributive,,,0.8018
+DWN,2025-01-28 01:37:54,0.0344,Iris,Distributive,,,0.9400
+DWN,2025-01-28 01:37:54,0.0386,Iris,Distributive,,,0.9200
+DWN,2025-01-28 01:37:54,0.1013,Iris,Distributive,,,0.8018
+DWN,2025-01-28 01:37:54,0.0401,Iris,Distributive,,,0.9400
+DWN,2025-01-28 01:37:54,0.0371,Iris,Distributive,,,0.9600
+DWN,2025-01-28 01:37:54,0.0746,Iris,Distributive,,,0.7838
+DWN,2025-01-28 01:37:54,0.0361,Iris,Distributive,,,0.9600
+DWN,2025-01-28 01:37:54,0.0392,Iris,Distributive,,,0.9600
+DWN,2025-01-28 01:37:54,0.0813,Iris,Distributive,,,0.8288
+DWN,2025-01-28 01:37:54,0.0394,Iris,Gaussian,,,0.9200
+DWN,2025-01-28 01:37:54,0.0354,Iris,Gaussian,,,1.0000
+DWN,2025-01-28 01:37:54,0.0813,Iris,Distributive,,,0.8108
+DWN,2025-01-28 01:37:54,0.0462,Iris,Gaussian,,,0.9400
+DWN,2025-01-28 01:37:54,0.0463,Iris,Gaussian,,,0.9400
+DWN,2025-01-28 01:37:54,0.0906,Iris,Distributive,,,0.8108
+DWN,2025-01-28 01:37:54,0.0437,Iris,Gaussian,,,0.9800
+DWN,2025-01-28 01:37:54,0.0443,Iris,Gaussian,,,0.9800
+DWN,2025-01-28 01:37:55,0.0867,Iris,Distributive,,,0.8378
+DWN,2025-01-28 01:37:55,1.7633,EEG Eye State,Distributive,,,0.8501
+DWN,2025-01-28 01:37:55,0.0528,Iris,Gaussian,,,0.9800
+DWN,2025-01-28 01:37:55,0.0933,Iris,Distributive,,,0.8288
+DWN,2025-01-28 01:37:55,0.0507,Iris,Gaussian,,,0.9800
+DWN,2025-01-28 01:37:55,0.0373,Iris,Gaussian,,,0.9800
+DWN,2025-01-28 01:37:55,0.0864,Iris,Distributive,,,0.8198
+DWN,2025-01-28 01:37:55,0.0439,Iris,Gaussian,,,0.9800
+DWN,2025-01-28 01:37:55,0.0413,Iris,Linear,,,0.8800
+DWN,2025-01-28 01:37:55,0.0347,Iris,Linear,,,0.9200
+DWN,2025-01-28 01:37:55,0.0947,Iris,Gaussian,,,0.7838
+DWN,2025-01-28 01:37:55,0.0384,Iris,Linear,,,0.9600
+DWN,2025-01-28 01:37:55,0.0321,Iris,Linear,,,0.9200
+DWN,2025-01-28 01:37:55,0.0982,Iris,Gaussian,,,0.8288
+DWN,2025-01-28 01:37:55,0.0473,Iris,Linear,,,0.9000
+DWN,2025-01-28 01:37:55,0.0374,Iris,Linear,,,0.9200
+DWN,2025-01-28 01:37:55,0.0864,Iris,Gaussian,,,0.8378
+DWN,2025-01-28 01:37:55,0.0364,Iris,Linear,,,0.9400
+DWN,2025-01-28 01:37:55,1.1298,EEG Eye State,Gaussian,,,0.5096
+DWN,2025-01-28 01:37:55,0.0372,Iris,Linear,,,0.9400
+DWN,2025-01-28 01:37:55,0.0857,Iris,Gaussian,,,0.8108
+DWN,2025-01-28 01:37:55,0.0466,Iris,Linear,,,0.9400
+DWN,2025-01-28 01:37:55,0.0402,Iris,Linear,,,0.9400
+DWN,2025-01-28 01:37:55,0.0775,Iris,Gaussian,,,0.8288
+DWN,2025-01-28 01:37:55,0.0564,Iris,Scatter Code,50,200,0.8600
+DWN,2025-01-28 01:37:55,0.1510,Iris,Gaussian,,,0.7838
+DWN,2025-01-28 01:37:55,0.0528,Iris,Scatter Code,50,200,0.8800
+DWN,2025-01-28 01:37:55,0.0501,Iris,Scatter Code,50,200,1.0000
+DWN,2025-01-28 01:37:55,0.0950,Iris,Gaussian,,,0.8559
+DWN,2025-01-28 01:37:55,0.0493,Iris,Scatter Code,50,200,0.9600
+DWN,2025-01-28 01:37:56,0.0564,Iris,Scatter Code,50,200,1.0000
+DWN,2025-01-28 01:37:56,0.1033,Iris,Gaussian,,,0.8288
+DWN,2025-01-28 01:37:56,0.0483,Iris,Scatter Code,50,200,0.9800
+DWN,2025-01-28 01:37:56,0.0493,Iris,Scatter Code,50,200,0.9800
+DWN,2025-01-28 01:37:56,0.1131,Iris,Gaussian,,,0.8288
+DWN,2025-01-28 01:37:56,0.0461,Iris,Scatter Code,50,200,0.9800
+DWN,2025-01-28 01:37:56,0.0471,Iris,Scatter Code,50,200,0.9800
+DWN,2025-01-28 01:37:56,0.0953,Iris,Gaussian,,,0.8378
+DWN,2025-01-28 01:37:56,0.0456,Iris,Scatter Code,50,200,0.9800
+DWN,2025-01-28 01:37:56,0.0665,Iris,Linear,,,0.7387
+DWN,2025-01-28 01:37:56,0.0523,Iris,Linear,,,0.8198
+DWN,2025-01-28 01:37:56,0.0478,Iris,Linear,,,0.8288
+DWN,2025-01-28 01:37:56,0.0516,Iris,Linear,,,0.8288
+DWN,2025-01-28 01:37:56,1.0633,EEG Eye State,Gaussian,,,0.5030
+DWN,2025-01-28 01:37:56,0.0817,Wine Quality,Linear,,,0.8378
+DWN,2025-01-28 01:37:56,0.0712,Wine Quality,Linear,,,0.8198
+DWN,2025-01-28 01:37:56,0.0713,Wine Quality,Linear,,,0.8649
+DWN,2025-01-28 01:37:56,0.0766,Wine Quality,Linear,,,0.8018
+DWN,2025-01-28 01:37:56,0.0903,Wine Quality,Linear,,,0.8559
+DWN,2025-01-28 01:37:57,0.0929,Wine Quality,Linear,,,0.8288
+DWN,2025-01-28 01:37:57,0.9700,EEG Eye State,Gaussian,,,0.5133
+DWN,2025-01-28 01:37:57,1.0891,EEG Eye State,Distributive,,,0.4751
+DWN,2025-01-28 01:37:58,1.0348,MAGIC Gamma Telescope,Linear,,,0.4457
+DWN,2025-01-28 01:37:58,1.2797,EEG Eye State,Distributive,,,0.4755
+DWN,2025-01-28 01:37:59,1.1178,MAGIC Gamma Telescope,Linear,,,0.4186
+DWN,2025-01-28 01:38:00,1.3200,EEG Eye State,Distributive,,,0.4867
+DWN,2025-01-28 01:38:00,1.0763,MAGIC Gamma Telescope,Linear,,,0.4205
+DWN,2025-01-28 01:38:01,1.1318,MAGIC Gamma Telescope,Distributive,,,0.4858
+DWN,2025-01-28 01:38:01,0.1547,Statlog (Vehicle Silhouettes),Distributive,,,0.6250
+DWN,2025-01-28 01:38:01,0.1525,Statlog (Vehicle Silhouettes),Distributive,,,0.6607
+DWN,2025-01-28 01:38:01,0.1582,Statlog (Vehicle Silhouettes),Distributive,,,0.6821
+DWN,2025-01-28 01:38:01,1.0050,Statlog (Vehicle Silhouettes),Linear,,,0.4429
+DWN,2025-01-28 01:38:01,0.1405,Statlog (Vehicle Silhouettes),Distributive,,,0.7214
+DWN,2025-01-28 01:38:02,0.1501,Statlog (Vehicle Silhouettes),Distributive,,,0.7179
+DWN,2025-01-28 01:38:02,0.1532,Statlog (Vehicle Silhouettes),Distributive,,,0.7143
+DWN,2025-01-28 01:38:02,0.1499,Statlog (Vehicle Silhouettes),Distributive,,,0.7286
+DWN,2025-01-28 01:38:02,0.1588,Statlog (Vehicle Silhouettes),Distributive,,,0.7250
+DWN,2025-01-28 01:38:02,1.2457,MAGIC Gamma Telescope,Distributive,,,0.4984
+DWN,2025-01-28 01:38:02,0.1561,Statlog (Vehicle Silhouettes),Distributive,,,0.7250
+DWN,2025-01-28 01:38:02,0.1476,Statlog (Vehicle Silhouettes),Distributive,,,0.7321
+DWN,2025-01-28 01:38:03,1.1064,Statlog (Vehicle Silhouettes),Linear,,,0.4662
+DWN,2025-01-28 01:38:03,0.1591,Statlog (Vehicle Silhouettes),Gaussian,,,0.6571
+DWN,2025-01-28 01:38:03,0.1431,Statlog (Vehicle Silhouettes),Gaussian,,,0.6786
+DWN,2025-01-28 01:38:03,0.1364,Statlog (Vehicle Silhouettes),Gaussian,,,0.6893
+DWN,2025-01-28 01:38:03,0.1504,Statlog (Vehicle Silhouettes),Gaussian,,,0.6821
+DWN,2025-01-28 01:38:03,0.1496,Statlog (Vehicle Silhouettes),Gaussian,,,0.7143
+DWN,2025-01-28 01:38:03,0.1538,Statlog (Vehicle Silhouettes),Gaussian,,,0.7500
+DWN,2025-01-28 01:38:03,1.2462,MAGIC Gamma Telescope,Distributive,,,0.4797
+DWN,2025-01-28 01:38:04,0.1403,Statlog (Vehicle Silhouettes),Gaussian,,,0.7429
+DWN,2025-01-28 01:38:04,1.1103,Statlog (Vehicle Silhouettes),Linear,,,0.4900
+DWN,2025-01-28 01:38:04,0.1538,Statlog (Vehicle Silhouettes),Gaussian,,,0.7357
+DWN,2025-01-28 01:38:04,0.1379,Statlog (Vehicle Silhouettes),Gaussian,,,0.7536
+DWN,2025-01-28 01:38:04,0.1476,Statlog (Vehicle Silhouettes),Gaussian,,,0.7571
+DWN,2025-01-28 01:38:04,0.1533,Statlog (Vehicle Silhouettes),Linear,,,0.6250
+DWN,2025-01-28 01:38:04,0.1682,Statlog (Vehicle Silhouettes),Linear,,,0.6536
+DWN,2025-01-28 01:38:05,0.1505,Statlog (Vehicle Silhouettes),Linear,,,0.6536
+DWN,2025-01-28 01:38:05,1.2020,MAGIC Gamma Telescope,Distributive,,,0.5082
+DWN,2025-01-28 01:38:05,0.1584,Statlog (Vehicle Silhouettes),Linear,,,0.6607
+DWN,2025-01-28 01:38:05,1.1504,Statlog (Vehicle Silhouettes),Linear,,,0.4517
+DWN,2025-01-28 01:38:05,0.1649,Statlog (Vehicle Silhouettes),Linear,,,0.6821
+DWN,2025-01-28 01:38:05,0.1505,Statlog (Vehicle Silhouettes),Linear,,,0.7000
+DWN,2025-01-28 01:38:05,0.1492,Statlog (Vehicle Silhouettes),Linear,,,0.7000
+DWN,2025-01-28 01:38:05,0.1199,Statlog (Vehicle Silhouettes),Linear,,,0.7036
+DWN,2025-01-28 01:38:05,0.1338,Statlog (Vehicle Silhouettes),Linear,,,0.6750
+DWN,2025-01-28 01:38:06,0.1693,Statlog (Vehicle Silhouettes),Linear,,,0.6786
+DWN,2025-01-28 01:38:06,0.1769,Statlog (Vehicle Silhouettes),Distributive,,,0.6786
+DWN,2025-01-28 01:38:06,1.0700,Statlog (Vehicle Silhouettes),Distributive,,,0.5096
+DWN,2025-01-28 01:38:06,0.9716,Statlog (Vehicle Silhouettes),Linear,,,0.4751
+DWN,2025-01-28 01:38:06,0.3279,Statlog (Vehicle Silhouettes),Distributive,,,0.6893
+DWN,2025-01-28 01:38:06,0.1477,Statlog (Vehicle Silhouettes),Distributive,,,0.7214
+DWN,2025-01-28 01:38:06,0.2040,Maternal Health Risk,Distributive,,,0.6627
+DWN,2025-01-28 01:38:06,0.1776,Statlog (Vehicle Silhouettes),Distributive,,,0.7500
+DWN,2025-01-28 01:38:06,0.1883,Maternal Health Risk,Distributive,,,0.6567
+DWN,2025-01-28 01:38:07,0.2070,Statlog (Vehicle Silhouettes),Distributive,,,0.7000
+DWN,2025-01-28 01:38:07,0.1959,Maternal Health Risk,Distributive,,,0.6239
+DWN,2025-01-28 01:38:07,0.1657,Statlog (Vehicle Silhouettes),Distributive,,,0.6929
+DWN,2025-01-28 01:38:07,0.1897,Maternal Health Risk,Distributive,,,0.7134
+DWN,2025-01-28 01:38:07,0.2121,Statlog (Vehicle Silhouettes),Distributive,,,0.7107
+DWN,2025-01-28 01:38:07,0.1239,Maternal Health Risk,Distributive,,,0.6687
+DWN,2025-01-28 01:38:07,0.0943,Statlog (Vehicle Silhouettes),Distributive,,,0.7214
+DWN,2025-01-28 01:38:07,0.1022,Statlog (Vehicle Silhouettes),Distributive,,,0.7500
+DWN,2025-01-28 01:38:07,0.0368,Glass Identification,Distributive,,,0.5634
+DWN,2025-01-28 01:38:07,0.1251,Glass Identification,Distributive,,,0.7015
+DWN,2025-01-28 01:38:07,0.0345,Glass Identification,Distributive,,,0.7183
+DWN,2025-01-28 01:38:07,0.0418,Glass Identification,Distributive,,,0.6479
+DWN,2025-01-28 01:38:07,0.0460,Glass Identification,Distributive,,,0.7465
+DWN,2025-01-28 01:38:07,0.1729,Maternal Health Risk,Distributive,,,0.7500
+DWN,2025-01-28 01:38:07,0.0369,Glass Identification,Distributive,,,0.7324
+DWN,2025-01-28 01:38:07,0.1897,Glass Identification,Distributive,,,0.6776
+DWN,2025-01-28 01:38:07,0.0371,Glass Identification,Distributive,,,0.6901
+DWN,2025-01-28 01:38:07,0.0390,Glass Identification,Distributive,,,0.6901
+DWN,2025-01-28 01:38:07,0.1941,Maternal Health Risk,Distributive,,,0.6537
+DWN,2025-01-28 01:38:07,0.0422,Glass Identification,Distributive,,,0.6901
+DWN,2025-01-28 01:38:08,0.0413,Glass Identification,Distributive,,,0.6901
+DWN,2025-01-28 01:38:08,0.0408,Glass Identification,Distributive,,,0.6620
+DWN,2025-01-28 01:38:08,0.1920,Maternal Health Risk,Gaussian,,,0.5786
+DWN,2025-01-28 01:38:08,0.2005,Glass Identification,Distributive,,,0.6896
+DWN,2025-01-28 01:38:08,0.0383,Glass Identification,Gaussian,,,0.6620
+DWN,2025-01-28 01:38:08,0.0376,Glass Identification,Gaussian,,,0.6338
+DWN,2025-01-28 01:38:08,0.2033,Maternal Health Risk,Distributive,,,0.6507
+DWN,2025-01-28 01:38:08,0.0371,Glass Identification,Gaussian,,,0.6761
+DWN,2025-01-28 01:38:08,0.1685,Glass Identification,Distributive,,,0.7373
+DWN,2025-01-28 01:38:08,0.1906,Maternal Health Risk,Gaussian,,,0.6286
+DWN,2025-01-28 01:38:08,0.0498,Glass Identification,Gaussian,,,0.7324
+DWN,2025-01-28 01:38:08,0.0398,Glass Identification,Gaussian,,,0.7183
+DWN,2025-01-28 01:38:08,0.0366,Glass Identification,Gaussian,,,0.6761
+DWN,2025-01-28 01:38:08,0.2015,Maternal Health Risk,Distributive,,,0.6955
+DWN,2025-01-28 01:38:08,0.0469,Glass Identification,Gaussian,,,0.7324
+DWN,2025-01-28 01:38:08,0.1959,Glass Identification,Distributive,,,0.7045
+DWN,2025-01-28 01:38:08,0.0417,Glass Identification,Gaussian,,,0.7042
+DWN,2025-01-28 01:38:08,0.2288,Maternal Health Risk,Gaussian,,,0.6393
+DWN,2025-01-28 01:38:08,0.0434,Glass Identification,Gaussian,,,0.6901
+DWN,2025-01-28 01:38:08,0.0474,Glass Identification,Gaussian,,,0.6761
+DWN,2025-01-28 01:38:08,0.1936,Maternal Health Risk,Distributive,,,0.6746
+DWN,2025-01-28 01:38:08,0.0474,Glass Identification,Linear,,,0.6197
+DWN,2025-01-28 01:38:08,0.1658,Maternal Health Risk,Gaussian,,,0.7143
+DWN,2025-01-28 01:38:08,0.2014,Glass Identification,Gaussian,,,0.6149
+DWN,2025-01-28 01:38:08,0.0485,Glass Identification,Linear,,,0.5915
+DWN,2025-01-28 01:38:08,0.0489,Glass Identification,Linear,,,0.6197
+DWN,2025-01-28 01:38:08,0.2064,Maternal Health Risk,Distributive,,,0.7254
+DWN,2025-01-28 01:38:08,0.0519,Glass Identification,Linear,,,0.5775
+DWN,2025-01-28 01:38:08,0.1749,Maternal Health Risk,Gaussian,,,0.7036
+DWN,2025-01-28 01:38:08,0.0398,Glass Identification,Linear,,,0.5915
+DWN,2025-01-28 01:38:08,0.2018,Glass Identification,Gaussian,,,0.6776
+DWN,2025-01-28 01:38:08,0.0466,Glass Identification,Linear,,,0.6056
+DWN,2025-01-28 01:38:08,0.0443,Glass Identification,Linear,,,0.6620
+DWN,2025-01-28 01:38:08,0.2056,Maternal Health Risk,Distributive,,,0.7224
+DWN,2025-01-28 01:38:09,0.0410,Glass Identification,Linear,,,0.6479
+DWN,2025-01-28 01:38:09,0.1925,Maternal Health Risk,Gaussian,,,0.7357
+DWN,2025-01-28 01:38:09,0.0409,Glass IdentifiDWN,2025-01-28 01:38:09,0.1803,Glass Identification,Gaussian,,,0.6478
+DWN,2025-01-28 01:38:09,0.0373,Glass Identification,Linear,,,0.6479
+DWN,2025-01-28 01:38:09,0.1704,Maternal Health Risk,Distributive,,,0.7104
+DWN,2025-01-28 01:38:09,0.1441,Maternal Health Risk,Gaussian,,,0.7786
+DWN,2025-01-28 01:38:09,0.1355,Glass Identification,Gaussian,,,0.6627
+DWN,2025-01-28 01:38:09,0.2522,Maternal Health Risk,Gaussian,,,0.7250
+DWN,2025-01-28 01:38:09,0.2783,Glass Identification,Gaussian,,,0.6478
+DWN,2025-01-28 01:38:09,0.3234,Maternal Health Risk,Distributive,,,0.7313
+DWN,2025-01-28 01:38:09,0.2159,Maternal Health Risk,Gaussian,,,0.7464
+DWN,2025-01-28 01:38:09,0.2109,Glass Identification,Gaussian,,,0.6627
+DWN,2025-01-28 01:38:09,0.1915,Maternal Health Risk,Gaussian,,,0.7571
+DWN,2025-01-28 01:38:09,0.1871,Glass Identification,Gaussian,,,0.6567
+DWN,2025-01-28 01:40:10,89.9533,MNIST,Distributive,,,0.9585
+DWN,2025-01-28 01:40:11,89.9216,MNIST,Distributive,,,0.9563
+DWN,2025-01-28 01:41:40,89.8821,MNIST,Distributive,,,0.9690
+DWN,2025-01-28 01:41:41,89.9061,MNIST,Distributive,,,0.9659
+DWN,2025-01-28 01:43:10,89.9259,MNIST,Distributive,,,0.9715
+DWN,2025-01-28 01:43:11,89.9471,MNIST,Distributive,,,0.9716
+DWN,2025-01-28 01:44:39,89.8078,MNIST,Distributive,,,0.9767
+DWN,2025-01-28 01:44:40,89.8245,MNIST,Distributive,,,0.9713
+DWN,2025-01-28 01:46:09,89.8648,MNIST,Distributive,,,0.9793
+DWN,2025-01-28 01:46:10,89.8794,MNIST,Distributive,,,0.9751
+DWN,2025-01-28 01:47:39,89.8292,MNIST,Distributive,,,0.9783
+DWN,2025-01-28 01:47:40,89.8529,MNIST,Distributive,,,0.9780
+DWN,2025-01-28 01:49:09,89.8505,MNIST,Distributive,,,0.9801
+DWN,2025-01-28 01:49:10,89.8392,MNIST,Distributive,,,0.9778
+DWN,2025-01-28 01:50:39,89.8707,MNIST,Distributive,,,0.9810
+DWN,2025-01-28 01:50:40,89.8692,MNIST,Distributive,,,0.9788
+DWN,2025-01-28 01:52:09,89.8218,MNIST,Distributive,,,0.9804
+DWN,2025-01-28 01:52:10,89.8457,MNIST,Distributive,,,0.9802
+DWN,2025-01-28 01:53:39,89.8384,MNIST,Distributive,,,0.9812
+DWN,2025-01-28 01:53:39,89.4705,MNIST,Distributive,,,0.9808
+DWN,2025-01-28 01:55:11,90.0715,MNIST,Gaussian,,,0.9598
+DWN,2025-01-28 01:55:11,90.0913,MNIST,Gaussian,,,0.9620
+DWN,2025-01-28 01:56:41,89.8851,MNIST,Gaussian,,,0.9711
+DWN,2025-01-28 01:56:41,89.9351,MNIST,Gaussian,,,0.9678
+DWN,2025-01-28 01:58:11,90.0217,MNIST,Gaussian,,,0.9722
+DWN,2025-01-28 01:58:11,90.0154,MNIST,Gaussian,,,0.9711
+DWN,2025-01-28 01:59:41,89.9240,MNIST,Gaussian,,,0.9734
+DWN,2025-01-28 01:59:41,89.9175,MNIST,Gaussian,,,0.9752
+DWN,2025-01-28 02:01:11,89.9144,MNIST,Gaussian,,,0.9778
+DWN,2025-01-28 02:01:11,89.9078,MNIST,Gaussian,,,0.9771
+DWN,2025-01-28 02:02:41,89.9936,MNIST,Gaussian,,,0.9774
+DWN,2025-01-28 02:02:41,89.9875,MNIST,Gaussian,,,0.9784
+DWN,2025-01-28 02:04:11,89.9197,MNIST,Gaussian,,,0.9792
+DWN,2025-01-28 02:04:11,89.9692,MNIST,Gaussian,,,0.9784
+DWN,2025-01-28 02:05:41,89.9843,MNIST,Gaussian,,,0.9819
+DWN,2025-01-28 02:05:41,90.0347,MNIST,Gaussian,,,0.9804
+DWN,2025-01-28 02:07:11,89.9279,MNIST,Gaussian,,,0.9799
+DWN,2025-01-28 02:07:11,89.9215,MNIST,Gaussian,,,0.9813
+DWN,2025-01-28 02:08:41,89.9886,MNIST,Gaussian,,,0.9802
+DWN,2025-01-28 02:08:41,89.9841,MNIST,Gaussian,,,0.9807
+DWN,2025-01-28 02:10:14,90.0769,MNIST,Linear,,,0.9596
+DWN,2025-01-28 02:10:14,90.0967,MNIST,Linear,,,0.9590
+DWN,2025-01-28 02:11:44,89.9078,MNIST,Linear,,,0.9676
+DWN,2025-01-28 02:11:44,89.9574,MNIST,Linear,,,0.9708
+DWN,2025-01-28 02:13:13,89.8601,MNIST,Linear,,,0.9747
+DWN,2025-01-28 02:13:13,89.8555,MNIST,Linear,,,0.9729
+DWN,2025-01-28 02:14:43,89.8692,MNIST,Linear,,,0.9758
+DWN,2025-01-28 02:14:43,89.9174,MNIST,Linear,,,0.9756
+DWN,2025-01-28 02:16:13,89.9443,MNIST,Linear,,,0.9766
+DWN,2025-01-28 02:16:13,89.9929,MNIST,Linear,,,0.9761
+DWN,2025-01-28 02:17:43,90.0118,MNIST,Linear,,,0.9790
+DWN,2025-01-28 02:17:43,90.0070,MNIST,Linear,,,0.9752
+DWN,2025-01-28 02:19:13,89.8867,MNIST,Linear,,,0.9784
+DWN,2025-01-28 02:19:13,89.9352,MNIST,Linear,,,0.9782
+DWN,2025-01-28 02:20:43,89.9722,MNIST,Linear,,,0.9791
+DWN,2025-01-28 02:20:43,90.0203,MNIST,Linear,,,0.9797
+DWN,2025-01-28 02:22:13,90.0022,MNIST,Linear,,,0.9798
+DWN,2025-01-28 02:22:13,89.9954,MNIST,Linear,,,0.9802
+DWN,2025-01-28 02:23:43,89.9309,MNIST,Linear,,,0.9797
+DWN,2025-01-28 02:23:43,89.9251,MNIST,Linear,,,0.9815
+DWN,2025-01-28 02:24:12,0.0504,Ecoli,Distributive,,,0.9800
+DWN,2025-01-28 02:24:12,0.0594,Ecoli,Distributive,,,0.8378
+DWN,2025-01-28 02:24:12,0.0458,Ecoli,Distributive,,,0.9000
+DWN,2025-01-28 02:24:12,0.0540,Iris,Distributive,,,0.8800
+DWN,2025-01-28 02:24:12,0.0305,Ecoli,Distributive,,,0.9400
+DWN,2025-01-28 02:24:12,0.0615,Ecoli,Distributive,,,0.8559
+DWN,2025-01-28 02:24:12,0.0961,Iris,Distributive,,,0.8468
+DWN,2025-01-28 02:24:12,0.0469,Iris,Distributive,,,0.8800
+DWN,2025-01-28 02:24:12,0.0349,Ecoli,Distributive,,,0.9000
+DWN,2025-01-28 02:24:12,0.0577,Ecoli,Distributive,,,0.8649
+DWN,2025-01-28 02:24:12,0.0286,Ecoli,Distributive,,,0.9400
+DWN,2025-01-28 02:24:13,0.0813,Iris,Distributive,,,0.8018
+DWN,2025-01-28 02:24:13,0.0634,Iris,Distributive,,,0.9000
+DWN,2025-01-28 02:24:13,0.0362,Ecoli,Distributive,,,0.9400
+DWN,2025-01-28 02:24:13,0.0550,Ecoli,Distributive,,,0.8378
+DWN,2025-01-28 02:24:13,0.0367,Iris,Distributive,,,0.9200
+DWN,2025-01-28 02:24:13,0.0357,Ecoli,Distributive,,,0.9800
+DWN,2025-01-28 02:24:13,0.0699,Iris,Distributive,,,0.7928
+DWN,2025-01-28 02:24:13,0.0648,Ecoli,Distributive,,,0.8468
+DWN,2025-01-28 02:24:13,0.0556,Iris,Distributive,,,0.9200
+DWN,2025-01-28 02:24:13,0.0406,Ecoli,Distributive,,,0.9800
+DWN,2025-01-28 02:24:13,0.0329,Ecoli,Distributive,,,0.9800
+DWN,2025-01-28 02:24:13,0.0783,Iris,Distributive,,,0.8378
+DWN,2025-01-28 02:24:13,0.0589,Iris,Distributive,,,0.9600
+DWN,2025-01-28 02:24:13,0.0722,Ecoli,Distributive,,,0.8378
+DWN,2025-01-28 02:24:13,0.0402,Ecoli,Distributive,,,0.9800
+DWN,2025-01-28 02:24:13,0.0455,Iris,Distributive,,,0.9200
+DWN,2025-01-28 02:24:13,0.0832,Iris,Distributive,,,0.7748
+DWN,2025-01-28 02:24:13,0.0672,Ecoli,Distributive,,,0.8018
+DWN,2025-01-28 02:24:13,0.0448,Ecoli,Gaussian,,,0.9000
+DWN,2025-01-28 02:24:13,0.0555,Iris,Distributive,,,0.9200
+DWN,2025-01-28 02:24:13,0.0361,Ecoli,Gaussian,,,0.9400
+DWN,2025-01-28 02:24:13,0.0664,Iris,Distributive,,,0.7838
+DWN,2025-01-28 02:24:13,0.0675,Ecoli,Distributive,,,0.8378
+DWN,2025-01-28 02:24:13,0.0471,Iris,Distributive,,,0.9400
+DWN,2025-01-28 02:24:13,0.0409,Ecoli,Gaussian,,,0.9800
+DWN,2025-01-28 02:24:13,0.0486,Iris,Distributive,,,0.9200
+DWN,2025-01-28 02:24:13,0.0687,Ecoli,Distributive,,,0.7928
+DWN,2025-01-28 02:24:13,0.0406,Ecoli,Gaussian,,,0.9800
+DWN,2025-01-28 02:24:13,0.0794,Iris,Distributive,,,0.7748
+DWN,2025-01-28 02:24:13,0.0428,Ecoli,Gaussian,,,0.9800
+DWN,2025-01-28 02:24:13,0.0519,Ecoli,Distributive,,,0.8198
+DWN,2025-01-28 02:24:13,0.0424,Iris,Gaussian,,,0.8800
+DWN,2025-01-28 02:24:13,0.0764,Iris,Distributive,,,0.7748
+DWN,2025-01-28 02:24:13,0.0337,Ecoli,Gaussian,,,0.9800
+DWN,2025-01-28 02:24:13,0.0372,Ecoli,Gaussian,,,0.9800
+DWN,2025-01-28 02:24:13,0.0575,Ecoli,Gaussian,,,0.7928
+DWN,2025-01-28 02:24:13,0.0711,Iris,Gaussian,,,0.9600
+DWN,2025-01-28 02:24:13,0.0341,Ecoli,Gaussian,,,0.9800
+DWN,2025-01-28 02:24:13,0.0840,Iris,Distributive,,,0.7658
+DWN,2025-01-28 02:24:13,0.0473,Iris,Gaussian,,,0.9800
+DWN,2025-01-28 02:24:13,0.0612,Ecoli,Gaussian,,,0.8468
+DWN,2025-01-28 02:24:13,0.0356,Ecoli,Gaussian,,,0.9800
+DWN,2025-01-28 02:24:13,0.0443,Iris,Gaussian,,,0.9800
+DWN,2025-01-28 02:24:13,0.0682,Iris,Distributive,,,0.7928
+DWN,2025-01-28 02:24:13,0.0401,Ecoli,Gaussian,,,0.9800
+DWN,2025-01-28 02:24:13,0.0585,Ecoli,Gaussian,,,0.8739
+DWN,2025-01-28 02:24:13,0.0268,Iris,Gaussian,,,0.9800
+DWN,2025-01-28 02:24:13,0.0278,Ecoli,Linear,,,0.8400
+DWN,2025-01-28 02:24:13,0.0561,Ecoli,Gaussian,,,0.8378
+DWN,2025-01-28 02:24:13,0.0569,Iris,Gaussian,,,0.9800
+DWN,2025-01-28 02:24:13,0.0323,Ecoli,Linear,,,0.9600
+DWN,2025-01-28 02:24:13,0.0843,Iris,Gaussian,,,0.8018
+DWN,2025-01-28 02:24:13,0.0464,Iris,Gaussian,,,0.9800
+DWN,2025-01-28 02:24:13,0.0372,Ecoli,Linear,,,0.9400
+DWN,2025-01-28 02:24:13,0.0683,Ecoli,Gaussian,,,0.8288
+DWN,2025-01-28 02:24:13,0.0347,Ecoli,Linear,,,0.9600
+DWN,2025-01-28 02:24:13,0.0685,Iris,Gaussian,,,0.8288
+DWN,2025-01-28 02:24:13,0.0594,Iris,Gaussian,,,0.9800
+DWN,2025-01-28 02:24:13,0.0657,Ecoli,Gaussian,,,0.8559
+DWN,2025-01-28 02:24:13,0.0363,Ecoli,Linear,,,0.9800
+DWN,2025-01-28 02:24:13,0.0300,Ecoli,Linear,,,0.9800
+DWN,2025-01-28 02:24:13,0.0691,Iris,Gaussian,,,0.7928
+DWN,2025-01-28 02:24:13,0.0577,Ecoli,Gaussian,,,0.8739
+DWN,2025-01-28 02:24:13,0.0854,Iris,Gaussian,,,0.9800
+DWN,2025-01-28 02:24:13,0.0369,Ecoli,Linear,,,0.9800
+DWN,2025-01-28 02:24:13,0.0271,Ecoli,Linear,,,0.9800
+DWN,2025-01-28 02:24:13,0.0651,Iris,Gaussian,,,0.7838
+DWN,2025-01-28 02:24:14,0.0560,Ecoli,Gaussian,,,0.8559
+DWN,2025-01-28 02:24:14,0.0500,Iris,Gaussian,,,0.9800
+DWN,2025-01-28 02:24:14,0.0285,Ecoli,Linear,,,0.9800
+DWN,2025-01-28 02:24:14,0.0573,Ecoli,Gaussian,,,0.8649
+DWN,2025-01-28 02:24:14,0.0305,Ecoli,Linear,,,0.9600
+DWN,2025-01-28 02:24:14,0.0724,Iris,Gaussian,,,0.8288
+DWN,2025-01-28 02:24:14,0.0624,Iris,Linear,,,0.9600
+DWN,2025-01-28 02:24:14,0.0439,Ecoli,Gaussian,,,0.8739
+DWN,2025-01-28 02:24:14,0.0542,Iris,Linear,,,0.9200
+DWN,2025-01-28 02:24:14,0.0476,Ecoli,Scatter Code,100,50,0.3000
+DWN,2025-01-28 02:24:14,0.0958,Iris,Gaussian,,,0.8198
+DWN,2025-01-28 02:24:14,0.0365,Ecoli,Scatter Code,100,50,0.3000
+DWN,2025-01-28 02:24:14,0.0564,Iris,Linear,,,0.9400
+DWN,2025-01-28 02:24:14,0.0741,Ecoli,Linear,,,0.7658
+DWN,2025-01-28 02:24:14,0.0409,Ecoli,Scatter Code,100,50,0.3200
+DWN,2025-01-28 02:24:14,0.0768,Iris,Gaussian,,,0.7928
+DWN,2025-01-28 02:24:14,0.0615,Iris,Linear,,,0.9600
+DWN,2025-01-28 02:24:14,0.0415,Ecoli,Scatter Code,100,50,0.3000
+DWN,2025-01-28 02:24:14,0.0752,Ecoli,Linear,,,0.7928
+DWN,2025-01-28 02:24:14,0.0519,Iris,Linear,,,0.9800
+DWN,2025-01-28 02:24:14,0.0420,Ecoli,Scatter Code,100,50,0.3000
+DWN,2025-01-28 02:24:14,0.0798,Iris,Gaussian,,,0.8468
+DWN,2025-01-28 02:24:14,0.0645,Ecoli,Linear,,,0.8108
+DWN,2025-01-28 02:24:14,0.0362,Ecoli,Scatter Code,100,50,0.3000
+DWN,2025-01-28 02:24:14,0.0597,Iris,Linear,,,0.9800
+DWN,2025-01-28 02:24:14,0.0678,Ecoli,Linear,,,0.8108
+DWN,2025-01-28 02:24:14,0.0851,Iris,Gaussian,,,0.8198
+DWN,2025-01-28 02:24:14,0.0508,Ecoli,Scatter Code,100,50,0.3000
+DWN,2025-01-28 02:24:14,0.0532,Iris,Linear,,,0.9800
+DWN,2025-01-28 02:24:14,0.0424,Ecoli,Scatter Code,100,50,0.3200
+DWN,2025-01-28 02:24:14,0.0535,Iris,Linear,,,0.9800
+DWN,2025-01-28 02:24:14,0.0781,Ecoli,Linear,,,0.8378
+DWN,2025-01-28 02:24:14,0.0778,Iris,Gaussian,,,0.8018
+DWN,2025-01-28 02:24:14,0.0425,Ecoli,Scatter Code,100,50,0.3000
+DWN,2025-01-28 02:24:14,0.0410,Iris,Linear,,,0.9800
+DWN,2025-01-28 02:24:14,0.0421,Ecoli,Scatter Code,100,50,0.3800
+DWN,2025-01-28 02:24:14,0.0745,Ecoli,Linear,,,0.8288
+DWN,2025-01-28 02:24:14,0.0391,Iris,Linear,,,0.9600
+DWN,2025-01-28 02:24:14,0.0731,Iris,Linear,,,0.8198
+DWN,2025-01-28 02:24:14,0.0313,Ecoli,Linear,,,0.8288
+DWN,2025-01-28 02:24:14,0.0378,Iris,Scatter Code,100,100,1.0000
+DWN,2025-01-28 02:24:14,0.0999,Iris,Linear,,,0.8108
+DWN,2025-01-28 02:24:14,0.0826,Ecoli,Linear,,,0.7928
+DWN,2025-01-28 02:24:14,0.0204,Iris,Scatter Code,100,100,1.0000
+DWN,2025-01-28 02:24:14,0.0387,Iris,Scatter Code,100,100,1.0000
+DWN,2025-01-28 02:24:14,0.0576,Ecoli,Linear,,,0.8378
+DWN,2025-01-28 02:24:14,0.0610,Iris,Linear,,,0.8108
+DWN,2025-01-28 02:24:14,0.0384,Iris,Scatter Code,100,100,1.0000
+DWN,2025-01-28 02:24:14,0.0589,Ecoli,Linear,,,0.8198
+DWN,2025-01-28 02:24:14,0.0575,Iris,Linear,,,0.8288
+DWN,2025-01-28 02:24:14,0.0376,Iris,Scatter Code,100,100,0.9800
+DWN,2025-01-28 02:24:14,0.0195,Iris,Linear,,,0.8198
+DWN,2025-01-28 02:24:14,0.0654,Iris,Scatter Code,100,100,0.9600
+DWN,2025-01-28 02:24:14,0.0681,Iris,Linear,,,0.8468
+DWN,2025-01-28 02:24:14,0.0589,Ecoli,Scatter Code,100,50,0.1532
+DWN,2025-01-28 02:24:14,0.0353,Iris,Scatter Code,100,100,0.9600
+DWN,2025-01-28 02:24:15,0.0359,Iris,Scatter Code,100,100,0.9800
+DWN,2025-01-28 02:24:15,0.0551,Iris,Linear,,,0.8198
+DWN,2025-01-28 02:24:15,0.0541,Ecoli,Scatter Code,100,50,0.4595
+DWN,2025-01-28 02:24:15,0.0349,Iris,Scatter Code,100,100,0.9800
+DWN,2025-01-28 02:24:15,0.0543,Ecoli,Scatter Code,100,50,0.4595
+DWN,2025-01-28 02:24:15,0.0618,Iris,Linear,,,0.8198
+DWN,2025-01-28 02:24:15,0.0314,Iris,Scatter Code,100,100,0.9800
+DWN,2025-01-28 02:24:15,0.0434,Ecoli,Scatter Code,100,50,0.4595
+DWN,2025-01-28 02:24:15,0.0406,Iris,Linear,,,0.8468
+DWN,2025-01-28 02:24:15,0.0365,Ecoli,Scatter Code,100,50,0.4595
+DWN,2025-01-28 02:24:15,0.0375,Iris,Linear,,,0.8108
+DWN,2025-01-28 02:24:15,0.0262,Ecoli,Scatter Code,100,50,0.1892
+DWN,2025-01-28 02:24:15,0.1149,Wine Quality,Scatter Code,100,50,0.0090
+DWN,2025-01-28 02:24:15,0.0868,Wine Quality,Scatter Code,100,100,0.7568
+DWN,2025-01-28 02:24:15,0.0873,Wine Quality,Scatter Code,100,50,0.4595
+DWN,2025-01-28 02:24:15,0.0809,Wine Quality,Scatter Code,100,100,0.7838
+DWN,2025-01-28 02:24:15,0.0792,Wine Quality,Scatter Code,100,50,0.1532
+DWN,2025-01-28 02:24:15,0.0765,Wine Quality,Scatter Code,100,100,0.8288
+DWN,2025-01-28 02:24:15,0.0821,Wine Quality,Scatter Code,100,50,0.4595
+DWN,2025-01-28 02:24:15,0.0854,Wine Quality,Scatter Code,100,100,0.8108
+DWN,2025-01-28 02:24:15,0.0613,Wine Quality,Scatter Code,100,100,0.8378
+DWN,2025-01-28 02:24:15,0.0593,Wine Quality,Scatter Code,100,100,0.8468
+DWN,2025-01-28 02:24:15,0.0612,Wine Quality,Scatter Code,100,100,0.8468
+DWN,2025-01-28 02:24:15,0.0756,Wine Quality,Scatter Code,100,100,0.8378
+DWN,2025-01-28 02:24:16,0.0880,Wine Quality,Scatter Code,100,100,0.8288
+DWN,2025-01-28 02:24:16,0.0816,Wine Quality,Scatter Code,100,100,0.8468
+DWN,2025-01-28 02:24:16,1.1503,EEG Eye State,Distributive,,,0.4592
+DWN,2025-01-28 02:24:16,1.1300,Wine Quality,Distributive,,,0.4545
+DWN,2025-01-28 02:24:17,0.9072,EEG Eye State,Distributive,,,0.4830
+DWN,2025-01-28 02:24:17,0.9866,EEG Eye State,Distributive,,,0.4853
+DWN,2025-01-28 02:24:18,2.0102,EEG Eye State,Distributive,,,0.7601
+DWN,2025-01-28 02:24:18,1.0655,EEG Eye State,Distributive,,,0.4876
+DWN,2025-01-28 02:24:18,1.2512,EEG Eye State,Distributive,,,0.4779
+DWN,2025-01-28 02:24:19,1.1086,EEG Eye State,Distributive,,,0.5026
+DWN,2025-01-28 02:24:20,1.1953,EEG Eye State,Distributive,,,0.4914
+DWN,2025-01-28 02:24:20,3.0621,EEG Eye State,Distributive,,,0.7735
+DWN,2025-01-28 02:24:20,2.3485,EEG Eye State,Distributive,,,0.8066
+DWN,2025-01-28 02:24:20,1.1395,EEG Eye State,Distributive,,,0.5198
+DWN,2025-01-28 02:24:21,1.2901,EEG Eye State,Distributive,,,0.5161
+DWN,2025-01-28 02:24:21,1.1122,EEG Eye State,Distributive,,,0.5291
+DWN,2025-01-28 02:24:22,1.2489,EEG Eye State,Distributive,,,0.4956
+DWN,2025-01-28 02:24:22,2.3810,EEG Eye State,Distributive,,,0.8050
+DWN,2025-01-28 02:24:22,1.1448,EEG Eye State,Distributive,,,0.5138
+DWN,2025-01-28 02:24:23,1.1921,EEG Eye State,Distributive,,,0.5189
+DWN,2025-01-28 02:24:24,3.6682,EEG Eye State,Distributive,,,0.8036
+DWN,2025-01-28 02:24:24,1.1249,EEG Eye State,Distributive,,,0.5114
+DWN,2025-01-28 02:24:24,1.1964,EEG Eye State,Distributive,,,0.5044
+DWN,2025-01-28 02:24:25,2.3144,EEG Eye State,Distributive,,,0.8228
+DWN,2025-01-28 02:24:25,1.1427,EEG Eye State,Distributive,,,0.5184
+DWN,2025-01-28 02:24:26,1.2785,EEG Eye State,Distributive,,,0.5198
+DWN,2025-01-28 02:24:26,1.1720,EEG Eye State,Distributive,,,0.5207
+DWN,2025-01-28 02:24:27,3.3820,EEG Eye State,Distributive,,,0.7975
+DWN,2025-01-28 02:24:27,2.5146,EEG Eye State,Distributive,,,0.8356
+DWN,2025-01-28 02:24:27,1.3228,EEG Eye State,Distributive,,,0.5133
+DWN,2025-01-28 02:24:27,1.2599,EEG Eye State,Gaussian,,,0.4765
+DWN,2025-01-28 02:24:28,1.1691,EEG Eye State,Gaussian,,,0.4727
+DWN,2025-01-28 02:24:28,1.2921,EEG Eye State,Gaussian,,,0.4695
+DWN,2025-01-28 02:24:29,2.2839,EEG Eye State,Distributive,,,0.8447
+DWN,2025-01-28 02:24:30,1.2179,EEG Eye State,Gaussian,,,0.4816
+DWN,2025-01-28 02:24:30,1.2534,EEG Eye State,Gaussian,,,0.4657
+DWN,2025-01-28 02:24:30,3.2641,EEG Eye State,Distributive,,,0.8258
+DWN,2025-01-28 02:24:31,1.1786,EEG Eye State,Gaussian,,,0.4890
+DWN,2025-01-28 02:24:31,1.2150,EEG Eye State,Gaussian,,,0.4653
+DWN,2025-01-28 02:24:32,2.4533,EEG Eye State,Distributive,,,0.8366
+DWN,2025-01-28 02:24:32,1.1340,EEG Eye State,Gaussian,,,0.4727
+DWN,2025-01-28 02:24:32,1.3369,EEG Eye State,Gaussian,,,0.4853
+DWN,2025-01-28 02:24:33,1.0902,EEG Eye State,Gaussian,,,0.4928
+DWN,2025-01-28 02:24:33,3.2162,EEG Eye State,Distributive,,,0.8358
+DWN,2025-01-28 02:24:33,1.2155,EEG Eye State,Gaussian,,,0.5040
+DWN,2025-01-28 02:24:34,1.1543,EEG Eye State,Gaussian,,,0.5184
+DWN,2025-01-28 02:24:34,2.4213,EEG Eye State,Distributive,,,0.8550
+DWN,2025-01-28 02:24:35,1.2192,EEG Eye State,Gaussian,,,0.4914
+DWN,2025-01-28 02:24:35,1.1707,EEG Eye State,Gaussian,,,0.5054
+DWN,2025-01-28 02:24:36,1.2437,EEG Eye State,Gaussian,,,0.4993
+DWN,2025-01-28 02:24:37,3.2050,EEG Eye State,Distributive,,,0.8465
+DWN,2025-01-28 02:24:37,1.2129,EEG Eye State,Gaussian,,,0.4839
+DWN,2025-01-28 02:24:37,2.4098,EEG Eye State,Distributive,,,0.8416
+DWN,2025-01-28 02:24:37,1.2691,EEG Eye State,Gaussian,,,0.4779
+DWN,2025-01-28 02:24:38,1.2231,EEG Eye State,Gaussian,,,0.5096
+DWN,2025-01-28 02:24:38,1.1799,EEG Eye State,Gaussian,,,0.4881
+DWN,2025-01-28 02:24:39,1.1245,EEG Eye State,Linear,,,0.4615
+DWN,2025-01-28 02:24:39,2.4959,EEG Eye State,Distributive,,,0.8578
+DWN,2025-01-28 02:24:40,1.3094,EEG Eye State,Gaussian,,,0.5193
+DWN,2025-01-28 02:24:40,1.1540,EEG Eye State,Linear,,,0.4382
+DWN,2025-01-28 02:24:40,3.6364,EEG Eye State,Distributive,,,0.8402
+DWN,2025-01-28 02:24:41,1.2687,EEG Eye State,Linear,,,0.4480
+DWN,2025-01-28 02:24:41,1.1433,EEG Eye State,Linear,,,0.4704
+DWN,2025-01-28 02:24:42,2.3558,EEG Eye State,Gaussian,,,0.5583
+DWN,2025-01-28 02:24:42,1.2192,EEG Eye State,Linear,,,0.4490
+DWN,2025-01-28 02:24:42,1.1234,EEG Eye State,Linear,,,0.4555
+DWN,2025-01-28 02:24:43,1.2150,EEG Eye State,Linear,,,0.4634
+DWN,2025-01-28 02:24:43,3.2465,EEG Eye State,Distributive,,,0.8473
+DWN,2025-01-28 02:24:44,1.1528,EEG Eye State,Linear,,,0.4657
+DWN,2025-01-28 02:24:44,2.4401,EEG Eye State,Gaussian,,,0.6078
+DWN,2025-01-28 02:24:45,1.2581,EEG Eye State,Linear,,,0.4704
+DWN,2025-01-28 02:24:45,1.1674,EEG Eye State,Linear,,,0.4713
+DWN,2025-01-28 02:24:46,1.1196,EEG Eye State,Linear,,,0.4881
+DWN,2025-01-28 02:24:46,1.1863,EEG Eye State,Linear,,,0.4704
+DWN,2025-01-28 02:24:46,2.3911,EEG Eye State,Gaussian,,,0.6218
+DWN,2025-01-28 02:24:47,3.4526,EEG Eye State,Distributive,,,0.8445
+DWN,2025-01-28 02:24:47,1.1341,EEG Eye State,Linear,,,0.4452
+DWN,2025-01-28 02:24:47,1.2651,EEG Eye State,Linear,,,0.4317
+DWN,2025-01-28 02:24:48,1.1152,EEG Eye State,Linear,,,0.4681
+DWN,2025-01-28 02:24:48,1.2785,EEG Eye State,Linear,,,0.4657
+DWN,2025-01-28 02:24:49,2.4237,EEG Eye State,Gaussian,,,0.5947
+DWN,2025-01-28 02:24:49,1.1322,EEG Eye State,Linear,,,0.4420
+DWN,2025-01-28 02:24:50,1.2881,EEG Eye State,Linear,,,0.4471
+DWN,2025-01-28 02:24:51,1.3524,EEG Eye State,Scatter Code,100,50,0.4555
+DWN,2025-01-28 02:24:51,3.8104,EEG Eye State,Distributive,,,0.8614
+DWN,2025-01-28 02:24:51,1.4026,EEG Eye State,Linear,,,0.4671
+DWN,2025-01-28 02:24:51,2.5382,EEG Eye State,Gaussian,,,0.6224
+DWN,2025-01-28 02:24:52,1.3572,EEG Eye State,Scatter Code,100,50,0.3133
+DWN,2025-01-28 02:24:53,1.3635,EEG Eye State,Linear,,,0.4704
+DWN,2025-01-28 02:24:54,1.4493,EEG Eye State,Scatter Code,100,50,0.3133
+DWN,2025-01-28 02:24:54,2.7825,EEG Eye State,Gaussian,,,0.6388
+DWN,2025-01-28 02:24:54,1.8019,EEG Eye State,Scatter Code,100,100,0.3944
+DWN,2025-01-28 02:24:55,4.2724,EEG Eye State,Gaussian,,,0.5892
+DWN,2025-01-28 02:24:55,1.6049,EEG Eye State,Scatter Code,100,50,0.3133
+DWN,2025-01-28 02:24:56,1.8174,EEG Eye State,Scatter Code,100,100,0.3860
+DWN,2025-01-28 02:24:57,1.5497,EEG Eye State,Scatter Code,100,50,0.3133
+DWN,2025-01-28 02:24:57,3.1984,EEG Eye State,Gaussian,,,0.6058
+DWN,2025-01-28 02:24:58,1.7977,EEG Eye State,Scatter Code,100,100,0.4126
+DWN,2025-01-28 02:24:58,1.5527,EEG Eye State,Scatter Code,100,50,0.4555
+DWN,2025-01-28 02:25:00,4.6218,EEG Eye State,Gaussian,,,0.5983
+DWN,2025-01-28 02:25:00,1.7298,EEG Eye State,Scatter Code,100,100,0.4420
+DWN,2025-01-28 02:25:00,1.6137,EEG Eye State,Scatter Code,100,50,0.1641
+DWN,2025-01-28 02:25:01,3.2577,EEG Eye State,Gaussian,,,0.6169
+DWN,2025-01-28 02:25:02,1.6238,EEG Eye State,Scatter Code,100,50,0.3133
+DWN,2025-01-28 02:25:02,1.8235,EEG Eye State,Scatter Code,100,100,0.4103
+DWN,2025-01-28 02:25:03,1.6260,EEG Eye State,Scatter Code,100,50,0.3133
+DWN,2025-01-28 02:25:03,1.7842,EEG Eye State,Scatter Code,100,100,0.4103
+DWN,2025-01-28 02:25:04,3.2816,EEG Eye State,Gaussian,,,0.6452
+DWN,2025-01-28 02:25:04,4.7413,EEG Eye State,Gaussian,,,0.6206
+DWN,2025-01-28 02:25:05,1.6436,EEG Eye State,Scatter Code,100,50,0.3133
+DWN,2025-01-28 02:25:05,1.7177,EEG Eye State,Scatter Code,100,100,0.4289
+DWN,2025-01-28 02:25:07,1.6556,EEG Eye State,Scatter Code,100,100,0.3925
+DWN,2025-01-28 02:25:07,3.0379,MAGIC Gamma Telescope,Gaussian,,,0.6351
+DWN,2025-01-28 02:25:08,3.9386,EEG Eye State,Gaussian,,,0.5914
+DWN,2025-01-28 02:25:09,1.6361,EEG Eye State,Scatter Code,100,100,0.3972
+DWN,2025-01-28 02:25:09,3.9951,MAGIC Gamma Telescope,Distributive,,,0.7851
+DWN,2025-01-28 02:25:10,2.8050,MAGIC Gamma Telescope,Linear,,,0.4711
+DWN,2025-01-28 02:25:10,1.6412,EEG Eye State,Scatter Code,100,100,0.3818
+DWN,2025-01-28 02:25:12,3.2590,MAGIC Gamma Telescope,Gaussian,,,0.6434
+DWN,2025-01-28 02:25:12,2.2468,MAGIC Gamma Telescope,Linear,,,0.4658
+DWN,2025-01-28 02:25:13,3.3008,MAGIC Gamma Telescope,Distributive,,,0.7693
+DWN,2025-01-28 02:25:14,3.3932,MAGIC Gamma Telescope,Distributive,,,0.7943
+DWN,2025-01-28 02:25:14,2.2863,MAGIC Gamma Telescope,Linear,,,0.5324
+DWN,2025-01-28 02:25:15,3.1448,MAGIC Gamma Telescope,Gaussian,,,0.6327
+DWN,2025-01-28 02:25:16,3.1714,MAGIC Gamma Telescope,Distributive,,,0.7539
+DWN,2025-01-28 02:25:17,2.4645,MAGIC Gamma Telescope,Linear,,,0.5342
+DWN,2025-01-28 02:25:17,3.5696,MAGIC Gamma Telescope,Distributive,,,0.7958
+DWN,2025-01-28 02:25:18,3.4672,MAGIC Gamma Telescope,Gaussian,,,0.6410
+DWN,2025-01-28 02:25:19,3.2335,MAGIC Gamma Telescope,Distributive,,,0.8142
+DWN,2025-01-28 02:25:19,2.4037,MAGIC Gamma Telescope,Linear,,,0.4674
+DWN,2025-01-28 02:25:21,3.3228,MAGIC Gamma Telescope,Distributive,,,0.8018
+DWN,2025-01-28 02:25:22,3.2720,MAGIC Gamma Telescope,Gaussian,,,0.6371
+DWN,2025-01-28 02:25:22,2.3312,MAGIC Gamma Telescope,Linear,,,0.4656
+DWN,2025-01-28 02:25:22,3.0764,MAGIC Gamma Telescope,Distributive,,,0.7983
+DWN,2025-01-28 02:25:24,2.3474,MAGIC Gamma Telescope,Linear,,,0.5342
+DWN,2025-01-28 02:25:24,3.3987,MAGIC Gamma Telescope,Distributive,,,0.8162
+DWN,2025-01-28 02:25:25,3.1337,MAGIC Gamma Telescope,Gaussian,,,0.6464
+DWN,2025-01-28 02:25:25,3.2337,MAGIC Gamma Telescope,Distributive,,,0.7907
+DWN,2025-01-28 02:25:26,2.4107,MAGIC Gamma Telescope,Linear,,,0.4715
+DWN,2025-01-28 02:25:28,3.4458,MAGIC Gamma Telescope,Distributive,,,0.8184
+DWN,2025-01-28 02:25:28,3.4795,MAGIC Gamma Telescope,Gaussian,,,0.6317
+DWN,2025-01-28 02:25:28,3.1675,MAGIC Gamma Telescope,Distributive,,,0.7991
+DWN,2025-01-28 02:25:29,2.3944,MAGIC Gamma Telescope,Linear,,,0.5344
+DWN,2025-01-28 02:25:31,3.4477,MAGIC Gamma Telescope,Distributive,,,0.8152
+DWN,2025-01-28 02:25:31,2.4553,MAGIC Gamma Telescope,Linear,,,0.4660
+DWN,2025-01-28 02:25:32,3.3181,MAGIC Gamma Telescope,Linear,,,0.4660
+DWN,2025-01-28 02:25:32,3.4065,MAGIC Gamma Telescope,Distributive,,,0.8192
+DWN,2025-01-28 02:25:34,2.8375,MAGIC Gamma Telescope,Scatter Code,100,50,0.5344
+DWN,2025-01-28 02:25:35,4.1100,MAGIC Gamma Telescope,Distributive,,,0.8098
+DWN,2025-01-28 02:25:36,3.9943,MAGIC Gamma Telescope,Linear,,,0.5380
+DWN,2025-01-28 02:25:36,3.7472,MAGIC Gamma Telescope,Distributive,,,0.7849
+DWN,2025-01-28 02:25:37,2.8396,MAGIC Gamma Telescope,Scatter Code,100,50,0.5344
+DWN,2025-01-28 02:25:39,3.7417,MAGIC Gamma Telescope,Linear,,,0.4658
+DWN,2025-01-28 02:25:39,4.1131,MAGIC Gamma Telescope,Distributive,,,0.7924
+DWN,2025-01-28 02:25:39,3.7823,MAGIC Gamma Telescope,Distributive,,,0.8079
+DWN,2025-01-28 02:25:40,2.8381,MAGIC Gamma Telescope,Scatter Code,100,50,0.5344
+DWN,2025-01-28 02:25:43,2.9694,MAGIC Gamma Telescope,Scatter Code,100,50,0.5344
+DWN,2025-01-28 02:25:43,3.8379,MAGIC Gamma Telescope,Linear,,,0.5342
+DWN,2025-01-28 02:25:43,3.8982,MAGIC Gamma Telescope,Gaussian,,,0.7915
+DWN,2025-01-28 02:25:44,4.1851,MAGIC Gamma Telescope,Distributive,,,0.7921
+DWN,2025-01-28 02:25:46,2.9489,MAGIC Gamma Telescope,Scatter Code,100,50,0.5344
+DWN,2025-01-28 02:25:47,3.7880,MAGIC Gamma Telescope,Linear,,,0.5342
+DWN,2025-01-28 02:25:47,3.8236,MAGIC Gamma Telescope,Gaussian,,,0.7891
+DWN,2025-01-28 02:25:48,4.0507,MAGIC Gamma Telescope,Distributive,,,0.8090
+DWN,2025-01-28 02:25:49,2.7862,MAGIC Gamma Telescope,Scatter Code,100,50,0.5344
+DWN,2025-01-28 02:25:51,3.6904,MAGIC Gamma Telescope,Gaussian,,,0.7781
+DWN,2025-01-28 02:25:51,3.9966,MAGIC Gamma Telescope,Linear,,,0.5344
+DWN,2025-01-28 02:25:51,2.7817,MAGIC Gamma Telescope,Scatter Code,100,50,0.4656
+DWN,2025-01-28 02:25:52,4.0884,MAGIC Gamma Telescope,Gaussian,,,0.8104
+DWN,2025-01-28 02:25:54,2.8276,MAGIC Gamma Telescope,Scatter Code,100,50,0.5344
+DWN,2025-01-28 02:25:55,3.7297,MAGIC Gamma Telescope,Gaussian,,,0.7623
+DWN,2025-01-28 02:25:55,4.2036,MAGIC Gamma Telescope,Linear,,,0.4713
+DWN,2025-01-28 02:25:56,4.1577,MAGIC Gamma Telescope,Gaussian,,,0.7908
+DWN,2025-01-28 02:25:57,2.7887,MAGIC Gamma Telescope,Scatter Code,100,50,0.5344
+DWN,2025-01-28 02:25:58,3.6841,MAGIC Gamma Telescope,Gaussian,,,0.7865
+DWN,2025-01-28 02:25:59,4.1274,MAGIC Gamma Telescope,Linear,,,0.5326
+DWN,2025-01-28 02:26:00,2.8413,MAGIC Gamma Telescope,Scatter Code,100,50,0.5344
+DWN,2025-01-28 02:26:00,4.0271,MAGIC Gamma Telescope,Gaussian,,,0.7931
+DWN,2025-01-28 02:26:00,0.1401,Statlog (Vehicle Silhouettes),Distributive,,,0.6786
+DWN,2025-01-28 02:26:00,0.1391,Statlog (Vehicle Silhouettes),Distributive,,,0.6857
+DWN,2025-01-28 02:26:01,0.1427,Statlog (Vehicle Silhouettes),Distributive,,,0.6643
+DWN,2025-01-28 02:26:01,0.1405,Statlog (Vehicle Silhouettes),Distributive,,,0.7321
+DWN,2025-01-28 02:26:01,0.1475,Statlog (Vehicle Silhouettes),Distributive,,,0.7000
+DWN,2025-01-28 02:26:01,0.1487,Statlog (Vehicle Silhouettes),Distributive,,,0.6964
+DWN,2025-01-28 02:26:01,0.1393,Statlog (Vehicle Silhouettes),Distributive,,,0.6893
+DWN,2025-01-28 02:26:01,0.1432,Statlog (Vehicle Silhouettes),Distributive,,,0.7357
+DWN,2025-01-28 02:26:01,0.1288,Statlog (Vehicle Silhouettes),Distributive,,,0.7321
+DWN,2025-01-28 02:26:02,0.1431,Statlog (Vehicle Silhouettes),Distributive,,,0.7179
+DWN,2025-01-28 02:26:02,3.3405,Statlog (Vehicle Silhouettes),Gaussian,,,0.8106
+DWN,2025-01-28 02:26:02,0.1530,Statlog (Vehicle Silhouettes),Gaussian,,,0.6214
+DWN,2025-01-28 02:26:02,0.1450,Statlog (Vehicle Silhouettes),Gaussian,,,0.6786
+DWN,2025-01-28 02:26:02,0.1416,Statlog (Vehicle Silhouettes),Gaussian,,,0.6857
+DWN,2025-01-28 02:26:02,0.1356,Statlog (Vehicle Silhouettes),Gaussian,,,0.7286
+DWN,2025-01-28 02:26:02,0.1430,Statlog (Vehicle Silhouettes),Gaussian,,,0.7250
+DWN,2025-01-28 02:26:03,0.1306,Statlog (Vehicle Silhouettes),Gaussian,,,0.7357
+DWN,2025-01-28 02:26:03,0.1302,Statlog (Vehicle Silhouettes),Gaussian,,,0.7321
+DWN,2025-01-28 02:26:03,0.1518,Statlog (Vehicle Silhouettes),Gaussian,,,0.7464
+DWN,2025-01-28 02:26:03,3.5609,MAGIC Gamma Telescope,Linear,,,0.4658
+DWN,2025-01-28 02:26:03,0.1440,Statlog (Vehicle Silhouettes),Gaussian,,,0.7179
+DWN,2025-01-28 02:26:03,0.1381,Statlog (Vehicle Silhouettes),Gaussian,,,0.7750
+DWN,2025-01-28 02:26:03,0.1372,Statlog (Vehicle Silhouettes),Linear,,,0.5607
+DWN,2025-01-28 02:26:03,3.4190,MAGIC Gamma Telescope,Gaussian,,,0.7888
+DWN,2025-01-28 02:26:03,0.1552,Statlog (Vehicle Silhouettes),Linear,,,0.6071
+DWN,2025-01-28 02:26:04,0.1407,Statlog (Vehicle Silhouettes),Linear,,,0.6536
+DWN,2025-01-28 02:26:04,0.1251,Statlog (Vehicle Silhouettes),Linear,,,0.6857
+DWN,2025-01-28 02:26:04,0.1448,Statlog (Vehicle Silhouettes),Linear,,,0.6821
+DWN,2025-01-28 02:26:04,0.1389,Statlog (Vehicle Silhouettes),Linear,,,0.6929
+DWN,2025-01-28 02:26:04,0.1320,Statlog (Vehicle Silhouettes),Linear,,,0.7214
+DWN,2025-01-28 02:26:04,0.1244,Statlog (Vehicle Silhouettes),Linear,,,0.7036
+DWN,2025-01-28 02:26:04,0.1280,Statlog (Vehicle Silhouettes),Linear,,,0.7036
+DWN,2025-01-28 02:26:05,0.1206,Statlog (Vehicle Silhouettes),Linear,,,0.6786
+DWN,2025-01-28 02:26:05,0.2057,Statlog (Vehicle Silhouettes),Scatter Code,100,50,0.2000
+DWN,2025-01-28 02:26:05,3.2590,Statlog (Vehicle Silhouettes),Gaussian,,,0.8114
+DWN,2025-01-28 02:26:05,0.1679,Statlog (Vehicle Silhouettes),Scatter Code,100,50,0.2929
+DWN,2025-01-28 02:26:05,0.1742,Statlog (Vehicle Silhouettes),Scatter Code,100,50,0.2250
+DWN,2025-01-28 02:26:05,0.1762,Statlog (Vehicle Silhouettes),Scatter Code,100,50,0.2250
+DWN,2025-01-28 02:26:06,0.1814,Statlog (Vehicle Silhouettes),Scatter Code,100,50,0.2250
+DWN,2025-01-28 02:26:06,0.1724,Statlog (Vehicle Silhouettes),Scatter Code,100,50,0.2000
+DWN,2025-01-28 02:26:06,0.1729,Statlog (Vehicle Silhouettes),Scatter Code,100,50,0.2821
+DWN,2025-01-28 02:26:06,0.1779,Statlog (Vehicle Silhouettes),Scatter Code,100,50,0.2000
+DWN,2025-01-28 02:26:06,0.1804,Statlog (Vehicle Silhouettes),Scatter Code,100,50,0.2821
+DWN,2025-01-28 02:26:07,0.1895,Statlog (Vehicle Silhouettes),Scatter Code,100,50,0.2000
+DWN,2025-01-28 02:26:07,3.9816,MAGIC Gamma Telescope,Linear,,,0.4713
+DWN,2025-01-28 02:26:07,0.1550,Maternal Health Risk,Distributive,,,0.6418
+DWN,2025-01-28 02:26:07,3.6607,MAGIC Gamma Telescope,Gaussian,,,0.7980
+DWN,2025-01-28 02:26:07,0.2508,Maternal Health Risk,Distributive,,,0.6478
+DWN,2025-01-28 02:26:07,0.2220,Maternal Health Risk,Distributive,,,0.6955
+DWN,2025-01-28 02:26:08,0.2377,Maternal Health Risk,Distributive,,,0.6866
+DWN,2025-01-28 02:26:08,0.2242,Maternal Health Risk,Distributive,,,0.6746
+DWN,2025-01-28 02:26:08,0.2325,Maternal Health Risk,Distributive,,,0.6806
+DWN,2025-01-28 02:26:08,0.2339,Maternal Health Risk,Distributive,,,0.6925
+DWN,2025-01-28 02:26:09,3.7432,Maternal Health Risk,Gaussian,,,0.7510
+DWN,2025-01-28 02:26:09,0.2239,Maternal Health Risk,Distributive,,,0.6925
+DWN,2025-01-28 02:26:09,0.2193,Maternal Health Risk,Distributive,,,0.7224
+DWN,2025-01-28 02:26:09,0.2044,Maternal Health Risk,Distributive,,,0.7104
+DWN,2025-01-28 02:26:09,0.2095,Maternal Health Risk,Gaussian,,,0.6030
+DWN,2025-01-28 02:26:10,0.2096,Maternal Health Risk,Gaussian,,,0.6209
+DWN,2025-01-28 02:26:10,0.2013,Maternal Health Risk,Gaussian,,,0.6776
+DWN,2025-01-28 02:26:10,0.2201,Maternal Health Risk,Gaussian,,,0.6657
+DWN,2025-01-28 02:26:10,0.2024,Maternal Health Risk,Gaussian,,,0.6328
+DWN,2025-01-28 02:26:10,0.2217,Maternal Health Risk,Gaussian,,,0.6597
+DWN,2025-01-28 02:26:11,0.2300,Maternal Health Risk,Gaussian,,,0.6328
+DWN,2025-01-28 02:26:11,0.2145,Maternal Health Risk,Gaussian,,,0.6388
+DWN,2025-01-28 02:26:11,0.2097,Maternal Health Risk,Gaussian,,,0.6687
+DWN,2025-01-28 02:26:11,4.1902,MAGIC Gamma Telescope,Gaussian,,,0.7948
+DWN,2025-01-28 02:26:11,0.2122,Maternal Health Risk,Gaussian,,,0.6418
+DWN,2025-01-28 02:26:12,0.2294,Maternal Health Risk,Linear,,,0.6000
+DWN,2025-01-28 02:26:12,4.7447,MAGIC Gamma Telescope,Scatter Code,100,100,0.4658
+DWN,2025-01-28 02:26:12,0.1944,Maternal Health Risk,Linear,,,0.6448
+DWN,2025-01-28 02:26:12,0.2167,Maternal Health Risk,Linear,,,0.6567
+DWN,2025-01-28 02:26:12,0.2159,Maternal Health Risk,Linear,,,0.6776
+DWN,2025-01-28 02:26:12,0.2175,Maternal Health Risk,Linear,,,0.6746
+DWN,2025-01-28 02:26:13,3.9180,Maternal Health Risk,Gaussian,,,0.7942
+DWN,2025-01-28 02:26:13,0.2203,Maternal Health Risk,Linear,,,0.6119
+DWN,2025-01-28 02:26:13,0.1903,Maternal Health Risk,Linear,,,0.6985
+DWN,2025-01-28 02:26:13,0.2752,Maternal Health Risk,Linear,,,0.6896
+DWN,2025-01-28 02:26:13,0.2583,Maternal Health Risk,Linear,,,0.6388
+DWN,2025-01-28 02:26:14,0.2262,Maternal Health Risk,Linear,,,0.6866
+DWN,2025-01-28 02:26:14,0.2286,Maternal Health Risk,Scatter Code,100,50,0.3642
+DWN,2025-01-28 02:26:14,0.2204,Maternal Health Risk,Scatter Code,100,50,0.2537
+DWN,2025-01-28 02:26:14,0.2316,Maternal Health Risk,Scatter Code,100,50,0.3642
+DWN,2025-01-28 02:26:15,0.2283,Maternal Health Risk,Scatter Code,100,50,0.3642
+DWN,2025-01-28 02:26:15,0.2358,Maternal Health Risk,Scatter Code,100,50,0.3821
+DWN,2025-01-28 02:26:15,0.2494,Maternal Health Risk,Scatter Code,100,50,0.2537
+DWN,2025-01-28 02:26:15,0.2319,Maternal Health Risk,Scatter Code,100,50,0.3642
+DWN,2025-01-28 02:26:16,4.3117,MAGIC Gamma Telescope,Gaussian,,,0.8032
+DWN,2025-01-28 02:26:16,0.2130,Maternal Health Risk,Scatter Code,100,50,0.2537
+DWN,2025-01-28 02:26:16,0.2211,Maternal Health Risk,Scatter Code,100,50,0.3642
+DWN,2025-01-28 02:26:16,0.2523,Maternal Health Risk,Scatter Code,100,50,0.3642
+DWN,2025-01-28 02:26:16,0.0474,Glass Identification,Distributive,,,0.5634
+DWN,2025-01-28 02:26:16,0.0509,Glass Identification,Distributive,,,0.6479
+DWN,2025-01-28 02:26:17,0.0420,Glass Identification,Distributive,,,0.6479
+DWN,2025-01-28 02:26:17,4.7555,MAGIC Gamma Telescope,Scatter Code,100,100,0.5342
+DWN,2025-01-28 02:26:17,0.0562,Glass Identification,Distributive,,,0.6338
+DWN,2025-01-28 02:26:17,0.0450,Glass Identification,Distributive,,,0.6901
+DWN,2025-01-28 02:26:17,4.1040,Glass Identification,Gaussian,,,0.8012
+DWN,2025-01-28 02:26:17,0.0588,Glass Identification,Distributive,,,0.6479
+DWN,2025-01-28 02:26:17,0.0458,Glass Identification,Distributive,,,0.6761
+DWN,2025-01-28 02:26:17,0.0667,Glass Identification,Distributive,,,0.6761
+DWN,2025-01-28 02:26:17,0.0622,Glass Identification,Distributive,,,0.7183
+DWN,2025-01-28 02:26:17,0.0526,Glass Identification,Distributive,,,0.7183
+DWN,2025-01-28 02:26:17,0.0534,Glass Identification,Gaussian,,,0.6761
+DWN,2025-01-28 02:26:17,0.0473,Glass Identification,Gaussian,,,0.6338
+DWN,2025-01-28 02:26:17,0.0594,Glass Identification,Gaussian,,,0.6901
+DWN,2025-01-28 02:26:17,0.0622,Glass Identification,Gaussian,,,0.7042
+DWN,2025-01-28 02:26:17,0.0560,Glass Identification,Gaussian,,,0.6620
+DWN,2025-01-28 02:26:17,0.0628,Glass Identification,Gaussian,,,0.7042
+DWN,2025-01-28 02:26:17,0.0591,Glass Identification,Gaussian,,,0.6479
+DWN,2025-01-28 02:26:18,0.0564,Glass Identification,Gaussian,,,0.6761
+DWN,2025-01-28 02:26:18,0.0484,Glass Identification,Gaussian,,,0.7465
+DWN,2025-01-28 02:26:18,0.0408,Glass Identification,Gaussian,,,0.6901
+DWN,2025-01-28 02:26:18,0.0530,Glass Identification,Linear,,,0.6338
+DWN,2025-01-28 02:26:18,0.0594,Glass Identification,Linear,,,0.5775
+DWN,2025-01-28 02:26:18,0.0562,Glass Identification,Linear,,,0.5493
+DWN,2025-01-28 02:26:18,0.0547,Glass Identification,Linear,,,0.8310
+DWN,2025-01-28 02:26:18,0.0533,Glass Identification,Linear,,,0.6620
+DWN,2025-01-28 02:26:18,0.0457,Glass Identification,Linear,,,0.6620
+DWN,2025-01-28 02:26:18,0.0594,Glass Identification,Linear,,,0.7324
+DWN,2025-01-28 02:26:18,0.0527,Glass Identification,Linear,,,0.6620
+DWN,2025-01-28 02:26:18,0.0477,Glass Identification,Linear,,,0.6056
+DWN,2025-01-28 02:26:18,0.0546,Glass Identification,Linear,,,0.5775
+DWN,2025-01-28 02:26:18,0.0582,Glass Identification,Scatter Code,100,50,0.3099
+DWN,2025-01-28 02:26:18,0.0517,Glass Identification,Scatter Code,100,50,0.3521
+DWN,2025-01-28 02:26:19,0.0448,Glass Identification,Scatter Code,100,50,0.3099
+DWN,2025-01-28 02:26:19,0.0513,Glass Identification,Scatter Code,100,50,0.3099
+DWN,2025-01-28 02:26:19,0.0533,Glass Identification,Scatter Code,100,50,0.3521
+DWN,2025-01-28 02:26:19,0.0510,Glass Identification,Scatter Code,100,50,0.3521
+DWN,2025-01-28 02:26:19,0.0546,Glass Identification,Scatter Code,100,50,0.3521
+DWN,2025-01-28 02:26:19,0.0585,Glass Identification,Scatter Code,100,50,0.3099
+DWN,2025-01-28 02:26:19,0.0562,Glass Identification,Scatter Code,100,50,0.3521
+DWN,2025-01-28 02:26:19,0.0645,Glass Identification,Scatter Code,100,50,0.3521
+DWN,2025-01-28 02:26:20,4.7136,MAGIC Gamma Telescope,Gaussian,,,0.7939
+DWN,2025-01-28 02:26:21,4.4563,Glass Identification,Linear,,,0.7934
+DWN,2025-01-28 02:26:21,4.6625,MAGIC Gamma Telescope,Scatter Code,100,100,0.5344
+DWN,2025-01-28 02:26:25,4.9777,MAGIC Gamma Telescope,Gaussian,,,0.7919
+DWN,2025-01-28 02:26:26,4.5198,Glass Identification,Linear,,,0.7800
+DWN,2025-01-28 02:26:26,4.5998,MAGIC Gamma Telescope,Scatter Code,100,100,0.4656
+DWN,2025-01-28 02:26:30,4.6751,MAGIC Gamma Telescope,Gaussian,,,0.7931
+DWN,2025-01-28 02:26:30,4.5589,Glass Identification,Linear,,,0.7838
+DWN,2025-01-28 02:26:30,4.4696,MAGIC Gamma Telescope,Scatter Code,100,100,0.5344
+DWN,2025-01-28 02:26:35,4.2137,MAGIC Gamma Telescope,Scatter Code,100,100,0.5342
+DWN,2025-01-28 02:26:35,4.7740,Glass Identification,Linear,,,0.7846
+DWN,2025-01-28 02:26:36,6.4579,MAGIC Gamma Telescope,Linear,,,0.7462
+DWN,2025-01-28 02:26:39,4.7085,MAGIC Gamma Telescope,Scatter Code,100,100,0.4658
+DWN,2025-01-28 02:26:40,4.9250,Glass Identification,Linear,,,0.7749
+DWN,2025-01-28 02:26:41,4.9029,MAGIC Gamma Telescope,Linear,,,0.7919
+DWN,2025-01-28 02:26:44,4.5925,MAGIC Gamma Telescope,Scatter Code,100,100,0.5342
+DWN,2025-01-28 02:26:45,4.8372,Glass Identification,Linear,,,0.7765
+DWN,2025-01-28 02:26:46,5.1013,MAGIC Gamma Telescope,Linear,,,0.7652
+DWN,2025-01-28 02:26:49,5.0094,MAGIC Gamma Telescope,Scatter Code,100,100,0.5344
+DWN,2025-01-28 02:26:50,4.7602,Glass Identification,Linear,,,0.7645
+DWN,2025-01-28 02:26:52,5.0502,MAGIC Gamma Telescope,Linear,,,0.7856
+DWN,2025-01-28 02:26:54,4.6468,MAGIC Gamma Telescope,Scatter Code,100,100,0.4656
+DWN,2025-01-28 02:26:54,0.2032,Statlog (Vehicle Silhouettes),Distributive,,,0.6643
+DWN,2025-01-28 02:26:54,0.2026,Statlog (Vehicle Silhouettes),Distributive,,,0.7357
+DWN,2025-01-28 02:26:54,4.6370,Glass Identification,Linear,,,0.7819
+DWN,2025-01-28 02:26:54,0.2374,Statlog (Vehicle Silhouettes),Distributive,,,0.6679
+DWN,2025-01-28 02:26:55,0.1859,Statlog (Vehicle Silhouettes),Distributive,,,0.7250
+DWN,2025-01-28 02:26:55,0.2100,Statlog (Vehicle Silhouettes),Distributive,,,0.7071
+DWN,2025-01-28 02:26:55,0.2265,Statlog (Vehicle Silhouettes),Distributive,,,0.7107
+DWN,2025-01-28 02:26:55,0.1663,Statlog (Vehicle Silhouettes),Distributive,,,0.7036
+DWN,2025-01-28 02:26:55,0.1517,Statlog (Vehicle Silhouettes),Distributive,,,0.7393
+DWN,2025-01-28 02:26:56,0.1648,Statlog (Vehicle Silhouettes),Distributive,,,0.7107
+DWN,2025-01-28 02:26:56,0.1681,Statlog (Vehicle Silhouettes),Distributive,,,0.7286
+DWN,2025-01-28 02:26:56,4.4173,Statlog (Vehicle Silhouettes),Linear,,,0.7779
+DWN,2025-01-28 02:26:56,0.1559,Statlog (Vehicle Silhouettes),Gaussian,,,0.6893
+DWN,2025-01-28 02:26:56,0.1489,Statlog (Vehicle Silhouettes),Gaussian,,,0.7107
+DWN,2025-01-28 02:26:56,0.1657,Statlog (Vehicle Silhouettes),Gaussian,,,0.6714
+DWN,2025-01-28 02:26:56,0.1677,Statlog (Vehicle Silhouettes),Gaussian,,,0.7250
+DWN,2025-01-28 02:26:57,0.1677,Statlog (Vehicle Silhouettes),Gaussian,,,0.7000
+DWN,2025-01-28 02:26:57,0.1599,Statlog (Vehicle Silhouettes),Gaussian,,,0.7036
+DWN,2025-01-28 02:26:57,0.1667,Statlog (Vehicle Silhouettes),Gaussian,,,0.7250
+DWN,2025-01-28 02:26:57,0.1777,Statlog (Vehicle Silhouettes),Gaussian,,,0.7286
+DWN,2025-01-28 02:26:57,0.1686,Statlog (Vehicle Silhouettes),Gaussian,,,0.7143
+DWN,2025-01-28 02:26:58,0.1918,Statlog (Vehicle Silhouettes),Gaussian,,,0.7036
+DWN,2025-01-28 02:26:58,3.2974,Glass Identification,Linear,,,0.7629
+DWN,2025-01-28 02:26:58,0.2170,Statlog (Vehicle Silhouettes),Linear,,,0.6107
+DWN,2025-01-28 02:26:58,0.2077,Statlog (Vehicle Silhouettes),Linear,,,0.6357
+DWN,2025-01-28 02:26:58,0.2826,Statlog (Vehicle Silhouettes),Linear,,,0.6321
+DWN,2025-01-28 02:26:59,0.2142,Statlog (Vehicle Silhouettes),Linear,,,0.6357
+DWN,2025-01-28 02:26:59,0.2265,Statlog (Vehicle Silhouettes),Linear,,,0.7393
+DWN,2025-01-28 02:26:59,0.1999,Statlog (Vehicle Silhouettes),Linear,,,0.7250
+DWN,2025-01-28 02:26:59,0.2079,Statlog (Vehicle Silhouettes),Linear,,,0.7071
+DWN,2025-01-28 02:26:59,0.1939,Statlog (Vehicle Silhouettes),Linear,,,0.7179
+DWN,2025-01-28 02:27:00,0.2330,Statlog (Vehicle Silhouettes),Linear,,,0.7250
+DWN,2025-01-28 02:27:00,3.8252,Statlog (Vehicle Silhouettes),Linear,,,0.7884
+DWN,2025-01-28 02:27:00,0.2131,Statlog (Vehicle Silhouettes),Linear,,,0.6964
+DWN,2025-01-28 02:27:00,0.3043,Statlog (Vehicle Silhouettes),Scatter Code,100,100,0.2000
+DWN,2025-01-28 02:27:01,0.2993,Statlog (Vehicle Silhouettes),Scatter Code,100,100,0.2821
+DWN,2025-01-28 02:27:01,0.2850,Statlog (Vehicle Silhouettes),Scatter Code,100,100,0.2250
+DWN,2025-01-28 02:27:01,0.2710,Statlog (Vehicle Silhouettes),Scatter Code,100,100,0.2821
+DWN,2025-01-28 02:27:02,0.2600,Statlog (Vehicle Silhouettes),Scatter Code,100,100,0.2929
+DWN,2025-01-28 02:27:02,0.2887,Statlog (Vehicle Silhouettes),Scatter Code,100,100,0.2821
+DWN,2025-01-28 02:27:02,0.2809,Statlog (Vehicle Silhouettes),Scatter Code,100,100,0.2000
+DWN,2025-01-28 02:27:02,4.5885,Glass Identification,Linear,,,0.7386
+DWN,2025-01-28 02:27:02,0.2998,Statlog (Vehicle Silhouettes),Scatter Code,100,100,0.2821
+DWN,2025-01-28 02:27:03,0.3044,Statlog (Vehicle Silhouettes),Scatter Code,100,100,0.2929
+DWN,2025-01-28 02:27:03,0.2819,Statlog (Vehicle Silhouettes),Scatter Code,100,100,0.2250
+DWN,2025-01-28 02:27:04,0.2768,Maternal Health Risk,Distributive,,,0.6478
+DWN,2025-01-28 02:27:04,4.5348,Maternal Health Risk,Linear,,,0.7916
+DWN,2025-01-28 02:27:04,0.3038,Maternal Health Risk,Distributive,,,0.6537
+DWN,2025-01-28 02:27:05,0.3095,Maternal Health Risk,Distributive,,,0.6896
+DWN,2025-01-28 02:27:05,0.3022,Maternal Health Risk,Distributive,,,0.6896
+DWN,2025-01-28 02:27:05,0.2954,Maternal Health Risk,Distributive,,,0.6925
+DWN,2025-01-28 02:27:06,0.2885,Maternal Health Risk,Distributive,,,0.6866
+DWN,2025-01-28 02:27:06,0.2065,Maternal Health Risk,Distributive,,,0.7134
+DWN,2025-01-28 02:27:06,0.2525,Maternal Health Risk,Distributive,,,0.7104
+DWN,2025-01-28 02:27:06,3.8450,MNIST,Scatter Code,100,50,0.6486
+DWN,2025-01-28 02:27:06,0.2000,Maternal Health Risk,Distributive,,,0.6985
+DWN,2025-01-28 02:27:06,0.1834,Maternal Health Risk,Distributive,,,0.7493
+DWN,2025-01-28 02:27:07,0.1952,Maternal Health Risk,Gaussian,,,0.6627
+DWN,2025-01-28 02:27:07,0.1923,Maternal Health Risk,Gaussian,,,0.6478
+DWN,2025-01-28 02:27:07,0.1676,Maternal Health Risk,Gaussian,,,0.6030
+DWN,2025-01-28 02:27:07,0.1886,Maternal Health Risk,Gaussian,,,0.6328
+DWN,2025-01-28 02:27:08,3.3115,Maternal Health Risk,Linear,,,0.7762
+DWN,2025-01-28 02:27:09,1.6452,Maternal Health Risk,Gaussian,,,0.6239
+DWN,2025-01-28 02:27:10,0.7650,Maternal Health Risk,Gaussian,,,0.6478
+DWN,2025-01-28 02:27:10,3.6518,MNIST,Scatter Code,100,50,0.3514
+DWN,2025-01-28 02:27:10,0.7347,Maternal Health Risk,Gaussian,,,0.6388
+DWN,2025-01-28 02:27:11,0.7300,Maternal Health Risk,Gaussian,,,0.6119
+DWN,2025-01-28 02:27:12,0.7868,Maternal Health Risk,Gaussian,,,0.6716
+DWN,2025-01-28 02:27:13,0.8391,Maternal Health Risk,Gaussian,,,0.6776
+DWN,2025-01-28 02:27:14,0.7380,Maternal Health Risk,Linear,,,0.6597
+DWN,2025-01-28 02:27:14,0.7366,Maternal Health Risk,Linear,,,0.6478
+DWN,2025-01-28 02:27:15,0.8875,Maternal Health Risk,Linear,,,0.6507
+DWN,2025-01-28 02:27:16,0.7407,Maternal Health Risk,Linear,,,0.6866
+DWN,2025-01-28 02:27:17,0.7318,Maternal Health Risk,Linear,,,0.6478
+DWN,2025-01-28 02:27:18,0.8056,Maternal Health Risk,Linear,,,0.6507
+DWN,2025-01-28 02:27:18,0.8426,Maternal Health Risk,Linear,,,0.6657
+DWN,2025-01-28 02:27:19,11.2696,Maternal Health Risk,Linear,,,0.7438
+DWN,2025-01-28 02:27:19,0.7334,Maternal Health Risk,Linear,,,0.6955
+DWN,2025-01-28 02:27:20,10.1361,MNIST,Scatter Code,100,50,0.6486
+DWN,2025-01-28 02:27:20,0.7668,Maternal Health Risk,Linear,,,0.6716
+DWN,2025-01-28 02:27:21,0.7658,Maternal Health Risk,Linear,,,0.6627
+DWN,2025-01-28 02:27:22,0.8677,Maternal Health Risk,Scatter Code,100,100,0.6448
+DWN,2025-01-28 02:27:23,0.9657,Maternal Health Risk,Scatter Code,100,100,0.5910
+DWN,2025-01-28 02:27:24,0.8847,Maternal Health Risk,Scatter Code,100,100,0.6448
+DWN,2025-01-28 02:27:24,0.8146,Maternal Health Risk,Scatter Code,100,100,0.6358
+DWN,2025-01-28 02:27:25,0.7757,Maternal Health Risk,Scatter Code,100,100,0.6657
+DWN,2025-01-28 02:27:26,0.7682,Maternal Health Risk,Scatter Code,100,100,0.6119
+DWN,2025-01-28 02:27:27,0.7964,Maternal Health Risk,Scatter Code,100,100,0.6507
+DWN,2025-01-28 02:27:28,0.7414,Maternal Health Risk,Scatter Code,100,100,0.6776
+DWN,2025-01-28 02:27:28,0.7684,Maternal Health Risk,Scatter Code,100,100,0.6507
+DWN,2025-01-28 02:27:29,0.7981,Maternal Health Risk,Scatter Code,100,100,0.6716
+DWN,2025-01-28 02:27:30,0.1709,Glass Identification,Distributive,,,0.5915
+DWN,2025-01-28 02:27:30,0.1699,Glass Identification,Distributive,,,0.6761
+DWN,2025-01-28 02:27:30,10.3594,MNIST,Scatter Code,100,50,0.3514
+DWN,2025-01-28 02:27:30,11.4183,Glass Identification,Linear,,,0.7814
+DWN,2025-01-28 02:27:30,0.1741,Glass Identification,Distributive,,,0.6479
+DWN,2025-01-28 02:27:31,0.3001,Glass Identification,Distributive,,,0.6620
+DWN,2025-01-28 02:27:31,0.1872,Glass Identification,Distributive,,,0.6479
+DWN,2025-01-28 02:27:31,0.2092,Glass Identification,Distributive,,,0.7042
+DWN,2025-01-28 02:27:31,0.1996,Glass Identification,Distributive,,,0.7042
+DWN,2025-01-28 02:27:32,0.1731,Glass Identification,Distributive,,,0.7465
+DWN,2025-01-28 02:27:32,0.1998,Glass Identification,Distributive,,,0.7465
+DWN,2025-01-28 02:27:32,0.1972,Glass Identification,Distributive,,,0.7465
+DWN,2025-01-28 02:27:32,0.2049,Glass Identification,Gaussian,,,0.5070
+DWN,2025-01-28 02:27:32,0.2091,Glass Identification,Gaussian,,,0.6056
+DWN,2025-01-28 02:27:33,0.2115,Glass Identification,Gaussian,,,0.6901
+DWN,2025-01-28 02:27:33,0.1879,Glass Identification,Gaussian,,,0.7042
+DWN,2025-01-28 02:27:33,0.1621,Glass Identification,Gaussian,,,0.6761
+DWN,2025-01-28 02:27:33,0.2129,Glass Identification,Gaussian,,,0.6338
+DWN,2025-01-28 02:27:34,0.1715,Glass Identification,Gaussian,,,0.6901
+DWN,2025-01-28 02:27:34,0.2142,Glass Identification,Gaussian,,,0.6338
+DWN,2025-01-28 02:27:34,0.2187,Glass Identification,Gaussian,,,0.7324
+DWN,2025-01-28 02:27:34,0.2474,Glass Identification,Gaussian,,,0.7465
+DWN,2025-01-28 02:27:35,0.2094,Glass Identification,Linear,,,0.6620
+DWN,2025-01-28 02:27:35,0.2183,Glass Identification,Linear,,,0.5915
+DWN,2025-01-28 02:27:35,0.2732,Glass Identification,Linear,,,0.6620
+DWN,2025-01-28 02:27:35,0.2484,Glass Identification,Linear,,,0.6761
+DWN,2025-01-28 02:27:36,0.2089,Glass Identification,Linear,,,0.6479
+DWN,2025-01-28 02:27:36,0.1793,Glass Identification,Linear,,,0.6901
+DWN,2025-01-28 02:27:36,0.1894,Glass Identification,Linear,,,0.7042
+DWN,2025-01-28 02:27:36,0.1768,Glass Identification,Linear,,,0.6620
+DWN,2025-01-28 02:27:36,0.1848,Glass Identification,Linear,,,0.7042
+DWN,2025-01-28 02:27:37,0.1760,Glass Identification,Linear,,,0.7183
+DWN,2025-01-28 02:27:37,0.1878,Glass Identification,Scatter Code,100,100,0.4789
+DWN,2025-01-28 02:27:37,0.1626,Glass Identification,Scatter Code,100,100,0.3944
+DWN,2025-01-28 02:27:37,0.1897,Glass Identification,Scatter Code,100,100,0.5915
+DWN,2025-01-28 02:27:38,0.1841,Glass Identification,Scatter Code,100,100,0.5352
+DWN,2025-01-28 02:27:38,0.1985,Glass Identification,Scatter Code,100,100,0.6056
+DWN,2025-01-28 02:27:38,0.1723,Glass Identification,Scatter Code,100,100,0.5634
+DWN,2025-01-28 02:27:38,0.1942,Glass Identification,Scatter Code,100,100,0.5070
+DWN,2025-01-28 02:27:38,0.1938,Glass Identification,Scatter Code,100,100,0.6197
+DWN,2025-01-28 02:27:39,0.1978,Glass Identification,Scatter Code,100,100,0.5493
+DWN,2025-01-28 02:27:39,0.1824,Glass Identification,Scatter Code,100,100,0.6479
+DWN,2025-01-28 02:27:42,11.9358,MNIST,Scatter Code,100,50,0.3514
+DWN,2025-01-28 02:27:43,12.4563,Glass Identification,Scatter Code,100,100,0.7150
+DWN,2025-01-28 02:27:54,11.9993,MNIST,Scatter Code,100,50,0.6486
+DWN,2025-01-28 02:27:56,12.6450,Glass Identification,Scatter Code,100,100,0.7543
+DWN,2025-01-28 02:28:06,12.1413,MNIST,Scatter Code,100,50,0.3514
+DWN,2025-01-28 02:28:08,12.4241,Glass Identification,Scatter Code,100,100,0.7477
+DWN,2025-01-28 02:28:13,64.6307,MNIST,Distributive,,,0.9577
+DWN,2025-01-28 02:28:18,11.5678,MNIST,Scatter Code,100,50,0.3514
+DWN,2025-01-28 02:28:20,12.2004,Glass Identification,Scatter Code,100,100,0.7735
