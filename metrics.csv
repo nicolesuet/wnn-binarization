@@ -1864,7 +1864,7 @@ DWN,2025-01-28 01:38:08,0.0443,Glass Identification,Linear,,,0.6620
 DWN,2025-01-28 01:38:08,0.2056,Maternal Health Risk,Distributive,,,0.7224
 DWN,2025-01-28 01:38:09,0.0410,Glass Identification,Linear,,,0.6479
 DWN,2025-01-28 01:38:09,0.1925,Maternal Health Risk,Gaussian,,,0.7357
-DWN,2025-01-28 01:38:09,0.0409,Glass IdentifiDWN,2025-01-28 01:38:09,0.1803,Glass Identification,Gaussian,,,0.6478
+DWN,2025-01-28 01:38:09,0.1803,Glass Identification,Gaussian,,,0.6478
 DWN,2025-01-28 01:38:09,0.0373,Glass Identification,Linear,,,0.6479
 DWN,2025-01-28 01:38:09,0.1704,Maternal Health Risk,Distributive,,,0.7104
 DWN,2025-01-28 01:38:09,0.1441,Maternal Health Risk,Gaussian,,,0.7786
@@ -2569,3 +2569,651 @@ DWN,2025-01-28 02:28:08,12.4241,Glass Identification,Scatter Code,100,100,0.7477
 DWN,2025-01-28 02:28:13,64.6307,MNIST,Distributive,,,0.9577
 DWN,2025-01-28 02:28:18,11.5678,MNIST,Scatter Code,100,50,0.3514
 DWN,2025-01-28 02:28:20,12.2004,Glass Identification,Scatter Code,100,100,0.7735
+Wisard,2025-01-28 12:40:36,0.0102,Ecoli,Distributive,,,91.07
+Wisard,2025-01-28 12:40:36,0.0106,Ecoli,Distributive,,,90.48
+Wisard,2025-01-28 12:40:36,0.0080,Ecoli,Gaussian,,,91.67
+Wisard,2025-01-28 12:40:36,0.0097,Ecoli,Gaussian,,,90.48
+Wisard,2025-01-28 12:40:36,0.0052,Ecoli,Linear,,,87.5
+Wisard,2025-01-28 12:40:36,0.0100,Ecoli,Distributive,,,89.88
+Wisard,2025-01-28 12:40:36,0.0119,Ecoli,Linear,,,90.48
+Wisard,2025-01-28 12:40:36,0.0046,Ecoli,Gaussian,,,91.07
+Wisard,2025-01-28 12:40:36,0.0388,Ecoli,Scatter Code,50,200,91.96
+Wisard,2025-01-28 12:40:36,0.0174,Ecoli,Scatter Code,50,50,90.77
+Wisard,2025-01-28 12:40:36,0.0104,Ecoli,Linear,,,89.88
+Wisard,2025-01-28 12:40:36,0.0329,Ecoli,Scatter Code,100,200,93.45
+Wisard,2025-01-28 12:40:36,0.0030,Glass Identification,Distributive,,,88.32
+Wisard,2025-01-28 12:40:36,0.0037,Glass Identification,Gaussian,,,82.71
+Wisard,2025-01-28 12:40:36,0.0039,Glass Identification,Linear,,,71.96
+Wisard,2025-01-28 12:40:36,0.0298,Glass Identification,Scatter Code,50,100,60.28
+Wisard,2025-01-28 12:40:36,0.0044,Ecoli,Distributive,,,90.77
+Wisard,2025-01-28 12:40:36,0.0046,Ecoli,Gaussian,,,89.88
+Wisard,2025-01-28 12:40:36,0.0062,Ecoli,Linear,,,89.88
+Wisard,2025-01-28 12:40:36,0.0187,Ecoli,Scatter Code,100,100,93.45
+Wisard,2025-01-28 12:40:36,0.0102,Maternal Health Risk,Distributive,,,78.99
+Wisard,2025-01-28 12:40:36,0.0082,Maternal Health Risk,Gaussian,,,73.18
+Wisard,2025-01-28 12:40:36,0.0082,Maternal Health Risk,Linear,,,71.89
+Wisard,2025-01-28 12:40:36,0.1077,Maternal Health Risk,Scatter Code,50,200,70.71
+Wisard,2025-01-28 12:40:37,0.0036,Ecoli,Distributive,,,96.0
+Wisard,2025-01-28 12:40:37,0.0152,Maternal Health Risk,Distributive,,,89.88
+Wisard,2025-01-28 12:40:37,0.0141,Iris,Distributive,,,90.65
+Wisard,2025-01-28 12:40:37,0.0135,Iris,Distributive,,,88.99
+Wisard,2025-01-28 12:40:37,0.0031,Maternal Health Risk,Distributive,,,96.0
+Wisard,2025-01-28 12:40:37,0.0089,Ecoli,Distributive,,,90.19
+Wisard,2025-01-28 12:40:37,0.0022,Ecoli,Gaussian,,,96.67
+Wisard,2025-01-28 12:40:37,0.0091,Maternal Health Risk,Distributive,,,89.72
+Wisard,2025-01-28 12:40:37,0.0068,Glass Identification,Distributive,,,94.67
+Wisard,2025-01-28 12:40:37,0.0069,Glass Identification,Distributive,,,88.32
+Wisard,2025-01-28 12:40:37,0.0048,Maternal Health Risk,Distributive,,,96.67
+Wisard,2025-01-28 12:40:37,0.0066,Maternal Health Risk,Gaussian,,,91.37
+Wisard,2025-01-28 12:40:37,0.0046,Wine Quality,Gaussian,,,90.48
+Wisard,2025-01-28 12:40:37,0.0130,Wine Quality,Gaussian,,,85.51
+Wisard,2025-01-28 12:40:37,0.0066,Maternal Health Risk,Distributive,,,90.18
+Wisard,2025-01-28 12:40:37,0.0032,Maternal Health Risk,Distributive,,,96.67
+Wisard,2025-01-28 12:40:37,0.0059,Wine Quality,Distributive,,,96.0
+Wisard,2025-01-28 12:40:37,0.0102,Maternal Health Risk,Gaussian,,,84.11
+Wisard,2025-01-28 12:40:37,0.0144,Maternal Health Risk,Distributive,,,89.25
+Wisard,2025-01-28 12:40:37,0.0042,Maternal Health Risk,Gaussian,,,96.67
+Wisard,2025-01-28 12:40:37,0.0241,Maternal Health Risk,Distributive,,,89.25
+Wisard,2025-01-28 12:40:37,0.0064,Maternal Health Risk,Distributive,,,92.56
+Wisard,2025-01-28 12:40:37,0.0057,Maternal Health Risk,Linear,,,98.0
+Wisard,2025-01-28 12:40:37,0.0075,Maternal Health Risk,Gaussian,,,84.11
+Wisard,2025-01-28 12:40:37,0.0022,Glass Identification,Distributive,,,96.67
+Wisard,2025-01-28 12:40:37,0.0051,Glass Identification,Gaussian,,,96.0
+Wisard,2025-01-28 12:40:37,0.0019,Ecoli,Distributive,,,96.0
+Wisard,2025-01-28 12:40:37,0.0045,Maternal Health Risk,Gaussian,,,96.67
+Wisard,2025-01-28 12:40:37,0.0082,Glass Identification,Gaussian,,,84.11
+Wisard,2025-01-28 12:40:37,0.0056,Ecoli,Distributive,,,92.52
+Wisard,2025-01-28 12:40:37,0.0194,Iris,Distributive,,,77.81
+Wisard,2025-01-28 12:40:37,0.0111,Maternal Health Risk,Linear,,,89.29
+Wisard,2025-01-28 12:40:37,0.0060,Wine Quality,Linear,,,91.37
+Wisard,2025-01-28 12:40:37,0.0227,Iris,Gaussian,,,90.77
+Wisard,2025-01-28 12:40:37,0.0020,Maternal Health Risk,Gaussian,,,98.67
+Wisard,2025-01-28 12:40:37,0.0173,Wine Quality,Linear,,,74.77
+Wisard,2025-01-28 12:40:37,0.0160,Maternal Health Risk,Distributive,,,79.39
+Wisard,2025-01-28 12:40:37,0.0054,Maternal Health Risk,Linear,,,98.0
+Wisard,2025-01-28 12:40:37,0.0037,Wine Quality,Gaussian,,,98.0
+Wisard,2025-01-28 12:40:37,0.0131,Maternal Health Risk,Linear,,,79.91
+Wisard,2025-01-28 12:40:37,0.0182,Maternal Health Risk,Gaussian,,,86.92
+Wisard,2025-01-28 12:40:37,0.0135,Maternal Health Risk,Gaussian,,,87.85
+Wisard,2025-01-28 12:40:37,0.0292,Maternal Health Risk,Gaussian,,,91.96
+Wisard,2025-01-28 12:40:37,0.0178,Statlog (Vehicle Silhouettes),Linear,,,75.23
+Wisard,2025-01-28 12:40:37,0.0343,Maternal Health Risk,Distributive,,,78.5
+Wisard,2025-01-28 12:40:37,0.0052,Glass Identification,Gaussian,,,97.33
+Wisard,2025-01-28 12:40:37,0.0190,Ecoli,Distributive,,,79.59
+Wisard,2025-01-28 12:40:37,0.0130,Maternal Health Risk,Scatter Code,10,200,94.67
+Wisard,2025-01-28 12:40:37,0.0035,Glass Identification,Linear,,,96.67
+Wisard,2025-01-28 12:40:37,0.0120,Glass Identification,Distributive,,,79.59
+Wisard,2025-01-28 12:40:37,0.0082,Glass Identification,Distributive,,,91.59
+Wisard,2025-01-28 12:40:37,0.0082,Statlog (Vehicle Silhouettes),Distributive,,,89.58
+Wisard,2025-01-28 12:40:37,0.0031,Statlog (Vehicle Silhouettes),Gaussian,,,98.0
+Wisard,2025-01-28 12:40:37,0.0030,Maternal Health Risk,Linear,,,97.33
+Wisard,2025-01-28 12:40:37,0.0070,Glass Identification,Linear,,,75.7
+Wisard,2025-01-28 12:40:37,0.0051,Statlog (Vehicle Silhouettes),Gaussian,,,85.05
+Wisard,2025-01-28 12:40:37,0.1165,Maternal Health Risk,Distributive,,,61.23
+Wisard,2025-01-28 12:40:37,0.0191,Statlog (Vehicle Silhouettes),Gaussian,,,76.82
+Wisard,2025-01-28 12:40:37,0.0111,Statlog (Vehicle Silhouettes),Linear,,,87.2
+Wisard,2025-01-28 12:40:37,0.0426,Statlog (Vehicle Silhouettes),Scatter Code,10,50,90.48
+Wisard,2025-01-28 12:40:37,0.0126,Maternal Health Risk,Linear,,,95.33
+Wisard,2025-01-28 12:40:37,0.0400,Maternal Health Risk,Scatter Code,10,100,91.67
+Wisard,2025-01-28 12:40:38,0.0564,Maternal Health Risk,Scatter Code,10,100,37.85
+Wisard,2025-01-28 12:40:38,0.0036,Statlog (Vehicle Silhouettes),Scatter Code,10,50,94.67
+Wisard,2025-01-28 12:40:38,0.0698,Statlog (Vehicle Silhouettes),Linear,,,98.0
+Wisard,2025-01-28 12:40:38,0.0837,Statlog (Vehicle Silhouettes),Gaussian,,,76.33
+Wisard,2025-01-28 12:40:38,0.1059,Maternal Health Risk,Scatter Code,10,200,37.85
+Wisard,2025-01-28 12:40:38,0.0994,Maternal Health Risk,Linear,,,88.39
+Wisard,2025-01-28 12:40:38,0.0124,Statlog (Vehicle Silhouettes),Linear,,,71.5
+Wisard,2025-01-28 12:40:38,0.1149,Maternal Health Risk,Distributive,,,77.12
+Wisard,2025-01-28 12:40:38,0.0033,Statlog (Vehicle Silhouettes),Linear,,,98.67
+Wisard,2025-01-28 12:40:38,0.0073,Statlog (Vehicle Silhouettes),Linear,,,75.7
+Wisard,2025-01-28 12:40:38,0.0294,Statlog (Vehicle Silhouettes),Scatter Code,10,50,38.32
+Wisard,2025-01-28 12:40:38,0.0517,Statlog (Vehicle Silhouettes),Gaussian,,,74.95
+Wisard,2025-01-28 12:40:38,0.0550,Statlog (Vehicle Silhouettes),Gaussian,,,75.54
+Wisard,2025-01-28 12:40:38,0.0080,Statlog (Vehicle Silhouettes),Scatter Code,50,200,97.33
+Wisard,2025-01-28 12:40:38,0.0127,Statlog (Vehicle Silhouettes),Gaussian,,,89.58
+Wisard,2025-01-28 12:40:38,0.0085,Statlog (Vehicle Silhouettes),Linear,,,96.67
+Wisard,2025-01-28 12:40:38,0.0139,Statlog (Vehicle Silhouettes),Gaussian,,,74.46
+Wisard,2025-01-28 12:40:38,0.0116,Statlog (Vehicle Silhouettes),Gaussian,,,83.18
+Wisard,2025-01-28 12:40:38,0.0064,Statlog (Vehicle Silhouettes),Scatter Code,50,50,95.33
+Wisard,2025-01-28 12:40:38,0.0537,Statlog (Vehicle Silhouettes),Scatter Code,50,200,62.15
+Wisard,2025-01-28 12:40:38,0.0037,Statlog (Vehicle Silhouettes),Linear,,,77.1
+Wisard,2025-01-28 12:40:38,0.0176,Statlog (Vehicle Silhouettes),Distributive,,,78.99
+Wisard,2025-01-28 12:40:38,0.0042,Statlog (Vehicle Silhouettes),Distributive,,,94.0
+Wisard,2025-01-28 12:40:38,0.1192,Statlog (Vehicle Silhouettes),Gaussian,,,59.27
+Wisard,2025-01-28 12:40:38,0.0186,Statlog (Vehicle Silhouettes),Linear,,,71.5
+Wisard,2025-01-28 12:40:38,0.0340,Statlog (Vehicle Silhouettes),Scatter Code,50,100,91.67
+Wisard,2025-01-28 12:40:38,0.0180,Statlog (Vehicle Silhouettes),Scatter Code,100,200,98.67
+Wisard,2025-01-28 12:40:38,0.0697,Statlog (Vehicle Silhouettes),Distributive,,,86.17
+Wisard,2025-01-28 12:40:38,0.0128,Statlog (Vehicle Silhouettes),Scatter Code,10,100,94.0
+Wisard,2025-01-28 12:40:38,0.0230,Statlog (Vehicle Silhouettes),Linear,,,72.39
+Wisard,2025-01-28 12:40:38,0.0492,Statlog (Vehicle Silhouettes),Gaussian,,,76.63
+Wisard,2025-01-28 12:40:38,0.0474,Statlog (Vehicle Silhouettes),Scatter Code,10,200,93.45
+Wisard,2025-01-28 12:40:38,0.0358,Statlog (Vehicle Silhouettes),Scatter Code,100,100,97.33
+Wisard,2025-01-28 12:40:39,0.2684,Statlog (Vehicle Silhouettes),Scatter Code,50,50,61.68
+Wisard,2025-01-28 12:40:39,0.2928,Statlog (Vehicle Silhouettes),Linear,,,72.88
+Wisard,2025-01-28 12:40:39,0.2920,Statlog (Vehicle Silhouettes),Scatter Code,100,200,61.21
+Wisard,2025-01-28 12:40:39,0.0230,Wine Quality,Linear,,,73.18
+Wisard,2025-01-28 12:40:39,0.0127,Wine Quality,Linear,,,89.58
+Wisard,2025-01-28 12:40:39,0.0041,Statlog (Vehicle Silhouettes),Linear,,,75.23
+Wisard,2025-01-28 12:40:39,0.0213,Statlog (Vehicle Silhouettes),Linear,,,72.88
+Wisard,2025-01-28 12:40:39,0.0126,Wine Quality,Scatter Code,100,50,33.33
+Wisard,2025-01-28 12:40:39,0.0012,Wine Quality,Gaussian,,,98.0
+Wisard,2025-01-28 12:40:39,0.0134,Wine Quality,Gaussian,,,74.56
+Wisard,2025-01-28 12:40:39,0.0388,Wine Quality,Scatter Code,100,50,35.51
+Wisard,2025-01-28 12:40:39,0.0440,Statlog (Vehicle Silhouettes),Distributive,,,78.21
+Wisard,2025-01-28 12:40:39,0.4037,Statlog (Vehicle Silhouettes),Linear,,,48.67
+Wisard,2025-01-28 12:40:39,0.0699,Wine Quality,Scatter Code,50,100,68.54
+Wisard,2025-01-28 12:40:39,0.0829,Statlog (Vehicle Silhouettes),Distributive,,,87.35
+Wisard,2025-01-28 12:40:39,0.0257,Wine Quality,Gaussian,,,84.04
+Wisard,2025-01-28 12:40:39,0.0389,Statlog (Vehicle Silhouettes),Distributive,,,87.0
+Wisard,2025-01-28 12:40:39,0.0498,Wine Quality,Distributive,,,85.11
+Wisard,2025-01-28 12:40:39,0.0272,Wine Quality,Distributive,,,88.53
+Wisard,2025-01-28 12:40:39,0.0597,Wine Quality,Linear,,,70.02
+Wisard,2025-01-28 12:40:39,0.0638,Wine Quality,Distributive,,,88.89
+Wisard,2025-01-28 12:40:39,0.0564,Wine Quality,Scatter Code,10,50,59.96
+Wisard,2025-01-28 12:40:39,0.0539,Wine Quality,Scatter Code,50,50,65.48
+Wisard,2025-01-28 12:40:40,0.2190,Wine Quality,Scatter Code,100,50,40.04
+Wisard,2025-01-28 12:40:40,0.0842,Wine Quality,Scatter Code,100,100,62.15
+Wisard,2025-01-28 12:40:40,0.0586,Wine Quality,Scatter Code,100,50,42.56
+Wisard,2025-01-28 12:40:40,0.0779,Statlog (Vehicle Silhouettes),Distributive,,,87.94
+Wisard,2025-01-28 12:40:40,0.0866,Wine Quality,Scatter Code,100,100,65.48
+Wisard,2025-01-28 12:40:40,0.0104,Wine Quality,Linear,,,98.0
+Wisard,2025-01-28 12:40:40,0.0799,Wine Quality,Distributive,,,87.35
+Wisard,2025-01-28 12:40:40,0.0244,Wine Quality,Linear,,,73.87
+Wisard,2025-01-28 12:40:40,0.0166,Statlog (Vehicle Silhouettes),Gaussian,,,75.74
+Wisard,2025-01-28 12:40:40,0.0213,Wine Quality,Distributive,,,88.18
+Wisard,2025-01-28 12:40:40,0.1546,EEG Eye State,Gaussian,,,82.62
+Wisard,2025-01-28 12:40:55,14.3914,Optical Recognition of Handwritten Digits,Linear,,,66.43
+Wisard,2025-01-28 12:40:55,0.0820,Optical Recognition of Handwritten Digits,Gaussian,,,83.69
+Wisard,2025-01-28 12:40:55,14.5954,Optical Recognition of Handwritten Digits,Scatter Code,10,100,42.94
+Wisard,2025-01-28 12:40:55,0.0427,Wine Quality,Gaussian,,,83.45
+Wisard,2025-01-28 12:40:55,0.1523,Optical Recognition of Handwritten Digits,Gaussian,,,83.92
+Wisard,2025-01-28 12:40:55,0.2897,EEG Eye State,Gaussian,,,83.57
+Wisard,2025-01-28 12:40:55,0.1721,EEG Eye State,Scatter Code,10,200,65.98
+Wisard,2025-01-28 12:40:55,0.2856,Optical Recognition of Handwritten Digits,Distributive,,,63.24
+Wisard,2025-01-28 12:40:55,0.0551,Wine Quality,Gaussian,,,84.75
+Wisard,2025-01-28 12:40:55,0.0083,Optical Recognition of Handwritten Digits,Scatter Code,50,100,98.0
+Wisard,2025-01-28 12:40:55,0.0341,Wine Quality,Gaussian,,,86.41
+Wisard,2025-01-28 12:40:56,0.2005,Optical Recognition of Handwritten Digits,Scatter Code,100,200,70.41
+Wisard,2025-01-28 12:40:56,0.1205,Optical Recognition of Handwritten Digits,Distributive,,,62.31
+Wisard,2025-01-28 12:40:56,0.1287,MAGIC Gamma Telescope,Linear,,,72.19
+Wisard,2025-01-28 12:40:56,0.1038,Optical Recognition of Handwritten Digits,Distributive,,,63.2
+Wisard,2025-01-28 12:40:56,0.0202,Optical Recognition of Handwritten Digits,Gaussian,,,84.28
+Wisard,2025-01-28 12:40:56,0.0220,EEG Eye State,Linear,,,65.84
+Wisard,2025-01-28 12:40:56,0.0309,MAGIC Gamma Telescope,Linear,,,68.32
+Wisard,2025-01-28 12:40:57,1.0736,MAGIC Gamma Telescope,Scatter Code,10,50,25.06
+Wisard,2025-01-28 12:40:57,1.1810,EEG Eye State,Distributive,,,62.97
+Wisard,2025-01-28 12:40:57,0.1353,MAGIC Gamma Telescope,Distributive,,,63.18
+Wisard,2025-01-28 12:40:57,0.0539,Optical Recognition of Handwritten Digits,Linear,,,62.17
+Wisard,2025-01-28 12:40:57,0.0347,Optical Recognition of Handwritten Digits,Linear,,,61.47
+Wisard,2025-01-28 12:40:57,0.0367,MAGIC Gamma Telescope,Linear,,,68.79
+Wisard,2025-01-28 12:40:57,0.2738,MAGIC Gamma Telescope,Gaussian,,,60.41
+Wisard,2025-01-28 12:40:57,0.1809,Optical Recognition of Handwritten Digits,Distributive,,,64.26
+Wisard,2025-01-28 12:40:57,0.1563,Optical Recognition of Handwritten Digits,Distributive,,,63.44
+Wisard,2025-01-28 12:40:58,0.2263,EEG Eye State,Distributive,,,78.17
+Wisard,2025-01-28 12:40:58,0.0200,EEG Eye State,Linear,,,66.67
+Wisard,2025-01-28 12:40:58,0.6716,Optical Recognition of Handwritten Digits,Linear,,,67.26
+Wisard,2025-01-28 12:40:59,0.9678,EEG Eye State,Distributive,,,98.33
+Wisard,2025-01-28 12:40:59,1.0610,EEG Eye State,Distributive,,,98.27
+Wisard,2025-01-28 12:40:59,0.7334,EEG Eye State,Distributive,,,73.94
+Wisard,2025-01-28 12:40:59,0.1057,EEG Eye State,Scatter Code,10,100,62.43
+Wisard,2025-01-28 12:40:59,0.2511,MAGIC Gamma Telescope,Gaussian,,,58.26
+Wisard,2025-01-28 12:40:59,0.5735,EEG Eye State,Distributive,,,98.06
+Wisard,2025-01-28 12:40:59,0.1869,Optical Recognition of Handwritten Digits,Distributive,,,62.86
+Wisard,2025-01-28 12:41:00,0.5983,MAGIC Gamma Telescope,Distributive,,,98.2
+Wisard,2025-01-28 12:41:00,0.1297,Optical Recognition of Handwritten Digits,Gaussian,,,59.6
+Wisard,2025-01-28 12:41:00,0.0424,Optical Recognition of Handwritten Digits,Linear,,,67.97
+Wisard,2025-01-28 12:41:05,5.1846,EEG Eye State,Scatter Code,10,200,25.06
+Wisard,2025-01-28 12:41:07,3.6075,EEG Eye State,Scatter Code,10,100,25.06
+Wisard,2025-01-28 12:41:07,3.5800,MAGIC Gamma Telescope,Gaussian,,,59.98
+Wisard,2025-01-28 12:41:07,1.6511,MAGIC Gamma Telescope,Scatter Code,100,100,25.06
+Wisard,2025-01-28 12:41:08,4.4709,EEG Eye State,Gaussian,,,59.8
+Wisard,2025-01-28 12:41:08,0.9490,Optical Recognition of Handwritten Digits,Scatter Code,100,50,25.06
+Wisard,2025-01-28 12:41:10,2.0099,EEG Eye State,Scatter Code,50,100,25.06
+Wisard,2025-01-28 12:41:10,3.6387,Optical Recognition of Handwritten Digits,Gaussian,,,59.9
+Wisard,2025-01-28 12:41:10,2.7129,EEG Eye State,Distributive,,,98.24
+Wisard,2025-01-28 12:41:10,1.0488,EEG Eye State,Linear,,,47.68
+Wisard,2025-01-28 12:41:10,0.4210,Optical Recognition of Handwritten Digits,Gaussian,,,58.44
+Wisard,2025-01-28 12:41:11,0.6386,EEG Eye State,Distributive,,,79.22
+Wisard,2025-01-28 12:41:11,0.5348,EEG Eye State,Distributive,,,78.25
+Wisard,2025-01-28 12:41:11,0.3422,EEG Eye State,Gaussian,,,79.95
+Wisard,2025-01-28 12:41:14,3.2735,MAGIC Gamma Telescope,Scatter Code,50,200,25.06
+Wisard,2025-01-28 12:41:15,1.1620,MAGIC Gamma Telescope,Distributive,,,75.26
+Wisard,2025-01-28 12:41:15,4.3328,EEG Eye State,Gaussian,,,98.56
+Wisard,2025-01-28 12:41:15,1.1036,EEG Eye State,Gaussian,,,98.36
+Wisard,2025-01-28 12:41:17,1.9447,MAGIC Gamma Telescope,Distributive,,,74.95
+Wisard,2025-01-28 12:41:18,2.2171,MAGIC Gamma Telescope,Scatter Code,50,50,25.06
+Wisard,2025-01-28 12:41:18,2.2430,EEG Eye State,Gaussian,,,58.03
+Wisard,2025-01-28 12:41:18,0.3908,EEG Eye State,Linear,,,47.47
+Wisard,2025-01-28 12:41:18,0.5744,EEG Eye State,Gaussian,,,98.31
+Wisard,2025-01-28 12:41:19,0.8804,MAGIC Gamma Telescope,Gaussian,,,60.3
+Wisard,2025-01-28 12:41:19,0.7444,MAGIC Gamma Telescope,Distributive,,,98.26
+Wisard,2025-01-28 12:41:19,1.0353,MAGIC Gamma Telescope,Gaussian,,,98.68
+Wisard,2025-01-28 12:41:19,0.3766,EEG Eye State,Linear,,,48.19
+Wisard,2025-01-28 12:41:23,3.3196,Optical Recognition of Handwritten Digits,Scatter Code,100,200,25.06
+Wisard,2025-01-28 12:41:24,0.8912,MAGIC Gamma Telescope,Distributive,,,76.86
+Wisard,2025-01-28 12:41:24,1.1353,MAGIC Gamma Telescope,Distributive,,,80.28
+Wisard,2025-01-28 12:41:24,1.1110,Optical Recognition of Handwritten Digits,Distributive,,,73.29
+Wisard,2025-01-28 12:41:25,1.4008,MAGIC Gamma Telescope,Linear,,,46.19
+Wisard,2025-01-28 12:41:25,1.2287,EEG Eye State,Linear,,,50.44
+Wisard,2025-01-28 12:41:25,1.3214,EEG Eye State,Distributive,,,98.36
+Wisard,2025-01-28 12:41:26,1.7789,Optical Recognition of Handwritten Digits,Distributive,,,98.63
+Wisard,2025-01-28 12:41:26,0.8486,MAGIC Gamma Telescope,Linear,,,48.13
+Wisard,2025-01-28 12:41:26,1.4595,Optical Recognition of Handwritten Digits,Distributive,,,80.83
+Wisard,2025-01-28 12:41:27,1.4553,EEG Eye State,Distributive,,,75.4
+Wisard,2025-01-28 12:41:37,10.3267,EEG Eye State,Gaussian,,,98.54
+Wisard,2025-01-28 12:41:37,10.6826,EEG Eye State,Scatter Code,10,50,41.94
+Wisard,2025-01-28 12:41:37,10.9490,EEG Eye State,Distributive,,,79.6
+Wisard,2025-01-28 12:41:37,0.5716,Optical Recognition of Handwritten Digits,Linear,,,47.61
+Wisard,2025-01-28 12:41:37,0.7691,EEG Eye State,Gaussian,,,81.0
+Wisard,2025-01-28 12:41:39,1.4139,EEG Eye State,Distributive,,,72.72
+Wisard,2025-01-28 12:41:39,1.1533,EEG Eye State,Linear,,,79.2
+Wisard,2025-01-28 12:41:39,1.2221,EEG Eye State,Gaussian,,,79.36
+Wisard,2025-01-28 12:41:39,1.2534,EEG Eye State,Distributive,,,79.95
+Wisard,2025-01-28 12:41:41,2.5759,MAGIC Gamma Telescope,Gaussian,,,56.9
+Wisard,2025-01-28 12:41:41,2.4489,EEG Eye State,Linear,,,98.4
+Wisard,2025-01-28 12:41:41,2.6009,MAGIC Gamma Telescope,Distributive,,,98.36
+Wisard,2025-01-28 12:41:41,2.6952,MAGIC Gamma Telescope,Gaussian,,,57.89
+Wisard,2025-01-28 12:42:02,20.3162,EEG Eye State,Linear,,,98.58
+Wisard,2025-01-28 12:42:02,20.4177,EEG Eye State,Linear,,,55.49
+Wisard,2025-01-28 12:42:14,11.9737,EEG Eye State,Linear,,,98.36
+Wisard,2025-01-28 12:42:14,1.8628,MAGIC Gamma Telescope,Linear,,,98.72
+Wisard,2025-01-28 12:42:14,12.2123,EEG Eye State,Scatter Code,50,100,39.36
+Wisard,2025-01-28 12:42:14,12.0164,MAGIC Gamma Telescope,Gaussian,,,98.4
+Wisard,2025-01-28 12:42:14,12.0178,MAGIC Gamma Telescope,Linear,,,47.68
+Wisard,2025-01-28 12:42:44,29.6189,EEG Eye State,Scatter Code,100,50,43.65
+Wisard,2025-01-28 12:42:45,2.7104,MAGIC Gamma Telescope,Gaussian,,,58.58
+Wisard,2025-01-28 12:42:45,1.5425,Optical Recognition of Handwritten Digits,Gaussian,,,55.73
+Wisard,2025-01-28 12:42:45,1.5752,MAGIC Gamma Telescope,Gaussian,,,79.14
+Wisard,2025-01-28 12:43:13,29.1164,EEG Eye State,Distributive,,,76.18
+Wisard,2025-01-28 12:43:23,37.5911,EEG Eye State,Scatter Code,10,200,44.34
+Wisard,2025-01-28 12:43:24,10.8304,MAGIC Gamma Telescope,Scatter Code,100,100,42.9
+Wisard,2025-01-28 12:43:23,37.8777,EEG Eye State,Gaussian,,,98.45
+Wisard,2025-01-28 12:43:24,10.7594,Optical Recognition of Handwritten Digits,Gaussian,,,98.61
+Wisard,2025-01-28 12:43:31,8.2557,Optical Recognition of Handwritten Digits,Gaussian,,,78.22
+Wisard,2025-01-28 12:43:31,8.5367,MAGIC Gamma Telescope,Distributive,,,78.36
+Wisard,2025-01-28 12:43:31,7.3937,MAGIC Gamma Telescope,Scatter Code,50,50,43.28
+Wisard,2025-01-28 12:43:33,8.8268,EEG Eye State,Gaussian,,,59.35
+Wisard,2025-01-28 12:43:33,8.8034,EEG Eye State,Linear,,,98.61
+Wisard,2025-01-28 12:43:33,1.6659,EEG Eye State,Gaussian,,,77.58
+Wisard,2025-01-28 12:43:34,2.8284,EEG Eye State,Linear,,,76.93
+Wisard,2025-01-28 12:43:50,16.8404,EEG Eye State,Gaussian,,,58.75
+Wisard,2025-01-28 12:43:50,16.9533,Optical Recognition of Handwritten Digits,Scatter Code,100,200,42.87
+Wisard,2025-01-28 12:44:10,36.3161,EEG Eye State,Linear,,,76.28
+Wisard,2025-01-28 12:45:33,103.4238,MAGIC Gamma Telescope,Linear,,,55.49
+Wisard,2025-01-28 12:45:33,103.4943,EEG Eye State,Scatter Code,10,200,76.07
+Wisard,2025-01-28 12:45:33,82.7914,MAGIC Gamma Telescope,Gaussian,,,98.52
+Wisard,2025-01-28 12:45:34,22.6076,MAGIC Gamma Telescope,Linear,,,55.5
+Wisard,2025-01-28 12:45:34,23.0156,MAGIC Gamma Telescope,Distributive,,,78.89
+Wisard,2025-01-28 12:45:37,87.1344,EEG Eye State,Gaussian,,,76.68
+Wisard,2025-01-28 12:45:37,3.9162,EEG Eye State,Scatter Code,10,100,98.95
+Wisard,2025-01-28 12:45:37,3.1524,EEG Eye State,Distributive,,,73.35
+Wisard,2025-01-28 12:52:29,412.1061,MAGIC Gamma Telescope,Scatter Code,100,100,99.15
+Wisard,2025-01-28 12:52:29,412.1272,EEG Eye State,Scatter Code,10,200,99.18
+Wisard,2025-01-28 12:52:29,412.1056,EEG Eye State,Scatter Code,10,50,99.04
+Wisard,2025-01-28 12:52:30,411.0361,MAGIC Gamma Telescope,Linear,,,98.81
+Wisard,2025-01-28 12:52:30,412.5776,EEG Eye State,Scatter Code,10,200,55.13
+Wisard,2025-01-28 12:52:50,19.8282,MAGIC Gamma Telescope,Scatter Code,50,200,40.87
+Wisard,2025-01-28 12:53:30,39.9776,MAGIC Gamma Telescope,Linear,,,55.5
+Wisard,2025-01-28 12:53:30,39.9734,Optical Recognition of Handwritten Digits,Linear,,,55.5
+Wisard,2025-01-28 12:53:34,4.8779,Optical Recognition of Handwritten Digits,Linear,,,98.58
+Wisard,2025-01-28 12:53:36,6.1442,EEG Eye State,Gaussian,,,55.63
+Wisard,2025-01-28 12:53:36,6.6008,MAGIC Gamma Telescope,Linear,,,77.43
+Wisard,2025-01-28 12:53:56,21.4780,MAGIC Gamma Telescope,Gaussian,,,76.97
+Wisard,2025-01-28 12:53:56,21.6342,EEG Eye State,Linear,,,98.61
+Wisard,2025-01-28 12:53:57,22.5267,Optical Recognition of Handwritten Digits,Linear,,,71.83
+Wisard,2025-01-28 12:54:17,41.1811,EEG Eye State,Linear,,,55.49
+Wisard,2025-01-28 12:54:32,36.5064,EEG Eye State,Linear,,,74.66
+Wisard,2025-01-28 12:54:32,35.9653,EEG Eye State,Linear,,,55.49
+Wisard,2025-01-28 12:54:32,35.4267,EEG Eye State,Scatter Code,10,50,71.03
+Wisard,2025-01-28 12:55:00,27.3903,MAGIC Gamma Telescope,Gaussian,,,80.46
+Wisard,2025-01-28 12:55:00,28.2651,EEG Eye State,Scatter Code,50,100,99.04
+Wisard,2025-01-28 12:58:22,229.3951,MAGIC Gamma Telescope,Linear,,,98.67
+Wisard,2025-01-28 12:58:22,229.4294,EEG Eye State,Scatter Code,10,100,71.24
+Wisard,2025-01-28 12:58:22,226.0627,MAGIC Gamma Telescope,Scatter Code,100,100,55.12
+Wisard,2025-01-28 12:58:22,225.7146,EEG Eye State,Linear,,,72.11
+Wisard,2025-01-28 13:04:59,598.3750,EEG Eye State,Gaussian,,,58.86
+Wisard,2025-01-28 13:04:59,399.0146,MAGIC Gamma Telescope,Scatter Code,50,200,55.12
+Wisard,2025-01-28 13:05:02,2.7833,MAGIC Gamma Telescope,Scatter Code,50,50,99.02
+Wisard,2025-01-28 13:06:46,104.8113,MAGIC Gamma Telescope,Scatter Code,50,50,55.13
+Wisard,2025-01-28 13:13:23,502.5433,MAGIC Gamma Telescope,Linear,,,77.53
+Wisard,2025-01-28 13:17:27,744.8071,Optical Recognition of Handwritten Digits,Scatter Code,100,200,55.12
+Wisard,2025-01-28 13:17:31,248.0368,Optical Recognition of Handwritten Digits,Scatter Code,100,200,99.06
+Wisard,2025-01-28 13:21:07,464.3453,MAGIC Gamma Telescope,Scatter Code,100,100,69.58
+Wisard,2025-01-28 13:23:21,353.5715,EEG Eye State,Scatter Code,100,50,10.0
+Wisard,2025-01-28 13:23:37,370.6173,EEG Eye State,Scatter Code,100,50,64.84
+Wisard,2025-01-28 13:23:21,596.7587,EEG Eye State,Scatter Code,10,100,55.13
+Wisard,2025-01-28 13:23:20,595.2321,EEG Eye State,Linear,,,55.49
+Wisard,2025-01-28 13:23:59,391.2522,EEG Eye State,Scatter Code,10,50,55.13
+Wisard,2025-01-28 13:23:59,391.1637,MAGIC Gamma Telescope,Linear,,,75.57
+Wisard,2025-01-28 13:23:59,392.1768,Optical Recognition of Handwritten Digits,Scatter Code,100,200,72.76
+Wisard,2025-01-28 13:24:00,40.1083,EEG Eye State,Linear,,,55.49
+Wisard,2025-01-28 13:23:59,39.6439,EEG Eye State,Scatter Code,50,100,70.1
+Wisard,2025-01-28 13:24:07,9.7826,MAGIC Gamma Telescope,Scatter Code,50,200,99.06
+Wisard,2025-01-28 13:24:31,23.5126,MAGIC Gamma Telescope,Scatter Code,50,200,71.5
+Wisard,2025-01-28 13:29:40,331.5904,EEG Eye State,Scatter Code,50,100,55.13
+Wisard,2025-01-28 13:29:40,331.7635,MAGIC Gamma Telescope,Scatter Code,50,50,70.64
+Wisard,2025-01-28 13:29:40,331.7609,EEG Eye State,Scatter Code,100,50,55.12
+Wisard,2025-01-28 14:37:57,0.0054,Iris,Distributive,,,97.33
+Wisard,2025-01-28 14:37:57,0.0023,Iris,Gaussian,,,96.0
+Wisard,2025-01-28 14:37:57,0.0015,Iris,Linear,,,96.67
+Wisard,2025-01-28 14:37:57,0.0040,Iris,Scatter Code,50,50,96.0
+Wisard,2025-01-28 14:37:57,0.0044,Glass Identification,Distributive,,,91.12
+Wisard,2025-01-28 14:37:57,0.0057,Glass Identification,Gaussian,,,83.18
+Wisard,2025-01-28 14:37:57,0.0048,Iris,Distributive,,,95.33
+Wisard,2025-01-28 14:37:57,0.0142,Glass Identification,Distributive,,,88.79
+Wisard,2025-01-28 14:37:57,0.0084,Glass Identification,Linear,,,72.43
+Wisard,2025-01-28 14:37:57,0.0080,Iris,Gaussian,,,98.67
+Wisard,2025-01-28 14:37:57,0.0189,Ecoli,Distributive,,,91.37
+Wisard,2025-01-28 14:37:57,0.0146,Glass Identification,Gaussian,,,83.64
+Wisard,2025-01-28 14:37:57,0.0058,Ecoli,Linear,,,98.0
+Wisard,2025-01-28 14:37:57,0.0532,Glass Identification,Scatter Code,10,100,37.85
+Wisard,2025-01-28 14:37:57,0.0050,Ecoli,Gaussian,,,89.29
+Wisard,2025-01-28 14:37:57,0.0110,Glass Identification,Linear,,,74.3
+Wisard,2025-01-28 14:37:57,0.0027,Glass Identification,Distributive,,,95.33
+Wisard,2025-01-28 14:37:57,0.0179,Ecoli,Linear,,,90.77
+Wisard,2025-01-28 14:37:57,0.0189,Ecoli,Scatter Code,10,200,94.67
+Wisard,2025-01-28 14:37:57,0.0572,Glass Identification,Gaussian,,,98.0
+Wisard,2025-01-28 14:37:57,0.0616,Glass Identification,Scatter Code,50,200,62.62
+Wisard,2025-01-28 14:37:57,0.0379,Ecoli,Distributive,,,89.58
+Wisard,2025-01-28 14:37:57,0.0032,Glass Identification,Linear,,,96.67
+Wisard,2025-01-28 14:37:57,0.0248,Ecoli,Scatter Code,10,50,88.99
+Wisard,2025-01-28 14:37:57,0.0080,Ecoli,Gaussian,,,91.37
+Wisard,2025-01-28 14:37:58,0.0051,Glass Identification,Scatter Code,100,100,96.0
+Wisard,2025-01-28 14:37:58,0.0068,Ecoli,Linear,,,89.58
+Wisard,2025-01-28 14:37:58,0.0082,Glass Identification,Distributive,,,91.96
+Wisard,2025-01-28 14:37:58,0.0071,Glass Identification,Distributive,,,88.79
+Wisard,2025-01-28 14:37:58,0.0431,Ecoli,Scatter Code,10,200,92.86
+Wisard,2025-01-28 14:37:58,0.0074,Glass Identification,Gaussian,,,86.92
+Wisard,2025-01-28 14:37:58,0.0145,Glass Identification,Gaussian,,,91.07
+Wisard,2025-01-28 14:37:58,0.0034,Glass Identification,Linear,,,78.97
+Wisard,2025-01-28 14:37:58,0.0072,Glass Identification,Linear,,,87.8
+Wisard,2025-01-28 14:37:58,0.0188,Glass Identification,Scatter Code,50,50,60.28
+Wisard,2025-01-28 14:37:58,0.0289,Glass Identification,Scatter Code,100,100,91.96
+Wisard,2025-01-28 14:37:58,0.0111,Glass Identification,Distributive,,,89.72
+Wisard,2025-01-28 14:37:58,0.0041,Glass Identification,Gaussian,,,78.5
+Wisard,2025-01-28 14:37:58,0.0048,Glass Identification,Linear,,,74.3
+Wisard,2025-01-28 14:37:58,0.0157,Maternal Health Risk,Distributive,,,78.4
+Wisard,2025-01-28 14:37:58,0.0375,Glass Identification,Scatter Code,100,100,60.75
+Wisard,2025-01-28 14:37:58,0.0620,Statlog (Vehicle Silhouettes),Distributive,,,79.29
+Wisard,2025-01-28 14:37:58,0.0163,Statlog (Vehicle Silhouettes),Gaussian,,,76.73
+Wisard,2025-01-28 14:37:58,0.0180,Statlog (Vehicle Silhouettes),Gaussian,,,75.25
+Wisard,2025-01-28 14:37:58,0.0118,Statlog (Vehicle Silhouettes),Linear,,,71.6
+Wisard,2025-01-28 14:37:58,0.0323,Statlog (Vehicle Silhouettes),Distributive,,,87.0
+Wisard,2025-01-28 14:37:58,0.0239,Statlog (Vehicle Silhouettes),Linear,,,74.16
+Wisard,2025-01-28 14:37:58,0.0855,Statlog (Vehicle Silhouettes),Gaussian,,,81.8
+Wisard,2025-01-28 14:37:58,0.2890,Statlog (Vehicle Silhouettes),Scatter Code,10,100,63.31
+Wisard,2025-01-28 14:37:59,0.2539,Statlog (Vehicle Silhouettes),Scatter Code,100,50,40.04
+Wisard,2025-01-28 14:37:59,0.0414,Statlog (Vehicle Silhouettes),Linear,,,65.01
+Wisard,2025-01-28 14:37:59,0.0461,Statlog (Vehicle Silhouettes),Distributive,,,88.3
+Wisard,2025-01-28 14:37:59,0.0187,Statlog (Vehicle Silhouettes),Distributive,,,87.12
+Wisard,2025-01-28 14:37:59,0.0181,Statlog (Vehicle Silhouettes),Distributive,,,88.77
+Wisard,2025-01-28 14:37:59,0.0227,Statlog (Vehicle Silhouettes),Distributive,,,88.18
+Wisard,2025-01-28 14:37:59,0.0926,Statlog (Vehicle Silhouettes),Gaussian,,,83.81
+Wisard,2025-01-28 14:38:01,1.8058,EEG Eye State,Scatter Code,50,100,25.06
+Wisard,2025-01-28 14:38:01,1.8572,Maternal Health Risk,Gaussian,,,83.33
+Wisard,2025-01-28 14:38:01,0.0538,Glass Identification,Gaussian,,,84.16
+Wisard,2025-01-28 14:38:01,0.0206,Glass Identification,Gaussian,,,84.63
+Wisard,2025-01-28 14:38:01,0.0301,Ecoli,Linear,,,63.36
+Wisard,2025-01-28 14:38:01,0.0206,Statlog (Vehicle Silhouettes),Distributive,,,88.79
+Wisard,2025-01-28 14:38:01,0.0521,Glass Identification,Linear,,,63.0
+Wisard,2025-01-28 14:38:01,0.0227,Glass Identification,Distributive,,,81.66
+Wisard,2025-01-28 14:38:01,0.0271,Wine Quality,Linear,,,64.78
+Wisard,2025-01-28 14:38:01,0.1073,Glass Identification,Linear,,,60.4
+Wisard,2025-01-28 14:38:01,0.2590,Maternal Health Risk,Distributive,,,74.41
+Wisard,2025-01-28 14:38:01,0.0091,Ecoli,Distributive,,,97.33
+Wisard,2025-01-28 14:38:01,0.0040,Statlog (Vehicle Silhouettes),Distributive,,,97.33
+Wisard,2025-01-28 14:38:03,1.5599,Statlog (Vehicle Silhouettes),Gaussian,,,84.58
+Wisard,2025-01-28 14:38:03,1.6059,Ecoli,Scatter Code,10,100,25.06
+Wisard,2025-01-28 14:38:03,0.0208,Ecoli,Distributive,,,91.37
+Wisard,2025-01-28 14:38:03,0.0199,Glass Identification,Distributive,,,90.19
+Wisard,2025-01-28 14:38:03,0.0615,Glass Identification,Gaussian,,,73.47
+Wisard,2025-01-28 14:38:09,6.3347,Glass Identification,Scatter Code,10,200,25.06
+Wisard,2025-01-28 14:38:09,3.2133,Wine Quality,Scatter Code,100,200,25.06
+Wisard,2025-01-28 14:38:09,0.0368,Statlog (Vehicle Silhouettes),Distributive,,,89.01
+Wisard,2025-01-28 14:38:09,0.0618,Statlog (Vehicle Silhouettes),Distributive,,,80.37
+Wisard,2025-01-28 14:38:09,0.0101,Ecoli,Distributive,,,95.33
+Wisard,2025-01-28 14:38:09,0.0128,Maternal Health Risk,Distributive,,,96.67
+Wisard,2025-01-28 14:38:10,0.8457,Glass Identification,Scatter Code,100,50,25.06
+Wisard,2025-01-28 14:38:10,0.0081,Wine Quality,Distributive,,,91.96
+Wisard,2025-01-28 14:38:12,0.0110,Wine Quality,Distributive,,,89.72
+Wisard,2025-01-28 14:38:12,1.4830,Wine Quality,Gaussian,,,56.75
+Wisard,2025-01-28 14:38:12,0.0198,Wine Quality,Distributive,,,91.96
+Wisard,2025-01-28 14:38:12,0.0202,Wine Quality,Distributive,,,80.47
+Wisard,2025-01-28 14:38:12,0.0804,Wine Quality,Gaussian,,,96.67
+Wisard,2025-01-28 14:38:12,0.0520,Wine Quality,Distributive,,,87.0
+Wisard,2025-01-28 14:38:12,0.0386,Wine Quality,Distributive,,,78.4
+Wisard,2025-01-28 14:38:12,0.0325,Wine Quality,Distributive,,,77.91
+Wisard,2025-01-28 14:38:12,0.0106,EEG Eye State,Gaussian,,,98.0
+Wisard,2025-01-28 14:38:12,0.0307,Wine Quality,Distributive,,,92.56
+Wisard,2025-01-28 14:38:12,0.0143,EEG Eye State,Linear,,,77.57
+Wisard,2025-01-28 14:38:12,0.0037,Optical Recognition of Handwritten Digits,Distributive,,,97.33
+Wisard,2025-01-28 14:38:12,0.0056,Optical Recognition of Handwritten Digits,Distributive,,,89.72
+Wisard,2025-01-28 14:38:12,0.0242,Wine Quality,Distributive,,,89.01
+Wisard,2025-01-28 14:38:12,0.0135,Wine Quality,Gaussian,,,91.67
+Wisard,2025-01-28 14:38:12,0.0035,Optical Recognition of Handwritten Digits,Distributive,,,96.0
+Wisard,2025-01-28 14:38:12,0.0098,Optical Recognition of Handwritten Digits,Gaussian,,,85.51
+Wisard,2025-01-28 14:38:12,0.0212,Optical Recognition of Handwritten Digits,Linear,,,70.71
+Wisard,2025-01-28 14:38:12,0.0173,Optical Recognition of Handwritten Digits,Distributive,,,78.5
+Wisard,2025-01-28 14:38:12,0.0139,Optical Recognition of Handwritten Digits,Distributive,,,87.38
+Wisard,2025-01-28 14:38:12,0.0228,Optical Recognition of Handwritten Digits,Distributive,,,78.4
+Wisard,2025-01-28 14:38:12,0.0092,Optical Recognition of Handwritten Digits,Distributive,,,92.26
+Wisard,2025-01-28 14:38:13,0.0322,Optical Recognition of Handwritten Digits,Gaussian,,,84.16
+Wisard,2025-01-28 14:38:13,0.0029,Optical Recognition of Handwritten Digits,Gaussian,,,98.0
+Wisard,2025-01-28 14:38:13,0.0040,Optical Recognition of Handwritten Digits,Gaussian,,,98.0
+Wisard,2025-01-28 14:38:13,0.0498,Optical Recognition of Handwritten Digits,Distributive,,,89.13
+Wisard,2025-01-28 14:38:13,0.0200,Optical Recognition of Handwritten Digits,Gaussian,,,73.87
+Wisard,2025-01-28 14:38:13,0.0807,Optical Recognition of Handwritten Digits,Distributive,,,89.88
+Wisard,2025-01-28 14:38:13,0.1165,Optical Recognition of Handwritten Digits,Distributive,,,64.01
+Wisard,2025-01-28 14:38:13,0.0083,Optical Recognition of Handwritten Digits,Gaussian,,,91.07
+Wisard,2025-01-28 14:38:13,0.0111,Optical Recognition of Handwritten Digits,Gaussian,,,83.18
+Wisard,2025-01-28 14:38:32,19.6350,Optical Recognition of Handwritten Digits,Linear,,,55.49
+Wisard,2025-01-28 14:38:32,0.0229,Optical Recognition of Handwritten Digits,Linear,,,97.33
+Wisard,2025-01-28 14:38:32,0.0365,Optical Recognition of Handwritten Digits,Gaussian,,,89.88
+Wisard,2025-01-28 14:38:32,0.0418,Optical Recognition of Handwritten Digits,Gaussian,,,73.67
+Wisard,2025-01-28 14:38:32,0.0157,Optical Recognition of Handwritten Digits,Linear,,,97.33
+Wisard,2025-01-28 14:38:32,0.0513,Optical Recognition of Handwritten Digits,Gaussian,,,75.44
+Wisard,2025-01-28 14:38:32,0.0457,Optical Recognition of Handwritten Digits,Gaussian,,,84.99
+Wisard,2025-01-28 14:38:32,0.0421,Optical Recognition of Handwritten Digits,Gaussian,,,74.56
+Wisard,2025-01-28 14:38:33,0.0412,Optical Recognition of Handwritten Digits,Scatter Code,10,50,38.32
+Wisard,2025-01-28 14:38:33,0.0163,Optical Recognition of Handwritten Digits,Gaussian,,,91.96
+Wisard,2025-01-28 14:38:33,0.0033,Optical Recognition of Handwritten Digits,Gaussian,,,96.67
+Wisard,2025-01-28 14:38:33,0.0077,Optical Recognition of Handwritten Digits,Gaussian,,,82.71
+Wisard,2025-01-28 14:38:33,0.0058,Optical Recognition of Handwritten Digits,Linear,,,88.1
+Wisard,2025-01-28 14:38:33,0.0164,Optical Recognition of Handwritten Digits,Gaussian,,,96.0
+Wisard,2025-01-28 14:38:33,0.0047,Optical Recognition of Handwritten Digits,Linear,,,75.23
+Wisard,2025-01-28 14:38:33,0.0313,Optical Recognition of Handwritten Digits,Gaussian,,,83.45
+Wisard,2025-01-28 14:38:33,0.1553,Optical Recognition of Handwritten Digits,Scatter Code,10,200,64.79
+Wisard,2025-01-28 14:38:33,0.1559,MAGIC Gamma Telescope,Gaussian,,,77.22
+Wisard,2025-01-28 14:38:33,0.0116,Optical Recognition of Handwritten Digits,Gaussian,,,83.64
+Wisard,2025-01-28 14:38:33,0.0058,Optical Recognition of Handwritten Digits,Gaussian,,,91.67
+Wisard,2025-01-28 14:38:33,0.0268,Optical Recognition of Handwritten Digits,Gaussian,,,73.47
+Wisard,2025-01-28 14:38:33,0.0026,Optical Recognition of Handwritten Digits,Linear,,,98.0
+Wisard,2025-01-28 14:38:33,0.0039,Optical Recognition of Handwritten Digits,Linear,,,97.33
+Wisard,2025-01-28 14:38:33,0.2694,Optical Recognition of Handwritten Digits,Distributive,,,61.52
+Wisard,2025-01-28 14:38:33,0.2131,Optical Recognition of Handwritten Digits,Linear,,,64.07
+Wisard,2025-01-28 14:38:33,0.1384,Optical Recognition of Handwritten Digits,Linear,,,74.26
+Wisard,2025-01-28 14:38:33,0.2741,Optical Recognition of Handwritten Digits,Distributive,,,61.15
+Wisard,2025-01-28 14:38:33,0.1206,MAGIC Gamma Telescope,Gaussian,,,84.99
+Wisard,2025-01-28 14:38:33,0.4184,Optical Recognition of Handwritten Digits,Distributive,,,61.78
+Wisard,2025-01-28 14:38:33,0.0158,Optical Recognition of Handwritten Digits,Gaussian,,,91.67
+Wisard,2025-01-28 14:38:34,0.5471,Optical Recognition of Handwritten Digits,Distributive,,,75.46
+Wisard,2025-01-28 14:38:34,0.0321,Optical Recognition of Handwritten Digits,Linear,,,89.29
+Wisard,2025-01-28 14:38:34,0.1878,Optical Recognition of Handwritten Digits,Gaussian,,,60.7
+Wisard,2025-01-28 14:38:34,0.0077,Optical Recognition of Handwritten Digits,Linear,,,75.7
+Wisard,2025-01-28 14:38:34,0.1261,Optical Recognition of Handwritten Digits,Distributive,,,61.84
+Wisard,2025-01-28 14:38:34,0.2112,MAGIC Gamma Telescope,Distributive,,,61.54
+Wisard,2025-01-28 14:38:34,0.1228,Optical Recognition of Handwritten Digits,Distributive,,,62.75
+Wisard,2025-01-28 14:38:34,0.0249,Optical Recognition of Handwritten Digits,Scatter Code,10,50,94.67
+Wisard,2025-01-28 14:38:34,0.0288,MAGIC Gamma Telescope,Scatter Code,10,100,94.0
+Wisard,2025-01-28 14:41:53,198.9435,EEG Eye State,Distributive,,,62.09
+Wisard,2025-01-28 14:41:53,0.0687,MAGIC Gamma Telescope,Linear,,,74.36
+Wisard,2025-01-28 14:41:53,198.9207,MAGIC Gamma Telescope,Distributive,,,98.17
+Wisard,2025-01-28 14:41:53,198.8630,MAGIC Gamma Telescope,Scatter Code,50,100,55.13
+Wisard,2025-01-28 14:41:54,0.1175,Optical Recognition of Handwritten Digits,Linear,,,72.58
+Wisard,2025-01-28 14:41:54,0.0404,EEG Eye State,Linear,,,88.39
+Wisard,2025-01-28 14:41:54,0.1138,Optical Recognition of Handwritten Digits,Linear,,,65.84
+Wisard,2025-01-28 14:41:54,0.0349,EEG Eye State,Linear,,,72.29
+Wisard,2025-01-28 14:41:54,0.0064,EEG Eye State,Linear,,,88.99
+Wisard,2025-01-28 14:41:54,0.0091,EEG Eye State,Linear,,,96.67
+Wisard,2025-01-28 14:41:54,0.1558,EEG Eye State,Linear,,,76.17
+Wisard,2025-01-28 14:41:54,0.1915,EEG Eye State,Distributive,,,62.06
+Wisard,2025-01-28 14:41:54,0.4855,EEG Eye State,Distributive,,,98.33
+Wisard,2025-01-28 14:41:54,0.0168,EEG Eye State,Linear,,,98.67
+Wisard,2025-01-28 14:41:55,0.7801,EEG Eye State,Scatter Code,10,100,90.18
+Wisard,2025-01-28 14:41:55,0.8855,MAGIC Gamma Telescope,Distributive,,,98.2
+Wisard,2025-01-28 14:41:55,0.3476,EEG Eye State,Scatter Code,10,200,38.32
+Wisard,2025-01-28 14:41:56,1.0089,MAGIC Gamma Telescope,Distributive,,,98.15
+Wisard,2025-01-28 14:41:56,0.7545,EEG Eye State,Linear,,,64.07
+Wisard,2025-01-28 14:41:56,0.7998,EEG Eye State,Distributive,,,78.2
+Wisard,2025-01-28 14:41:56,0.3904,EEG Eye State,Linear,,,76.17
+Wisard,2025-01-28 14:41:56,0.3251,EEG Eye State,Linear,,,72.29
+Wisard,2025-01-28 14:41:56,0.4119,EEG Eye State,Distributive,,,98.19
+Wisard,2025-01-28 14:41:57,0.7270,EEG Eye State,Linear,,,88.99
+Wisard,2025-01-28 14:41:57,1.0190,EEG Eye State,Distributive,,,98.17
+Wisard,2025-01-28 14:41:57,1.0117,EEG Eye State,Linear,,,66.19
+Wisard,2025-01-28 14:41:57,1.0100,EEG Eye State,Distributive,,,98.31
+Wisard,2025-01-28 14:41:57,0.0259,EEG Eye State,Linear,,,73.57
+Wisard,2025-01-28 14:41:57,1.0999,EEG Eye State,Distributive,,,98.17
+Wisard,2025-01-28 14:41:57,0.0073,MAGIC Gamma Telescope,Scatter Code,50,100,98.67
+Wisard,2025-01-28 14:41:58,0.1074,EEG Eye State,Scatter Code,50,200,96.67
+Wisard,2025-01-28 14:41:59,1.8889,EEG Eye State,Gaussian,,,60.86
+Wisard,2025-01-28 14:41:59,1.8272,MAGIC Gamma Telescope,Scatter Code,10,50,25.06
+Wisard,2025-01-28 14:41:59,1.8762,MAGIC Gamma Telescope,Gaussian,,,55.4
+Wisard,2025-01-28 14:41:59,0.0452,MAGIC Gamma Telescope,Scatter Code,10,50,64.4
+Wisard,2025-01-28 14:41:59,0.9916,EEG Eye State,Gaussian,,,60.64
+Wisard,2025-01-28 14:42:00,0.1057,EEG Eye State,Linear,,,87.2
+Wisard,2025-01-28 14:42:00,0.1991,MAGIC Gamma Telescope,Gaussian,,,59.06
+Wisard,2025-01-28 14:42:00,0.3993,EEG Eye State,Distributive,,,98.42
+Wisard,2025-01-28 14:42:00,0.0232,MAGIC Gamma Telescope,Scatter Code,50,100,92.26
+Wisard,2025-01-28 14:42:00,0.3762,EEG Eye State,Linear,,,47.16
+Wisard,2025-01-28 14:42:00,0.0293,MAGIC Gamma Telescope,Scatter Code,50,100,58.88
+Wisard,2025-01-28 14:42:01,0.1960,MAGIC Gamma Telescope,Gaussian,,,60.86
+Wisard,2025-01-28 14:42:01,0.3367,EEG Eye State,Scatter Code,50,50,93.15
+Wisard,2025-01-28 14:42:01,0.4885,EEG Eye State,Gaussian,,,59.98
+Wisard,2025-01-28 14:42:01,0.1395,EEG Eye State,Gaussian,,,60.23
+Wisard,2025-01-28 14:42:01,0.1039,EEG Eye State,Gaussian,,,58.87
+Wisard,2025-01-28 14:42:01,0.0605,MAGIC Gamma Telescope,Scatter Code,50,100,64.5
+Wisard,2025-01-28 14:42:02,0.3789,EEG Eye State,Scatter Code,50,50,63.31
+Wisard,2025-01-28 14:42:02,0.5095,EEG Eye State,Scatter Code,50,200,69.33
+Wisard,2025-01-28 14:42:02,0.5133,EEG Eye State,Gaussian,,,98.27
+Wisard,2025-01-28 14:42:05,3.1677,EEG Eye State,Scatter Code,50,200,25.06
+Wisard,2025-01-28 14:42:05,0.0894,EEG Eye State,Scatter Code,100,50,42.56
+Wisard,2025-01-28 14:42:05,0.0091,EEG Eye State,Scatter Code,100,50,33.33
+Wisard,2025-01-28 14:42:05,0.0394,EEG Eye State,Scatter Code,100,50,35.51
+Wisard,2025-01-28 14:42:05,0.0270,EEG Eye State,Scatter Code,100,200,98.67
+Wisard,2025-01-28 14:42:05,0.3575,EEG Eye State,Gaussian,,,60.5
+Wisard,2025-01-28 14:42:07,1.2382,EEG Eye State,Gaussian,,,98.56
+Wisard,2025-01-28 14:42:07,0.8692,MAGIC Gamma Telescope,Gaussian,,,98.54
+Wisard,2025-01-28 14:42:07,0.7971,EEG Eye State,Distributive,,,80.92
+Wisard,2025-01-28 14:42:08,1.6432,MAGIC Gamma Telescope,Gaussian,,,98.33
+Wisard,2025-01-28 14:42:08,1.0311,EEG Eye State,Scatter Code,50,50,25.06
+Wisard,2025-01-28 14:42:08,0.0626,EEG Eye State,Scatter Code,100,200,64.95
+Wisard,2025-01-28 14:42:08,1.1128,EEG Eye State,Gaussian,,,76.75
+Wisard,2025-01-28 14:42:08,0.0727,EEG Eye State,Scatter Code,100,200,93.75
+Wisard,2025-01-28 14:42:08,0.3894,EEG Eye State,Scatter Code,100,100,62.62
+Wisard,2025-01-28 14:42:09,0.9753,EEG Eye State,Gaussian,,,98.58
+Wisard,2025-01-28 14:42:11,2.8871,EEG Eye State,Gaussian,,,98.22
+Wisard,2025-01-28 14:42:11,0.1631,EEG Eye State,Scatter Code,100,200,70.91
+Wisard,2025-01-28 14:42:11,2.4377,EEG Eye State,Gaussian,,,98.2
+Wisard,2025-01-28 14:42:11,2.4338,EEG Eye State,Scatter Code,100,100,25.06
+Wisard,2025-01-28 14:42:11,3.1772,EEG Eye State,Distributive,,,79.98
+Wisard,2025-01-28 14:42:12,0.3881,EEG Eye State,Gaussian,,,98.42
+Wisard,2025-01-28 14:42:32,20.4589,EEG Eye State,Linear,,,47.41
+Wisard,2025-01-28 14:42:32,0.9112,EEG Eye State,Scatter Code,50,200,93.45
+Wisard,2025-01-28 14:42:33,1.0885,EEG Eye State,Distributive,,,80.36
+Wisard,2025-01-28 14:42:33,1.2572,EEG Eye State,Linear,,,49.04
+Wisard,2025-01-28 14:42:33,20.8778,MAGIC Gamma Telescope,Linear,,,55.5
+Wisard,2025-01-28 14:42:33,0.8536,MAGIC Gamma Telescope,Linear,,,48.71
+Wisard,2025-01-28 14:42:33,0.3059,EEG Eye State,Distributive,,,78.86
+Wisard,2025-01-28 14:42:34,1.5956,EEG Eye State,Gaussian,,,98.54
+Wisard,2025-01-28 14:42:50,16.5609,EEG Eye State,Scatter Code,100,200,42.5
+Wisard,2025-01-28 14:42:50,17.4065,EEG Eye State,Distributive,,,73.4
+Wisard,2025-01-28 14:42:50,17.5690,EEG Eye State,Distributive,,,79.7
+Wisard,2025-01-28 14:42:51,0.6003,MAGIC Gamma Telescope,Linear,,,49.15
+Wisard,2025-01-28 14:42:52,1.3010,EEG Eye State,Linear,,,46.04
+Wisard,2025-01-28 14:42:52,1.2429,EEG Eye State,Distributive,,,75.47
+Wisard,2025-01-28 14:42:52,1.4599,MAGIC Gamma Telescope,Distributive,,,78.83
+Wisard,2025-01-28 14:42:52,1.4105,EEG Eye State,Linear,,,48.31
+Wisard,2025-01-28 14:42:52,1.1865,EEG Eye State,Linear,,,49.75
+Wisard,2025-01-28 14:42:53,1.1416,EEG Eye State,Distributive,,,74.05
+Wisard,2025-01-28 14:42:54,0.9704,MAGIC Gamma Telescope,Distributive,,,79.86
+Wisard,2025-01-28 14:42:54,1.1354,EEG Eye State,Distributive,,,75.01
+Wisard,2025-01-28 14:42:54,1.1745,EEG Eye State,Distributive,,,74.55
+Wisard,2025-01-28 14:42:55,1.0630,EEG Eye State,Distributive,,,74.03
+Wisard,2025-01-28 14:42:55,0.9588,EEG Eye State,Linear,,,98.42
+Wisard,2025-01-28 14:42:55,0.9417,EEG Eye State,Linear,,,49.47
+Wisard,2025-01-28 14:42:56,1.6123,EEG Eye State,Distributive,,,79.65
+Wisard,2025-01-28 14:42:56,1.2197,MAGIC Gamma Telescope,Linear,,,98.58
+Wisard,2025-01-28 14:42:56,1.3033,EEG Eye State,Linear,,,98.49
+Wisard,2025-01-28 14:42:56,0.5738,MAGIC Gamma Telescope,Linear,,,98.56
+Wisard,2025-01-28 14:42:57,1.0084,EEG Eye State,Gaussian,,,80.82
+Wisard,2025-01-28 14:42:58,2.1881,EEG Eye State,Linear,,,74.76
+Wisard,2025-01-28 14:42:58,1.7606,EEG Eye State,Linear,,,98.56
+Wisard,2025-01-28 14:42:58,1.2236,EEG Eye State,Linear,,,98.65
+Wisard,2025-01-28 14:42:59,1.4521,EEG Eye State,Linear,,,98.65
+Wisard,2025-01-28 14:42:59,0.5646,EEG Eye State,Gaussian,,,78.84
+Wisard,2025-01-28 14:43:00,1.3358,EEG Eye State,Distributive,,,75.6
+Wisard,2025-01-28 14:43:47,47.7489,EEG Eye State,Linear,,,98.4
+Wisard,2025-01-28 14:43:47,47.8158,EEG Eye State,Gaussian,,,79.47
+Wisard,2025-01-28 14:43:47,47.2339,EEG Eye State,Scatter Code,10,200,42.84
+Wisard,2025-01-28 14:43:47,46.9433,EEG Eye State,Scatter Code,10,100,41.99
+Wisard,2025-01-28 14:45:39,112.7386,MAGIC Gamma Telescope,Scatter Code,10,50,44.31
+Wisard,2025-01-28 14:45:41,102.8006,EEG Eye State,Linear,,,98.51
+Wisard,2025-01-28 14:45:41,114.1501,EEG Eye State,Gaussian,,,78.3
+Wisard,2025-01-28 14:45:41,1.4685,EEG Eye State,Gaussian,,,57.86
+Wisard,2025-01-28 14:45:41,114.2028,MAGIC Gamma Telescope,Scatter Code,10,50,55.13
+Wisard,2025-01-28 14:45:41,0.3484,EEG Eye State,Gaussian,,,77.57
+Wisard,2025-01-28 14:45:53,11.5394,MAGIC Gamma Telescope,Scatter Code,50,100,39.3
+Wisard,2025-01-28 14:46:10,28.8479,EEG Eye State,Gaussian,,,57.4
+Wisard,2025-01-28 14:46:39,46.6052,EEG Eye State,Scatter Code,50,200,41.1
+Wisard,2025-01-28 14:46:39,46.3298,MAGIC Gamma Telescope,Gaussian,,,80.04
+Wisard,2025-01-28 14:46:47,37.1812,MAGIC Gamma Telescope,Gaussian,,,78.94
+Wisard,2025-01-28 14:46:47,36.7813,EEG Eye State,Scatter Code,100,50,43.65
+Wisard,2025-01-28 14:46:47,8.2433,EEG Eye State,Scatter Code,50,50,41.17
+Wisard,2025-01-28 14:46:47,8.2532,EEG Eye State,Gaussian,,,57.05
+Wisard,2025-01-28 14:46:50,2.7996,EEG Eye State,Gaussian,,,56.21
+Wisard,2025-01-28 14:46:58,10.3758,EEG Eye State,Gaussian,,,56.36
+Wisard,2025-01-28 14:46:59,11.1465,EEG Eye State,Gaussian,,,58.52
+Wisard,2025-01-28 14:47:01,11.2519,EEG Eye State,Scatter Code,100,100,42.79
+Wisard,2025-01-28 14:47:05,14.9598,EEG Eye State,Gaussian,,,78.08
+Wisard,2025-01-28 14:47:15,14.6561,EEG Eye State,Linear,,,77.67
+Wisard,2025-01-28 14:47:14,14.8924,EEG Eye State,Scatter Code,10,200,99.06
+Wisard,2025-01-28 14:47:15,16.4722,EEG Eye State,Scatter Code,10,100,99.0
+Wisard,2025-01-28 14:47:19,17.3068,MAGIC Gamma Telescope,Scatter Code,50,100,99.11
+Wisard,2025-01-28 14:47:20,5.6667,MAGIC Gamma Telescope,Scatter Code,10,50,98.97
+Wisard,2025-01-28 14:49:58,158.9291,EEG Eye State,Scatter Code,100,100,99.09
+Wisard,2025-01-28 14:49:58,158.6692,EEG Eye State,Scatter Code,50,50,98.95
+Wisard,2025-01-28 14:49:59,159.8361,EEG Eye State,Linear,,,71.98
+Wisard,2025-01-28 14:50:20,181.3332,EEG Eye State,Scatter Code,100,200,73.76
+Wisard,2025-01-28 14:50:00,161.3867,EEG Eye State,Scatter Code,100,50,10.0
+Wisard,2025-01-28 14:50:21,179.9581,EEG Eye State,Gaussian,,,59.03
+Wisard,2025-01-28 14:50:31,190.6988,EEG Eye State,Linear,,,76.15
+Wisard,2025-01-28 14:50:32,34.6772,EEG Eye State,Scatter Code,50,200,99.18
+Wisard,2025-01-28 14:50:40,19.9252,EEG Eye State,Linear,,,76.61
+Wisard,2025-01-28 14:50:40,42.2218,EEG Eye State,Linear,,,55.49
+Wisard,2025-01-28 14:50:41,10.3218,EEG Eye State,Scatter Code,100,200,99.16
+Wisard,2025-01-28 14:50:42,9.2710,EEG Eye State,Linear,,,76.61
+Wisard,2025-01-28 14:51:02,21.0450,EEG Eye State,Linear,,,55.49
+Wisard,2025-01-28 14:51:02,20.8775,MAGIC Gamma Telescope,Linear,,,74.16
+Wisard,2025-01-28 14:51:43,41.1674,MAGIC Gamma Telescope,Linear,,,74.46
+Wisard,2025-01-28 14:51:43,41.1621,EEG Eye State,Linear,,,55.49
+Wisard,2025-01-28 14:52:23,80.5679,EEG Eye State,Linear,,,55.5
+Wisard,2025-01-28 14:52:23,39.9627,EEG Eye State,Linear,,,75.56
+Wisard,2025-01-28 14:52:23,40.0037,EEG Eye State,Linear,,,55.49
+Wisard,2025-01-28 14:52:23,40.0097,EEG Eye State,Linear,,,55.49
+Wisard,2025-01-28 14:53:58,95.1202,EEG Eye State,Scatter Code,100,50,64.84
+Wisard,2025-01-28 14:54:20,21.1064,EEG Eye State,Linear,,,55.5
+Wisard,2025-01-28 15:05:41,681.8538,EEG Eye State,Scatter Code,50,50,68.85
+Wisard,2025-01-28 15:05:42,683.7099,EEG Eye State,Scatter Code,10,100,55.12
+Wisard,2025-01-28 15:20:36,1576.1937,MAGIC Gamma Telescope,Scatter Code,50,100,73.95
+Wisard,2025-01-28 15:20:36,1576.2045,EEG Eye State,Scatter Code,100,100,55.11
+Wisard,2025-01-28 15:20:36,1597.1770,EEG Eye State,Scatter Code,100,100,71.71
+Wisard,2025-01-28 15:05:42,703.3983,EEG Eye State,Scatter Code,10,100,73.62
+Wisard,2025-01-28 15:20:36,1576.4282,EEG Eye State,Scatter Code,10,200,74.72
+Wisard,2025-01-28 15:20:36,1044.8316,EEG Eye State,Scatter Code,50,200,71.36
+Wisard,2025-01-28 15:20:36,1536.8307,EEG Eye State,Scatter Code,50,50,55.13
+Wisard,2025-01-28 15:20:36,1310.8938,MAGIC Gamma Telescope,Scatter Code,10,50,73.6
+Wisard,2025-01-28 15:20:36,897.1510,EEG Eye State,Scatter Code,100,50,55.12
+Wisard,2025-01-28 15:20:36,897.1615,EEG Eye State,Scatter Code,100,200,55.12
+Wisard,2025-01-28 15:20:36,939.7795,EEG Eye State,Scatter Code,10,200,55.13
+Wisard,2025-01-28 15:27:14,395.8327,EEG Eye State,Scatter Code,50,200,55.12
