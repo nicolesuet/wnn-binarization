@@ -6,9 +6,11 @@ file_name = 'metrics.csv'
 
 # Initialize a dictionary to store the counts
 model_dataset_encoding_counts = defaultdict(lambda: defaultdict(int))
+
 wisard = 0
 dwn = 0
 not_recognized = 0
+datasets = set()
 
 # Read the CSV file and process the data
 with open(file_name, mode='r') as file:
@@ -31,6 +33,8 @@ with open(file_name, mode='r') as file:
         dataset = row[3]
         encoding = row[4]
         
+        datasets.add(dataset)
+        
         # Skip rows with empty dataset or encoding
         if dataset and encoding:
             model_dataset_encoding_counts[model][f"{dataset} with {encoding} encoding"] += 1
@@ -42,12 +46,10 @@ print("-----------------------------------")
 print(f"DWN: {dwn} occurrences")
 print(f"Wisard: {wisard} occurrences")
 print(f"Not recognized: {not_recognized} occurrences")
-print()
 print("Occurrences per model and dataset:")
 print("-----------------------------------")
-for model, dataset_encoding_counts in model_dataset_encoding_counts.items():
+for model, dataset_encoding_counts in sorted(model_dataset_encoding_counts.items()):
     print(f"Model: {model}")
-    for dataset_encoding, count in dataset_encoding_counts.items():
+    for dataset_encoding, count in sorted(dataset_encoding_counts.items()):
         print(f"  Dataset: {dataset_encoding} -> {count} occurrences")
     print()
-
