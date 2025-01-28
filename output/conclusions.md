@@ -16,11 +16,11 @@
 | Ecoli                                     | Scatter Code |        0.760691 |           0.27672    |
 | Glass Identification                      | Distributive |        0.678432 |           0.0621713  |
 | Glass Identification                      | Linear       |        0.666237 |           0.0694058  |
-| Glass Identification                      | Gaussian     |        0.657661 |           0.0568826  |
+| Glass Identification                      | Gaussian     |        0.657742 |           0.05711    |
 | Glass Identification                      | Scatter Code |        0.463373 |           0.17289    |
-| Iris                                      | Scatter Code |        0.928139 |           0.0680462  |
-| Iris                                      | Gaussian     |        0.890621 |           0.0779612  |
-| Iris                                      | Linear       |        0.886637 |           0.0794366  |
+| Iris                                      | Scatter Code |        0.927944 |           0.0685935  |
+| Iris                                      | Gaussian     |        0.890699 |           0.0776367  |
+| Iris                                      | Linear       |        0.88573  |           0.0792827  |
 | Iris                                      | Distributive |        0.870279 |           0.0653836  |
 | MAGIC Gamma Telescope                     | Distributive |        0.797416 |           0.0617126  |
 | MAGIC Gamma Telescope                     | Gaussian     |        0.743626 |           0.0785462  |
@@ -50,42 +50,40 @@
 
 | Dataset                                   | Encoding     |   Mean Accuracy |   Standard Deviation |
 |:------------------------------------------|:-------------|----------------:|---------------------:|
-| EEG Eye State                             | Distributive |         84.0155 |             10.7833  |
-| EEG Eye State                             | Gaussian     |         80.0483 |             14.1608  |
-| EEG Eye State                             | Linear       |         74.9702 |             17.0397  |
-| EEG Eye State                             | Scatter Code |         65.8549 |             24.6948  |
-| Ecoli                                     | Distributive |         91.5343 |              4.31321 |
-| Ecoli                                     | Gaussian     |         91.49   |              2.43269 |
-| Ecoli                                     | Linear       |         87.4313 |             10.1993  |
-| Ecoli                                     | Scatter Code |         83.9013 |             23.8414  |
-| Glass Identification                      | Distributive |         89.7657 |              4.70821 |
-| Glass Identification                      | Gaussian     |         86.44   |              7.31912 |
-| Glass Identification                      | Linear       |         77.4727 |             11.9415  |
-| Glass Identification                      | Scatter Code |         57.7622 |             25.525   |
-| Iris                                      | Linear       |         96.67   |            nan       |
-| Iris                                      | Scatter Code |         96      |            nan       |
-| Iris                                      | Gaussian     |         95.1467 |              4.01854 |
-| Iris                                      | Distributive |         90.022  |              7.61863 |
-| MAGIC Gamma Telescope                     | Distributive |         83.9273 |             11.2687  |
-| MAGIC Gamma Telescope                     | Gaussian     |         78.5716 |             14.8879  |
-| MAGIC Gamma Telescope                     | Linear       |         73.4555 |             17.4362  |
-| MAGIC Gamma Telescope                     | Scatter Code |         48.5451 |             23.1479  |
-| Maternal Health Risk                      | Linear       |         89.7675 |              9.5811  |
-| Maternal Health Risk                      | Gaussian     |         88.6218 |              7.48242 |
-| Maternal Health Risk                      | Distributive |         85.7339 |              9.67032 |
-| Maternal Health Risk                      | Scatter Code |         66.55   |             27.7778  |
-| Optical Recognition of Handwritten Digits | Gaussian     |         81.5052 |             12.4852  |
-| Optical Recognition of Handwritten Digits | Distributive |         75.1668 |             13.6541  |
-| Optical Recognition of Handwritten Digits | Linear       |         74.7861 |             15.4272  |
-| Optical Recognition of Handwritten Digits | Scatter Code |         60.755  |             26.9324  |
-| Statlog (Vehicle Silhouettes)             | Distributive |         86.8556 |              4.98223 |
-| Statlog (Vehicle Silhouettes)             | Gaussian     |         79.2776 |              8.19075 |
-| Statlog (Vehicle Silhouettes)             | Scatter Code |         78.6427 |             21.7364  |
-| Statlog (Vehicle Silhouettes)             | Linear       |         76.7288 |             12.5188  |
-| Wine Quality                              | Distributive |         88.2335 |              5.24631 |
-| Wine Quality                              | Gaussian     |         85.8575 |             11.4914  |
-| Wine Quality                              | Linear       |         79.4463 |             11.8641  |
-| Wine Quality                              | Scatter Code |         49.811  |             16.1034  |
+| EEG Eye State                             | Distributive |         84.233  |             10.6796  |
+| EEG Eye State                             | Gaussian     |         80.5357 |             13.7469  |
+| EEG Eye State                             | Linear       |         75.4613 |             16.7772  |
+| EEG Eye State                             | Scatter Code |         66.1144 |             24.7529  |
+| Ecoli                                     | Distributive |         90.26   |              9.21047 |
+| Ecoli                                     | Gaussian     |         88.7554 |             11.3868  |
+| Ecoli                                     | Linear       |         86.1787 |             15.0378  |
+| Ecoli                                     | Scatter Code |         72.9007 |             28.0879  |
+| Glass Identification                      | Distributive |         84.1283 |             11.8888  |
+| Glass Identification                      | Gaussian     |         74.16   |            nan       |
+| Iris                                      | Distributive |         90.6359 |              8.47789 |
+| Iris                                      | Gaussian     |         89.8831 |              9.93515 |
+| Iris                                      | Linear       |         87.1347 |             14.0286  |
+| Iris                                      | Scatter Code |         84.5476 |             21.9632  |
+| MAGIC Gamma Telescope                     | Distributive |         83.4458 |             10.2737  |
+| MAGIC Gamma Telescope                     | Gaussian     |         80.5496 |             13.1862  |
+| MAGIC Gamma Telescope                     | Linear       |         75.2764 |             15.9959  |
+| MAGIC Gamma Telescope                     | Scatter Code |         54.9492 |             24.3998  |
+| Maternal Health Risk                      | Distributive |         83.5718 |              7.98944 |
+| Maternal Health Risk                      | Gaussian     |         79.065  |              9.92168 |
+| Maternal Health Risk                      | Linear       |         75.542  |             12.5971  |
+| Maternal Health Risk                      | Scatter Code |         63.9206 |             20.3505  |
+| Optical Recognition of Handwritten Digits | Distributive |         85.4135 |             11.4605  |
+| Optical Recognition of Handwritten Digits | Gaussian     |         83.8374 |             12.8351  |
+| Optical Recognition of Handwritten Digits | Linear       |         77.6407 |             17.489   |
+| Optical Recognition of Handwritten Digits | Scatter Code |         60.6171 |             28.4698  |
+| Statlog (Vehicle Silhouettes)             | Distributive |         86.9922 |              9.48316 |
+| Statlog (Vehicle Silhouettes)             | Gaussian     |         84.39   |             10.061   |
+| Statlog (Vehicle Silhouettes)             | Linear       |         72.8317 |             15.12    |
+| Statlog (Vehicle Silhouettes)             | Scatter Code |         52.5183 |             30.9841  |
+| Wine Quality                              | Distributive |         81.6467 |             13.6314  |
+| Wine Quality                              | Gaussian     |         79.5449 |             14.9888  |
+| Wine Quality                              | Linear       |         73.2075 |             19.8078  |
+| Wine Quality                              | Scatter Code |         65.9612 |             25.3384  |
 
 ## Best Encodings per Dataset
 
@@ -96,7 +94,7 @@
 | EEG Eye State                             | Distributive    |        0.667745 |           0.166322   |
 | Ecoli                                     | Linear          |        0.891772 |           0.0764819  |
 | Glass Identification                      | Distributive    |        0.678432 |           0.0621713  |
-| Iris                                      | Scatter Code    |        0.928139 |           0.0680462  |
+| Iris                                      | Scatter Code    |        0.927944 |           0.0685935  |
 | MAGIC Gamma Telescope                     | Distributive    |        0.797416 |           0.0617126  |
 | MNIST                                     | Gaussian        |        0.975265 |           0.00628325 |
 | Maternal Health Risk                      | Distributive    |        0.693324 |           0.0325319  |
@@ -108,15 +106,15 @@
 
 | Dataset                                   | Best Encoding   |   Mean Accuracy |   Standard Deviation |
 |:------------------------------------------|:----------------|----------------:|---------------------:|
-| EEG Eye State                             | Distributive    |         84.0155 |             10.7833  |
-| Ecoli                                     | Distributive    |         91.5343 |              4.31321 |
-| Glass Identification                      | Distributive    |         89.7657 |              4.70821 |
-| Iris                                      | Linear          |         96.67   |              4.01854 |
-| MAGIC Gamma Telescope                     | Distributive    |         83.9273 |             11.2687  |
-| Maternal Health Risk                      | Linear          |         89.7675 |              9.5811  |
-| Optical Recognition of Handwritten Digits | Gaussian        |         81.5052 |             12.4852  |
-| Statlog (Vehicle Silhouettes)             | Distributive    |         86.8556 |              4.98223 |
-| Wine Quality                              | Distributive    |         88.2335 |              5.24631 |
+| EEG Eye State                             | Distributive    |         84.233  |             10.6796  |
+| Ecoli                                     | Distributive    |         90.26   |              9.21047 |
+| Glass Identification                      | Distributive    |         84.1283 |             11.8888  |
+| Iris                                      | Distributive    |         90.6359 |              8.47789 |
+| MAGIC Gamma Telescope                     | Distributive    |         83.4458 |             10.2737  |
+| Maternal Health Risk                      | Distributive    |         83.5718 |              7.98944 |
+| Optical Recognition of Handwritten Digits | Distributive    |         85.4135 |             11.4605  |
+| Statlog (Vehicle Silhouettes)             | Distributive    |         86.9922 |              9.48316 |
+| Wine Quality                              | Distributive    |         81.6467 |             13.6314  |
 
 ## Optimal Scatter Code Configurations
 
@@ -150,7 +148,7 @@
 | Glass Identification                      |              200 |           10 | 0.384781 |   0.226839   | DWN     |
 | Glass Identification                      |              200 |           50 | 0.5183   |   0.0720901  | DWN     |
 | Glass Identification                      |              200 |          100 | 0.52676  |   0.067981   | DWN     |
-| Iris                                      |               50 |           10 | 0.92     |   0.0699206  | DWN     |
+| Iris                                      |               50 |           10 | 0.917778 |   0.0737865  | DWN     |
 | Iris                                      |               50 |           50 | 0.91005  |   0.0723229  | DWN     |
 | Iris                                      |              100 |           10 | 0.891967 |   0.0680655  | DWN     |
 | Iris                                      |              100 |          100 | 0.984    |   0.0157762  | DWN     |
@@ -208,63 +206,68 @@
 
 ### Wisard
 
-| dataset                                   |   num_dimensions |   num_slices |    mean |       std | model   |
-|:------------------------------------------|-----------------:|-------------:|--------:|----------:|:--------|
-| EEG Eye State                             |               50 |           10 | 64.4563 |  25.0466  | Wisard  |
-| EEG Eye State                             |               50 |           50 | 66.79   |  24.251   | Wisard  |
-| EEG Eye State                             |               50 |          100 | 41.6927 |  18.8616  | Wisard  |
-| EEG Eye State                             |              100 |           10 | 65.4451 |  25.1139  | Wisard  |
-| EEG Eye State                             |              100 |           50 | 65.7214 |  25.2262  | Wisard  |
-| EEG Eye State                             |              100 |          100 | 67.2729 |  24.0805  | Wisard  |
-| EEG Eye State                             |              200 |           10 | 64.5871 |  25.277   | Wisard  |
-| EEG Eye State                             |              200 |           50 | 68.0447 |  24.6324  | Wisard  |
-| EEG Eye State                             |              200 |          100 | 69.5845 |  23.7149  | Wisard  |
-| Ecoli                                     |               50 |           10 | 88.99   | nan       | Wisard  |
-| Ecoli                                     |               50 |           50 | 90.77   | nan       | Wisard  |
-| Ecoli                                     |              100 |           10 | 25.06   | nan       | Wisard  |
-| Ecoli                                     |              100 |          100 | 93.45   | nan       | Wisard  |
-| Ecoli                                     |              200 |           10 | 93.765  |   1.27986 | Wisard  |
-| Ecoli                                     |              200 |           50 | 91.96   | nan       | Wisard  |
-| Ecoli                                     |              200 |          100 | 93.45   | nan       | Wisard  |
-| Glass Identification                      |               50 |           50 | 60.28   | nan       | Wisard  |
-| Glass Identification                      |               50 |          100 | 25.06   | nan       | Wisard  |
-| Glass Identification                      |              100 |           10 | 37.85   | nan       | Wisard  |
-| Glass Identification                      |              100 |           50 | 60.28   | nan       | Wisard  |
-| Glass Identification                      |              100 |          100 | 82.9033 |  19.2914  | Wisard  |
-| Glass Identification                      |              200 |           10 | 25.06   | nan       | Wisard  |
-| Glass Identification                      |              200 |           50 | 62.62   | nan       | Wisard  |
-| Iris                                      |               50 |           50 | 96      | nan       | Wisard  |
-| MAGIC Gamma Telescope                     |               50 |           10 | 55.2186 |  26.691   | Wisard  |
-| MAGIC Gamma Telescope                     |               50 |           50 | 58.626  |  28.0643  | Wisard  |
-| MAGIC Gamma Telescope                     |               50 |          100 | 38.9011 |  15.2349  | Wisard  |
-| MAGIC Gamma Telescope                     |              100 |           10 | 94      | nan       | Wisard  |
-| MAGIC Gamma Telescope                     |              100 |           50 | 72.725  |  22.1636  | Wisard  |
-| MAGIC Gamma Telescope                     |              100 |          100 | 58.362  |  28.054   | Wisard  |
-| MAGIC Gamma Telescope                     |              200 |           50 | 58.322  |  28.5238  | Wisard  |
-| Maternal Health Risk                      |              100 |           10 | 64.76   |  38.0565  | Wisard  |
-| Maternal Health Risk                      |              200 |           10 | 66.26   |  40.1778  | Wisard  |
-| Maternal Health Risk                      |              200 |           50 | 70.71   | nan       | Wisard  |
-| Optical Recognition of Handwritten Digits |               50 |           10 | 66.495  |  39.8455  | Wisard  |
-| Optical Recognition of Handwritten Digits |               50 |          100 | 25.06   | nan       | Wisard  |
-| Optical Recognition of Handwritten Digits |              100 |           10 | 42.94   | nan       | Wisard  |
-| Optical Recognition of Handwritten Digits |              100 |           50 | 98      | nan       | Wisard  |
-| Optical Recognition of Handwritten Digits |              200 |           10 | 64.79   | nan       | Wisard  |
-| Optical Recognition of Handwritten Digits |              200 |          100 | 60.88   |  25.8081  | Wisard  |
-| Statlog (Vehicle Silhouettes)             |               50 |           10 | 74.49   |  31.3941  | Wisard  |
-| Statlog (Vehicle Silhouettes)             |               50 |           50 | 78.505  |  23.7941  | Wisard  |
-| Statlog (Vehicle Silhouettes)             |               50 |          100 | 40.04   | nan       | Wisard  |
-| Statlog (Vehicle Silhouettes)             |              100 |           10 | 78.655  |  21.7011  | Wisard  |
-| Statlog (Vehicle Silhouettes)             |              100 |           50 | 91.67   | nan       | Wisard  |
-| Statlog (Vehicle Silhouettes)             |              100 |          100 | 97.33   | nan       | Wisard  |
-| Statlog (Vehicle Silhouettes)             |              200 |           10 | 93.45   | nan       | Wisard  |
-| Statlog (Vehicle Silhouettes)             |              200 |           50 | 79.74   |  24.876   | Wisard  |
-| Statlog (Vehicle Silhouettes)             |              200 |          100 | 79.94   |  26.4882  | Wisard  |
-| Wine Quality                              |               50 |           10 | 59.96   | nan       | Wisard  |
-| Wine Quality                              |               50 |           50 | 65.48   | nan       | Wisard  |
-| Wine Quality                              |               50 |          100 | 37.86   |   4.19864 | Wisard  |
-| Wine Quality                              |              100 |           50 | 68.54   | nan       | Wisard  |
-| Wine Quality                              |              100 |          100 | 63.815  |   2.35467 | Wisard  |
-| Wine Quality                              |              200 |          100 | 25.06   | nan       | Wisard  |
+| dataset                                   |   num_dimensions |   num_slices |    mean |        std | model   |
+|:------------------------------------------|-----------------:|-------------:|--------:|-----------:|:--------|
+| EEG Eye State                             |               50 |           10 | 64.2493 |  25.3507   | Wisard  |
+| EEG Eye State                             |               50 |           50 | 67.3044 |  24.1004   | Wisard  |
+| EEG Eye State                             |               50 |          100 | 38.9011 |  15.9785   | Wisard  |
+| EEG Eye State                             |              100 |           10 | 65.0483 |  25.4865   | Wisard  |
+| EEG Eye State                             |              100 |           50 | 67.512  |  24.5092   | Wisard  |
+| EEG Eye State                             |              100 |          100 | 68.3231 |  24.0081   | Wisard  |
+| EEG Eye State                             |              200 |           10 | 65.3567 |  25.7517   | Wisard  |
+| EEG Eye State                             |              200 |           50 | 67.8911 |  24.4775   | Wisard  |
+| EEG Eye State                             |              200 |          100 | 68.648  |  24.2698   | Wisard  |
+| Ecoli                                     |               50 |           10 | 92.645  |   0.968736 | Wisard  |
+| Ecoli                                     |               50 |           50 | 94.39   |   1.32936  | Wisard  |
+| Ecoli                                     |               50 |          100 | 37.945  |   6.5266   | Wisard  |
+| Ecoli                                     |              100 |           10 | 65.2743 |  30.5734   | Wisard  |
+| Ecoli                                     |              200 |           10 | 93.315  |   1.91626  | Wisard  |
+| Iris                                      |              100 |           10 | 93.315  |   1.91626  | Wisard  |
+| Iris                                      |              100 |           50 | 96.24   |   4.36992  | Wisard  |
+| Iris                                      |              100 |          100 | 75.0422 |  27.1869   | Wisard  |
+| Iris                                      |              200 |           50 | 96.095  |   4.57498  | Wisard  |
+| Iris                                      |              200 |          100 | 95.315  |   4.74469  | Wisard  |
+| MAGIC Gamma Telescope                     |               50 |           10 | 71.99   | nan        | Wisard  |
+| MAGIC Gamma Telescope                     |               50 |           50 | 69.55   | nan        | Wisard  |
+| MAGIC Gamma Telescope                     |               50 |          100 | 39.465  |  15.5426   | Wisard  |
+| MAGIC Gamma Telescope                     |              100 |           10 | 75.91   | nan        | Wisard  |
+| MAGIC Gamma Telescope                     |              100 |           50 | 68.524  |  23.8005   | Wisard  |
+| MAGIC Gamma Telescope                     |              100 |          100 | 68.611  |  23.9145   | Wisard  |
+| MAGIC Gamma Telescope                     |              200 |           10 | 65.935  |  25.7058   | Wisard  |
+| MAGIC Gamma Telescope                     |              200 |           50 | 68.283  |  24.36     | Wisard  |
+| MAGIC Gamma Telescope                     |              200 |          100 | 69.36   |  24.0317   | Wisard  |
+| Maternal Health Risk                      |               50 |           10 | 58.38   | nan        | Wisard  |
+| Maternal Health Risk                      |               50 |           50 | 64.6    | nan        | Wisard  |
+| Maternal Health Risk                      |               50 |          100 | 40.04   | nan        | Wisard  |
+| Maternal Health Risk                      |              100 |           10 | 65.5375 |  28.0781   | Wisard  |
+| Maternal Health Risk                      |              100 |           50 | 66.37   | nan        | Wisard  |
+| Maternal Health Risk                      |              100 |          100 | 65.98   | nan        | Wisard  |
+| Maternal Health Risk                      |              200 |           10 | 64.2    | nan        | Wisard  |
+| Maternal Health Risk                      |              200 |           50 | 69.23   | nan        | Wisard  |
+| Maternal Health Risk                      |              200 |          100 | 69.63   | nan        | Wisard  |
+| Optical Recognition of Handwritten Digits |               50 |           10 | 64.1648 |  27.6655   | Wisard  |
+| Optical Recognition of Handwritten Digits |               50 |          100 | 32.8786 |  11.4538   | Wisard  |
+| Optical Recognition of Handwritten Digits |              100 |           50 | 68.8121 |  27.9497   | Wisard  |
+| Optical Recognition of Handwritten Digits |              200 |           50 | 69.5629 |  28.0319   | Wisard  |
+| Optical Recognition of Handwritten Digits |              200 |          100 | 70.1557 |  28.5024   | Wisard  |
+| Statlog (Vehicle Silhouettes)             |               50 |           10 | 25.06   | nan        | Wisard  |
+| Statlog (Vehicle Silhouettes)             |               50 |           50 | 25.06   | nan        | Wisard  |
+| Statlog (Vehicle Silhouettes)             |               50 |          100 | 25.06   | nan        | Wisard  |
+| Statlog (Vehicle Silhouettes)             |              100 |           10 | 25.06   | nan        | Wisard  |
+| Statlog (Vehicle Silhouettes)             |              100 |           50 | 25.06   | nan        | Wisard  |
+| Statlog (Vehicle Silhouettes)             |              100 |          100 | 64.3975 |  30.881    | Wisard  |
+| Statlog (Vehicle Silhouettes)             |              200 |           10 | 25.06   | nan        | Wisard  |
+| Statlog (Vehicle Silhouettes)             |              200 |           50 | 25.06   | nan        | Wisard  |
+| Statlog (Vehicle Silhouettes)             |              200 |          100 | 64.665  |  31.3003   | Wisard  |
+| Wine Quality                              |               50 |           10 | 66.83   |  24.7543   | Wisard  |
+| Wine Quality                              |               50 |           50 | 68.1679 |  26.3942   | Wisard  |
+| Wine Quality                              |               50 |          100 | 40.646  |   4.34749  | Wisard  |
+| Wine Quality                              |              100 |           10 | 67.38   |  25.683    | Wisard  |
+| Wine Quality                              |              100 |           50 | 69.11   |  26.319    | Wisard  |
+| Wine Quality                              |              100 |          100 | 69.62   |  25.7883   | Wisard  |
+| Wine Quality                              |              200 |           10 | 65.9879 |  27.7292   | Wisard  |
+| Wine Quality                              |              200 |           50 | 68.766  |  26.7593   | Wisard  |
+| Wine Quality                              |              200 |          100 | 70.89   |  26.4485   | Wisard  |
 
 ## Delta Time Comparisons
 
@@ -281,13 +284,13 @@
 | Ecoli                                     | Linear       |  0.158421  |   0.330099  | DWN     |
 | Ecoli                                     | Scatter Code |  0.146287  |   0.269196  | DWN     |
 | Glass Identification                      | Distributive |  0.0867117 |   0.0599026 | DWN     |
-| Glass Identification                      | Gaussian     |  0.122241  |   0.367902  | DWN     |
+| Glass Identification                      | Gaussian     |  0.121766  |   0.369381  | DWN     |
 | Glass Identification                      | Linear       |  0.892134  |   2.04046   | DWN     |
 | Glass Identification                      | Scatter Code |  1.7668    |   3.49148   | DWN     |
 | Iris                                      | Distributive |  0.0698464 |   0.0565033 | DWN     |
-| Iris                                      | Gaussian     |  0.0617882 |   0.0204502 | DWN     |
-| Iris                                      | Linear       |  0.0525712 |   0.015543  | DWN     |
-| Iris                                      | Scatter Code |  0.046679  |   0.0113868 | DWN     |
+| Iris                                      | Gaussian     |  0.0619407 |   0.0204845 | DWN     |
+| Iris                                      | Linear       |  0.052534  |   0.0156143 | DWN     |
+| Iris                                      | Scatter Code |  0.046777  |   0.0114549 | DWN     |
 | MAGIC Gamma Telescope                     | Distributive |  3.85638   |   1.86194   | DWN     |
 | MAGIC Gamma Telescope                     | Gaussian     |  4.19294   |   1.76916   | DWN     |
 | MAGIC Gamma Telescope                     | Linear       |  3.64362   |   1.44605   | DWN     |
@@ -314,44 +317,42 @@
 
 ### Wisard
 
-| dataset                                   | encoding     |         mean |          std | model   |
-|:------------------------------------------|:-------------|-------------:|-------------:|:--------|
-| EEG Eye State                             | Distributive |   1.08676    |  10.2338     | Wisard  |
-| EEG Eye State                             | Gaussian     |   3.39038    |  31.9443     | Wisard  |
-| EEG Eye State                             | Linear       |   8.5186     |  34.8451     | Wisard  |
-| EEG Eye State                             | Scatter Code | 140.44       | 248.494      | Wisard  |
-| Ecoli                                     | Distributive |   0.0122143  |   0.00939041 | Wisard  |
-| Ecoli                                     | Gaussian     |   0.00601429 |   0.00261561 | Wisard  |
-| Ecoli                                     | Linear       |   0.0117875  |   0.00853555 | Wisard  |
-| Ecoli                                     | Scatter Code |   0.225062   |   0.558027   | Wisard  |
-| Glass Identification                      | Distributive |   0.00924286 |   0.0062225  | Wisard  |
-| Glass Identification                      | Gaussian     |   0.0201231  |   0.0219282  | Wisard  |
-| Glass Identification                      | Linear       |   0.0192545  |   0.0324257  | Wisard  |
-| Glass Identification                      | Scatter Code |   0.823922   |   2.08399    | Wisard  |
-| Iris                                      | Distributive |   0.01144    |   0.00623001 | Wisard  |
-| Iris                                      | Gaussian     |   0.011      |   0.0105257  | Wisard  |
-| Iris                                      | Linear       |   0.0015     | nan          | Wisard  |
-| Iris                                      | Scatter Code |   0.004      | nan          | Wisard  |
-| MAGIC Gamma Telescope                     | Distributive |   4.33743    |  25.7361     | Wisard  |
-| MAGIC Gamma Telescope                     | Gaussian     |   4.00635    |  12.752      | Wisard  |
-| MAGIC Gamma Telescope                     | Linear       |  31.7196     |  94.1419     | Wisard  |
-| MAGIC Gamma Telescope                     | Scatter Code | 138.241      | 263.833      | Wisard  |
-| Maternal Health Risk                      | Distributive |   0.0379722  |   0.0647953  | Wisard  |
-| Maternal Health Risk                      | Gaussian     |   0.1783     |   0.556882   | Wisard  |
-| Maternal Health Risk                      | Linear       |   0.0198125  |   0.032363   | Wisard  |
-| Maternal Health Risk                      | Scatter Code |   0.0646     |   0.0415279  | Wisard  |
-| Optical Recognition of Handwritten Digits | Distributive |   0.298572   |   0.464401   | Wisard  |
-| Optical Recognition of Handwritten Digits | Gaussian     |   0.826774   |   2.44011    | Wisard  |
-| Optical Recognition of Handwritten Digits | Linear       |   4.49904    |  10.1289     | Wisard  |
-| Optical Recognition of Handwritten Digits | Scatter Code | 118.439      | 233.985      | Wisard  |
-| Statlog (Vehicle Silhouettes)             | Distributive |   0.0370278  |   0.0251848  | Wisard  |
-| Statlog (Vehicle Silhouettes)             | Gaussian     |   0.130188   |   0.370146   | Wisard  |
-| Statlog (Vehicle Silhouettes)             | Linear       |   0.0573235  |   0.112425   | Wisard  |
-| Statlog (Vehicle Silhouettes)             | Scatter Code |   0.093      |   0.11539    | Wisard  |
-| Wine Quality                              | Distributive |   0.0305235  |   0.0204988  | Wisard  |
-| Wine Quality                              | Gaussian     |   0.147533   |   0.421233   | Wisard  |
-| Wine Quality                              | Linear       |   0.022575   |   0.0166928  | Wisard  |
-| Wine Quality                              | Scatter Code |   0.38933    |   0.993766   | Wisard  |
+| dataset                                   | encoding     |       mean |        std | model   |
+|:------------------------------------------|:-------------|-----------:|-----------:|:--------|
+| EEG Eye State                             | Distributive |   0.34942  |   0.432689 | Wisard  |
+| EEG Eye State                             | Gaussian     |   2.23085  |  27.372    | Wisard  |
+| EEG Eye State                             | Linear       |   6.77159  |  24.0335   | Wisard  |
+| EEG Eye State                             | Scatter Code | 122.683    | 200.172    | Wisard  |
+| Ecoli                                     | Distributive |   0.24282  |   0.337813 | Wisard  |
+| Ecoli                                     | Gaussian     |   0.210915 |   0.342972 | Wisard  |
+| Ecoli                                     | Linear       |   0.53296  |   0.966635 | Wisard  |
+| Ecoli                                     | Scatter Code |   7.87117  |  22.3131   | Wisard  |
+| Glass Identification                      | Distributive |   0.3197   |   0.371252 | Wisard  |
+| Glass Identification                      | Gaussian     |   0.4093   | nan        | Wisard  |
+| Iris                                      | Distributive |   0.312582 |   0.612029 | Wisard  |
+| Iris                                      | Gaussian     |   0.225056 |   0.461882 | Wisard  |
+| Iris                                      | Linear       |   2.25925  |   6.98729  | Wisard  |
+| Iris                                      | Scatter Code |  26.39     |  64.2659   | Wisard  |
+| MAGIC Gamma Telescope                     | Distributive |   1.16181  |   3.17229  | Wisard  |
+| MAGIC Gamma Telescope                     | Gaussian     |   7.70284  |  26.0599   | Wisard  |
+| MAGIC Gamma Telescope                     | Linear       |  26.8294   |  89.1237   | Wisard  |
+| MAGIC Gamma Telescope                     | Scatter Code | 121.68     | 183.894    | Wisard  |
+| Maternal Health Risk                      | Distributive |   0.185371 |   0.249091 | Wisard  |
+| Maternal Health Risk                      | Gaussian     |   0.384581 |   0.471295 | Wisard  |
+| Maternal Health Risk                      | Linear       |   0.49846  |   0.820389 | Wisard  |
+| Maternal Health Risk                      | Scatter Code |   8.98544  |  21.802    | Wisard  |
+| Optical Recognition of Handwritten Digits | Distributive |   0.499977 |   0.705922 | Wisard  |
+| Optical Recognition of Handwritten Digits | Gaussian     |   0.56284  |   0.932178 | Wisard  |
+| Optical Recognition of Handwritten Digits | Linear       |  10.4315   |  60.9644   | Wisard  |
+| Optical Recognition of Handwritten Digits | Scatter Code |  21.1752   |  40.0742   | Wisard  |
+| Statlog (Vehicle Silhouettes)             | Distributive |   0.586343 |   0.946135 | Wisard  |
+| Statlog (Vehicle Silhouettes)             | Gaussian     |   0.993122 |   1.68532  | Wisard  |
+| Statlog (Vehicle Silhouettes)             | Linear       |  10.5022   |  40.4627   | Wisard  |
+| Statlog (Vehicle Silhouettes)             | Scatter Code |  17.0802   |  24.1564   | Wisard  |
+| Wine Quality                              | Distributive |   0.359421 |   0.415592 | Wisard  |
+| Wine Quality                              | Gaussian     |   0.42546  |   0.529529 | Wisard  |
+| Wine Quality                              | Linear       |   2.15951  |   7.61899  | Wisard  |
+| Wine Quality                              | Scatter Code |  27.4119   |  43.8217   | Wisard  |
 ## Scatter Code Accuracy by Dataset
 
 ### DWN: Mean Accuracy and Standard Deviation for Scatter Code Configurations
@@ -384,7 +385,7 @@
 | Glass Identification                      |           10 |              200 |           0.385 |                0.227 |
 | Glass Identification                      |           50 |              200 |           0.518 |                0.072 |
 | Glass Identification                      |          100 |              200 |           0.527 |                0.068 |
-| Iris                                      |           10 |               50 |           0.92  |                0.07  |
+| Iris                                      |           10 |               50 |           0.918 |                0.074 |
 | Iris                                      |           50 |               50 |           0.91  |                0.072 |
 | Iris                                      |           10 |              100 |           0.892 |                0.068 |
 | Iris                                      |          100 |              100 |           0.984 |                0.016 |
@@ -444,59 +445,64 @@
 
 | Dataset                                   |   Num Slices |   Num Dimensions |   Mean Accuracy |   Standard Deviation |
 |:------------------------------------------|-------------:|-----------------:|----------------:|---------------------:|
-| EEG Eye State                             |           10 |               50 |          64.456 |               25.047 |
-| EEG Eye State                             |           50 |               50 |          66.79  |               24.251 |
-| EEG Eye State                             |          100 |               50 |          41.693 |               18.862 |
-| EEG Eye State                             |           10 |              100 |          65.445 |               25.114 |
-| EEG Eye State                             |           50 |              100 |          65.721 |               25.226 |
-| EEG Eye State                             |          100 |              100 |          67.273 |               24.081 |
-| EEG Eye State                             |           10 |              200 |          64.587 |               25.277 |
-| EEG Eye State                             |           50 |              200 |          68.045 |               24.632 |
-| EEG Eye State                             |          100 |              200 |          69.585 |               23.715 |
-| Ecoli                                     |           10 |               50 |          88.99  |              nan     |
-| Ecoli                                     |           50 |               50 |          90.77  |              nan     |
-| Ecoli                                     |           10 |              100 |          25.06  |              nan     |
-| Ecoli                                     |          100 |              100 |          93.45  |              nan     |
-| Ecoli                                     |           10 |              200 |          93.765 |                1.28  |
-| Ecoli                                     |           50 |              200 |          91.96  |              nan     |
-| Ecoli                                     |          100 |              200 |          93.45  |              nan     |
-| Glass Identification                      |           50 |               50 |          60.28  |              nan     |
-| Glass Identification                      |          100 |               50 |          25.06  |              nan     |
-| Glass Identification                      |           10 |              100 |          37.85  |              nan     |
-| Glass Identification                      |           50 |              100 |          60.28  |              nan     |
-| Glass Identification                      |          100 |              100 |          82.903 |               19.291 |
-| Glass Identification                      |           10 |              200 |          25.06  |              nan     |
-| Glass Identification                      |           50 |              200 |          62.62  |              nan     |
-| Iris                                      |           50 |               50 |          96     |              nan     |
-| MAGIC Gamma Telescope                     |           10 |               50 |          55.219 |               26.691 |
-| MAGIC Gamma Telescope                     |           50 |               50 |          58.626 |               28.064 |
-| MAGIC Gamma Telescope                     |          100 |               50 |          38.901 |               15.235 |
-| MAGIC Gamma Telescope                     |           10 |              100 |          94     |              nan     |
-| MAGIC Gamma Telescope                     |           50 |              100 |          72.725 |               22.164 |
-| MAGIC Gamma Telescope                     |          100 |              100 |          58.362 |               28.054 |
-| MAGIC Gamma Telescope                     |           50 |              200 |          58.322 |               28.524 |
-| Maternal Health Risk                      |           10 |              100 |          64.76  |               38.056 |
-| Maternal Health Risk                      |           10 |              200 |          66.26  |               40.178 |
-| Maternal Health Risk                      |           50 |              200 |          70.71  |              nan     |
-| Optical Recognition of Handwritten Digits |           10 |               50 |          66.495 |               39.845 |
-| Optical Recognition of Handwritten Digits |          100 |               50 |          25.06  |              nan     |
-| Optical Recognition of Handwritten Digits |           10 |              100 |          42.94  |              nan     |
-| Optical Recognition of Handwritten Digits |           50 |              100 |          98     |              nan     |
-| Optical Recognition of Handwritten Digits |           10 |              200 |          64.79  |              nan     |
-| Optical Recognition of Handwritten Digits |          100 |              200 |          60.88  |               25.808 |
-| Statlog (Vehicle Silhouettes)             |           10 |               50 |          74.49  |               31.394 |
-| Statlog (Vehicle Silhouettes)             |           50 |               50 |          78.505 |               23.794 |
-| Statlog (Vehicle Silhouettes)             |          100 |               50 |          40.04  |              nan     |
-| Statlog (Vehicle Silhouettes)             |           10 |              100 |          78.655 |               21.701 |
-| Statlog (Vehicle Silhouettes)             |           50 |              100 |          91.67  |              nan     |
-| Statlog (Vehicle Silhouettes)             |          100 |              100 |          97.33  |              nan     |
-| Statlog (Vehicle Silhouettes)             |           10 |              200 |          93.45  |              nan     |
-| Statlog (Vehicle Silhouettes)             |           50 |              200 |          79.74  |               24.876 |
-| Statlog (Vehicle Silhouettes)             |          100 |              200 |          79.94  |               26.488 |
-| Wine Quality                              |           10 |               50 |          59.96  |              nan     |
-| Wine Quality                              |           50 |               50 |          65.48  |              nan     |
-| Wine Quality                              |          100 |               50 |          37.86  |                4.199 |
-| Wine Quality                              |           50 |              100 |          68.54  |              nan     |
-| Wine Quality                              |          100 |              100 |          63.815 |                2.355 |
-| Wine Quality                              |          100 |              200 |          25.06  |              nan     |
+| EEG Eye State                             |           10 |               50 |          64.249 |               25.351 |
+| EEG Eye State                             |           50 |               50 |          67.304 |               24.1   |
+| EEG Eye State                             |          100 |               50 |          38.901 |               15.979 |
+| EEG Eye State                             |           10 |              100 |          65.048 |               25.487 |
+| EEG Eye State                             |           50 |              100 |          67.512 |               24.509 |
+| EEG Eye State                             |          100 |              100 |          68.323 |               24.008 |
+| EEG Eye State                             |           10 |              200 |          65.357 |               25.752 |
+| EEG Eye State                             |           50 |              200 |          67.891 |               24.478 |
+| EEG Eye State                             |          100 |              200 |          68.648 |               24.27  |
+| Ecoli                                     |           10 |               50 |          92.645 |                0.969 |
+| Ecoli                                     |           50 |               50 |          94.39  |                1.329 |
+| Ecoli                                     |          100 |               50 |          37.945 |                6.527 |
+| Ecoli                                     |           10 |              100 |          65.274 |               30.573 |
+| Ecoli                                     |           10 |              200 |          93.315 |                1.916 |
+| Iris                                      |           10 |              100 |          93.315 |                1.916 |
+| Iris                                      |           50 |              100 |          96.24  |                4.37  |
+| Iris                                      |          100 |              100 |          75.042 |               27.187 |
+| Iris                                      |           50 |              200 |          96.095 |                4.575 |
+| Iris                                      |          100 |              200 |          95.315 |                4.745 |
+| MAGIC Gamma Telescope                     |           10 |               50 |          71.99  |              nan     |
+| MAGIC Gamma Telescope                     |           50 |               50 |          69.55  |              nan     |
+| MAGIC Gamma Telescope                     |          100 |               50 |          39.465 |               15.543 |
+| MAGIC Gamma Telescope                     |           10 |              100 |          75.91  |              nan     |
+| MAGIC Gamma Telescope                     |           50 |              100 |          68.524 |               23.801 |
+| MAGIC Gamma Telescope                     |          100 |              100 |          68.611 |               23.915 |
+| MAGIC Gamma Telescope                     |           10 |              200 |          65.935 |               25.706 |
+| MAGIC Gamma Telescope                     |           50 |              200 |          68.283 |               24.36  |
+| MAGIC Gamma Telescope                     |          100 |              200 |          69.36  |               24.032 |
+| Maternal Health Risk                      |           10 |               50 |          58.38  |              nan     |
+| Maternal Health Risk                      |           50 |               50 |          64.6   |              nan     |
+| Maternal Health Risk                      |          100 |               50 |          40.04  |              nan     |
+| Maternal Health Risk                      |           10 |              100 |          65.538 |               28.078 |
+| Maternal Health Risk                      |           50 |              100 |          66.37  |              nan     |
+| Maternal Health Risk                      |          100 |              100 |          65.98  |              nan     |
+| Maternal Health Risk                      |           10 |              200 |          64.2   |              nan     |
+| Maternal Health Risk                      |           50 |              200 |          69.23  |              nan     |
+| Maternal Health Risk                      |          100 |              200 |          69.63  |              nan     |
+| Optical Recognition of Handwritten Digits |           10 |               50 |          64.165 |               27.665 |
+| Optical Recognition of Handwritten Digits |          100 |               50 |          32.879 |               11.454 |
+| Optical Recognition of Handwritten Digits |           50 |              100 |          68.812 |               27.95  |
+| Optical Recognition of Handwritten Digits |           50 |              200 |          69.563 |               28.032 |
+| Optical Recognition of Handwritten Digits |          100 |              200 |          70.156 |               28.502 |
+| Statlog (Vehicle Silhouettes)             |           10 |               50 |          25.06  |              nan     |
+| Statlog (Vehicle Silhouettes)             |           50 |               50 |          25.06  |              nan     |
+| Statlog (Vehicle Silhouettes)             |          100 |               50 |          25.06  |              nan     |
+| Statlog (Vehicle Silhouettes)             |           10 |              100 |          25.06  |              nan     |
+| Statlog (Vehicle Silhouettes)             |           50 |              100 |          25.06  |              nan     |
+| Statlog (Vehicle Silhouettes)             |          100 |              100 |          64.397 |               30.881 |
+| Statlog (Vehicle Silhouettes)             |           10 |              200 |          25.06  |              nan     |
+| Statlog (Vehicle Silhouettes)             |           50 |              200 |          25.06  |              nan     |
+| Statlog (Vehicle Silhouettes)             |          100 |              200 |          64.665 |               31.3   |
+| Wine Quality                              |           10 |               50 |          66.83  |               24.754 |
+| Wine Quality                              |           50 |               50 |          68.168 |               26.394 |
+| Wine Quality                              |          100 |               50 |          40.646 |                4.347 |
+| Wine Quality                              |           10 |              100 |          67.38  |               25.683 |
+| Wine Quality                              |           50 |              100 |          69.11  |               26.319 |
+| Wine Quality                              |          100 |              100 |          69.62  |               25.788 |
+| Wine Quality                              |           10 |              200 |          65.988 |               27.729 |
+| Wine Quality                              |           50 |              200 |          68.766 |               26.759 |
+| Wine Quality                              |          100 |              200 |          70.89  |               26.448 |
 

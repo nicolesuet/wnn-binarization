@@ -15,16 +15,16 @@ logging.info("Starting the script")
 
 # Define dataset IDs
 datasets_ids = [
-    39,  # Ecoli
-    53,  # Iris
-    186,  # Wine Quality
-    264,  # EEG Eye State
-    159,  # MAGIC Gamma Telescope
-    149,  # Statlog (Vehicle Silhouettes)
-    863,  # Maternal Health Risk
-    42,  # Glass Identification
+    # 39,  # Ecoli
+    # 53,  # Iris
+    # 186,  # Wine Quality
+    # 264,  # EEG Eye State
+    # 159,  # MAGIC Gamma Telescope
+    # 149,  # Statlog (Vehicle Silhouettes)
+    # 863,  # Maternal Health Risk
+    # 42,  # Glass Identification
     "mnist",  # MNIST
-    80,  # Letter Recognition
+    # 80,  # Letter Recognition
 ]
 
 # Define ranges for num_slices and num_dimensions
@@ -55,7 +55,7 @@ def run_wisard(num_slices, num_dimensions, datasets_ids):
 
 
 # Limit the number of concurrent threads
-MAX_THREADS = 30  # Adjust this based on your system's capabilities
+MAX_THREADS = 1  # Adjust this based on your system's capabilities
 
 # Use ThreadPoolExecutor to manage threads
 with ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:

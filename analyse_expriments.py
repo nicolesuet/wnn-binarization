@@ -100,6 +100,7 @@ def create_time_comparison_graph(dwn_delta_time, wisard_delta_time, output_dir):
 def create_scatter_config_graph(dwn_scatter_config, wisard_scatter_config, output_dir):
     os.makedirs(output_dir, exist_ok=True)
 
+    
     # Combine DWN and Wisard scatter config data for comparison
     dwn_scatter_config["model"] = "DWN"
     wisard_scatter_config["model"] = "Wisard"
@@ -290,7 +291,7 @@ def write_conclusions_to_md(
 # Main function
 def main():
     # Load data
-    file_path = "merged_file.csv"  # Replace with your CSV file path
+    file_path = "merged_metrics.csv"  # Replace with your CSV file path
     data = load_data(file_path)
 
     # Metrics
