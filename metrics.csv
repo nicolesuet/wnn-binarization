@@ -6776,3 +6776,6 @@ Wisard,2025-01-28 16:56:19,809.4486,EEG Eye State,Scatter Code,50,200,55.12
 Wisard,2025-01-28 16:56:19,806.7611,EEG Eye State,Scatter Code,10,200,55.13
 Wisard,2025-01-28 16:56:20,807.8241,MAGIC Gamma Telescope,Scatter Code,10,50,75.21
 Wisard,2025-01-28 16:59:38,198.9464,EEG Eye State,Scatter Code,100,100,55.13
+Wisard,2025-01-28 17:53:43,110.9060,MNIST,Distributive,,,93.14
+Wisard,2025-01-28 17:56:13,141.8050,MNIST,Gaussian,,,88.02
+Wisard,2025-01-28 17:58:17,117.1604,MNIST,Linear,,,91.6

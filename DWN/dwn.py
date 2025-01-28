@@ -141,8 +141,8 @@ class DWN(object):
         num_classes = len(torch.unique(all_labels))
         
         model = nn.Sequential(
-            dwn.LUTLayer(x_train.size(1), 2000, n=6, mapping="learnable"),
-            dwn.LUTLayer(2000, 1000, n=6),
+            dwn.LUTLayer(x_train.size(1), 64, n=6, mapping="learnable"),
+            dwn.LUTLayer(64, 64, n=6),
             dwn.GroupSum(k=num_classes, tau=1 / 0.3),
         )
 

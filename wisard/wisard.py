@@ -77,7 +77,7 @@ class Wisard(object):
             f"metrics.csv",
         )
 
-    def evaluate_model(self, x_train, X_bin, y_train, y_true, encoder):
+    def evaluate_model(self, x_train, X_test, y_train, y_test, encoder):
 
         wsd = wp.Wisard(
             self.address_size, ignoreZero=self.ignore_zero, verbose=self.verbose
@@ -96,12 +96,12 @@ class Wisard(object):
 
             wsd.train(x_train_int, flatten_y_train)
 
-            X_bin_int = to_int_list(X_bin)
-            predictions = wsd.classify(X_bin_int)
-            y_true_list, predictions_list = prepare_labels(y_true, predictions)
+            X_test_int = to_int_list(X_test)
+            predictions = wsd.classify(X_test_int)
+            y_test_list, predictions_list = prepare_labels(y_test, predictions)
 
-            accuracy = round(accuracy_score(y_true_list, predictions_list) * 100, 2)
-            conf_matrix = confusion_matrix(y_true_list, predictions_list)
+            accuracy = round(accuracy_score(y_test_list, predictions_list) * 100, 2)
+            conf_matrix = confusion_matrix(y_test_list, predictions_list)
 
             elapsed_time = time.time() - start_time
 
@@ -183,10 +183,10 @@ class Wisard(object):
                 f"Starting evaluation for encoder: {encoder['encoding']}, dataset: {name}, ID: {id}, num_slices: {self.num_slices}, num_dimensions: {self.num_dimensions}"
             )
 
-            X_bin = binarize(encoder, X)
+            X_test_bin = binarize(encoder, X_test)
             X_train_bin = binarize(encoder, X_train)
 
-            self.evaluate_model(X_train_bin, X_bin, y_train, y, encoder)
+            self.evaluate_model(X_train_bin, X_test_bin, y_train, y_test, encoder)
 
         logging.info(
             f"Finished processing dataset: {name} with ID: {id}, num_slices: {self.num_slices}, num_dimensions: {self.num_dimensions}"
