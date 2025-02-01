@@ -3,6 +3,7 @@ import os
 import logging
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import psutil
+from datasets import datasets
 
 log_file = os.path.join(os.path.dirname(__file__), "dwn.log")
 logging.basicConfig(
@@ -13,18 +14,6 @@ logging.basicConfig(
 
 logging.info("Starting the script")
 
-datasets_ids = [
-    39,  # Ecoli
-    53,  # Iris
-    186,  # Wine Quality
-    264,  # EEG Eye State
-    159,  # MAGIC Gamma Telescope
-    149,  # Statlog (Vehicle Silhouettes)
-    863,  # Maternal Health Risk
-    42,  # Glass Identification
-    "mnist",  # MNIST
-    80,  # Letter Recognition
-]
 
 num_slices_range = [10, 50, 100]  # Reduced range
 num_dimensions_range = [50, 100, 200]  # Reduced range

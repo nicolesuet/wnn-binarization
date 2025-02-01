@@ -30,7 +30,7 @@ class DWN(object):
     num_dimensions: str
     num_bits_thermometer: str
     encoder_definitions: list
-    datasets_ids: list
+    datasets: list
     csv_file: str
     epochs: int
     device: str
@@ -42,14 +42,14 @@ class DWN(object):
         num_slices,
         num_dimensions,
         num_bits_thermometer,
-        datasets_ids,
+        datasets,
         epochs=10,
         batch_size=32,
     ):
         self.num_slices = num_slices
         self.num_dimensions = num_dimensions
         self.num_bits_thermometer = num_bits_thermometer
-        self.datasets_ids = datasets_ids
+        self.datasets = datasets
         self.epochs = epochs
         self.batch_size = batch_size
         self.current_dataset = ""
@@ -73,13 +73,18 @@ class DWN(object):
 
         with ThreadPoolExecutor(max_workers=MAX_DATASET_THREADS) as executor:
             futures = []
-            for dataset_id in self.datasets_ids:
+            for dataset in self.datasets:
+
+                self.num_bits_thermometer = dataset.get("num_bits_thermometer", 10)
+                self.address_size = dataset.get("address_size", 10)
+                dataset_id = dataset["id"]
+
                 future = executor.submit(self.execute_dataset, dataset_id)
                 futures.append(future)
 
             for future in as_completed(futures):
                 try:
-                    future.result()  # Wait for each thread to complete
+                    future.result()
                 except Exception as e:
                     logging.error(f"Dataset thread encountered an error: {e}")
 
@@ -89,7 +94,7 @@ class DWN(object):
             f"Processing dataset ID: {dataset_id}, num_slices: {self.num_slices}, num_dimensions: {self.num_dimensions}"
         )
 
-        if dataset_id == "mnist":
+        if dataset_id == "MNIST":
             X_train, X_test, y_train, y_test, name = load_mnist()
             X = torch.cat((X_train, X_test), dim=0)
         else:
@@ -139,7 +144,7 @@ class DWN(object):
 
         all_labels = torch.cat([y_train, y_test])
         num_classes = len(torch.unique(all_labels))
-        
+
         model = nn.Sequential(
             dwn.LUTLayer(x_train.size(1), 64, n=6, mapping="learnable"),
             dwn.LUTLayer(64, 64, n=6),

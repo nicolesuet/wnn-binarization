@@ -22,9 +22,7 @@ from utils import (
     binarize,
     to_tensor,
     to_int_list,
-    to_list,
     prepare_labels,
-    encode_labels,
 )
 import torch
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -39,7 +37,7 @@ class Wisard(object):
     verbose: str
     num_bits_thermometer: str
     encoder_definitions: list
-    datasets_ids: list
+    datasets: list
     csv_file: str
     epochs: int
     current_dataset: str
@@ -49,20 +47,16 @@ class Wisard(object):
         self,
         num_slices,
         num_dimensions,
-        address_size,
         ignore_zero,
         verbose,
-        num_bits_thermometer,
-        datasets_ids,
+        datasets,
         epochs=1,
     ):
         self.num_slices = num_slices
         self.num_dimensions = num_dimensions
-        self.address_size = address_size
         self.ignore_zero = ignore_zero
         self.verbose = verbose
-        self.num_bits_thermometer = num_bits_thermometer
-        self.datasets_ids = datasets_ids
+        self.datasets = datasets
         self.epochs = epochs
 
         self.encoder_definitions = [
@@ -148,7 +142,7 @@ class Wisard(object):
 
         logging.info(f"Processing dataset ID: {id}")
 
-        if id == "mnist":
+        if id == "MNIST":
             X_train, X_test, y_train, y_test, name = load_mnist()
             y = torch.cat((y_train, y_test), dim=0)
             X = torch.cat((X_train, X_test), dim=0)
@@ -161,7 +155,7 @@ class Wisard(object):
         self.current_dataset = name
 
         min_global, max_global = get_min_max(X)
-        
+
         torch_tensor = to_tensor(X)
 
         encoders = [
@@ -193,17 +187,20 @@ class Wisard(object):
         )
 
     def run(self):
-        # Limit the number of concurrent threads for dataset processing
-        MAX_DATASET_THREADS = 1  # Adjust based on your system's capabilities
-
+        MAX_DATASET_THREADS = 2
         with ThreadPoolExecutor(max_workers=MAX_DATASET_THREADS) as executor:
             futures = []
-            for dataset_id in self.datasets_ids:
+            for dataset in self.datasets:
+
+                self.num_bits_thermometer = dataset.get("num_bits_thermometer", 10)
+                self.address_size = dataset.get("address_size", 10)
+                dataset_id = dataset["id"]
+
                 future = executor.submit(self.execute_dataset, dataset_id)
                 futures.append(future)
 
             for future in as_completed(futures):
                 try:
-                    future.result()  # Wait for each thread to complete
+                    future.result() 
                 except Exception as e:
                     logging.error(f"Dataset thread encountered an error: {e}")
