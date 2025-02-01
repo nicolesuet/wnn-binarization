@@ -13,12 +13,12 @@ logging.basicConfig(
 
 logging.info("Starting the script")
 
-num_slices_range = [10, 50, 100] 
+num_slices_range = [10, 50, 100]
 num_dimensions_range = [50, 100, 200]
 
 
 # Function to run Wisard
-def run_wisard(num_slices, num_dimensions, datasets):
+def run_wisard(num_slices, num_dimensions, datasets, scatter_code):
     logging.info(
         f"Running Wisard with num_slices={num_slices}, num_dimensions={num_dimensions}"
     )
@@ -30,23 +30,30 @@ def run_wisard(num_slices, num_dimensions, datasets):
         verbose=False,
         datasets=datasets,
         epochs=10,
+        scatter_code=scatter_code,
     )
 
     wisard.run()
 
 
-MAX_THREADS = 2 
+MAX_THREADS = 30
 
 with ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
     futures = []
+
     for num_slices in num_slices_range:
         for num_dimensions in num_dimensions_range:
-            future = executor.submit(run_wisard, num_slices, num_dimensions, datasets)
+            future = executor.submit(
+                run_wisard, num_slices, num_dimensions, datasets, scatter_code=True
+            )
             futures.append(future)
+
+    future = executor.submit(run_wisard, 0, 0, datasets, scatter_code=False)
+    futures.append(future)
 
     for future in as_completed(futures):
         try:
-            future.result() 
+            future.result()
         except Exception as e:
             logging.error(f"Thread encountered an error: {e}", exc_info=True)
 

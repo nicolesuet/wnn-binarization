@@ -42,6 +42,7 @@ class Wisard(object):
     epochs: int
     current_dataset: str
     current_dataset_id: str
+    scatter_code: bool
 
     def __init__(
         self,
@@ -51,6 +52,7 @@ class Wisard(object):
         verbose,
         datasets,
         epochs=1,
+        scatter_code=False,
     ):
         self.num_slices = num_slices
         self.num_dimensions = num_dimensions
@@ -58,13 +60,16 @@ class Wisard(object):
         self.verbose = verbose
         self.datasets = datasets
         self.epochs = epochs
+        self.scatter_code = scatter_code
 
-        self.encoder_definitions = [
-            ("Distributive", DistributiveThermometer),
-            ("Gaussian", GaussianThermometer),
-            ("Linear", Thermometer),
-            ("Scatter Code", ScatterCode),
-        ]
+        if self.scatter_code:
+            self.encoder_definitions = [("Scatter Code", ScatterCode)]
+        else:
+            self.encoder_definitions = [
+                ("Distributive", DistributiveThermometer),
+                ("Gaussian", GaussianThermometer),
+                ("Linear", Thermometer),
+            ]
 
         self.csv_file = os.path.join(
             os.path.dirname(os.path.dirname(__file__)),
@@ -187,7 +192,7 @@ class Wisard(object):
         )
 
     def run(self):
-        MAX_DATASET_THREADS = 2
+        MAX_DATASET_THREADS = 30
         with ThreadPoolExecutor(max_workers=MAX_DATASET_THREADS) as executor:
             futures = []
             for dataset in self.datasets:
@@ -201,6 +206,6 @@ class Wisard(object):
 
             for future in as_completed(futures):
                 try:
-                    future.result() 
+                    future.result()
                 except Exception as e:
                     logging.error(f"Dataset thread encountered an error: {e}")

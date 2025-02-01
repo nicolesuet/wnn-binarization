@@ -36,6 +36,7 @@ class DWN(object):
     device: str
     batch_size: int
     current_dataset: str
+    scatter_code: bool
 
     def __init__(
         self,
@@ -45,6 +46,7 @@ class DWN(object):
         datasets,
         epochs=10,
         batch_size=32,
+        scatter_code=False,
     ):
         self.num_slices = num_slices
         self.num_dimensions = num_dimensions
@@ -53,13 +55,16 @@ class DWN(object):
         self.epochs = epochs
         self.batch_size = batch_size
         self.current_dataset = ""
+        self.scatter_code = scatter_code
 
-        self.encoder_definitions = [
-            ("Distributive", DistributiveThermometer),
-            ("Gaussian", GaussianThermometer),
-            ("Linear", Thermometer),
-            ("Scatter Code", ScatterCode),
-        ]
+        if self.scatter_code:
+            self.encoder_definitions = [("Scatter Code", ScatterCode)]
+        else:
+            self.encoder_definitions = [
+                ("Distributive", DistributiveThermometer),
+                ("Gaussian", GaussianThermometer),
+                ("Linear", Thermometer),
+            ]
 
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.csv_file = os.path.join(
@@ -69,7 +74,7 @@ class DWN(object):
 
     def run(self):
         # Limit the number of concurrent threads for dataset processing
-        MAX_DATASET_THREADS = 2  # Adjust based on your system's capabilities
+        MAX_DATASET_THREADS = 30  # Adjust based on your system's capabilities
 
         with ThreadPoolExecutor(max_workers=MAX_DATASET_THREADS) as executor:
             futures = []

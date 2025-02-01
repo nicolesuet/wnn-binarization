@@ -26,7 +26,7 @@ def log_resource_usage():
     logging.info(f"Memory usage: {memory_usage:.2f} MB, CPU usage: {cpu_usage:.2f}%")
 
 
-def run_dwn(num_slices, num_dimensions, datasets_ids):
+def run_dwn(num_slices, num_dimensions, datasets, scatter_code):
     logging.info(
         f"Running DWN with num_slices={num_slices}, num_dimensions={num_dimensions}"
     )
@@ -36,9 +36,10 @@ def run_dwn(num_slices, num_dimensions, datasets_ids):
         num_slices=num_slices,
         num_dimensions=num_dimensions,
         num_bits_thermometer=10,
-        datasets_ids=datasets_ids,
+        datasets=datasets,
         epochs=10,
         batch_size=32,
+        scatter_code=scatter_code,
     )
 
     dwn_obj.run()
@@ -46,14 +47,20 @@ def run_dwn(num_slices, num_dimensions, datasets_ids):
 
 
 # Limit the number of concurrent threads
-MAX_THREADS = 2
+MAX_THREADS = 30
 
 with ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
     futures = []
     for num_slices in num_slices_range:
         for num_dimensions in num_dimensions_range:
-            future = executor.submit(run_dwn, num_slices, num_dimensions, datasets_ids)
+            future = executor.submit(
+                run_dwn, num_slices, num_dimensions, datasets, scatter_code=True
+            )
             futures.append(future)
+    future = executor.submit(
+        run_dwn, num_slices, num_dimensions, datasets, scatter_code=False
+    )
+    futures.append(future)
 
     for future in as_completed(futures):
         try:
