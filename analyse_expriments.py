@@ -291,7 +291,7 @@ def write_conclusions_to_md(
 # Main function
 def main():
     # Load data
-    file_path = "merged_metrics.csv"  # Replace with your CSV file path
+    file_path = "metrics.csv"  # Replace with your CSV file path
     data = load_data(file_path)
 
     # Metrics
