@@ -148,14 +148,16 @@ class Wisard(object):
         logging.info(f"Processing dataset ID: {id}")
 
         if id == "MNIST":
-            X_train, X_test, y_train, y_test, name = load_mnist()
-            y = torch.cat((y_train, y_test), dim=0)
-            X = torch.cat((X_train, X_test), dim=0)
+            X, y, name = load_mnist()
+            # X_train, X_test, y_train, y_test, name = load_mnist()
+            # y = torch.cat((y_train, y_test), dim=0)
+            # X = torch.cat((X_train, X_test), dim=0)
         else:
             X, y, name = load_from_uci(id)
-            X_train, X_test, y_train, y_test = train_test_split(
-                X, y, test_size=0.33, random_state=42
-            )
+        
+        X_train, X_test, y_train, y_test = train_test_split(
+            X, y, test_size=0.33, random_state=42
+        )
 
         self.current_dataset = name
 
@@ -192,7 +194,7 @@ class Wisard(object):
         )
 
     def run(self):
-        MAX_DATASET_THREADS = 30
+        MAX_DATASET_THREADS = 1
         with ThreadPoolExecutor(max_workers=MAX_DATASET_THREADS) as executor:
             futures = []
             for dataset in self.datasets:
@@ -208,4 +210,4 @@ class Wisard(object):
                 try:
                     future.result()
                 except Exception as e:
-                    logging.error(f"Dataset thread encountered an error: {e}")
+                    logging.error(f"Dataset thread encountered an error: {e}", exc_info=True)

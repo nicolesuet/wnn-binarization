@@ -83,59 +83,92 @@ def create_encoder(
     }
 
 
-def binarize(encoder, data):
-    logging.info(f"Binarizing data using encoder: {encoder['encoding']}")
+import torch
+import logging
+from typing import Union
 
-    data = to_tensor(data)
+def binarize(
+    encoder, 
+    data,
+    batch_size = 1024  # Process in batches to avoid memory overload
+) -> torch.Tensor:
 
-    if encoder["encoding"] == "Scatter Code":
-        return encoder["encoder"](data).flatten(start_dim=1)
+    try:
+        logging.info(f"Binarizing data using encoder: {encoder['encoding']}")
+        
+        data_tensor = to_tensor(data)
+        
+        binarized_batches = []
 
-    return encoder["encoder"].binarize(data).flatten(start_dim=1)
+        for i in range(0, len(data_tensor), batch_size):
+            batch = data_tensor[i:i+batch_size]
+            
+            if encoder["encoding"] == "Scatter Code":
+                binarized_batch = encoder["encoder"](batch)
+            else:
+                binarized_batch = encoder["encoder"].binarize(batch)
+            
+            binarized_batch = binarized_batch.flatten(start_dim=1)
+            binarized_batches.append(binarized_batch)
+        
+        print("concat", i)
+        res = torch.cat(binarized_batches, dim=0)
+        print("finished")
+        return res
+    
+    except Exception as e:
+        logging.error(f"Error binarizing data: {e}")
+        raise
+
+# def load_mnist():
+    
+#     transform = transforms.Compose(
+#         [transforms.ToTensor(), transforms.Lambda(lambda x: torch.flatten(x))]
+#     )
+
+#     root_dir = "data"
+#     dataset_name = "MNIST"
+
+#     dataset_path = os.path.join(root_dir, dataset_name)
+
+#     if not os.path.exists(dataset_path):
+#         download = True
+#     else:
+#         required_files = [
+#             "train-images-idx3-ubyte",
+#             "train-labels-idx1-ubyte",
+#             "t10k-images-idx3-ubyte",
+#             "t10k-labels-idx1-ubyte",
+#         ]
+#         downloaded_files = os.listdir(os.path.join(dataset_path, "raw"))
+#         download = not all(file in downloaded_files for file in required_files)
+
+#     train_dataset = datasets.MNIST(
+#         root="./data", train=True, download=download, transform=transform
+#     )
+#     test_dataset = datasets.MNIST(
+#         root="./data", train=False, download=download, transform=transform
+#     )
+
+#     train_loader = DataLoader(
+#         dataset=train_dataset, batch_size=len(train_dataset), shuffle=True
+#     )
+#     test_loader = DataLoader(
+#         dataset=test_dataset, batch_size=len(test_dataset), shuffle=False
+#     )
+
+#     X_train, y_train = next(iter(train_loader))
+#     X_test, y_test = next(iter(test_loader))
+
+#     return X_train, X_test, y_train, y_test, "MNIST"
 
 
 def load_mnist():
+    mnist = fetch_openml('mnist_784')
+    X = mnist.data
+    y = mnist.target
     
-    transform = transforms.Compose(
-        [transforms.ToTensor(), transforms.Lambda(lambda x: torch.flatten(x))]
-    )
-
-    root_dir = "data"
-    dataset_name = "MNIST"
-
-    dataset_path = os.path.join(root_dir, dataset_name)
-
-    if not os.path.exists(dataset_path):
-        download = True
-    else:
-        required_files = [
-            "train-images-idx3-ubyte",
-            "train-labels-idx1-ubyte",
-            "t10k-images-idx3-ubyte",
-            "t10k-labels-idx1-ubyte",
-        ]
-        downloaded_files = os.listdir(os.path.join(dataset_path, "raw"))
-        download = not all(file in downloaded_files for file in required_files)
-
-    train_dataset = datasets.MNIST(
-        root="./data", train=True, download=download, transform=transform
-    )
-    test_dataset = datasets.MNIST(
-        root="./data", train=False, download=download, transform=transform
-    )
-
-    train_loader = DataLoader(
-        dataset=train_dataset, batch_size=len(train_dataset), shuffle=True
-    )
-    test_loader = DataLoader(
-        dataset=test_dataset, batch_size=len(test_dataset), shuffle=False
-    )
-
-    X_train, y_train = next(iter(train_loader))
-    X_test, y_test = next(iter(test_loader))
-
-    return X_train, X_test, y_train, y_test, "MNIST"
-
+    return X, y, "MNIST"
 
 def to_tensor(X):
     if isinstance(X, torch.Tensor):
