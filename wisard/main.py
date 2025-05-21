@@ -36,25 +36,33 @@ def run_wisard(num_slices, num_dimensions, datasets, scatter_code):
     wisard.run()
 
 
-MAX_THREADS = 30
+# MAX_THREADS = 1
 
-with ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
-    futures = []
+# with ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
+#     futures = []
 
-    for num_slices in num_slices_range:
-        for num_dimensions in num_dimensions_range:
-            future = executor.submit(
-                run_wisard, num_slices, num_dimensions, datasets, scatter_code=True
-            )
-            futures.append(future)
+#     for num_slices in num_slices_range:
+#         for num_dimensions in num_dimensions_range:
+#             future = executor.submit(
+#                 run_wisard, num_slices, num_dimensions, datasets, scatter_code=True
+#             )
+#             futures.append(future)
 
-    future = executor.submit(run_wisard, 0, 0, datasets, scatter_code=False)
-    futures.append(future)
+#     future = executor.submit(run_wisard, 0, 0, datasets, scatter_code=False)
+#     futures.append(future)
 
-    for future in as_completed(futures):
-        try:
-            future.result()
-        except Exception as e:
-            logging.error(f"Thread encountered an error: {e}", exc_info=True)
+#     for future in as_completed(futures):
+#         try:
+#             future.result()
+#         except Exception as e:
+#             logging.error(f"Thread encountered an error: {e}", exc_info=True)
 
-logging.info("Finishing the script")
+# logging.info("Finishing the script")
+
+run_wisard(0, 0, datasets, scatter_code=False)
+
+for num_slices in num_slices_range:
+    for num_dimensions in num_dimensions_range:
+        run_wisard(num_slices, num_dimensions, datasets, scatter_code=True)
+            
+            

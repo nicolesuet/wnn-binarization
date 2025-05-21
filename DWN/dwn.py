@@ -73,25 +73,34 @@ class DWN(object):
         )
 
     def run(self):
-        # Limit the number of concurrent threads for dataset processing
-        MAX_DATASET_THREADS = 30  # Adjust based on your system's capabilities
+        for dataset in self.datasets:
 
-        with ThreadPoolExecutor(max_workers=MAX_DATASET_THREADS) as executor:
-            futures = []
-            for dataset in self.datasets:
+            self.num_bits_thermometer = dataset.get("num_bits_thermometer", 10)
+            self.address_size = dataset.get("address_size", 10)
+            dataset_id = dataset["id"]
+            
+            self.execute_dataset(dataset_id)
 
-                self.num_bits_thermometer = dataset.get("num_bits_thermometer", 10)
-                self.address_size = dataset.get("address_size", 10)
-                dataset_id = dataset["id"]
 
-                future = executor.submit(self.execute_dataset, dataset_id)
-                futures.append(future)
+        # # Limit the number of concurrent threads for dataset processing
+        # MAX_DATASET_THREADS = 30  # Adjust based on your system's capabilities
 
-            for future in as_completed(futures):
-                try:
-                    future.result()
-                except Exception as e:
-                    logging.error(f"Dataset thread encountered an error: {e}")
+        # with ThreadPoolExecutor(max_workers=MAX_DATASET_THREADS) as executor:
+        #     futures = []
+        #     for dataset in self.datasets:
+
+        #         self.num_bits_thermometer = dataset.get("num_bits_thermometer", 10)
+        #         self.address_size = dataset.get("address_size", 10)
+        #         dataset_id = dataset["id"]
+
+        #         future = executor.submit(self.execute_dataset, dataset_id)
+        #         futures.append(future)
+
+        #     for future in as_completed(futures):
+        #         try:
+        #             future.result()
+        #         except Exception as e:
+        #             logging.error(f"Dataset thread encountered an error: {e}")
 
     def execute_dataset(self, dataset_id):
 

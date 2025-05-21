@@ -194,20 +194,29 @@ class Wisard(object):
         )
 
     def run(self):
-        MAX_DATASET_THREADS = 1
-        with ThreadPoolExecutor(max_workers=MAX_DATASET_THREADS) as executor:
-            futures = []
-            for dataset in self.datasets:
+        
+        for dataset in self.datasets:
 
-                self.num_bits_thermometer = dataset.get("num_bits_thermometer", 10)
-                self.address_size = dataset.get("address_size", 10)
-                dataset_id = dataset["id"]
+            self.num_bits_thermometer = dataset.get("num_bits_thermometer", 10)
+            self.address_size = dataset.get("address_size", 10)
+            dataset_id = dataset["id"]
 
-                future = executor.submit(self.execute_dataset, dataset_id)
-                futures.append(future)
+            self.execute_dataset(dataset_id)
 
-            for future in as_completed(futures):
-                try:
-                    future.result()
-                except Exception as e:
-                    logging.error(f"Dataset thread encountered an error: {e}", exc_info=True)
+        # MAX_DATASET_THREADS = 1
+        # with ThreadPoolExecutor(max_workers=MAX_DATASET_THREADS) as executor:
+        #     futures = []
+        #     for dataset in self.datasets:
+
+        #         self.num_bits_thermometer = dataset.get("num_bits_thermometer", 10)
+        #         self.address_size = dataset.get("address_size", 10)
+        #         dataset_id = dataset["id"]
+
+        #         future = executor.submit(self.execute_dataset, dataset_id)
+        #         futures.append(future)
+
+        #     for future in as_completed(futures):
+        #         try:
+        #             future.result()
+        #         except Exception as e:
+        #             logging.error(f"Dataset thread encountered an error: {e}", exc_info=True)

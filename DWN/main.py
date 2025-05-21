@@ -14,7 +14,6 @@ logging.basicConfig(
 
 logging.info("Starting the script")
 
-
 num_slices_range = [10, 50, 100]  # Reduced range
 num_dimensions_range = [50, 100, 200]  # Reduced range
 
@@ -46,24 +45,34 @@ def run_dwn(num_slices, num_dimensions, datasets, scatter_code):
     log_resource_usage()
 
 
-# Limit the number of concurrent threads
-MAX_THREADS = 30
+# # Limit the number of concurrent threads
+# MAX_THREADS = 30
 
-with ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
-    futures = []
-    for num_slices in num_slices_range:
-        for num_dimensions in num_dimensions_range:
-            future = executor.submit(
-                run_dwn, num_slices, num_dimensions, datasets, scatter_code=True
-            )
-            futures.append(future)
-    future = executor.submit(
-        run_dwn, num_slices, num_dimensions, datasets, scatter_code=False
-    )
-    futures.append(future)
+# with ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
+#     futures = []
+#     for num_slices in num_slices_range:
+#         for num_dimensions in num_dimensions_range:
+#             future = executor.submit(
+#                 run_dwn, num_slices, num_dimensions, datasets, scatter_code=True
+#             )
+#             futures.append(future)
+#     future = executor.submit(
+#         run_dwn, num_slices, num_dimensions, datasets, scatter_code=False
+#     )
+#     futures.append(future)
 
-    for future in as_completed(futures):
-        try:
-            future.result()  # Wait for each thread to complete
-        except Exception as e:
-            logging.error(f"Thread encountered an error: {e}")
+#     for future in as_completed(futures):
+#         try:
+#             future.result()  # Wait for each thread to complete
+#         except Exception as e:
+#             logging.error(f"Thread encountered an error: {e}")
+
+run_dwn(
+    0, 0, datasets, scatter_code=False
+)  # Run with no slices and dimensions
+
+for num_slices in num_slices_range:
+    for num_dimensions in num_dimensions_range:
+        run_dwn(
+            num_slices, num_dimensions, datasets, scatter_code=True
+        )
