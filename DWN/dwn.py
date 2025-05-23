@@ -108,16 +108,31 @@ class DWN(object):
             f"Processing dataset ID: {dataset_id}, num_slices: {self.num_slices}, num_dimensions: {self.num_dimensions}"
         )
 
+        #if dataset_id == "MNIST":
+        #    X_train, X_test, y_train, y_test, name = load_mnist()
+        #    X = torch.cat((X_train, X_test), dim=0)
+       # else:
+       #     X, y, name = load_from_uci(dataset_id)
+       #     y = encode_labels(y)
+       #     print("Unique labels (encoded):", torch.unique(y))
+       #     X_train, X_test, y_train, y_test = train_test_split(
+       #         X, y, test_size=0.33, random_state=42
+       #     )
+
         if dataset_id == "MNIST":
-            X_train, X_test, y_train, y_test, name = load_mnist()
-            X = torch.cat((X_train, X_test), dim=0)
+            X, y, name = load_mnist()
+            # X_train, X_test, y_train, y_test, name = load_mnist()
+            # y = torch.cat((y_train, y_test), dim=0)
+            # X = torch.cat((X_train, X_test), dim=0)
         else:
             X, y, name = load_from_uci(dataset_id)
-            y = encode_labels(y)
-            print("Unique labels (encoded):", torch.unique(y))
-            X_train, X_test, y_train, y_test = train_test_split(
-                X, y, test_size=0.33, random_state=42
-            )
+
+        X_train, X_test, y_train, y_test = train_test_split(
+            X, y, test_size=0.33, random_state=42
+        )
+
+        y_train = encode_labels(y_train)
+        y_test = encode_labels(y_test)
 
         self.current_dataset = name
         min_global, max_global = get_min_max(X)
@@ -156,7 +171,12 @@ class DWN(object):
             f"Evaluating model with encoder: {encoder['encoding']}, num_slices: {self.num_slices}, num_dimensions: {self.num_dimensions}"
         )
 
+        #all_labels = torch.cat([
+        #    torch.as_tensor(y_train.values.astype("int64")),
+        #    torch.as_tensor(y_test.values.astype("int64"))
+        #])
         all_labels = torch.cat([y_train, y_test])
+        
         num_classes = len(torch.unique(all_labels))
 
         model = nn.Sequential(

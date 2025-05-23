@@ -60,7 +60,7 @@ def bin_level(
         slice_start = slice_end
         slice_end += num_flipped_bits
 
-    hv = hv.where(hv < 2, torch.logical_not(hv - 2))
+    hv = hv.where(hv < 2, torch.logical_not(hv - 2).to(torch.uint8))
     hv.requires_grad = requires_grad
     return hv
 

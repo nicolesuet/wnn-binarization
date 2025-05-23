@@ -14,7 +14,8 @@ logging.basicConfig(
 logging.info("Starting the script")
 
 num_slices_range = [10, 50, 100]
-num_dimensions_range = [50, 100, 200]
+num_dimensions_range = [50]
+
 
 
 # Function to run Wisard

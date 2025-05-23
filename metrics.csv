@@ -1,1059 +1,1322 @@
 model,time,delta_time,dataset,encoding,num_slices,num_dimensions,accuracy
-Wisard,2025-02-01 22:12:29,0.0046,Ecoli,Distributive,,,81.98
-Wisard,2025-02-01 22:12:29,0.0041,Ecoli,Distributive,,,81.98
-Wisard,2025-02-01 22:12:29,0.0039,Ecoli,Distributive,,,81.98
-Wisard,2025-02-01 22:12:29,0.0035,Ecoli,Distributive,,,81.98
-Wisard,2025-02-01 22:12:29,0.0035,Ecoli,Distributive,,,81.98
-Wisard,2025-02-01 22:12:29,0.0034,Ecoli,Distributive,,,81.98
-Wisard,2025-02-01 22:12:29,0.0039,Ecoli,Distributive,,,81.98
-Wisard,2025-02-01 22:12:29,0.0035,Ecoli,Distributive,,,81.98
-Wisard,2025-02-01 22:12:29,0.0035,Ecoli,Distributive,,,81.98
-Wisard,2025-02-01 22:12:29,0.0037,Ecoli,Distributive,,,81.98
-Wisard,2025-02-01 22:12:29,0.0030,Ecoli,Gaussian,,,84.68
-Wisard,2025-02-01 22:12:29,0.0037,Ecoli,Gaussian,,,84.68
-Wisard,2025-02-01 22:12:29,0.0033,Ecoli,Gaussian,,,84.68
-Wisard,2025-02-01 22:12:29,0.0035,Ecoli,Gaussian,,,84.68
-Wisard,2025-02-01 22:12:29,0.0036,Ecoli,Gaussian,,,84.68
-Wisard,2025-02-01 22:12:29,0.0034,Ecoli,Gaussian,,,84.68
-Wisard,2025-02-01 22:12:29,0.0037,Ecoli,Gaussian,,,84.68
-Wisard,2025-02-01 22:12:29,0.0035,Ecoli,Gaussian,,,84.68
-Wisard,2025-02-01 22:12:29,0.0039,Ecoli,Gaussian,,,84.68
-Wisard,2025-02-01 22:12:29,0.0041,Ecoli,Gaussian,,,84.68
-Wisard,2025-02-01 22:12:29,0.0031,Ecoli,Linear,,,84.68
-Wisard,2025-02-01 22:12:29,0.0035,Ecoli,Linear,,,84.68
-Wisard,2025-02-01 22:12:29,0.0032,Ecoli,Linear,,,84.68
-Wisard,2025-02-01 22:12:29,0.0034,Ecoli,Linear,,,84.68
-Wisard,2025-02-01 22:12:29,0.0034,Ecoli,Linear,,,84.68
-Wisard,2025-02-01 22:12:29,0.0034,Ecoli,Linear,,,84.68
-Wisard,2025-02-01 22:12:29,0.0038,Ecoli,Linear,,,84.68
-Wisard,2025-02-01 22:12:29,0.0036,Ecoli,Linear,,,84.68
-Wisard,2025-02-01 22:12:29,0.0039,Ecoli,Linear,,,84.68
-Wisard,2025-02-01 22:12:30,0.0069,Ecoli,Linear,,,84.68
-Wisard,2025-02-01 22:12:30,0.0019,Iris,Distributive,,,88.0
-Wisard,2025-02-01 22:12:30,0.0020,Iris,Distributive,,,88.0
-Wisard,2025-02-01 22:12:30,0.0021,Iris,Distributive,,,88.0
-Wisard,2025-02-01 22:12:30,0.0021,Iris,Distributive,,,88.0
-Wisard,2025-02-01 22:12:30,0.0020,Iris,Distributive,,,88.0
-Wisard,2025-02-01 22:12:30,0.0020,Iris,Distributive,,,88.0
-Wisard,2025-02-01 22:12:30,0.0020,Iris,Distributive,,,88.0
-Wisard,2025-02-01 22:12:30,0.0022,Iris,Distributive,,,88.0
-Wisard,2025-02-01 22:12:30,0.0020,Iris,Distributive,,,88.0
-Wisard,2025-02-01 22:12:30,0.0022,Iris,Distributive,,,88.0
-Wisard,2025-02-01 22:12:30,0.0018,Iris,Gaussian,,,98.0
-Wisard,2025-02-01 22:12:30,0.0020,Iris,Gaussian,,,98.0
-Wisard,2025-02-01 22:12:30,0.0025,Iris,Gaussian,,,98.0
-Wisard,2025-02-01 22:12:30,0.0021,Iris,Gaussian,,,98.0
-Wisard,2025-02-01 22:12:30,0.0020,Iris,Gaussian,,,98.0
-Wisard,2025-02-01 22:12:30,0.0019,Iris,Gaussian,,,98.0
-Wisard,2025-02-01 22:12:30,0.0020,Iris,Gaussian,,,98.0
-Wisard,2025-02-01 22:12:30,0.0022,Iris,Gaussian,,,98.0
-Wisard,2025-02-01 22:12:30,0.0020,Iris,Gaussian,,,98.0
-Wisard,2025-02-01 22:12:30,0.0018,Iris,Gaussian,,,98.0
-Wisard,2025-02-01 22:12:30,0.0021,Iris,Linear,,,98.0
-Wisard,2025-02-01 22:12:30,0.0021,Iris,Linear,,,98.0
-Wisard,2025-02-01 22:12:30,0.0022,Iris,Linear,,,98.0
-Wisard,2025-02-01 22:12:30,0.0021,Iris,Linear,,,98.0
-Wisard,2025-02-01 22:12:30,0.0022,Iris,Linear,,,98.0
-Wisard,2025-02-01 22:12:30,0.0027,Iris,Linear,,,98.0
-Wisard,2025-02-01 22:12:30,0.0021,Iris,Linear,,,98.0
-Wisard,2025-02-01 22:12:30,0.0021,Iris,Linear,,,98.0
-Wisard,2025-02-01 22:12:30,0.0023,Iris,Linear,,,98.0
-Wisard,2025-02-01 22:12:30,0.0021,Iris,Linear,,,98.0
-Wisard,2025-02-01 22:12:32,0.0733,Wine Quality,Distributive,,,61.54
-Wisard,2025-02-01 22:12:32,0.0709,Wine Quality,Distributive,,,61.54
-Wisard,2025-02-01 22:12:32,0.0611,Wine Quality,Distributive,,,61.54
-Wisard,2025-02-01 22:12:32,0.0716,Wine Quality,Distributive,,,61.54
-Wisard,2025-02-01 22:12:32,0.0709,Wine Quality,Distributive,,,61.54
-Wisard,2025-02-01 22:12:32,0.0617,Wine Quality,Distributive,,,61.54
-Wisard,2025-02-01 22:12:32,0.0743,Wine Quality,Distributive,,,61.54
-Wisard,2025-02-01 22:12:32,0.0718,Wine Quality,Distributive,,,61.54
-Wisard,2025-02-01 22:12:32,0.0632,Wine Quality,Distributive,,,61.54
-Wisard,2025-02-01 22:12:32,0.0735,Wine Quality,Distributive,,,61.54
-Wisard,2025-02-01 22:12:32,0.0620,Wine Quality,Gaussian,,,59.81
-Wisard,2025-02-01 22:12:32,0.0599,Wine Quality,Gaussian,,,59.81
-Wisard,2025-02-01 22:12:32,0.0700,Wine Quality,Gaussian,,,59.81
-Wisard,2025-02-01 22:12:33,0.0658,Wine Quality,Gaussian,,,59.81
-Wisard,2025-02-01 22:12:33,0.0592,Wine Quality,Gaussian,,,59.81
-Wisard,2025-02-01 22:12:33,0.2316,Wine Quality,Gaussian,,,59.81
-Wisard,2025-02-01 22:12:33,0.0671,Wine Quality,Gaussian,,,59.81
-Wisard,2025-02-01 22:12:33,0.0614,Wine Quality,Gaussian,,,59.81
-Wisard,2025-02-01 22:12:33,0.0717,Wine Quality,Gaussian,,,59.81
-Wisard,2025-02-01 22:12:33,0.0697,Wine Quality,Gaussian,,,59.81
-Wisard,2025-02-01 22:12:33,0.0661,Wine Quality,Linear,,,49.04
-Wisard,2025-02-01 22:12:33,0.0903,Wine Quality,Linear,,,49.04
-Wisard,2025-02-01 22:12:33,0.1078,Wine Quality,Linear,,,49.04
-Wisard,2025-02-01 22:12:34,0.1083,Wine Quality,Linear,,,49.04
-Wisard,2025-02-01 22:12:34,0.1335,Wine Quality,Linear,,,49.04
-Wisard,2025-02-01 22:12:34,0.1433,Wine Quality,Linear,,,49.04
-Wisard,2025-02-01 22:12:34,0.1508,Wine Quality,Linear,,,49.04
-Wisard,2025-02-01 22:12:34,0.1714,Wine Quality,Linear,,,49.04
-Wisard,2025-02-01 22:12:34,0.1844,Wine Quality,Linear,,,49.04
-Wisard,2025-02-01 22:12:35,0.1912,Wine Quality,Linear,,,49.04
-Wisard,2025-02-01 22:12:35,0.0128,Statlog (Vehicle Silhouettes),Distributive,,,72.14
-Wisard,2025-02-01 22:12:35,0.0140,Statlog (Vehicle Silhouettes),Distributive,,,72.14
-Wisard,2025-02-01 22:12:35,0.0119,Statlog (Vehicle Silhouettes),Distributive,,,72.14
-Wisard,2025-02-01 22:12:35,0.0116,Statlog (Vehicle Silhouettes),Distributive,,,72.14
-Wisard,2025-02-01 22:12:35,0.0136,Statlog (Vehicle Silhouettes),Distributive,,,72.14
-Wisard,2025-02-01 22:12:35,0.0125,Statlog (Vehicle Silhouettes),Distributive,,,72.14
-Wisard,2025-02-01 22:12:35,0.0123,Statlog (Vehicle Silhouettes),Distributive,,,72.14
-Wisard,2025-02-01 22:12:35,0.0120,Statlog (Vehicle Silhouettes),Distributive,,,72.14
-Wisard,2025-02-01 22:12:35,0.0124,Statlog (Vehicle Silhouettes),Distributive,,,72.14
-Wisard,2025-02-01 22:12:36,0.0128,Statlog (Vehicle Silhouettes),Distributive,,,72.14
-Wisard,2025-02-01 22:12:36,0.0140,Statlog (Vehicle Silhouettes),Gaussian,,,68.21
-Wisard,2025-02-01 22:12:36,0.0115,Statlog (Vehicle Silhouettes),Gaussian,,,68.21
-Wisard,2025-02-01 22:12:36,0.0116,Statlog (Vehicle Silhouettes),Gaussian,,,68.21
-Wisard,2025-02-01 22:12:36,0.0136,Statlog (Vehicle Silhouettes),Gaussian,,,68.21
-Wisard,2025-02-01 22:12:36,0.0118,Statlog (Vehicle Silhouettes),Gaussian,,,68.21
-Wisard,2025-02-01 22:12:36,0.0115,Statlog (Vehicle Silhouettes),Gaussian,,,68.21
-Wisard,2025-02-01 22:12:36,0.0121,Statlog (Vehicle Silhouettes),Gaussian,,,68.21
-Wisard,2025-02-01 22:12:36,0.0122,Statlog (Vehicle Silhouettes),Gaussian,,,68.21
-Wisard,2025-02-01 22:12:36,0.0114,Statlog (Vehicle Silhouettes),Gaussian,,,68.21
-Wisard,2025-02-01 22:12:36,0.0113,Statlog (Vehicle Silhouettes),Gaussian,,,68.21
-Wisard,2025-02-01 22:12:36,0.0130,Statlog (Vehicle Silhouettes),Linear,,,62.5
-Wisard,2025-02-01 22:12:36,0.0118,Statlog (Vehicle Silhouettes),Linear,,,62.5
-Wisard,2025-02-01 22:12:36,0.0131,Statlog (Vehicle Silhouettes),Linear,,,62.5
-Wisard,2025-02-01 22:12:36,0.0123,Statlog (Vehicle Silhouettes),Linear,,,62.5
-Wisard,2025-02-01 22:12:36,0.0128,Statlog (Vehicle Silhouettes),Linear,,,62.5
-Wisard,2025-02-01 22:12:36,0.0128,Statlog (Vehicle Silhouettes),Linear,,,62.5
-Wisard,2025-02-01 22:12:36,0.0138,Statlog (Vehicle Silhouettes),Linear,,,62.5
-Wisard,2025-02-01 22:12:36,0.0132,Statlog (Vehicle Silhouettes),Linear,,,62.5
-Wisard,2025-02-01 22:12:36,0.0129,Statlog (Vehicle Silhouettes),Linear,,,62.5
-Wisard,2025-02-01 22:12:36,0.0126,Statlog (Vehicle Silhouettes),Linear,,,62.5
-Wisard,2025-02-01 22:12:37,0.0087,Maternal Health Risk,Distributive,,,75.82
-Wisard,2025-02-01 22:12:37,0.0076,Maternal Health Risk,Distributive,,,75.82
-Wisard,2025-02-01 22:12:37,0.0062,Maternal Health Risk,Distributive,,,75.82
-Wisard,2025-02-01 22:12:37,0.0067,Maternal Health Risk,Distributive,,,75.82
-Wisard,2025-02-01 22:12:37,0.0074,Maternal Health Risk,Distributive,,,75.82
-Wisard,2025-02-01 22:12:37,0.0072,Maternal Health Risk,Distributive,,,75.82
-Wisard,2025-02-01 22:12:37,0.0074,Maternal Health Risk,Distributive,,,75.82
-Wisard,2025-02-01 22:12:37,0.0077,Maternal Health Risk,Distributive,,,75.82
-Wisard,2025-02-01 22:12:37,0.0064,Maternal Health Risk,Distributive,,,75.82
-Wisard,2025-02-01 22:12:37,0.0072,Maternal Health Risk,Distributive,,,75.82
-Wisard,2025-02-01 22:12:37,0.0064,Maternal Health Risk,Gaussian,,,74.93
-Wisard,2025-02-01 22:12:37,0.0066,Maternal Health Risk,Gaussian,,,74.93
-Wisard,2025-02-01 22:12:37,0.0069,Maternal Health Risk,Gaussian,,,74.93
-Wisard,2025-02-01 22:12:37,0.0069,Maternal Health Risk,Gaussian,,,74.93
-Wisard,2025-02-01 22:12:37,0.0065,Maternal Health Risk,Gaussian,,,74.93
-Wisard,2025-02-01 22:12:37,0.0094,Maternal Health Risk,Gaussian,,,74.93
-Wisard,2025-02-01 22:12:37,0.0083,Maternal Health Risk,Gaussian,,,74.93
-Wisard,2025-02-01 22:12:37,0.0090,Maternal Health Risk,Gaussian,,,74.93
-Wisard,2025-02-01 22:12:37,0.0085,Maternal Health Risk,Gaussian,,,74.93
-Wisard,2025-02-01 22:12:37,0.0089,Maternal Health Risk,Gaussian,,,74.93
-Wisard,2025-02-01 22:12:37,0.0078,Maternal Health Risk,Linear,,,72.24
-Wisard,2025-02-01 22:12:37,0.0067,Maternal Health Risk,Linear,,,72.24
-Wisard,2025-02-01 22:12:37,0.0071,Maternal Health Risk,Linear,,,72.24
-Wisard,2025-02-01 22:12:37,0.0064,Maternal Health Risk,Linear,,,72.24
-Wisard,2025-02-01 22:12:37,0.0072,Maternal Health Risk,Linear,,,72.24
-Wisard,2025-02-01 22:12:37,0.0074,Maternal Health Risk,Linear,,,72.24
-Wisard,2025-02-01 22:12:37,0.0082,Maternal Health Risk,Linear,,,72.24
-Wisard,2025-02-01 22:12:37,0.0070,Maternal Health Risk,Linear,,,72.24
-Wisard,2025-02-01 22:12:37,0.0105,Maternal Health Risk,Linear,,,72.24
-Wisard,2025-02-01 22:12:37,0.0086,Maternal Health Risk,Linear,,,72.24
-Wisard,2025-02-01 22:12:38,0.0034,Glass Identification,Distributive,,,70.42
-Wisard,2025-02-01 22:12:38,0.0034,Glass Identification,Distributive,,,70.42
-Wisard,2025-02-01 22:12:38,0.0035,Glass Identification,Distributive,,,70.42
-Wisard,2025-02-01 22:12:38,0.0041,Glass Identification,Distributive,,,70.42
-Wisard,2025-02-01 22:12:38,0.0036,Glass Identification,Distributive,,,70.42
-Wisard,2025-02-01 22:12:38,0.0036,Glass Identification,Distributive,,,70.42
-Wisard,2025-02-01 22:12:38,0.0035,Glass Identification,Distributive,,,70.42
-Wisard,2025-02-01 22:12:38,0.0041,Glass Identification,Distributive,,,70.42
-Wisard,2025-02-01 22:12:38,0.0038,Glass Identification,Distributive,,,70.42
-Wisard,2025-02-01 22:12:38,0.0034,Glass Identification,Distributive,,,70.42
-Wisard,2025-02-01 22:12:38,0.0029,Glass Identification,Gaussian,,,76.06
-Wisard,2025-02-01 22:12:38,0.0031,Glass Identification,Gaussian,,,76.06
-Wisard,2025-02-01 22:12:38,0.0031,Glass Identification,Gaussian,,,76.06
-Wisard,2025-02-01 22:12:38,0.0036,Glass Identification,Gaussian,,,76.06
-Wisard,2025-02-01 22:12:38,0.0033,Glass Identification,Gaussian,,,76.06
-Wisard,2025-02-01 22:12:38,0.0031,Glass Identification,Gaussian,,,76.06
-Wisard,2025-02-01 22:12:38,0.0032,Glass Identification,Gaussian,,,76.06
-Wisard,2025-02-01 22:12:38,0.0031,Glass Identification,Gaussian,,,76.06
-Wisard,2025-02-01 22:12:38,0.0037,Glass Identification,Gaussian,,,76.06
-Wisard,2025-02-01 22:12:38,0.0031,Glass Identification,Gaussian,,,76.06
-Wisard,2025-02-01 22:12:38,0.0029,Glass Identification,Linear,,,70.42
-Wisard,2025-02-01 22:12:38,0.0036,Glass Identification,Linear,,,70.42
-Wisard,2025-02-01 22:12:38,0.0033,Glass Identification,Linear,,,70.42
-Wisard,2025-02-01 22:12:38,0.0035,Glass Identification,Linear,,,70.42
-Wisard,2025-02-01 22:12:38,0.0033,Glass Identification,Linear,,,70.42
-Wisard,2025-02-01 22:12:38,0.0033,Glass Identification,Linear,,,70.42
-Wisard,2025-02-01 22:12:38,0.0032,Glass Identification,Linear,,,70.42
-Wisard,2025-02-01 22:12:38,0.0042,Glass Identification,Linear,,,70.42
-Wisard,2025-02-01 22:12:38,0.0034,Glass Identification,Linear,,,70.42
-Wisard,2025-02-01 22:12:38,0.0036,Glass Identification,Linear,,,70.42
-Wisard,2025-02-01 22:12:40,0.4506,Optical Recognition of Handwritten Digits,Distributive,,,95.74
-Wisard,2025-02-01 22:12:41,0.5352,Optical Recognition of Handwritten Digits,Distributive,,,95.74
-Wisard,2025-02-01 22:12:41,0.4702,Optical Recognition of Handwritten Digits,Distributive,,,95.74
-Wisard,2025-02-01 22:12:42,0.6182,Optical Recognition of Handwritten Digits,Distributive,,,95.74
-Wisard,2025-02-01 22:12:42,0.4494,Optical Recognition of Handwritten Digits,Distributive,,,95.74
-Wisard,2025-02-01 22:12:43,0.4404,Optical Recognition of Handwritten Digits,Distributive,,,95.74
-Wisard,2025-02-01 22:12:43,0.4244,Optical Recognition of Handwritten Digits,Distributive,,,95.74
-Wisard,2025-02-01 22:12:44,0.3969,Optical Recognition of Handwritten Digits,Distributive,,,95.74
-Wisard,2025-02-01 22:12:44,0.4143,Optical Recognition of Handwritten Digits,Distributive,,,95.74
-Wisard,2025-02-01 22:12:44,0.3926,Optical Recognition of Handwritten Digits,Distributive,,,95.74
-Wisard,2025-02-01 22:12:45,0.3265,Optical Recognition of Handwritten Digits,Gaussian,,,96.71
-Wisard,2025-02-01 22:12:45,0.3506,Optical Recognition of Handwritten Digits,Gaussian,,,96.71
-Wisard,2025-02-01 22:12:45,0.3513,Optical Recognition of Handwritten Digits,Gaussian,,,96.71
-Wisard,2025-02-01 22:12:46,0.3701,Optical Recognition of Handwritten Digits,Gaussian,,,96.71
-Wisard,2025-02-01 22:12:46,0.3451,Optical Recognition of Handwritten Digits,Gaussian,,,96.71
-Wisard,2025-02-01 22:12:47,0.3547,Optical Recognition of Handwritten Digits,Gaussian,,,96.71
-Wisard,2025-02-01 22:12:47,0.3594,Optical Recognition of Handwritten Digits,Gaussian,,,96.71
-Wisard,2025-02-01 22:12:47,0.3369,Optical Recognition of Handwritten Digits,Gaussian,,,96.71
-Wisard,2025-02-01 22:12:48,0.3516,Optical Recognition of Handwritten Digits,Gaussian,,,96.71
-Wisard,2025-02-01 22:12:48,0.3349,Optical Recognition of Handwritten Digits,Gaussian,,,96.71
-Wisard,2025-02-01 22:12:48,0.3321,Optical Recognition of Handwritten Digits,Linear,,,97.41
-Wisard,2025-02-01 22:12:49,0.3894,Optical Recognition of Handwritten Digits,Linear,,,97.41
-Wisard,2025-02-01 22:12:49,0.3306,Optical Recognition of Handwritten Digits,Linear,,,97.41
-Wisard,2025-02-01 22:12:49,0.3879,Optical Recognition of Handwritten Digits,Linear,,,97.41
-Wisard,2025-02-01 22:12:50,0.3500,Optical Recognition of Handwritten Digits,Linear,,,97.41
-Wisard,2025-02-01 22:12:50,0.5720,Optical Recognition of Handwritten Digits,Linear,,,97.41
-Wisard,2025-02-01 22:12:51,0.3130,Optical Recognition of Handwritten Digits,Linear,,,97.41
-Wisard,2025-02-01 22:12:51,0.3571,Optical Recognition of Handwritten Digits,Linear,,,97.41
-Wisard,2025-02-01 22:12:51,0.3387,Optical Recognition of Handwritten Digits,Linear,,,97.41
-Wisard,2025-02-01 22:12:52,0.3339,Optical Recognition of Handwritten Digits,Linear,,,97.41
-Wisard,2025-02-01 22:12:52,0.0050,Image Segmentation,Distributive,,,84.29
-Wisard,2025-02-01 22:12:52,0.0041,Image Segmentation,Distributive,,,84.29
-Wisard,2025-02-01 22:12:52,0.0044,Image Segmentation,Distributive,,,84.29
-Wisard,2025-02-01 22:12:52,0.0046,Image Segmentation,Distributive,,,84.29
-Wisard,2025-02-01 22:12:52,0.0048,Image Segmentation,Distributive,,,84.29
-Wisard,2025-02-01 22:12:52,0.0042,Image Segmentation,Distributive,,,84.29
-Wisard,2025-02-01 22:12:52,0.0046,Image Segmentation,Distributive,,,84.29
-Wisard,2025-02-01 22:12:52,0.0044,Image Segmentation,Distributive,,,84.29
-Wisard,2025-02-01 22:12:52,0.0045,Image Segmentation,Distributive,,,84.29
-Wisard,2025-02-01 22:12:52,0.0044,Image Segmentation,Distributive,,,84.29
-Wisard,2025-02-01 22:12:53,0.0048,Image Segmentation,Gaussian,,,82.86
-Wisard,2025-02-01 22:12:53,0.0045,Image Segmentation,Gaussian,,,82.86
-Wisard,2025-02-01 22:12:53,0.0043,Image Segmentation,Gaussian,,,82.86
-Wisard,2025-02-01 22:12:53,0.0046,Image Segmentation,Gaussian,,,82.86
-Wisard,2025-02-01 22:12:53,0.0044,Image Segmentation,Gaussian,,,82.86
-Wisard,2025-02-01 22:12:53,0.0052,Image Segmentation,Gaussian,,,82.86
-Wisard,2025-02-01 22:12:53,0.0058,Image Segmentation,Gaussian,,,82.86
-Wisard,2025-02-01 22:12:53,0.0064,Image Segmentation,Gaussian,,,82.86
-Wisard,2025-02-01 22:12:53,0.0050,Image Segmentation,Gaussian,,,82.86
-Wisard,2025-02-01 22:12:53,0.0044,Image Segmentation,Gaussian,,,82.86
-Wisard,2025-02-01 22:12:53,0.0049,Image Segmentation,Linear,,,82.86
-Wisard,2025-02-01 22:12:53,0.0045,Image Segmentation,Linear,,,82.86
-Wisard,2025-02-01 22:12:53,0.0045,Image Segmentation,Linear,,,82.86
-Wisard,2025-02-01 22:12:53,0.0043,Image Segmentation,Linear,,,82.86
-Wisard,2025-02-01 22:12:53,0.0045,Image Segmentation,Linear,,,82.86
-Wisard,2025-02-01 22:12:53,0.0042,Image Segmentation,Linear,,,82.86
-Wisard,2025-02-01 22:12:53,0.0047,Image Segmentation,Linear,,,82.86
-Wisard,2025-02-01 22:12:53,0.0047,Image Segmentation,Linear,,,82.86
-Wisard,2025-02-01 22:12:53,0.0050,Image Segmentation,Linear,,,82.86
-Wisard,2025-02-01 22:12:53,0.0047,Image Segmentation,Linear,,,82.86
-Wisard,2025-02-01 22:14:12,0.0096,Ecoli,Scatter Code,10,50,87.39
-Wisard,2025-02-01 22:14:12,0.0063,Ecoli,Scatter Code,10,50,87.39
-Wisard,2025-02-01 22:14:12,0.0060,Ecoli,Scatter Code,10,50,87.39
-Wisard,2025-02-01 22:14:12,0.0057,Ecoli,Scatter Code,10,50,87.39
-Wisard,2025-02-01 22:14:12,0.0062,Ecoli,Scatter Code,10,50,87.39
-Wisard,2025-02-01 22:14:12,0.0068,Ecoli,Scatter Code,10,50,87.39
-Wisard,2025-02-01 22:14:12,0.0058,Ecoli,Scatter Code,10,50,87.39
-Wisard,2025-02-01 22:14:12,0.0067,Ecoli,Scatter Code,10,50,87.39
-Wisard,2025-02-01 22:14:12,0.0062,Ecoli,Scatter Code,10,50,87.39
-Wisard,2025-02-01 22:14:12,0.0061,Ecoli,Scatter Code,10,50,87.39
-Wisard,2025-02-01 22:14:13,0.0023,Iris,Scatter Code,10,50,98.0
-Wisard,2025-02-01 22:14:13,0.0024,Iris,Scatter Code,10,50,98.0
-Wisard,2025-02-01 22:14:13,0.0026,Iris,Scatter Code,10,50,98.0
-Wisard,2025-02-01 22:14:13,0.0025,Iris,Scatter Code,10,50,98.0
-Wisard,2025-02-01 22:14:13,0.0023,Iris,Scatter Code,10,50,98.0
-Wisard,2025-02-01 22:14:13,0.0023,Iris,Scatter Code,10,50,98.0
-Wisard,2025-02-01 22:14:13,0.0022,Iris,Scatter Code,10,50,98.0
-Wisard,2025-02-01 22:14:13,0.0025,Iris,Scatter Code,10,50,98.0
-Wisard,2025-02-01 22:14:13,0.0026,Iris,Scatter Code,10,50,98.0
-Wisard,2025-02-01 22:14:13,0.0025,Iris,Scatter Code,10,50,98.0
-Wisard,2025-02-01 22:14:15,1.2137,Wine Quality,Scatter Code,10,50,40.09
-Wisard,2025-02-01 22:14:17,2.2668,Wine Quality,Scatter Code,10,50,40.09
-Wisard,2025-02-01 22:14:21,3.3359,Wine Quality,Scatter Code,10,50,40.09
-Wisard,2025-02-01 22:14:25,4.4677,Wine Quality,Scatter Code,10,50,40.09
-Wisard,2025-02-01 22:14:31,5.5256,Wine Quality,Scatter Code,10,50,40.09
-Wisard,2025-02-01 22:14:38,6.7264,Wine Quality,Scatter Code,10,50,40.09
-Wisard,2025-02-01 22:14:45,7.7454,Wine Quality,Scatter Code,10,50,40.09
-Wisard,2025-02-01 22:14:57,11.9528,Wine Quality,Scatter Code,10,50,40.09
-Wisard,2025-02-01 22:15:11,14.0292,Wine Quality,Scatter Code,10,50,40.09
-Wisard,2025-02-01 22:15:22,11.0924,Wine Quality,Scatter Code,10,50,40.09
-Wisard,2025-02-01 22:15:23,0.1328,Statlog (Vehicle Silhouettes),Scatter Code,10,50,20.0
-Wisard,2025-02-01 22:15:23,0.2418,Statlog (Vehicle Silhouettes),Scatter Code,10,50,20.0
-Wisard,2025-02-01 22:15:24,0.3548,Statlog (Vehicle Silhouettes),Scatter Code,10,50,20.0
-Wisard,2025-02-01 22:15:24,0.4470,Statlog (Vehicle Silhouettes),Scatter Code,10,50,20.0
-Wisard,2025-02-01 22:15:25,0.5500,Statlog (Vehicle Silhouettes),Scatter Code,10,50,20.0
-Wisard,2025-02-01 22:15:25,0.6646,Statlog (Vehicle Silhouettes),Scatter Code,10,50,20.0
-Wisard,2025-02-01 22:15:26,0.7619,Statlog (Vehicle Silhouettes),Scatter Code,10,50,20.0
-Wisard,2025-02-01 22:15:27,0.8640,Statlog (Vehicle Silhouettes),Scatter Code,10,50,20.0
-Wisard,2025-02-01 22:15:28,0.9731,Statlog (Vehicle Silhouettes),Scatter Code,10,50,20.0
-Wisard,2025-02-01 22:15:29,1.0771,Statlog (Vehicle Silhouettes),Scatter Code,10,50,20.0
-Wisard,2025-02-01 22:15:30,0.0150,Maternal Health Risk,Scatter Code,10,50,60.3
-Wisard,2025-02-01 22:15:30,0.0186,Maternal Health Risk,Scatter Code,10,50,60.3
-Wisard,2025-02-01 22:15:30,0.0205,Maternal Health Risk,Scatter Code,10,50,60.3
-Wisard,2025-02-01 22:15:30,0.0237,Maternal Health Risk,Scatter Code,10,50,60.3
-Wisard,2025-02-01 22:15:30,0.0272,Maternal Health Risk,Scatter Code,10,50,60.3
-Wisard,2025-02-01 22:15:30,0.0308,Maternal Health Risk,Scatter Code,10,50,60.3
-Wisard,2025-02-01 22:15:30,0.0343,Maternal Health Risk,Scatter Code,10,50,60.3
-Wisard,2025-02-01 22:15:30,0.0399,Maternal Health Risk,Scatter Code,10,50,60.3
-Wisard,2025-02-01 22:15:30,0.0415,Maternal Health Risk,Scatter Code,10,50,60.3
-Wisard,2025-02-01 22:15:30,0.0444,Maternal Health Risk,Scatter Code,10,50,60.3
-Wisard,2025-02-01 22:15:31,0.0089,Glass Identification,Scatter Code,10,50,32.39
-Wisard,2025-02-01 22:15:31,0.0100,Glass Identification,Scatter Code,10,50,32.39
-Wisard,2025-02-01 22:15:31,0.0140,Glass Identification,Scatter Code,10,50,32.39
-Wisard,2025-02-01 22:15:31,0.0163,Glass Identification,Scatter Code,10,50,32.39
-Wisard,2025-02-01 22:15:31,0.0190,Glass Identification,Scatter Code,10,50,32.39
-Wisard,2025-02-01 22:15:31,0.0218,Glass Identification,Scatter Code,10,50,32.39
-Wisard,2025-02-01 22:15:31,0.0249,Glass Identification,Scatter Code,10,50,32.39
-Wisard,2025-02-01 22:15:31,0.0281,Glass Identification,Scatter Code,10,50,32.39
-Wisard,2025-02-01 22:15:31,0.0307,Glass Identification,Scatter Code,10,50,32.39
-Wisard,2025-02-01 22:15:31,0.0336,Glass Identification,Scatter Code,10,50,32.39
-Wisard,2025-02-01 22:15:34,1.4006,Optical Recognition of Handwritten Digits,Scatter Code,10,50,97.79
-Wisard,2025-02-01 22:15:36,1.3751,Optical Recognition of Handwritten Digits,Scatter Code,10,50,97.79
-Wisard,2025-02-01 22:15:37,1.1551,Optical Recognition of Handwritten Digits,Scatter Code,10,50,97.79
-Wisard,2025-02-01 22:15:38,1.2774,Optical Recognition of Handwritten Digits,Scatter Code,10,50,97.79
-Wisard,2025-02-01 22:15:39,1.0650,Optical Recognition of Handwritten Digits,Scatter Code,10,50,97.79
-Wisard,2025-02-01 22:15:40,1.0966,Optical Recognition of Handwritten Digits,Scatter Code,10,50,97.79
-Wisard,2025-02-01 22:15:41,1.1461,Optical Recognition of Handwritten Digits,Scatter Code,10,50,97.79
-Wisard,2025-02-01 22:15:43,1.3913,Optical Recognition of Handwritten Digits,Scatter Code,10,50,97.79
-Wisard,2025-02-01 22:15:44,1.1721,Optical Recognition of Handwritten Digits,Scatter Code,10,50,97.79
-Wisard,2025-02-01 22:15:45,1.1143,Optical Recognition of Handwritten Digits,Scatter Code,10,50,97.79
-Wisard,2025-02-01 22:15:46,0.0138,Image Segmentation,Scatter Code,10,50,51.43
-Wisard,2025-02-01 22:15:46,0.0107,Image Segmentation,Scatter Code,10,50,51.43
-Wisard,2025-02-01 22:15:46,0.0124,Image Segmentation,Scatter Code,10,50,51.43
-Wisard,2025-02-01 22:15:46,0.0138,Image Segmentation,Scatter Code,10,50,51.43
-Wisard,2025-02-01 22:15:46,0.0164,Image Segmentation,Scatter Code,10,50,51.43
-Wisard,2025-02-01 22:15:46,0.0170,Image Segmentation,Scatter Code,10,50,51.43
-Wisard,2025-02-01 22:15:46,0.0194,Image Segmentation,Scatter Code,10,50,51.43
-Wisard,2025-02-01 22:15:46,0.0205,Image Segmentation,Scatter Code,10,50,51.43
-Wisard,2025-02-01 22:15:46,0.0225,Image Segmentation,Scatter Code,10,50,51.43
-Wisard,2025-02-01 22:15:46,0.0251,Image Segmentation,Scatter Code,10,50,51.43
-Wisard,2025-02-01 22:15:47,0.0107,Ecoli,Scatter Code,10,100,88.29
-Wisard,2025-02-01 22:15:47,0.0105,Ecoli,Scatter Code,10,100,88.29
-Wisard,2025-02-01 22:15:47,0.0095,Ecoli,Scatter Code,10,100,88.29
-Wisard,2025-02-01 22:15:47,0.0088,Ecoli,Scatter Code,10,100,88.29
-Wisard,2025-02-01 22:15:47,0.0092,Ecoli,Scatter Code,10,100,88.29
-Wisard,2025-02-01 22:15:47,0.0122,Ecoli,Scatter Code,10,100,88.29
-Wisard,2025-02-01 22:15:47,0.0096,Ecoli,Scatter Code,10,100,88.29
-Wisard,2025-02-01 22:15:47,0.0093,Ecoli,Scatter Code,10,100,88.29
-Wisard,2025-02-01 22:15:47,0.0097,Ecoli,Scatter Code,10,100,88.29
-Wisard,2025-02-01 22:15:47,0.0091,Ecoli,Scatter Code,10,100,88.29
-Wisard,2025-02-01 22:15:47,0.0035,Iris,Scatter Code,10,100,98.0
-Wisard,2025-02-01 22:15:47,0.0036,Iris,Scatter Code,10,100,98.0
-Wisard,2025-02-01 22:15:47,0.0034,Iris,Scatter Code,10,100,98.0
-Wisard,2025-02-01 22:15:47,0.0032,Iris,Scatter Code,10,100,98.0
-Wisard,2025-02-01 22:15:47,0.0036,Iris,Scatter Code,10,100,98.0
-Wisard,2025-02-01 22:15:47,0.0036,Iris,Scatter Code,10,100,98.0
-Wisard,2025-02-01 22:15:47,0.0035,Iris,Scatter Code,10,100,98.0
-Wisard,2025-02-01 22:15:47,0.0036,Iris,Scatter Code,10,100,98.0
-Wisard,2025-02-01 22:15:47,0.0032,Iris,Scatter Code,10,100,98.0
-Wisard,2025-02-01 22:15:47,0.0034,Iris,Scatter Code,10,100,98.0
-Wisard,2025-02-01 22:15:50,1.9944,Wine Quality,Scatter Code,10,100,42.8
-Wisard,2025-02-01 22:15:54,3.7311,Wine Quality,Scatter Code,10,100,42.8
-Wisard,2025-02-01 22:16:00,5.4940,Wine Quality,Scatter Code,10,100,42.8
-Wisard,2025-02-01 22:16:07,7.2881,Wine Quality,Scatter Code,10,100,42.8
-Wisard,2025-02-01 22:16:16,9.1135,Wine Quality,Scatter Code,10,100,42.8
-Wisard,2025-02-01 22:16:27,10.7595,Wine Quality,Scatter Code,10,100,42.8
-Wisard,2025-02-01 22:16:40,12.6042,Wine Quality,Scatter Code,10,100,42.8
-Wisard,2025-02-01 22:16:54,14.5200,Wine Quality,Scatter Code,10,100,42.8
-Wisard,2025-02-01 22:17:10,16.2627,Wine Quality,Scatter Code,10,100,42.8
-Wisard,2025-02-01 22:17:29,18.3714,Wine Quality,Scatter Code,10,100,42.8
-Wisard,2025-02-01 22:17:30,0.2362,Statlog (Vehicle Silhouettes),Scatter Code,10,100,20.0
-Wisard,2025-02-01 22:17:30,0.4306,Statlog (Vehicle Silhouettes),Scatter Code,10,100,20.0
-Wisard,2025-02-01 22:17:31,0.6180,Statlog (Vehicle Silhouettes),Scatter Code,10,100,20.0
-Wisard,2025-02-01 22:17:32,0.8347,Statlog (Vehicle Silhouettes),Scatter Code,10,100,20.0
-Wisard,2025-02-01 22:17:33,1.0625,Statlog (Vehicle Silhouettes),Scatter Code,10,100,20.0
-Wisard,2025-02-01 22:17:34,1.2673,Statlog (Vehicle Silhouettes),Scatter Code,10,100,20.0
-Wisard,2025-02-01 22:17:35,1.4523,Statlog (Vehicle Silhouettes),Scatter Code,10,100,20.0
-Wisard,2025-02-01 22:17:37,1.6443,Statlog (Vehicle Silhouettes),Scatter Code,10,100,20.0
-Wisard,2025-02-01 22:17:39,1.8283,Statlog (Vehicle Silhouettes),Scatter Code,10,100,20.0
-Wisard,2025-02-01 22:17:41,1.9717,Statlog (Vehicle Silhouettes),Scatter Code,10,100,20.0
-Wisard,2025-02-01 22:17:42,0.0253,Maternal Health Risk,Scatter Code,10,100,63.88
-Wisard,2025-02-01 22:17:42,0.0300,Maternal Health Risk,Scatter Code,10,100,63.88
-Wisard,2025-02-01 22:17:42,0.0343,Maternal Health Risk,Scatter Code,10,100,63.88
-Wisard,2025-02-01 22:17:42,0.0389,Maternal Health Risk,Scatter Code,10,100,63.88
-Wisard,2025-02-01 22:17:42,0.0440,Maternal Health Risk,Scatter Code,10,100,63.88
-Wisard,2025-02-01 22:17:42,0.0498,Maternal Health Risk,Scatter Code,10,100,63.88
-Wisard,2025-02-01 22:17:42,0.0551,Maternal Health Risk,Scatter Code,10,100,63.88
-Wisard,2025-02-01 22:17:42,0.0639,Maternal Health Risk,Scatter Code,10,100,63.88
-Wisard,2025-02-01 22:17:42,0.0655,Maternal Health Risk,Scatter Code,10,100,63.88
-Wisard,2025-02-01 22:17:42,0.0704,Maternal Health Risk,Scatter Code,10,100,63.88
-Wisard,2025-02-01 22:17:43,0.0133,Glass Identification,Scatter Code,10,100,32.39
-Wisard,2025-02-01 22:17:43,0.0176,Glass Identification,Scatter Code,10,100,32.39
-Wisard,2025-02-01 22:17:43,0.0235,Glass Identification,Scatter Code,10,100,32.39
-Wisard,2025-02-01 22:17:43,0.0280,Glass Identification,Scatter Code,10,100,32.39
-Wisard,2025-02-01 22:17:43,0.0343,Glass Identification,Scatter Code,10,100,32.39
-Wisard,2025-02-01 22:17:43,0.0390,Glass Identification,Scatter Code,10,100,32.39
-Wisard,2025-02-01 22:17:43,0.0441,Glass Identification,Scatter Code,10,100,32.39
-Wisard,2025-02-01 22:17:43,0.0521,Glass Identification,Scatter Code,10,100,32.39
-Wisard,2025-02-01 22:17:43,0.0554,Glass Identification,Scatter Code,10,100,32.39
-Wisard,2025-02-01 22:17:43,0.0609,Glass Identification,Scatter Code,10,100,32.39
-Wisard,2025-02-01 22:17:48,3.2354,Optical Recognition of Handwritten Digits,Scatter Code,10,100,97.52
-Wisard,2025-02-01 22:17:51,3.1860,Optical Recognition of Handwritten Digits,Scatter Code,10,100,97.52
-Wisard,2025-02-01 22:17:54,2.9165,Optical Recognition of Handwritten Digits,Scatter Code,10,100,97.52
-Wisard,2025-02-01 22:17:58,3.5149,Optical Recognition of Handwritten Digits,Scatter Code,10,100,97.52
-Wisard,2025-02-01 22:18:00,2.8199,Optical Recognition of Handwritten Digits,Scatter Code,10,100,97.52
-Wisard,2025-02-01 22:18:04,3.2596,Optical Recognition of Handwritten Digits,Scatter Code,10,100,97.52
-Wisard,2025-02-01 22:18:07,3.5375,Optical Recognition of Handwritten Digits,Scatter Code,10,100,97.52
-Wisard,2025-02-01 22:18:10,3.1623,Optical Recognition of Handwritten Digits,Scatter Code,10,100,97.52
-Wisard,2025-02-01 22:18:13,3.0929,Optical Recognition of Handwritten Digits,Scatter Code,10,100,97.52
-Wisard,2025-02-01 22:18:17,3.2003,Optical Recognition of Handwritten Digits,Scatter Code,10,100,97.52
-Wisard,2025-02-01 22:18:17,0.0156,Image Segmentation,Scatter Code,10,100,51.43
-Wisard,2025-02-01 22:18:18,0.0226,Image Segmentation,Scatter Code,10,100,51.43
-Wisard,2025-02-01 22:18:18,0.0222,Image Segmentation,Scatter Code,10,100,51.43
-Wisard,2025-02-01 22:18:18,0.0259,Image Segmentation,Scatter Code,10,100,51.43
-Wisard,2025-02-01 22:18:18,0.0267,Image Segmentation,Scatter Code,10,100,51.43
-Wisard,2025-02-01 22:18:18,0.0306,Image Segmentation,Scatter Code,10,100,51.43
-Wisard,2025-02-01 22:18:18,0.0341,Image Segmentation,Scatter Code,10,100,51.43
-Wisard,2025-02-01 22:18:18,0.0356,Image Segmentation,Scatter Code,10,100,51.43
-Wisard,2025-02-01 22:18:18,0.0380,Image Segmentation,Scatter Code,10,100,51.43
-Wisard,2025-02-01 22:18:18,0.0467,Image Segmentation,Scatter Code,10,100,51.43
-Wisard,2025-02-01 22:18:18,0.0191,Ecoli,Scatter Code,10,200,89.19
-Wisard,2025-02-01 22:18:19,0.0168,Ecoli,Scatter Code,10,200,89.19
-Wisard,2025-02-01 22:18:19,0.0191,Ecoli,Scatter Code,10,200,89.19
-Wisard,2025-02-01 22:18:19,0.0185,Ecoli,Scatter Code,10,200,89.19
-Wisard,2025-02-01 22:18:19,0.0157,Ecoli,Scatter Code,10,200,89.19
-Wisard,2025-02-01 22:18:19,0.0187,Ecoli,Scatter Code,10,200,89.19
-Wisard,2025-02-01 22:18:19,0.0183,Ecoli,Scatter Code,10,200,89.19
-Wisard,2025-02-01 22:18:19,0.0172,Ecoli,Scatter Code,10,200,89.19
-Wisard,2025-02-01 22:18:19,0.0193,Ecoli,Scatter Code,10,200,89.19
-Wisard,2025-02-01 22:18:19,0.0188,Ecoli,Scatter Code,10,200,89.19
-Wisard,2025-02-01 22:18:19,0.0069,Iris,Scatter Code,10,200,100.0
-Wisard,2025-02-01 22:18:19,0.0060,Iris,Scatter Code,10,200,100.0
-Wisard,2025-02-01 22:18:19,0.0075,Iris,Scatter Code,10,200,100.0
-Wisard,2025-02-01 22:18:20,0.0058,Iris,Scatter Code,10,200,100.0
-Wisard,2025-02-01 22:18:20,0.0056,Iris,Scatter Code,10,200,100.0
-Wisard,2025-02-01 22:18:20,0.0055,Iris,Scatter Code,10,200,100.0
-Wisard,2025-02-01 22:18:20,0.0055,Iris,Scatter Code,10,200,100.0
-Wisard,2025-02-01 22:18:20,0.0074,Iris,Scatter Code,10,200,100.0
-Wisard,2025-02-01 22:18:20,0.0051,Iris,Scatter Code,10,200,100.0
-Wisard,2025-02-01 22:18:20,0.0050,Iris,Scatter Code,10,200,100.0
-Wisard,2025-02-01 22:18:25,3.9582,Wine Quality,Scatter Code,10,200,44.2
-Wisard,2025-02-01 22:18:32,7.6376,Wine Quality,Scatter Code,10,200,44.2
-Wisard,2025-02-01 22:18:44,11.2126,Wine Quality,Scatter Code,10,200,44.2
-Wisard,2025-02-01 22:18:58,14.7077,Wine Quality,Scatter Code,10,200,44.2
-Wisard,2025-02-01 22:19:17,18.3124,Wine Quality,Scatter Code,10,200,44.2
-Wisard,2025-02-01 22:19:39,22.0243,Wine Quality,Scatter Code,10,200,44.2
-Wisard,2025-02-01 22:20:04,25.3174,Wine Quality,Scatter Code,10,200,44.2
-Wisard,2025-02-01 22:20:33,28.9232,Wine Quality,Scatter Code,10,200,44.2
-Wisard,2025-02-01 22:21:05,32.4616,Wine Quality,Scatter Code,10,200,44.2
-Wisard,2025-02-01 22:21:41,36.0516,Wine Quality,Scatter Code,10,200,44.2
-Wisard,2025-02-01 22:21:43,0.4911,Statlog (Vehicle Silhouettes),Scatter Code,10,200,20.0
-Wisard,2025-02-01 22:21:44,0.8766,Statlog (Vehicle Silhouettes),Scatter Code,10,200,20.0
-Wisard,2025-02-01 22:21:45,1.2620,Statlog (Vehicle Silhouettes),Scatter Code,10,200,20.0
-Wisard,2025-02-01 22:21:47,1.6481,Statlog (Vehicle Silhouettes),Scatter Code,10,200,20.0
-Wisard,2025-02-01 22:21:49,2.0523,Statlog (Vehicle Silhouettes),Scatter Code,10,200,20.0
-Wisard,2025-02-01 22:21:51,2.5395,Statlog (Vehicle Silhouettes),Scatter Code,10,200,20.0
-Wisard,2025-02-01 22:21:54,2.8280,Statlog (Vehicle Silhouettes),Scatter Code,10,200,20.0
-Wisard,2025-02-01 22:21:57,3.2327,Statlog (Vehicle Silhouettes),Scatter Code,10,200,20.0
-Wisard,2025-02-01 22:22:01,3.6225,Statlog (Vehicle Silhouettes),Scatter Code,10,200,20.0
-Wisard,2025-02-01 22:22:05,4.0535,Statlog (Vehicle Silhouettes),Scatter Code,10,200,20.0
-Wisard,2025-02-01 22:22:06,0.0459,Maternal Health Risk,Scatter Code,10,200,62.09
-Wisard,2025-02-01 22:22:06,0.0582,Maternal Health Risk,Scatter Code,10,200,62.09
-Wisard,2025-02-01 22:22:06,0.0641,Maternal Health Risk,Scatter Code,10,200,62.09
-Wisard,2025-02-01 22:22:06,0.0752,Maternal Health Risk,Scatter Code,10,200,62.09
-Wisard,2025-02-01 22:22:06,0.0881,Maternal Health Risk,Scatter Code,10,200,62.09
-Wisard,2025-02-01 22:22:06,0.0944,Maternal Health Risk,Scatter Code,10,200,62.09
-Wisard,2025-02-01 22:22:06,0.1053,Maternal Health Risk,Scatter Code,10,200,62.09
-Wisard,2025-02-01 22:22:06,0.1202,Maternal Health Risk,Scatter Code,10,200,62.09
-Wisard,2025-02-01 22:22:06,0.1266,Maternal Health Risk,Scatter Code,10,200,62.09
-Wisard,2025-02-01 22:22:07,0.1368,Maternal Health Risk,Scatter Code,10,200,62.09
-Wisard,2025-02-01 22:22:07,0.0217,Glass Identification,Scatter Code,10,200,32.39
-Wisard,2025-02-01 22:22:07,0.0326,Glass Identification,Scatter Code,10,200,32.39
-Wisard,2025-02-01 22:22:07,0.0429,Glass Identification,Scatter Code,10,200,32.39
-Wisard,2025-02-01 22:22:07,0.0532,Glass Identification,Scatter Code,10,200,32.39
-Wisard,2025-02-01 22:22:07,0.0641,Glass Identification,Scatter Code,10,200,32.39
-Wisard,2025-02-01 22:22:07,0.0742,Glass Identification,Scatter Code,10,200,32.39
-Wisard,2025-02-01 22:22:07,0.0855,Glass Identification,Scatter Code,10,200,32.39
-Wisard,2025-02-01 22:22:08,0.0952,Glass Identification,Scatter Code,10,200,32.39
-Wisard,2025-02-01 22:22:08,0.1048,Glass Identification,Scatter Code,10,200,32.39
-Wisard,2025-02-01 22:22:08,0.1169,Glass Identification,Scatter Code,10,200,32.39
-Wisard,2025-02-01 22:22:16,6.7023,Optical Recognition of Handwritten Digits,Scatter Code,10,200,97.47
-Wisard,2025-02-01 22:22:23,6.5285,Optical Recognition of Handwritten Digits,Scatter Code,10,200,97.47
-Wisard,2025-02-01 22:22:29,6.1288,Optical Recognition of Handwritten Digits,Scatter Code,10,200,97.47
-Wisard,2025-02-01 22:22:36,6.8098,Optical Recognition of Handwritten Digits,Scatter Code,10,200,97.47
-Wisard,2025-02-01 22:22:42,6.2360,Optical Recognition of Handwritten Digits,Scatter Code,10,200,97.47
-Wisard,2025-02-01 22:22:48,6.3346,Optical Recognition of Handwritten Digits,Scatter Code,10,200,97.47
-Wisard,2025-02-01 22:22:55,6.5992,Optical Recognition of Handwritten Digits,Scatter Code,10,200,97.47
-Wisard,2025-02-01 22:23:01,6.6059,Optical Recognition of Handwritten Digits,Scatter Code,10,200,97.47
-Wisard,2025-02-01 22:23:08,6.4344,Optical Recognition of Handwritten Digits,Scatter Code,10,200,97.47
-Wisard,2025-02-01 22:23:14,6.0934,Optical Recognition of Handwritten Digits,Scatter Code,10,200,97.47
-Wisard,2025-02-01 22:23:15,0.0300,Image Segmentation,Scatter Code,10,200,44.29
-Wisard,2025-02-01 22:23:15,0.0346,Image Segmentation,Scatter Code,10,200,44.29
-Wisard,2025-02-01 22:23:15,0.0398,Image Segmentation,Scatter Code,10,200,44.29
-Wisard,2025-02-01 22:23:15,0.0456,Image Segmentation,Scatter Code,10,200,44.29
-Wisard,2025-02-01 22:23:15,0.0511,Image Segmentation,Scatter Code,10,200,44.29
-Wisard,2025-02-01 22:23:15,0.0570,Image Segmentation,Scatter Code,10,200,44.29
-Wisard,2025-02-01 22:23:15,0.0620,Image Segmentation,Scatter Code,10,200,44.29
-Wisard,2025-02-01 22:23:15,0.0670,Image Segmentation,Scatter Code,10,200,44.29
-Wisard,2025-02-01 22:23:15,0.0721,Image Segmentation,Scatter Code,10,200,44.29
-Wisard,2025-02-01 22:23:16,0.0777,Image Segmentation,Scatter Code,10,200,44.29
-Wisard,2025-02-01 22:23:16,0.0060,Ecoli,Scatter Code,50,50,83.78
-Wisard,2025-02-01 22:23:16,0.0058,Ecoli,Scatter Code,50,50,83.78
-Wisard,2025-02-01 22:23:16,0.0057,Ecoli,Scatter Code,50,50,83.78
-Wisard,2025-02-01 22:23:16,0.0055,Ecoli,Scatter Code,50,50,83.78
-Wisard,2025-02-01 22:23:16,0.0058,Ecoli,Scatter Code,50,50,83.78
-Wisard,2025-02-01 22:23:16,0.0059,Ecoli,Scatter Code,50,50,83.78
-Wisard,2025-02-01 22:23:16,0.0058,Ecoli,Scatter Code,50,50,83.78
-Wisard,2025-02-01 22:23:16,0.0054,Ecoli,Scatter Code,50,50,83.78
-Wisard,2025-02-01 22:23:16,0.0058,Ecoli,Scatter Code,50,50,83.78
-Wisard,2025-02-01 22:23:16,0.0063,Ecoli,Scatter Code,50,50,83.78
-Wisard,2025-02-01 22:23:17,0.0026,Iris,Scatter Code,50,50,98.0
-Wisard,2025-02-01 22:23:17,0.0026,Iris,Scatter Code,50,50,98.0
-Wisard,2025-02-01 22:23:17,0.0027,Iris,Scatter Code,50,50,98.0
-Wisard,2025-02-01 22:23:17,0.0027,Iris,Scatter Code,50,50,98.0
-Wisard,2025-02-01 22:23:17,0.0026,Iris,Scatter Code,50,50,98.0
-Wisard,2025-02-01 22:23:17,0.0027,Iris,Scatter Code,50,50,98.0
-Wisard,2025-02-01 22:23:17,0.0025,Iris,Scatter Code,50,50,98.0
-Wisard,2025-02-01 22:23:17,0.0024,Iris,Scatter Code,50,50,98.0
-Wisard,2025-02-01 22:23:17,0.0024,Iris,Scatter Code,50,50,98.0
-Wisard,2025-02-01 22:23:17,0.0023,Iris,Scatter Code,50,50,98.0
-Wisard,2025-02-01 22:23:19,0.8028,Wine Quality,Scatter Code,50,50,41.72
-Wisard,2025-02-01 22:23:20,1.5142,Wine Quality,Scatter Code,50,50,41.72
-Wisard,2025-02-01 22:23:23,2.1881,Wine Quality,Scatter Code,50,50,41.72
-Wisard,2025-02-01 22:23:25,2.8439,Wine Quality,Scatter Code,50,50,41.72
-Wisard,2025-02-01 22:23:29,3.5096,Wine Quality,Scatter Code,50,50,41.72
-Wisard,2025-02-01 22:23:33,4.1497,Wine Quality,Scatter Code,50,50,41.72
-Wisard,2025-02-01 22:23:38,4.8402,Wine Quality,Scatter Code,50,50,41.72
-Wisard,2025-02-01 22:23:43,5.4846,Wine Quality,Scatter Code,50,50,41.72
-Wisard,2025-02-01 22:23:50,6.2250,Wine Quality,Scatter Code,50,50,41.72
-Wisard,2025-02-01 22:23:57,6.8622,Wine Quality,Scatter Code,50,50,41.72
-Wisard,2025-02-01 22:23:57,0.1411,Statlog (Vehicle Silhouettes),Scatter Code,50,50,20.0
-Wisard,2025-02-01 22:23:58,0.2426,Statlog (Vehicle Silhouettes),Scatter Code,50,50,20.0
-Wisard,2025-02-01 22:23:58,0.3617,Statlog (Vehicle Silhouettes),Scatter Code,50,50,20.0
-Wisard,2025-02-01 22:23:58,0.4844,Statlog (Vehicle Silhouettes),Scatter Code,50,50,20.0
-Wisard,2025-02-01 22:23:59,0.5759,Statlog (Vehicle Silhouettes),Scatter Code,50,50,20.0
-Wisard,2025-02-01 22:24:00,0.6456,Statlog (Vehicle Silhouettes),Scatter Code,50,50,20.0
-Wisard,2025-02-01 22:24:00,0.7490,Statlog (Vehicle Silhouettes),Scatter Code,50,50,20.0
-Wisard,2025-02-01 22:24:01,0.8563,Statlog (Vehicle Silhouettes),Scatter Code,50,50,20.0
-Wisard,2025-02-01 22:24:02,0.9619,Statlog (Vehicle Silhouettes),Scatter Code,50,50,20.0
-Wisard,2025-02-01 22:24:03,1.0636,Statlog (Vehicle Silhouettes),Scatter Code,50,50,20.0
-Wisard,2025-02-01 22:24:04,0.0142,Maternal Health Risk,Scatter Code,50,50,65.67
-Wisard,2025-02-01 22:24:04,0.0153,Maternal Health Risk,Scatter Code,50,50,65.67
-Wisard,2025-02-01 22:24:04,0.0144,Maternal Health Risk,Scatter Code,50,50,65.67
-Wisard,2025-02-01 22:24:04,0.0157,Maternal Health Risk,Scatter Code,50,50,65.67
-Wisard,2025-02-01 22:24:04,0.0167,Maternal Health Risk,Scatter Code,50,50,65.67
-Wisard,2025-02-01 22:24:04,0.0186,Maternal Health Risk,Scatter Code,50,50,65.67
-Wisard,2025-02-01 22:24:04,0.0202,Maternal Health Risk,Scatter Code,50,50,65.67
-Wisard,2025-02-01 22:24:04,0.0231,Maternal Health Risk,Scatter Code,50,50,65.67
-Wisard,2025-02-01 22:24:04,0.0215,Maternal Health Risk,Scatter Code,50,50,65.67
-Wisard,2025-02-01 22:24:04,0.0225,Maternal Health Risk,Scatter Code,50,50,65.67
-Wisard,2025-02-01 22:24:05,0.0057,Glass Identification,Scatter Code,50,50,54.93
-Wisard,2025-02-01 22:24:05,0.0068,Glass Identification,Scatter Code,50,50,54.93
-Wisard,2025-02-01 22:24:05,0.0069,Glass Identification,Scatter Code,50,50,54.93
-Wisard,2025-02-01 22:24:05,0.0080,Glass Identification,Scatter Code,50,50,54.93
-Wisard,2025-02-01 22:24:05,0.0099,Glass Identification,Scatter Code,50,50,54.93
-Wisard,2025-02-01 22:24:05,0.0100,Glass Identification,Scatter Code,50,50,54.93
-Wisard,2025-02-01 22:24:05,0.0113,Glass Identification,Scatter Code,50,50,54.93
-Wisard,2025-02-01 22:24:05,0.0125,Glass Identification,Scatter Code,50,50,54.93
-Wisard,2025-02-01 22:24:05,0.0124,Glass Identification,Scatter Code,50,50,54.93
-Wisard,2025-02-01 22:24:05,0.0135,Glass Identification,Scatter Code,50,50,54.93
-Wisard,2025-02-01 22:24:08,1.3988,Optical Recognition of Handwritten Digits,Scatter Code,50,50,97.68
-Wisard,2025-02-01 22:24:10,1.5827,Optical Recognition of Handwritten Digits,Scatter Code,50,50,97.68
-Wisard,2025-02-01 22:24:11,1.4618,Optical Recognition of Handwritten Digits,Scatter Code,50,50,97.68
-Wisard,2025-02-01 22:24:12,1.0913,Optical Recognition of Handwritten Digits,Scatter Code,50,50,97.68
-Wisard,2025-02-01 22:24:13,1.1898,Optical Recognition of Handwritten Digits,Scatter Code,50,50,97.68
-Wisard,2025-02-01 22:24:14,0.9827,Optical Recognition of Handwritten Digits,Scatter Code,50,50,97.68
-Wisard,2025-02-01 22:24:16,1.3774,Optical Recognition of Handwritten Digits,Scatter Code,50,50,97.68
-Wisard,2025-02-01 22:24:17,1.0627,Optical Recognition of Handwritten Digits,Scatter Code,50,50,97.68
-Wisard,2025-02-01 22:24:18,1.2963,Optical Recognition of Handwritten Digits,Scatter Code,50,50,97.68
-Wisard,2025-02-01 22:24:19,1.2029,Optical Recognition of Handwritten Digits,Scatter Code,50,50,97.68
-Wisard,2025-02-01 22:24:20,0.0081,Image Segmentation,Scatter Code,50,50,68.57
-Wisard,2025-02-01 22:24:20,0.0087,Image Segmentation,Scatter Code,50,50,68.57
-Wisard,2025-02-01 22:24:20,0.0091,Image Segmentation,Scatter Code,50,50,68.57
-Wisard,2025-02-01 22:24:20,0.0093,Image Segmentation,Scatter Code,50,50,68.57
-Wisard,2025-02-01 22:24:20,0.0103,Image Segmentation,Scatter Code,50,50,68.57
-Wisard,2025-02-01 22:24:20,0.0105,Image Segmentation,Scatter Code,50,50,68.57
-Wisard,2025-02-01 22:24:20,0.0105,Image Segmentation,Scatter Code,50,50,68.57
-Wisard,2025-02-01 22:24:20,0.0113,Image Segmentation,Scatter Code,50,50,68.57
-Wisard,2025-02-01 22:24:20,0.0118,Image Segmentation,Scatter Code,50,50,68.57
-Wisard,2025-02-01 22:24:20,0.0122,Image Segmentation,Scatter Code,50,50,68.57
-Wisard,2025-02-01 22:24:21,0.0107,Ecoli,Scatter Code,50,100,87.39
-Wisard,2025-02-01 22:24:21,0.0107,Ecoli,Scatter Code,50,100,87.39
-Wisard,2025-02-01 22:24:21,0.0094,Ecoli,Scatter Code,50,100,87.39
-Wisard,2025-02-01 22:24:21,0.0088,Ecoli,Scatter Code,50,100,87.39
-Wisard,2025-02-01 22:24:21,0.0092,Ecoli,Scatter Code,50,100,87.39
-Wisard,2025-02-01 22:24:21,0.0087,Ecoli,Scatter Code,50,100,87.39
-Wisard,2025-02-01 22:24:21,0.0094,Ecoli,Scatter Code,50,100,87.39
-Wisard,2025-02-01 22:24:21,0.0092,Ecoli,Scatter Code,50,100,87.39
-Wisard,2025-02-01 22:24:21,0.0090,Ecoli,Scatter Code,50,100,87.39
-Wisard,2025-02-01 22:24:21,0.0088,Ecoli,Scatter Code,50,100,87.39
-Wisard,2025-02-01 22:24:21,0.0036,Iris,Scatter Code,50,100,100.0
-Wisard,2025-02-01 22:24:21,0.0033,Iris,Scatter Code,50,100,100.0
-Wisard,2025-02-01 22:24:21,0.0034,Iris,Scatter Code,50,100,100.0
-Wisard,2025-02-01 22:24:21,0.0032,Iris,Scatter Code,50,100,100.0
-Wisard,2025-02-01 22:24:21,0.0034,Iris,Scatter Code,50,100,100.0
-Wisard,2025-02-01 22:24:21,0.0035,Iris,Scatter Code,50,100,100.0
-Wisard,2025-02-01 22:24:22,0.0042,Iris,Scatter Code,50,100,100.0
-Wisard,2025-02-01 22:24:22,0.0037,Iris,Scatter Code,50,100,100.0
-Wisard,2025-02-01 22:24:22,0.0036,Iris,Scatter Code,50,100,100.0
-Wisard,2025-02-01 22:24:22,0.0033,Iris,Scatter Code,50,100,100.0
-Wisard,2025-02-01 22:24:24,1.4500,Wine Quality,Scatter Code,50,100,40.0
-Wisard,2025-02-01 22:24:27,2.6837,Wine Quality,Scatter Code,50,100,40.0
-Wisard,2025-02-01 22:24:31,3.9337,Wine Quality,Scatter Code,50,100,40.0
-Wisard,2025-02-01 22:24:36,5.1386,Wine Quality,Scatter Code,50,100,40.0
-Wisard,2025-02-01 22:24:42,6.3408,Wine Quality,Scatter Code,50,100,40.0
-Wisard,2025-02-01 22:24:50,7.6061,Wine Quality,Scatter Code,50,100,40.0
-Wisard,2025-02-01 22:24:59,8.8496,Wine Quality,Scatter Code,50,100,40.0
-Wisard,2025-02-01 22:25:09,10.0331,Wine Quality,Scatter Code,50,100,40.0
-Wisard,2025-02-01 22:25:21,12.2820,Wine Quality,Scatter Code,50,100,40.0
-Wisard,2025-02-01 22:25:34,12.7856,Wine Quality,Scatter Code,50,100,40.0
-Wisard,2025-02-01 22:25:35,0.2544,Statlog (Vehicle Silhouettes),Scatter Code,50,100,20.0
-Wisard,2025-02-01 22:25:36,0.5690,Statlog (Vehicle Silhouettes),Scatter Code,50,100,20.0
-Wisard,2025-02-01 22:25:37,1.1050,Statlog (Vehicle Silhouettes),Scatter Code,50,100,20.0
-Wisard,2025-02-01 22:25:38,1.4303,Statlog (Vehicle Silhouettes),Scatter Code,50,100,20.0
-Wisard,2025-02-01 22:25:40,1.6626,Statlog (Vehicle Silhouettes),Scatter Code,50,100,20.0
-Wisard,2025-02-01 22:25:42,1.9519,Statlog (Vehicle Silhouettes),Scatter Code,50,100,20.0
-Wisard,2025-02-01 22:25:44,1.9392,Statlog (Vehicle Silhouettes),Scatter Code,50,100,20.0
-Wisard,2025-02-01 22:25:45,1.7249,Statlog (Vehicle Silhouettes),Scatter Code,50,100,20.0
-Wisard,2025-02-01 22:25:47,1.9131,Statlog (Vehicle Silhouettes),Scatter Code,50,100,20.0
-Wisard,2025-02-01 22:25:50,2.1436,Statlog (Vehicle Silhouettes),Scatter Code,50,100,20.0
-Wisard,2025-02-01 22:25:50,0.0227,Maternal Health Risk,Scatter Code,50,100,65.67
-Wisard,2025-02-01 22:25:50,0.0234,Maternal Health Risk,Scatter Code,50,100,65.67
-Wisard,2025-02-01 22:25:50,0.0245,Maternal Health Risk,Scatter Code,50,100,65.67
-Wisard,2025-02-01 22:25:50,0.0250,Maternal Health Risk,Scatter Code,50,100,65.67
-Wisard,2025-02-01 22:25:50,0.0263,Maternal Health Risk,Scatter Code,50,100,65.67
-Wisard,2025-02-01 22:25:50,0.0292,Maternal Health Risk,Scatter Code,50,100,65.67
-Wisard,2025-02-01 22:25:50,0.0305,Maternal Health Risk,Scatter Code,50,100,65.67
-Wisard,2025-02-01 22:25:50,0.0362,Maternal Health Risk,Scatter Code,50,100,65.67
-Wisard,2025-02-01 22:25:51,0.0327,Maternal Health Risk,Scatter Code,50,100,65.67
-Wisard,2025-02-01 22:25:51,0.0351,Maternal Health Risk,Scatter Code,50,100,65.67
-Wisard,2025-02-01 22:25:51,0.0077,Glass Identification,Scatter Code,50,100,59.15
-Wisard,2025-02-01 22:25:51,0.0094,Glass Identification,Scatter Code,50,100,59.15
-Wisard,2025-02-01 22:25:51,0.0103,Glass Identification,Scatter Code,50,100,59.15
-Wisard,2025-02-01 22:25:51,0.0112,Glass Identification,Scatter Code,50,100,59.15
-Wisard,2025-02-01 22:25:51,0.0133,Glass Identification,Scatter Code,50,100,59.15
-Wisard,2025-02-01 22:25:51,0.0135,Glass Identification,Scatter Code,50,100,59.15
-Wisard,2025-02-01 22:25:51,0.0148,Glass Identification,Scatter Code,50,100,59.15
-Wisard,2025-02-01 22:25:51,0.0161,Glass Identification,Scatter Code,50,100,59.15
-Wisard,2025-02-01 22:25:51,0.0169,Glass Identification,Scatter Code,50,100,59.15
-Wisard,2025-02-01 22:25:51,0.0178,Glass Identification,Scatter Code,50,100,59.15
-Wisard,2025-02-01 22:25:57,3.4933,Optical Recognition of Handwritten Digits,Scatter Code,50,100,97.84
-Wisard,2025-02-01 22:26:00,3.2358,Optical Recognition of Handwritten Digits,Scatter Code,50,100,97.84
-Wisard,2025-02-01 22:26:04,4.1622,Optical Recognition of Handwritten Digits,Scatter Code,50,100,97.84
-Wisard,2025-02-01 22:26:08,3.3645,Optical Recognition of Handwritten Digits,Scatter Code,50,100,97.84
-Wisard,2025-02-01 22:26:11,3.5598,Optical Recognition of Handwritten Digits,Scatter Code,50,100,97.84
-Wisard,2025-02-01 22:26:14,3.0842,Optical Recognition of Handwritten Digits,Scatter Code,50,100,97.84
-Wisard,2025-02-01 22:26:18,3.3629,Optical Recognition of Handwritten Digits,Scatter Code,50,100,97.84
-Wisard,2025-02-01 22:26:21,3.5755,Optical Recognition of Handwritten Digits,Scatter Code,50,100,97.84
-Wisard,2025-02-01 22:26:24,2.9996,Optical Recognition of Handwritten Digits,Scatter Code,50,100,97.84
-Wisard,2025-02-01 22:26:27,3.0589,Optical Recognition of Handwritten Digits,Scatter Code,50,100,97.84
-Wisard,2025-02-01 22:26:28,0.0130,Image Segmentation,Scatter Code,50,100,75.71
-Wisard,2025-02-01 22:26:28,0.0140,Image Segmentation,Scatter Code,50,100,75.71
-Wisard,2025-02-01 22:26:28,0.0145,Image Segmentation,Scatter Code,50,100,75.71
-Wisard,2025-02-01 22:26:28,0.0149,Image Segmentation,Scatter Code,50,100,75.71
-Wisard,2025-02-01 22:26:28,0.0161,Image Segmentation,Scatter Code,50,100,75.71
-Wisard,2025-02-01 22:26:28,0.0169,Image Segmentation,Scatter Code,50,100,75.71
-Wisard,2025-02-01 22:26:28,0.0171,Image Segmentation,Scatter Code,50,100,75.71
-Wisard,2025-02-01 22:26:28,0.0180,Image Segmentation,Scatter Code,50,100,75.71
-Wisard,2025-02-01 22:26:28,0.0183,Image Segmentation,Scatter Code,50,100,75.71
-Wisard,2025-02-01 22:26:28,0.0192,Image Segmentation,Scatter Code,50,100,75.71
-Wisard,2025-02-01 22:26:29,0.0156,Ecoli,Scatter Code,50,200,86.49
-Wisard,2025-02-01 22:26:29,0.0162,Ecoli,Scatter Code,50,200,86.49
-Wisard,2025-02-01 22:26:29,0.0165,Ecoli,Scatter Code,50,200,86.49
-Wisard,2025-02-01 22:26:29,0.0159,Ecoli,Scatter Code,50,200,86.49
-Wisard,2025-02-01 22:26:29,0.0161,Ecoli,Scatter Code,50,200,86.49
-Wisard,2025-02-01 22:26:29,0.0160,Ecoli,Scatter Code,50,200,86.49
-Wisard,2025-02-01 22:26:29,0.0162,Ecoli,Scatter Code,50,200,86.49
-Wisard,2025-02-01 22:26:29,0.0162,Ecoli,Scatter Code,50,200,86.49
-Wisard,2025-02-01 22:26:29,0.0158,Ecoli,Scatter Code,50,200,86.49
-Wisard,2025-02-01 22:26:29,0.0160,Ecoli,Scatter Code,50,200,86.49
-Wisard,2025-02-01 22:26:30,0.0061,Iris,Scatter Code,50,200,96.0
-Wisard,2025-02-01 22:26:30,0.0051,Iris,Scatter Code,50,200,96.0
-Wisard,2025-02-01 22:26:30,0.0050,Iris,Scatter Code,50,200,96.0
-Wisard,2025-02-01 22:26:30,0.0054,Iris,Scatter Code,50,200,96.0
-Wisard,2025-02-01 22:26:30,0.0050,Iris,Scatter Code,50,200,96.0
-Wisard,2025-02-01 22:26:30,0.0051,Iris,Scatter Code,50,200,96.0
-Wisard,2025-02-01 22:26:30,0.0056,Iris,Scatter Code,50,200,96.0
-Wisard,2025-02-01 22:26:30,0.0053,Iris,Scatter Code,50,200,96.0
-Wisard,2025-02-01 22:26:30,0.0062,Iris,Scatter Code,50,200,96.0
-Wisard,2025-02-01 22:26:30,0.0053,Iris,Scatter Code,50,200,96.0
-Wisard,2025-02-01 22:26:33,2.0316,Wine Quality,Scatter Code,50,200,39.72
-Wisard,2025-02-01 22:26:37,3.5856,Wine Quality,Scatter Code,50,200,39.72
-Wisard,2025-02-01 22:26:42,5.2764,Wine Quality,Scatter Code,50,200,39.72
-Wisard,2025-02-01 22:26:49,6.8711,Wine Quality,Scatter Code,50,200,39.72
-Wisard,2025-02-01 22:26:58,8.3560,Wine Quality,Scatter Code,50,200,39.72
-Wisard,2025-02-01 22:27:08,10.0986,Wine Quality,Scatter Code,50,200,39.72
-Wisard,2025-02-01 22:27:19,11.5472,Wine Quality,Scatter Code,50,200,39.72
-Wisard,2025-02-01 22:27:32,13.1069,Wine Quality,Scatter Code,50,200,39.72
-Wisard,2025-02-01 22:27:47,14.7361,Wine Quality,Scatter Code,50,200,39.72
-Wisard,2025-02-01 22:28:03,16.3855,Wine Quality,Scatter Code,50,200,39.72
-Wisard,2025-02-01 22:28:05,0.5156,Statlog (Vehicle Silhouettes),Scatter Code,50,200,20.0
-Wisard,2025-02-01 22:28:06,0.8923,Statlog (Vehicle Silhouettes),Scatter Code,50,200,20.0
-Wisard,2025-02-01 22:28:07,1.2844,Statlog (Vehicle Silhouettes),Scatter Code,50,200,20.0
-Wisard,2025-02-01 22:28:09,1.6940,Statlog (Vehicle Silhouettes),Scatter Code,50,200,20.0
-Wisard,2025-02-01 22:28:11,2.1060,Statlog (Vehicle Silhouettes),Scatter Code,50,200,20.0
-Wisard,2025-02-01 22:28:13,2.4904,Statlog (Vehicle Silhouettes),Scatter Code,50,200,20.0
-Wisard,2025-02-01 22:28:16,2.9152,Statlog (Vehicle Silhouettes),Scatter Code,50,200,20.0
-Wisard,2025-02-01 22:28:20,3.3612,Statlog (Vehicle Silhouettes),Scatter Code,50,200,20.0
-Wisard,2025-02-01 22:28:23,3.8148,Statlog (Vehicle Silhouettes),Scatter Code,50,200,20.0
-Wisard,2025-02-01 22:28:28,4.1500,Statlog (Vehicle Silhouettes),Scatter Code,50,200,20.0
-Wisard,2025-02-01 22:28:28,0.0379,Maternal Health Risk,Scatter Code,50,200,69.85
-Wisard,2025-02-01 22:28:28,0.0404,Maternal Health Risk,Scatter Code,50,200,69.85
-Wisard,2025-02-01 22:28:29,0.0405,Maternal Health Risk,Scatter Code,50,200,69.85
-Wisard,2025-02-01 22:28:29,0.0450,Maternal Health Risk,Scatter Code,50,200,69.85
-Wisard,2025-02-01 22:28:29,0.0460,Maternal Health Risk,Scatter Code,50,200,69.85
-Wisard,2025-02-01 22:28:29,0.0490,Maternal Health Risk,Scatter Code,50,200,69.85
-Wisard,2025-02-01 22:28:29,0.0490,Maternal Health Risk,Scatter Code,50,200,69.85
-Wisard,2025-02-01 22:28:29,0.0578,Maternal Health Risk,Scatter Code,50,200,69.85
-Wisard,2025-02-01 22:28:29,0.0556,Maternal Health Risk,Scatter Code,50,200,69.85
-Wisard,2025-02-01 22:28:29,0.0586,Maternal Health Risk,Scatter Code,50,200,69.85
-Wisard,2025-02-01 22:28:30,0.0154,Glass Identification,Scatter Code,50,200,57.75
-Wisard,2025-02-01 22:28:30,0.0191,Glass Identification,Scatter Code,50,200,57.75
-Wisard,2025-02-01 22:28:30,0.0214,Glass Identification,Scatter Code,50,200,57.75
-Wisard,2025-02-01 22:28:30,0.0225,Glass Identification,Scatter Code,50,200,57.75
-Wisard,2025-02-01 22:28:30,0.0247,Glass Identification,Scatter Code,50,200,57.75
-Wisard,2025-02-01 22:28:30,0.0272,Glass Identification,Scatter Code,50,200,57.75
-Wisard,2025-02-01 22:28:30,0.0292,Glass Identification,Scatter Code,50,200,57.75
-Wisard,2025-02-01 22:28:30,0.0323,Glass Identification,Scatter Code,50,200,57.75
-Wisard,2025-02-01 22:28:30,0.0370,Glass Identification,Scatter Code,50,200,57.75
-Wisard,2025-02-01 22:28:30,0.0380,Glass Identification,Scatter Code,50,200,57.75
-Wisard,2025-02-01 22:28:39,6.8685,Optical Recognition of Handwritten Digits,Scatter Code,50,200,97.9
-Wisard,2025-02-01 22:28:46,7.1663,Optical Recognition of Handwritten Digits,Scatter Code,50,200,97.9
-Wisard,2025-02-01 22:28:54,7.9315,Optical Recognition of Handwritten Digits,Scatter Code,50,200,97.9
-Wisard,2025-02-01 22:29:00,6.7164,Optical Recognition of Handwritten Digits,Scatter Code,50,200,97.9
-Wisard,2025-02-01 22:29:07,7.0436,Optical Recognition of Handwritten Digits,Scatter Code,50,200,97.9
-Wisard,2025-02-01 22:29:15,7.0415,Optical Recognition of Handwritten Digits,Scatter Code,50,200,97.9
-Wisard,2025-02-01 22:29:21,6.7456,Optical Recognition of Handwritten Digits,Scatter Code,50,200,97.9
-Wisard,2025-02-01 22:29:28,6.9232,Optical Recognition of Handwritten Digits,Scatter Code,50,200,97.9
-Wisard,2025-02-01 22:29:35,6.8140,Optical Recognition of Handwritten Digits,Scatter Code,50,200,97.9
-Wisard,2025-02-01 22:29:42,6.7697,Optical Recognition of Handwritten Digits,Scatter Code,50,200,97.9
-Wisard,2025-02-01 22:29:43,0.0240,Image Segmentation,Scatter Code,50,200,77.14
-Wisard,2025-02-01 22:29:43,0.0257,Image Segmentation,Scatter Code,50,200,77.14
-Wisard,2025-02-01 22:29:43,0.0269,Image Segmentation,Scatter Code,50,200,77.14
-Wisard,2025-02-01 22:29:43,0.0284,Image Segmentation,Scatter Code,50,200,77.14
-Wisard,2025-02-01 22:29:43,0.0298,Image Segmentation,Scatter Code,50,200,77.14
-Wisard,2025-02-01 22:29:43,0.0299,Image Segmentation,Scatter Code,50,200,77.14
-Wisard,2025-02-01 22:29:43,0.0319,Image Segmentation,Scatter Code,50,200,77.14
-Wisard,2025-02-01 22:29:43,0.0326,Image Segmentation,Scatter Code,50,200,77.14
-Wisard,2025-02-01 22:29:43,0.0329,Image Segmentation,Scatter Code,50,200,77.14
-Wisard,2025-02-01 22:29:43,0.0340,Image Segmentation,Scatter Code,50,200,77.14
-Wisard,2025-02-01 22:29:44,0.0127,Ecoli,Scatter Code,100,50,45.95
-Wisard,2025-02-01 22:29:44,0.0184,Ecoli,Scatter Code,100,50,45.95
-Wisard,2025-02-01 22:29:44,0.0268,Ecoli,Scatter Code,100,50,45.95
-Wisard,2025-02-01 22:29:44,0.0328,Ecoli,Scatter Code,100,50,45.95
-Wisard,2025-02-01 22:29:44,0.0397,Ecoli,Scatter Code,100,50,45.95
-Wisard,2025-02-01 22:29:44,0.0467,Ecoli,Scatter Code,100,50,45.95
-Wisard,2025-02-01 22:29:44,0.0520,Ecoli,Scatter Code,100,50,45.95
-Wisard,2025-02-01 22:29:44,0.0594,Ecoli,Scatter Code,100,50,45.95
-Wisard,2025-02-01 22:29:44,0.0670,Ecoli,Scatter Code,100,50,45.95
-Wisard,2025-02-01 22:29:44,0.0714,Ecoli,Scatter Code,100,50,45.95
-Wisard,2025-02-01 22:29:45,0.0036,Iris,Scatter Code,100,50,30.0
-Wisard,2025-02-01 22:29:45,0.0042,Iris,Scatter Code,100,50,30.0
-Wisard,2025-02-01 22:29:45,0.0047,Iris,Scatter Code,100,50,30.0
-Wisard,2025-02-01 22:29:45,0.0066,Iris,Scatter Code,100,50,30.0
-Wisard,2025-02-01 22:29:45,0.0064,Iris,Scatter Code,100,50,30.0
-Wisard,2025-02-01 22:29:45,0.0069,Iris,Scatter Code,100,50,30.0
-Wisard,2025-02-01 22:29:45,0.0080,Iris,Scatter Code,100,50,30.0
-Wisard,2025-02-01 22:29:45,0.0084,Iris,Scatter Code,100,50,30.0
-Wisard,2025-02-01 22:29:45,0.0090,Iris,Scatter Code,100,50,30.0
-Wisard,2025-02-01 22:29:45,0.0096,Iris,Scatter Code,100,50,30.0
-Wisard,2025-02-01 22:29:51,4.3679,Wine Quality,Scatter Code,100,50,45.55
-Wisard,2025-02-01 22:30:00,8.5594,Wine Quality,Scatter Code,100,50,45.55
-Wisard,2025-02-01 22:30:13,13.1372,Wine Quality,Scatter Code,100,50,45.55
-Wisard,2025-02-01 22:30:30,17.3378,Wine Quality,Scatter Code,100,50,45.55
-Wisard,2025-02-01 22:30:52,21.6404,Wine Quality,Scatter Code,100,50,45.55
-Wisard,2025-02-01 22:31:18,25.8146,Wine Quality,Scatter Code,100,50,45.55
-Wisard,2025-02-01 22:31:48,29.9117,Wine Quality,Scatter Code,100,50,45.55
-Wisard,2025-02-01 22:32:22,34.1178,Wine Quality,Scatter Code,100,50,45.55
-Wisard,2025-02-01 22:33:00,38.4263,Wine Quality,Scatter Code,100,50,45.55
-Wisard,2025-02-01 22:33:43,42.6803,Wine Quality,Scatter Code,100,50,45.55
-Wisard,2025-02-01 22:33:44,0.1282,Statlog (Vehicle Silhouettes),Scatter Code,100,50,20.0
-Wisard,2025-02-01 22:33:44,0.2407,Statlog (Vehicle Silhouettes),Scatter Code,100,50,20.0
-Wisard,2025-02-01 22:33:44,0.3441,Statlog (Vehicle Silhouettes),Scatter Code,100,50,20.0
-Wisard,2025-02-01 22:33:45,0.4380,Statlog (Vehicle Silhouettes),Scatter Code,100,50,20.0
-Wisard,2025-02-01 22:33:45,0.5322,Statlog (Vehicle Silhouettes),Scatter Code,100,50,20.0
-Wisard,2025-02-01 22:33:46,0.6321,Statlog (Vehicle Silhouettes),Scatter Code,100,50,20.0
-Wisard,2025-02-01 22:33:47,0.7318,Statlog (Vehicle Silhouettes),Scatter Code,100,50,20.0
-Wisard,2025-02-01 22:33:48,0.8335,Statlog (Vehicle Silhouettes),Scatter Code,100,50,20.0
-Wisard,2025-02-01 22:33:48,0.9337,Statlog (Vehicle Silhouettes),Scatter Code,100,50,20.0
-Wisard,2025-02-01 22:33:50,1.0364,Statlog (Vehicle Silhouettes),Scatter Code,100,50,20.0
-Wisard,2025-02-01 22:33:50,0.0525,Maternal Health Risk,Scatter Code,100,50,38.21
-Wisard,2025-02-01 22:33:50,0.0917,Maternal Health Risk,Scatter Code,100,50,38.21
-Wisard,2025-02-01 22:33:51,0.1344,Maternal Health Risk,Scatter Code,100,50,38.21
-Wisard,2025-02-01 22:33:51,0.1719,Maternal Health Risk,Scatter Code,100,50,38.21
-Wisard,2025-02-01 22:33:51,0.2142,Maternal Health Risk,Scatter Code,100,50,38.21
-Wisard,2025-02-01 22:33:51,0.2538,Maternal Health Risk,Scatter Code,100,50,38.21
-Wisard,2025-02-01 22:33:51,0.2957,Maternal Health Risk,Scatter Code,100,50,38.21
-Wisard,2025-02-01 22:33:52,0.3366,Maternal Health Risk,Scatter Code,100,50,38.21
-Wisard,2025-02-01 22:33:52,0.3759,Maternal Health Risk,Scatter Code,100,50,38.21
-Wisard,2025-02-01 22:33:53,0.4180,Maternal Health Risk,Scatter Code,100,50,38.21
-Wisard,2025-02-01 22:33:53,0.0080,Glass Identification,Scatter Code,100,50,35.21
-Wisard,2025-02-01 22:33:53,0.0114,Glass Identification,Scatter Code,100,50,35.21
-Wisard,2025-02-01 22:33:53,0.0143,Glass Identification,Scatter Code,100,50,35.21
-Wisard,2025-02-01 22:33:53,0.0189,Glass Identification,Scatter Code,100,50,35.21
-Wisard,2025-02-01 22:33:53,0.0211,Glass Identification,Scatter Code,100,50,35.21
-Wisard,2025-02-01 22:33:53,0.0261,Glass Identification,Scatter Code,100,50,35.21
-Wisard,2025-02-01 22:33:54,0.0289,Glass Identification,Scatter Code,100,50,35.21
-Wisard,2025-02-01 22:33:54,0.0309,Glass Identification,Scatter Code,100,50,35.21
-Wisard,2025-02-01 22:33:54,0.0341,Glass Identification,Scatter Code,100,50,35.21
-Wisard,2025-02-01 22:33:54,0.0376,Glass Identification,Scatter Code,100,50,35.21
-Wisard,2025-02-01 22:34:13,17.8863,Optical Recognition of Handwritten Digits,Scatter Code,100,50,10.3
-Wisard,2025-02-01 22:34:48,34.8144,Optical Recognition of Handwritten Digits,Scatter Code,100,50,10.3
-Wisard,2025-02-01 22:35:40,51.9852,Optical Recognition of Handwritten Digits,Scatter Code,100,50,10.3
-Wisard,2025-02-01 22:36:49,68.9819,Optical Recognition of Handwritten Digits,Scatter Code,100,50,10.3
-Wisard,2025-02-01 22:38:15,85.8983,Optical Recognition of Handwritten Digits,Scatter Code,100,50,10.3
-Wisard,2025-02-01 22:39:58,103.1550,Optical Recognition of Handwritten Digits,Scatter Code,100,50,10.3
-Wisard,2025-02-01 22:41:58,120.1355,Optical Recognition of Handwritten Digits,Scatter Code,100,50,10.3
-Wisard,2025-02-01 22:44:15,137.0664,Optical Recognition of Handwritten Digits,Scatter Code,100,50,10.3
-Wisard,2025-02-01 22:46:49,153.9398,Optical Recognition of Handwritten Digits,Scatter Code,100,50,10.3
-Wisard,2025-02-01 22:49:40,170.9718,Optical Recognition of Handwritten Digits,Scatter Code,100,50,10.3
-Wisard,2025-02-01 22:49:41,0.0161,Image Segmentation,Scatter Code,100,50,10.0
-Wisard,2025-02-01 22:49:41,0.0225,Image Segmentation,Scatter Code,100,50,10.0
-Wisard,2025-02-01 22:49:41,0.0317,Image Segmentation,Scatter Code,100,50,10.0
-Wisard,2025-02-01 22:49:41,0.0378,Image Segmentation,Scatter Code,100,50,10.0
-Wisard,2025-02-01 22:49:41,0.0465,Image Segmentation,Scatter Code,100,50,10.0
-Wisard,2025-02-01 22:49:41,0.0536,Image Segmentation,Scatter Code,100,50,10.0
-Wisard,2025-02-01 22:49:42,0.0614,Image Segmentation,Scatter Code,100,50,10.0
-Wisard,2025-02-01 22:49:42,0.0684,Image Segmentation,Scatter Code,100,50,10.0
-Wisard,2025-02-01 22:49:42,0.0775,Image Segmentation,Scatter Code,100,50,10.0
-Wisard,2025-02-01 22:49:42,0.0838,Image Segmentation,Scatter Code,100,50,10.0
-Wisard,2025-02-01 22:49:43,0.0084,Ecoli,Scatter Code,100,100,84.68
-Wisard,2025-02-01 22:49:43,0.0085,Ecoli,Scatter Code,100,100,84.68
-Wisard,2025-02-01 22:49:43,0.0085,Ecoli,Scatter Code,100,100,84.68
-Wisard,2025-02-01 22:49:43,0.0086,Ecoli,Scatter Code,100,100,84.68
-Wisard,2025-02-01 22:49:43,0.0098,Ecoli,Scatter Code,100,100,84.68
-Wisard,2025-02-01 22:49:43,0.0087,Ecoli,Scatter Code,100,100,84.68
-Wisard,2025-02-01 22:49:43,0.0088,Ecoli,Scatter Code,100,100,84.68
-Wisard,2025-02-01 22:49:43,0.0091,Ecoli,Scatter Code,100,100,84.68
-Wisard,2025-02-01 22:49:43,0.0090,Ecoli,Scatter Code,100,100,84.68
-Wisard,2025-02-01 22:49:43,0.0087,Ecoli,Scatter Code,100,100,84.68
-Wisard,2025-02-01 22:49:43,0.0031,Iris,Scatter Code,100,100,98.0
-Wisard,2025-02-01 22:49:43,0.0040,Iris,Scatter Code,100,100,98.0
-Wisard,2025-02-01 22:49:43,0.0034,Iris,Scatter Code,100,100,98.0
-Wisard,2025-02-01 22:49:43,0.0034,Iris,Scatter Code,100,100,98.0
-Wisard,2025-02-01 22:49:43,0.0034,Iris,Scatter Code,100,100,98.0
-Wisard,2025-02-01 22:49:43,0.0036,Iris,Scatter Code,100,100,98.0
-Wisard,2025-02-01 22:49:43,0.0036,Iris,Scatter Code,100,100,98.0
-Wisard,2025-02-01 22:49:43,0.0032,Iris,Scatter Code,100,100,98.0
-Wisard,2025-02-01 22:49:43,0.0034,Iris,Scatter Code,100,100,98.0
-Wisard,2025-02-01 22:49:43,0.0034,Iris,Scatter Code,100,100,98.0
-Wisard,2025-02-01 22:49:46,1.1991,Wine Quality,Scatter Code,100,100,44.52
-Wisard,2025-02-01 22:49:48,2.2033,Wine Quality,Scatter Code,100,100,44.52
-Wisard,2025-02-01 22:49:51,3.1776,Wine Quality,Scatter Code,100,100,44.52
-Wisard,2025-02-01 22:49:56,4.2233,Wine Quality,Scatter Code,100,100,44.52
-Wisard,2025-02-01 22:50:01,5.1512,Wine Quality,Scatter Code,100,100,44.52
-Wisard,2025-02-01 22:50:07,6.1591,Wine Quality,Scatter Code,100,100,44.52
-Wisard,2025-02-01 22:50:14,7.2012,Wine Quality,Scatter Code,100,100,44.52
-Wisard,2025-02-01 22:50:22,8.1655,Wine Quality,Scatter Code,100,100,44.52
-Wisard,2025-02-01 22:50:31,9.1320,Wine Quality,Scatter Code,100,100,44.52
-Wisard,2025-02-01 22:50:42,10.4281,Wine Quality,Scatter Code,100,100,44.52
-Wisard,2025-02-01 22:50:43,0.2458,Statlog (Vehicle Silhouettes),Scatter Code,100,100,20.0
-Wisard,2025-02-01 22:50:43,0.4507,Statlog (Vehicle Silhouettes),Scatter Code,100,100,20.0
-Wisard,2025-02-01 22:50:44,0.6521,Statlog (Vehicle Silhouettes),Scatter Code,100,100,20.0
-Wisard,2025-02-01 22:50:45,0.8577,Statlog (Vehicle Silhouettes),Scatter Code,100,100,20.0
-Wisard,2025-02-01 22:50:46,1.0572,Statlog (Vehicle Silhouettes),Scatter Code,100,100,20.0
-Wisard,2025-02-01 22:50:47,1.2728,Statlog (Vehicle Silhouettes),Scatter Code,100,100,20.0
-Wisard,2025-02-01 22:50:49,1.4766,Statlog (Vehicle Silhouettes),Scatter Code,100,100,20.0
-Wisard,2025-02-01 22:50:50,1.6869,Statlog (Vehicle Silhouettes),Scatter Code,100,100,20.0
-Wisard,2025-02-01 22:50:52,1.8815,Statlog (Vehicle Silhouettes),Scatter Code,100,100,20.0
-Wisard,2025-02-01 22:50:54,2.0780,Statlog (Vehicle Silhouettes),Scatter Code,100,100,20.0
-Wisard,2025-02-01 22:50:55,0.0220,Maternal Health Risk,Scatter Code,100,100,67.16
-Wisard,2025-02-01 22:50:55,0.0223,Maternal Health Risk,Scatter Code,100,100,67.16
-Wisard,2025-02-01 22:50:55,0.0229,Maternal Health Risk,Scatter Code,100,100,67.16
-Wisard,2025-02-01 22:50:55,0.0241,Maternal Health Risk,Scatter Code,100,100,67.16
-Wisard,2025-02-01 22:50:55,0.0266,Maternal Health Risk,Scatter Code,100,100,67.16
-Wisard,2025-02-01 22:50:55,0.0283,Maternal Health Risk,Scatter Code,100,100,67.16
-Wisard,2025-02-01 22:50:55,0.0301,Maternal Health Risk,Scatter Code,100,100,67.16
-Wisard,2025-02-01 22:50:55,0.0342,Maternal Health Risk,Scatter Code,100,100,67.16
-Wisard,2025-02-01 22:50:56,0.0334,Maternal Health Risk,Scatter Code,100,100,67.16
-Wisard,2025-02-01 22:50:56,0.0355,Maternal Health Risk,Scatter Code,100,100,67.16
-Wisard,2025-02-01 22:50:56,0.0090,Glass Identification,Scatter Code,100,100,66.2
-Wisard,2025-02-01 22:50:56,0.0100,Glass Identification,Scatter Code,100,100,66.2
-Wisard,2025-02-01 22:50:56,0.0106,Glass Identification,Scatter Code,100,100,66.2
-Wisard,2025-02-01 22:50:56,0.0110,Glass Identification,Scatter Code,100,100,66.2
-Wisard,2025-02-01 22:50:56,0.0125,Glass Identification,Scatter Code,100,100,66.2
-Wisard,2025-02-01 22:50:56,0.0152,Glass Identification,Scatter Code,100,100,66.2
-Wisard,2025-02-01 22:50:56,0.0143,Glass Identification,Scatter Code,100,100,66.2
-Wisard,2025-02-01 22:50:56,0.0157,Glass Identification,Scatter Code,100,100,66.2
-Wisard,2025-02-01 22:50:56,0.0165,Glass Identification,Scatter Code,100,100,66.2
-Wisard,2025-02-01 22:50:56,0.0175,Glass Identification,Scatter Code,100,100,66.2
-Wisard,2025-02-01 22:51:02,3.3286,Optical Recognition of Handwritten Digits,Scatter Code,100,100,97.95
-Wisard,2025-02-01 22:51:05,3.3320,Optical Recognition of Handwritten Digits,Scatter Code,100,100,97.95
-Wisard,2025-02-01 22:51:08,3.0230,Optical Recognition of Handwritten Digits,Scatter Code,100,100,97.95
-Wisard,2025-02-01 22:51:11,3.1199,Optical Recognition of Handwritten Digits,Scatter Code,100,100,97.95
-Wisard,2025-02-01 22:51:15,3.1124,Optical Recognition of Handwritten Digits,Scatter Code,100,100,97.95
-Wisard,2025-02-01 22:51:18,3.4853,Optical Recognition of Handwritten Digits,Scatter Code,100,100,97.95
-Wisard,2025-02-01 22:51:21,3.1399,Optical Recognition of Handwritten Digits,Scatter Code,100,100,97.95
-Wisard,2025-02-01 22:51:24,3.1142,Optical Recognition of Handwritten Digits,Scatter Code,100,100,97.95
-Wisard,2025-02-01 22:51:27,3.0675,Optical Recognition of Handwritten Digits,Scatter Code,100,100,97.95
-Wisard,2025-02-01 22:51:31,3.3293,Optical Recognition of Handwritten Digits,Scatter Code,100,100,97.95
-Wisard,2025-02-01 22:51:32,0.0144,Image Segmentation,Scatter Code,100,100,74.29
-Wisard,2025-02-01 22:51:32,0.0150,Image Segmentation,Scatter Code,100,100,74.29
-Wisard,2025-02-01 22:51:32,0.0139,Image Segmentation,Scatter Code,100,100,74.29
-Wisard,2025-02-01 22:51:32,0.0149,Image Segmentation,Scatter Code,100,100,74.29
-Wisard,2025-02-01 22:51:32,0.0150,Image Segmentation,Scatter Code,100,100,74.29
-Wisard,2025-02-01 22:51:32,0.0146,Image Segmentation,Scatter Code,100,100,74.29
-Wisard,2025-02-01 22:51:32,0.0151,Image Segmentation,Scatter Code,100,100,74.29
-Wisard,2025-02-01 22:51:32,0.0159,Image Segmentation,Scatter Code,100,100,74.29
-Wisard,2025-02-01 22:51:32,0.0154,Image Segmentation,Scatter Code,100,100,74.29
-Wisard,2025-02-01 22:51:32,0.0159,Image Segmentation,Scatter Code,100,100,74.29
-Wisard,2025-02-01 22:51:33,0.0151,Ecoli,Scatter Code,100,200,87.39
-Wisard,2025-02-01 22:51:33,0.0160,Ecoli,Scatter Code,100,200,87.39
-Wisard,2025-02-01 22:51:33,0.0160,Ecoli,Scatter Code,100,200,87.39
-Wisard,2025-02-01 22:51:33,0.0159,Ecoli,Scatter Code,100,200,87.39
-Wisard,2025-02-01 22:51:33,0.0156,Ecoli,Scatter Code,100,200,87.39
-Wisard,2025-02-01 22:51:33,0.0168,Ecoli,Scatter Code,100,200,87.39
-Wisard,2025-02-01 22:51:33,0.0157,Ecoli,Scatter Code,100,200,87.39
-Wisard,2025-02-01 22:51:33,0.0176,Ecoli,Scatter Code,100,200,87.39
-Wisard,2025-02-01 22:51:33,0.0160,Ecoli,Scatter Code,100,200,87.39
-Wisard,2025-02-01 22:51:33,0.0160,Ecoli,Scatter Code,100,200,87.39
-Wisard,2025-02-01 22:51:33,0.0046,Iris,Scatter Code,100,200,98.0
-Wisard,2025-02-01 22:51:34,0.0055,Iris,Scatter Code,100,200,98.0
-Wisard,2025-02-01 22:51:34,0.0052,Iris,Scatter Code,100,200,98.0
-Wisard,2025-02-01 22:51:34,0.0051,Iris,Scatter Code,100,200,98.0
-Wisard,2025-02-01 22:51:34,0.0057,Iris,Scatter Code,100,200,98.0
-Wisard,2025-02-01 22:51:34,0.0049,Iris,Scatter Code,100,200,98.0
-Wisard,2025-02-01 22:51:34,0.0052,Iris,Scatter Code,100,200,98.0
-Wisard,2025-02-01 22:51:34,0.0051,Iris,Scatter Code,100,200,98.0
-Wisard,2025-02-01 22:51:34,0.0048,Iris,Scatter Code,100,200,98.0
-Wisard,2025-02-01 22:51:34,0.0050,Iris,Scatter Code,100,200,98.0
-Wisard,2025-02-01 22:51:37,1.6392,Wine Quality,Scatter Code,100,200,43.12
-Wisard,2025-02-01 22:51:40,3.0058,Wine Quality,Scatter Code,100,200,43.12
-Wisard,2025-02-01 22:51:44,4.0532,Wine Quality,Scatter Code,100,200,43.12
-Wisard,2025-02-01 22:51:49,5.3295,Wine Quality,Scatter Code,100,200,43.12
-Wisard,2025-02-01 22:51:56,6.5219,Wine Quality,Scatter Code,100,200,43.12
-Wisard,2025-02-01 22:52:03,7.6787,Wine Quality,Scatter Code,100,200,43.12
-Wisard,2025-02-01 22:52:12,9.0536,Wine Quality,Scatter Code,100,200,43.12
-Wisard,2025-02-01 22:52:23,10.3998,Wine Quality,Scatter Code,100,200,43.12
-Wisard,2025-02-01 22:52:34,11.3379,Wine Quality,Scatter Code,100,200,43.12
-Wisard,2025-02-01 22:52:47,12.8650,Wine Quality,Scatter Code,100,200,43.12
-Wisard,2025-02-01 22:52:48,0.4800,Statlog (Vehicle Silhouettes),Scatter Code,100,200,20.0
-Wisard,2025-02-01 22:52:49,0.8821,Statlog (Vehicle Silhouettes),Scatter Code,100,200,20.0
-Wisard,2025-02-01 22:52:50,1.2964,Statlog (Vehicle Silhouettes),Scatter Code,100,200,20.0
-Wisard,2025-02-01 22:52:52,1.7034,Statlog (Vehicle Silhouettes),Scatter Code,100,200,20.0
-Wisard,2025-02-01 22:52:54,2.0923,Statlog (Vehicle Silhouettes),Scatter Code,100,200,20.0
-Wisard,2025-02-01 22:52:57,2.4885,Statlog (Vehicle Silhouettes),Scatter Code,100,200,20.0
-Wisard,2025-02-01 22:53:00,2.9436,Statlog (Vehicle Silhouettes),Scatter Code,100,200,20.0
-Wisard,2025-02-01 22:53:03,3.3344,Statlog (Vehicle Silhouettes),Scatter Code,100,200,20.0
-Wisard,2025-02-01 22:53:07,3.7339,Statlog (Vehicle Silhouettes),Scatter Code,100,200,20.0
-Wisard,2025-02-01 22:53:11,4.1187,Statlog (Vehicle Silhouettes),Scatter Code,100,200,20.0
-Wisard,2025-02-01 22:53:12,0.0370,Maternal Health Risk,Scatter Code,100,200,69.55
-Wisard,2025-02-01 22:53:12,0.0415,Maternal Health Risk,Scatter Code,100,200,69.55
-Wisard,2025-02-01 22:53:12,0.0403,Maternal Health Risk,Scatter Code,100,200,69.55
-Wisard,2025-02-01 22:53:12,0.0424,Maternal Health Risk,Scatter Code,100,200,69.55
-Wisard,2025-02-01 22:53:12,0.0455,Maternal Health Risk,Scatter Code,100,200,69.55
-Wisard,2025-02-01 22:53:12,0.0477,Maternal Health Risk,Scatter Code,100,200,69.55
-Wisard,2025-02-01 22:53:12,0.0494,Maternal Health Risk,Scatter Code,100,200,69.55
-Wisard,2025-02-01 22:53:12,0.0573,Maternal Health Risk,Scatter Code,100,200,69.55
-Wisard,2025-02-01 22:53:12,0.0540,Maternal Health Risk,Scatter Code,100,200,69.55
-Wisard,2025-02-01 22:53:12,0.0575,Maternal Health Risk,Scatter Code,100,200,69.55
-Wisard,2025-02-01 22:53:13,0.0136,Glass Identification,Scatter Code,100,200,60.56
-Wisard,2025-02-01 22:53:13,0.0160,Glass Identification,Scatter Code,100,200,60.56
-Wisard,2025-02-01 22:53:13,0.0174,Glass Identification,Scatter Code,100,200,60.56
-Wisard,2025-02-01 22:53:13,0.0188,Glass Identification,Scatter Code,100,200,60.56
-Wisard,2025-02-01 22:53:13,0.0210,Glass Identification,Scatter Code,100,200,60.56
-Wisard,2025-02-01 22:53:13,0.0232,Glass Identification,Scatter Code,100,200,60.56
-Wisard,2025-02-01 22:53:13,0.0242,Glass Identification,Scatter Code,100,200,60.56
-Wisard,2025-02-01 22:53:13,0.0261,Glass Identification,Scatter Code,100,200,60.56
-Wisard,2025-02-01 22:53:13,0.0279,Glass Identification,Scatter Code,100,200,60.56
-Wisard,2025-02-01 22:53:13,0.0296,Glass Identification,Scatter Code,100,200,60.56
-Wisard,2025-02-01 22:53:22,6.6720,Optical Recognition of Handwritten Digits,Scatter Code,100,200,97.84
-Wisard,2025-02-01 22:53:28,6.8373,Optical Recognition of Handwritten Digits,Scatter Code,100,200,97.84
-Wisard,2025-02-01 22:53:35,6.5533,Optical Recognition of Handwritten Digits,Scatter Code,100,200,97.84
-Wisard,2025-02-01 22:53:42,6.6600,Optical Recognition of Handwritten Digits,Scatter Code,100,200,97.84
-Wisard,2025-02-01 22:53:49,6.9134,Optical Recognition of Handwritten Digits,Scatter Code,100,200,97.84
-Wisard,2025-02-01 22:53:56,6.8999,Optical Recognition of Handwritten Digits,Scatter Code,100,200,97.84
-Wisard,2025-02-01 22:54:02,6.5947,Optical Recognition of Handwritten Digits,Scatter Code,100,200,97.84
-Wisard,2025-02-01 22:54:09,6.6142,Optical Recognition of Handwritten Digits,Scatter Code,100,200,97.84
-Wisard,2025-02-01 22:54:16,7.1583,Optical Recognition of Handwritten Digits,Scatter Code,100,200,97.84
-Wisard,2025-02-01 22:54:23,6.9261,Optical Recognition of Handwritten Digits,Scatter Code,100,200,97.84
-Wisard,2025-02-01 22:54:24,0.0238,Image Segmentation,Scatter Code,100,200,78.57
-Wisard,2025-02-01 22:54:24,0.0255,Image Segmentation,Scatter Code,100,200,78.57
-Wisard,2025-02-01 22:54:24,0.0255,Image Segmentation,Scatter Code,100,200,78.57
-Wisard,2025-02-01 22:54:24,0.0250,Image Segmentation,Scatter Code,100,200,78.57
-Wisard,2025-02-01 22:54:24,0.0253,Image Segmentation,Scatter Code,100,200,78.57
-Wisard,2025-02-01 22:54:24,0.0265,Image Segmentation,Scatter Code,100,200,78.57
-Wisard,2025-02-01 22:54:24,0.0272,Image Segmentation,Scatter Code,100,200,78.57
-Wisard,2025-02-01 22:54:24,0.0270,Image Segmentation,Scatter Code,100,200,78.57
-Wisard,2025-02-01 22:54:24,0.0261,Image Segmentation,Scatter Code,100,200,78.57
-Wisard,2025-02-01 22:54:24,0.0282,Image Segmentation,Scatter Code,100,200,78.57
-Wisard,2025-02-02 19:49:20,137.3870,MNIST,Distributive,,,95.58
-Wisard,2025-02-02 19:53:14,234.1348,MNIST,Distributive,,,95.58
-Wisard,2025-02-02 19:55:38,143.7317,MNIST,Distributive,,,95.58
-Wisard,2025-02-02 20:00:52,313.7521,MNIST,Distributive,,,95.58
-Wisard,2025-02-02 20:07:15,382.8100,MNIST,Distributive,,,95.58
-Wisard,2025-02-02 20:10:55,220.4085,MNIST,Distributive,,,95.58
-Wisard,2025-02-02 20:15:26,270.6626,MNIST,Distributive,,,95.58
-Wisard,2025-02-02 20:17:51,144.8076,MNIST,Distributive,,,95.58
-Wisard,2025-02-02 20:21:48,236.9768,MNIST,Distributive,,,95.58
-Wisard,2025-02-02 20:26:12,264.7607,MNIST,Distributive,,,95.58
-Wisard,2025-02-02 20:28:01,81.8399,MNIST,Gaussian,,,94.64
-Wisard,2025-02-02 20:31:50,229.1054,MNIST,Gaussian,,,94.64
-Wisard,2025-02-02 20:35:49,238.6684,MNIST,Gaussian,,,94.64
-Wisard,2025-02-02 20:38:26,157.3066,MNIST,Gaussian,,,94.64
-Wisard,2025-02-02 20:42:26,239.4390,MNIST,Gaussian,,,94.64
-Wisard,2025-02-02 20:46:14,228.8356,MNIST,Gaussian,,,94.64
-Wisard,2025-02-02 20:48:53,158.0029,MNIST,Gaussian,,,94.64
-Wisard,2025-02-02 20:52:52,239.3147,MNIST,Gaussian,,,94.64
-Wisard,2025-02-02 20:57:24,272.3702,MNIST,Gaussian,,,94.64
-Wisard,2025-02-02 21:00:12,167.5641,MNIST,Gaussian,,,94.64
-Wisard,2025-02-02 21:02:12,87.5605,MNIST,Linear,,,95.52
-Wisard,2025-02-02 21:06:48,276.1195,MNIST,Linear,,,95.52
-Wisard,2025-02-02 21:09:17,148.9707,MNIST,Linear,,,95.52
-Wisard,2025-02-02 21:13:12,235.5418,MNIST,Linear,,,95.52
-Wisard,2025-02-02 21:17:37,264.8591,MNIST,Linear,,,95.52
-Wisard,2025-02-02 21:19:57,139.4460,MNIST,Linear,,,95.52
-Wisard,2025-02-02 21:24:02,245.7019,MNIST,Linear,,,95.52
-Wisard,2025-02-02 21:27:51,228.9022,MNIST,Linear,,,95.52
-Wisard,2025-02-02 21:30:14,142.1265,MNIST,Linear,,,95.52
-Wisard,2025-02-02 21:34:27,253.5357,MNIST,Linear,,,95.52
-Wisard,2025-02-02 18:16:55,2.1771,Statlog (Shuttle),Distributive,,,99.82
-Wisard,2025-02-02 18:16:57,2.4531,Statlog (Shuttle),Distributive,,,99.82
-Wisard,2025-02-02 18:16:59,1.8693,Statlog (Shuttle),Distributive,,,99.82
-Wisard,2025-02-02 18:17:02,2.3497,Statlog (Shuttle),Distributive,,,99.82
-Wisard,2025-02-02 18:17:04,1.9417,Statlog (Shuttle),Distributive,,,99.82
-Wisard,2025-02-02 18:17:06,2.2918,Statlog (Shuttle),Distributive,,,99.82
-Wisard,2025-02-02 18:17:08,1.8998,Statlog (Shuttle),Distributive,,,99.82
-Wisard,2025-02-02 18:17:10,2.3934,Statlog (Shuttle),Distributive,,,99.82
-Wisard,2025-02-02 18:17:12,1.9121,Statlog (Shuttle),Distributive,,,99.82
-Wisard,2025-02-02 18:17:14,2.3776,Statlog (Shuttle),Distributive,,,99.82
-Wisard,2025-02-02 18:17:17,2.0713,Statlog (Shuttle),Gaussian,,,99.84
-Wisard,2025-02-02 18:17:19,1.8659,Statlog (Shuttle),Gaussian,,,99.84
-Wisard,2025-02-02 18:17:21,2.1356,Statlog (Shuttle),Gaussian,,,99.84
-Wisard,2025-02-02 18:17:23,1.8218,Statlog (Shuttle),Gaussian,,,99.84
-Wisard,2025-02-02 18:17:25,2.2196,Statlog (Shuttle),Gaussian,,,99.84
-Wisard,2025-02-02 18:17:27,1.8198,Statlog (Shuttle),Gaussian,,,99.84
-Wisard,2025-02-02 18:17:29,2.2720,Statlog (Shuttle),Gaussian,,,99.84
-Wisard,2025-02-02 18:17:31,1.8068,Statlog (Shuttle),Gaussian,,,99.84
-Wisard,2025-02-02 18:17:33,2.2015,Statlog (Shuttle),Gaussian,,,99.84
-Wisard,2025-02-02 18:17:35,1.8242,Statlog (Shuttle),Gaussian,,,99.84
-Wisard,2025-02-02 18:17:38,3.0289,Statlog (Shuttle),Linear,,,96.79
-Wisard,2025-02-02 18:17:42,4.4361,Statlog (Shuttle),Linear,,,96.79
-Wisard,2025-02-02 18:17:48,5.1964,Statlog (Shuttle),Linear,,,96.79
-Wisard,2025-02-02 18:17:54,6.8311,Statlog (Shuttle),Linear,,,96.79
-Wisard,2025-02-02 18:18:02,7.5434,Statlog (Shuttle),Linear,,,96.79
-Wisard,2025-02-02 18:18:11,9.0856,Statlog (Shuttle),Linear,,,96.79
-Wisard,2025-02-02 18:18:21,9.8924,Statlog (Shuttle),Linear,,,96.79
-Wisard,2025-02-02 18:18:32,11.4329,Statlog (Shuttle),Linear,,,96.79
-Wisard,2025-02-02 18:18:45,12.1428,Statlog (Shuttle),Linear,,,96.79
-Wisard,2025-02-02 18:18:58,13.7870,Statlog (Shuttle),Linear,,,96.79
-Wisard,2025-02-02 18:29:02,89.3735,Statlog (Shuttle),Scatter Code,10,50,78.97
-Wisard,2025-02-02 18:32:00,177.4222,Statlog (Shuttle),Scatter Code,10,50,78.97
-Wisard,2025-02-02 18:36:25,265.4229,Statlog (Shuttle),Scatter Code,10,50,78.97
-Wisard,2025-02-02 18:42:19,353.9818,Statlog (Shuttle),Scatter Code,10,50,78.97
-Wisard,2025-02-02 18:49:40,440.9407,Statlog (Shuttle),Scatter Code,10,50,78.97
-Wisard,2025-02-02 18:58:30,530.2636,Statlog (Shuttle),Scatter Code,10,50,78.97
-Wisard,2025-02-02 19:08:48,617.3880,Statlog (Shuttle),Scatter Code,10,50,78.97
-Wisard,2025-02-02 19:20:33,705.3497,Statlog (Shuttle),Scatter Code,10,50,78.97
-Wisard,2025-02-02 19:33:46,792.9773,Statlog (Shuttle),Scatter Code,10,50,78.97
-Wisard,2025-02-02 19:48:28,881.3619,Statlog (Shuttle),Scatter Code,10,50,78.97
-Wisard,2025-02-02 19:51:08,158.9859,Statlog (Shuttle),Scatter Code,10,100,78.97
-Wisard,2025-02-02 19:56:24,315.9321,Statlog (Shuttle),Scatter Code,10,100,78.97
-Wisard,2025-02-02 20:04:17,473.2000,Statlog (Shuttle),Scatter Code,10,100,78.97
-Wisard,2025-02-02 20:14:47,630.2239,Statlog (Shuttle),Scatter Code,10,100,78.97
-Wisard,2025-02-02 20:27:54,787.3350,Statlog (Shuttle),Scatter Code,10,100,78.97
-Wisard,2025-02-02 20:43:38,943.4166,Statlog (Shuttle),Scatter Code,10,100,78.97
-Wisard,2025-02-02 21:01:59,1100.8990,Statlog (Shuttle),Scatter Code,10,100,78.97
-Wisard,2025-02-02 21:22:57,1258.2815,Statlog (Shuttle),Scatter Code,10,100,78.97
-Wisard,2025-02-02 21:46:33,1415.6740,Statlog (Shuttle),Scatter Code,10,100,78.97
-Wisard,2025-02-02 22:12:44,1571.6646,Statlog (Shuttle),Scatter Code,10,100,78.97
-Wisard,2025-02-02 22:18:01,315.5733,Statlog (Shuttle),Scatter Code,10,200,78.97
-Wisard,2025-02-02 22:28:29,627.4254,Statlog (Shuttle),Scatter Code,10,200,78.97
-Wisard,2025-02-02 22:44:06,937.6233,Statlog (Shuttle),Scatter Code,10,200,78.97
-Wisard,2025-02-02 23:04:56,1249.7838,Statlog (Shuttle),Scatter Code,10,200,78.97
-Wisard,2025-02-02 23:30:57,1561.2715,Statlog (Shuttle),Scatter Code,10,200,78.97
-Wisard,2025-02-03 00:02:10,1872.3312,Statlog (Shuttle),Scatter Code,10,200,78.97
-Wisard,2025-02-03 00:38:35,2184.9786,Statlog (Shuttle),Scatter Code,10,200,78.97
-Wisard,2025-02-03 01:20:11,2496.5781,Statlog (Shuttle),Scatter Code,10,200,78.97
-Wisard,2025-02-03 02:06:58,2806.5433,Statlog (Shuttle),Scatter Code,10,200,78.97
-Wisard,2025-02-03 02:58:56,3118.7175,Statlog (Shuttle),Scatter Code,10,200,78.97
-Wisard,2025-05-19 19:42:02,175.1368,Statlog (Shuttle),Scatter Code,10,50,78.97
-Wisard,2025-05-19 19:47:49,346.2941,Statlog (Shuttle),Scatter Code,10,50,78.97
-Wisard,2025-05-19 21:23:39,5750.4649,Statlog (Shuttle),Scatter Code,10,50,78.97
-Wisard,2025-05-20 18:11:12,74852.7525,Statlog (Shuttle),Scatter Code,10,50,78.97
-Wisard,2025-05-20 18:43:38,1945.7687,Statlog (Shuttle),Scatter Code,10,50,78.97
-Wisard,2025-05-20 19:01:07,1048.9878,Statlog (Shuttle),Scatter Code,10,50,78.97
-Wisard,2025-05-20 19:21:10,1203.0230,Statlog (Shuttle),Scatter Code,10,50,78.97
-Wisard,2025-05-20 19:46:25,1515.5251,Statlog (Shuttle),Scatter Code,10,50,78.97
+DWN,2025-05-23 10:40:24,3.7177,Statlog (Shuttle),Distributive,,,0.9923
+DWN,2025-05-23 10:40:27,3.4976,Statlog (Shuttle),Distributive,,,0.9952
+DWN,2025-05-23 10:40:31,3.6694,Statlog (Shuttle),Distributive,,,0.9951
+DWN,2025-05-23 10:40:35,3.6807,Statlog (Shuttle),Distributive,,,0.9963
+DWN,2025-05-23 10:40:38,3.5520,Statlog (Shuttle),Distributive,,,0.9961
+DWN,2025-05-23 10:40:42,3.7495,Statlog (Shuttle),Distributive,,,0.9965
+DWN,2025-05-23 10:40:46,3.8949,Statlog (Shuttle),Distributive,,,0.9965
+DWN,2025-05-23 10:40:50,3.7316,Statlog (Shuttle),Distributive,,,0.9965
+DWN,2025-05-23 10:40:53,3.5679,Statlog (Shuttle),Distributive,,,0.9966
+DWN,2025-05-23 10:40:57,3.5886,Statlog (Shuttle),Distributive,,,0.9966
+DWN,2025-05-23 10:41:00,3.5532,Statlog (Shuttle),Gaussian,,,0.9944
+DWN,2025-05-23 10:41:04,3.5478,Statlog (Shuttle),Gaussian,,,0.9959
+DWN,2025-05-23 10:41:08,3.6615,Statlog (Shuttle),Gaussian,,,0.9960
+DWN,2025-05-23 10:41:11,3.5302,Statlog (Shuttle),Gaussian,,,0.9960
+DWN,2025-05-23 10:41:15,3.4818,Statlog (Shuttle),Gaussian,,,0.9961
+DWN,2025-05-23 10:41:18,3.5682,Statlog (Shuttle),Gaussian,,,0.9959
+DWN,2025-05-23 10:41:22,3.8282,Statlog (Shuttle),Gaussian,,,0.9962
+DWN,2025-05-23 10:41:26,3.5125,Statlog (Shuttle),Gaussian,,,0.9962
+DWN,2025-05-23 10:41:29,3.7716,Statlog (Shuttle),Gaussian,,,0.9964
+DWN,2025-05-23 10:41:33,3.4829,Statlog (Shuttle),Gaussian,,,0.9961
+DWN,2025-05-23 10:41:36,3.5514,Statlog (Shuttle),Linear,,,0.9891
+DWN,2025-05-23 10:41:40,3.5313,Statlog (Shuttle),Linear,,,0.9946
+DWN,2025-05-23 10:41:44,3.6182,Statlog (Shuttle),Linear,,,0.9944
+DWN,2025-05-23 10:41:47,3.5700,Statlog (Shuttle),Linear,,,0.9942
+DWN,2025-05-23 10:41:51,3.6988,Statlog (Shuttle),Linear,,,0.9946
+DWN,2025-05-23 10:41:55,3.6901,Statlog (Shuttle),Linear,,,0.9943
+DWN,2025-05-23 10:41:58,3.5707,Statlog (Shuttle),Linear,,,0.9943
+DWN,2025-05-23 10:42:02,3.6709,Statlog (Shuttle),Linear,,,0.9945
+DWN,2025-05-23 10:42:05,3.4517,Statlog (Shuttle),Linear,,,0.9950
+DWN,2025-05-23 10:42:09,3.7606,Statlog (Shuttle),Linear,,,0.9951
+DWN,2025-05-23 10:42:10,0.0210,Ecoli,Distributive,,,0.4595
+DWN,2025-05-23 10:42:10,0.0205,Ecoli,Distributive,,,0.5225
+DWN,2025-05-23 10:42:10,0.0203,Ecoli,Distributive,,,0.5586
+DWN,2025-05-23 10:42:10,0.0206,Ecoli,Distributive,,,0.5405
+DWN,2025-05-23 10:42:10,0.0206,Ecoli,Distributive,,,0.6126
+DWN,2025-05-23 10:42:10,0.0204,Ecoli,Distributive,,,0.6126
+DWN,2025-05-23 10:42:10,0.0204,Ecoli,Distributive,,,0.6486
+DWN,2025-05-23 10:42:10,0.0207,Ecoli,Distributive,,,0.6667
+DWN,2025-05-23 10:42:10,0.0205,Ecoli,Distributive,,,0.6847
+DWN,2025-05-23 10:42:10,0.0206,Ecoli,Distributive,,,0.6667
+DWN,2025-05-23 10:42:11,0.0204,Ecoli,Gaussian,,,0.5315
+DWN,2025-05-23 10:42:11,0.0205,Ecoli,Gaussian,,,0.5676
+DWN,2025-05-23 10:42:11,0.0206,Ecoli,Gaussian,,,0.6306
+DWN,2025-05-23 10:42:11,0.0205,Ecoli,Gaussian,,,0.6577
+DWN,2025-05-23 10:42:11,0.0207,Ecoli,Gaussian,,,0.7027
+DWN,2025-05-23 10:42:11,0.0205,Ecoli,Gaussian,,,0.6757
+DWN,2025-05-23 10:42:11,0.0205,Ecoli,Gaussian,,,0.6577
+DWN,2025-05-23 10:42:11,0.0203,Ecoli,Gaussian,,,0.6306
+DWN,2025-05-23 10:42:11,0.0224,Ecoli,Gaussian,,,0.7207
+DWN,2025-05-23 10:42:11,0.0228,Ecoli,Gaussian,,,0.7477
+DWN,2025-05-23 10:42:11,0.0229,Ecoli,Linear,,,0.5045
+DWN,2025-05-23 10:42:11,0.0231,Ecoli,Linear,,,0.6396
+DWN,2025-05-23 10:42:11,0.0234,Ecoli,Linear,,,0.6216
+DWN,2025-05-23 10:42:11,0.0232,Ecoli,Linear,,,0.6216
+DWN,2025-05-23 10:42:11,0.0233,Ecoli,Linear,,,0.6577
+DWN,2025-05-23 10:42:11,0.0320,Ecoli,Linear,,,0.6486
+DWN,2025-05-23 10:42:11,0.0243,Ecoli,Linear,,,0.6937
+DWN,2025-05-23 10:42:11,0.0208,Ecoli,Linear,,,0.6667
+DWN,2025-05-23 10:42:11,0.0208,Ecoli,Linear,,,0.7117
+DWN,2025-05-23 10:42:11,0.0207,Ecoli,Linear,,,0.7027
+DWN,2025-05-23 10:42:12,0.0100,Iris,Distributive,,,0.8000
+DWN,2025-05-23 10:42:12,0.0100,Iris,Distributive,,,0.8600
+DWN,2025-05-23 10:42:12,0.0101,Iris,Distributive,,,0.8400
+DWN,2025-05-23 10:42:12,0.0100,Iris,Distributive,,,0.9000
+DWN,2025-05-23 10:42:12,0.0100,Iris,Distributive,,,0.9600
+DWN,2025-05-23 10:42:12,0.0100,Iris,Distributive,,,0.9600
+DWN,2025-05-23 10:42:12,0.0100,Iris,Distributive,,,1.0000
+DWN,2025-05-23 10:42:12,0.0100,Iris,Distributive,,,0.9800
+DWN,2025-05-23 10:42:12,0.0099,Iris,Distributive,,,0.9800
+DWN,2025-05-23 10:42:12,0.0100,Iris,Distributive,,,0.9400
+DWN,2025-05-23 10:42:12,0.0099,Iris,Gaussian,,,0.5600
+DWN,2025-05-23 10:42:12,0.0101,Iris,Gaussian,,,0.7400
+DWN,2025-05-23 10:42:12,0.0104,Iris,Gaussian,,,0.8400
+DWN,2025-05-23 10:42:12,0.0102,Iris,Gaussian,,,0.8400
+DWN,2025-05-23 10:42:12,0.0102,Iris,Gaussian,,,0.8600
+DWN,2025-05-23 10:42:12,0.0104,Iris,Gaussian,,,0.9000
+DWN,2025-05-23 10:42:12,0.0102,Iris,Gaussian,,,0.9200
+DWN,2025-05-23 10:42:12,0.0103,Iris,Gaussian,,,0.9600
+DWN,2025-05-23 10:42:12,0.0105,Iris,Gaussian,,,0.9800
+DWN,2025-05-23 10:42:12,0.0103,Iris,Gaussian,,,0.9600
+DWN,2025-05-23 10:42:12,0.0101,Iris,Linear,,,0.5600
+DWN,2025-05-23 10:42:12,0.0103,Iris,Linear,,,0.7000
+DWN,2025-05-23 10:42:12,0.0102,Iris,Linear,,,0.6600
+DWN,2025-05-23 10:42:12,0.0105,Iris,Linear,,,0.7800
+DWN,2025-05-23 10:42:12,0.0103,Iris,Linear,,,0.8400
+DWN,2025-05-23 10:42:12,0.0103,Iris,Linear,,,0.8800
+DWN,2025-05-23 10:42:12,0.0106,Iris,Linear,,,0.9200
+DWN,2025-05-23 10:42:12,0.0094,Iris,Linear,,,0.9200
+DWN,2025-05-23 10:42:12,0.0088,Iris,Linear,,,0.9400
+DWN,2025-05-23 10:42:12,0.0087,Iris,Linear,,,0.9400
+DWN,2025-05-23 10:42:15,0.3247,Wine Quality,Distributive,,,0.5100
+DWN,2025-05-23 10:42:15,0.3137,Wine Quality,Distributive,,,0.5082
+DWN,2025-05-23 10:42:15,0.3164,Wine Quality,Distributive,,,0.5305
+DWN,2025-05-23 10:42:16,0.3907,Wine Quality,Distributive,,,0.5235
+DWN,2025-05-23 10:42:16,0.3970,Wine Quality,Distributive,,,0.5315
+DWN,2025-05-23 10:42:16,0.4068,Wine Quality,Distributive,,,0.5268
+DWN,2025-05-23 10:42:17,0.3466,Wine Quality,Distributive,,,0.5259
+DWN,2025-05-23 10:42:17,0.3367,Wine Quality,Distributive,,,0.5403
+DWN,2025-05-23 10:42:17,0.3607,Wine Quality,Distributive,,,0.5329
+DWN,2025-05-23 10:42:18,0.3530,Wine Quality,Distributive,,,0.5417
+DWN,2025-05-23 10:42:18,0.3461,Wine Quality,Gaussian,,,0.5044
+DWN,2025-05-23 10:42:18,0.3260,Wine Quality,Gaussian,,,0.5175
+DWN,2025-05-23 10:42:19,0.3431,Wine Quality,Gaussian,,,0.5310
+DWN,2025-05-23 10:42:19,0.3484,Wine Quality,Gaussian,,,0.5324
+DWN,2025-05-23 10:42:20,0.3914,Wine Quality,Gaussian,,,0.5343
+DWN,2025-05-23 10:42:20,0.3860,Wine Quality,Gaussian,,,0.5277
+DWN,2025-05-23 10:42:20,0.3346,Wine Quality,Gaussian,,,0.5385
+DWN,2025-05-23 10:42:21,0.3555,Wine Quality,Gaussian,,,0.5394
+DWN,2025-05-23 10:42:21,0.3528,Wine Quality,Gaussian,,,0.5399
+DWN,2025-05-23 10:42:21,0.3573,Wine Quality,Gaussian,,,0.5417
+DWN,2025-05-23 10:42:22,0.3449,Wine Quality,Linear,,,0.5170
+DWN,2025-05-23 10:42:22,0.3710,Wine Quality,Linear,,,0.5179
+DWN,2025-05-23 10:42:22,0.3402,Wine Quality,Linear,,,0.5305
+DWN,2025-05-23 10:42:23,0.3388,Wine Quality,Linear,,,0.5105
+DWN,2025-05-23 10:42:23,0.3402,Wine Quality,Linear,,,0.5035
+DWN,2025-05-23 10:42:23,0.3412,Wine Quality,Linear,,,0.5329
+DWN,2025-05-23 10:42:24,0.3412,Wine Quality,Linear,,,0.5287
+DWN,2025-05-23 10:42:24,0.3411,Wine Quality,Linear,,,0.5380
+DWN,2025-05-23 10:42:25,0.3982,Wine Quality,Linear,,,0.5413
+DWN,2025-05-23 10:42:25,0.3447,Wine Quality,Linear,,,0.5366
+DWN,2025-05-23 10:42:27,0.0661,Statlog (Vehicle Silhouettes),Distributive,,,0.2143
+DWN,2025-05-23 10:42:27,0.0474,Statlog (Vehicle Silhouettes),Distributive,,,0.2107
+DWN,2025-05-23 10:42:27,0.0474,Statlog (Vehicle Silhouettes),Distributive,,,0.1750
+DWN,2025-05-23 10:42:27,0.0530,Statlog (Vehicle Silhouettes),Distributive,,,0.1679
+DWN,2025-05-23 10:42:27,0.0472,Statlog (Vehicle Silhouettes),Distributive,,,0.1714
+DWN,2025-05-23 10:42:27,0.0552,Statlog (Vehicle Silhouettes),Distributive,,,0.1250
+DWN,2025-05-23 10:42:27,0.0464,Statlog (Vehicle Silhouettes),Distributive,,,0.1393
+DWN,2025-05-23 10:42:27,0.0468,Statlog (Vehicle Silhouettes),Distributive,,,0.1000
+DWN,2025-05-23 10:42:27,0.0466,Statlog (Vehicle Silhouettes),Distributive,,,0.1393
+DWN,2025-05-23 10:42:27,0.0468,Statlog (Vehicle Silhouettes),Distributive,,,0.1321
+DWN,2025-05-23 10:42:27,0.0476,Statlog (Vehicle Silhouettes),Gaussian,,,0.1893
+DWN,2025-05-23 10:42:27,0.0518,Statlog (Vehicle Silhouettes),Gaussian,,,0.1821
+DWN,2025-05-23 10:42:27,0.0467,Statlog (Vehicle Silhouettes),Gaussian,,,0.1321
+DWN,2025-05-23 10:42:27,0.0636,Statlog (Vehicle Silhouettes),Gaussian,,,0.2071
+DWN,2025-05-23 10:42:27,0.0467,Statlog (Vehicle Silhouettes),Gaussian,,,0.1929
+DWN,2025-05-23 10:42:27,0.0468,Statlog (Vehicle Silhouettes),Gaussian,,,0.1786
+DWN,2025-05-23 10:42:27,0.0538,Statlog (Vehicle Silhouettes),Gaussian,,,0.1500
+DWN,2025-05-23 10:42:28,0.0476,Statlog (Vehicle Silhouettes),Gaussian,,,0.1500
+DWN,2025-05-23 10:42:28,0.0665,Statlog (Vehicle Silhouettes),Gaussian,,,0.1857
+DWN,2025-05-23 10:42:28,0.0493,Statlog (Vehicle Silhouettes),Gaussian,,,0.1857
+DWN,2025-05-23 10:42:28,0.0508,Statlog (Vehicle Silhouettes),Linear,,,0.2143
+DWN,2025-05-23 10:42:28,0.0570,Statlog (Vehicle Silhouettes),Linear,,,0.1929
+DWN,2025-05-23 10:42:28,0.0520,Statlog (Vehicle Silhouettes),Linear,,,0.1286
+DWN,2025-05-23 10:42:28,0.0513,Statlog (Vehicle Silhouettes),Linear,,,0.1964
+DWN,2025-05-23 10:42:28,0.0461,Statlog (Vehicle Silhouettes),Linear,,,0.1643
+DWN,2025-05-23 10:42:28,0.0497,Statlog (Vehicle Silhouettes),Linear,,,0.1679
+DWN,2025-05-23 10:42:28,0.0468,Statlog (Vehicle Silhouettes),Linear,,,0.1714
+DWN,2025-05-23 10:42:28,0.0472,Statlog (Vehicle Silhouettes),Linear,,,0.1929
+DWN,2025-05-23 10:42:28,0.0472,Statlog (Vehicle Silhouettes),Linear,,,0.2036
+DWN,2025-05-23 10:42:28,0.0533,Statlog (Vehicle Silhouettes),Linear,,,0.1393
+DWN,2025-05-23 10:42:30,0.0809,Maternal Health Risk,Distributive,,,0.5343
+DWN,2025-05-23 10:42:30,0.0548,Maternal Health Risk,Distributive,,,0.6328
+DWN,2025-05-23 10:42:30,0.0550,Maternal Health Risk,Distributive,,,0.6448
+DWN,2025-05-23 10:42:30,0.0560,Maternal Health Risk,Distributive,,,0.6597
+DWN,2025-05-23 10:42:31,0.0567,Maternal Health Risk,Distributive,,,0.6925
+DWN,2025-05-23 10:42:31,0.0568,Maternal Health Risk,Distributive,,,0.6896
+DWN,2025-05-23 10:42:31,0.0568,Maternal Health Risk,Distributive,,,0.6985
+DWN,2025-05-23 10:42:31,0.0606,Maternal Health Risk,Distributive,,,0.7224
+DWN,2025-05-23 10:42:31,0.0625,Maternal Health Risk,Distributive,,,0.7164
+DWN,2025-05-23 10:42:31,0.0720,Maternal Health Risk,Distributive,,,0.7284
+DWN,2025-05-23 10:42:31,0.0639,Maternal Health Risk,Gaussian,,,0.5403
+DWN,2025-05-23 10:42:31,0.0961,Maternal Health Risk,Gaussian,,,0.6358
+DWN,2025-05-23 10:42:31,0.0546,Maternal Health Risk,Gaussian,,,0.6627
+DWN,2025-05-23 10:42:31,0.0548,Maternal Health Risk,Gaussian,,,0.6507
+DWN,2025-05-23 10:42:31,0.0547,Maternal Health Risk,Gaussian,,,0.6716
+DWN,2025-05-23 10:42:31,0.0545,Maternal Health Risk,Gaussian,,,0.7045
+DWN,2025-05-23 10:42:31,0.0544,Maternal Health Risk,Gaussian,,,0.6687
+DWN,2025-05-23 10:42:31,0.0583,Maternal Health Risk,Gaussian,,,0.6776
+DWN,2025-05-23 10:42:31,0.0541,Maternal Health Risk,Gaussian,,,0.6985
+DWN,2025-05-23 10:42:31,0.0532,Maternal Health Risk,Gaussian,,,0.7075
+DWN,2025-05-23 10:42:32,0.0532,Maternal Health Risk,Linear,,,0.6000
+DWN,2025-05-23 10:42:32,0.0528,Maternal Health Risk,Linear,,,0.5910
+DWN,2025-05-23 10:42:32,0.0565,Maternal Health Risk,Linear,,,0.6687
+DWN,2025-05-23 10:42:32,0.0541,Maternal Health Risk,Linear,,,0.6478
+DWN,2025-05-23 10:42:32,0.0544,Maternal Health Risk,Linear,,,0.6955
+DWN,2025-05-23 10:42:32,0.0580,Maternal Health Risk,Linear,,,0.6657
+DWN,2025-05-23 10:42:32,0.0549,Maternal Health Risk,Linear,,,0.6657
+DWN,2025-05-23 10:42:32,0.0631,Maternal Health Risk,Linear,,,0.6836
+DWN,2025-05-23 10:42:32,0.0594,Maternal Health Risk,Linear,,,0.6657
+DWN,2025-05-23 10:42:32,0.0593,Maternal Health Risk,Linear,,,0.7075
+DWN,2025-05-23 10:42:33,0.0311,Glass Identification,Distributive,,,0.3380
+DWN,2025-05-23 10:42:33,0.0313,Glass Identification,Distributive,,,0.3944
+DWN,2025-05-23 10:42:33,0.0332,Glass Identification,Distributive,,,0.4366
+DWN,2025-05-23 10:42:33,0.0332,Glass Identification,Distributive,,,0.5634
+DWN,2025-05-23 10:42:33,0.0330,Glass Identification,Distributive,,,0.6197
+DWN,2025-05-23 10:42:33,0.0309,Glass Identification,Distributive,,,0.5915
+DWN,2025-05-23 10:42:33,0.0312,Glass Identification,Distributive,,,0.5352
+DWN,2025-05-23 10:42:33,0.0308,Glass Identification,Distributive,,,0.5775
+DWN,2025-05-23 10:42:33,0.0304,Glass Identification,Distributive,,,0.6056
+DWN,2025-05-23 10:42:33,0.0214,Glass Identification,Distributive,,,0.6479
+DWN,2025-05-23 10:42:34,0.0206,Glass Identification,Gaussian,,,0.3944
+DWN,2025-05-23 10:42:34,0.0190,Glass Identification,Gaussian,,,0.3239
+DWN,2025-05-23 10:42:34,0.0193,Glass Identification,Gaussian,,,0.4789
+DWN,2025-05-23 10:42:34,0.0176,Glass Identification,Gaussian,,,0.5070
+DWN,2025-05-23 10:42:34,0.0174,Glass Identification,Gaussian,,,0.5915
+DWN,2025-05-23 10:42:34,0.0260,Glass Identification,Gaussian,,,0.6197
+DWN,2025-05-23 10:42:34,0.0174,Glass Identification,Gaussian,,,0.5775
+DWN,2025-05-23 10:42:34,0.0173,Glass Identification,Gaussian,,,0.5493
+DWN,2025-05-23 10:42:34,0.0168,Glass Identification,Gaussian,,,0.5775
+DWN,2025-05-23 10:42:34,0.0164,Glass Identification,Gaussian,,,0.5915
+DWN,2025-05-23 10:42:34,0.0171,Glass Identification,Linear,,,0.2817
+DWN,2025-05-23 10:42:34,0.0259,Glass Identification,Linear,,,0.4366
+DWN,2025-05-23 10:42:34,0.0171,Glass Identification,Linear,,,0.4789
+DWN,2025-05-23 10:42:34,0.0168,Glass Identification,Linear,,,0.4930
+DWN,2025-05-23 10:42:34,0.0167,Glass Identification,Linear,,,0.5493
+DWN,2025-05-23 10:42:34,0.0167,Glass Identification,Linear,,,0.6338
+DWN,2025-05-23 10:42:34,0.0167,Glass Identification,Linear,,,0.6197
+DWN,2025-05-23 10:42:34,0.0194,Glass Identification,Linear,,,0.6479
+DWN,2025-05-23 10:42:34,0.0167,Glass Identification,Linear,,,0.6761
+DWN,2025-05-23 10:42:34,0.0166,Glass Identification,Linear,,,0.6479
+Wisard,2025-05-23 10:42:56,128.2984,Statlog (Shuttle),Scatter Code,10,50,78.97
+Wisard,2025-05-23 10:46:24,208.6460,Statlog (Shuttle),Scatter Code,10,50,78.97
+Wisard,2025-05-23 10:51:36,312.0714,Statlog (Shuttle),Scatter Code,10,50,78.97
+Wisard,2025-05-23 10:58:32,415.4758,Statlog (Shuttle),Scatter Code,10,50,78.97
+Wisard,2025-05-23 11:07:11,519.2233,Statlog (Shuttle),Scatter Code,10,50,78.97
+DWN,2025-05-23 11:11:49,3.5918,Statlog (Shuttle),Distributive,,,0.9915
+DWN,2025-05-23 11:11:52,3.4026,Statlog (Shuttle),Distributive,,,0.9938
+DWN,2025-05-23 11:11:56,3.4889,Statlog (Shuttle),Distributive,,,0.9958
+DWN,2025-05-23 11:12:00,3.7123,Statlog (Shuttle),Distributive,,,0.9959
+DWN,2025-05-23 11:12:03,3.5386,Statlog (Shuttle),Distributive,,,0.9954
+DWN,2025-05-23 11:12:07,3.5221,Statlog (Shuttle),Distributive,,,0.9954
+DWN,2025-05-23 11:12:10,3.6567,Statlog (Shuttle),Distributive,,,0.9953
+DWN,2025-05-23 11:12:14,3.5185,Statlog (Shuttle),Distributive,,,0.9954
+DWN,2025-05-23 11:12:17,3.5804,Statlog (Shuttle),Distributive,,,0.9954
+DWN,2025-05-23 11:12:21,3.8401,Statlog (Shuttle),Distributive,,,0.9955
+DWN,2025-05-23 11:12:25,3.5674,Statlog (Shuttle),Gaussian,,,0.9943
+DWN,2025-05-23 11:12:29,3.6639,Statlog (Shuttle),Gaussian,,,0.9945
+DWN,2025-05-23 11:12:32,3.8687,Statlog (Shuttle),Gaussian,,,0.9947
+DWN,2025-05-23 11:12:36,3.4876,Statlog (Shuttle),Gaussian,,,0.9935
+DWN,2025-05-23 11:12:40,3.6613,Statlog (Shuttle),Gaussian,,,0.9933
+DWN,2025-05-23 11:12:43,3.5211,Statlog (Shuttle),Gaussian,,,0.9937
+DWN,2025-05-23 11:12:47,3.4825,Statlog (Shuttle),Gaussian,,,0.9937
+DWN,2025-05-23 11:12:50,3.6716,Statlog (Shuttle),Gaussian,,,0.9948
+DWN,2025-05-23 11:12:54,3.5590,Statlog (Shuttle),Gaussian,,,0.9936
+DWN,2025-05-23 11:12:57,3.6016,Statlog (Shuttle),Gaussian,,,0.9933
+DWN,2025-05-23 11:13:01,3.7716,Statlog (Shuttle),Linear,,,0.9908
+DWN,2025-05-23 11:13:05,3.4795,Statlog (Shuttle),Linear,,,0.9921
+DWN,2025-05-23 11:13:08,3.6108,Statlog (Shuttle),Linear,,,0.9923
+DWN,2025-05-23 11:13:12,3.7488,Statlog (Shuttle),Linear,,,0.9939
+DWN,2025-05-23 11:13:16,3.6196,Statlog (Shuttle),Linear,,,0.9912
+DWN,2025-05-23 11:13:20,3.7362,Statlog (Shuttle),Linear,,,0.9923
+DWN,2025-05-23 11:13:23,3.6504,Statlog (Shuttle),Linear,,,0.9925
+DWN,2025-05-23 11:13:27,3.5798,Statlog (Shuttle),Linear,,,0.9925
+DWN,2025-05-23 11:13:30,3.5809,Statlog (Shuttle),Linear,,,0.9924
+DWN,2025-05-23 11:13:34,3.6308,Statlog (Shuttle),Linear,,,0.9925
+DWN,2025-05-23 11:13:35,0.0347,Ecoli,Distributive,,,0.5045
+DWN,2025-05-23 11:13:35,0.0252,Ecoli,Distributive,,,0.5676
+DWN,2025-05-23 11:13:35,0.0233,Ecoli,Distributive,,,0.6036
+DWN,2025-05-23 11:13:35,0.0281,Ecoli,Distributive,,,0.6577
+DWN,2025-05-23 11:13:36,0.0197,Ecoli,Distributive,,,0.6306
+DWN,2025-05-23 11:13:36,0.0198,Ecoli,Distributive,,,0.6486
+DWN,2025-05-23 11:13:36,0.0197,Ecoli,Distributive,,,0.6036
+DWN,2025-05-23 11:13:36,0.0233,Ecoli,Distributive,,,0.6036
+DWN,2025-05-23 11:13:36,0.0186,Ecoli,Distributive,,,0.6757
+DWN,2025-05-23 11:13:36,0.0192,Ecoli,Distributive,,,0.6757
+DWN,2025-05-23 11:13:36,0.0176,Ecoli,Gaussian,,,0.5135
+DWN,2025-05-23 11:13:36,0.0296,Ecoli,Gaussian,,,0.6216
+DWN,2025-05-23 11:13:36,0.0368,Ecoli,Gaussian,,,0.6577
+DWN,2025-05-23 11:13:36,0.0257,Ecoli,Gaussian,,,0.6847
+DWN,2025-05-23 11:13:36,0.0195,Ecoli,Gaussian,,,0.7027
+DWN,2025-05-23 11:13:36,0.0264,Ecoli,Gaussian,,,0.6937
+DWN,2025-05-23 11:13:36,0.0263,Ecoli,Gaussian,,,0.6847
+DWN,2025-05-23 11:13:36,0.0249,Ecoli,Gaussian,,,0.6937
+DWN,2025-05-23 11:13:36,0.0227,Ecoli,Gaussian,,,0.6667
+DWN,2025-05-23 11:13:36,0.0248,Ecoli,Gaussian,,,0.7027
+DWN,2025-05-23 11:13:36,0.0204,Ecoli,Linear,,,0.5946
+DWN,2025-05-23 11:13:36,0.0285,Ecoli,Linear,,,0.6216
+DWN,2025-05-23 11:13:36,0.0239,Ecoli,Linear,,,0.6396
+DWN,2025-05-23 11:13:36,0.0311,Ecoli,Linear,,,0.6396
+DWN,2025-05-23 11:13:36,0.0184,Ecoli,Linear,,,0.6577
+DWN,2025-05-23 11:13:36,0.0320,Ecoli,Linear,,,0.6486
+DWN,2025-05-23 11:13:36,0.0359,Ecoli,Linear,,,0.6396
+DWN,2025-05-23 11:13:36,0.0216,Ecoli,Linear,,,0.6577
+DWN,2025-05-23 11:13:36,0.0194,Ecoli,Linear,,,0.6577
+DWN,2025-05-23 11:13:36,0.0194,Ecoli,Linear,,,0.6847
+DWN,2025-05-23 11:13:37,0.0083,Iris,Distributive,,,0.6400
+DWN,2025-05-23 11:13:37,0.0084,Iris,Distributive,,,0.8400
+DWN,2025-05-23 11:13:37,0.0085,Iris,Distributive,,,0.8800
+DWN,2025-05-23 11:13:37,0.0084,Iris,Distributive,,,0.8600
+DWN,2025-05-23 11:13:37,0.0085,Iris,Distributive,,,0.8200
+DWN,2025-05-23 11:13:37,0.0084,Iris,Distributive,,,0.8800
+DWN,2025-05-23 11:13:37,0.0085,Iris,Distributive,,,0.9200
+DWN,2025-05-23 11:13:37,0.0084,Iris,Distributive,,,0.9400
+DWN,2025-05-23 11:13:37,0.0085,Iris,Distributive,,,0.9400
+DWN,2025-05-23 11:13:37,0.0084,Iris,Distributive,,,0.9400
+DWN,2025-05-23 11:13:37,0.0082,Iris,Gaussian,,,0.6600
+DWN,2025-05-23 11:13:37,0.0083,Iris,Gaussian,,,0.7000
+DWN,2025-05-23 11:13:37,0.0085,Iris,Gaussian,,,0.7600
+DWN,2025-05-23 11:13:37,0.0086,Iris,Gaussian,,,0.9200
+DWN,2025-05-23 11:13:37,0.0085,Iris,Gaussian,,,0.8800
+DWN,2025-05-23 11:13:37,0.0084,Iris,Gaussian,,,0.9800
+DWN,2025-05-23 11:13:37,0.0086,Iris,Gaussian,,,0.9200
+DWN,2025-05-23 11:13:37,0.0085,Iris,Gaussian,,,0.9400
+DWN,2025-05-23 11:13:37,0.0085,Iris,Gaussian,,,0.9600
+DWN,2025-05-23 11:13:38,0.0084,Iris,Gaussian,,,0.9400
+DWN,2025-05-23 11:13:38,0.0082,Iris,Linear,,,0.6000
+DWN,2025-05-23 11:13:38,0.0084,Iris,Linear,,,0.6400
+DWN,2025-05-23 11:13:38,0.0085,Iris,Linear,,,0.7600
+DWN,2025-05-23 11:13:38,0.0084,Iris,Linear,,,0.9000
+DWN,2025-05-23 11:13:38,0.0086,Iris,Linear,,,0.9400
+DWN,2025-05-23 11:13:38,0.0085,Iris,Linear,,,0.9400
+DWN,2025-05-23 11:13:38,0.0085,Iris,Linear,,,0.9200
+DWN,2025-05-23 11:13:38,0.0087,Iris,Linear,,,0.9600
+DWN,2025-05-23 11:13:38,0.0084,Iris,Linear,,,0.9600
+DWN,2025-05-23 11:13:38,0.0085,Iris,Linear,,,0.9600
+DWN,2025-05-23 11:13:40,0.3383,Wine Quality,Distributive,,,0.4993
+DWN,2025-05-23 11:13:40,0.3480,Wine Quality,Distributive,,,0.5329
+DWN,2025-05-23 11:13:40,0.3544,Wine Quality,Distributive,,,0.5152
+DWN,2025-05-23 11:13:41,0.3611,Wine Quality,Distributive,,,0.5403
+DWN,2025-05-23 11:13:41,0.3523,Wine Quality,Distributive,,,0.5273
+DWN,2025-05-23 11:13:42,0.3321,Wine Quality,Distributive,,,0.5333
+DWN,2025-05-23 11:13:42,0.3762,Wine Quality,Distributive,,,0.5338
+DWN,2025-05-23 11:13:42,0.3532,Wine Quality,Distributive,,,0.5371
+DWN,2025-05-23 11:13:43,0.3764,Wine Quality,Distributive,,,0.5380
+DWN,2025-05-23 11:13:43,0.4337,Wine Quality,Distributive,,,0.5450
+DWN,2025-05-23 11:13:44,0.3203,Wine Quality,Gaussian,,,0.5156
+DWN,2025-05-23 11:13:44,0.3304,Wine Quality,Gaussian,,,0.5179
+DWN,2025-05-23 11:13:44,0.3406,Wine Quality,Gaussian,,,0.5207
+DWN,2025-05-23 11:13:45,0.3288,Wine Quality,Gaussian,,,0.5249
+DWN,2025-05-23 11:13:45,0.3496,Wine Quality,Gaussian,,,0.5231
+DWN,2025-05-23 11:13:45,0.3521,Wine Quality,Gaussian,,,0.5329
+DWN,2025-05-23 11:13:46,0.3945,Wine Quality,Gaussian,,,0.5319
+DWN,2025-05-23 11:13:46,0.3555,Wine Quality,Gaussian,,,0.5329
+DWN,2025-05-23 11:13:46,0.3462,Wine Quality,Gaussian,,,0.5273
+DWN,2025-05-23 11:13:47,0.3473,Wine Quality,Gaussian,,,0.5338
+DWN,2025-05-23 11:13:47,0.3334,Wine Quality,Linear,,,0.5179
+DWN,2025-05-23 11:13:47,0.3388,Wine Quality,Linear,,,0.5431
+DWN,2025-05-23 11:13:48,0.3322,Wine Quality,Linear,,,0.5152
+DWN,2025-05-23 11:13:48,0.3126,Wine Quality,Linear,,,0.5305
+DWN,2025-05-23 11:13:48,0.3483,Wine Quality,Linear,,,0.5394
+DWN,2025-05-23 11:13:49,0.3475,Wine Quality,Linear,,,0.5142
+DWN,2025-05-23 11:13:49,0.3468,Wine Quality,Linear,,,0.5333
+DWN,2025-05-23 11:13:49,0.3556,Wine Quality,Linear,,,0.5226
+DWN,2025-05-23 11:13:50,0.3408,Wine Quality,Linear,,,0.5343
+DWN,2025-05-23 11:13:50,0.3638,Wine Quality,Linear,,,0.5375
+DWN,2025-05-23 11:13:52,0.0454,Statlog (Vehicle Silhouettes),Distributive,,,0.1857
+DWN,2025-05-23 11:13:52,0.0452,Statlog (Vehicle Silhouettes),Distributive,,,0.1679
+DWN,2025-05-23 11:13:52,0.0451,Statlog (Vehicle Silhouettes),Distributive,,,0.1714
+DWN,2025-05-23 11:13:52,0.0453,Statlog (Vehicle Silhouettes),Distributive,,,0.1893
+DWN,2025-05-23 11:13:52,0.0554,Statlog (Vehicle Silhouettes),Distributive,,,0.1607
+DWN,2025-05-23 11:13:52,0.0454,Statlog (Vehicle Silhouettes),Distributive,,,0.1536
+DWN,2025-05-23 11:13:52,0.0455,Statlog (Vehicle Silhouettes),Distributive,,,0.1286
+DWN,2025-05-23 11:13:52,0.0452,Statlog (Vehicle Silhouettes),Distributive,,,0.1643
+DWN,2025-05-23 11:13:52,0.0466,Statlog (Vehicle Silhouettes),Distributive,,,0.1429
+DWN,2025-05-23 11:13:52,0.0466,Statlog (Vehicle Silhouettes),Distributive,,,0.1286
+DWN,2025-05-23 11:13:52,0.0452,Statlog (Vehicle Silhouettes),Gaussian,,,0.2357
+DWN,2025-05-23 11:13:52,0.0493,Statlog (Vehicle Silhouettes),Gaussian,,,0.1429
+DWN,2025-05-23 11:13:52,0.0451,Statlog (Vehicle Silhouettes),Gaussian,,,0.1679
+DWN,2025-05-23 11:13:52,0.0451,Statlog (Vehicle Silhouettes),Gaussian,,,0.2250
+DWN,2025-05-23 11:13:52,0.0511,Statlog (Vehicle Silhouettes),Gaussian,,,0.1679
+DWN,2025-05-23 11:13:52,0.0538,Statlog (Vehicle Silhouettes),Gaussian,,,0.1536
+DWN,2025-05-23 11:13:52,0.0462,Statlog (Vehicle Silhouettes),Gaussian,,,0.1643
+DWN,2025-05-23 11:13:52,0.0506,Statlog (Vehicle Silhouettes),Gaussian,,,0.1750
+DWN,2025-05-23 11:13:53,0.0461,Statlog (Vehicle Silhouettes),Gaussian,,,0.1464
+DWN,2025-05-23 11:13:53,0.0535,Statlog (Vehicle Silhouettes),Gaussian,,,0.2036
+DWN,2025-05-23 11:13:53,0.0449,Statlog (Vehicle Silhouettes),Linear,,,0.1500
+DWN,2025-05-23 11:13:53,0.0476,Statlog (Vehicle Silhouettes),Linear,,,0.1857
+DWN,2025-05-23 11:13:53,0.0451,Statlog (Vehicle Silhouettes),Linear,,,0.1464
+DWN,2025-05-23 11:13:53,0.0451,Statlog (Vehicle Silhouettes),Linear,,,0.1857
+DWN,2025-05-23 11:13:53,0.0454,Statlog (Vehicle Silhouettes),Linear,,,0.2000
+DWN,2025-05-23 11:13:53,0.0451,Statlog (Vehicle Silhouettes),Linear,,,0.1179
+DWN,2025-05-23 11:13:53,0.0455,Statlog (Vehicle Silhouettes),Linear,,,0.1679
+DWN,2025-05-23 11:13:53,0.0546,Statlog (Vehicle Silhouettes),Linear,,,0.1857
+DWN,2025-05-23 11:13:53,0.0530,Statlog (Vehicle Silhouettes),Linear,,,0.1929
+DWN,2025-05-23 11:13:53,0.0589,Statlog (Vehicle Silhouettes),Linear,,,0.1929
+DWN,2025-05-23 11:13:54,0.0589,Maternal Health Risk,Distributive,,,0.5343
+DWN,2025-05-23 11:13:55,0.0599,Maternal Health Risk,Distributive,,,0.6239
+DWN,2025-05-23 11:13:55,0.0510,Maternal Health Risk,Distributive,,,0.7045
+DWN,2025-05-23 11:13:55,0.0583,Maternal Health Risk,Distributive,,,0.6836
+DWN,2025-05-23 11:13:55,0.0600,Maternal Health Risk,Distributive,,,0.6896
+DWN,2025-05-23 11:13:55,0.0627,Maternal Health Risk,Distributive,,,0.6657
+DWN,2025-05-23 11:13:55,0.0564,Maternal Health Risk,Distributive,,,0.6866
+DWN,2025-05-23 11:13:55,0.0566,Maternal Health Risk,Distributive,,,0.7015
+DWN,2025-05-23 11:13:55,0.0566,Maternal Health Risk,Distributive,,,0.7015
+DWN,2025-05-23 11:13:55,0.0566,Maternal Health Risk,Distributive,,,0.7075
+DWN,2025-05-23 11:13:55,0.0565,Maternal Health Risk,Gaussian,,,0.5522
+DWN,2025-05-23 11:13:55,0.0571,Maternal Health Risk,Gaussian,,,0.6030
+DWN,2025-05-23 11:13:55,0.0586,Maternal Health Risk,Gaussian,,,0.6239
+DWN,2025-05-23 11:13:55,0.0572,Maternal Health Risk,Gaussian,,,0.6746
+DWN,2025-05-23 11:13:55,0.0549,Maternal Health Risk,Gaussian,,,0.6925
+DWN,2025-05-23 11:13:55,0.0499,Maternal Health Risk,Gaussian,,,0.6388
+DWN,2025-05-23 11:13:55,0.0704,Maternal Health Risk,Gaussian,,,0.6567
+DWN,2025-05-23 11:13:55,0.0624,Maternal Health Risk,Gaussian,,,0.6985
+DWN,2025-05-23 11:13:56,0.0632,Maternal Health Risk,Gaussian,,,0.7194
+DWN,2025-05-23 11:13:56,0.0541,Maternal Health Risk,Gaussian,,,0.6507
+DWN,2025-05-23 11:13:56,0.0484,Maternal Health Risk,Linear,,,0.5851
+DWN,2025-05-23 11:13:56,0.0600,Maternal Health Risk,Linear,,,0.6448
+DWN,2025-05-23 11:13:56,0.0696,Maternal Health Risk,Linear,,,0.6149
+DWN,2025-05-23 11:13:56,0.0545,Maternal Health Risk,Linear,,,0.6567
+DWN,2025-05-23 11:13:56,0.0530,Maternal Health Risk,Linear,,,0.6657
+DWN,2025-05-23 11:13:56,0.0585,Maternal Health Risk,Linear,,,0.6806
+DWN,2025-05-23 11:13:56,0.0546,Maternal Health Risk,Linear,,,0.6269
+DWN,2025-05-23 11:13:56,0.0770,Maternal Health Risk,Linear,,,0.6537
+DWN,2025-05-23 11:13:56,0.0629,Maternal Health Risk,Linear,,,0.6955
+DWN,2025-05-23 11:13:56,0.0543,Maternal Health Risk,Linear,,,0.6716
+DWN,2025-05-23 11:13:57,0.0180,Glass Identification,Distributive,,,0.3521
+DWN,2025-05-23 11:13:57,0.0178,Glass Identification,Distributive,,,0.3944
+DWN,2025-05-23 11:13:58,0.0199,Glass Identification,Distributive,,,0.3662
+DWN,2025-05-23 11:13:58,0.0175,Glass Identification,Distributive,,,0.4507
+DWN,2025-05-23 11:13:58,0.0175,Glass Identification,Distributive,,,0.5352
+DWN,2025-05-23 11:13:58,0.0174,Glass Identification,Distributive,,,0.5211
+DWN,2025-05-23 11:13:58,0.0202,Glass Identification,Distributive,,,0.5634
+DWN,2025-05-23 11:13:58,0.0175,Glass Identification,Distributive,,,0.5493
+DWN,2025-05-23 11:13:58,0.0176,Glass Identification,Distributive,,,0.5634
+DWN,2025-05-23 11:13:58,0.0176,Glass Identification,Distributive,,,0.5634
+DWN,2025-05-23 11:13:58,0.0177,Glass Identification,Gaussian,,,0.4507
+DWN,2025-05-23 11:13:58,0.0240,Glass Identification,Gaussian,,,0.4789
+DWN,2025-05-23 11:13:58,0.0170,Glass Identification,Gaussian,,,0.5352
+DWN,2025-05-23 11:13:58,0.0169,Glass Identification,Gaussian,,,0.5070
+DWN,2025-05-23 11:13:58,0.0177,Glass Identification,Gaussian,,,0.5915
+DWN,2025-05-23 11:13:58,0.0167,Glass Identification,Gaussian,,,0.5211
+DWN,2025-05-23 11:13:58,0.0166,Glass Identification,Gaussian,,,0.5634
+DWN,2025-05-23 11:13:58,0.0167,Glass Identification,Gaussian,,,0.5775
+DWN,2025-05-23 11:13:58,0.0174,Glass Identification,Gaussian,,,0.5775
+DWN,2025-05-23 11:13:58,0.0173,Glass Identification,Gaussian,,,0.5915
+DWN,2025-05-23 11:13:58,0.0179,Glass Identification,Linear,,,0.4648
+DWN,2025-05-23 11:13:58,0.0262,Glass Identification,Linear,,,0.3662
+DWN,2025-05-23 11:13:58,0.0196,Glass Identification,Linear,,,0.4789
+DWN,2025-05-23 11:13:58,0.0212,Glass Identification,Linear,,,0.5211
+DWN,2025-05-23 11:13:58,0.0173,Glass Identification,Linear,,,0.5634
+DWN,2025-05-23 11:13:58,0.0172,Glass Identification,Linear,,,0.5211
+DWN,2025-05-23 11:13:58,0.0172,Glass Identification,Linear,,,0.6056
+DWN,2025-05-23 11:13:58,0.0171,Glass Identification,Linear,,,0.6056
+DWN,2025-05-23 11:13:58,0.0170,Glass Identification,Linear,,,0.6197
+DWN,2025-05-23 11:13:58,0.0170,Glass Identification,Linear,,,0.6056
+DWN,2025-05-23 11:15:19,40.1360,MNIST,Distributive,,,0.7742
+DWN,2025-05-23 11:15:59,39.9118,MNIST,Distributive,,,0.7888
+DWN,2025-05-23 11:16:39,39.8588,MNIST,Distributive,,,0.7924
+DWN,2025-05-23 11:17:19,40.0305,MNIST,Distributive,,,0.7948
+DWN,2025-05-23 11:17:59,39.8510,MNIST,Distributive,,,0.7933
+Wisard,2025-05-23 11:18:00,648.7097,Statlog (Shuttle),Scatter Code,10,50,78.97
+DWN,2025-05-23 11:18:39,40.4464,MNIST,Distributive,,,0.7925
+DWN,2025-05-23 11:19:19,40.3502,MNIST,Distributive,,,0.7929
+DWN,2025-05-23 11:19:59,40.0769,MNIST,Distributive,,,0.7963
+DWN,2025-05-23 11:20:39,39.9199,MNIST,Distributive,,,0.7934
+DWN,2025-05-23 11:21:19,39.9815,MNIST,Distributive,,,0.7923
+DWN,2025-05-23 11:22:02,40.9092,MNIST,Gaussian,,,0.7721
+DWN,2025-05-23 11:22:43,40.6014,MNIST,Gaussian,,,0.7785
+DWN,2025-05-23 11:23:23,40.4539,MNIST,Gaussian,,,0.7793
+Wisard,2025-05-23 11:23:29,2.8834,Statlog (Shuttle),Distributive,,,99.82
+Wisard,2025-05-23 11:23:33,3.5184,Statlog (Shuttle),Distributive,,,99.82
+Wisard,2025-05-23 11:23:36,3.3946,Statlog (Shuttle),Distributive,,,99.82
+Wisard,2025-05-23 11:23:39,3.0672,Statlog (Shuttle),Distributive,,,99.82
+Wisard,2025-05-23 11:23:43,3.4532,Statlog (Shuttle),Distributive,,,99.82
+Wisard,2025-05-23 11:23:46,3.0040,Statlog (Shuttle),Distributive,,,99.82
+Wisard,2025-05-23 11:23:49,3.2083,Statlog (Shuttle),Distributive,,,99.82
+Wisard,2025-05-23 11:23:52,3.3149,Statlog (Shuttle),Distributive,,,99.82
+Wisard,2025-05-23 11:23:55,2.9336,Statlog (Shuttle),Distributive,,,99.82
+Wisard,2025-05-23 11:23:59,3.3315,Statlog (Shuttle),Distributive,,,99.82
+Wisard,2025-05-23 11:24:01,2.6929,Statlog (Shuttle),Gaussian,,,99.84
+DWN,2025-05-23 11:24:04,40.9392,MNIST,Gaussian,,,0.7816
+Wisard,2025-05-23 11:24:05,3.1158,Statlog (Shuttle),Gaussian,,,99.84
+Wisard,2025-05-23 11:24:08,3.2354,Statlog (Shuttle),Gaussian,,,99.84
+Wisard,2025-05-23 11:24:11,2.8843,Statlog (Shuttle),Gaussian,,,99.84
+Wisard,2025-05-23 11:24:14,3.1855,Statlog (Shuttle),Gaussian,,,99.84
+Wisard,2025-05-23 11:24:17,3.2094,Statlog (Shuttle),Gaussian,,,99.84
+Wisard,2025-05-23 11:24:20,2.8577,Statlog (Shuttle),Gaussian,,,99.84
+Wisard,2025-05-23 11:24:23,3.2784,Statlog (Shuttle),Gaussian,,,99.84
+Wisard,2025-05-23 11:24:26,2.8513,Statlog (Shuttle),Gaussian,,,99.84
+Wisard,2025-05-23 11:24:29,3.1653,Statlog (Shuttle),Gaussian,,,99.84
+Wisard,2025-05-23 11:24:33,3.8928,Statlog (Shuttle),Linear,,,96.08
+Wisard,2025-05-23 11:24:38,5.0600,Statlog (Shuttle),Linear,,,96.08
+DWN,2025-05-23 11:24:45,40.6442,MNIST,Gaussian,,,0.7814
+Wisard,2025-05-23 11:24:45,6.6500,Statlog (Shuttle),Linear,,,96.08
+Wisard,2025-05-23 11:24:53,7.8870,Statlog (Shuttle),Linear,,,96.08
+Wisard,2025-05-23 11:25:01,8.5792,Statlog (Shuttle),Linear,,,96.08
+Wisard,2025-05-23 11:25:12,10.1409,Statlog (Shuttle),Linear,,,96.08
+Wisard,2025-05-23 11:25:22,10.7911,Statlog (Shuttle),Linear,,,96.08
+DWN,2025-05-23 11:25:25,40.2105,MNIST,Gaussian,,,0.7840
+Wisard,2025-05-23 11:25:35,12.4194,Statlog (Shuttle),Linear,,,96.08
+Wisard,2025-05-23 11:25:48,13.4131,Statlog (Shuttle),Linear,,,96.08
+Wisard,2025-05-23 11:26:02,14.1839,Statlog (Shuttle),Linear,,,96.08
+Wisard,2025-05-23 11:26:04,0.0043,Ecoli,Distributive,,,81.98
+Wisard,2025-05-23 11:26:04,0.0047,Ecoli,Distributive,,,81.98
+Wisard,2025-05-23 11:26:04,0.0036,Ecoli,Distributive,,,81.98
+Wisard,2025-05-23 11:26:04,0.0037,Ecoli,Distributive,,,81.98
+Wisard,2025-05-23 11:26:04,0.0040,Ecoli,Distributive,,,81.98
+Wisard,2025-05-23 11:26:04,0.0036,Ecoli,Distributive,,,81.98
+Wisard,2025-05-23 11:26:04,0.0037,Ecoli,Distributive,,,81.98
+Wisard,2025-05-23 11:26:04,0.0036,Ecoli,Distributive,,,81.98
+Wisard,2025-05-23 11:26:04,0.0036,Ecoli,Distributive,,,81.98
+Wisard,2025-05-23 11:26:04,0.0039,Ecoli,Distributive,,,81.98
+Wisard,2025-05-23 11:26:04,0.0037,Ecoli,Gaussian,,,85.59
+Wisard,2025-05-23 11:26:04,0.0036,Ecoli,Gaussian,,,85.59
+Wisard,2025-05-23 11:26:04,0.0038,Ecoli,Gaussian,,,85.59
+Wisard,2025-05-23 11:26:04,0.0039,Ecoli,Gaussian,,,85.59
+Wisard,2025-05-23 11:26:04,0.0036,Ecoli,Gaussian,,,85.59
+Wisard,2025-05-23 11:26:04,0.0038,Ecoli,Gaussian,,,85.59
+Wisard,2025-05-23 11:26:04,0.0037,Ecoli,Gaussian,,,85.59
+Wisard,2025-05-23 11:26:04,0.0039,Ecoli,Gaussian,,,85.59
+Wisard,2025-05-23 11:26:04,0.0041,Ecoli,Gaussian,,,85.59
+Wisard,2025-05-23 11:26:04,0.0038,Ecoli,Gaussian,,,85.59
+Wisard,2025-05-23 11:26:04,0.0037,Ecoli,Linear,,,83.78
+Wisard,2025-05-23 11:26:04,0.0038,Ecoli,Linear,,,83.78
+Wisard,2025-05-23 11:26:04,0.0037,Ecoli,Linear,,,83.78
+Wisard,2025-05-23 11:26:04,0.0037,Ecoli,Linear,,,83.78
+Wisard,2025-05-23 11:26:04,0.0036,Ecoli,Linear,,,83.78
+Wisard,2025-05-23 11:26:04,0.0039,Ecoli,Linear,,,83.78
+Wisard,2025-05-23 11:26:04,0.0038,Ecoli,Linear,,,83.78
+Wisard,2025-05-23 11:26:04,0.0040,Ecoli,Linear,,,83.78
+Wisard,2025-05-23 11:26:04,0.0038,Ecoli,Linear,,,83.78
+Wisard,2025-05-23 11:26:04,0.0039,Ecoli,Linear,,,83.78
+DWN,2025-05-23 11:26:05,40.2871,MNIST,Gaussian,,,0.7839
+Wisard,2025-05-23 11:26:06,0.0026,Iris,Distributive,,,98.0
+Wisard,2025-05-23 11:26:06,0.0019,Iris,Distributive,,,98.0
+Wisard,2025-05-23 11:26:06,0.0018,Iris,Distributive,,,98.0
+Wisard,2025-05-23 11:26:06,0.0019,Iris,Distributive,,,98.0
+Wisard,2025-05-23 11:26:06,0.0019,Iris,Distributive,,,98.0
+Wisard,2025-05-23 11:26:06,0.0019,Iris,Distributive,,,98.0
+Wisard,2025-05-23 11:26:06,0.0018,Iris,Distributive,,,98.0
+Wisard,2025-05-23 11:26:06,0.0019,Iris,Distributive,,,98.0
+Wisard,2025-05-23 11:26:06,0.0019,Iris,Distributive,,,98.0
+Wisard,2025-05-23 11:26:06,0.0019,Iris,Distributive,,,98.0
+Wisard,2025-05-23 11:26:06,0.0018,Iris,Gaussian,,,92.0
+Wisard,2025-05-23 11:26:06,0.0019,Iris,Gaussian,,,92.0
+Wisard,2025-05-23 11:26:06,0.0019,Iris,Gaussian,,,92.0
+Wisard,2025-05-23 11:26:06,0.0019,Iris,Gaussian,,,92.0
+Wisard,2025-05-23 11:26:06,0.0018,Iris,Gaussian,,,92.0
+Wisard,2025-05-23 11:26:06,0.0018,Iris,Gaussian,,,92.0
+Wisard,2025-05-23 11:26:06,0.0019,Iris,Gaussian,,,92.0
+Wisard,2025-05-23 11:26:06,0.0018,Iris,Gaussian,,,92.0
+Wisard,2025-05-23 11:26:06,0.0019,Iris,Gaussian,,,92.0
+Wisard,2025-05-23 11:26:06,0.0019,Iris,Gaussian,,,92.0
+Wisard,2025-05-23 11:26:06,0.0018,Iris,Linear,,,96.0
+Wisard,2025-05-23 11:26:06,0.0018,Iris,Linear,,,96.0
+Wisard,2025-05-23 11:26:06,0.0018,Iris,Linear,,,96.0
+Wisard,2025-05-23 11:26:06,0.0018,Iris,Linear,,,96.0
+Wisard,2025-05-23 11:26:06,0.0019,Iris,Linear,,,96.0
+Wisard,2025-05-23 11:26:06,0.0019,Iris,Linear,,,96.0
+Wisard,2025-05-23 11:26:06,0.0019,Iris,Linear,,,96.0
+Wisard,2025-05-23 11:26:06,0.0019,Iris,Linear,,,96.0
+Wisard,2025-05-23 11:26:06,0.0019,Iris,Linear,,,96.0
+Wisard,2025-05-23 11:26:06,0.0019,Iris,Linear,,,96.0
+Wisard,2025-05-23 11:26:08,0.0786,Wine Quality,Distributive,,,62.42
+Wisard,2025-05-23 11:26:08,0.0814,Wine Quality,Distributive,,,62.42
+Wisard,2025-05-23 11:26:08,0.0834,Wine Quality,Distributive,,,62.42
+Wisard,2025-05-23 11:26:08,0.0756,Wine Quality,Distributive,,,62.42
+Wisard,2025-05-23 11:26:08,0.1388,Wine Quality,Distributive,,,62.42
+Wisard,2025-05-23 11:26:08,0.0828,Wine Quality,Distributive,,,62.42
+Wisard,2025-05-23 11:26:09,0.0765,Wine Quality,Distributive,,,62.42
+Wisard,2025-05-23 11:26:09,0.0839,Wine Quality,Distributive,,,62.42
+Wisard,2025-05-23 11:26:09,0.0823,Wine Quality,Distributive,,,62.42
+Wisard,2025-05-23 11:26:09,0.0772,Wine Quality,Distributive,,,62.42
+Wisard,2025-05-23 11:26:09,0.0744,Wine Quality,Gaussian,,,61.77
+Wisard,2025-05-23 11:26:09,0.0811,Wine Quality,Gaussian,,,61.77
+Wisard,2025-05-23 11:26:09,0.0758,Wine Quality,Gaussian,,,61.77
+Wisard,2025-05-23 11:26:09,0.0823,Wine Quality,Gaussian,,,61.77
+Wisard,2025-05-23 11:26:09,0.0840,Wine Quality,Gaussian,,,61.77
+Wisard,2025-05-23 11:26:09,0.0764,Wine Quality,Gaussian,,,61.77
+Wisard,2025-05-23 11:26:09,0.0839,Wine Quality,Gaussian,,,61.77
+Wisard,2025-05-23 11:26:09,0.0850,Wine Quality,Gaussian,,,61.77
+Wisard,2025-05-23 11:26:10,0.0781,Wine Quality,Gaussian,,,61.77
+Wisard,2025-05-23 11:26:10,0.0856,Wine Quality,Gaussian,,,61.77
+Wisard,2025-05-23 11:26:10,0.1262,Wine Quality,Linear,,,50.07
+Wisard,2025-05-23 11:26:10,0.1085,Wine Quality,Linear,,,50.07
+Wisard,2025-05-23 11:26:10,0.1320,Wine Quality,Linear,,,50.07
+Wisard,2025-05-23 11:26:10,0.1504,Wine Quality,Linear,,,50.07
+Wisard,2025-05-23 11:26:10,0.1606,Wine Quality,Linear,,,50.07
+Wisard,2025-05-23 11:26:11,0.1851,Wine Quality,Linear,,,50.07
+Wisard,2025-05-23 11:26:11,0.2034,Wine Quality,Linear,,,50.07
+Wisard,2025-05-23 11:26:11,0.2156,Wine Quality,Linear,,,50.07
+Wisard,2025-05-23 11:26:11,0.2411,Wine Quality,Linear,,,50.07
+Wisard,2025-05-23 11:26:11,0.2606,Wine Quality,Linear,,,50.07
+Wisard,2025-05-23 11:26:13,0.0170,Statlog (Vehicle Silhouettes),Distributive,,,72.86
+Wisard,2025-05-23 11:26:13,0.0161,Statlog (Vehicle Silhouettes),Distributive,,,72.86
+Wisard,2025-05-23 11:26:13,0.0140,Statlog (Vehicle Silhouettes),Distributive,,,72.86
+Wisard,2025-05-23 11:26:13,0.0138,Statlog (Vehicle Silhouettes),Distributive,,,72.86
+Wisard,2025-05-23 11:26:13,0.0151,Statlog (Vehicle Silhouettes),Distributive,,,72.86
+Wisard,2025-05-23 11:26:13,0.0136,Statlog (Vehicle Silhouettes),Distributive,,,72.86
+Wisard,2025-05-23 11:26:13,0.0152,Statlog (Vehicle Silhouettes),Distributive,,,72.86
+Wisard,2025-05-23 11:26:13,0.0137,Statlog (Vehicle Silhouettes),Distributive,,,72.86
+Wisard,2025-05-23 11:26:13,0.0150,Statlog (Vehicle Silhouettes),Distributive,,,72.86
+Wisard,2025-05-23 11:26:13,0.0168,Statlog (Vehicle Silhouettes),Distributive,,,72.86
+Wisard,2025-05-23 11:26:13,0.0151,Statlog (Vehicle Silhouettes),Gaussian,,,68.21
+Wisard,2025-05-23 11:26:13,0.0134,Statlog (Vehicle Silhouettes),Gaussian,,,68.21
+Wisard,2025-05-23 11:26:13,0.0137,Statlog (Vehicle Silhouettes),Gaussian,,,68.21
+Wisard,2025-05-23 11:26:13,0.0137,Statlog (Vehicle Silhouettes),Gaussian,,,68.21
+Wisard,2025-05-23 11:26:13,0.0138,Statlog (Vehicle Silhouettes),Gaussian,,,68.21
+Wisard,2025-05-23 11:26:13,0.0152,Statlog (Vehicle Silhouettes),Gaussian,,,68.21
+Wisard,2025-05-23 11:26:13,0.0140,Statlog (Vehicle Silhouettes),Gaussian,,,68.21
+Wisard,2025-05-23 11:26:13,0.0137,Statlog (Vehicle Silhouettes),Gaussian,,,68.21
+Wisard,2025-05-23 11:26:13,0.0141,Statlog (Vehicle Silhouettes),Gaussian,,,68.21
+Wisard,2025-05-23 11:26:13,0.0138,Statlog (Vehicle Silhouettes),Gaussian,,,68.21
+Wisard,2025-05-23 11:26:13,0.0145,Statlog (Vehicle Silhouettes),Linear,,,66.43
+Wisard,2025-05-23 11:26:13,0.0141,Statlog (Vehicle Silhouettes),Linear,,,66.43
+Wisard,2025-05-23 11:26:13,0.0140,Statlog (Vehicle Silhouettes),Linear,,,66.43
+Wisard,2025-05-23 11:26:13,0.0137,Statlog (Vehicle Silhouettes),Linear,,,66.43
+Wisard,2025-05-23 11:26:13,0.0139,Statlog (Vehicle Silhouettes),Linear,,,66.43
+Wisard,2025-05-23 11:26:14,0.0140,Statlog (Vehicle Silhouettes),Linear,,,66.43
+Wisard,2025-05-23 11:26:14,0.0144,Statlog (Vehicle Silhouettes),Linear,,,66.43
+Wisard,2025-05-23 11:26:14,0.0146,Statlog (Vehicle Silhouettes),Linear,,,66.43
+Wisard,2025-05-23 11:26:14,0.0147,Statlog (Vehicle Silhouettes),Linear,,,66.43
+Wisard,2025-05-23 11:26:14,0.0149,Statlog (Vehicle Silhouettes),Linear,,,66.43
+Wisard,2025-05-23 11:26:15,0.0083,Maternal Health Risk,Distributive,,,76.72
+Wisard,2025-05-23 11:26:15,0.0069,Maternal Health Risk,Distributive,,,76.72
+Wisard,2025-05-23 11:26:15,0.0067,Maternal Health Risk,Distributive,,,76.72
+Wisard,2025-05-23 11:26:15,0.0067,Maternal Health Risk,Distributive,,,76.72
+Wisard,2025-05-23 11:26:15,0.0068,Maternal Health Risk,Distributive,,,76.72
+Wisard,2025-05-23 11:26:15,0.0068,Maternal Health Risk,Distributive,,,76.72
+Wisard,2025-05-23 11:26:15,0.0071,Maternal Health Risk,Distributive,,,76.72
+Wisard,2025-05-23 11:26:15,0.0068,Maternal Health Risk,Distributive,,,76.72
+Wisard,2025-05-23 11:26:15,0.0071,Maternal Health Risk,Distributive,,,76.72
+Wisard,2025-05-23 11:26:15,0.0073,Maternal Health Risk,Distributive,,,76.72
+Wisard,2025-05-23 11:26:15,0.0068,Maternal Health Risk,Gaussian,,,75.82
+Wisard,2025-05-23 11:26:15,0.0069,Maternal Health Risk,Gaussian,,,75.82
+Wisard,2025-05-23 11:26:15,0.0066,Maternal Health Risk,Gaussian,,,75.82
+Wisard,2025-05-23 11:26:15,0.0069,Maternal Health Risk,Gaussian,,,75.82
+Wisard,2025-05-23 11:26:15,0.0068,Maternal Health Risk,Gaussian,,,75.82
+Wisard,2025-05-23 11:26:15,0.0070,Maternal Health Risk,Gaussian,,,75.82
+Wisard,2025-05-23 11:26:15,0.0071,Maternal Health Risk,Gaussian,,,75.82
+Wisard,2025-05-23 11:26:15,0.0071,Maternal Health Risk,Gaussian,,,75.82
+Wisard,2025-05-23 11:26:15,0.0073,Maternal Health Risk,Gaussian,,,75.82
+Wisard,2025-05-23 11:26:15,0.0073,Maternal Health Risk,Gaussian,,,75.82
+Wisard,2025-05-23 11:26:15,0.0078,Maternal Health Risk,Linear,,,73.43
+Wisard,2025-05-23 11:26:15,0.0076,Maternal Health Risk,Linear,,,73.43
+Wisard,2025-05-23 11:26:15,0.0070,Maternal Health Risk,Linear,,,73.43
+Wisard,2025-05-23 11:26:15,0.0073,Maternal Health Risk,Linear,,,73.43
+Wisard,2025-05-23 11:26:15,0.0074,Maternal Health Risk,Linear,,,73.43
+Wisard,2025-05-23 11:26:15,0.0078,Maternal Health Risk,Linear,,,73.43
+Wisard,2025-05-23 11:26:15,0.0081,Maternal Health Risk,Linear,,,73.43
+Wisard,2025-05-23 11:26:15,0.0083,Maternal Health Risk,Linear,,,73.43
+Wisard,2025-05-23 11:26:15,0.0085,Maternal Health Risk,Linear,,,73.43
+Wisard,2025-05-23 11:26:15,0.0088,Maternal Health Risk,Linear,,,73.43
+Wisard,2025-05-23 11:26:17,0.0121,Glass Identification,Distributive,,,77.46
+Wisard,2025-05-23 11:26:17,0.0113,Glass Identification,Distributive,,,77.46
+Wisard,2025-05-23 11:26:17,0.0106,Glass Identification,Distributive,,,77.46
+Wisard,2025-05-23 11:26:17,0.0112,Glass Identification,Distributive,,,77.46
+Wisard,2025-05-23 11:26:17,0.0106,Glass Identification,Distributive,,,77.46
+Wisard,2025-05-23 11:26:17,0.0107,Glass Identification,Distributive,,,77.46
+Wisard,2025-05-23 11:26:17,0.0108,Glass Identification,Distributive,,,77.46
+Wisard,2025-05-23 11:26:17,0.0106,Glass Identification,Distributive,,,77.46
+Wisard,2025-05-23 11:26:17,0.0113,Glass Identification,Distributive,,,77.46
+Wisard,2025-05-23 11:26:17,0.0106,Glass Identification,Distributive,,,77.46
+Wisard,2025-05-23 11:26:17,0.0119,Glass Identification,Gaussian,,,73.24
+Wisard,2025-05-23 11:26:17,0.0106,Glass Identification,Gaussian,,,73.24
+Wisard,2025-05-23 11:26:17,0.0112,Glass Identification,Gaussian,,,73.24
+Wisard,2025-05-23 11:26:17,0.0105,Glass Identification,Gaussian,,,73.24
+Wisard,2025-05-23 11:26:17,0.0109,Glass Identification,Gaussian,,,73.24
+Wisard,2025-05-23 11:26:17,0.0107,Glass Identification,Gaussian,,,73.24
+Wisard,2025-05-23 11:26:17,0.0107,Glass Identification,Gaussian,,,73.24
+Wisard,2025-05-23 11:26:17,0.0112,Glass Identification,Gaussian,,,73.24
+Wisard,2025-05-23 11:26:17,0.0106,Glass Identification,Gaussian,,,73.24
+Wisard,2025-05-23 11:26:17,0.0112,Glass Identification,Gaussian,,,73.24
+Wisard,2025-05-23 11:26:17,0.0110,Glass Identification,Linear,,,71.83
+Wisard,2025-05-23 11:26:17,0.0105,Glass Identification,Linear,,,71.83
+Wisard,2025-05-23 11:26:17,0.0108,Glass Identification,Linear,,,71.83
+Wisard,2025-05-23 11:26:17,0.0105,Glass Identification,Linear,,,71.83
+Wisard,2025-05-23 11:26:17,0.0109,Glass Identification,Linear,,,71.83
+Wisard,2025-05-23 11:26:17,0.0106,Glass Identification,Linear,,,71.83
+Wisard,2025-05-23 11:26:17,0.0138,Glass Identification,Linear,,,71.83
+Wisard,2025-05-23 11:26:17,0.0111,Glass Identification,Linear,,,71.83
+Wisard,2025-05-23 11:26:17,0.0110,Glass Identification,Linear,,,71.83
+Wisard,2025-05-23 11:26:17,0.0107,Glass Identification,Linear,,,71.83
+DWN,2025-05-23 11:26:46,40.5532,MNIST,Gaussian,,,0.7828
+DWN,2025-05-23 11:27:27,40.6745,MNIST,Gaussian,,,0.7844
+DWN,2025-05-23 11:28:07,40.0320,MNIST,Gaussian,,,0.7871
+Wisard,2025-05-23 11:28:27,88.9752,MNIST,Distributive,,,95.42
+DWN,2025-05-23 11:28:49,40.8083,MNIST,Linear,,,0.7752
+DWN,2025-05-23 11:29:29,40.0125,MNIST,Linear,,,0.7814
+Wisard,2025-05-23 11:30:00,92.3557,MNIST,Distributive,,,95.42
+DWN,2025-05-23 11:30:09,39.9585,MNIST,Linear,,,0.7844
+DWN,2025-05-23 11:30:49,40.0946,MNIST,Linear,,,0.7836
+Wisard,2025-05-23 11:31:27,87.3042,MNIST,Distributive,,,95.42
+DWN,2025-05-23 11:31:29,39.8288,MNIST,Linear,,,0.7863
+DWN,2025-05-23 11:32:09,39.7121,MNIST,Linear,,,0.7902
+DWN,2025-05-23 11:32:48,39.8592,MNIST,Linear,,,0.7853
+Wisard,2025-05-23 11:33:02,95.1987,MNIST,Distributive,,,95.42
+DWN,2025-05-23 11:33:28,39.5304,MNIST,Linear,,,0.7888
+DWN,2025-05-23 11:34:08,39.8278,MNIST,Linear,,,0.7919
+Wisard,2025-05-23 11:34:39,96.8488,MNIST,Distributive,,,95.42
+DWN,2025-05-23 11:34:47,39.5782,MNIST,Linear,,,0.7921
+DWN,2025-05-23 11:34:50,0.4080,Optical Recognition of Handwritten Digits,Distributive,,,0.7434
+DWN,2025-05-23 11:34:51,0.3932,Optical Recognition of Handwritten Digits,Distributive,,,0.7925
+DWN,2025-05-23 11:34:51,0.4196,Optical Recognition of Handwritten Digits,Distributive,,,0.8146
+DWN,2025-05-23 11:34:51,0.3983,Optical Recognition of Handwritten Digits,Distributive,,,0.8162
+DWN,2025-05-23 11:34:52,0.3925,Optical Recognition of Handwritten Digits,Distributive,,,0.8248
+DWN,2025-05-23 11:34:52,0.4565,Optical Recognition of Handwritten Digits,Distributive,,,0.8270
+DWN,2025-05-23 11:34:53,0.3795,Optical Recognition of Handwritten Digits,Distributive,,,0.8286
+DWN,2025-05-23 11:34:53,0.4473,Optical Recognition of Handwritten Digits,Distributive,,,0.8356
+DWN,2025-05-23 11:34:54,0.4070,Optical Recognition of Handwritten Digits,Distributive,,,0.8350
+DWN,2025-05-23 11:34:54,0.4089,Optical Recognition of Handwritten Digits,Distributive,,,0.8345
+DWN,2025-05-23 11:34:54,0.4123,Optical Recognition of Handwritten Digits,Gaussian,,,0.7305
+DWN,2025-05-23 11:34:55,0.4126,Optical Recognition of Handwritten Digits,Gaussian,,,0.7989
+DWN,2025-05-23 11:34:55,0.4194,Optical Recognition of Handwritten Digits,Gaussian,,,0.8097
+DWN,2025-05-23 11:34:56,0.3955,Optical Recognition of Handwritten Digits,Gaussian,,,0.8226
+DWN,2025-05-23 11:34:56,0.4172,Optical Recognition of Handwritten Digits,Gaussian,,,0.8248
+DWN,2025-05-23 11:34:56,0.3945,Optical Recognition of Handwritten Digits,Gaussian,,,0.8275
+DWN,2025-05-23 11:34:57,0.3913,Optical Recognition of Handwritten Digits,Gaussian,,,0.8291
+DWN,2025-05-23 11:34:57,0.4128,Optical Recognition of Handwritten Digits,Gaussian,,,0.8264
+DWN,2025-05-23 11:34:58,0.4000,Optical Recognition of Handwritten Digits,Gaussian,,,0.8275
+DWN,2025-05-23 11:34:58,0.3885,Optical Recognition of Handwritten Digits,Gaussian,,,0.8243
+DWN,2025-05-23 11:34:58,0.4237,Optical Recognition of Handwritten Digits,Linear,,,0.7078
+DWN,2025-05-23 11:34:59,0.3996,Optical Recognition of Handwritten Digits,Linear,,,0.8022
+DWN,2025-05-23 11:34:59,0.3825,Optical Recognition of Handwritten Digits,Linear,,,0.8199
+DWN,2025-05-23 11:35:00,0.3615,Optical Recognition of Handwritten Digits,Linear,,,0.8183
+DWN,2025-05-23 11:35:00,0.3997,Optical Recognition of Handwritten Digits,Linear,,,0.8199
+DWN,2025-05-23 11:35:00,0.3872,Optical Recognition of Handwritten Digits,Linear,,,0.8361
+DWN,2025-05-23 11:35:01,0.3865,Optical Recognition of Handwritten Digits,Linear,,,0.8350
+DWN,2025-05-23 11:35:01,0.3929,Optical Recognition of Handwritten Digits,Linear,,,0.8410
+DWN,2025-05-23 11:35:02,0.3978,Optical Recognition of Handwritten Digits,Linear,,,0.8426
+DWN,2025-05-23 11:35:02,0.3800,Optical Recognition of Handwritten Digits,Linear,,,0.8453
+DWN,2025-05-23 11:35:04,0.0131,Image Segmentation,Distributive,,,0.2857
+DWN,2025-05-23 11:35:04,0.0132,Image Segmentation,Distributive,,,0.3571
+DWN,2025-05-23 11:35:04,0.0133,Image Segmentation,Distributive,,,0.3857
+DWN,2025-05-23 11:35:04,0.0133,Image Segmentation,Distributive,,,0.4286
+DWN,2025-05-23 11:35:04,0.0132,Image Segmentation,Distributive,,,0.5857
+DWN,2025-05-23 11:35:04,0.0132,Image Segmentation,Distributive,,,0.5857
+DWN,2025-05-23 11:35:04,0.0133,Image Segmentation,Distributive,,,0.6286
+DWN,2025-05-23 11:35:04,0.0132,Image Segmentation,Distributive,,,0.6429
+DWN,2025-05-23 11:35:04,0.0132,Image Segmentation,Distributive,,,0.7143
+DWN,2025-05-23 11:35:04,0.0132,Image Segmentation,Distributive,,,0.7286
+DWN,2025-05-23 11:35:04,0.0132,Image Segmentation,Gaussian,,,0.2714
+DWN,2025-05-23 11:35:04,0.0131,Image Segmentation,Gaussian,,,0.5143
+DWN,2025-05-23 11:35:04,0.0132,Image Segmentation,Gaussian,,,0.5429
+DWN,2025-05-23 11:35:04,0.0132,Image Segmentation,Gaussian,,,0.6286
+DWN,2025-05-23 11:35:04,0.0131,Image Segmentation,Gaussian,,,0.6286
+DWN,2025-05-23 11:35:04,0.0132,Image Segmentation,Gaussian,,,0.6286
+DWN,2025-05-23 11:35:04,0.0133,Image Segmentation,Gaussian,,,0.7429
+DWN,2025-05-23 11:35:04,0.0132,Image Segmentation,Gaussian,,,0.6286
+DWN,2025-05-23 11:35:04,0.0132,Image Segmentation,Gaussian,,,0.6857
+DWN,2025-05-23 11:35:04,0.0132,Image Segmentation,Gaussian,,,0.7286
+DWN,2025-05-23 11:35:04,0.0129,Image Segmentation,Linear,,,0.4429
+DWN,2025-05-23 11:35:04,0.0132,Image Segmentation,Linear,,,0.5429
+DWN,2025-05-23 11:35:04,0.0132,Image Segmentation,Linear,,,0.5000
+DWN,2025-05-23 11:35:05,0.0132,Image Segmentation,Linear,,,0.6429
+DWN,2025-05-23 11:35:05,0.0132,Image Segmentation,Linear,,,0.6857
+DWN,2025-05-23 11:35:05,0.0132,Image Segmentation,Linear,,,0.6286
+DWN,2025-05-23 11:35:05,0.0132,Image Segmentation,Linear,,,0.6714
+DWN,2025-05-23 11:35:05,0.0132,Image Segmentation,Linear,,,0.6571
+DWN,2025-05-23 11:35:05,0.0133,Image Segmentation,Linear,,,0.7143
+DWN,2025-05-23 11:35:05,0.0132,Image Segmentation,Linear,,,0.7571
+DWN,2025-05-23 11:35:12,3.3364,Statlog (Shuttle),Scatter Code,10,50,0.7898
+DWN,2025-05-23 11:35:16,3.3900,Statlog (Shuttle),Scatter Code,10,50,0.7898
+DWN,2025-05-23 11:35:19,3.4460,Statlog (Shuttle),Scatter Code,10,50,0.7898
+DWN,2025-05-23 11:35:22,3.5147,Statlog (Shuttle),Scatter Code,10,50,0.7898
+DWN,2025-05-23 11:35:26,3.3299,Statlog (Shuttle),Scatter Code,10,50,0.7898
+DWN,2025-05-23 11:35:29,3.1053,Statlog (Shuttle),Scatter Code,10,50,0.7898
+DWN,2025-05-23 11:35:32,3.4313,Statlog (Shuttle),Scatter Code,10,50,0.7898
+DWN,2025-05-23 11:35:36,3.3541,Statlog (Shuttle),Scatter Code,10,50,0.7898
+DWN,2025-05-23 11:35:39,3.3435,Statlog (Shuttle),Scatter Code,10,50,0.7897
+DWN,2025-05-23 11:35:42,3.2461,Statlog (Shuttle),Scatter Code,10,50,0.7898
+DWN,2025-05-23 11:35:44,0.0219,Ecoli,Scatter Code,10,50,0.5135
+DWN,2025-05-23 11:35:44,0.0219,Ecoli,Scatter Code,10,50,0.6486
+DWN,2025-05-23 11:35:44,0.0218,Ecoli,Scatter Code,10,50,0.6486
+DWN,2025-05-23 11:35:44,0.0218,Ecoli,Scatter Code,10,50,0.6486
+DWN,2025-05-23 11:35:44,0.0219,Ecoli,Scatter Code,10,50,0.6667
+DWN,2025-05-23 11:35:44,0.0219,Ecoli,Scatter Code,10,50,0.6937
+DWN,2025-05-23 11:35:44,0.0218,Ecoli,Scatter Code,10,50,0.6847
+DWN,2025-05-23 11:35:44,0.0218,Ecoli,Scatter Code,10,50,0.7477
+DWN,2025-05-23 11:35:44,0.0219,Ecoli,Scatter Code,10,50,0.7658
+DWN,2025-05-23 11:35:44,0.0219,Ecoli,Scatter Code,10,50,0.7838
+DWN,2025-05-23 11:35:45,0.0107,Iris,Scatter Code,10,50,0.9000
+DWN,2025-05-23 11:35:45,0.0108,Iris,Scatter Code,10,50,0.6000
+DWN,2025-05-23 11:35:45,0.0110,Iris,Scatter Code,10,50,0.8800
+DWN,2025-05-23 11:35:45,0.0107,Iris,Scatter Code,10,50,0.8800
+DWN,2025-05-23 11:35:45,0.0108,Iris,Scatter Code,10,50,0.9000
+DWN,2025-05-23 11:35:45,0.0269,Iris,Scatter Code,10,50,0.9400
+DWN,2025-05-23 11:35:45,0.0197,Iris,Scatter Code,10,50,0.9000
+DWN,2025-05-23 11:35:45,0.0175,Iris,Scatter Code,10,50,0.9400
+DWN,2025-05-23 11:35:45,0.0195,Iris,Scatter Code,10,50,1.0000
+DWN,2025-05-23 11:35:45,0.0175,Iris,Scatter Code,10,50,1.0000
+DWN,2025-05-23 11:35:48,0.4306,Wine Quality,Scatter Code,10,50,0.4191
+DWN,2025-05-23 11:35:48,0.3895,Wine Quality,Scatter Code,10,50,0.4182
+DWN,2025-05-23 11:35:48,0.3691,Wine Quality,Scatter Code,10,50,0.4275
+DWN,2025-05-23 11:35:49,0.3682,Wine Quality,Scatter Code,10,50,0.4224
+DWN,2025-05-23 11:35:49,0.3776,Wine Quality,Scatter Code,10,50,0.4275
+DWN,2025-05-23 11:35:49,0.3822,Wine Quality,Scatter Code,10,50,0.4275
+DWN,2025-05-23 11:35:50,0.3905,Wine Quality,Scatter Code,10,50,0.4275
+DWN,2025-05-23 11:35:50,0.3888,Wine Quality,Scatter Code,10,50,0.4275
+DWN,2025-05-23 11:35:51,0.3810,Wine Quality,Scatter Code,10,50,0.4149
+DWN,2025-05-23 11:35:51,0.3667,Wine Quality,Scatter Code,10,50,0.4205
+DWN,2025-05-23 11:35:52,0.0606,Statlog (Vehicle Silhouettes),Scatter Code,10,50,0.2000
+DWN,2025-05-23 11:35:53,0.0606,Statlog (Vehicle Silhouettes),Scatter Code,10,50,0.2250
+DWN,2025-05-23 11:35:53,0.0669,Statlog (Vehicle Silhouettes),Scatter Code,10,50,0.2250
+DWN,2025-05-23 11:35:53,0.0605,Statlog (Vehicle Silhouettes),Scatter Code,10,50,0.2821
+DWN,2025-05-23 11:35:53,0.0589,Statlog (Vehicle Silhouettes),Scatter Code,10,50,0.0000
+DWN,2025-05-23 11:35:53,0.0580,Statlog (Vehicle Silhouettes),Scatter Code,10,50,0.2821
+DWN,2025-05-23 11:35:53,0.0583,Statlog (Vehicle Silhouettes),Scatter Code,10,50,0.2000
+DWN,2025-05-23 11:35:53,0.0567,Statlog (Vehicle Silhouettes),Scatter Code,10,50,0.0000
+DWN,2025-05-23 11:35:53,0.0564,Statlog (Vehicle Silhouettes),Scatter Code,10,50,0.2000
+DWN,2025-05-23 11:35:53,0.0594,Statlog (Vehicle Silhouettes),Scatter Code,10,50,0.2000
+DWN,2025-05-23 11:35:54,0.0595,Maternal Health Risk,Scatter Code,10,50,0.4597
+DWN,2025-05-23 11:35:54,0.0595,Maternal Health Risk,Scatter Code,10,50,0.5313
+DWN,2025-05-23 11:35:54,0.0598,Maternal Health Risk,Scatter Code,10,50,0.5791
+DWN,2025-05-23 11:35:54,0.0595,Maternal Health Risk,Scatter Code,10,50,0.5821
+DWN,2025-05-23 11:35:55,0.0622,Maternal Health Risk,Scatter Code,10,50,0.5821
+DWN,2025-05-23 11:35:55,0.0681,Maternal Health Risk,Scatter Code,10,50,0.6299
+DWN,2025-05-23 11:35:55,0.0598,Maternal Health Risk,Scatter Code,10,50,0.5940
+DWN,2025-05-23 11:35:55,0.0598,Maternal Health Risk,Scatter Code,10,50,0.5701
+DWN,2025-05-23 11:35:55,0.0614,Maternal Health Risk,Scatter Code,10,50,0.5851
+DWN,2025-05-23 11:35:55,0.0601,Maternal Health Risk,Scatter Code,10,50,0.6299
+DWN,2025-05-23 11:35:56,0.0136,Glass Identification,Scatter Code,10,50,0.3099
+DWN,2025-05-23 11:35:56,0.0138,Glass Identification,Scatter Code,10,50,0.3380
+DWN,2025-05-23 11:35:56,0.0136,Glass Identification,Scatter Code,10,50,0.3239
+DWN,2025-05-23 11:35:56,0.0155,Glass Identification,Scatter Code,10,50,0.3380
+DWN,2025-05-23 11:35:56,0.0137,Glass Identification,Scatter Code,10,50,0.3099
+DWN,2025-05-23 11:35:56,0.0140,Glass Identification,Scatter Code,10,50,0.3239
+DWN,2025-05-23 11:35:56,0.0170,Glass Identification,Scatter Code,10,50,0.3521
+DWN,2025-05-23 11:35:56,0.0164,Glass Identification,Scatter Code,10,50,0.3380
+DWN,2025-05-23 11:35:56,0.0146,Glass Identification,Scatter Code,10,50,0.3380
+DWN,2025-05-23 11:35:56,0.0147,Glass Identification,Scatter Code,10,50,0.3521
+Wisard,2025-05-23 11:36:21,102.2504,MNIST,Distributive,,,95.42
+Wisard,2025-05-23 11:37:49,88.0071,MNIST,Distributive,,,95.42
+DWN,2025-05-23 11:38:05,94.4092,MNIST,Scatter Code,10,50,0.7787
+Wisard,2025-05-23 11:39:24,94.7217,MNIST,Distributive,,,95.42
+DWN,2025-05-23 11:39:39,94.1733,MNIST,Scatter Code,10,50,0.7900
+Wisard,2025-05-23 11:40:57,93.1183,MNIST,Distributive,,,95.42
+DWN,2025-05-23 11:41:13,93.8768,MNIST,Scatter Code,10,50,0.7948
+Wisard,2025-05-23 11:42:26,89.0319,MNIST,Distributive,,,95.42
+DWN,2025-05-23 11:42:47,93.9454,MNIST,Scatter Code,10,50,0.7973
+Wisard,2025-05-23 11:43:48,76.8284,MNIST,Gaussian,,,94.86
+DWN,2025-05-23 11:44:21,93.6372,MNIST,Scatter Code,10,50,0.7979
+Wisard,2025-05-23 11:45:17,88.1275,MNIST,Gaussian,,,94.86
+DWN,2025-05-23 11:45:55,93.9451,MNIST,Scatter Code,10,50,0.7995
+Wisard,2025-05-23 11:46:42,85.5244,MNIST,Gaussian,,,94.86
+DWN,2025-05-23 11:47:29,93.8755,MNIST,Scatter Code,10,50,0.7986
+Wisard,2025-05-23 11:48:04,81.3652,MNIST,Gaussian,,,94.86
+DWN,2025-05-23 11:49:02,93.5629,MNIST,Scatter Code,10,50,0.7995
+Wisard,2025-05-23 11:49:31,87.0090,MNIST,Gaussian,,,94.86
+DWN,2025-05-23 11:50:36,93.8044,MNIST,Scatter Code,10,50,0.8006
+Wisard,2025-05-23 11:50:59,88.1698,MNIST,Gaussian,,,94.86
+DWN,2025-05-23 11:52:10,93.8349,MNIST,Scatter Code,10,50,0.8000
+DWN,2025-05-23 11:52:13,0.8612,Optical Recognition of Handwritten Digits,Scatter Code,10,50,0.7369
+DWN,2025-05-23 11:52:14,0.8439,Optical Recognition of Handwritten Digits,Scatter Code,10,50,0.8054
+DWN,2025-05-23 11:52:15,0.8768,Optical Recognition of Handwritten Digits,Scatter Code,10,50,0.8178
+DWN,2025-05-23 11:52:15,0.9062,Optical Recognition of Handwritten Digits,Scatter Code,10,50,0.8264
+DWN,2025-05-23 11:52:16,0.8615,Optical Recognition of Handwritten Digits,Scatter Code,10,50,0.8356
+DWN,2025-05-23 11:52:17,0.8369,Optical Recognition of Handwritten Digits,Scatter Code,10,50,0.8361
+DWN,2025-05-23 11:52:18,0.8364,Optical Recognition of Handwritten Digits,Scatter Code,10,50,0.8469
+DWN,2025-05-23 11:52:19,0.8291,Optical Recognition of Handwritten Digits,Scatter Code,10,50,0.8388
+DWN,2025-05-23 11:52:20,0.8268,Optical Recognition of Handwritten Digits,Scatter Code,10,50,0.8404
+DWN,2025-05-23 11:52:21,0.8298,Optical Recognition of Handwritten Digits,Scatter Code,10,50,0.8404
+DWN,2025-05-23 11:52:22,0.0168,Image Segmentation,Scatter Code,10,50,0.2143
+DWN,2025-05-23 11:52:22,0.0168,Image Segmentation,Scatter Code,10,50,0.3571
+DWN,2025-05-23 11:52:22,0.0168,Image Segmentation,Scatter Code,10,50,0.3000
+DWN,2025-05-23 11:52:22,0.0167,Image Segmentation,Scatter Code,10,50,0.4143
+DWN,2025-05-23 11:52:22,0.0166,Image Segmentation,Scatter Code,10,50,0.4000
+DWN,2025-05-23 11:52:22,0.0165,Image Segmentation,Scatter Code,10,50,0.4286
+DWN,2025-05-23 11:52:22,0.0165,Image Segmentation,Scatter Code,10,50,0.4286
+DWN,2025-05-23 11:52:22,0.0164,Image Segmentation,Scatter Code,10,50,0.4571
+DWN,2025-05-23 11:52:22,0.0166,Image Segmentation,Scatter Code,10,50,0.4571
+DWN,2025-05-23 11:52:22,0.0168,Image Segmentation,Scatter Code,10,50,0.4286
+Wisard,2025-05-23 11:52:26,87.3336,MNIST,Gaussian,,,94.86
+DWN,2025-05-23 11:52:29,3.2181,Statlog (Shuttle),Scatter Code,50,50,0.7898
+DWN,2025-05-23 11:52:33,3.3312,Statlog (Shuttle),Scatter Code,50,50,0.7898
+DWN,2025-05-23 11:52:36,3.4046,Statlog (Shuttle),Scatter Code,50,50,0.7898
+DWN,2025-05-23 11:52:40,3.5184,Statlog (Shuttle),Scatter Code,50,50,0.7898
+DWN,2025-05-23 11:52:43,3.3754,Statlog (Shuttle),Scatter Code,50,50,0.7898
+DWN,2025-05-23 11:52:46,3.3753,Statlog (Shuttle),Scatter Code,50,50,0.7898
+DWN,2025-05-23 11:52:50,3.2847,Statlog (Shuttle),Scatter Code,50,50,0.7898
+DWN,2025-05-23 11:52:53,3.4206,Statlog (Shuttle),Scatter Code,50,50,0.7898
+DWN,2025-05-23 11:52:57,3.3511,Statlog (Shuttle),Scatter Code,50,50,0.7898
+DWN,2025-05-23 11:53:00,3.2616,Statlog (Shuttle),Scatter Code,50,50,0.7898
+DWN,2025-05-23 11:53:01,0.0322,Ecoli,Scatter Code,50,50,0.5676
+DWN,2025-05-23 11:53:01,0.0211,Ecoli,Scatter Code,50,50,0.5225
+DWN,2025-05-23 11:53:01,0.0208,Ecoli,Scatter Code,50,50,0.6036
+DWN,2025-05-23 11:53:01,0.0208,Ecoli,Scatter Code,50,50,0.6036
+DWN,2025-05-23 11:53:01,0.0226,Ecoli,Scatter Code,50,50,0.6667
+DWN,2025-05-23 11:53:01,0.0247,Ecoli,Scatter Code,50,50,0.7027
+DWN,2025-05-23 11:53:01,0.0224,Ecoli,Scatter Code,50,50,0.6577
+DWN,2025-05-23 11:53:01,0.0224,Ecoli,Scatter Code,50,50,0.6667
+DWN,2025-05-23 11:53:01,0.0225,Ecoli,Scatter Code,50,50,0.7387
+DWN,2025-05-23 11:53:01,0.0224,Ecoli,Scatter Code,50,50,0.7658
+DWN,2025-05-23 11:53:02,0.0111,Iris,Scatter Code,50,50,0.8800
+DWN,2025-05-23 11:53:02,0.0111,Iris,Scatter Code,50,50,0.9600
+DWN,2025-05-23 11:53:03,0.0112,Iris,Scatter Code,50,50,0.9600
+DWN,2025-05-23 11:53:03,0.0113,Iris,Scatter Code,50,50,0.9400
+DWN,2025-05-23 11:53:03,0.0111,Iris,Scatter Code,50,50,1.0000
+DWN,2025-05-23 11:53:03,0.0155,Iris,Scatter Code,50,50,0.9800
+DWN,2025-05-23 11:53:03,0.0154,Iris,Scatter Code,50,50,0.9800
+DWN,2025-05-23 11:53:03,0.0149,Iris,Scatter Code,50,50,0.9600
+DWN,2025-05-23 11:53:03,0.0112,Iris,Scatter Code,50,50,0.9800
+DWN,2025-05-23 11:53:03,0.0149,Iris,Scatter Code,50,50,0.9800
+DWN,2025-05-23 11:53:05,0.4131,Wine Quality,Scatter Code,50,50,0.4368
+DWN,2025-05-23 11:53:05,0.3682,Wine Quality,Scatter Code,50,50,0.4284
+DWN,2025-05-23 11:53:06,0.3679,Wine Quality,Scatter Code,50,50,0.4601
+DWN,2025-05-23 11:53:06,0.3816,Wine Quality,Scatter Code,50,50,0.4312
+DWN,2025-05-23 11:53:07,0.3893,Wine Quality,Scatter Code,50,50,0.4247
+DWN,2025-05-23 11:53:07,0.3750,Wine Quality,Scatter Code,50,50,0.4298
+DWN,2025-05-23 11:53:07,0.3831,Wine Quality,Scatter Code,50,50,0.3972
+DWN,2025-05-23 11:53:08,0.3717,Wine Quality,Scatter Code,50,50,0.3930
+DWN,2025-05-23 11:53:08,0.3655,Wine Quality,Scatter Code,50,50,0.4266
+DWN,2025-05-23 11:53:08,0.3692,Wine Quality,Scatter Code,50,50,0.3925
+DWN,2025-05-23 11:53:10,0.0667,Statlog (Vehicle Silhouettes),Scatter Code,50,50,0.2821
+DWN,2025-05-23 11:53:10,0.0597,Statlog (Vehicle Silhouettes),Scatter Code,50,50,0.0000
+DWN,2025-05-23 11:53:10,0.0595,Statlog (Vehicle Silhouettes),Scatter Code,50,50,0.2821
+DWN,2025-05-23 11:53:10,0.0591,Statlog (Vehicle Silhouettes),Scatter Code,50,50,0.2250
+DWN,2025-05-23 11:53:10,0.0590,Statlog (Vehicle Silhouettes),Scatter Code,50,50,0.2000
+DWN,2025-05-23 11:53:10,0.0570,Statlog (Vehicle Silhouettes),Scatter Code,50,50,0.2821
+DWN,2025-05-23 11:53:10,0.0551,Statlog (Vehicle Silhouettes),Scatter Code,50,50,0.2821
+DWN,2025-05-23 11:53:10,0.0552,Statlog (Vehicle Silhouettes),Scatter Code,50,50,0.0000
+DWN,2025-05-23 11:53:10,0.0554,Statlog (Vehicle Silhouettes),Scatter Code,50,50,0.2821
+DWN,2025-05-23 11:53:10,0.0554,Statlog (Vehicle Silhouettes),Scatter Code,50,50,0.2000
+DWN,2025-05-23 11:53:12,0.0579,Maternal Health Risk,Scatter Code,50,50,0.5313
+DWN,2025-05-23 11:53:12,0.0581,Maternal Health Risk,Scatter Code,50,50,0.6179
+DWN,2025-05-23 11:53:12,0.0585,Maternal Health Risk,Scatter Code,50,50,0.6299
+DWN,2025-05-23 11:53:12,0.0590,Maternal Health Risk,Scatter Code,50,50,0.6060
+DWN,2025-05-23 11:53:12,0.0613,Maternal Health Risk,Scatter Code,50,50,0.6507
+DWN,2025-05-23 11:53:12,0.0596,Maternal Health Risk,Scatter Code,50,50,0.6448
+DWN,2025-05-23 11:53:12,0.0595,Maternal Health Risk,Scatter Code,50,50,0.6418
+DWN,2025-05-23 11:53:12,0.0613,Maternal Health Risk,Scatter Code,50,50,0.6388
+DWN,2025-05-23 11:53:12,0.0594,Maternal Health Risk,Scatter Code,50,50,0.6418
+DWN,2025-05-23 11:53:12,0.0593,Maternal Health Risk,Scatter Code,50,50,0.6806
+DWN,2025-05-23 11:53:13,0.0148,Glass Identification,Scatter Code,50,50,0.3099
+DWN,2025-05-23 11:53:13,0.0150,Glass Identification,Scatter Code,50,50,0.3239
+DWN,2025-05-23 11:53:13,0.0148,Glass Identification,Scatter Code,50,50,0.3521
+DWN,2025-05-23 11:53:13,0.0149,Glass Identification,Scatter Code,50,50,0.3944
+DWN,2025-05-23 11:53:13,0.0149,Glass Identification,Scatter Code,50,50,0.3521
+DWN,2025-05-23 11:53:13,0.0151,Glass Identification,Scatter Code,50,50,0.3944
+DWN,2025-05-23 11:53:13,0.0150,Glass Identification,Scatter Code,50,50,0.4648
+DWN,2025-05-23 11:53:13,0.0150,Glass Identification,Scatter Code,50,50,0.5634
+DWN,2025-05-23 11:53:13,0.0148,Glass Identification,Scatter Code,50,50,0.4789
+DWN,2025-05-23 11:53:14,0.0171,Glass Identification,Scatter Code,50,50,0.4930
+Wisard,2025-05-23 11:53:52,85.1590,MNIST,Gaussian,,,94.86
+Wisard,2025-05-23 11:55:19,87.1293,MNIST,Gaussian,,,94.86
+DWN,2025-05-23 11:55:22,94.5753,MNIST,Scatter Code,50,50,0.7592
+Wisard,2025-05-23 11:56:47,88.6892,MNIST,Gaussian,,,94.86
+DWN,2025-05-23 11:56:56,94.0435,MNIST,Scatter Code,50,50,0.7823
+Wisard,2025-05-23 11:58:23,91.2616,MNIST,Linear,,,95.3
+DWN,2025-05-23 11:58:30,93.7635,MNIST,Scatter Code,50,50,0.7881
+Wisard,2025-05-23 11:59:51,88.0219,MNIST,Linear,,,95.3
+DWN,2025-05-23 12:00:03,93.9539,MNIST,Scatter Code,50,50,0.7913
+Wisard,2025-05-23 12:01:25,93.4125,MNIST,Linear,,,95.3
+DWN,2025-05-23 12:01:37,93.9094,MNIST,Scatter Code,50,50,0.7914
+Wisard,2025-05-23 12:03:01,96.0834,MNIST,Linear,,,95.3
+DWN,2025-05-23 12:03:11,93.7647,MNIST,Scatter Code,50,50,0.7944
+Wisard,2025-05-23 12:04:35,94.0642,MNIST,Linear,,,95.3
+DWN,2025-05-23 12:04:45,93.4888,MNIST,Scatter Code,50,50,0.7930
+Wisard,2025-05-23 12:06:03,88.0156,MNIST,Linear,,,95.3
+DWN,2025-05-23 12:06:19,93.8843,MNIST,Scatter Code,50,50,0.7939
+Wisard,2025-05-23 12:07:37,94.3516,MNIST,Linear,,,95.3
+DWN,2025-05-23 12:07:52,93.6256,MNIST,Scatter Code,50,50,0.7930
+Wisard,2025-05-23 12:09:13,95.9212,MNIST,Linear,,,95.3
+DWN,2025-05-23 12:09:26,93.7425,MNIST,Scatter Code,50,50,0.7925
+DWN,2025-05-23 12:09:29,0.8456,Optical Recognition of Handwritten Digits,Scatter Code,50,50,0.7606
+DWN,2025-05-23 12:09:30,0.8652,Optical Recognition of Handwritten Digits,Scatter Code,50,50,0.8065
+DWN,2025-05-23 12:09:31,0.8395,Optical Recognition of Handwritten Digits,Scatter Code,50,50,0.8253
+DWN,2025-05-23 12:09:32,0.8265,Optical Recognition of Handwritten Digits,Scatter Code,50,50,0.8286
+DWN,2025-05-23 12:09:32,0.8192,Optical Recognition of Handwritten Digits,Scatter Code,50,50,0.8356
+DWN,2025-05-23 12:09:33,0.8241,Optical Recognition of Handwritten Digits,Scatter Code,50,50,0.8334
+DWN,2025-05-23 12:09:34,0.8203,Optical Recognition of Handwritten Digits,Scatter Code,50,50,0.8367
+DWN,2025-05-23 12:09:35,0.8076,Optical Recognition of Handwritten Digits,Scatter Code,50,50,0.8377
+DWN,2025-05-23 12:09:36,0.8114,Optical Recognition of Handwritten Digits,Scatter Code,50,50,0.8410
+DWN,2025-05-23 12:09:36,0.8234,Optical Recognition of Handwritten Digits,Scatter Code,50,50,0.8415
+DWN,2025-05-23 12:09:38,0.0236,Image Segmentation,Scatter Code,50,50,0.1429
+DWN,2025-05-23 12:09:38,0.0178,Image Segmentation,Scatter Code,50,50,0.3571
+DWN,2025-05-23 12:09:38,0.0174,Image Segmentation,Scatter Code,50,50,0.4143
+DWN,2025-05-23 12:09:38,0.0170,Image Segmentation,Scatter Code,50,50,0.4143
+DWN,2025-05-23 12:09:38,0.0191,Image Segmentation,Scatter Code,50,50,0.5143
+DWN,2025-05-23 12:09:38,0.0172,Image Segmentation,Scatter Code,50,50,0.5429
+DWN,2025-05-23 12:09:38,0.0178,Image Segmentation,Scatter Code,50,50,0.5714
+DWN,2025-05-23 12:09:38,0.0178,Image Segmentation,Scatter Code,50,50,0.5143
+DWN,2025-05-23 12:09:38,0.0172,Image Segmentation,Scatter Code,50,50,0.5857
+DWN,2025-05-23 12:09:38,0.0179,Image Segmentation,Scatter Code,50,50,0.6286
+DWN,2025-05-23 12:09:46,3.4807,Statlog (Shuttle),Scatter Code,100,50,0.7898
+DWN,2025-05-23 12:09:49,3.1544,Statlog (Shuttle),Scatter Code,100,50,0.7898
+DWN,2025-05-23 12:09:52,3.2964,Statlog (Shuttle),Scatter Code,100,50,0.7898
+DWN,2025-05-23 12:09:56,3.3130,Statlog (Shuttle),Scatter Code,100,50,0.7898
+DWN,2025-05-23 12:09:59,3.2998,Statlog (Shuttle),Scatter Code,100,50,0.7898
+DWN,2025-05-23 12:10:02,3.3844,Statlog (Shuttle),Scatter Code,100,50,0.7898
+DWN,2025-05-23 12:10:06,3.9137,Statlog (Shuttle),Scatter Code,100,50,0.7898
+DWN,2025-05-23 12:10:10,3.5253,Statlog (Shuttle),Scatter Code,100,50,0.7898
+DWN,2025-05-23 12:10:13,3.4289,Statlog (Shuttle),Scatter Code,100,50,0.7898
+DWN,2025-05-23 12:10:17,3.4277,Statlog (Shuttle),Scatter Code,100,50,0.7898
+DWN,2025-05-23 12:10:18,0.0222,Ecoli,Scatter Code,100,50,0.4595
+DWN,2025-05-23 12:10:18,0.0236,Ecoli,Scatter Code,100,50,0.4595
+DWN,2025-05-23 12:10:18,0.0267,Ecoli,Scatter Code,100,50,0.4595
+DWN,2025-05-23 12:10:18,0.0222,Ecoli,Scatter Code,100,50,0.4595
+DWN,2025-05-23 12:10:18,0.0259,Ecoli,Scatter Code,100,50,0.4595
+DWN,2025-05-23 12:10:18,0.0223,Ecoli,Scatter Code,100,50,0.4595
+DWN,2025-05-23 12:10:18,0.0222,Ecoli,Scatter Code,100,50,0.4595
+DWN,2025-05-23 12:10:18,0.0241,Ecoli,Scatter Code,100,50,0.4595
+DWN,2025-05-23 12:10:18,0.0226,Ecoli,Scatter Code,100,50,0.4595
+DWN,2025-05-23 12:10:18,0.0225,Ecoli,Scatter Code,100,50,0.4595
+DWN,2025-05-23 12:10:20,0.0112,Iris,Scatter Code,100,50,0.3200
+DWN,2025-05-23 12:10:20,0.0111,Iris,Scatter Code,100,50,0.3200
+DWN,2025-05-23 12:10:20,0.0111,Iris,Scatter Code,100,50,0.3800
+DWN,2025-05-23 12:10:20,0.0113,Iris,Scatter Code,100,50,0.3800
+DWN,2025-05-23 12:10:20,0.0110,Iris,Scatter Code,100,50,0.3200
+DWN,2025-05-23 12:10:20,0.0112,Iris,Scatter Code,100,50,0.3800
+DWN,2025-05-23 12:10:20,0.0112,Iris,Scatter Code,100,50,0.3000
+DWN,2025-05-23 12:10:20,0.0112,Iris,Scatter Code,100,50,0.3000
+DWN,2025-05-23 12:10:20,0.0112,Iris,Scatter Code,100,50,0.3200
+DWN,2025-05-23 12:10:20,0.0177,Iris,Scatter Code,100,50,0.3800
+DWN,2025-05-23 12:10:22,0.4162,Wine Quality,Scatter Code,100,50,0.3133
+DWN,2025-05-23 12:10:23,0.3936,Wine Quality,Scatter Code,100,50,0.4555
+DWN,2025-05-23 12:10:23,0.4060,Wine Quality,Scatter Code,100,50,0.4555
+DWN,2025-05-23 12:10:23,0.4152,Wine Quality,Scatter Code,100,50,0.4555
+DWN,2025-05-23 12:10:24,0.3874,Wine Quality,Scatter Code,100,50,0.3133
+DWN,2025-05-23 12:10:24,0.3961,Wine Quality,Scatter Code,100,50,0.3133
+DWN,2025-05-23 12:10:25,0.3938,Wine Quality,Scatter Code,100,50,0.4555
+DWN,2025-05-23 12:10:25,0.3964,Wine Quality,Scatter Code,100,50,0.3133
+DWN,2025-05-23 12:10:25,0.4056,Wine Quality,Scatter Code,100,50,0.4555
+DWN,2025-05-23 12:10:26,0.3956,Wine Quality,Scatter Code,100,50,0.4555
+DWN,2025-05-23 12:10:27,0.0734,Statlog (Vehicle Silhouettes),Scatter Code,100,50,0.2250
+DWN,2025-05-23 12:10:27,0.0612,Statlog (Vehicle Silhouettes),Scatter Code,100,50,0.2821
+DWN,2025-05-23 12:10:27,0.0794,Statlog (Vehicle Silhouettes),Scatter Code,100,50,0.2250
+DWN,2025-05-23 12:10:28,0.0629,Statlog (Vehicle Silhouettes),Scatter Code,100,50,0.0000
+DWN,2025-05-23 12:10:28,0.0661,Statlog (Vehicle Silhouettes),Scatter Code,100,50,0.2821
+DWN,2025-05-23 12:10:28,0.0571,Statlog (Vehicle Silhouettes),Scatter Code,100,50,0.2000
+DWN,2025-05-23 12:10:28,0.0571,Statlog (Vehicle Silhouettes),Scatter Code,100,50,0.2250
+DWN,2025-05-23 12:10:28,0.0866,Statlog (Vehicle Silhouettes),Scatter Code,100,50,0.0000
+DWN,2025-05-23 12:10:28,0.0610,Statlog (Vehicle Silhouettes),Scatter Code,100,50,0.2821
+DWN,2025-05-23 12:10:28,0.0589,Statlog (Vehicle Silhouettes),Scatter Code,100,50,0.2000
+DWN,2025-05-23 12:10:29,0.0638,Maternal Health Risk,Scatter Code,100,50,0.3642
+DWN,2025-05-23 12:10:29,0.0607,Maternal Health Risk,Scatter Code,100,50,0.3821
+DWN,2025-05-23 12:10:29,0.0597,Maternal Health Risk,Scatter Code,100,50,0.3642
+DWN,2025-05-23 12:10:29,0.0591,Maternal Health Risk,Scatter Code,100,50,0.3821
+DWN,2025-05-23 12:10:29,0.0604,Maternal Health Risk,Scatter Code,100,50,0.3642
+DWN,2025-05-23 12:10:30,0.0632,Maternal Health Risk,Scatter Code,100,50,0.3821
+DWN,2025-05-23 12:10:30,0.0620,Maternal Health Risk,Scatter Code,100,50,0.3821
+DWN,2025-05-23 12:10:30,0.0616,Maternal Health Risk,Scatter Code,100,50,0.3821
+DWN,2025-05-23 12:10:30,0.0615,Maternal Health Risk,Scatter Code,100,50,0.3821
+DWN,2025-05-23 12:10:30,0.0591,Maternal Health Risk,Scatter Code,100,50,0.3821
+DWN,2025-05-23 12:10:31,0.0153,Glass Identification,Scatter Code,100,50,0.3099
+DWN,2025-05-23 12:10:31,0.0152,Glass Identification,Scatter Code,100,50,0.3099
+DWN,2025-05-23 12:10:31,0.0151,Glass Identification,Scatter Code,100,50,0.3521
+DWN,2025-05-23 12:10:31,0.0152,Glass Identification,Scatter Code,100,50,0.3099
+DWN,2025-05-23 12:10:31,0.0152,Glass Identification,Scatter Code,100,50,0.3099
+DWN,2025-05-23 12:10:31,0.0154,Glass Identification,Scatter Code,100,50,0.3521
+DWN,2025-05-23 12:10:31,0.0153,Glass Identification,Scatter Code,100,50,0.3521
+DWN,2025-05-23 12:10:31,0.0153,Glass Identification,Scatter Code,100,50,0.3099
+DWN,2025-05-23 12:10:31,0.0153,Glass Identification,Scatter Code,100,50,0.3099
+DWN,2025-05-23 12:10:31,0.0151,Glass Identification,Scatter Code,100,50,0.3521
+Wisard,2025-05-23 12:10:53,100.0154,MNIST,Linear,,,95.3
+Wisard,2025-05-23 12:12:22,88.7103,MNIST,Linear,,,95.3
+Wisard,2025-05-23 12:12:28,0.4018,Optical Recognition of Handwritten Digits,Distributive,,,95.63
+Wisard,2025-05-23 12:12:29,0.4254,Optical Recognition of Handwritten Digits,Distributive,,,95.63
+Wisard,2025-05-23 12:12:29,0.4313,Optical Recognition of Handwritten Digits,Distributive,,,95.63
+Wisard,2025-05-23 12:12:30,0.3941,Optical Recognition of Handwritten Digits,Distributive,,,95.63
+Wisard,2025-05-23 12:12:30,0.5229,Optical Recognition of Handwritten Digits,Distributive,,,95.63
+Wisard,2025-05-23 12:12:31,0.3877,Optical Recognition of Handwritten Digits,Distributive,,,95.63
+Wisard,2025-05-23 12:12:31,0.4362,Optical Recognition of Handwritten Digits,Distributive,,,95.63
+Wisard,2025-05-23 12:12:31,0.3862,Optical Recognition of Handwritten Digits,Distributive,,,95.63
+Wisard,2025-05-23 12:12:32,0.4241,Optical Recognition of Handwritten Digits,Distributive,,,95.63
+Wisard,2025-05-23 12:12:32,0.4261,Optical Recognition of Handwritten Digits,Distributive,,,95.63
+Wisard,2025-05-23 12:12:33,0.3808,Optical Recognition of Handwritten Digits,Gaussian,,,96.82
+Wisard,2025-05-23 12:12:33,0.4483,Optical Recognition of Handwritten Digits,Gaussian,,,96.82
+Wisard,2025-05-23 12:12:34,0.4163,Optical Recognition of Handwritten Digits,Gaussian,,,96.82
+Wisard,2025-05-23 12:12:34,0.4271,Optical Recognition of Handwritten Digits,Gaussian,,,96.82
+Wisard,2025-05-23 12:12:34,0.4399,Optical Recognition of Handwritten Digits,Gaussian,,,96.82
+Wisard,2025-05-23 12:12:35,0.3976,Optical Recognition of Handwritten Digits,Gaussian,,,96.82
+Wisard,2025-05-23 12:12:35,0.4535,Optical Recognition of Handwritten Digits,Gaussian,,,96.82
+Wisard,2025-05-23 12:12:36,0.3894,Optical Recognition of Handwritten Digits,Gaussian,,,96.82
+Wisard,2025-05-23 12:12:36,0.4339,Optical Recognition of Handwritten Digits,Gaussian,,,96.82
+Wisard,2025-05-23 12:12:36,0.4009,Optical Recognition of Handwritten Digits,Gaussian,,,96.82
+Wisard,2025-05-23 12:12:37,0.3888,Optical Recognition of Handwritten Digits,Linear,,,97.04
+Wisard,2025-05-23 12:12:37,0.4397,Optical Recognition of Handwritten Digits,Linear,,,97.04
+Wisard,2025-05-23 12:12:38,0.3958,Optical Recognition of Handwritten Digits,Linear,,,97.04
+Wisard,2025-05-23 12:12:38,0.5420,Optical Recognition of Handwritten Digits,Linear,,,97.04
+Wisard,2025-05-23 12:12:39,0.3923,Optical Recognition of Handwritten Digits,Linear,,,97.04
+Wisard,2025-05-23 12:12:39,0.4193,Optical Recognition of Handwritten Digits,Linear,,,97.04
+Wisard,2025-05-23 12:12:40,0.4287,Optical Recognition of Handwritten Digits,Linear,,,97.04
+Wisard,2025-05-23 12:12:40,0.3994,Optical Recognition of Handwritten Digits,Linear,,,97.04
+Wisard,2025-05-23 12:12:40,0.4388,Optical Recognition of Handwritten Digits,Linear,,,97.04
+Wisard,2025-05-23 12:12:41,0.3939,Optical Recognition of Handwritten Digits,Linear,,,97.04
+Wisard,2025-05-23 12:12:42,0.0059,Image Segmentation,Distributive,,,81.43
+Wisard,2025-05-23 12:12:42,0.0046,Image Segmentation,Distributive,,,81.43
+Wisard,2025-05-23 12:12:42,0.0045,Image Segmentation,Distributive,,,81.43
+Wisard,2025-05-23 12:12:42,0.0046,Image Segmentation,Distributive,,,81.43
+Wisard,2025-05-23 12:12:42,0.0046,Image Segmentation,Distributive,,,81.43
+Wisard,2025-05-23 12:12:42,0.0047,Image Segmentation,Distributive,,,81.43
+Wisard,2025-05-23 12:12:42,0.0045,Image Segmentation,Distributive,,,81.43
+Wisard,2025-05-23 12:12:42,0.0047,Image Segmentation,Distributive,,,81.43
+Wisard,2025-05-23 12:12:42,0.0046,Image Segmentation,Distributive,,,81.43
+Wisard,2025-05-23 12:12:42,0.0046,Image Segmentation,Distributive,,,81.43
+Wisard,2025-05-23 12:12:42,0.0059,Image Segmentation,Gaussian,,,81.43
+Wisard,2025-05-23 12:12:42,0.0047,Image Segmentation,Gaussian,,,81.43
+Wisard,2025-05-23 12:12:42,0.0046,Image Segmentation,Gaussian,,,81.43
+Wisard,2025-05-23 12:12:42,0.0046,Image Segmentation,Gaussian,,,81.43
+Wisard,2025-05-23 12:12:42,0.0047,Image Segmentation,Gaussian,,,81.43
+Wisard,2025-05-23 12:12:42,0.0047,Image Segmentation,Gaussian,,,81.43
+Wisard,2025-05-23 12:12:42,0.0047,Image Segmentation,Gaussian,,,81.43
+Wisard,2025-05-23 12:12:42,0.0048,Image Segmentation,Gaussian,,,81.43
+Wisard,2025-05-23 12:12:42,0.0050,Image Segmentation,Gaussian,,,81.43
+Wisard,2025-05-23 12:12:42,0.0047,Image Segmentation,Gaussian,,,81.43
+Wisard,2025-05-23 12:12:42,0.0054,Image Segmentation,Linear,,,77.14
+Wisard,2025-05-23 12:12:42,0.0049,Image Segmentation,Linear,,,77.14
+Wisard,2025-05-23 12:12:42,0.0046,Image Segmentation,Linear,,,77.14
+Wisard,2025-05-23 12:12:42,0.0049,Image Segmentation,Linear,,,77.14
+Wisard,2025-05-23 12:12:42,0.0047,Image Segmentation,Linear,,,77.14
+Wisard,2025-05-23 12:12:42,0.0047,Image Segmentation,Linear,,,77.14
+Wisard,2025-05-23 12:12:42,0.0068,Image Segmentation,Linear,,,77.14
+Wisard,2025-05-23 12:12:42,0.0047,Image Segmentation,Linear,,,77.14
+Wisard,2025-05-23 12:12:42,0.0046,Image Segmentation,Linear,,,77.14
+Wisard,2025-05-23 12:12:42,0.0047,Image Segmentation,Linear,,,77.14
+DWN,2025-05-23 12:12:50,105.6040,MNIST,Scatter Code,100,50,0.1017
+Wisard,2025-05-23 12:14:29,104.6498,Statlog (Shuttle),Scatter Code,10,50,78.97
+DWN,2025-05-23 12:14:36,105.4407,MNIST,Scatter Code,100,50,0.1127
+DWN,2025-05-23 12:16:21,105.2872,MNIST,Scatter Code,100,50,0.1127
+Wisard,2025-05-23 12:17:58,208.7829,Statlog (Shuttle),Scatter Code,10,50,78.97
+DWN,2025-05-23 12:18:06,105.5487,MNIST,Scatter Code,100,50,0.0981
+DWN,2025-05-23 12:19:52,105.7335,MNIST,Scatter Code,100,50,0.1017
+DWN,2025-05-23 12:21:38,105.6617,MNIST,Scatter Code,100,50,0.0981
+Wisard,2025-05-23 12:23:10,312.1442,Statlog (Shuttle),Scatter Code,10,50,78.97
+DWN,2025-05-23 12:23:23,105.3967,MNIST,Scatter Code,100,50,0.1127
+DWN,2025-05-23 12:25:09,105.4807,MNIST,Scatter Code,100,50,0.1032
+DWN,2025-05-23 12:26:54,105.5676,MNIST,Scatter Code,100,50,0.1127
+DWN,2025-05-23 12:28:40,105.7160,MNIST,Scatter Code,100,50,0.0928
+DWN,2025-05-23 12:28:44,1.0283,Optical Recognition of Handwritten Digits,Scatter Code,100,50,0.1019
+DWN,2025-05-23 12:28:44,0.9625,Optical Recognition of Handwritten Digits,Scatter Code,100,50,0.1094
+DWN,2025-05-23 12:28:45,0.8876,Optical Recognition of Handwritten Digits,Scatter Code,100,50,0.1062
+DWN,2025-05-23 12:28:46,0.8959,Optical Recognition of Handwritten Digits,Scatter Code,100,50,0.0992
+DWN,2025-05-23 12:28:47,0.9681,Optical Recognition of Handwritten Digits,Scatter Code,100,50,0.1035
+DWN,2025-05-23 12:28:48,0.9023,Optical Recognition of Handwritten Digits,Scatter Code,100,50,0.1019
+DWN,2025-05-23 12:28:49,0.8971,Optical Recognition of Handwritten Digits,Scatter Code,100,50,0.0906
+DWN,2025-05-23 12:28:50,0.9056,Optical Recognition of Handwritten Digits,Scatter Code,100,50,0.1019
+DWN,2025-05-23 12:28:51,0.9003,Optical Recognition of Handwritten Digits,Scatter Code,100,50,0.1035
+DWN,2025-05-23 12:28:52,0.9059,Optical Recognition of Handwritten Digits,Scatter Code,100,50,0.0992
+DWN,2025-05-23 12:28:54,0.0207,Image Segmentation,Scatter Code,100,50,0.1429
+DWN,2025-05-23 12:28:54,0.0264,Image Segmentation,Scatter Code,100,50,0.1429
+DWN,2025-05-23 12:28:54,0.0235,Image Segmentation,Scatter Code,100,50,0.1429
+DWN,2025-05-23 12:28:54,0.0187,Image Segmentation,Scatter Code,100,50,0.1714
+DWN,2025-05-23 12:28:54,0.0176,Image Segmentation,Scatter Code,100,50,0.1286
+DWN,2025-05-23 12:28:54,0.0176,Image Segmentation,Scatter Code,100,50,0.1000
+DWN,2025-05-23 12:28:54,0.0176,Image Segmentation,Scatter Code,100,50,0.1714
+DWN,2025-05-23 12:28:54,0.0175,Image Segmentation,Scatter Code,100,50,0.1714
+DWN,2025-05-23 12:28:54,0.0176,Image Segmentation,Scatter Code,100,50,0.1286
+DWN,2025-05-23 12:28:54,0.0176,Image Segmentation,Scatter Code,100,50,0.1429
+Wisard,2025-05-23 12:30:06,415.6053,Statlog (Shuttle),Scatter Code,10,50,78.97
+Wisard,2025-05-23 12:38:44,517.6522,Statlog (Shuttle),Scatter Code,10,50,78.97
+Wisard,2025-05-23 12:49:05,620.9049,Statlog (Shuttle),Scatter Code,10,50,78.97
+Wisard,2025-05-23 13:01:08,723.8396,Statlog (Shuttle),Scatter Code,10,50,78.97
+Wisard,2025-05-23 13:14:56,827.3156,Statlog (Shuttle),Scatter Code,10,50,78.97
+Wisard,2025-05-23 13:30:26,930.3460,Statlog (Shuttle),Scatter Code,10,50,78.97
+Wisard,2025-05-23 13:47:40,1033.8475,Statlog (Shuttle),Scatter Code,10,50,78.97
+Wisard,2025-05-23 13:47:41,0.0083,Ecoli,Scatter Code,10,50,86.49
+Wisard,2025-05-23 13:47:41,0.0072,Ecoli,Scatter Code,10,50,86.49
+Wisard,2025-05-23 13:47:41,0.0088,Ecoli,Scatter Code,10,50,86.49
+Wisard,2025-05-23 13:47:41,0.0069,Ecoli,Scatter Code,10,50,86.49
+Wisard,2025-05-23 13:47:41,0.0068,Ecoli,Scatter Code,10,50,86.49
+Wisard,2025-05-23 13:47:41,0.0068,Ecoli,Scatter Code,10,50,86.49
+Wisard,2025-05-23 13:47:41,0.0068,Ecoli,Scatter Code,10,50,86.49
+Wisard,2025-05-23 13:47:41,0.0068,Ecoli,Scatter Code,10,50,86.49
+Wisard,2025-05-23 13:47:42,0.0068,Ecoli,Scatter Code,10,50,86.49
+Wisard,2025-05-23 13:47:42,0.0068,Ecoli,Scatter Code,10,50,86.49
+Wisard,2025-05-23 13:47:43,0.0034,Iris,Scatter Code,10,50,98.0
+Wisard,2025-05-23 13:47:43,0.0033,Iris,Scatter Code,10,50,98.0
+Wisard,2025-05-23 13:47:43,0.0033,Iris,Scatter Code,10,50,98.0
+Wisard,2025-05-23 13:47:43,0.0033,Iris,Scatter Code,10,50,98.0
+Wisard,2025-05-23 13:47:43,0.0032,Iris,Scatter Code,10,50,98.0
+Wisard,2025-05-23 13:47:43,0.0033,Iris,Scatter Code,10,50,98.0
+Wisard,2025-05-23 13:47:43,0.0031,Iris,Scatter Code,10,50,98.0
+Wisard,2025-05-23 13:47:43,0.0082,Iris,Scatter Code,10,50,98.0
+Wisard,2025-05-23 13:47:43,0.0031,Iris,Scatter Code,10,50,98.0
+Wisard,2025-05-23 13:47:43,0.0032,Iris,Scatter Code,10,50,98.0
+Wisard,2025-05-23 13:47:46,1.3890,Wine Quality,Scatter Code,10,50,42.66
+Wisard,2025-05-23 13:47:49,2.6577,Wine Quality,Scatter Code,10,50,42.66
+Wisard,2025-05-23 13:47:52,3.8182,Wine Quality,Scatter Code,10,50,42.66
+Wisard,2025-05-23 13:47:57,5.0658,Wine Quality,Scatter Code,10,50,42.66
+Wisard,2025-05-23 13:48:04,6.3470,Wine Quality,Scatter Code,10,50,42.66
+Wisard,2025-05-23 13:48:11,7.4852,Wine Quality,Scatter Code,10,50,42.66
+Wisard,2025-05-23 13:48:20,8.6930,Wine Quality,Scatter Code,10,50,42.66
+Wisard,2025-05-23 13:48:30,9.9664,Wine Quality,Scatter Code,10,50,42.66
+Wisard,2025-05-23 13:48:41,11.0957,Wine Quality,Scatter Code,10,50,42.66
+Wisard,2025-05-23 13:48:53,12.3271,Wine Quality,Scatter Code,10,50,42.66
+Wisard,2025-05-23 13:48:55,0.1582,Statlog (Vehicle Silhouettes),Scatter Code,10,50,20.0
+Wisard,2025-05-23 13:48:55,0.2782,Statlog (Vehicle Silhouettes),Scatter Code,10,50,20.0
+Wisard,2025-05-23 13:48:56,0.3999,Statlog (Vehicle Silhouettes),Scatter Code,10,50,20.0
+Wisard,2025-05-23 13:48:56,0.5277,Statlog (Vehicle Silhouettes),Scatter Code,10,50,20.0
+Wisard,2025-05-23 13:48:57,0.6543,Statlog (Vehicle Silhouettes),Scatter Code,10,50,20.0
+Wisard,2025-05-23 13:48:58,0.7845,Statlog (Vehicle Silhouettes),Scatter Code,10,50,20.0
+Wisard,2025-05-23 13:48:59,0.9142,Statlog (Vehicle Silhouettes),Scatter Code,10,50,20.0
+Wisard,2025-05-23 13:49:00,1.0292,Statlog (Vehicle Silhouettes),Scatter Code,10,50,20.0
+Wisard,2025-05-23 13:49:01,1.1539,Statlog (Vehicle Silhouettes),Scatter Code,10,50,20.0
+Wisard,2025-05-23 13:49:02,1.2915,Statlog (Vehicle Silhouettes),Scatter Code,10,50,20.0
+Wisard,2025-05-23 13:49:03,0.0206,Maternal Health Risk,Scatter Code,10,50,60.0
+Wisard,2025-05-23 13:49:03,0.0224,Maternal Health Risk,Scatter Code,10,50,60.0
+Wisard,2025-05-23 13:49:03,0.0247,Maternal Health Risk,Scatter Code,10,50,60.0
+Wisard,2025-05-23 13:49:03,0.0278,Maternal Health Risk,Scatter Code,10,50,60.0
+Wisard,2025-05-23 13:49:03,0.0312,Maternal Health Risk,Scatter Code,10,50,60.0
+Wisard,2025-05-23 13:49:04,0.0347,Maternal Health Risk,Scatter Code,10,50,60.0
+Wisard,2025-05-23 13:49:04,0.0380,Maternal Health Risk,Scatter Code,10,50,60.0
+Wisard,2025-05-23 13:49:04,0.0455,Maternal Health Risk,Scatter Code,10,50,60.0
+Wisard,2025-05-23 13:49:04,0.0453,Maternal Health Risk,Scatter Code,10,50,60.0
+Wisard,2025-05-23 13:49:04,0.0530,Maternal Health Risk,Scatter Code,10,50,60.0
+Wisard,2025-05-23 13:49:05,0.0102,Glass Identification,Scatter Code,10,50,33.8
+Wisard,2025-05-23 13:49:05,0.0124,Glass Identification,Scatter Code,10,50,33.8
+Wisard,2025-05-23 13:49:05,0.0156,Glass Identification,Scatter Code,10,50,33.8
+Wisard,2025-05-23 13:49:05,0.0193,Glass Identification,Scatter Code,10,50,33.8
+Wisard,2025-05-23 13:49:05,0.0221,Glass Identification,Scatter Code,10,50,33.8
+Wisard,2025-05-23 13:49:05,0.0253,Glass Identification,Scatter Code,10,50,33.8
+Wisard,2025-05-23 13:49:05,0.0287,Glass Identification,Scatter Code,10,50,33.8
+Wisard,2025-05-23 13:49:05,0.0323,Glass Identification,Scatter Code,10,50,33.8
+Wisard,2025-05-23 13:49:05,0.0353,Glass Identification,Scatter Code,10,50,33.8
+Wisard,2025-05-23 13:49:05,0.0385,Glass Identification,Scatter Code,10,50,33.8
+Wisard,2025-05-23 13:53:47,249.5993,MNIST,Scatter Code,10,50,95.35
+Wisard,2025-05-23 13:58:22,275.2901,MNIST,Scatter Code,10,50,95.35
+Wisard,2025-05-23 14:02:59,276.7136,MNIST,Scatter Code,10,50,95.35
+Wisard,2025-05-23 14:07:36,277.1341,MNIST,Scatter Code,10,50,95.35
+Wisard,2025-05-23 14:11:58,261.9320,MNIST,Scatter Code,10,50,95.35
+Wisard,2025-05-23 14:16:34,275.5952,MNIST,Scatter Code,10,50,95.35
+Wisard,2025-05-23 14:21:13,279.4801,MNIST,Scatter Code,10,50,95.35
+Wisard,2025-05-23 14:25:48,274.3319,MNIST,Scatter Code,10,50,95.35
+Wisard,2025-05-23 14:30:08,260.3610,MNIST,Scatter Code,10,50,95.35
+Wisard,2025-05-23 14:34:45,276.9724,MNIST,Scatter Code,10,50,95.35
+Wisard,2025-05-23 14:34:58,1.1210,Optical Recognition of Handwritten Digits,Scatter Code,10,50,98.01
+Wisard,2025-05-23 14:34:59,1.0529,Optical Recognition of Handwritten Digits,Scatter Code,10,50,98.01
+Wisard,2025-05-23 14:35:00,1.1583,Optical Recognition of Handwritten Digits,Scatter Code,10,50,98.01
+Wisard,2025-05-23 14:35:01,1.0538,Optical Recognition of Handwritten Digits,Scatter Code,10,50,98.01
+Wisard,2025-05-23 14:35:03,1.1407,Optical Recognition of Handwritten Digits,Scatter Code,10,50,98.01
+Wisard,2025-05-23 14:35:04,1.0428,Optical Recognition of Handwritten Digits,Scatter Code,10,50,98.01
+Wisard,2025-05-23 14:35:05,1.1145,Optical Recognition of Handwritten Digits,Scatter Code,10,50,98.01
+Wisard,2025-05-23 14:35:06,1.1287,Optical Recognition of Handwritten Digits,Scatter Code,10,50,98.01
+Wisard,2025-05-23 14:35:07,1.0525,Optical Recognition of Handwritten Digits,Scatter Code,10,50,98.01
+Wisard,2025-05-23 14:35:08,1.3643,Optical Recognition of Handwritten Digits,Scatter Code,10,50,98.01
+Wisard,2025-05-23 14:35:10,0.0133,Image Segmentation,Scatter Code,10,50,44.29
+Wisard,2025-05-23 14:35:10,0.0142,Image Segmentation,Scatter Code,10,50,44.29
+Wisard,2025-05-23 14:35:10,0.0155,Image Segmentation,Scatter Code,10,50,44.29
+Wisard,2025-05-23 14:35:10,0.0170,Image Segmentation,Scatter Code,10,50,44.29
+Wisard,2025-05-23 14:35:10,0.0187,Image Segmentation,Scatter Code,10,50,44.29
+Wisard,2025-05-23 14:35:10,0.0206,Image Segmentation,Scatter Code,10,50,44.29
+Wisard,2025-05-23 14:35:10,0.0222,Image Segmentation,Scatter Code,10,50,44.29
+Wisard,2025-05-23 14:35:10,0.0290,Image Segmentation,Scatter Code,10,50,44.29
+Wisard,2025-05-23 14:35:10,0.0261,Image Segmentation,Scatter Code,10,50,44.29
+Wisard,2025-05-23 14:35:10,0.0272,Image Segmentation,Scatter Code,10,50,44.29
+Wisard,2025-05-23 14:36:56,104.3271,Statlog (Shuttle),Scatter Code,50,50,78.97
+Wisard,2025-05-23 14:40:24,207.7840,Statlog (Shuttle),Scatter Code,50,50,78.97
+Wisard,2025-05-23 14:45:35,310.6191,Statlog (Shuttle),Scatter Code,50,50,78.97
+Wisard,2025-05-23 14:52:29,413.9566,Statlog (Shuttle),Scatter Code,50,50,78.97
+Wisard,2025-05-23 15:01:06,517.0947,Statlog (Shuttle),Scatter Code,50,50,78.97
+Wisard,2025-05-23 15:11:26,619.9882,Statlog (Shuttle),Scatter Code,50,50,78.97
+Wisard,2025-05-23 15:23:29,723.3933,Statlog (Shuttle),Scatter Code,50,50,78.97
+Wisard,2025-05-23 15:37:16,826.3048,Statlog (Shuttle),Scatter Code,50,50,78.97
+Wisard,2025-05-23 15:52:45,929.6616,Statlog (Shuttle),Scatter Code,50,50,78.97
+Wisard,2025-05-23 16:09:58,1032.8862,Statlog (Shuttle),Scatter Code,50,50,78.97
+Wisard,2025-05-23 16:10:00,0.0086,Ecoli,Scatter Code,50,50,86.49
+Wisard,2025-05-23 16:10:00,0.0074,Ecoli,Scatter Code,50,50,86.49
+Wisard,2025-05-23 16:10:00,0.0091,Ecoli,Scatter Code,50,50,86.49
+Wisard,2025-05-23 16:10:00,0.0072,Ecoli,Scatter Code,50,50,86.49
+Wisard,2025-05-23 16:10:00,0.0071,Ecoli,Scatter Code,50,50,86.49
+Wisard,2025-05-23 16:10:00,0.0071,Ecoli,Scatter Code,50,50,86.49
+Wisard,2025-05-23 16:10:00,0.0070,Ecoli,Scatter Code,50,50,86.49
+Wisard,2025-05-23 16:10:00,0.0070,Ecoli,Scatter Code,50,50,86.49
+Wisard,2025-05-23 16:10:00,0.0071,Ecoli,Scatter Code,50,50,86.49
+Wisard,2025-05-23 16:10:00,0.0070,Ecoli,Scatter Code,50,50,86.49
+Wisard,2025-05-23 16:10:01,0.0037,Iris,Scatter Code,50,50,96.0
+Wisard,2025-05-23 16:10:01,0.0032,Iris,Scatter Code,50,50,96.0
+Wisard,2025-05-23 16:10:01,0.0030,Iris,Scatter Code,50,50,96.0
+Wisard,2025-05-23 16:10:01,0.0030,Iris,Scatter Code,50,50,96.0
+Wisard,2025-05-23 16:10:01,0.0030,Iris,Scatter Code,50,50,96.0
+Wisard,2025-05-23 16:10:01,0.0029,Iris,Scatter Code,50,50,96.0
+Wisard,2025-05-23 16:10:01,0.0029,Iris,Scatter Code,50,50,96.0
+Wisard,2025-05-23 16:10:01,0.0029,Iris,Scatter Code,50,50,96.0
+Wisard,2025-05-23 16:10:01,0.0028,Iris,Scatter Code,50,50,96.0
+Wisard,2025-05-23 16:10:01,0.0029,Iris,Scatter Code,50,50,96.0
+Wisard,2025-05-23 16:10:04,1.1691,Wine Quality,Scatter Code,50,50,40.75
+Wisard,2025-05-23 16:10:06,2.1074,Wine Quality,Scatter Code,50,50,40.75
+Wisard,2025-05-23 16:10:09,3.0922,Wine Quality,Scatter Code,50,50,40.75
+Wisard,2025-05-23 16:10:13,3.9905,Wine Quality,Scatter Code,50,50,40.75
+Wisard,2025-05-23 16:10:18,4.9800,Wine Quality,Scatter Code,50,50,40.75
+Wisard,2025-05-23 16:10:24,5.9186,Wine Quality,Scatter Code,50,50,40.75
+Wisard,2025-05-23 16:10:31,6.8523,Wine Quality,Scatter Code,50,50,40.75
+Wisard,2025-05-23 16:10:39,7.8175,Wine Quality,Scatter Code,50,50,40.75
+Wisard,2025-05-23 16:10:47,8.7729,Wine Quality,Scatter Code,50,50,40.75
+Wisard,2025-05-23 16:10:57,9.7203,Wine Quality,Scatter Code,50,50,40.75
+Wisard,2025-05-23 16:10:59,0.1586,Statlog (Vehicle Silhouettes),Scatter Code,50,50,20.0
+Wisard,2025-05-23 16:10:59,0.2801,Statlog (Vehicle Silhouettes),Scatter Code,50,50,20.0
+Wisard,2025-05-23 16:11:00,0.4066,Statlog (Vehicle Silhouettes),Scatter Code,50,50,20.0
+Wisard,2025-05-23 16:11:00,0.5469,Statlog (Vehicle Silhouettes),Scatter Code,50,50,20.0
+Wisard,2025-05-23 16:11:01,0.6750,Statlog (Vehicle Silhouettes),Scatter Code,50,50,20.0
+Wisard,2025-05-23 16:11:02,0.7788,Statlog (Vehicle Silhouettes),Scatter Code,50,50,20.0
+Wisard,2025-05-23 16:11:02,0.9029,Statlog (Vehicle Silhouettes),Scatter Code,50,50,20.0
+Wisard,2025-05-23 16:11:03,1.0357,Statlog (Vehicle Silhouettes),Scatter Code,50,50,20.0
+Wisard,2025-05-23 16:11:05,1.1714,Statlog (Vehicle Silhouettes),Scatter Code,50,50,20.0
+Wisard,2025-05-23 16:11:06,1.2746,Statlog (Vehicle Silhouettes),Scatter Code,50,50,20.0
+Wisard,2025-05-23 16:11:07,0.0190,Maternal Health Risk,Scatter Code,50,50,62.39
+Wisard,2025-05-23 16:11:07,0.0189,Maternal Health Risk,Scatter Code,50,50,62.39
+Wisard,2025-05-23 16:11:07,0.0194,Maternal Health Risk,Scatter Code,50,50,62.39
+Wisard,2025-05-23 16:11:07,0.0209,Maternal Health Risk,Scatter Code,50,50,62.39
+Wisard,2025-05-23 16:11:07,0.0225,Maternal Health Risk,Scatter Code,50,50,62.39
+Wisard,2025-05-23 16:11:07,0.0255,Maternal Health Risk,Scatter Code,50,50,62.39
+Wisard,2025-05-23 16:11:07,0.0259,Maternal Health Risk,Scatter Code,50,50,62.39
+Wisard,2025-05-23 16:11:07,0.0277,Maternal Health Risk,Scatter Code,50,50,62.39
+Wisard,2025-05-23 16:11:08,0.0294,Maternal Health Risk,Scatter Code,50,50,62.39
+Wisard,2025-05-23 16:11:08,0.0312,Maternal Health Risk,Scatter Code,50,50,62.39
+Wisard,2025-05-23 16:11:09,0.0077,Glass Identification,Scatter Code,50,50,54.93
+Wisard,2025-05-23 16:11:09,0.0072,Glass Identification,Scatter Code,50,50,54.93
+Wisard,2025-05-23 16:11:09,0.0079,Glass Identification,Scatter Code,50,50,54.93
+Wisard,2025-05-23 16:11:09,0.0086,Glass Identification,Scatter Code,50,50,54.93
+Wisard,2025-05-23 16:11:09,0.0092,Glass Identification,Scatter Code,50,50,54.93
+Wisard,2025-05-23 16:11:09,0.0098,Glass Identification,Scatter Code,50,50,54.93
+Wisard,2025-05-23 16:11:09,0.0106,Glass Identification,Scatter Code,50,50,54.93
+Wisard,2025-05-23 16:11:09,0.0112,Glass Identification,Scatter Code,50,50,54.93
+Wisard,2025-05-23 16:11:09,0.0119,Glass Identification,Scatter Code,50,50,54.93
+Wisard,2025-05-23 16:11:09,0.0126,Glass Identification,Scatter Code,50,50,54.93
+Wisard,2025-05-23 16:16:13,271.1720,MNIST,Scatter Code,50,50,95.63
+Wisard,2025-05-23 16:20:59,286.5812,MNIST,Scatter Code,50,50,95.63
+Wisard,2025-05-23 16:25:43,283.2963,MNIST,Scatter Code,50,50,95.63
+Wisard,2025-05-23 16:30:10,267.0228,MNIST,Scatter Code,50,50,95.63
+Wisard,2025-05-23 16:34:54,284.4794,MNIST,Scatter Code,50,50,95.63
+Wisard,2025-05-23 16:39:36,281.9409,MNIST,Scatter Code,50,50,95.63
+Wisard,2025-05-23 16:44:04,267.4515,MNIST,Scatter Code,50,50,95.63
+Wisard,2025-05-23 16:48:43,278.9441,MNIST,Scatter Code,50,50,95.63
+Wisard,2025-05-23 16:53:26,283.6641,MNIST,Scatter Code,50,50,95.63
+Wisard,2025-05-23 16:58:06,279.8552,MNIST,Scatter Code,50,50,95.63
+Wisard,2025-05-23 16:58:20,1.0719,Optical Recognition of Handwritten Digits,Scatter Code,50,50,97.95
+Wisard,2025-05-23 16:58:21,1.1285,Optical Recognition of Handwritten Digits,Scatter Code,50,50,97.95
+Wisard,2025-05-23 16:58:22,1.0210,Optical Recognition of Handwritten Digits,Scatter Code,50,50,97.95
+Wisard,2025-05-23 16:58:23,1.1332,Optical Recognition of Handwritten Digits,Scatter Code,50,50,97.95
+Wisard,2025-05-23 16:58:24,1.0148,Optical Recognition of Handwritten Digits,Scatter Code,50,50,97.95
+Wisard,2025-05-23 16:58:25,1.1151,Optical Recognition of Handwritten Digits,Scatter Code,50,50,97.95
+Wisard,2025-05-23 16:58:26,1.0179,Optical Recognition of Handwritten Digits,Scatter Code,50,50,97.95
+Wisard,2025-05-23 16:58:28,1.0927,Optical Recognition of Handwritten Digits,Scatter Code,50,50,97.95
+Wisard,2025-05-23 16:58:29,1.0923,Optical Recognition of Handwritten Digits,Scatter Code,50,50,97.95
+Wisard,2025-05-23 16:58:30,1.0177,Optical Recognition of Handwritten Digits,Scatter Code,50,50,97.95
+Wisard,2025-05-23 16:58:31,0.0123,Image Segmentation,Scatter Code,50,50,75.71
+Wisard,2025-05-23 16:58:31,0.0111,Image Segmentation,Scatter Code,50,50,75.71
+Wisard,2025-05-23 16:58:31,0.0113,Image Segmentation,Scatter Code,50,50,75.71
+Wisard,2025-05-23 16:58:31,0.0116,Image Segmentation,Scatter Code,50,50,75.71
+Wisard,2025-05-23 16:58:31,0.0120,Image Segmentation,Scatter Code,50,50,75.71
+Wisard,2025-05-23 16:58:31,0.0124,Image Segmentation,Scatter Code,50,50,75.71
+Wisard,2025-05-23 16:58:31,0.0139,Image Segmentation,Scatter Code,50,50,75.71
+Wisard,2025-05-23 16:58:31,0.0131,Image Segmentation,Scatter Code,50,50,75.71
+Wisard,2025-05-23 16:58:31,0.0135,Image Segmentation,Scatter Code,50,50,75.71
+Wisard,2025-05-23 16:58:31,0.0139,Image Segmentation,Scatter Code,50,50,75.71
+Wisard,2025-05-23 17:00:18,104.8416,Statlog (Shuttle),Scatter Code,100,50,78.98
+Wisard,2025-05-23 17:03:47,208.1251,Statlog (Shuttle),Scatter Code,100,50,78.98
+Wisard,2025-05-23 17:08:58,311.7776,Statlog (Shuttle),Scatter Code,100,50,78.98
+Wisard,2025-05-23 17:15:54,415.2412,Statlog (Shuttle),Scatter Code,100,50,78.98
+Wisard,2025-05-23 17:24:32,518.5753,Statlog (Shuttle),Scatter Code,100,50,78.98
