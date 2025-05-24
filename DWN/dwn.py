@@ -151,24 +151,30 @@ class DWN(object):
 
         num_classes = len(torch.unique(all_labels))
 
-        model = nn.Sequential(
-            dwn.LUTLayer(x_train.size(1), 64, n=6, mapping="learnable"),
-            dwn.LUTLayer(64, 64, n=6),
-            dwn.GroupSum(k=num_classes, tau=1 / 0.3),
-        )
-
-        model = model.cuda()
-        optimizer = torch.optim.Adam(model.parameters(), lr=1e-2)
-        scheduler = torch.optim.lr_scheduler.StepLR(optimizer, gamma=0.1, step_size=14)
-
-        n_samples = x_train.shape[0]
-        accuracies = []
-
         for i in range(self.repeat_times):
-            for epoch in range(self.epochs):
-
+            
+            try:
                 tracker = EmissionsTracker()
                 tracker.start()
+            except print(0):
+                pass
+            
+            model = nn.Sequential(
+                dwn.LUTLayer(x_train.size(1), 64, n=6, mapping="learnable"),
+                dwn.LUTLayer(64, 64, n=6),
+                dwn.GroupSum(k=num_classes, tau=1 / 0.3),
+            )
+
+            model = model.cuda()
+            optimizer = torch.optim.Adam(model.parameters(), lr=1e-2)
+            scheduler = torch.optim.lr_scheduler.StepLR(
+                optimizer, gamma=0.1, step_size=14
+            )
+
+            n_samples = x_train.shape[0]
+            accuracies = []
+
+            for epoch in range(self.epochs):
 
                 training_time = time.time()
                 model.train()
@@ -203,7 +209,7 @@ class DWN(object):
                 elapsed_testing_time = time.time() - testing_time
                 accuracy = f"{test_acc:.4f}"
                 accuracies.append(f"{test_acc:.4f}")
-
+            
                 new_row = pd.DataFrame(
                     {
                         "model": ["DWN"],
@@ -213,7 +219,7 @@ class DWN(object):
                         "delta_time": [
                             f"{elapsed_training_time + elapsed_testing_time:.4f}"
                         ],
-                        "emissions": [tracker.stop()],
+                        "emissions": [emissions],
                         "dataset": [self.current_dataset],
                         "encoding": [encoder["encoding"]],
                         "num_slices": [
