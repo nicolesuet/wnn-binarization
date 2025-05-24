@@ -93,7 +93,7 @@ class Wisard(object):
                 tracker.start()
             except print(0):
                 pass
-            
+
             wsd = wp.Wisard(
                 self.address_size, ignoreZero=self.ignore_zero, verbose=self.verbose
             )

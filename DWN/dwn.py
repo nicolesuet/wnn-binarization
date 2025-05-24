@@ -152,13 +152,16 @@ class DWN(object):
         num_classes = len(torch.unique(all_labels))
 
         for i in range(self.repeat_times):
-            
+
             try:
                 tracker = EmissionsTracker()
                 tracker.start()
             except print(0):
                 pass
-            
+
+            total_training_time = 0
+            total_testing_time = 0
+
             model = nn.Sequential(
                 dwn.LUTLayer(x_train.size(1), 64, n=6, mapping="learnable"),
                 dwn.LUTLayer(64, 64, n=6),
@@ -179,6 +182,8 @@ class DWN(object):
                 training_time = time.time()
                 model.train()
                 elapsed_training_time = time.time() - training_time
+
+                total_training_time += elapsed_training_time
 
                 permutation = torch.randperm(n_samples)
                 correct_train = 0
@@ -204,65 +209,69 @@ class DWN(object):
 
                 train_acc = correct_train / total_train
                 scheduler.step()
+
                 testing_time = time.time()
                 test_acc = self.evaluate(model, X_test.float(), y_test.float())
                 elapsed_testing_time = time.time() - testing_time
+                total_testing_time += elapsed_testing_time
+
                 accuracy = f"{test_acc:.4f}"
                 accuracies.append(f"{test_acc:.4f}")
-            
-                new_row = pd.DataFrame(
-                    {
-                        "model": ["DWN"],
-                        "time": [datetime.now().strftime("%Y-%m-%d %H:%M:%S")],
-                        "training_time": [f"{elapsed_training_time:.4f}"],
-                        "testing_time": [f"{elapsed_testing_time:.4f}"],
-                        "delta_time": [
-                            f"{elapsed_training_time + elapsed_testing_time:.4f}"
-                        ],
-                        "emissions": [emissions],
-                        "dataset": [self.current_dataset],
-                        "encoding": [encoder["encoding"]],
-                        "num_slices": [
-                            (
-                                self.num_slices
-                                if encoder["encoding"] == "Scatter Code"
-                                else ""
-                            )
-                        ],
-                        "num_dimensions": [
-                            (
-                                self.num_dimensions
-                                if encoder["encoding"] == "Scatter Code"
-                                else ""
-                            )
-                        ],
-                        "accuracy": [accuracy],
-                    },
-                    columns=[
-                        "model",
-                        "time",
-                        "training_time",
-                        "testing_time",
-                        "delta_time",
-                        "emissions",
-                        "dataset",
-                        "encoding",
-                        "num_slices",
-                        "num_dimensions",
-                        "accuracy",
-                    ],
-                )
-
-                new_row.to_csv(
-                    self.csv_file,
-                    mode="a",
-                    index=False,
-                    header=add_header(self.csv_file),
-                )
 
                 logging.info(
                     f"Epoch {epoch + 1}/{self.epochs}, Train Loss: {loss.item():.4f}, Train Accuracy: {train_acc:.4f}, Test Accuracy: {test_acc:.4f}"
                 )
+
+            try:
+                emissions = tracker.stop()
+            except print(0):
+                pass
+
+            avg_accuracy = sum([float(a) for a in accuracies]) / len(accuracies)
+
+            new_row = pd.DataFrame(
+                {
+                    "model": ["DWN"],
+                    "time": [datetime.now().strftime("%Y-%m-%d %H:%M:%S")],
+                    "training_time": [f"{total_training_time:.4f}"],
+                    "testing_time": [f"{total_testing_time:.4f}"],
+                    "delta_time": [f"{total_training_time + total_testing_time:.4f}"],
+                    "emissions": [emissions],
+                    "dataset": [self.current_dataset],
+                    "encoding": [encoder["encoding"]],
+                    "num_slices": [
+                        self.num_slices if encoder["encoding"] == "Scatter Code" else ""
+                    ],
+                    "num_dimensions": [
+                        (
+                            self.num_dimensions
+                            if encoder["encoding"] == "Scatter Code"
+                            else ""
+                        )
+                    ],
+                    "accuracy": [f"{avg_accuracy:.4f}"],
+                },
+                columns=[
+                    "model",
+                    "time",
+                    "training_time",
+                    "testing_time",
+                    "delta_time",
+                    "emissions",
+                    "dataset",
+                    "encoding",
+                    "num_slices",
+                    "num_dimensions",
+                    "accuracy",
+                ],
+            )
+
+            new_row.to_csv(
+                self.csv_file,
+                mode="a",
+                index=False,
+                header=add_header(self.csv_file),
+            )
 
     def evaluate(self, model, x_test, y_test, device="cuda"):
         model.eval()
