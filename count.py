@@ -30,8 +30,8 @@ with open(file_name, mode='r') as file:
         else:
             not_recognized += 1
         
-        dataset = row[3]
-        encoding = row[4]
+        dataset = row[6]
+        encoding = row[7]
         
         datasets.add(dataset)
         
