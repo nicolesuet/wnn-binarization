@@ -27,7 +27,12 @@ from utils import (
 import torch
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-
+log_file = os.path.join(os.path.dirname(__file__), "wisard.log")
+logging.basicConfig(
+    level=logging.INFO,
+    format="[WISARD] - %(asctime)s - %(levelname)s - %(message)s",
+    handlers=[logging.FileHandler(log_file), logging.StreamHandler()],
+)
 class Wisard(object):
 
     num_slices: str
@@ -88,27 +93,35 @@ class Wisard(object):
                 f"Epoch {i + 1}/{self.epochs} for {self.current_dataset}, num_slices: {self.num_slices}, num_dimensions: {self.num_dimensions}"
             )
 
-            start_time = time.time()
-
             flatten_y_train = np.array(y_train).flatten().astype(str).tolist()
             x_train_int = to_int_list(x_train)
-
+            
+            # tamanho da entrada em bits => (numero de features * bits binarizados (Tamanho de x_train[0]))
+            # qtd de neuronios => tamanho da entrada / address_size
+            
+            
+            start_time_training = time.time()
             wsd.train(x_train_int, flatten_y_train)
-
+            elapsed_time_training = time.time() - start_time_training
             X_test_int = to_int_list(X_test)
+            
+            start_time_classification = time.time()
             predictions = wsd.classify(X_test_int)
+            elapsed_time_classification = time.time() - start_time_classification
+            
             y_test_list, predictions_list = prepare_labels(y_test, predictions)
 
             accuracy = round(accuracy_score(y_test_list, predictions_list) * 100, 2)
             conf_matrix = confusion_matrix(y_test_list, predictions_list)
 
-            elapsed_time = time.time() - start_time
 
             new_row = pd.DataFrame(
                 {
                     "model": ["Wisard"],
                     "time": [datetime.now().strftime("%Y-%m-%d %H:%M:%S")],
-                    "delta_time": [f"{elapsed_time:.4f}"],
+                    "training_time": [f"{elapsed_time_training:.4f}"],
+                    "testing_time": [f"{elapsed_time_classification:.4f}"],
+                    "delta_time": [f"{elapsed_time_training + elapsed_time_classification:.4f}"],
                     "dataset": [self.current_dataset],
                     "encoding": [encoder["encoding"]],
                     "num_slices": [
@@ -126,6 +139,8 @@ class Wisard(object):
                 columns=[
                     "model",
                     "time",
+                    "training_time",
+                    "testing_time",
                     "delta_time",
                     "dataset",
                     "encoding",
@@ -149,9 +164,6 @@ class Wisard(object):
 
         if id == "MNIST":
             X, y, name = load_mnist()
-            # X_train, X_test, y_train, y_test, name = load_mnist()
-            # y = torch.cat((y_train, y_test), dim=0)
-            # X = torch.cat((X_train, X_test), dim=0)
         else:
             X, y, name = load_from_uci(id)
         
@@ -202,21 +214,3 @@ class Wisard(object):
             dataset_id = dataset["id"]
 
             self.execute_dataset(dataset_id)
-
-        # MAX_DATASET_THREADS = 1
-        # with ThreadPoolExecutor(max_workers=MAX_DATASET_THREADS) as executor:
-        #     futures = []
-        #     for dataset in self.datasets:
-
-        #         self.num_bits_thermometer = dataset.get("num_bits_thermometer", 10)
-        #         self.address_size = dataset.get("address_size", 10)
-        #         dataset_id = dataset["id"]
-
-        #         future = executor.submit(self.execute_dataset, dataset_id)
-        #         futures.append(future)
-
-        #     for future in as_completed(futures):
-        #         try:
-        #             future.result()
-        #         except Exception as e:
-        #             logging.error(f"Dataset thread encountered an error: {e}", exc_info=True)

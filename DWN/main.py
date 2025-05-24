@@ -8,7 +8,7 @@ from datasets import datasets
 log_file = os.path.join(os.path.dirname(__file__), "dwn.log")
 logging.basicConfig(
     level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
+    format="[DW] - %(asctime)s - %(levelname)s - %(message)s",
     handlers=[logging.FileHandler(log_file), logging.StreamHandler()],
 )
 
@@ -16,7 +16,6 @@ logging.info("Starting the script")
 
 num_slices_range = [10, 50, 100]  # Reduced range
 num_dimensions_range = [50]  # Reduced range
-
 
 def log_resource_usage():
     process = psutil.Process(os.getpid())
@@ -36,7 +35,8 @@ def run_dwn(num_slices, num_dimensions, datasets, scatter_code):
         num_dimensions=num_dimensions,
         num_bits_thermometer=10,
         datasets=datasets,
-        epochs=10,
+        epochs=100,
+        times=10,
         batch_size=32,
         scatter_code=scatter_code,
     )
@@ -44,28 +44,6 @@ def run_dwn(num_slices, num_dimensions, datasets, scatter_code):
     dwn_obj.run()
     log_resource_usage()
 
-
-# # Limit the number of concurrent threads
-# MAX_THREADS = 30
-
-# with ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
-#     futures = []
-#     for num_slices in num_slices_range:
-#         for num_dimensions in num_dimensions_range:
-#             future = executor.submit(
-#                 run_dwn, num_slices, num_dimensions, datasets, scatter_code=True
-#             )
-#             futures.append(future)
-#     future = executor.submit(
-#         run_dwn, num_slices, num_dimensions, datasets, scatter_code=False
-#     )
-#     futures.append(future)
-
-#     for future in as_completed(futures):
-#         try:
-#             future.result()  # Wait for each thread to complete
-#         except Exception as e:
-#             logging.error(f"Thread encountered an error: {e}")
 
 run_dwn(
     0, 0, datasets, scatter_code=False

@@ -23,6 +23,13 @@ import torch_dwn as dwn
 from torch.nn.functional import cross_entropy
 import threading
 
+log_file = os.path.join(os.path.dirname(__file__), "dwn.log")
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="[DWN] - %(asctime)s - %(levelname)s - %(message)s",
+    handlers=[logging.FileHandler(log_file), logging.StreamHandler()],
+)
 
 class DWN(object):
 
@@ -33,6 +40,7 @@ class DWN(object):
     datasets: list
     csv_file: str
     epochs: int
+    repeat_times: int
     device: str
     batch_size: int
     current_dataset: str
@@ -44,6 +52,7 @@ class DWN(object):
         num_dimensions,
         num_bits_thermometer,
         datasets,
+        times=10,
         epochs=10,
         batch_size=32,
         scatter_code=False,
@@ -52,6 +61,7 @@ class DWN(object):
         self.num_dimensions = num_dimensions
         self.num_bits_thermometer = num_bits_thermometer
         self.datasets = datasets
+        self.repeat_times = times
         self.epochs = epochs
         self.batch_size = batch_size
         self.current_dataset = ""
@@ -78,29 +88,8 @@ class DWN(object):
             self.num_bits_thermometer = dataset.get("num_bits_thermometer", 10)
             self.address_size = dataset.get("address_size", 10)
             dataset_id = dataset["id"]
-            
+
             self.execute_dataset(dataset_id)
-
-
-        # # Limit the number of concurrent threads for dataset processing
-        # MAX_DATASET_THREADS = 30  # Adjust based on your system's capabilities
-
-        # with ThreadPoolExecutor(max_workers=MAX_DATASET_THREADS) as executor:
-        #     futures = []
-        #     for dataset in self.datasets:
-
-        #         self.num_bits_thermometer = dataset.get("num_bits_thermometer", 10)
-        #         self.address_size = dataset.get("address_size", 10)
-        #         dataset_id = dataset["id"]
-
-        #         future = executor.submit(self.execute_dataset, dataset_id)
-        #         futures.append(future)
-
-        #     for future in as_completed(futures):
-        #         try:
-        #             future.result()
-        #         except Exception as e:
-        #             logging.error(f"Dataset thread encountered an error: {e}")
 
     def execute_dataset(self, dataset_id):
 
@@ -108,22 +97,8 @@ class DWN(object):
             f"Processing dataset ID: {dataset_id}, num_slices: {self.num_slices}, num_dimensions: {self.num_dimensions}"
         )
 
-        #if dataset_id == "MNIST":
-        #    X_train, X_test, y_train, y_test, name = load_mnist()
-        #    X = torch.cat((X_train, X_test), dim=0)
-       # else:
-       #     X, y, name = load_from_uci(dataset_id)
-       #     y = encode_labels(y)
-       #     print("Unique labels (encoded):", torch.unique(y))
-       #     X_train, X_test, y_train, y_test = train_test_split(
-       #         X, y, test_size=0.33, random_state=42
-       #     )
-
         if dataset_id == "MNIST":
             X, y, name = load_mnist()
-            # X_train, X_test, y_train, y_test, name = load_mnist()
-            # y = torch.cat((y_train, y_test), dim=0)
-            # X = torch.cat((X_train, X_test), dim=0)
         else:
             X, y, name = load_from_uci(dataset_id)
 
@@ -171,12 +146,8 @@ class DWN(object):
             f"Evaluating model with encoder: {encoder['encoding']}, num_slices: {self.num_slices}, num_dimensions: {self.num_dimensions}"
         )
 
-        #all_labels = torch.cat([
-        #    torch.as_tensor(y_train.values.astype("int64")),
-        #    torch.as_tensor(y_test.values.astype("int64"))
-        #])
         all_labels = torch.cat([y_train, y_test])
-        
+
         num_classes = len(torch.unique(all_labels))
 
         model = nn.Sequential(
@@ -192,79 +163,87 @@ class DWN(object):
         n_samples = x_train.shape[0]
         accuracies = []
 
-        for epoch in range(self.epochs):
+        for i in range(self.repeat_times):
+            for epoch in range(self.epochs):
 
-            start_time = time.time()
+                training_time = time.time()
+                model.train()
+                elapsed_training_time = time.time() - training_time
 
-            model.train()
+                permutation = torch.randperm(n_samples)
+                correct_train = 0
+                total_train = 0
 
-            permutation = torch.randperm(n_samples)
-            correct_train = 0
-            total_train = 0
+                for i in range(0, n_samples, self.batch_size):
+                    optimizer.zero_grad()
 
-            for i in range(0, n_samples, self.batch_size):
-                optimizer.zero_grad()
+                    indices = permutation[i : i + self.batch_size]
+                    batch_x, batch_y = (
+                        x_train[indices].cuda(self.device).float(),
+                        y_train[indices].cuda(self.device),
+                    )
 
-                indices = permutation[i : i + self.batch_size]
-                batch_x, batch_y = (
-                    x_train[indices].cuda(self.device).float(),
-                    y_train[indices].cuda(self.device),
+                    outputs = model(batch_x)
+                    loss = cross_entropy(outputs, batch_y)
+                    loss.backward()
+                    optimizer.step()
+
+                    pred_train = outputs.argmax(dim=1)
+                    correct_train += (pred_train == batch_y).sum().item()
+                    total_train += batch_y.size(0)
+
+                train_acc = correct_train / total_train
+                scheduler.step()
+                testing_time = time.time()
+                test_acc = self.evaluate(model, X_test.float(), y_test.float())
+                elapsed_testing_time = time.time() - testing_time
+                accuracy = f"{test_acc:.4f}"
+                accuracies.append(f"{test_acc:.4f}")
+
+                new_row = pd.DataFrame(
+                    {
+                        "model": ["DWN"],
+                        "time": [datetime.now().strftime("%Y-%m-%d %H:%M:%S")],
+                        "training_time": [f"{elapsed_training_time:.4f}"],
+                        "testing_time": [f"{elapsed_testing_time:.4f}"],
+                        "delta_time": [
+                            f"{elapsed_training_time + elapsed_testing_time:.4f}"
+                        ],
+                        "dataset": [self.current_dataset],
+                        "encoding": [encoder["encoding"]],
+                        "num_slices": [
+                            self.num_slices if encoder["encoding"] == "Scatter Code" else ""
+                        ],
+                        "num_dimensions": [
+                            (
+                                self.num_dimensions
+                                if encoder["encoding"] == "Scatter Code"
+                                else ""
+                            )
+                        ],
+                        "accuracy": [accuracy],
+                    },
+                    columns=[
+                        "model",
+                        "time",
+                        "training_time",
+                        "testing_time",
+                        "delta_time",
+                        "dataset",
+                        "encoding",
+                        "num_slices",
+                        "num_dimensions",
+                        "accuracy",
+                    ],
                 )
 
-                outputs = model(batch_x)
-                loss = cross_entropy(outputs, batch_y)
-                loss.backward()
-                optimizer.step()
+                new_row.to_csv(
+                    self.csv_file, mode="a", index=False, header=add_header(self.csv_file)
+                )
 
-                pred_train = outputs.argmax(dim=1)
-                correct_train += (pred_train == batch_y).sum().item()
-                total_train += batch_y.size(0)
-
-            train_acc = correct_train / total_train
-            scheduler.step()
-            test_acc = self.evaluate(model, X_test.float(), y_test.float())
-            accuracy = f"{test_acc:.4f}"
-            accuracies.append(f"{test_acc:.4f}")
-            elapsed_time = time.time() - start_time
-
-            new_row = pd.DataFrame(
-                {
-                    "model": ["DWN"],
-                    "time": [datetime.now().strftime("%Y-%m-%d %H:%M:%S")],
-                    "delta_time": [f"{elapsed_time:.4f}"],
-                    "dataset": [self.current_dataset],
-                    "encoding": [encoder["encoding"]],
-                    "num_slices": [
-                        self.num_slices if encoder["encoding"] == "Scatter Code" else ""
-                    ],
-                    "num_dimensions": [
-                        (
-                            self.num_dimensions
-                            if encoder["encoding"] == "Scatter Code"
-                            else ""
-                        )
-                    ],
-                    "accuracy": [accuracy],
-                },
-                columns=[
-                    "model",
-                    "time",
-                    "delta_time",
-                    "dataset",
-                    "encoding",
-                    "num_slices",
-                    "num_dimensions",
-                    "accuracy",
-                ],
-            )
-
-            new_row.to_csv(
-                self.csv_file, mode="a", index=False, header=add_header(self.csv_file)
-            )
-
-            logging.info(
-                f"Epoch {epoch + 1}/{self.epochs}, Train Loss: {loss.item():.4f}, Train Accuracy: {train_acc:.4f}, Test Accuracy: {test_acc:.4f}"
-            )
+                logging.info(
+                    f"Epoch {epoch + 1}/{self.epochs}, Train Loss: {loss.item():.4f}, Train Accuracy: {train_acc:.4f}, Test Accuracy: {test_acc:.4f}"
+                )
 
     def evaluate(self, model, x_test, y_test, device="cuda"):
         model.eval()

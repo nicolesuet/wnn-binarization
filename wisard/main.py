@@ -7,7 +7,7 @@ from datasets import datasets
 log_file = os.path.join(os.path.dirname(__file__), "wisard.log")
 logging.basicConfig(
     level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
+    format="[WISARD] - %(asctime)s - %(levelname)s - %(message)s",
     handlers=[logging.FileHandler(log_file), logging.StreamHandler()],
 )
 
@@ -15,8 +15,6 @@ logging.info("Starting the script")
 
 num_slices_range = [10, 50, 100]
 num_dimensions_range = [50]
-
-
 
 # Function to run Wisard
 def run_wisard(num_slices, num_dimensions, datasets, scatter_code):
@@ -35,30 +33,6 @@ def run_wisard(num_slices, num_dimensions, datasets, scatter_code):
     )
 
     wisard.run()
-
-
-# MAX_THREADS = 1
-
-# with ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
-#     futures = []
-
-#     for num_slices in num_slices_range:
-#         for num_dimensions in num_dimensions_range:
-#             future = executor.submit(
-#                 run_wisard, num_slices, num_dimensions, datasets, scatter_code=True
-#             )
-#             futures.append(future)
-
-#     future = executor.submit(run_wisard, 0, 0, datasets, scatter_code=False)
-#     futures.append(future)
-
-#     for future in as_completed(futures):
-#         try:
-#             future.result()
-#         except Exception as e:
-#             logging.error(f"Thread encountered an error: {e}", exc_info=True)
-
-# logging.info("Finishing the script")
 
 run_wisard(0, 0, datasets, scatter_code=False)
 
