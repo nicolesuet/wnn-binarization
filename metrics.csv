@@ -1,31 +1,6 @@
-model,time,training_time,testing_time,delta_time,dataset,encoding,num_slices,num_dimensions,accuracy
-Wisard,2025-05-24 18:26:26,2.5140,4.5005,7.0145,Statlog (Shuttle),Distributive,,,99.81
-Wisard,2025-05-24 18:26:28,0.4510,0.4671,0.9181,Statlog (Shuttle),Distributive,,,99.81
-Wisard,2025-05-24 18:26:31,0.4464,0.5666,1.0130,Statlog (Shuttle),Distributive,,,99.81
-Wisard,2025-05-24 18:26:33,0.4412,0.4634,0.9046,Statlog (Shuttle),Distributive,,,99.81
-Wisard,2025-05-24 18:26:36,0.4325,0.4629,0.8955,Statlog (Shuttle),Distributive,,,99.81
-Wisard,2025-05-24 18:26:38,0.4323,0.4855,0.9177,Statlog (Shuttle),Distributive,,,99.81
-Wisard,2025-05-24 18:36:12,0.6732,0.5302,1.2035,Statlog (Shuttle),Distributive,,,99.81
-Wisard,2025-05-24 18:36:14,0.4493,0.4710,0.9204,Statlog (Shuttle),Distributive,,,99.81
-Wisard,2025-05-24 18:36:16,0.4405,0.5033,0.9438,Statlog (Shuttle),Distributive,,,99.81
-Wisard,2025-05-24 18:36:18,0.4566,0.4843,0.9408,Statlog (Shuttle),Distributive,,,99.81
-Wisard,2025-05-24 18:36:21,0.4579,0.4826,0.9406,Statlog (Shuttle),Distributive,,,99.81
-Wisard,2025-05-24 18:36:23,0.4624,0.4941,0.9565,Statlog (Shuttle),Distributive,,,99.81
-Wisard,2025-05-24 18:36:25,0.4838,0.5046,0.9884,Statlog (Shuttle),Distributive,,,99.81
-Wisard,2025-05-24 18:36:27,0.4532,0.4886,0.9418,Statlog (Shuttle),Distributive,,,99.81
-Wisard,2025-05-24 18:36:29,0.4841,0.5091,0.9932,Statlog (Shuttle),Distributive,,,99.81
-Wisard,2025-05-24 18:36:31,0.4691,0.5626,1.0316,Statlog (Shuttle),Distributive,,,99.81
-Wisard,2025-05-24 18:36:33,0.4469,0.4892,0.9361,Statlog (Shuttle),Gaussian,,,99.85
-Wisard,2025-05-24 18:36:36,0.4385,0.4892,0.9276,Statlog (Shuttle),Gaussian,,,99.85
-Wisard,2025-05-24 18:36:37,0.4396,0.4920,0.9315,Statlog (Shuttle),Gaussian,,,99.85
-Wisard,2025-05-24 18:36:40,0.4342,0.4841,0.9183,Statlog (Shuttle),Gaussian,,,99.85
-Wisard,2025-05-24 18:36:42,0.4405,0.4859,0.9263,Statlog (Shuttle),Gaussian,,,99.85
-Wisard,2025-05-24 18:36:44,0.4344,0.4923,0.9267,Statlog (Shuttle),Gaussian,,,99.85
-Wisard,2025-05-24 18:36:46,0.4297,0.5537,0.9834,Statlog (Shuttle),Gaussian,,,99.85
-Wisard,2025-05-24 18:36:48,0.4372,0.4959,0.9331,Statlog (Shuttle),Gaussian,,,99.85
-Wisard,2025-05-24 18:36:50,0.4789,0.4927,0.9716,Statlog (Shuttle),Gaussian,,,99.85
-Wisard,2025-05-24 18:36:52,0.4351,0.4885,0.9236,Statlog (Shuttle),Gaussian,,,99.85
-Wisard,2025-05-24 18:36:55,0.4382,1.5188,1.9570,Statlog (Shuttle),Linear,,,99.41
-Wisard,2025-05-24 18:36:59,0.4276,2.5345,2.9621,Statlog (Shuttle),Linear,,,99.41
-Wisard,2025-05-24 18:37:04,0.4400,3.4856,3.9256,Statlog (Shuttle),Linear,,,99.41
-Wisard,2025-05-24 18:37:11,0.4328,4.5199,4.9527,Statlog (Shuttle),Linear,,,99.41
+model,time,training_time,testing_time,delta_time,emissions,dataset,encoding,num_slices,num_dimensions,accuracy
+Wisard,2025-05-24 18:41:10,0.4553,0.4754,0.9306,1.9260354778026398e-07,Statlog (Shuttle),Distributive,,,99.81
+Wisard,2025-05-24 18:41:26,0.4419,0.4629,0.9048,2.1869362578328546e-07,Statlog (Shuttle),Distributive,,,99.81
+Wisard,2025-05-24 18:41:41,0.4546,0.4788,0.9334,3.8272297234141215e-07,Statlog (Shuttle),Distributive,,,99.81
+Wisard,2025-05-24 18:42:00,0.4460,0.4697,0.9157,2.5411337900464e-07,Statlog (Shuttle),Distributive,,,99.81
+Wisard,2025-05-24 18:42:16,0.4419,0.4661,0.9080,2.4517805792553143e-07,Statlog (Shuttle),Distributive,,,99.81

@@ -24,6 +24,7 @@ from utils import (
     to_int_list,
     prepare_labels,
 )
+from codecarbon import EmissionsTracker
 import torch
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -33,6 +34,8 @@ logging.basicConfig(
     format="[WISARD] - %(asctime)s - %(levelname)s - %(message)s",
     handlers=[logging.FileHandler(log_file), logging.StreamHandler()],
 )
+
+
 class Wisard(object):
 
     num_slices: str
@@ -89,31 +92,34 @@ class Wisard(object):
 
         for i in range(self.epochs):
 
+            tracker = EmissionsTracker()
+            tracker.start()
+
             logging.info(
                 f"Epoch {i + 1}/{self.epochs} for {self.current_dataset}, num_slices: {self.num_slices}, num_dimensions: {self.num_dimensions}"
             )
 
             flatten_y_train = np.array(y_train).flatten().astype(str).tolist()
             x_train_int = to_int_list(x_train)
-            
+
             # tamanho da entrada em bits => (numero de features * bits binarizados (Tamanho de x_train[0]))
             # qtd de neuronios => tamanho da entrada / address_size
-            
-            
+
             start_time_training = time.time()
             wsd.train(x_train_int, flatten_y_train)
             elapsed_time_training = time.time() - start_time_training
             X_test_int = to_int_list(X_test)
-            
+
             start_time_classification = time.time()
             predictions = wsd.classify(X_test_int)
             elapsed_time_classification = time.time() - start_time_classification
-            
+
             y_test_list, predictions_list = prepare_labels(y_test, predictions)
 
             accuracy = round(accuracy_score(y_test_list, predictions_list) * 100, 2)
             conf_matrix = confusion_matrix(y_test_list, predictions_list)
 
+            tracker.stop()
 
             new_row = pd.DataFrame(
                 {
@@ -121,7 +127,10 @@ class Wisard(object):
                     "time": [datetime.now().strftime("%Y-%m-%d %H:%M:%S")],
                     "training_time": [f"{elapsed_time_training:.4f}"],
                     "testing_time": [f"{elapsed_time_classification:.4f}"],
-                    "delta_time": [f"{elapsed_time_training + elapsed_time_classification:.4f}"],
+                    "delta_time": [
+                        f"{elapsed_time_training + elapsed_time_classification:.4f}"
+                    ],
+                    "emissions": [tracker.stop()],
                     "dataset": [self.current_dataset],
                     "encoding": [encoder["encoding"]],
                     "num_slices": [
@@ -142,6 +151,7 @@ class Wisard(object):
                     "training_time",
                     "testing_time",
                     "delta_time",
+                    "emissions",
                     "dataset",
                     "encoding",
                     "num_slices",
@@ -166,7 +176,7 @@ class Wisard(object):
             X, y, name = load_mnist()
         else:
             X, y, name = load_from_uci(id)
-        
+
         X_train, X_test, y_train, y_test = train_test_split(
             X, y, test_size=0.33, random_state=42
         )
@@ -206,7 +216,7 @@ class Wisard(object):
         )
 
     def run(self):
-        
+
         for dataset in self.datasets:
 
             self.num_bits_thermometer = dataset.get("num_bits_thermometer", 10)

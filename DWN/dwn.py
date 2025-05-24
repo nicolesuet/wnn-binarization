@@ -21,7 +21,7 @@ from utils import (
 from torch import nn
 import torch_dwn as dwn
 from torch.nn.functional import cross_entropy
-import threading
+from codecarbon import EmissionsTracker
 
 log_file = os.path.join(os.path.dirname(__file__), "dwn.log")
 
@@ -30,6 +30,7 @@ logging.basicConfig(
     format="[DWN] - %(asctime)s - %(levelname)s - %(message)s",
     handlers=[logging.FileHandler(log_file), logging.StreamHandler()],
 )
+
 
 class DWN(object):
 
@@ -166,6 +167,9 @@ class DWN(object):
         for i in range(self.repeat_times):
             for epoch in range(self.epochs):
 
+                tracker = EmissionsTracker()
+                tracker.start()
+
                 training_time = time.time()
                 model.train()
                 elapsed_training_time = time.time() - training_time
@@ -209,10 +213,15 @@ class DWN(object):
                         "delta_time": [
                             f"{elapsed_training_time + elapsed_testing_time:.4f}"
                         ],
+                        "emissions": [tracker.stop()],
                         "dataset": [self.current_dataset],
                         "encoding": [encoder["encoding"]],
                         "num_slices": [
-                            self.num_slices if encoder["encoding"] == "Scatter Code" else ""
+                            (
+                                self.num_slices
+                                if encoder["encoding"] == "Scatter Code"
+                                else ""
+                            )
                         ],
                         "num_dimensions": [
                             (
@@ -229,6 +238,7 @@ class DWN(object):
                         "training_time",
                         "testing_time",
                         "delta_time",
+                        "emissions",
                         "dataset",
                         "encoding",
                         "num_slices",
@@ -238,7 +248,10 @@ class DWN(object):
                 )
 
                 new_row.to_csv(
-                    self.csv_file, mode="a", index=False, header=add_header(self.csv_file)
+                    self.csv_file,
+                    mode="a",
+                    index=False,
+                    header=add_header(self.csv_file),
                 )
 
                 logging.info(
