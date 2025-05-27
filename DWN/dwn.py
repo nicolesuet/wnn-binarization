@@ -222,56 +222,56 @@ class DWN(object):
                     f"Epoch {epoch + 1}/{self.epochs}, Train Loss: {loss.item():.4f}, Train Accuracy: {train_acc:.4f}, Test Accuracy: {test_acc:.4f}"
                 )
 
-            try:
-                emissions = tracker.stop()
-            except print(0):
-                pass
+                try:
+                    emissions = tracker.stop()
+                except print(0):
+                    pass
 
-            avg_accuracy = sum([float(a) for a in accuracies]) / len(accuracies)
+            # avg_accuracy = sum([float(a) for a in accuracies]) / len(accuracies)
 
-            new_row = pd.DataFrame(
-                {
-                    "model": ["DWN"],
-                    "time": [datetime.now().strftime("%Y-%m-%d %H:%M:%S")],
-                    "training_time": [f"{total_training_time:.4f}"],
-                    "testing_time": [f"{total_testing_time:.4f}"],
-                    "delta_time": [f"{total_training_time + total_testing_time:.4f}"],
-                    "emissions": [emissions],
-                    "dataset": [self.current_dataset],
-                    "encoding": [encoder["encoding"]],
-                    "num_slices": [
-                        self.num_slices if encoder["encoding"] == "Scatter Code" else ""
+                new_row = pd.DataFrame(
+                    {
+                        "model": ["DWN"],
+                        "time": [datetime.now().strftime("%Y-%m-%d %H:%M:%S")],
+                        "training_time": [f"{total_training_time:.4f}"],
+                        "testing_time": [f"{total_testing_time:.4f}"],
+                        "delta_time": [f"{total_training_time + total_testing_time:.4f}"],
+                        "emissions": [emissions],
+                        "dataset": [self.current_dataset],
+                        "encoding": [encoder["encoding"]],
+                        "num_slices": [
+                            self.num_slices if encoder["encoding"] == "Scatter Code" else ""
+                        ],
+                        "num_dimensions": [
+                            (
+                                self.num_dimensions
+                                if encoder["encoding"] == "Scatter Code"
+                                else ""
+                            )
+                        ],
+                        "accuracy": [f"{test_acc:.4f}"],
+                    },
+                    columns=[
+                        "model",
+                        "time",
+                        "training_time",
+                        "testing_time",
+                        "delta_time",
+                        "emissions",
+                        "dataset",
+                        "encoding",
+                        "num_slices",
+                        "num_dimensions",
+                        "accuracy",
                     ],
-                    "num_dimensions": [
-                        (
-                            self.num_dimensions
-                            if encoder["encoding"] == "Scatter Code"
-                            else ""
-                        )
-                    ],
-                    "accuracy": [f"{avg_accuracy:.4f}"],
-                },
-                columns=[
-                    "model",
-                    "time",
-                    "training_time",
-                    "testing_time",
-                    "delta_time",
-                    "emissions",
-                    "dataset",
-                    "encoding",
-                    "num_slices",
-                    "num_dimensions",
-                    "accuracy",
-                ],
-            )
+                )
 
-            new_row.to_csv(
-                self.csv_file,
-                mode="a",
-                index=False,
-                header=add_header(self.csv_file),
-            )
+                new_row.to_csv(
+                    self.csv_file,
+                    mode="a",
+                    index=False,
+                    header=add_header(self.csv_file),
+                )
 
     def evaluate(self, model, x_test, y_test, device="cuda"):
         model.eval()
