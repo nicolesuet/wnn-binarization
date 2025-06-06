@@ -6,91 +6,91 @@
 
 | Dataset                                   | Encoding     |   Mean Accuracy |   Standard Deviation |
 |:------------------------------------------|:-------------|----------------:|---------------------:|
-| Ecoli                                     | Gaussian     |        0.65721  |          0.0607862   |
-| Ecoli                                     | Linear       |        0.64549  |          0.044071    |
-| Ecoli                                     | Distributive |        0.60721  |          0.0636644   |
-| Ecoli                                     | Scatter Code |        0.59641  |          0.116213    |
-| Glass Identification                      | Linear       |        0.540845 |          0.102727    |
-| Glass Identification                      | Gaussian     |        0.530275 |          0.0751232   |
-| Glass Identification                      | Distributive |        0.50845  |          0.0963846   |
-| Glass Identification                      | Scatter Code |        0.357283 |          0.0630438   |
-| Image Segmentation                        | Linear       |        0.62429  |          0.0989652   |
-| Image Segmentation                        | Gaussian     |        0.60002  |          0.135875    |
-| Image Segmentation                        | Distributive |        0.53429  |          0.157261    |
-| Image Segmentation                        | Scatter Code |        0.333817 |          0.167498    |
-| Iris                                      | Distributive |        0.894    |          0.0831232   |
-| Iris                                      | Gaussian     |        0.861    |          0.118139    |
-| Iris                                      | Linear       |        0.836    |          0.134806    |
-| Iris                                      | Scatter Code |        0.732    |          0.291422    |
-| MNIST                                     | Distributive |        0.79109  |          0.00623689  |
-| MNIST                                     | Linear       |        0.78592  |          0.00520828  |
-| MNIST                                     | Gaussian     |        0.78151  |          0.00415918  |
-| MNIST                                     | Scatter Code |        0.562747 |          0.329586    |
-| Maternal Health Risk                      | Distributive |        0.670905 |          0.0545406   |
-| Maternal Health Risk                      | Gaussian     |        0.65641  |          0.0481163   |
-| Maternal Health Risk                      | Linear       |        0.654335 |          0.0347832   |
-| Maternal Health Risk                      | Scatter Code |        0.526473 |          0.115587    |
-| Optical Recognition of Handwritten Digits | Linear       |        0.81681  |          0.0406651   |
-| Optical Recognition of Handwritten Digits | Distributive |        0.81522  |          0.0284088   |
-| Optical Recognition of Handwritten Digits | Gaussian     |        0.81213  |          0.0302338   |
-| Optical Recognition of Handwritten Digits | Scatter Code |        0.582963 |          0.346861    |
-| Statlog (Shuttle)                         | Distributive |        0.995355 |          0.00137093  |
-| Statlog (Shuttle)                         | Gaussian     |        0.99493  |          0.00115581  |
-| Statlog (Shuttle)                         | Linear       |        0.99313  |          0.00160954  |
-| Statlog (Shuttle)                         | Scatter Code |        0.789797 |          1.82574e-05 |
-| Statlog (Vehicle Silhouettes)             | Scatter Code |        0.192367 |          0.103292    |
-| Statlog (Vehicle Silhouettes)             | Gaussian     |        0.17679  |          0.0275281   |
-| Statlog (Vehicle Silhouettes)             | Linear       |        0.174835 |          0.0265856   |
-| Statlog (Vehicle Silhouettes)             | Distributive |        0.1584   |          0.0293627   |
-| Wine Quality                              | Distributive |        0.528675 |          0.0121642   |
-| Wine Quality                              | Gaussian     |        0.52839  |          0.0095748   |
-| Wine Quality                              | Linear       |        0.527245 |          0.0114878   |
-| Wine Quality                              | Scatter Code |        0.414637 |          0.0442596   |
+| Ecoli                                     | Gaussian     |        0.747045 |          0.0629101   |
+| Ecoli                                     | Linear       |        0.721087 |          0.0448384   |
+| Ecoli                                     | Distributive |        0.692396 |          0.0495672   |
+| Ecoli                                     | Scatter Code |        0.647703 |          0.14118     |
+| Glass Identification                      | Distributive |        0.637795 |          0.0638814   |
+| Glass Identification                      | Linear       |        0.637451 |          0.0507757   |
+| Glass Identification                      | Gaussian     |        0.629255 |          0.0537544   |
+| Glass Identification                      | Scatter Code |        0.397215 |          0.0987872   |
+| Image Segmentation                        | Gaussian     |        0.729341 |          0.0645089   |
+| Image Segmentation                        | Linear       |        0.72834  |          0.0627946   |
+| Image Segmentation                        | Distributive |        0.715867 |          0.0665026   |
+| Image Segmentation                        | Scatter Code |        0.407632 |          0.217205    |
+| Iris                                      | Linear       |        0.96782  |          0.0384282   |
+| Iris                                      | Distributive |        0.95814  |          0.0483578   |
+| Iris                                      | Gaussian     |        0.95686  |          0.0440145   |
+| Iris                                      | Scatter Code |        0.765133 |          0.30509     |
+| MNIST                                     | Linear       |        0.793438 |          0.00418545  |
+| MNIST                                     | Distributive |        0.792061 |          0.00468739  |
+| MNIST                                     | Gaussian     |        0.790073 |          0.00602458  |
+| MNIST                                     | Scatter Code |        0.565512 |          0.32586     |
+| Maternal Health Risk                      | Distributive |        0.733027 |          0.0290893   |
+| Maternal Health Risk                      | Gaussian     |        0.708129 |          0.0250285   |
+| Maternal Health Risk                      | Linear       |        0.69918  |          0.0242996   |
+| Maternal Health Risk                      | Scatter Code |        0.552391 |          0.136114    |
+| Optical Recognition of Handwritten Digits | Linear       |        0.838417 |          0.0129039   |
+| Optical Recognition of Handwritten Digits | Distributive |        0.838301 |          0.0149689   |
+| Optical Recognition of Handwritten Digits | Gaussian     |        0.835813 |          0.0135726   |
+| Optical Recognition of Handwritten Digits | Scatter Code |        0.592503 |          0.349549    |
+| Statlog (Shuttle)                         | Gaussian     |        0.995883 |          0.000610757 |
+| Statlog (Shuttle)                         | Distributive |        0.995623 |          0.000883211 |
+| Statlog (Shuttle)                         | Linear       |        0.992291 |          0.00352005  |
+| Statlog (Shuttle)                         | Scatter Code |        0.789781 |          3.88902e-05 |
+| Statlog (Vehicle Silhouettes)             | Scatter Code |        0.232012 |          0.0592558   |
+| Statlog (Vehicle Silhouettes)             | Gaussian     |        0.15733  |          0.0201786   |
+| Statlog (Vehicle Silhouettes)             | Distributive |        0.150699 |          0.0189153   |
+| Statlog (Vehicle Silhouettes)             | Linear       |        0.14169  |          0.0264458   |
+| Wine Quality                              | Distributive |        0.544666 |          0.00963513  |
+| Wine Quality                              | Gaussian     |        0.539524 |          0.00871618  |
+| Wine Quality                              | Linear       |        0.533917 |          0.00817536  |
+| Wine Quality                              | Scatter Code |        0.409264 |          0.0446618   |
 
 ### Wisard: All Encoding Results
 
 | Dataset                                   | Encoding     |   Mean Accuracy |   Standard Deviation |
 |:------------------------------------------|:-------------|----------------:|---------------------:|
-| Ecoli                                     | Scatter Code |         86.49   |           0          |
-| Ecoli                                     | Gaussian     |         85.59   |           0          |
-| Ecoli                                     | Linear       |         83.78   |           0          |
-| Ecoli                                     | Distributive |         81.98   |           0          |
-| Glass Identification                      | Distributive |         77.46   |           0          |
-| Glass Identification                      | Gaussian     |         73.24   |           0          |
-| Glass Identification                      | Linear       |         71.83   |           0          |
-| Glass Identification                      | Scatter Code |         44.365  |          10.8395     |
-| Image Segmentation                        | Distributive |         81.43   |           0          |
-| Image Segmentation                        | Gaussian     |         81.43   |           0          |
-| Image Segmentation                        | Linear       |         77.14   |           0          |
-| Image Segmentation                        | Scatter Code |         60      |          16.1181     |
-| Iris                                      | Distributive |         98      |           0          |
-| Iris                                      | Scatter Code |         97      |           1.02598    |
-| Iris                                      | Linear       |         96      |           0          |
-| Iris                                      | Gaussian     |         92      |           0          |
-| MNIST                                     | Scatter Code |         95.49   |           0.143637   |
-| MNIST                                     | Distributive |         95.42   |           0          |
-| MNIST                                     | Linear       |         95.3    |           0          |
-| MNIST                                     | Gaussian     |         94.86   |           0          |
-| Maternal Health Risk                      | Distributive |         76.72   |           0          |
-| Maternal Health Risk                      | Gaussian     |         75.82   |           0          |
-| Maternal Health Risk                      | Linear       |         73.43   |           0          |
-| Maternal Health Risk                      | Scatter Code |         61.195  |           1.22604    |
-| Optical Recognition of Handwritten Digits | Scatter Code |         97.98   |           0.0307794  |
-| Optical Recognition of Handwritten Digits | Linear       |         97.04   |           0          |
-| Optical Recognition of Handwritten Digits | Gaussian     |         96.82   |           0          |
-| Optical Recognition of Handwritten Digits | Distributive |         95.63   |           0          |
-| Statlog (Shuttle)                         | Gaussian     |         99.84   |           0          |
-| Statlog (Shuttle)                         | Distributive |         99.82   |           0          |
-| Statlog (Shuttle)                         | Linear       |         96.08   |           0          |
-| Statlog (Shuttle)                         | Scatter Code |         78.9716 |           0.00373878 |
-| Statlog (Vehicle Silhouettes)             | Distributive |         72.86   |           0          |
-| Statlog (Vehicle Silhouettes)             | Gaussian     |         68.21   |           0          |
-| Statlog (Vehicle Silhouettes)             | Linear       |         66.43   |           0          |
+| Ecoli                                     | Gaussian     |         84.684  |           2.24945    |
+| Ecoli                                     | Linear       |         83.512  |           2.0838     |
+| Ecoli                                     | Distributive |         82.341  |           2.13148    |
+| Ecoli                                     | Scatter Code |         72.314  |          19.0433     |
+| Glass Identification                      | Distributive |         78.448  |           1.63231    |
+| Glass Identification                      | Gaussian     |         77.463  |           1.99011    |
+| Glass Identification                      | Linear       |         70.703  |           2.95542    |
+| Glass Identification                      | Scatter Code |         41.924  |          10.7389     |
+| Image Segmentation                        | Distributive |         85.286  |           3.23225    |
+| Image Segmentation                        | Gaussian     |         83.714  |           2.25135    |
+| Image Segmentation                        | Linear       |         82.429  |           2.69735    |
+| Image Segmentation                        | Scatter Code |         41.7147 |          24.6851     |
+| Iris                                      | Linear       |         97.2    |           2.14994    |
+| Iris                                      | Gaussian     |         96.6    |           3.53396    |
+| Iris                                      | Distributive |         95.2    |           2.52982    |
+| Iris                                      | Scatter Code |         75.2667 |          32.5745     |
+| MNIST                                     | Linear       |         95.505  |           0.132014   |
+| MNIST                                     | Distributive |         95.448  |           0.0723878  |
+| MNIST                                     | Gaussian     |         94.771  |           0.0855635  |
+| MNIST                                     | Scatter Code |         67.4277 |          40.3884     |
+| Maternal Health Risk                      | Distributive |         76.506  |           1.12687    |
+| Maternal Health Risk                      | Gaussian     |         75.163  |           1.19043    |
+| Maternal Health Risk                      | Linear       |         71.105  |           1.3777     |
+| Maternal Health Risk                      | Scatter Code |         55.0743 |          12.2924     |
+| Optical Recognition of Handwritten Digits | Linear       |         97.1    |           0.214217   |
+| Optical Recognition of Handwritten Digits | Gaussian     |         96.754  |           0.304127   |
+| Optical Recognition of Handwritten Digits | Distributive |         95.657  |           0.211558   |
+| Optical Recognition of Handwritten Digits | Scatter Code |         68.5787 |          41.9141     |
+| Statlog (Shuttle)                         | Gaussian     |         99.834  |           0.0117379  |
+| Statlog (Shuttle)                         | Distributive |         99.812  |           0.00421637 |
+| Statlog (Shuttle)                         | Linear       |         98      |           0.804432   |
+| Statlog (Shuttle)                         | Scatter Code |         78.974  |           0.00621455 |
+| Statlog (Vehicle Silhouettes)             | Distributive |         72.607  |           2.54991    |
+| Statlog (Vehicle Silhouettes)             | Gaussian     |         70.356  |           2.26634    |
+| Statlog (Vehicle Silhouettes)             | Linear       |         65.286  |           2.21284    |
 | Statlog (Vehicle Silhouettes)             | Scatter Code |         20      |           0          |
-| Wine Quality                              | Distributive |         62.42   |           0          |
-| Wine Quality                              | Gaussian     |         61.77   |           0          |
-| Wine Quality                              | Linear       |         50.07   |           0          |
-| Wine Quality                              | Scatter Code |         41.705  |           0.979809   |
+| Wine Quality                              | Distributive |         63.017  |           0.73394    |
+| Wine Quality                              | Gaussian     |         62.175  |           0.759814   |
+| Wine Quality                              | Linear       |         48.922  |           0.759909   |
+| Wine Quality                              | Scatter Code |         42.7787 |           2.65385    |
 
 ## Best Encodings per Dataset
 
@@ -98,246 +98,264 @@
 
 | Dataset                                   | Best Encoding   |   Mean Accuracy |   Standard Deviation |
 |:------------------------------------------|:----------------|----------------:|---------------------:|
-| Ecoli                                     | Gaussian        |        0.65721  |           0.0607862  |
-| Glass Identification                      | Linear          |        0.540845 |           0.102727   |
-| Image Segmentation                        | Linear          |        0.62429  |           0.0989652  |
-| Iris                                      | Distributive    |        0.894    |           0.0831232  |
-| MNIST                                     | Distributive    |        0.79109  |           0.00623689 |
-| Maternal Health Risk                      | Distributive    |        0.670905 |           0.0545406  |
-| Optical Recognition of Handwritten Digits | Linear          |        0.81681  |           0.0406651  |
-| Statlog (Shuttle)                         | Distributive    |        0.995355 |           0.00137093 |
-| Statlog (Vehicle Silhouettes)             | Scatter Code    |        0.192367 |           0.103292   |
-| Wine Quality                              | Distributive    |        0.528675 |           0.0121642  |
+| Ecoli                                     | Gaussian        |        0.747045 |          0.0629101   |
+| Glass Identification                      | Distributive    |        0.637795 |          0.0638814   |
+| Image Segmentation                        | Gaussian        |        0.729341 |          0.0645089   |
+| Iris                                      | Linear          |        0.96782  |          0.0384282   |
+| MNIST                                     | Linear          |        0.793438 |          0.00418545  |
+| Maternal Health Risk                      | Distributive    |        0.733027 |          0.0290893   |
+| Optical Recognition of Handwritten Digits | Linear          |        0.838417 |          0.0129039   |
+| Statlog (Shuttle)                         | Gaussian        |        0.995883 |          0.000610757 |
+| Statlog (Vehicle Silhouettes)             | Scatter Code    |        0.232012 |          0.0592558   |
+| Wine Quality                              | Distributive    |        0.544666 |          0.00963513  |
 
 ### Wisard: Best Encoding for Each Dataset
 
 | Dataset                                   | Best Encoding   |   Mean Accuracy |   Standard Deviation |
 |:------------------------------------------|:----------------|----------------:|---------------------:|
-| Ecoli                                     | Scatter Code    |           86.49 |            0         |
-| Glass Identification                      | Distributive    |           77.46 |            0         |
-| Image Segmentation                        | Distributive    |           81.43 |            0         |
-| Iris                                      | Distributive    |           98    |            0         |
-| MNIST                                     | Scatter Code    |           95.49 |            0.143637  |
-| Maternal Health Risk                      | Distributive    |           76.72 |            0         |
-| Optical Recognition of Handwritten Digits | Scatter Code    |           97.98 |            0.0307794 |
-| Statlog (Shuttle)                         | Gaussian        |           99.84 |            0         |
-| Statlog (Vehicle Silhouettes)             | Distributive    |           72.86 |            0         |
-| Wine Quality                              | Distributive    |           62.42 |            0         |
+| Ecoli                                     | Gaussian        |          84.684 |            2.24945   |
+| Glass Identification                      | Distributive    |          78.448 |            1.63231   |
+| Image Segmentation                        | Distributive    |          85.286 |            3.23225   |
+| Iris                                      | Linear          |          97.2   |            2.14994   |
+| MNIST                                     | Linear          |          95.505 |            0.132014  |
+| Maternal Health Risk                      | Distributive    |          76.506 |            1.12687   |
+| Optical Recognition of Handwritten Digits | Linear          |          97.1   |            0.214217  |
+| Statlog (Shuttle)                         | Gaussian        |          99.834 |            0.0117379 |
+| Statlog (Vehicle Silhouettes)             | Distributive    |          72.607 |            2.54991   |
+| Wine Quality                              | Distributive    |          63.017 |            0.73394   |
 
 ## Optimal Scatter Code Configurations
 
 ### DWN
 
-| dataset                                   |   num_dimensions |   num_slices |    mean |         std | model   |
-|:------------------------------------------|-----------------:|-------------:|--------:|------------:|:--------|
-| Ecoli                                     |               50 |           10 | 0.68017 | 0.0773059   | DWN     |
-| Ecoli                                     |               50 |           50 | 0.64956 | 0.0760275   | DWN     |
-| Ecoli                                     |               50 |          100 | 0.4595  | 0           | DWN     |
-| Glass Identification                      |               50 |           10 | 0.33238 | 0.015124    | DWN     |
-| Glass Identification                      |               50 |           50 | 0.41269 | 0.083482    | DWN     |
-| Glass Identification                      |               50 |          100 | 0.32678 | 0.021792    | DWN     |
-| Image Segmentation                        |               50 |           10 | 0.38857 | 0.0776013   | DWN     |
-| Image Segmentation                        |               50 |           50 | 0.46858 | 0.142979    | DWN     |
-| Image Segmentation                        |               50 |          100 | 0.1443  | 0.0227707   | DWN     |
-| Iris                                      |               50 |           10 | 0.894   | 0.112368    | DWN     |
-| Iris                                      |               50 |           50 | 0.962   | 0.0332666   | DWN     |
-| Iris                                      |               50 |          100 | 0.34    | 0.0352767   | DWN     |
-| MNIST                                     |               50 |           10 | 0.79569 | 0.00674528  | DWN     |
-| MNIST                                     |               50 |           50 | 0.78791 | 0.0106996   | DWN     |
-| MNIST                                     |               50 |          100 | 0.10464 | 0.00749032  | DWN     |
-| Maternal Health Risk                      |               50 |           10 | 0.57433 | 0.0492521   | DWN     |
-| Maternal Health Risk                      |               50 |           50 | 0.62836 | 0.039442    | DWN     |
-| Maternal Health Risk                      |               50 |          100 | 0.37673 | 0.00864652  | DWN     |
-| Optical Recognition of Handwritten Digits |               50 |           10 | 0.82247 | 0.0325158   | DWN     |
-| Optical Recognition of Handwritten Digits |               50 |           50 | 0.82469 | 0.0247455   | DWN     |
-| Optical Recognition of Handwritten Digits |               50 |          100 | 0.10173 | 0.00496478  | DWN     |
-| Statlog (Shuttle)                         |               50 |           10 | 0.78979 | 3.16228e-05 | DWN     |
-| Statlog (Shuttle)                         |               50 |           50 | 0.7898  | 0           | DWN     |
-| Statlog (Shuttle)                         |               50 |          100 | 0.7898  | 0           | DWN     |
-| Statlog (Vehicle Silhouettes)             |               50 |           10 | 0.18142 | 0.100708    | DWN     |
-| Statlog (Vehicle Silhouettes)             |               50 |           50 | 0.20355 | 0.112645    | DWN     |
-| Statlog (Vehicle Silhouettes)             |               50 |          100 | 0.19213 | 0.106185    | DWN     |
-| Wine Quality                              |               50 |           10 | 0.42326 | 0.00484245  | DWN     |
-| Wine Quality                              |               50 |           50 | 0.42203 | 0.0216328   | DWN     |
-| Wine Quality                              |               50 |          100 | 0.39862 | 0.0734318   | DWN     |
+| dataset                                   |   num_dimensions |   num_slices |      mean |         std | model   |
+|:------------------------------------------|-----------------:|-------------:|----------:|------------:|:--------|
+| Ecoli                                     |               50 |           10 | 0.740949  | 0.0530492   | DWN     |
+| Ecoli                                     |               50 |           50 | 0.744822  | 0.0449512   | DWN     |
+| Ecoli                                     |               50 |          100 | 0.457338  | 0.0240915   | DWN     |
+| Glass Identification                      |               50 |           10 | 0.350014  | 0.0128665   | DWN     |
+| Glass Identification                      |               50 |           50 | 0.523797  | 0.0654335   | DWN     |
+| Glass Identification                      |               50 |          100 | 0.317834  | 0.0164963   | DWN     |
+| Image Segmentation                        |               50 |           10 | 0.449815  | 0.0471261   | DWN     |
+| Image Segmentation                        |               50 |           50 | 0.64177   | 0.0766425   | DWN     |
+| Image Segmentation                        |               50 |          100 | 0.13131   | 0.0211492   | DWN     |
+| Iris                                      |               50 |           10 | 0.98142   | 0.0445193   | DWN     |
+| Iris                                      |               50 |           50 | 0.97682   | 0.0328659   | DWN     |
+| Iris                                      |               50 |          100 | 0.33716   | 0.0365578   | DWN     |
+| MNIST                                     |               50 |           10 | 0.796549  | 0.00567646  | DWN     |
+| MNIST                                     |               50 |           50 | 0.79516   | 0.00416209  | DWN     |
+| MNIST                                     |               50 |          100 | 0.104828  | 0.00717091  | DWN     |
+| Maternal Health Risk                      |               50 |           10 | 0.606316  | 0.0245706   | DWN     |
+| Maternal Health Risk                      |               50 |           50 | 0.681326  | 0.025961    | DWN     |
+| Maternal Health Risk                      |               50 |          100 | 0.36953   | 0.0362888   | DWN     |
+| Optical Recognition of Handwritten Digits |               50 |           10 | 0.840424  | 0.0122671   | DWN     |
+| Optical Recognition of Handwritten Digits |               50 |           50 | 0.838622  | 0.0118778   | DWN     |
+| Optical Recognition of Handwritten Digits |               50 |          100 | 0.0984629 | 0.00500028  | DWN     |
+| Statlog (Shuttle)                         |               50 |           10 | 0.789752  | 4.99994e-05 | DWN     |
+| Statlog (Shuttle)                         |               50 |           50 | 0.789793  | 2.60267e-05 | DWN     |
+| Statlog (Shuttle)                         |               50 |          100 | 0.7898    | 0           | DWN     |
+| Statlog (Vehicle Silhouettes)             |               50 |           10 | 0.237097  | 0.0516572   | DWN     |
+| Statlog (Vehicle Silhouettes)             |               50 |           50 | 0.228428  | 0.0742344   | DWN     |
+| Statlog (Vehicle Silhouettes)             |               50 |          100 | 0.230512  | 0.0481722   | DWN     |
+| Wine Quality                              |               50 |           10 | 0.408321  | 0.011317    | DWN     |
+| Wine Quality                              |               50 |           50 | 0.427535  | 0.0148642   | DWN     |
+| Wine Quality                              |               50 |          100 | 0.391937  | 0.0707348   | DWN     |
 
 ### Wisard
 
-| dataset                                   |   num_dimensions |   num_slices |   mean |   std | model   |
-|:------------------------------------------|-----------------:|-------------:|-------:|------:|:--------|
-| Ecoli                                     |               50 |           10 |  86.49 |     0 | Wisard  |
-| Ecoli                                     |               50 |           50 |  86.49 |     0 | Wisard  |
-| Glass Identification                      |               50 |           10 |  33.8  |     0 | Wisard  |
-| Glass Identification                      |               50 |           50 |  54.93 |     0 | Wisard  |
-| Image Segmentation                        |               50 |           10 |  44.29 |     0 | Wisard  |
-| Image Segmentation                        |               50 |           50 |  75.71 |     0 | Wisard  |
-| Iris                                      |               50 |           10 |  98    |     0 | Wisard  |
-| Iris                                      |               50 |           50 |  96    |     0 | Wisard  |
-| MNIST                                     |               50 |           10 |  95.35 |     0 | Wisard  |
-| MNIST                                     |               50 |           50 |  95.63 |     0 | Wisard  |
-| Maternal Health Risk                      |               50 |           10 |  60    |     0 | Wisard  |
-| Maternal Health Risk                      |               50 |           50 |  62.39 |     0 | Wisard  |
-| Optical Recognition of Handwritten Digits |               50 |           10 |  98.01 |     0 | Wisard  |
-| Optical Recognition of Handwritten Digits |               50 |           50 |  97.95 |     0 | Wisard  |
-| Statlog (Shuttle)                         |               50 |           10 |  78.97 |     0 | Wisard  |
-| Statlog (Shuttle)                         |               50 |           50 |  78.97 |     0 | Wisard  |
-| Statlog (Shuttle)                         |               50 |          100 |  78.98 |     0 | Wisard  |
-| Statlog (Vehicle Silhouettes)             |               50 |           10 |  20    |     0 | Wisard  |
-| Statlog (Vehicle Silhouettes)             |               50 |           50 |  20    |     0 | Wisard  |
-| Wine Quality                              |               50 |           10 |  42.66 |     0 | Wisard  |
-| Wine Quality                              |               50 |           50 |  40.75 |     0 | Wisard  |
+| dataset                                   |   num_dimensions |   num_slices |   mean |        std | model   |
+|:------------------------------------------|-----------------:|-------------:|-------:|-----------:|:--------|
+| Ecoli                                     |               50 |           10 | 86.037 | 2.2987     | Wisard  |
+| Ecoli                                     |               50 |           50 | 84.955 | 2.04108    | Wisard  |
+| Ecoli                                     |               50 |          100 | 45.95  | 0          | Wisard  |
+| Glass Identification                      |               50 |           10 | 33.8   | 1.32936    | Wisard  |
+| Glass Identification                      |               50 |           50 | 56.762 | 1.33565    | Wisard  |
+| Glass Identification                      |               50 |          100 | 35.21  | 0          | Wisard  |
+| Image Segmentation                        |               50 |           10 | 46.715 | 3.30165    | Wisard  |
+| Image Segmentation                        |               50 |           50 | 68.429 | 3.77714    | Wisard  |
+| Image Segmentation                        |               50 |          100 | 10     | 0          | Wisard  |
+| Iris                                      |               50 |           10 | 98.4   | 0.843274   | Wisard  |
+| Iris                                      |               50 |           50 | 97.4   | 1.64655    | Wisard  |
+| Iris                                      |               50 |          100 | 30     | 0          | Wisard  |
+| MNIST                                     |               50 |           10 | 95.433 | 0.0598238  | Wisard  |
+| MNIST                                     |               50 |           50 | 95.58  | 0.0444722  | Wisard  |
+| MNIST                                     |               50 |          100 | 11.27  | 0          | Wisard  |
+| Maternal Health Risk                      |               50 |           10 | 62.507 | 1.40244    | Wisard  |
+| Maternal Health Risk                      |               50 |           50 | 64.506 | 2.94825    | Wisard  |
+| Maternal Health Risk                      |               50 |          100 | 38.21  | 0          | Wisard  |
+| Optical Recognition of Handwritten Digits |               50 |           10 | 97.748 | 0.182562   | Wisard  |
+| Optical Recognition of Handwritten Digits |               50 |           50 | 97.688 | 0.233371   | Wisard  |
+| Optical Recognition of Handwritten Digits |               50 |          100 | 10.3   | 0          | Wisard  |
+| Statlog (Shuttle)                         |               50 |           10 | 78.97  | 0          | Wisard  |
+| Statlog (Shuttle)                         |               50 |           50 | 78.972 | 0.00788811 | Wisard  |
+| Statlog (Shuttle)                         |               50 |          100 | 78.98  | 0          | Wisard  |
+| Statlog (Vehicle Silhouettes)             |               50 |           10 | 20     | 0          | Wisard  |
+| Statlog (Vehicle Silhouettes)             |               50 |           50 | 20     | 0          | Wisard  |
+| Statlog (Vehicle Silhouettes)             |               50 |          100 | 20     | 0          | Wisard  |
+| Wine Quality                              |               50 |           10 | 41.815 | 2.09469    | Wisard  |
+| Wine Quality                              |               50 |           50 | 40.971 | 2.26052    | Wisard  |
+| Wine Quality                              |               50 |          100 | 45.55  | 0          | Wisard  |
 
 ## Delta Time Comparisons
 
 ### DWN
 
-| dataset                                   | encoding     |       mean |         std | model   |
-|:------------------------------------------|:-------------|-----------:|------------:|:--------|
-| Ecoli                                     | Distributive |  0.02186   | 0.00375309  | DWN     |
-| Ecoli                                     | Gaussian     |  0.023175  | 0.0043648   | DWN     |
-| Ecoli                                     | Linear       |  0.024255  | 0.00495426  | DWN     |
-| Ecoli                                     | Scatter Code |  0.0228267 | 0.00220437  | DWN     |
-| Glass Identification                      | Distributive |  0.024375  | 0.00689201  | DWN     |
-| Glass Identification                      | Gaussian     |  0.01829   | 0.00253105  | DWN     |
-| Glass Identification                      | Linear       |  0.01837   | 0.00288409  | DWN     |
-| Glass Identification                      | Scatter Code |  0.0150233 | 0.000824489 | DWN     |
-| Image Segmentation                        | Distributive |  0.01322   | 6.32456e-05 | DWN     |
-| Image Segmentation                        | Gaussian     |  0.01319   | 5.67646e-05 | DWN     |
-| Image Segmentation                        | Linear       |  0.01318   | 0.00010328  | DWN     |
-| Image Segmentation                        | Scatter Code |  0.0181367 | 0.00236971  | DWN     |
-| Iris                                      | Distributive |  0.009215  | 0.000807384 | DWN     |
-| Iris                                      | Gaussian     |  0.00935   | 0.000934992 | DWN     |
-| Iris                                      | Linear       |  0.009195  | 0.000889397 | DWN     |
-| Iris                                      | Scatter Code |  0.0133667 | 0.00386365  | DWN     |
-| MNIST                                     | Distributive | 40.0563    | 0.203369    | DWN     |
-| MNIST                                     | Gaussian     | 40.5305    | 0.291675    | DWN     |
-| MNIST                                     | Linear       | 39.921     | 0.359311    | DWN     |
-| MNIST                                     | Scatter Code | 97.7751    | 5.59177     | DWN     |
-| Maternal Health Risk                      | Distributive |  0.059455  | 0.00657319  | DWN     |
-| Maternal Health Risk                      | Gaussian     |  0.059145  | 0.00987045  | DWN     |
-| Maternal Health Risk                      | Linear       |  0.057925  | 0.0064813   | DWN     |
-| Maternal Health Risk                      | Scatter Code |  0.06049   | 0.00201586  | DWN     |
-| Optical Recognition of Handwritten Digits | Distributive |  0.41108   | 0.0242759   | DWN     |
-| Optical Recognition of Handwritten Digits | Gaussian     |  0.40441   | 0.0115953   | DWN     |
-| Optical Recognition of Handwritten Digits | Linear       |  0.39114   | 0.0162165   | DWN     |
-| Optical Recognition of Handwritten Digits | Scatter Code |  0.868167  | 0.052205    | DWN     |
-| Statlog (Shuttle)                         | Distributive |  3.6251    | 0.124581    | DWN     |
-| Statlog (Shuttle)                         | Gaussian     |  3.60113   | 0.115165    | DWN     |
-| Statlog (Shuttle)                         | Linear       |  3.6261    | 0.0905116   | DWN     |
-| Statlog (Shuttle)                         | Scatter Code |  3.37542   | 0.142389    | DWN     |
-| Statlog (Vehicle Silhouettes)             | Distributive |  0.04843   | 0.00522817  | DWN     |
-| Statlog (Vehicle Silhouettes)             | Gaussian     |  0.05032   | 0.00583245  | DWN     |
-| Statlog (Vehicle Silhouettes)             | Linear       |  0.04933   | 0.00431059  | DWN     |
-| Statlog (Vehicle Silhouettes)             | Scatter Code |  0.0614033 | 0.00718425  | DWN     |
-| Wine Quality                              | Distributive |  0.3586    | 0.0307962   | DWN     |
-| Wine Quality                              | Gaussian     |  0.350325  | 0.0202856   | DWN     |
-| Wine Quality                              | Linear       |  0.346065  | 0.0170181   | DWN     |
-| Wine Quality                              | Scatter Code |  0.387823  | 0.0170516   | DWN     |
+| dataset                                   | encoding     |       mean |        std | model   |
+|:------------------------------------------|:-------------|-----------:|-----------:|:--------|
+| Ecoli                                     | Distributive |  0.0422649 |  0.0243586 | DWN     |
+| Ecoli                                     | Gaussian     |  0.0429169 |  0.025127  | DWN     |
+| Ecoli                                     | Linear       |  0.0433584 |  0.0249956 | DWN     |
+| Ecoli                                     | Scatter Code |  0.0648814 |  0.0367003 | DWN     |
+| Glass Identification                      | Distributive |  0.088136  |  0.0510055 | DWN     |
+| Glass Identification                      | Gaussian     |  0.0912614 |  0.0605578 | DWN     |
+| Glass Identification                      | Linear       |  0.0823973 |  0.0515895 | DWN     |
+| Glass Identification                      | Scatter Code |  0.0402785 |  0.0224857 | DWN     |
+| Image Segmentation                        | Distributive |  0.0360244 |  0.0200967 | DWN     |
+| Image Segmentation                        | Gaussian     |  0.0361296 |  0.0202747 | DWN     |
+| Image Segmentation                        | Linear       |  0.036204  |  0.0203062 | DWN     |
+| Image Segmentation                        | Scatter Code |  0.0680692 |  0.040432  | DWN     |
+| Iris                                      | Distributive |  0.0441542 |  0.0250394 | DWN     |
+| Iris                                      | Gaussian     |  0.044173  |  0.0253769 | DWN     |
+| Iris                                      | Linear       |  0.04435   |  0.0255536 | DWN     |
+| Iris                                      | Scatter Code |  0.037493  |  0.020786  | DWN     |
+| MNIST                                     | Distributive | 24.3529    | 13.9704    | DWN     |
+| MNIST                                     | Gaussian     | 25.4473    | 14.5847    | DWN     |
+| MNIST                                     | Linear       | 26.2873    | 15.0314    | DWN     |
+| MNIST                                     | Scatter Code | 53.5163    | 30.6686    | DWN     |
+| Maternal Health Risk                      | Distributive |  0.0849935 |  0.0583805 | DWN     |
+| Maternal Health Risk                      | Gaussian     |  0.0817788 |  0.0483524 | DWN     |
+| Maternal Health Risk                      | Linear       |  0.0774853 |  0.0494762 | DWN     |
+| Maternal Health Risk                      | Scatter Code |  0.0705617 |  0.0413998 | DWN     |
+| Optical Recognition of Handwritten Digits | Distributive |  0.17228   |  0.0991493 | DWN     |
+| Optical Recognition of Handwritten Digits | Gaussian     |  0.174722  |  0.099186  | DWN     |
+| Optical Recognition of Handwritten Digits | Linear       |  0.172813  |  0.0991143 | DWN     |
+| Optical Recognition of Handwritten Digits | Scatter Code |  0.31419   |  0.179823  | DWN     |
+| Statlog (Shuttle)                         | Distributive |  1.40571   |  0.802017  | DWN     |
+| Statlog (Shuttle)                         | Gaussian     |  1.40645   |  0.807826  | DWN     |
+| Statlog (Shuttle)                         | Linear       |  1.40733   |  0.800679  | DWN     |
+| Statlog (Shuttle)                         | Scatter Code |  0.543266  |  0.306605  | DWN     |
+| Statlog (Vehicle Silhouettes)             | Distributive |  0.0791832 |  0.0499021 | DWN     |
+| Statlog (Vehicle Silhouettes)             | Gaussian     |  0.0777023 |  0.0498515 | DWN     |
+| Statlog (Vehicle Silhouettes)             | Linear       |  0.0794419 |  0.0483052 | DWN     |
+| Statlog (Vehicle Silhouettes)             | Scatter Code |  0.0764794 |  0.0433497 | DWN     |
+| Wine Quality                              | Distributive |  0.135862  |  0.0782795 | DWN     |
+| Wine Quality                              | Gaussian     |  0.126358  |  0.0722562 | DWN     |
+| Wine Quality                              | Linear       |  0.133683  |  0.0753261 | DWN     |
+| Wine Quality                              | Scatter Code |  0.13945   |  0.0798289 | DWN     |
 
 ### Wisard
 
-| dataset                                   | encoding     |       mean |           std | model   |
-|:------------------------------------------|:-------------|-----------:|--------------:|:--------|
-| Ecoli                                     | Distributive |   0.00387  |   0.000371334 | Wisard  |
-| Ecoli                                     | Gaussian     |   0.00379  |   0.000152388 | Wisard  |
-| Ecoli                                     | Linear       |   0.00379  |   0.000119722 | Wisard  |
-| Ecoli                                     | Scatter Code |   0.00733  |   0.000734202 | Wisard  |
-| Glass Identification                      | Distributive |   0.01098  |   0.000493964 | Wisard  |
-| Glass Identification                      | Gaussian     |   0.01095  |   0.000430116 | Wisard  |
-| Glass Identification                      | Linear       |   0.01109  |   0.000975762 | Wisard  |
-| Glass Identification                      | Scatter Code |   0.01682  |   0.0100147   | Wisard  |
-| Image Segmentation                        | Distributive |   0.00473  |   0.000416467 | Wisard  |
-| Image Segmentation                        | Gaussian     |   0.00484  |   0.000389301 | Wisard  |
-| Image Segmentation                        | Linear       |   0.005    |   0.000674949 | Wisard  |
-| Image Segmentation                        | Scatter Code |   0.016445 |   0.00563238  | Wisard  |
-| Iris                                      | Distributive |   0.00195  |   0.00023214  | Wisard  |
-| Iris                                      | Gaussian     |   0.00186  |   5.16398e-05 | Wisard  |
-| Iris                                      | Linear       |   0.00186  |   5.16398e-05 | Wisard  |
-| Iris                                      | Scatter Code |   0.003385 |   0.00115407  | Wisard  |
-| MNIST                                     | Distributive |  92.7812   |   4.68387     | Wisard  |
-| MNIST                                     | Gaussian     |  85.5335   |   3.72522     | Wisard  |
-| MNIST                                     | Linear       |  92.9858   |   3.96419     | Wisard  |
-| MNIST                                     | Scatter Code | 274.591    |   9.31809     | Wisard  |
-| Maternal Health Risk                      | Distributive |   0.00705  |   0.000481318 | Wisard  |
-| Maternal Health Risk                      | Gaussian     |   0.00698  |   0.000225093 | Wisard  |
-| Maternal Health Risk                      | Linear       |   0.00786  |   0.000566078 | Wisard  |
-| Maternal Health Risk                      | Scatter Code |   0.02918  |   0.00972315  | Wisard  |
-| Optical Recognition of Handwritten Digits | Distributive |   0.42358  |   0.0396111   | Wisard  |
-| Optical Recognition of Handwritten Digits | Gaussian     |   0.41877  |   0.0256058   | Wisard  |
-| Optical Recognition of Handwritten Digits | Linear       |   0.42387  |   0.0459273   | Wisard  |
-| Optical Recognition of Handwritten Digits | Scatter Code |   1.09673  |   0.0781733   | Wisard  |
-| Statlog (Shuttle)                         | Distributive |   3.21091  |   0.226075    | Wisard  |
-| Statlog (Shuttle)                         | Gaussian     |   3.0476   |   0.205294    | Wisard  |
-| Statlog (Shuttle)                         | Linear       |   9.30174  |   3.49897     | Wisard  |
-| Statlog (Shuttle)                         | Scatter Code | 489.422    | 283.993       | Wisard  |
-| Statlog (Vehicle Silhouettes)             | Distributive |   0.01503  |   0.00127284  | Wisard  |
-| Statlog (Vehicle Silhouettes)             | Gaussian     |   0.01405  |   0.000609645 | Wisard  |
-| Statlog (Vehicle Silhouettes)             | Linear       |   0.01428  |   0.000393841 | Wisard  |
-| Statlog (Vehicle Silhouettes)             | Scatter Code |   0.72111  |   0.369474    | Wisard  |
-| Wine Quality                              | Distributive |   0.08605  |   0.0187814   | Wisard  |
-| Wine Quality                              | Gaussian     |   0.08066  |   0.00415377  | Wisard  |
-| Wine Quality                              | Linear       |   0.17835  |   0.0512147   | Wisard  |
-| Wine Quality                              | Scatter Code |   6.16329  |   3.29618     | Wisard  |
+| dataset                                   | encoding     |          mean |             std | model   |
+|:------------------------------------------|:-------------|--------------:|----------------:|:--------|
+| Ecoli                                     | Distributive |    0.00202    |     0.000352136 | Wisard  |
+| Ecoli                                     | Gaussian     |    0.00221    |     0.000381372 | Wisard  |
+| Ecoli                                     | Linear       |    0.00191    |     0.000237814 | Wisard  |
+| Ecoli                                     | Scatter Code |    0.00839333 |     0.00430492  | Wisard  |
+| Glass Identification                      | Distributive |    0.00952    |     0.0012318   | Wisard  |
+| Glass Identification                      | Gaussian     |    0.00935    |     0.00121769  | Wisard  |
+| Glass Identification                      | Linear       |    0.00898    |     0.00108403  | Wisard  |
+| Glass Identification                      | Scatter Code |    0.00764333 |     0.00183767  | Wisard  |
+| Image Segmentation                        | Distributive |    0.00367    |     0.000561842 | Wisard  |
+| Image Segmentation                        | Gaussian     |    0.00394    |     0.0010469   | Wisard  |
+| Image Segmentation                        | Linear       |    0.00346    |     0.00082758  | Wisard  |
+| Image Segmentation                        | Scatter Code |    0.0121367  |     0.00407206  | Wisard  |
+| Iris                                      | Distributive |    0.00054    |     5.16398e-05 | Wisard  |
+| Iris                                      | Gaussian     |    0.00065    |     0.000164992 | Wisard  |
+| Iris                                      | Linear       |    0.00066    |     0.00017127  | Wisard  |
+| Iris                                      | Scatter Code |    0.00192667 |     0.00237776  | Wisard  |
+| MNIST                                     | Distributive |   79.703      |     1.65235     | Wisard  |
+| MNIST                                     | Gaussian     |   73.406      |     1.84586     | Wisard  |
+| MNIST                                     | Linear       |   80.6472     |     1.04038     | Wisard  |
+| MNIST                                     | Scatter Code | 9235.78       | 12952.1         | Wisard  |
+| Maternal Health Risk                      | Distributive |    0.00459    |     0.000874897 | Wisard  |
+| Maternal Health Risk                      | Gaussian     |    0.00507    |     0.00102204  | Wisard  |
+| Maternal Health Risk                      | Linear       |    0.00429    |     0.000445845 | Wisard  |
+| Maternal Health Risk                      | Scatter Code |    0.0342667  |     0.0270752   | Wisard  |
+| Optical Recognition of Handwritten Digits | Distributive |    0.33187    |     0.0113002   | Wisard  |
+| Optical Recognition of Handwritten Digits | Gaussian     |    0.35146    |     0.0354388   | Wisard  |
+| Optical Recognition of Handwritten Digits | Linear       |    0.34449    |     0.0230265   | Wisard  |
+| Optical Recognition of Handwritten Digits | Scatter Code |    5.77025    |     7.02369     | Wisard  |
+| Statlog (Shuttle)                         | Distributive |    2.01898    |     0.178786    | Wisard  |
+| Statlog (Shuttle)                         | Gaussian     |    1.90487    |     0.0334895   | Wisard  |
+| Statlog (Shuttle)                         | Linear       |    3.08806    |     0.52006     | Wisard  |
+| Statlog (Shuttle)                         | Scatter Code |  127.839      |     9.62191     | Wisard  |
+| Statlog (Vehicle Silhouettes)             | Distributive |    0.01299    |     0.00228008  | Wisard  |
+| Statlog (Vehicle Silhouettes)             | Gaussian     |    0.01191    |     0.00201519  | Wisard  |
+| Statlog (Vehicle Silhouettes)             | Linear       |    0.01119    |     0.00174512  | Wisard  |
+| Statlog (Vehicle Silhouettes)             | Scatter Code |    0.188983   |     0.0329276   | Wisard  |
+| Wine Quality                              | Distributive |    0.07034    |     0.0110335   | Wisard  |
+| Wine Quality                              | Gaussian     |    0.06454    |     0.00981418  | Wisard  |
+| Wine Quality                              | Linear       |    0.0854     |     0.0146869   | Wisard  |
+| Wine Quality                              | Scatter Code |    2.84259    |     2.02333     | Wisard  |
 ## Scatter Code Accuracy by Dataset
 
 ### DWN: Mean Accuracy and Standard Deviation for Scatter Code Configurations
 
 | Dataset                                   |   Num Slices |   Num Dimensions |   Mean Accuracy |   Standard Deviation |
 |:------------------------------------------|-------------:|-----------------:|----------------:|---------------------:|
-| Ecoli                                     |           10 |               50 |           0.68  |                0.077 |
-| Ecoli                                     |           50 |               50 |           0.65  |                0.076 |
-| Ecoli                                     |          100 |               50 |           0.46  |                0     |
-| Glass Identification                      |           10 |               50 |           0.332 |                0.015 |
-| Glass Identification                      |           50 |               50 |           0.413 |                0.083 |
-| Glass Identification                      |          100 |               50 |           0.327 |                0.022 |
-| Image Segmentation                        |           10 |               50 |           0.389 |                0.078 |
-| Image Segmentation                        |           50 |               50 |           0.469 |                0.143 |
-| Image Segmentation                        |          100 |               50 |           0.144 |                0.023 |
-| Iris                                      |           10 |               50 |           0.894 |                0.112 |
-| Iris                                      |           50 |               50 |           0.962 |                0.033 |
-| Iris                                      |          100 |               50 |           0.34  |                0.035 |
-| MNIST                                     |           10 |               50 |           0.796 |                0.007 |
-| MNIST                                     |           50 |               50 |           0.788 |                0.011 |
+| Ecoli                                     |           10 |               50 |           0.741 |                0.053 |
+| Ecoli                                     |           50 |               50 |           0.745 |                0.045 |
+| Ecoli                                     |          100 |               50 |           0.457 |                0.024 |
+| Glass Identification                      |           10 |               50 |           0.35  |                0.013 |
+| Glass Identification                      |           50 |               50 |           0.524 |                0.065 |
+| Glass Identification                      |          100 |               50 |           0.318 |                0.016 |
+| Image Segmentation                        |           10 |               50 |           0.45  |                0.047 |
+| Image Segmentation                        |           50 |               50 |           0.642 |                0.077 |
+| Image Segmentation                        |          100 |               50 |           0.131 |                0.021 |
+| Iris                                      |           10 |               50 |           0.981 |                0.045 |
+| Iris                                      |           50 |               50 |           0.977 |                0.033 |
+| Iris                                      |          100 |               50 |           0.337 |                0.037 |
+| MNIST                                     |           10 |               50 |           0.797 |                0.006 |
+| MNIST                                     |           50 |               50 |           0.795 |                0.004 |
 | MNIST                                     |          100 |               50 |           0.105 |                0.007 |
-| Maternal Health Risk                      |           10 |               50 |           0.574 |                0.049 |
-| Maternal Health Risk                      |           50 |               50 |           0.628 |                0.039 |
-| Maternal Health Risk                      |          100 |               50 |           0.377 |                0.009 |
-| Optical Recognition of Handwritten Digits |           10 |               50 |           0.822 |                0.033 |
-| Optical Recognition of Handwritten Digits |           50 |               50 |           0.825 |                0.025 |
-| Optical Recognition of Handwritten Digits |          100 |               50 |           0.102 |                0.005 |
+| Maternal Health Risk                      |           10 |               50 |           0.606 |                0.025 |
+| Maternal Health Risk                      |           50 |               50 |           0.681 |                0.026 |
+| Maternal Health Risk                      |          100 |               50 |           0.37  |                0.036 |
+| Optical Recognition of Handwritten Digits |           10 |               50 |           0.84  |                0.012 |
+| Optical Recognition of Handwritten Digits |           50 |               50 |           0.839 |                0.012 |
+| Optical Recognition of Handwritten Digits |          100 |               50 |           0.098 |                0.005 |
 | Statlog (Shuttle)                         |           10 |               50 |           0.79  |                0     |
 | Statlog (Shuttle)                         |           50 |               50 |           0.79  |                0     |
 | Statlog (Shuttle)                         |          100 |               50 |           0.79  |                0     |
-| Statlog (Vehicle Silhouettes)             |           10 |               50 |           0.181 |                0.101 |
-| Statlog (Vehicle Silhouettes)             |           50 |               50 |           0.204 |                0.113 |
-| Statlog (Vehicle Silhouettes)             |          100 |               50 |           0.192 |                0.106 |
-| Wine Quality                              |           10 |               50 |           0.423 |                0.005 |
-| Wine Quality                              |           50 |               50 |           0.422 |                0.022 |
-| Wine Quality                              |          100 |               50 |           0.399 |                0.073 |
+| Statlog (Vehicle Silhouettes)             |           10 |               50 |           0.237 |                0.052 |
+| Statlog (Vehicle Silhouettes)             |           50 |               50 |           0.228 |                0.074 |
+| Statlog (Vehicle Silhouettes)             |          100 |               50 |           0.231 |                0.048 |
+| Wine Quality                              |           10 |               50 |           0.408 |                0.011 |
+| Wine Quality                              |           50 |               50 |           0.428 |                0.015 |
+| Wine Quality                              |          100 |               50 |           0.392 |                0.071 |
 
 ### Wisard: Mean Accuracy and Standard Deviation for Scatter Code Configurations
 
 | Dataset                                   |   Num Slices |   Num Dimensions |   Mean Accuracy |   Standard Deviation |
 |:------------------------------------------|-------------:|-----------------:|----------------:|---------------------:|
-| Ecoli                                     |           10 |               50 |           86.49 |                    0 |
-| Ecoli                                     |           50 |               50 |           86.49 |                    0 |
-| Glass Identification                      |           10 |               50 |           33.8  |                    0 |
-| Glass Identification                      |           50 |               50 |           54.93 |                    0 |
-| Image Segmentation                        |           10 |               50 |           44.29 |                    0 |
-| Image Segmentation                        |           50 |               50 |           75.71 |                    0 |
-| Iris                                      |           10 |               50 |           98    |                    0 |
-| Iris                                      |           50 |               50 |           96    |                    0 |
-| MNIST                                     |           10 |               50 |           95.35 |                    0 |
-| MNIST                                     |           50 |               50 |           95.63 |                    0 |
-| Maternal Health Risk                      |           10 |               50 |           60    |                    0 |
-| Maternal Health Risk                      |           50 |               50 |           62.39 |                    0 |
-| Optical Recognition of Handwritten Digits |           10 |               50 |           98.01 |                    0 |
-| Optical Recognition of Handwritten Digits |           50 |               50 |           97.95 |                    0 |
-| Statlog (Shuttle)                         |           10 |               50 |           78.97 |                    0 |
-| Statlog (Shuttle)                         |           50 |               50 |           78.97 |                    0 |
-| Statlog (Shuttle)                         |          100 |               50 |           78.98 |                    0 |
-| Statlog (Vehicle Silhouettes)             |           10 |               50 |           20    |                    0 |
-| Statlog (Vehicle Silhouettes)             |           50 |               50 |           20    |                    0 |
-| Wine Quality                              |           10 |               50 |           42.66 |                    0 |
-| Wine Quality                              |           50 |               50 |           40.75 |                    0 |
+| Ecoli                                     |           10 |               50 |          86.037 |                2.299 |
+| Ecoli                                     |           50 |               50 |          84.955 |                2.041 |
+| Ecoli                                     |          100 |               50 |          45.95  |                0     |
+| Glass Identification                      |           10 |               50 |          33.8   |                1.329 |
+| Glass Identification                      |           50 |               50 |          56.762 |                1.336 |
+| Glass Identification                      |          100 |               50 |          35.21  |                0     |
+| Image Segmentation                        |           10 |               50 |          46.715 |                3.302 |
+| Image Segmentation                        |           50 |               50 |          68.429 |                3.777 |
+| Image Segmentation                        |          100 |               50 |          10     |                0     |
+| Iris                                      |           10 |               50 |          98.4   |                0.843 |
+| Iris                                      |           50 |               50 |          97.4   |                1.647 |
+| Iris                                      |          100 |               50 |          30     |                0     |
+| MNIST                                     |           10 |               50 |          95.433 |                0.06  |
+| MNIST                                     |           50 |               50 |          95.58  |                0.044 |
+| MNIST                                     |          100 |               50 |          11.27  |                0     |
+| Maternal Health Risk                      |           10 |               50 |          62.507 |                1.402 |
+| Maternal Health Risk                      |           50 |               50 |          64.506 |                2.948 |
+| Maternal Health Risk                      |          100 |               50 |          38.21  |                0     |
+| Optical Recognition of Handwritten Digits |           10 |               50 |          97.748 |                0.183 |
+| Optical Recognition of Handwritten Digits |           50 |               50 |          97.688 |                0.233 |
+| Optical Recognition of Handwritten Digits |          100 |               50 |          10.3   |                0     |
+| Statlog (Shuttle)                         |           10 |               50 |          78.97  |                0     |
+| Statlog (Shuttle)                         |           50 |               50 |          78.972 |                0.008 |
+| Statlog (Shuttle)                         |          100 |               50 |          78.98  |                0     |
+| Statlog (Vehicle Silhouettes)             |           10 |               50 |          20     |                0     |
+| Statlog (Vehicle Silhouettes)             |           50 |               50 |          20     |                0     |
+| Statlog (Vehicle Silhouettes)             |          100 |               50 |          20     |                0     |
+| Wine Quality                              |           10 |               50 |          41.815 |                2.095 |
+| Wine Quality                              |           50 |               50 |          40.971 |                2.261 |
+| Wine Quality                              |          100 |               50 |          45.55  |                0     |
 
