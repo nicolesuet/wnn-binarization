@@ -119,7 +119,6 @@ class Wisard(object):
             new_row = pd.DataFrame(
                 {
                     "model": ["Wisard"],
-                    "epoch": [1],
                     "time": [datetime.now().strftime("%Y-%m-%d %H:%M:%S")],
                     "training_time": [f"{elapsed_time_training:.4f}"],
                     "testing_time": [f"{elapsed_time_classification:.4f}"],
@@ -142,7 +141,6 @@ class Wisard(object):
                 },
                 columns=[
                     "model",
-                    "epoch",
                     "time",
                     "training_time",
                     "testing_time",

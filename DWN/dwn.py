@@ -170,7 +170,7 @@ class DWN(object):
 
             n_samples = x_train.shape[0]
             accuracies = []
-
+            
             for epoch in range(self.epochs):
 
                 training_time = time.time()
@@ -218,50 +218,53 @@ class DWN(object):
 
             # avg_accuracy = sum([float(a) for a in accuracies]) / len(accuracies)
 
-                new_row = pd.DataFrame(
-                    {
-                        "model": ["DWN"],
-                        "epoch": [epoch + 1],
-                        "time": [datetime.now().strftime("%Y-%m-%d %H:%M:%S")],
-                        "training_time": [f"{total_training_time:.4f}"],
-                        "testing_time": [f"{total_testing_time:.4f}"],
-                        "delta_time": [f"{total_training_time + total_testing_time:.4f}"],
-                        "dataset": [self.current_dataset],
-                        "encoding": [encoder["encoding"]],
-                        "num_slices": [
-                            self.num_slices if encoder["encoding"] == "Scatter Code" else "0"
-                        ],
-                        "num_dimensions": [
-                            (
-                                self.num_dimensions
-                                if encoder["encoding"] == "Scatter Code"
-                                else "0"
-                            )
-                        ],
-                        "accuracy": [f"{test_acc:.4f}"],
-                    },
-                    columns=[
-                        "model",
-                        "epoch",
-                        "time",
-                        "training_time",
-                        "testing_time",
-                        "delta_time",
-                        "emissions",
-                        "dataset",
-                        "encoding",
-                        "num_slices",
-                        "num_dimensions",
-                        "accuracy",
-                    ],
-                )
+                if epoch == self.epochs - 1:
+                    logging.info(
+                        f"Final Test Accuracy after {self.epochs} epochs: {test_acc:.4f}"
+                    ) 
 
-                new_row.to_csv(
-                    self.csv_file,
-                    mode="a",
-                    index=False,
-                    header=add_header(self.csv_file),
-                )
+                    new_row = pd.DataFrame(
+                        {
+                            "model": ["DWN"],
+                            "time": [datetime.now().strftime("%Y-%m-%d %H:%M:%S")],
+                            "training_time": [f"{total_training_time:.4f}"],
+                            "testing_time": [f"{total_testing_time:.4f}"],
+                            "delta_time": [f"{total_training_time + total_testing_time:.4f}"],
+                            "dataset": [self.current_dataset],
+                            "encoding": [encoder["encoding"]],
+                            "num_slices": [
+                                self.num_slices if encoder["encoding"] == "Scatter Code" else "0"
+                            ],
+                            "num_dimensions": [
+                                (
+                                    self.num_dimensions
+                                    if encoder["encoding"] == "Scatter Code"
+                                    else "0"
+                                )
+                            ],
+                            "accuracy": [f"{test_acc:.4f}"],
+                        },
+                        columns=[
+                            "model",
+                            "time",
+                            "training_time",
+                            "testing_time",
+                            "delta_time",
+                            "emissions",
+                            "dataset",
+                            "encoding",
+                            "num_slices",
+                            "num_dimensions",
+                            "accuracy",
+                        ],
+                    )
+
+                    new_row.to_csv(
+                        self.csv_file,
+                        mode="a",
+                        index=False,
+                        header=add_header(self.csv_file),
+                    )
 
     def evaluate(self, model, x_test, y_test, device="cuda"):
         model.eval()
