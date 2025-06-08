@@ -232,6 +232,7 @@ class DWN(object):
                 new_row = pd.DataFrame(
                     {
                         "model": ["DWN"],
+                        "epoch": [epoch + 1],
                         "time": [datetime.now().strftime("%Y-%m-%d %H:%M:%S")],
                         "training_time": [f"{total_training_time:.4f}"],
                         "testing_time": [f"{total_testing_time:.4f}"],
@@ -253,6 +254,7 @@ class DWN(object):
                     },
                     columns=[
                         "model",
+                        "epoch",
                         "time",
                         "training_time",
                         "testing_time",
