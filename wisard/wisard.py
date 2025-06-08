@@ -129,13 +129,13 @@ class Wisard(object):
                     "dataset": [self.current_dataset],
                     "encoding": [encoder["encoding"]],
                     "num_slices": [
-                        self.num_slices if encoder["encoding"] == "Scatter Code" else "1"
+                        self.num_slices if encoder["encoding"] == "Scatter Code" else "0"
                     ],
                     "num_dimensions": [
                         (
                             self.num_dimensions
                             if encoder["encoding"] == "Scatter Code"
-                            else "1"
+                            else "0"
                         )
                     ],
                     "accuracy": [accuracy],

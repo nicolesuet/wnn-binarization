@@ -7,7 +7,8 @@ import os
 
 # Load the CSV file
 def load_data(file_path):
-    return pd.read_csv(file_path)
+    # Read CSV, treating 'N/A' as a string and not as NaN
+    return pd.read_csv(file_path, dtype={'num_dimensions': str, 'num_slices': str})
 
 
 # Calculate accuracy metrics for DWN and Wisard
