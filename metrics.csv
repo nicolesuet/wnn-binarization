@@ -1,0 +1,219 @@
+model,epoch,time,training_time,testing_time,delta_time,dataset,encoding,num_slices,num_dimensions,accuracy
+Wisard,1,2025-06-08 19:08:45,0.4511,0.4689,0.9199,Statlog (Shuttle),Distributive,1,1,99.81
+Wisard,2,2025-06-08 19:08:48,0.4447,0.4650,0.9097,Statlog (Shuttle),Distributive,1,1,99.81
+Wisard,3,2025-06-08 19:08:49,0.4448,0.4578,0.9026,Statlog (Shuttle),Distributive,1,1,99.81
+Wisard,4,2025-06-08 19:08:52,0.4417,0.5641,1.0058,Statlog (Shuttle),Distributive,1,1,99.81
+Wisard,1,2025-06-08 19:20:04,0.4468,0.4703,0.9171,Statlog (Shuttle),Distributive,1,1,99.81
+Wisard,2,2025-06-08 19:20:06,0.4404,0.4633,0.9036,Statlog (Shuttle),Distributive,1,1,99.8
+Wisard,3,2025-06-08 19:20:08,0.4397,0.4708,0.9105,Statlog (Shuttle),Distributive,1,1,99.81
+Wisard,4,2025-06-08 19:20:10,0.4386,0.4747,0.9132,Statlog (Shuttle),Distributive,1,1,99.81
+Wisard,5,2025-06-08 19:20:12,0.4451,0.4704,0.9155,Statlog (Shuttle),Distributive,1,1,99.82
+Wisard,6,2025-06-08 19:20:14,0.4423,0.4648,0.9071,Statlog (Shuttle),Distributive,1,1,99.81
+Wisard,7,2025-06-08 19:20:15,0.4438,0.4670,0.9108,Statlog (Shuttle),Distributive,1,1,99.81
+Wisard,8,2025-06-08 19:20:18,0.4422,0.4674,0.9096,Statlog (Shuttle),Distributive,1,1,99.81
+Wisard,9,2025-06-08 19:20:19,0.4448,0.4647,0.9095,Statlog (Shuttle),Distributive,1,1,99.83
+Wisard,10,2025-06-08 19:20:21,0.4436,0.4647,0.9083,Statlog (Shuttle),Distributive,1,1,99.8
+Wisard,1,2025-06-08 19:20:23,0.4515,0.4808,0.9324,Statlog (Shuttle),Gaussian,1,1,99.83
+Wisard,2,2025-06-08 19:20:25,0.4495,0.4803,0.9298,Statlog (Shuttle),Gaussian,1,1,99.84
+Wisard,3,2025-06-08 19:20:28,0.4974,0.4805,0.9779,Statlog (Shuttle),Gaussian,1,1,99.84
+Wisard,4,2025-06-08 19:20:29,0.4379,0.5176,0.9555,Statlog (Shuttle),Gaussian,1,1,99.83
+Wisard,5,2025-06-08 19:20:32,0.4498,0.5064,0.9562,Statlog (Shuttle),Gaussian,1,1,99.83
+Wisard,6,2025-06-08 19:20:34,0.4413,0.5047,0.9460,Statlog (Shuttle),Gaussian,1,1,99.84
+Wisard,7,2025-06-08 19:20:36,0.4483,0.4853,0.9336,Statlog (Shuttle),Gaussian,1,1,99.83
+Wisard,8,2025-06-08 19:20:38,0.4451,0.4824,0.9275,Statlog (Shuttle),Gaussian,1,1,99.84
+Wisard,9,2025-06-08 19:20:40,0.4529,0.4935,0.9463,Statlog (Shuttle),Gaussian,1,1,99.84
+Wisard,10,2025-06-08 19:20:43,0.4937,0.4855,0.9793,Statlog (Shuttle),Gaussian,1,1,99.83
+Wisard,1,2025-06-08 19:20:46,0.4431,2.0038,2.4470,Statlog (Shuttle),Linear,1,1,96.37
+Wisard,2,2025-06-08 19:20:50,0.4354,1.6561,2.0915,Statlog (Shuttle),Linear,1,1,97.27
+Wisard,3,2025-06-08 19:20:53,0.4316,1.2563,1.6879,Statlog (Shuttle),Linear,1,1,98.07
+Wisard,4,2025-06-08 19:20:56,0.4398,1.0101,1.4499,Statlog (Shuttle),Linear,1,1,98.78
+Wisard,5,2025-06-08 19:20:59,0.4527,1.3960,1.8487,Statlog (Shuttle),Linear,1,1,97.27
+Wisard,6,2025-06-08 19:21:02,0.4318,1.7586,2.1904,Statlog (Shuttle),Linear,1,1,96.27
+Wisard,7,2025-06-08 19:21:06,0.4492,1.6241,2.0733,Statlog (Shuttle),Linear,1,1,97.51
+Wisard,8,2025-06-08 19:21:09,0.4266,1.7036,2.1303,Statlog (Shuttle),Linear,1,1,93.7
+Wisard,9,2025-06-08 19:21:12,0.4316,0.8399,1.2715,Statlog (Shuttle),Linear,1,1,99.17
+Wisard,10,2025-06-08 19:21:14,0.4432,1.3657,1.8089,Statlog (Shuttle),Linear,1,1,96.68
+Wisard,1,2025-06-08 19:21:16,0.0008,0.0012,0.0020,Ecoli,Distributive,1,1,85.59
+Wisard,2,2025-06-08 19:21:16,0.0007,0.0008,0.0015,Ecoli,Distributive,1,1,81.08
+Wisard,3,2025-06-08 19:21:16,0.0007,0.0007,0.0014,Ecoli,Distributive,1,1,85.59
+Wisard,4,2025-06-08 19:21:16,0.0007,0.0007,0.0014,Ecoli,Distributive,1,1,80.18
+Wisard,5,2025-06-08 19:21:16,0.0006,0.0010,0.0016,Ecoli,Distributive,1,1,83.78
+Wisard,6,2025-06-08 19:21:16,0.0006,0.0007,0.0013,Ecoli,Distributive,1,1,81.08
+Wisard,7,2025-06-08 19:21:16,0.0006,0.0006,0.0012,Ecoli,Distributive,1,1,79.28
+Wisard,8,2025-06-08 19:21:16,0.0006,0.0006,0.0012,Ecoli,Distributive,1,1,80.18
+Wisard,9,2025-06-08 19:21:16,0.0006,0.0006,0.0012,Ecoli,Distributive,1,1,77.48
+Wisard,10,2025-06-08 19:21:16,0.0005,0.0008,0.0013,Ecoli,Distributive,1,1,80.18
+Wisard,1,2025-06-08 19:21:16,0.0005,0.0006,0.0011,Ecoli,Gaussian,1,1,83.78
+Wisard,2,2025-06-08 19:21:16,0.0006,0.0006,0.0012,Ecoli,Gaussian,1,1,83.78
+Wisard,3,2025-06-08 19:21:16,0.0006,0.0012,0.0018,Ecoli,Gaussian,1,1,81.98
+Wisard,4,2025-06-08 19:21:16,0.0006,0.0006,0.0011,Ecoli,Gaussian,1,1,83.78
+Wisard,5,2025-06-08 19:21:16,0.0005,0.0006,0.0011,Ecoli,Gaussian,1,1,85.59
+Wisard,6,2025-06-08 19:21:16,0.0005,0.0006,0.0011,Ecoli,Gaussian,1,1,79.28
+Wisard,7,2025-06-08 19:21:16,0.0005,0.0006,0.0012,Ecoli,Gaussian,1,1,82.88
+Wisard,8,2025-06-08 19:21:16,0.0005,0.0006,0.0011,Ecoli,Gaussian,1,1,81.98
+Wisard,9,2025-06-08 19:21:16,0.0005,0.0006,0.0011,Ecoli,Gaussian,1,1,85.59
+Wisard,10,2025-06-08 19:21:16,0.0005,0.0006,0.0011,Ecoli,Gaussian,1,1,87.39
+Wisard,1,2025-06-08 19:21:16,0.0005,0.0006,0.0011,Ecoli,Linear,1,1,78.38
+Wisard,2,2025-06-08 19:21:16,0.0005,0.0006,0.0011,Ecoli,Linear,1,1,85.59
+Wisard,3,2025-06-08 19:21:16,0.0005,0.0006,0.0011,Ecoli,Linear,1,1,81.98
+Wisard,4,2025-06-08 19:21:16,0.0005,0.0006,0.0011,Ecoli,Linear,1,1,81.08
+Wisard,5,2025-06-08 19:21:16,0.0005,0.0007,0.0012,Ecoli,Linear,1,1,83.78
+Wisard,6,2025-06-08 19:21:16,0.0005,0.0006,0.0011,Ecoli,Linear,1,1,83.78
+Wisard,7,2025-06-08 19:21:16,0.0005,0.0006,0.0011,Ecoli,Linear,1,1,82.88
+Wisard,8,2025-06-08 19:21:16,0.0005,0.0006,0.0011,Ecoli,Linear,1,1,85.59
+Wisard,9,2025-06-08 19:21:16,0.0005,0.0007,0.0012,Ecoli,Linear,1,1,85.59
+Wisard,10,2025-06-08 19:21:16,0.0005,0.0006,0.0011,Ecoli,Linear,1,1,84.68
+Wisard,1,2025-06-08 19:21:18,0.0002,0.0001,0.0003,Iris,Distributive,1,1,96.0
+Wisard,2,2025-06-08 19:21:18,0.0002,0.0001,0.0003,Iris,Distributive,1,1,98.0
+Wisard,3,2025-06-08 19:21:18,0.0002,0.0001,0.0003,Iris,Distributive,1,1,94.0
+Wisard,4,2025-06-08 19:21:18,0.0002,0.0001,0.0003,Iris,Distributive,1,1,100.0
+Wisard,5,2025-06-08 19:21:18,0.0018,0.0003,0.0021,Iris,Distributive,1,1,98.0
+Wisard,6,2025-06-08 19:21:18,0.0002,0.0001,0.0003,Iris,Distributive,1,1,98.0
+Wisard,7,2025-06-08 19:21:18,0.0002,0.0001,0.0003,Iris,Distributive,1,1,96.0
+Wisard,8,2025-06-08 19:21:18,0.0002,0.0001,0.0003,Iris,Distributive,1,1,98.0
+Wisard,9,2025-06-08 19:21:18,0.0003,0.0001,0.0004,Iris,Distributive,1,1,98.0
+Wisard,10,2025-06-08 19:21:18,0.0002,0.0001,0.0003,Iris,Distributive,1,1,98.0
+Wisard,1,2025-06-08 19:21:18,0.0001,0.0001,0.0003,Iris,Gaussian,1,1,90.0
+Wisard,2,2025-06-08 19:21:18,0.0001,0.0001,0.0003,Iris,Gaussian,1,1,92.0
+Wisard,3,2025-06-08 19:21:18,0.0001,0.0001,0.0003,Iris,Gaussian,1,1,94.0
+Wisard,4,2025-06-08 19:21:18,0.0001,0.0001,0.0003,Iris,Gaussian,1,1,94.0
+Wisard,5,2025-06-08 19:21:18,0.0002,0.0001,0.0003,Iris,Gaussian,1,1,96.0
+Wisard,6,2025-06-08 19:21:18,0.0001,0.0001,0.0003,Iris,Gaussian,1,1,92.0
+Wisard,7,2025-06-08 19:21:18,0.0001,0.0001,0.0003,Iris,Gaussian,1,1,98.0
+Wisard,8,2025-06-08 19:21:18,0.0002,0.0002,0.0003,Iris,Gaussian,1,1,94.0
+Wisard,9,2025-06-08 19:21:18,0.0002,0.0001,0.0003,Iris,Gaussian,1,1,94.0
+Wisard,10,2025-06-08 19:21:18,0.0001,0.0001,0.0003,Iris,Gaussian,1,1,94.0
+Wisard,1,2025-06-08 19:21:18,0.0001,0.0001,0.0003,Iris,Linear,1,1,98.0
+Wisard,2,2025-06-08 19:21:18,0.0002,0.0001,0.0003,Iris,Linear,1,1,94.0
+Wisard,3,2025-06-08 19:21:18,0.0002,0.0001,0.0003,Iris,Linear,1,1,100.0
+Wisard,4,2025-06-08 19:21:18,0.0001,0.0001,0.0003,Iris,Linear,1,1,96.0
+Wisard,5,2025-06-08 19:21:18,0.0001,0.0001,0.0003,Iris,Linear,1,1,100.0
+Wisard,6,2025-06-08 19:21:18,0.0001,0.0001,0.0003,Iris,Linear,1,1,92.0
+Wisard,7,2025-06-08 19:21:18,0.0001,0.0001,0.0003,Iris,Linear,1,1,96.0
+Wisard,8,2025-06-08 19:21:18,0.0001,0.0001,0.0003,Iris,Linear,1,1,94.0
+Wisard,9,2025-06-08 19:21:18,0.0001,0.0001,0.0003,Iris,Linear,1,1,96.0
+Wisard,10,2025-06-08 19:21:18,0.0001,0.0001,0.0003,Iris,Linear,1,1,98.0
+Wisard,1,2025-06-08 19:21:20,0.0158,0.0176,0.0334,Wine Quality,Distributive,1,1,62.1
+Wisard,2,2025-06-08 19:21:20,0.0154,0.0208,0.0361,Wine Quality,Distributive,1,1,62.84
+Wisard,3,2025-06-08 19:21:20,0.0158,0.0176,0.0334,Wine Quality,Distributive,1,1,62.84
+Wisard,4,2025-06-08 19:21:20,0.0180,0.0203,0.0382,Wine Quality,Distributive,1,1,62.84
+Wisard,5,2025-06-08 19:21:20,0.0156,0.0177,0.0333,Wine Quality,Distributive,1,1,63.82
+Wisard,6,2025-06-08 19:21:20,0.0154,0.0187,0.0341,Wine Quality,Distributive,1,1,63.59
+Wisard,7,2025-06-08 19:21:20,0.0149,0.0176,0.0325,Wine Quality,Distributive,1,1,62.1
+Wisard,8,2025-06-08 19:21:20,0.0167,0.0176,0.0343,Wine Quality,Distributive,1,1,62.28
+Wisard,9,2025-06-08 19:21:20,0.0147,0.0194,0.0341,Wine Quality,Distributive,1,1,60.98
+Wisard,10,2025-06-08 19:21:20,0.0151,0.0173,0.0325,Wine Quality,Distributive,1,1,63.22
+Wisard,1,2025-06-08 19:21:20,0.0150,0.0210,0.0360,Wine Quality,Gaussian,1,1,62.1
+Wisard,2,2025-06-08 19:21:21,0.0156,0.0185,0.0341,Wine Quality,Gaussian,1,1,61.77
+Wisard,3,2025-06-08 19:21:21,0.0189,0.0209,0.0398,Wine Quality,Gaussian,1,1,60.47
+Wisard,4,2025-06-08 19:21:21,0.0151,0.0173,0.0324,Wine Quality,Gaussian,1,1,61.07
+Wisard,5,2025-06-08 19:21:21,0.0141,0.0178,0.0319,Wine Quality,Gaussian,1,1,60.51
+Wisard,6,2025-06-08 19:21:21,0.0145,0.0198,0.0343,Wine Quality,Gaussian,1,1,63.82
+Wisard,7,2025-06-08 19:21:21,0.0143,0.0188,0.0332,Wine Quality,Gaussian,1,1,61.17
+Wisard,8,2025-06-08 19:21:21,0.0174,0.0185,0.0359,Wine Quality,Gaussian,1,1,64.62
+Wisard,9,2025-06-08 19:21:21,0.0157,0.0176,0.0333,Wine Quality,Gaussian,1,1,62.52
+Wisard,10,2025-06-08 19:21:21,0.0151,0.0182,0.0333,Wine Quality,Gaussian,1,1,61.54
+Wisard,1,2025-06-08 19:21:21,0.0135,0.0414,0.0549,Wine Quality,Linear,1,1,47.6
+Wisard,2,2025-06-08 19:21:21,0.0138,0.0354,0.0492,Wine Quality,Linear,1,1,49.09
+Wisard,3,2025-06-08 19:21:21,0.0137,0.0311,0.0448,Wine Quality,Linear,1,1,47.93
+Wisard,4,2025-06-08 19:21:21,0.0128,0.0358,0.0487,Wine Quality,Linear,1,1,49.23
+Wisard,5,2025-06-08 19:21:21,0.0133,0.0313,0.0445,Wine Quality,Linear,1,1,51.98
+Wisard,6,2025-06-08 19:21:22,0.0148,0.0339,0.0487,Wine Quality,Linear,1,1,49.32
+Wisard,7,2025-06-08 19:21:22,0.0127,0.0381,0.0508,Wine Quality,Linear,1,1,47.27
+Wisard,8,2025-06-08 19:21:22,0.0124,0.0368,0.0492,Wine Quality,Linear,1,1,48.44
+Wisard,9,2025-06-08 19:21:22,0.0133,0.0341,0.0474,Wine Quality,Linear,1,1,47.09
+Wisard,10,2025-06-08 19:21:22,0.0130,0.0371,0.0501,Wine Quality,Linear,1,1,50.54
+Wisard,1,2025-06-08 19:21:23,0.0052,0.0039,0.0091,Statlog (Vehicle Silhouettes),Distributive,1,1,68.93
+Wisard,2,2025-06-08 19:21:23,0.0041,0.0033,0.0074,Statlog (Vehicle Silhouettes),Distributive,1,1,72.5
+Wisard,3,2025-06-08 19:21:23,0.0036,0.0029,0.0065,Statlog (Vehicle Silhouettes),Distributive,1,1,70.71
+Wisard,4,2025-06-08 19:21:23,0.0040,0.0030,0.0070,Statlog (Vehicle Silhouettes),Distributive,1,1,73.57
+Wisard,5,2025-06-08 19:21:24,0.0032,0.0027,0.0059,Statlog (Vehicle Silhouettes),Distributive,1,1,70.36
+Wisard,6,2025-06-08 19:21:24,0.0032,0.0027,0.0059,Statlog (Vehicle Silhouettes),Distributive,1,1,72.14
+Wisard,7,2025-06-08 19:21:24,0.0032,0.0027,0.0059,Statlog (Vehicle Silhouettes),Distributive,1,1,70.36
+Wisard,8,2025-06-08 19:21:24,0.0033,0.0027,0.0060,Statlog (Vehicle Silhouettes),Distributive,1,1,74.29
+Wisard,9,2025-06-08 19:21:24,0.0032,0.0029,0.0060,Statlog (Vehicle Silhouettes),Distributive,1,1,70.0
+Wisard,10,2025-06-08 19:21:24,0.0032,0.0027,0.0059,Statlog (Vehicle Silhouettes),Distributive,1,1,73.93
+Wisard,1,2025-06-08 19:21:24,0.0032,0.0027,0.0059,Statlog (Vehicle Silhouettes),Gaussian,1,1,68.21
+Wisard,2,2025-06-08 19:21:24,0.0032,0.0027,0.0058,Statlog (Vehicle Silhouettes),Gaussian,1,1,73.21
+Wisard,3,2025-06-08 19:21:24,0.0032,0.0036,0.0067,Statlog (Vehicle Silhouettes),Gaussian,1,1,69.29
+Wisard,4,2025-06-08 19:21:24,0.0032,0.0027,0.0060,Statlog (Vehicle Silhouettes),Gaussian,1,1,70.71
+Wisard,5,2025-06-08 19:21:24,0.0031,0.0027,0.0058,Statlog (Vehicle Silhouettes),Gaussian,1,1,71.07
+Wisard,6,2025-06-08 19:21:24,0.0032,0.0027,0.0059,Statlog (Vehicle Silhouettes),Gaussian,1,1,73.21
+Wisard,7,2025-06-08 19:21:24,0.0032,0.0027,0.0059,Statlog (Vehicle Silhouettes),Gaussian,1,1,70.36
+Wisard,8,2025-06-08 19:21:24,0.0032,0.0027,0.0059,Statlog (Vehicle Silhouettes),Gaussian,1,1,69.64
+Wisard,9,2025-06-08 19:21:24,0.0032,0.0027,0.0059,Statlog (Vehicle Silhouettes),Gaussian,1,1,68.93
+Wisard,10,2025-06-08 19:21:24,0.0032,0.0027,0.0059,Statlog (Vehicle Silhouettes),Gaussian,1,1,70.36
+Wisard,1,2025-06-08 19:21:24,0.0030,0.0027,0.0056,Statlog (Vehicle Silhouettes),Linear,1,1,68.93
+Wisard,2,2025-06-08 19:21:24,0.0029,0.0036,0.0064,Statlog (Vehicle Silhouettes),Linear,1,1,62.5
+Wisard,3,2025-06-08 19:21:24,0.0030,0.0027,0.0057,Statlog (Vehicle Silhouettes),Linear,1,1,64.64
+Wisard,4,2025-06-08 19:21:24,0.0029,0.0026,0.0055,Statlog (Vehicle Silhouettes),Linear,1,1,64.64
+Wisard,5,2025-06-08 19:21:24,0.0029,0.0027,0.0055,Statlog (Vehicle Silhouettes),Linear,1,1,70.36
+Wisard,6,2025-06-08 19:21:24,0.0028,0.0027,0.0056,Statlog (Vehicle Silhouettes),Linear,1,1,63.93
+Wisard,7,2025-06-08 19:21:24,0.0029,0.0027,0.0055,Statlog (Vehicle Silhouettes),Linear,1,1,61.79
+Wisard,8,2025-06-08 19:21:24,0.0029,0.0027,0.0056,Statlog (Vehicle Silhouettes),Linear,1,1,59.29
+Wisard,9,2025-06-08 19:21:24,0.0029,0.0027,0.0056,Statlog (Vehicle Silhouettes),Linear,1,1,62.86
+Wisard,10,2025-06-08 19:21:24,0.0029,0.0027,0.0056,Statlog (Vehicle Silhouettes),Linear,1,1,63.93
+Wisard,1,2025-06-08 19:21:25,0.0025,0.0020,0.0044,Maternal Health Risk,Distributive,1,1,77.61
+Wisard,2,2025-06-08 19:21:25,0.0021,0.0017,0.0038,Maternal Health Risk,Distributive,1,1,77.61
+Wisard,3,2025-06-08 19:21:25,0.0019,0.0015,0.0034,Maternal Health Risk,Distributive,1,1,75.82
+Wisard,4,2025-06-08 19:21:25,0.0017,0.0013,0.0030,Maternal Health Risk,Distributive,1,1,74.63
+Wisard,5,2025-06-08 19:21:25,0.0015,0.0012,0.0028,Maternal Health Risk,Distributive,1,1,75.52
+Wisard,6,2025-06-08 19:21:25,0.0015,0.0011,0.0026,Maternal Health Risk,Distributive,1,1,76.12
+Wisard,7,2025-06-08 19:21:25,0.0014,0.0011,0.0025,Maternal Health Risk,Distributive,1,1,77.91
+Wisard,8,2025-06-08 19:21:25,0.0016,0.0013,0.0029,Maternal Health Risk,Distributive,1,1,76.12
+Wisard,9,2025-06-08 19:21:25,0.0012,0.0010,0.0022,Maternal Health Risk,Distributive,1,1,75.22
+Wisard,10,2025-06-08 19:21:25,0.0012,0.0010,0.0022,Maternal Health Risk,Distributive,1,1,77.31
+Wisard,1,2025-06-08 19:21:25,0.0012,0.0010,0.0022,Maternal Health Risk,Gaussian,1,1,71.94
+Wisard,2,2025-06-08 19:21:25,0.0012,0.0010,0.0022,Maternal Health Risk,Gaussian,1,1,73.13
+Wisard,3,2025-06-08 19:21:25,0.0012,0.0010,0.0022,Maternal Health Risk,Gaussian,1,1,73.73
+Wisard,4,2025-06-08 19:21:25,0.0012,0.0010,0.0022,Maternal Health Risk,Gaussian,1,1,71.94
+Wisard,5,2025-06-08 19:21:25,0.0012,0.0010,0.0022,Maternal Health Risk,Gaussian,1,1,74.33
+Wisard,6,2025-06-08 19:21:25,0.0012,0.0010,0.0022,Maternal Health Risk,Gaussian,1,1,74.33
+Wisard,7,2025-06-08 19:21:25,0.0012,0.0010,0.0022,Maternal Health Risk,Gaussian,1,1,72.84
+Wisard,8,2025-06-08 19:21:25,0.0012,0.0010,0.0022,Maternal Health Risk,Gaussian,1,1,74.63
+Wisard,9,2025-06-08 19:21:25,0.0012,0.0010,0.0022,Maternal Health Risk,Gaussian,1,1,74.03
+Wisard,10,2025-06-08 19:21:25,0.0012,0.0010,0.0022,Maternal Health Risk,Gaussian,1,1,75.82
+Wisard,1,2025-06-08 19:21:25,0.0012,0.0010,0.0022,Maternal Health Risk,Linear,1,1,73.73
+Wisard,2,2025-06-08 19:21:25,0.0012,0.0010,0.0022,Maternal Health Risk,Linear,1,1,68.66
+Wisard,3,2025-06-08 19:21:25,0.0012,0.0010,0.0022,Maternal Health Risk,Linear,1,1,71.64
+Wisard,4,2025-06-08 19:21:25,0.0012,0.0010,0.0022,Maternal Health Risk,Linear,1,1,70.45
+Wisard,5,2025-06-08 19:21:25,0.0012,0.0010,0.0022,Maternal Health Risk,Linear,1,1,70.75
+Wisard,6,2025-06-08 19:21:25,0.0012,0.0010,0.0022,Maternal Health Risk,Linear,1,1,70.45
+Wisard,7,2025-06-08 19:21:25,0.0013,0.0012,0.0025,Maternal Health Risk,Linear,1,1,73.43
+Wisard,8,2025-06-08 19:21:25,0.0012,0.0010,0.0023,Maternal Health Risk,Linear,1,1,72.24
+Wisard,9,2025-06-08 19:21:25,0.0012,0.0010,0.0022,Maternal Health Risk,Linear,1,1,71.64
+Wisard,10,2025-06-08 19:21:25,0.0012,0.0010,0.0022,Maternal Health Risk,Linear,1,1,72.24
+Wisard,1,2025-06-08 19:21:26,0.0064,0.0041,0.0106,Glass Identification,Distributive,1,1,80.28
+Wisard,2,2025-06-08 19:21:26,0.0048,0.0036,0.0084,Glass Identification,Distributive,1,1,80.28
+Wisard,3,2025-06-08 19:21:26,0.0042,0.0028,0.0070,Glass Identification,Distributive,1,1,77.46
+Wisard,4,2025-06-08 19:21:26,0.0035,0.0026,0.0061,Glass Identification,Distributive,1,1,80.28
+Wisard,5,2025-06-08 19:21:26,0.0031,0.0024,0.0054,Glass Identification,Distributive,1,1,76.06
+Wisard,6,2025-06-08 19:21:26,0.0029,0.0023,0.0052,Glass Identification,Distributive,1,1,73.24
+Wisard,7,2025-06-08 19:21:26,0.0027,0.0021,0.0048,Glass Identification,Distributive,1,1,77.46
+Wisard,8,2025-06-08 19:21:27,0.0027,0.0025,0.0052,Glass Identification,Distributive,1,1,78.87
+Wisard,9,2025-06-08 19:21:27,0.0028,0.0022,0.0050,Glass Identification,Distributive,1,1,76.06
+Wisard,10,2025-06-08 19:21:27,0.0027,0.0021,0.0048,Glass Identification,Distributive,1,1,78.87
+Wisard,1,2025-06-08 19:21:27,0.0026,0.0021,0.0047,Glass Identification,Gaussian,1,1,77.46
+Wisard,2,2025-06-08 19:21:27,0.0026,0.0021,0.0047,Glass Identification,Gaussian,1,1,74.65
+Wisard,3,2025-06-08 19:21:27,0.0026,0.0021,0.0047,Glass Identification,Gaussian,1,1,74.65
+Wisard,4,2025-06-08 19:21:27,0.0026,0.0021,0.0047,Glass Identification,Gaussian,1,1,74.65
+Wisard,5,2025-06-08 19:21:27,0.0026,0.0021,0.0047,Glass Identification,Gaussian,1,1,77.46
+Wisard,6,2025-06-08 19:21:27,0.0026,0.0021,0.0047,Glass Identification,Gaussian,1,1,81.69
+Wisard,7,2025-06-08 19:21:27,0.0026,0.0021,0.0048,Glass Identification,Gaussian,1,1,71.83
+Wisard,8,2025-06-08 19:21:27,0.0026,0.0021,0.0047,Glass Identification,Gaussian,1,1,76.06
+Wisard,9,2025-06-08 19:21:27,0.0026,0.0021,0.0047,Glass Identification,Gaussian,1,1,76.06
+Wisard,10,2025-06-08 19:21:27,0.0035,0.0023,0.0058,Glass Identification,Gaussian,1,1,76.06
+Wisard,1,2025-06-08 19:21:27,0.0025,0.0022,0.0047,Glass Identification,Linear,1,1,71.83
+Wisard,2,2025-06-08 19:21:27,0.0025,0.0023,0.0048,Glass Identification,Linear,1,1,77.46
+Wisard,3,2025-06-08 19:21:27,0.0025,0.0023,0.0047,Glass Identification,Linear,1,1,69.01
+Wisard,4,2025-06-08 19:21:27,0.0025,0.0022,0.0048,Glass Identification,Linear,1,1,73.24
+Wisard,5,2025-06-08 19:21:27,0.0025,0.0023,0.0048,Glass Identification,Linear,1,1,70.42
+Wisard,6,2025-06-08 19:21:27,0.0025,0.0024,0.0049,Glass Identification,Linear,1,1,67.61
+Wisard,7,2025-06-08 19:21:27,0.0025,0.0021,0.0046,Glass Identification,Linear,1,1,77.46
+Wisard,8,2025-06-08 19:21:27,0.0025,0.0021,0.0047,Glass Identification,Linear,1,1,77.46
+Wisard,9,2025-06-08 19:21:27,0.0025,0.0021,0.0046,Glass Identification,Linear,1,1,67.61
+Wisard,10,2025-06-08 19:21:27,0.0025,0.0021,0.0046,Glass Identification,Linear,1,1,64.79
+Wisard,1,2025-06-08 19:22:54,18.3632,33.8145,52.1777,MNIST,Distributive,1,1,95.36
+Wisard,2,2025-06-08 19:24:21,17.0104,34.0892,51.0996,MNIST,Distributive,1,1,95.41
+Wisard,3,2025-06-08 19:25:43,18.3382,34.4052,52.7434,MNIST,Distributive,1,1,95.37
+Wisard,4,2025-06-08 19:27:15,17.6605,33.8899,51.5504,MNIST,Distributive,1,1,95.44

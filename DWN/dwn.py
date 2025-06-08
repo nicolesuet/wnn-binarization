@@ -153,12 +153,6 @@ class DWN(object):
 
         for i in range(self.repeat_times):
 
-            try:
-                tracker = EmissionsTracker()
-                tracker.start()
-            except print(0):
-                pass
-
             total_training_time = 0
             total_testing_time = 0
 
@@ -222,11 +216,6 @@ class DWN(object):
                     f"Epoch {epoch + 1}/{self.epochs}, Train Loss: {loss.item():.4f}, Train Accuracy: {train_acc:.4f}, Test Accuracy: {test_acc:.4f}"
                 )
 
-                try:
-                    emissions = tracker.stop()
-                except print(0):
-                    pass
-
             # avg_accuracy = sum([float(a) for a in accuracies]) / len(accuracies)
 
                 new_row = pd.DataFrame(
@@ -237,17 +226,16 @@ class DWN(object):
                         "training_time": [f"{total_training_time:.4f}"],
                         "testing_time": [f"{total_testing_time:.4f}"],
                         "delta_time": [f"{total_training_time + total_testing_time:.4f}"],
-                        "emissions": [emissions],
                         "dataset": [self.current_dataset],
                         "encoding": [encoder["encoding"]],
                         "num_slices": [
-                            self.num_slices if encoder["encoding"] == "Scatter Code" else ""
+                            self.num_slices if encoder["encoding"] == "Scatter Code" else "1"
                         ],
                         "num_dimensions": [
                             (
                                 self.num_dimensions
                                 if encoder["encoding"] == "Scatter Code"
-                                else ""
+                                else "1"
                             )
                         ],
                         "accuracy": [f"{test_acc:.4f}"],

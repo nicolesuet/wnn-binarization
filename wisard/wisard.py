@@ -88,12 +88,6 @@ class Wisard(object):
 
         for i in range(self.epochs):
 
-            try:
-                tracker = EmissionsTracker()
-                tracker.start()
-            except print(0):
-                pass
-
             wsd = wp.Wisard(
                 self.address_size, ignoreZero=self.ignore_zero, verbose=self.verbose
             )
@@ -122,11 +116,6 @@ class Wisard(object):
             accuracy = round(accuracy_score(y_test_list, predictions_list) * 100, 2)
             conf_matrix = confusion_matrix(y_test_list, predictions_list)
 
-            try:
-                emissions = tracker.stop()
-            except print(0):
-                pass
-
             new_row = pd.DataFrame(
                 {
                     "model": ["Wisard"],
@@ -137,17 +126,16 @@ class Wisard(object):
                     "delta_time": [
                         f"{elapsed_time_training + elapsed_time_classification:.4f}"
                     ],
-                    "emissions": [emissions],
                     "dataset": [self.current_dataset],
                     "encoding": [encoder["encoding"]],
                     "num_slices": [
-                        self.num_slices if encoder["encoding"] == "Scatter Code" else ""
+                        self.num_slices if encoder["encoding"] == "Scatter Code" else "1"
                     ],
                     "num_dimensions": [
                         (
                             self.num_dimensions
                             if encoder["encoding"] == "Scatter Code"
-                            else ""
+                            else "1"
                         )
                     ],
                     "accuracy": [accuracy],
@@ -159,7 +147,6 @@ class Wisard(object):
                     "training_time",
                     "testing_time",
                     "delta_time",
-                    "emissions",
                     "dataset",
                     "encoding",
                     "num_slices",

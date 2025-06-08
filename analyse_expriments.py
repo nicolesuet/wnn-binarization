@@ -12,7 +12,7 @@ def load_data(file_path):
 
 # Calculate accuracy metrics for DWN and Wisard
 def calculate_accuracy(data, model_name):
-    grouped = data[data["model"] == model_name].groupby(["encoding", "dataset"])
+    grouped = data[data["model"] == model_name].groupby(["encoding", "dataset", "num_dimensions", "num_slices"])
     return grouped["accuracy"].agg(["mean", "std"]).reset_index()
 
 
@@ -28,7 +28,7 @@ def optimal_scatter_config(data, model_name):
 # Find best encoding per dataset
 def best_encoding(data, model_name):
     model_data = data[data["model"] == model_name]
-    grouped = model_data.groupby(["dataset", "encoding"])
+    grouped = model_data.groupby(["dataset", "encoding", "num_dimensions", "num_slices"])
     return (
         grouped["accuracy"]
         .agg(["mean", "std"])
@@ -40,7 +40,7 @@ def best_encoding(data, model_name):
 # Compare delta_time per encoding
 def compare_delta_time(data, model_name):
     model_data = data[data["model"] == model_name]
-    grouped = model_data.groupby(["dataset", "encoding"])
+    grouped = model_data.groupby(["dataset", "encoding", "num_dimensions", "num_slices"])
     return grouped["delta_time"].agg(["mean", "std"]).reset_index()
 
 
@@ -49,26 +49,45 @@ def create_accuracy_graphs(dwn_data, wisard_data, output_dir):
     os.makedirs(output_dir, exist_ok=True)
 
     # Graph: Accuracy by Encoding and Dataset for DWN
+    # Combine encoding, num_dimensions, and num_slices into a single string column for x-axis
+    dwn_data = dwn_data.copy()
+    dwn_data["config"] = (
+        dwn_data["encoding"].astype(str)
+        + " | D:"
+        + dwn_data["num_dimensions"].astype(str)
+        + " | S:"
+        + dwn_data["num_slices"].astype(str)
+    )
     fig_dwn = px.bar(
         dwn_data,
-        x="encoding",
+        x="config",
         y="mean",
         color="dataset",
         error_y="std",
         barmode="group",
         title="DWN: Accuracy by Encoding and Dataset",
+        labels={"config": "Encoding | num_dimensions | num_slices"},
     )
     fig_dwn.write_html(os.path.join(output_dir, "dwn_accuracy.html"))
 
     # Graph: Accuracy by Encoding and Dataset for Wisard
+    wisard_data = wisard_data.copy()
+    wisard_data["config"] = (
+        wisard_data["encoding"].astype(str)
+        + " | D:"
+        + wisard_data["num_dimensions"].astype(str)
+        + " | S:"
+        + wisard_data["num_slices"].astype(str)
+    )
     fig_wisard = px.bar(
         wisard_data,
-        x="encoding",
+        x="config",
         y="mean",
         color="dataset",
         error_y="std",
         barmode="group",
         title="Wisard: Accuracy by Encoding and Dataset",
+        labels={"config": "Encoding | num_dimensions | num_slices"},
     )
     fig_wisard.write_html(os.path.join(output_dir, "wisard_accuracy.html"))
 
@@ -85,7 +104,7 @@ def create_time_comparison_graph(dwn_delta_time, wisard_delta_time, output_dir):
     # Graph: Delta Time by Encoding and Dataset
     fig_time = px.bar(
         combined_delta_time,
-        x="encoding",
+        x=["encoding", "dataset"],
         y="mean",
         color="dataset",
         error_y="std",
@@ -109,8 +128,8 @@ def create_scatter_config_graph(dwn_scatter_config, wisard_scatter_config, outpu
     # Graph: Scatter Code Configurations (num_slices vs num_dimensions)
     fig_scatter = px.scatter(
         combined_scatter_config,
-        x="num_slices",
-        y="num_dimensions",
+        x=["num_slices", "num_dimensions"],
+        y="mean",
         color="dataset",
         size="mean",
         facet_col="model",
@@ -138,11 +157,13 @@ def write_conclusions_to_md(
         # DWN All Encoding Results
         f.write("### DWN: All Encoding Results\n\n")
         dwn_all_encodings = dwn_best_encoding[
-            ["dataset", "encoding", "mean", "std"]
+            ["dataset", "encoding", "num_dimensions", "num_slices", "mean", "std"]
         ].rename(
             columns={
                 "dataset": "Dataset",
                 "encoding": "Encoding",
+                "num_dimensions": "Num Dimensions",
+                "num_slices": "Num Slices",
                 "mean": "Mean Accuracy",
                 "std": "Standard Deviation",
             }
@@ -153,11 +174,13 @@ def write_conclusions_to_md(
         # Wisard All Encoding Results
         f.write("### Wisard: All Encoding Results\n\n")
         wisard_all_encodings = wisard_best_encoding[
-            ["dataset", "encoding", "mean", "std"]
+            ["dataset", "encoding", "num_dimensions", "num_slices", "mean", "std"]
         ].rename(
             columns={
                 "dataset": "Dataset",
                 "encoding": "Encoding",
+                "num_dimensions": "Num Dimensions",
+                "num_slices": "Num Slices",
                 "mean": "Mean Accuracy",
                 "std": "Standard Deviation",
             }
@@ -174,11 +197,13 @@ def write_conclusions_to_md(
             dwn_best_encoding.groupby("dataset").first().reset_index()
         )
         f.write(
-            dwn_best_encoding_per_dataset[["dataset", "encoding", "mean", "std"]]
+            dwn_best_encoding_per_dataset[["dataset", "encoding", "num_dimensions", "num_slices", "mean", "std"]]
             .rename(
                 columns={
                     "dataset": "Dataset",
                     "encoding": "Best Encoding",
+                    "num_dimensions": "Num Dimensions",
+                    "num_slices": "Num Slices",
                     "mean": "Mean Accuracy",
                     "std": "Standard Deviation",
                 }
@@ -193,11 +218,13 @@ def write_conclusions_to_md(
             wisard_best_encoding.groupby("dataset").first().reset_index()
         )
         f.write(
-            wisard_best_encoding_per_dataset[["dataset", "encoding", "mean", "std"]]
+            wisard_best_encoding_per_dataset[["dataset", "encoding", "num_dimensions", "num_slices", "mean", "std"]]
             .rename(
                 columns={
                     "dataset": "Dataset",
                     "encoding": "Best Encoding",
+                    "num_dimensions": "Num Dimensions",
+                    "num_slices": "Num Slices",
                     "mean": "Mean Accuracy",
                     "std": "Standard Deviation",
                 }
@@ -309,7 +336,6 @@ def main():
 
     # Graphs and conclusions
     create_accuracy_graphs(dwn_accuracy, wisard_accuracy, "output/graphs")
-    create_time_comparison_graph(dwn_delta_time, wisard_delta_time, "output/graphs")
     create_scatter_config_graph(
         dwn_scatter_config, wisard_scatter_config, "output/graphs"
     )
