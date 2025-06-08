@@ -250,7 +250,6 @@ class DWN(object):
                             "training_time",
                             "testing_time",
                             "delta_time",
-                            "emissions",
                             "dataset",
                             "encoding",
                             "num_slices",
