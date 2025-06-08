@@ -21,7 +21,7 @@ with open(file_name, mode='r') as file:
     
     for row in reader:
         
-        model = row[1]
+        model = row[0]
         
         if(model == "DWN"):
             dwn += 1
@@ -30,8 +30,8 @@ with open(file_name, mode='r') as file:
         else:
             not_recognized += 1
         
-        dataset = row[6]
-        encoding = row[7]
+        dataset = row[5]
+        encoding = row[6]
         
         datasets.add(dataset)
         
